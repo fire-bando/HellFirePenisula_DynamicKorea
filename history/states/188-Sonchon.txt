@@ -1,0 +1,16 @@
+state={
+	id=188
+	name="STATE_188"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 12402 10 }
+	}
+	provinces={
+		346 581 2090 2506 3548 4172 4546 7919 7951 8063 9286 9748 12357 12362 12379 12387 12402 12409 12415 12421 12437 12518 12521 12537 
+	}
+	manpower=125000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+}

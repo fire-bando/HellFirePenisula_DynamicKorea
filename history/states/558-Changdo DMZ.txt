@@ -1,0 +1,16 @@
+state={
+	id=558
+	name="STATE_558"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        set_demilitarized_zone = yes
+	}
+	provinces={
+		1448 1574 2014 7234 9494 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+}

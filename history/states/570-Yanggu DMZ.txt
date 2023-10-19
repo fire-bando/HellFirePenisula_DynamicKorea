@@ -1,0 +1,16 @@
+state={
+	id=570
+	name="STATE_570"
+	history = {
+	    owner = ROK 
+		add_core_of = ROK 
+        set_demilitarized_zone = yes
+	}
+	provinces={
+		2853 7067 8383 8908 9289 9648 13113 13124 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = wasteland
+}

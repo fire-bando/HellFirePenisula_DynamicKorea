@@ -1,0 +1,17 @@
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		2364 2608 3271 3279 4913 4955 5081 5217 5540 6348 6440 6592 6845 7150 7412 8468 8606 8613 8729 8859 9020 9511 14335 14380 14382 14383 14391 14392 14404 14407 14416 14422 14424 14443 14451 14478 14481 14511 
+	}
+    
+    history={
+		owner = ROK
+		add_core_of = ROK
+		victory_points = { 5081 50 }
+	}  
+    
+	manpower=2365000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+}

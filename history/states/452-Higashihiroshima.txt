@@ -1,0 +1,18 @@
+
+state={
+	id=452
+	name="STATE_452"
+
+	history={
+		owner = JPN
+		add_core_of = JPN
+	}
+
+	provinces={
+		5005 7705 7911 8384 9762 15077 15128 15141 
+	}
+	manpower=185000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

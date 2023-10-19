@@ -1,0 +1,19 @@
+
+state={
+	id=39
+	name="STATE_39"
+
+	history={
+		owner = CHN
+		add_core_of = CHN
+        victory_points = { 11790 30 }
+	}
+
+	provinces={
+		1213 1302 3041 3559 3810 5031 6488 6820 8311 8778 9406 11723 11750 11768 11790 11792 11817 11819 11840 11842 11851 11862 11869 11872 11881 11890 11901 
+	}
+	manpower=705000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

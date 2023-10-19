@@ -1,0 +1,16 @@
+state={
+	id=408
+	name="STATE_408"
+	history={
+		owner = CHN
+		add_core_of = CHN
+        victory_points = { 9839 40 }
+	}
+	provinces={
+		911 2270 3159 3668 5556 6802 7202 8062 8601 9664 9679 9792 9793 9831 9839 9846 9899 9922 9923 10001 10005 
+	}
+	manpower=860000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

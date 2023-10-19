@@ -1,0 +1,68 @@
+capital = 269
+
+set_research_slots = 1
+
+recruit_character = HMC_syngman
+recruit_character = HMC_Hwang_geun_chul
+recruit_character = HMC_Hwang_geun_chul_f
+recruit_character = HMC_Hwang_geun_chul_n
+recruit_character = HMC_Hwang_geun_chul_c
+recruit_character = HMC_park_chul_gon
+recruit_character = HMC_son_su_jal
+recruit_character = HMC_gyeon_ssang_sub
+recruit_character = HMC_kwae_heung_tae
+recruit_character = HMC_syngman 
+recruit_character = HMC_mu_mo_chil
+recruit_character = HMC_tonjung
+recruit_character = HMC_suck_dick_jo
+recruit_character = HMC_jegal_chamsu
+recruit_character = HMC_ma_galgon
+recruit_character = HMC_hwang_ryong
+recruit_character = HMC_por_pip
+
+oob = "standard_templates"
+
+# Starting tech
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	elections_allowed = no
+}
+set_convoys = 2000
+set_popularities = {
+	democratic = 4
+	fascism = 88
+	communism = 4
+	neutrality = 4
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1939.1.1"
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 100
+		communism = 0
+		neutrality = 0
+	}
+}
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines  = 1
+	gw_artillery = 1
+	basic_train = 1
+	trench_warfare = 1
+	base_strike = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+}

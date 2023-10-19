@@ -1,0 +1,24 @@
+
+state={
+	id=302
+	name="STATE_302"
+
+	history={
+		owner = YG1
+		add_core_of = YG1
+		victory_points = {
+			6881 20 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		225 320 493 3437 4268 5032 5651 6881 6994 7003 7393 7472 8215 8276 8331 8656 8946 8949 9573 9772 14907 14930 14941 14942 14947 14954 14959 14963 14964 14970 14974 14980 14997 15008 15023 15033 15040 15055 15056 15076 15079 15101 
+	}
+	manpower=340000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

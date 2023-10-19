@@ -1,0 +1,19 @@
+
+state={
+	id=435
+	name="STATE_435"
+
+	history={
+		owner = CHN
+		add_core_of = CHN
+        victory_points = { 5240 30 }
+	}
+
+	provinces={
+		543 548 743 800 907 1446 2018 2201 2266 3017 3494 3513 3733 3789 4474 4814 5240 5305 5459 5477 5908 6010 6087 6129 6391 7288 8000 8576 9655 9769 9983 9995 10029 10032 10086 10100 10136 10171 10183 10227 10235 10267 10268 10279 10303 10307 10326 
+	}
+	manpower=410000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

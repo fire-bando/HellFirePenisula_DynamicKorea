@@ -1,0 +1,19 @@
+
+state={
+	id=441
+	name="STATE_441"
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+        victory_points = { 1634 1 }
+	}
+
+	provinces={
+		1360 1549 1634 1698 4302 5789 5864 7341 8163 8184 9279 10117 10139 10152 10248 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

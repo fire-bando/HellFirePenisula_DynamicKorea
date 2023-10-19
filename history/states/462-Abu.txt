@@ -1,0 +1,15 @@
+state={
+	id=462
+	name="STATE_462"
+    history={
+		owner = JPN
+		add_core_of = JPN
+	}
+	provinces={
+		2998 4676 4773 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

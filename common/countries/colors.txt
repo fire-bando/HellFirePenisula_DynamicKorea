@@ -1,0 +1,74 @@
+#reload countrycolors
+
+KRU = {
+	color = rgb { 137 0 37 }
+	color_ui = rgb { 137 0 37 }
+}
+AIR = {
+	color = rgb { 3 111 252 }
+	color_ui = rgb { 2 84 191 }
+}
+HMC = {
+	color = rgb { 255 11 71 }
+	color_ui = rgb { 255 0 0 }
+}
+RUS = {
+	color = rgb { 65 125 70 }
+	color_ui = rgb { 65 125 70 }
+}
+CHN = {
+	color = rgb { 175 13 0 }
+	color_ui = rgb { 175 13 0 }
+}
+JPN = {
+	color = rgb { 252 201 185 }
+	color_ui = rgb { 252 201 185 }
+}
+WPK = {
+	color = rgb { 150 90 90 }
+	color_ui = rgb { 150 90 90 }
+}
+ROK = {
+	color = rgb { 125 155 205 }
+	color_ui = rgb { 125 155 205 }
+}
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+ENG = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+MEN = {
+	color = rgb { 185  255  152 }
+	color_ui = rgb { 165  230  132 }
+}
+CHI = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
+}
+PRC = {
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
+}
+MAN = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
+}
+GER = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+YG1 = {
+	color = rgb { 214 51 51 }
+	color_ui = rgb { 214 51 51 }
+}
+JNR = {
+	color = rgb { 174 13 43 }
+	color_ui = rgb { 174 13 43 }
+}

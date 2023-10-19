@@ -1,0 +1,16 @@
+state={
+	id=300
+	name="STATE_300"
+	history={
+		owner = JNR
+		add_core_of = JNR
+		victory_points = { 14968 5 }
+	}
+	provinces={
+		36 154 1404 2786 3783 3967 4032 5219 5431 5600 6055 6896 7004 8545 8718 9215 9718 14880 14901 14918 14937 14951 14952 14955 14957 14958 14968 14973 14984 15000 15001 15012 15015 15022 15032 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

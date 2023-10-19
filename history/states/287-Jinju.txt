@@ -1,0 +1,16 @@
+state={
+	id=287
+	name="STATE_287"
+	history={
+		owner = AIR
+		add_core_of = AIR
+		victory_points = { 14716 20 }
+	}
+	provinces={
+		976 1248 1710 1853 2882 2923 3197 3579 4242 5030 5345 5354 6062 7015 7188 7276 8068 8684 9143 9258 9423 9667 14660 14699 14701 14716 14729 14732 14735 14741 14746 14754 14757 14760 14787 14815 17721 
+	}
+	manpower=340000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

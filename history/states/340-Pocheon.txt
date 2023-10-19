@@ -1,0 +1,20 @@
+state={
+	id=340
+	name="STATE_340"
+
+	history={
+		owner = ROK
+		add_core_of = ROK
+		victory_points = {
+			13397 10 
+		}
+	}
+
+	provinces={
+		393 537 739 1258 2119 2584 3269 3603 3706 3959 4466 6729 7101 7436 9179 9670 13296 13300 13318 13320 13337 13339 13343 13344 13345 13359 13363 13375 13382 13394 13397 13411 13412 13413 13426 13430 13444 
+	}
+	manpower=125000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

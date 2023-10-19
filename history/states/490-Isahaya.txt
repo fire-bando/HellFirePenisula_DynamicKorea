@@ -1,0 +1,16 @@
+state={
+	id=490
+	name="STATE_490"
+    history={
+		owner = JPN
+		add_core_of = JPN
+		victory_points = { 15491 10 }
+	}
+	provinces={
+		1790 2317 2526 3565 6589 7095 7900 7902 8727 15486 15491 15497 
+	}
+	manpower=135000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

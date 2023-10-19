@@ -1,0 +1,15 @@
+state={
+	id=421
+	name="STATE_421"
+	history={
+		owner = CHN
+		add_core_of = CHN
+	}
+	provinces={
+		655 1143 1595 2013 2048 3208 3749 4356 4454 4596 5643 7894 7961 9590 11194 11195 11249 11250 11297 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

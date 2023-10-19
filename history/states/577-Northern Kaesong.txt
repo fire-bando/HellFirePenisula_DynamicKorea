@@ -1,0 +1,15 @@
+state={
+	id=577
+	name="STATE_577"
+	history = {
+	    owner = WPK 
+		add_core_of = WPK 
+	}
+	provinces={
+		1606 1920 2665 13255 13268 13272 13278 13289 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

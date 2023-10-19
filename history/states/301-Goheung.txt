@@ -1,0 +1,16 @@
+state={
+	id=301
+	name="STATE_301"
+	history={
+		owner = JNR
+		add_core_of = JNR
+		victory_points = { 9394 5 }
+	}
+	provinces={
+		401 1521 1882 3111 3357 3466 4597 4893 5463 5559 5915 6116 7345 7799 8084 8103 8527 8633 9101 9394 9444 14978 14985 15026 15038 15039 15052 15059 15089 15093 15097 15105 15110 15112 15113 15119 15122 15123 15130 15133 15192 15225 15538 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

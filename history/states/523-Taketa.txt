@@ -1,0 +1,16 @@
+state={
+	id=523
+	name="STATE_523"
+    history={
+		owner = JPN
+		add_core_of = JPN
+		victory_points = { 7792 1 }
+	}
+	provinces={
+		70 133 1348 5491 5717 6714 7792 15428 15451 15456 15480 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

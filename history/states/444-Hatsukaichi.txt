@@ -1,0 +1,19 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = JPN
+		add_core_of = JPN
+		victory_points = { 9131 10 }
+	}
+
+	provinces={
+		99 473 3979 4551 6071 8014 8300 9131 15120 15121 15134 15147 15152 15166 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

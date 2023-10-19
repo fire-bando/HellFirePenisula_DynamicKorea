@@ -1,0 +1,17 @@
+
+state={
+	id=69
+	name="STATE_69"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 667 5 }
+	}
+	provinces={
+		71 246 356 606 667 852 1062 1801 2745 3697 3944 4470 6492 6960 7113 7136 7199 7539 7639 11241 11255 11267 11295 11300 11308 11323 11330 11367 11445 11513 
+	}
+	manpower = 55000
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

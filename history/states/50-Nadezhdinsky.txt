@@ -1,0 +1,19 @@
+
+state={
+	id=50
+	name="STATE_50"
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+        victory_points = { 7156 1 }
+	}
+
+	provinces={
+		824 1204 2517 2716 3297 3732 4483 6780 7156 7830 8040 8800 8948 9824 9859 9865 9869 9878 9924 9952 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

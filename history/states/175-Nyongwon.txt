@@ -1,0 +1,16 @@
+state={
+	id=175
+	name="STATE_175"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 12423 1 }
+	}
+	provinces={
+		54 190 487 601 900 969 979 997 1020 1187 2211 2569 2808 3554 4345 5012 5751 6332 7654 8630 8851 9676 12198 12206 12212 12252 12266 12324 12365 12383 12423 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

@@ -1,0 +1,16 @@
+state={
+	id=507
+	name="STATE_507"
+    history={
+		owner = JPN
+		add_core_of = JPN
+		victory_points = { 2575 5 }
+	}
+	provinces={
+		1033 1743 2575 3436 4284 4874 5137 9647 15373 15390 15403 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

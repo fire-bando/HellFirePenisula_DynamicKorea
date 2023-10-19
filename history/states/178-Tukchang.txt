@@ -1,0 +1,15 @@
+state={
+	id=178
+	name="STATE_178"
+	history={
+		owner = WPK
+		add_core_of = WPK
+	}
+	provinces={
+		1534 1776 4797 12522 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

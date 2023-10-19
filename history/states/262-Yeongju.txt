@@ -1,0 +1,19 @@
+
+state={
+	id=262
+	name="STATE_262"
+
+	history={
+		owner = ROK
+		add_core_of = ROK
+        victory_points = { 5115 10 }
+	}
+
+	provinces={
+		119 699 1067 1304 2894 3826 4930 5115 5150 5279 6536 6933 7271 7323 7394 7462 7602 8463 8897 13815 13818 13819 13835 13867 13877 13891 13894 13904 13916 13962 13967 
+	}
+	manpower=110000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

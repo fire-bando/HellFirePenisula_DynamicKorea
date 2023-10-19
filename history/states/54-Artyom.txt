@@ -1,0 +1,17 @@
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		1789 1923 1951 2906 3435 4605 4758 5710 6138 6815 8263 8491 9830 9853 9860 9887 9892 9909 9910 9941 9968 9978 10006 
+	}
+    
+    history={
+		owner = RUS
+		add_core_of = RUS
+        victory_points = { 1923 10 }
+	}
+    
+	manpower=105000
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

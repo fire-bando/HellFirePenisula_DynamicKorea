@@ -1,0 +1,16 @@
+state={
+	id=479
+	name="STATE_479"
+    history={
+		owner = JPN
+		add_core_of = JPN
+        victory_points = { 946 1 }
+	}
+	provinces={
+		368 946 2225 2236 5551 6075 8748 9282 15310 
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

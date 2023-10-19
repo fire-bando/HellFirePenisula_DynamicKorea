@@ -1,0 +1,16 @@
+state={
+	id=79
+	name="STATE_79"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 72 5 }
+	}
+	provinces={
+		72 83 560 736 1021 1035 1057 1297 2157 4099 4240 4398 4619 5390 5487 5672 5676 5924 5931 6595 7223 7437 11467 11480 11481 11485 11495 11502 11532 11536 11538 11556 11559 11579 11581 11584 11587 11607 
+	}
+	manpower = 70000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

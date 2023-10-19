@@ -1,0 +1,16 @@
+state={
+	id=543
+	name="STATE_543"
+    history={
+		owner = JPN
+		add_core_of = JPN
+        victory_points = { 4293 40 }
+	}
+	provinces={
+		236 448 578 1833 3123 3980 4174 4293 4506 15231 15233 15235 15236 15238 15247 15551 
+	}
+	manpower=940000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

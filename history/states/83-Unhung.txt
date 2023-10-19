@@ -1,0 +1,16 @@
+state={
+	id=83
+	name="STATE_83"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 11389 5 }
+	}
+	provinces={
+		57 553 579 1352 1416 1828 1902 2248 3607 3800 4308 5404 5493 7737 8839 8913 11283 11318 11319 11334 11372 11389 11391 11393 11406 11414 11474 11482 11503 11517 
+	}
+	manpower = 60000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

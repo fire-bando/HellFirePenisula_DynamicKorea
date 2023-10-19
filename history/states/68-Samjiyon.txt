@@ -1,0 +1,19 @@
+
+state={
+	id=68
+	name="STATE_68"
+
+	history={
+		owner = WPK
+		add_core_of = WPK
+		victory_points = { 5128 1 }
+	}
+
+	provinces={
+		243 365 441 791 1799 1872 2133 2293 3476 3986 4139 5011 5021 5128 5289 5692 5783 6883 7988 8145 9057 10932 10950 10966 10991 10998 11025 11069 11104 11129 11167 11178 11202 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

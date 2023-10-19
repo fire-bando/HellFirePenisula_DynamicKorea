@@ -1,0 +1,15 @@
+state={
+	id=162
+	name="STATE_162"
+	history={
+		owner = WPK
+		add_core_of = WPK
+	}
+	provinces={
+		2594 6482 13280 13283 13284 13291 13297 13321 13396 13467 15522 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=tiny_island
+}

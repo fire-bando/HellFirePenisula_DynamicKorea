@@ -1,0 +1,15 @@
+state={
+	id=443
+	name="STATE_443"
+    history={
+		owner = RUS
+		add_core_of = RUS
+	}
+	provinces={
+		7921 9822 9823 9868 
+	}
+	manpower=160000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

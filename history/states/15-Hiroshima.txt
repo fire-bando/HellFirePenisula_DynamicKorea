@@ -1,0 +1,19 @@
+
+state={
+	id=15
+	name="STATE_15"
+
+	history={
+		owner = JPN
+		add_core_of = JPN
+		victory_points = { 1993 50 }
+	}
+
+	provinces={
+		889 963 1993 2078 2843 3167 4623 4914 5258 5622 5709 6321 6412 7190 7457 7558 7634 7858 8138 8933 8965 9569 15021 15027 15043 15047 15073 15104 15537 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

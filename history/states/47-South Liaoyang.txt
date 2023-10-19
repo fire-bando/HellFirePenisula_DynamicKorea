@@ -1,0 +1,18 @@
+
+state={
+	id=47
+	name="STATE_47"
+
+	history={
+		owner = CHN
+		add_core_of = CHN
+	}
+
+	provinces={
+		13 454 527 592 642 777 1562 1770 1838 2058 2418 2511 3101 3585 3824 3949 4191 4369 4787 5092 5601 5635 7168 7182 7494 7947 8192 8835 9074 11576 11592 11617 11619 11626 11653 11660 11706 11711 11721 
+	}
+	manpower=190000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

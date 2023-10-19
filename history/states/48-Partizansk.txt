@@ -1,0 +1,17 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		309 533 1257 1301 1764 2175 2379 2472 2714 2961 4328 5587 6801 6945 8479 9062 9598 9828 9854 9856 9925 10033 
+	}
+    
+    history={
+		owner = RUS
+		add_core_of = RUS
+        victory_points = { 2379 1 }
+	}
+    
+	manpower=40000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

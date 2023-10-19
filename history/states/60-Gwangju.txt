@@ -1,0 +1,17 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		3168 4433 4873 6148 6162 6463 6647 6790 6926 7106 7912 9076 14721 14748 14756 14761 14772 14776 14779 14786 14805 
+	}
+    
+    history={
+		owner = JNR
+		add_core_of = JNR
+        victory_points = { 14756 40 }
+	}  
+    
+	manpower=1435000
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+}

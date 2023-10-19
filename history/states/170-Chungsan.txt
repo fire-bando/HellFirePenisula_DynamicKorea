@@ -1,0 +1,16 @@
+state={
+	id=170
+	name="STATE_170"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 9574 10 }
+	}
+	provinces={
+		484 2799 3022 3492 5577 5806 5945 6969 8024 8222 9427 9574 12667 12684 12699 12704 12715 12722 12723 12735 
+	}
+	manpower=115000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_town
+}

@@ -1,0 +1,15 @@
+state={
+	id=274
+	name="STATE_274"
+	history={
+		owner = ROK
+		add_core_of = ROK
+	}
+	provinces={
+		2421 3738 4683 5971 13515 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=142
+	name="STATE_142"
+	history={
+		owner = WPK
+		add_core_of = WPK
+        victory_points = { 40 5 }
+	}
+	provinces={
+		40 107 237 826 1102 1309 1405 1895 2038 2068 2112 3438 3623 3745 4396 5592 6043 6213 6522 6561 7087 7438 7882 7986 8423 9251 12705 12707 12733 12738 12757 12773 12778 12786 12795 12815 12827 
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

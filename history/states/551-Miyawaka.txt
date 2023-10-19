@@ -1,0 +1,19 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = JPN
+		add_core_of = JPN
+        victory_points = { 15263 1 }
+	}
+
+	provinces={
+		594 4802 5171 6666 15251 15256 15260 15263 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

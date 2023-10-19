@@ -1,0 +1,16 @@
+state={
+	id=414
+	name="STATE_414"
+	history={
+		owner = CHN
+		add_core_of = CHN
+        victory_points = { 2369 30 }
+	}
+	provinces={
+		520 1109 2369 2732 3015 4927 6783 10263 
+	}
+	manpower=465000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

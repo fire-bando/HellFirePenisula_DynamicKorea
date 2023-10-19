@@ -1,0 +1,16 @@
+state={
+	id=289
+	name="STATE_289"
+	history={
+		owner = ROK
+		add_core_of = ROK
+		victory_points = { 14539 1 }
+	}
+	provinces={
+		98 218 1455 1514 2758 2945 3718 3829 4694 5016 5196 5374 6222 6728 7802 8562 14460 14467 14474 14492 14495 14502 14508 14530 14539 14572 14613 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
