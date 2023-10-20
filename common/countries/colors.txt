@@ -95,3 +95,7 @@ JNR = {
 	color = rgb { 174 13 43 }
 	color_ui = rgb { 174 13 43 }
 }
+SIN = {
+	color = rgb { 13 105 171 }
+	color_ui = rgb { 13 105 171 }
+}
