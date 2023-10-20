@@ -1,5 +1,5 @@
 ﻿l_english:
- HMC_Hwang_geun_chul:0 "황근출"
+ HMC_hwang_geun_chul:0 "황근출"
  HMC_park_chul_gon:0 "박철곤"
  HMC_son_su_jal:0 "손 으로하는수술은뭐든지잘해"
  HMC_gyeon_ssang_sub:0 "견쌍섭"
@@ -14,25 +14,8 @@
  HMC_ma_galgon:0 "마갈곤"
  HMC_mu_mo_chil:0 "무모칠"
  
- #몽강
- MEN_prince_demchugdongrub:0 "데므치그돈로브"
- 
- #중화해병대
- CMC_mao_zedong:0 "못된똥"
+ JNR_daejung_kim:0 "사이버김대중"
+ JNR_jiwon_park:0 "박지원"
+ JNR_place_holder:0 "플레이스 홀더"
 
- #상해방공자치정부
-
- SAC_isoroku_yamamoto:0 "야마모토 이소로쿠"
-
- #BongCheonClique
- FNG_zhang_zuo_lin:0 "장쭤린"
- FNG_guo_song_ling:0 "궈쏭린"
- FNG_zhang_xue_liang:0 "장쉐량"
- FNG_jiang_dengxuan:0 "장덩쉬안"
-
-
- #중점으로만 나오는새끼
- HMC_AIRHWANG:0 "공군출"
-
- #한궈
- KOR_lee_gang:0 "이강"
+ YBJ_yoon_daddy:0 "윤버지"

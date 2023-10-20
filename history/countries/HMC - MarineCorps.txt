@@ -2,16 +2,12 @@ capital = 269
 
 set_research_slots = 1
 
-recruit_character = HMC_syngman
-recruit_character = HMC_Hwang_geun_chul
-recruit_character = HMC_Hwang_geun_chul_f
-recruit_character = HMC_Hwang_geun_chul_n
-recruit_character = HMC_Hwang_geun_chul_c
-recruit_character = HMC_park_chul_gon
-recruit_character = HMC_son_su_jal
-recruit_character = HMC_gyeon_ssang_sub
+recruit_character = HMC_hwang_geun_chul
 recruit_character = HMC_kwae_heung_tae
-recruit_character = HMC_syngman 
+recruit_character = HMC_gyeon_ssang_sub
+recruit_character = HMC_son_su_jal
+recruit_character = HMC_park_chul_gon
+recruit_character = HMC_gwak_mal_pung
 recruit_character = HMC_mu_mo_chil
 recruit_character = HMC_tonjung
 recruit_character = HMC_suck_dick_jo

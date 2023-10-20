@@ -1,16 +1,4 @@
 characters={ 
-    HMC_syngman={
-        name=HMC_syngman
-        portraits={
-            civilian={
-                large=GFX_portrait_hmc_syngman_large
-            }
-        }
-        country_leader={
-            ideology=anti_revisionism
-            expire="1960.8.16"
-        }
-    }
     HMC_kwae_heung_tae={
         name=HMC_kwae_heung_tae
         portraits={
@@ -94,7 +82,7 @@ characters={
 			}
         }
     }
-    HMC_Hwang_geun_chul={
+    HMC_hwang_geun_chul={
         name=HMC_Hwang_geun_chul
         portraits={
             civilian={
@@ -113,56 +101,9 @@ characters={
 			logistics_skill=5
 		}
         country_leader={
-            ideology=liberalism
+            ideology=nazism
             traits={ dislikes_germany }
             expire="6974.6.9.1"
-        }
-    }
-    HMC_Hwang_geun_chul_n={
-        name=HMC_Hwang_geun_chul
-        portraits={
-            civilian={
-                large=GFX_portrait_hmc_hwang_large
-            }
-        }
-        country_leader={
-            ideology=despotism
-            expire="6974.6.9.1"
-        }
-    }
-    HMC_Hwang_geun_chul_c={
-        name=HMC_Hwang_geun_chul
-        portraits={
-            civilian={
-                large=GFX_portrait_hmc_hwang_large
-            }
-        }
-        country_leader={
-            ideology=anti_revisionism
-            expire="6974.6.9.1"
-        }
-    }
-    HMC_Hwang_geun_chul_f={
-        name=HMC_Hwang_geun_chul
-        portraits={
-            civilian={
-                large=GFX_portrait_hmc_hwang_large
-            }
-        }
-        country_leader={
-            ideology=nazism
-            expire="6974.6.9.1"
-        }
-    }
-    HMC_Yi_Kang={
-        portraits={
-            civilian={
-                large=GFX_portrait_hmc_hwang_large
-            }
-        }
-        country_leader={
-            ideology=anti_revisionism
-            expire="1955.8.16"
         }
     }
     HMC_gwak_mal_pung={

@@ -1,0 +1,14 @@
+characters={ 
+    YBJ_yoon_daddy={
+        name=YBJ_yoon_daddy
+        portraits={
+            civilian={
+                large=YBJ_yoon_daddy_large
+            }
+        }
+        country_leader={
+            ideology=anti_revisionism
+            expire="1960.8.16"
+        }
+    }
+}
