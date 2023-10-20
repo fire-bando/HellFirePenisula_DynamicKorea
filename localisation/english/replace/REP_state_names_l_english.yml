@@ -270,6 +270,7 @@
  
  #Incheon
  STATE_55:0 "인천" #2.960m
+ STATE_608:0 "계양" #302K
  
  #Jeju
  STATE_12:0 "제주" #445k
