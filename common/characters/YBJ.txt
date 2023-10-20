@@ -3,7 +3,7 @@ characters={
         name=YBJ_yoon_daddy
         portraits={
             civilian={
-                large=YBJ_yoon_daddy_large
+                large=GFX_YBJ_yoon_daddy_large
             }
         }
         country_leader={

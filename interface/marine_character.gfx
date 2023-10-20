@@ -1,0 +1,33 @@
+spriteTypes={
+	spriteType={
+		name="GFX_YBJ_yoon_daddy_large"
+		texturefile="gfx/leaders/YBJ/yoon_daddy.png"
+	}
+
+
+
+
+
+
+
+	spriteType={
+		name="GFX_park_chul_gon"
+		texturefile="gfx/ideas/portrait_park_chul_gon.dds"
+	}
+	spriteType={
+		name="GFX_son_su_jal"
+		texturefile="gfx/leaders/HMC/portrait_large_son.dds"
+	}
+	spriteType={
+		name="GFX_gyeon_ssang_sub"
+		texturefile="gfx/leaders/HMC/portrait_large_ssang.dds"
+	}
+	spriteType={
+		name="GFX_gwak_mal_pung_large"
+		texturefile="gfx/leaders/HMC/portrait_large_gwak.dds"
+	}
+	spriteType={
+		name="GFX_kwae_heung_tae"
+		texturefile="gfx/leaders/HMC/portrait_large_heung.dds"
+	}
+}
