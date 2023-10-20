@@ -5,6 +5,7 @@ state={
 		17723 
 	}
 	manpower=120578
+	state_category=megalopolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
