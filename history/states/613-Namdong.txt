@@ -1,0 +1,15 @@
+state={
+	id=613
+	name="STATE_613"
+	history={
+		owner = ROK
+		add_core_of = ROK
+	}
+	provinces={
+		2647 13573 
+	}
+	manpower=532300
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
