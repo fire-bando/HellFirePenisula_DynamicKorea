@@ -23,7 +23,7 @@ USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
 }
-ITA = {
+DCE = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
@@ -117,9 +117,9 @@ CCS = {	color = rgb { 176 132 82 }	color_ui = rgb { 176 132 82 }	}
 NLU = {	color = rgb { 134 6 19 }	color_ui = rgb { 134 6 19 }	}
 LAB = {	color = rgb { 120 43 144 }	color_ui = rgb { 120 43 144 }	}
 AHN = {	color = rgb { 31 71 135 }	color_ui = rgb { 31 71 135 }	}
-SAM = {	color = rgb { 3 78 162 }	color_ui = rgb { 3 78 162 }	}
+SMS = {	color = rgb { 3 78 162 }	color_ui = rgb { 3 78 162 }	}
 SSD = {	color = rgb { 169 111 22 }	color_ui = rgb { 169 111 22 }	}
-BOS = {	color = rgb { 55 55 55 }	color_ui = rgb { 55 55 55 }	}
+BSU = {	color = rgb { 55 55 55 }	color_ui = rgb { 55 55 55 }	}
 SAD = {	color = rgb { 92 24 51 }	color_ui = rgb { 92 24 51 }	}
 ILB = {	color = rgb { 231 28 36 }	color_ui = rgb { 231 28 36 }	}
 JNH = {	color = rgb { 174 13 43 }	color_ui = rgb { 174 13 43 }	}
@@ -130,10 +130,10 @@ MUT = {	color = rgb { 48 63 83 }	color_ui = rgb { 48 63 83 }	}
 DAS = {	color = rgb { 6 90 100 }	color_ui = rgb { 6 90 100 }	}
 TAE = {	color = rgb { 255 135 0 }	color_ui = rgb { 255 135 0 }	}
 ROH = {	color = rgb { 255 203 8 }	color_ui = rgb { 255 203 8 }	}
-MON = {	color = rgb { 28 104 68 }	color_ui = rgb { 28 104 68 }	}
+MJI = {	color = rgb { 28 104 68 }	color_ui = rgb { 28 104 68 }	}
 CAS = {	color = rgb { 2 57 65 }	color_ui = rgb { 2 57 65 }	}
-PAK = {	color = rgb { 100 100 100 }	color_ui = rgb { 100 100 100 }	}
-CRI = {	color = rgb { 44 15 58 }	color_ui = rgb { 44 15 58 }	}
+PJH = {	color = rgb { 100 100 100 }	color_ui = rgb { 100 100 100 }	}
+CRM = {	color = rgb { 44 15 58 }	color_ui = rgb { 44 15 58 }	}
 SCH = {	color = rgb { 20 20 20 }	color_ui = rgb { 20 20 20 }	}
 GNG = {	color = rgb { 30 74 113 }	color_ui = rgb { 30 74 113 }	}
 ANS = {	color = rgb { 90 66 211 }	color_ui = rgb { 90 66 211 }	}
