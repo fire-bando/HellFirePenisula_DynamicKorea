@@ -46,6 +46,10 @@ replace_path="common/units/codenames_operatives"
 replace_path="common/unit_leader"
 replace_path="common/peace_conference"
 replace_path="events"
+dependencies={
+	"Korean Language"
+	"Korean Language (Europa)"
+}	
 picture="thumbnail.png"
 supported_version="1.13.*"
 path="mod/HellFirePenisula_DynamicKorea"
