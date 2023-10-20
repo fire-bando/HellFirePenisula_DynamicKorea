@@ -1,22 +1,15 @@
-
 state={
-	id=245
-	name="STATE_245"
-
+	id=603
+	name="STATE_603"
 	history={
 		owner = ROK
 		add_core_of = ROK
-		victory_points = {
-			9465 20 
-		}
-
 	}
-
 	provinces={
-		9465 
+		1719 6604 9771 13809 
 	}
-	manpower=210000
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }

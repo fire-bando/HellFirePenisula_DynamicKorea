@@ -279,7 +279,6 @@
  STATE_23:0 "청주" #210k
  STATE_243:0 "단양" #30k
  STATE_244:0 "제천" #140k
- STATE_245:0 "충주" #210k
  STATE_246:0 "음성" #95k
  STATE_247:0 "괴산" #40k
  STATE_248:0 "중평" #35k
@@ -288,6 +287,26 @@
  STATE_251:0 "옥천" #55k
  STATE_252:0 "영동" #50k
  
+ # Chungju
+ STATE_245:0 "문화-봉방-달천" #210k
+ STATE_591:0 "엄정"
+ STATE_592:0 "산척"
+ STATE_593:0 "소태"
+ STATE_594:0 "앙성"
+ STATE_595:0 "교현-안림"
+ STATE_596:0 "동량"
+ STATE_597:0 "종민"
+ STATE_598:0 "금가"
+ STATE_599:0 "중앙탑"
+ STATE_600:0 "목행-용탄"
+ STATE_601:0 "가주-풍"
+ STATE_602:0 "노은"
+ STATE_603:0 "신니"
+ STATE_604:0 "주덕"
+ STATE_605:0 "대소원"
+ STATE_606:0 "살미"
+ STATE_607:0 "수안보"
+
  #North Gyeongsang Province
  STATE_3:0 "안동" #170k
  STATE_253:0 "Goryeong" #35k
