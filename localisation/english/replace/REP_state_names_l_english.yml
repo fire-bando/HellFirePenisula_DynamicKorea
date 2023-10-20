@@ -23,7 +23,7 @@
  STATE_222:0 "Chosan" #45k
 
  #Kangwon Province
- STATE_34:1 "Wonsan" #365k
+ STATE_34:1 "원산" #365k
  STATE_111:0 "Munchon" #125k
  STATE_112:0 "Chonnae" #85k
  STATE_113:0 "Poptong" #35k
@@ -39,14 +39,14 @@
  STATE_123:0 "Kimhwa" #55k
  STATE_124:0 "Chorwon" #60k
  STATE_125:0 "Ichon" #60k
- STATE_126:0 "Pyonggang" #90k
+ STATE_126:0 "평강" #90k
 
  #Nampo
  STATE_168:0 "남포" #985k
 
  #North Hamgyong Province
  STATE_27:1 "Kyongsong" #105k
- STATE_70:0 "Kimchaek" #210k
+ STATE_70:0 "김책" #210k
  STATE_75:0 "Yonsa" #40k
  STATE_76:0 "Hoeryong" #155k
  STATE_77:0 "Chongjin" #625k
@@ -62,12 +62,12 @@
  STATE_96:0 "Kyongwon" #105k
 
  #North Hwanghae Province
- STATE_28:1 "중앙 Kaesong" #195k
- STATE_577:0 "북부 Kaesong"
- STATE_31:1 "Sariwon" #310k
- STATE_127:0 "Songrim" #130k
- STATE_128:0 "Hwangju" #155k
- STATE_129:0 "Pongsan" #125k
+ STATE_28:1 "중앙 개성" #195k
+ STATE_577:0 "북부 개성"
+ STATE_31:1 "사리원" #310k
+ STATE_127:0 "송림" #130k
+ STATE_128:0 "황주" #155k
+ STATE_129:0 "봉산" #125k
  STATE_130:0 "Unpa" #110k
  STATE_131:0 "Rinsan" #75k
  STATE_132:0 "Yontan" #75k
@@ -86,7 +86,7 @@
  STATE_225:0 "Sungho" #85k
  
  #North Pyongan Province
- STATE_38:1 "Sinuiju" #360k
+ STATE_38:1 "신의주" #360k
  STATE_183:0 "Ryongchon" #135k
  STATE_184:0 "Pihyon" #110k
  STATE_185:0 "Yomju" #115k
@@ -161,8 +161,8 @@
  STATE_145:0 "Sinwon" #85k
  STATE_146:0 "중앙 Yonan" #160k
  STATE_575:0 "북부 Yonan"
- STATE_147:0 "북부 Paechon" #160k
- STATE_576:0 "중앙 Paechon"
+ STATE_147:0 "북부 배천" #160k
+ STATE_576:0 "중앙 배천"
  STATE_148:0 "Pongchon" #80k
  STATE_149:0 "Kangryong" #105k
  STATE_150:0 "남부 Ongjin" #155k
@@ -296,7 +296,7 @@
  STATE_256:0 "Gunwi" #25k
  STATE_257:0 "Gumi" #420k
  STATE_258:0 "Gimcheon" #135k
- STATE_259:0 "Sangju" #105k
+ STATE_259:0 "상주" #105k
  STATE_260:0 "Mungyeong" #75k
  STATE_261:0 "Yecheon" #45k
  STATE_262:0 "Yeongju" #110k
@@ -314,20 +314,20 @@
  STATE_274:0 "Ulleung" #10k
 
  #North Jeolla Province
- STATE_21:0 "Jeonju" #650k
- STATE_313:0 "Gochang" #60k
- STATE_314:0 "Sunchang" #30k
- STATE_315:0 "Namwon" #85k
- STATE_316:0 "Jangsu" #25k
- STATE_317:0 "Muju" #25k
- STATE_318:0 "Jinan" #25k
- STATE_319:0 "Imsil" #30k
- STATE_320:0 "Buan" #55k
- STATE_321:0 "Jeongeup" #115k
- STATE_322:0 "Wanju" #95k
- STATE_323:0 "Iksan" #300k
- STATE_324:0 "Gunsan" #280k
- STATE_325:0 "Gimje" #90k
+ STATE_21:0 "전주" #650k
+ STATE_313:0 "고창" #60k
+ STATE_314:0 "순창" #30k
+ STATE_315:0 "남원" #85k
+ STATE_316:0 "장수" #25k
+ STATE_317:0 "무주" #25k
+ STATE_318:0 "진안" #25k
+ STATE_319:0 "임실" #30k
+ STATE_320:0 "부안" #55k
+ STATE_321:0 "정읍" #115k
+ STATE_322:0 "완주" #95k
+ STATE_323:0 "익산" #300k
+ STATE_324:0 "군산" #280k
+ STATE_325:0 "김제" #90k
  
  #Sejong
  STATE_56:0 "세종" #350k
@@ -707,20 +707,20 @@
  STATE_514:0 "Tara" #10k
  
  ### DMZ ### 
- STATE_556:0 "Kosong DMZ"
- STATE_557:0 "Kumgang DMZ"
- STATE_558:0 "Changdo DMZ"
- STATE_559:0 "Kimhwa DMZ"
- STATE_560:0 "Pyonggang DMZ"
- STATE_561:0 "Chorwon DMZ"
- STATE_562:0 "Changpung DMZ"
- STATE_563:0 "Kaesong DMZ"
- STATE_564:0 "Paechon DMZ"
- STATE_565:0 "Yonan DMZ"
- STATE_566:0 "Paju DMZ"
- STATE_567:0 "Yeoncheon DMZ"
- STATE_568:0 "Cheorwon DMZ"
- STATE_569:0 "Hwacheon DMZ"
- STATE_570:0 "Yanggu DMZ"
- STATE_571:0 "Inje DMZ"
- STATE_572:0 "Goseong DMZ"
+ STATE_556:0 "고성 DMZ"
+ STATE_557:0 "금강 DMZ"
+ STATE_558:0 "창도 DMZ"
+ STATE_559:0 "김화 DMZ"
+ STATE_560:0 "평강 DMZ"
+ STATE_561:0 "철원 DMZ"
+ STATE_562:0 "장풍군 DMZ"
+ STATE_563:0 "개성 DMZ"
+ STATE_564:0 "배천 DMZ"
+ STATE_565:0 "연안 DMZ"
+ STATE_566:0 "파주 DMZ"
+ STATE_567:0 "연천 DMZ"
+ STATE_568:0 "철원 DMZ"
+ STATE_569:0 "화천 DMZ"
+ STATE_570:0 "양구 DMZ"
+ STATE_571:0 "인제 DMZ"
+ STATE_572:0 "고성 DMZ"
