@@ -107,3 +107,7 @@ CHU = {
 	color = rgb { 237 173 35 }
 	color_ui = rgb { 237 173 35 }
 }
+SAG = {
+	color = rgb { 0 100 98 }
+	color_ui = rgb { 0 100 98 }
+}
