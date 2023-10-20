@@ -3,8 +3,8 @@ state={
 	name="STATE_625"
 	
 	history={
-		owner = SPO
-		add_core_of = SPO
+		owner = GNG
+		add_core_of = GNG
 	}
 	provinces={
 		5866 6572 

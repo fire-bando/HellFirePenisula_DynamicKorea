@@ -322,8 +322,44 @@
  SPO_ADJ: "대검찰청"
  
  LOT: "롯데 그룹"
- LOT: "롯데 그룹"
- LOT: "롯데 그룹"
+ LOT_DEF: "롯데 그룹"
+ LOT_ADJ: "롯데 그룹"
+ 
+ BRO: "형제복지원"
+ BRO_DEF: "형제복지원"
+ BRO_ADJ: "형제복지원"
+ 
+ NUC: "오대산 핵사일로"
+ NUC_DEF: "오대산 핵사일로"
+ NUC_ADJ: "오대산 핵사일로"
+ 
+ GMP: "김포 해병대"
+ GMP_DEF: "김포 해병대사령부"
+ GMP_ADJ: "김포 해병"
+ 
+ HMR: "해병대전우회"
+ HMR_DEF: "해병대전우회"
+ HMR_ADJ: "해병대전우회"
+ 
+ OKC: "옥천 허브"
+ OKC_DEF: "옥천 허브"
+ OKC_ADJ: "옥천 허브"
+ 
+ BUS: "스까국"
+ BUS_DEF: "스까국"
+ BUS_ADJ: "스까국
+ 
+ HNW: "하나원"
+ HNW_DEF: "하나원"
+ HNW_ADJ: "하나원"
+ 
+ TTT: "대한민국어버이연합"
+ TTT_DEF: "대한민국어버이연합"
+ TTT_ADJ: "대한민국어버이연합"
+ 
+ JEJ: "제주 해병대"
+ JEJ_DEF: "제주 해병대"
+ JEJ_ADJ: "제주 해병대"
  
  ZZZ: ""
  ZZZ_DEF: "무정부"

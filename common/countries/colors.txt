@@ -162,4 +162,13 @@ BUD = {	color = rgb { 87 68 68 }	color_ui = rgb { 87 68 68 }	}
 ASS = {	color = rgb { 30 74 113 }	color_ui = rgb { 30 74 113 }	}
 SPO = {	color = rgb { 30 74 113 }	color_ui = rgb { 30 74 113 }	}
 LOT = {	color = rgb { 230 0 18 }	color_ui = rgb { 230 0 18 }	}
+BRO = {	color = rgb { 50 50 50 }	color_ui = rgb { 50 50 50 }	}
+NUC = {	color = rgb { 25 26 50 }	color_ui = rgb { 25 26 50 }	}
+GMP = {	color = rgb { 255 11 71 }	color_ui = rgb { 255 0 0 }	}
+HMR = {	color = rgb { 255 11 71 }	color_ui = rgb { 255 0 0 }	}
+OKC = {	color = rgb { 93 180 166 }	color_ui = rgb { 93 180 166 }	}
+BUS = {	color = rgb { 177 15 187 }	color_ui = rgb { 177 15 187 }	}
+HNW = {	color = rgb { 92 130 166 }	color_ui = rgb { 92 130 166 }	}
+TTT = {	color = rgb { 5 61 74 }	color_ui = rgb { 5 61 74 }	}
+JEJ = {	color = rgb { 255 11 71 }	color_ui = rgb { 255 0 0 }	}
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
