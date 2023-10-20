@@ -1,40 +1,4 @@
 #reload countrycolors
-GYE = {
-	color = rgb { 61 61 61 }
-	color_ui = rgb { 61 61 61 }
-}
-NON = {
-	color = rgb { 62 21 117 }
-	color_ui = rgb { 62 21 117 }
-}
-GWA = {
-	color = rgb { 239 65 35 }
-	color_ui = rgb { 239 65 35 }
-}
-YBJ = {
-	color = rgb { 30 74 113 }
-	color_ui = rgb { 30 74 113 }
-}
-CAT = {
-	color = rgb { 196 118 252 }
-	color_ui = rgb { 196 118 252 }
-}
-JBR = {
-	color = rgb { 245 221 66 }
-	color_ui = rgb { 245 221 66 }
-}
-KRU = {
-	color = rgb { 137 0 37 }
-	color_ui = rgb { 137 0 37 }
-}
-AIR = {
-	color = rgb { 3 111 252 }
-	color_ui = rgb { 2 84 191 }
-}
-HMC = {
-	color = rgb { 255 11 71 }
-	color_ui = rgb { 255 0 0 }
-}
 RUS = {
 	color = rgb { 65 125 70 }
 	color_ui = rgb { 65 125 70 }
@@ -98,4 +62,40 @@ JNR = {
 SIN = {
 	color = rgb { 13 105 171 }
 	color_ui = rgb { 13 105 171 }
+}
+GYE = {
+	color = rgb { 61 61 61 }
+	color_ui = rgb { 61 61 61 }
+}
+NON = {
+	color = rgb { 62 21 117 }
+	color_ui = rgb { 62 21 117 }
+}
+GWA = {
+	color = rgb { 239 65 35 }
+	color_ui = rgb { 239 65 35 }
+}
+YBJ = {
+	color = rgb { 30 74 113 }
+	color_ui = rgb { 30 74 113 }
+}
+CAT = {
+	color = rgb { 196 118 252 }
+	color_ui = rgb { 196 118 252 }
+}
+JBR = {
+	color = rgb { 245 221 66 }
+	color_ui = rgb { 245 221 66 }
+}
+KRU = {
+	color = rgb { 137 0 37 }
+	color_ui = rgb { 137 0 37 }
+}
+AIR = {
+	color = rgb { 3 111 252 }
+	color_ui = rgb { 2 84 191 }
+}
+HMC = {
+	color = rgb { 255 11 71 }
+	color_ui = rgb { 255 0 0 }
 }
