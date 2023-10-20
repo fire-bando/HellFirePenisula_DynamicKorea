@@ -1,10 +1,15 @@
 state={
 	id=595
 	name="STATE_595"
+	history={
+		owner = CHU
+		add_core_of = CHU
+	}
 	provinces={
 		2352 
 	}
-	manpower=0
+	manpower=43650
+	state_category = large_city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -95,3 +95,18 @@
  PWS:0 "킁킁 생불령"
  PWS_ADJ:0 "킁킁"
  PWS_DEF:0 "킁킁"
+
+ CHU_democratic:0 "충주 사과 농민 연합" #임시국명
+ CHU_communism:0 "충주 사과 농민 연합" #임시국명
+ CHU_fascism:0 "충주 사과 농민 연합" #임시국명
+ CHU_neutrality:0 "충주 사과 농민 연합" #임시국명
+
+ CHU_democratic_ADJ:0 "사과"
+ CHU_communism_ADJ:0 "사과"
+ CHU_fascism_ADJ:0 "사과"
+ CHU_neutrality_ADJ:0 "사과"
+
+ CHU_democratic_DEF:0 "사과"
+ CHU_communism_DEF:0 "사과"
+ CHU_fascism_DEF:0 "사과"
+ CHU_neutrality_DEF:0 "사과"

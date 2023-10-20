@@ -103,3 +103,7 @@ PWS = {
 	color = rgb { 47 45 147 }
 	color_ui = rgb { 47 45 147 }
 }
+CHU = {
+	color = rgb { 237 173 35 }
+	color_ui = rgb { 237 173 35 }
+}

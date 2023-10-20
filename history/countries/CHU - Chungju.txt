@@ -1,6 +1,4 @@
-capital = 60
-
-recruit_character = GWA_gang_gijeong
+capital = 523
 
 oob = "standard_templates"
 
@@ -12,13 +10,12 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "2020.4.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 88
-	democratic = 3
-	neutrality = 9
+	democratic = 60
+	communism = 40
 }

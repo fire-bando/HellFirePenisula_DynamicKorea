@@ -2,13 +2,14 @@ state={
 	id=594
 	name="STATE_594"
 	history={
-		owner = ROK
-		add_core_of = ROK
+		owner = CHU
+		add_core_of = CHU
 	}
 	provinces={
 		1489 3338 13744 
 	}
-	manpower=0
+	manpower=3923
+	state_category = town
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
