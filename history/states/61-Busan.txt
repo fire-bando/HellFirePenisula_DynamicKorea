@@ -2,17 +2,21 @@
 state={
 	id=61
 	name="STATE_61"
-	provinces={
-		534 1218 1312 1365 1390 1420 1925 2478 2784 3397 4723 5079 5278 5732 6299 6571 6674 7872 8237 8329 8487 8802 9010 9028 9431 9661 14627 14645 14655 14669 14686 14705 14720 14739 14744 14769 14774 14783 14794 
-	}
-    
-    history={
+
+	history={
 		owner = ROK
 		add_core_of = ROK
-        victory_points = { 2784 50 }
-	}  
-    
+		victory_points = {
+			2784 50 
+		}
+
+	}
+
+	provinces={
+		1218 1312 1365 1390 1925 2478 2784 3397 5079 5732 6299 6571 6674 8237 8329 8487 8802 9010 9028 9431 9661 14627 14645 14655 14669 14686 14720 14739 14774 14794 
+	}
 	manpower=3330000
-	state_category=megalopolis
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

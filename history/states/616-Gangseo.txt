@@ -1,0 +1,15 @@
+state={
+	id=616
+	name="STATE_616"
+	history={
+		owner = ROK
+		add_core_of = ROK
+	}
+	provinces={
+		534 1420 4723 5278 14744 14769 14783 
+	}
+	manpower=84000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
