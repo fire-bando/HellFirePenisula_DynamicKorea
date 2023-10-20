@@ -41,23 +41,23 @@
 
 
 
- CHU_democratic:0 "충주 사과 농민 연합" #임시국명
- CHU_communism:0 "충주 사과 농민 연합" #임시국명
- CHU_fascism:0 "충주 사과 농민 연합" #임시국명
- CHU_neutrality:0 "충주 사과 농민 연합" #임시국명
++ CHU_democratic:0 "충주 공화국"
+ CHU_communism:0 "충주 농민 연합"
+ CHU_fascism:0 "충주 임플란트 주권국"
+ CHU_neutrality:0 "충주" #임시국명
 
- CHU_democratic_ADJ:0 "사과"
- CHU_communism_ADJ:0 "사과"
- CHU_fascism_ADJ:0 "사과"
- CHU_neutrality_ADJ:0 "사과"
++ CHU_democratic_ADJ:0 "충주 공화국"
+ CHU_communism_ADJ:0 "충주 농민 연합"
+ CHU_fascism_ADJ:0 "충주 임플란트 주권국"
+ CHU_neutrality_ADJ:0 "충주"
 
- CHU_democratic_DEF:0 "사과"
- CHU_communism_DEF:0 "사과"
- CHU_fascism_DEF:0 "사과"
- CHU_neutrality_DEF:0 "사과"
+ CHU_democratic_DEF:0 "충주 공화국"
+ CHU_communism_DEF:0 "충주 농민 연합"
+ CHU_fascism_DEF:0 "충주 임플란트 주권국"
+ CHU_neutrality_DEF:0 "충주"
  
- SAG_democratic:0 "사가현" #임시국명
- SAG_communism:0 "사가 코뮌" #임시국명
+ SAG_democratic:0 "사가현" 
+ SAG_communism:0 "사가 코뮌"
  SAG_communism_DEF:0 "사가 코뮌"
  SAG_fascism_DEF:0 "사가국"
  SAG_neutrality_DEF:0 "프랑슈슈"

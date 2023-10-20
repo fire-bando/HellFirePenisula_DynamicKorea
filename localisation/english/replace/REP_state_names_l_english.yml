@@ -732,18 +732,18 @@
  STATE_529:0 "Usa" #55k
  
  #Saga Prefecture
- STATE_9:1 "Saga" #230k
- STATE_504:0 "Tosu" #95k
- STATE_505:0 "Kanzaki" #70k
- STATE_506:0 "Karatsu" #125k
- STATE_507:0 "Imari" #75k
- STATE_508:0 "Takeo" #50k
- STATE_509:0 "Ogi" #45k
- STATE_510:0 "Kishima" #45k
- STATE_511:0 "Taku" #20k
- STATE_512:0 "Ureshino" #25k
- STATE_513:0 "Kashima" #30k
- STATE_514:0 "Tara" #10k
+ STATE_9:1 "사가" #230k
+ STATE_504:0 "토스" #95k
+ STATE_505:0 "칸자키" #70k
+ STATE_506:0 "카라츠" #125k
+ STATE_507:0 "이마리" #75k
+ STATE_508:0 "타케오" #50k
+ STATE_509:0 "오기" #45k
+ STATE_510:0 "키시마" #45k
+ STATE_511:0 "타쿠" #20k
+ STATE_512:0 "우레시노" #25k
+ STATE_513:0 "카시마" #30k
+ STATE_514:0 "타라" #10k
  
  ### DMZ ### 
  STATE_556:0 "고성 DMZ"
