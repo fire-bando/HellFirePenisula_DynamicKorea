@@ -1,0 +1,12 @@
+
+state={
+	id=627
+	name="STATE_627"
+	provinces={
+		3722 13559 13566 
+	}
+	manpower=285000
+	state_category = megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
