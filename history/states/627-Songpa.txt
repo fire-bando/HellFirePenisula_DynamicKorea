@@ -2,6 +2,10 @@
 state={
 	id=627
 	name="STATE_627"
+	history={
+		owner = AHN
+		add_core_of = AHN
+	}
 	provinces={
 		3722 13559 13566 
 	}

@@ -43,6 +43,15 @@
 
  CHU_democratic:0 "충주 공화국"
  CHU_democratic_ADJ:0 "충주 공화국"
+ CHU_communism:0 "충주 농민 연합"
+ CHU_fascism:0 "충주 임플란트 주권국"
+ CHU_neutrality:0 "충주" #임시국명
+
+ CHU_democratic_ADJ:0 "충주 공화국"
+ CHU_communism_ADJ:0 "충주 농민 연합"
+ CHU_fascism_ADJ:0 "충주 임플란트 주권국"
+ CHU_neutrality_ADJ:0 "충주"
+
  CHU_democratic_DEF:0 "충주 공화국"
 
  CHU_communism:0 "충주 농민 연합"
@@ -125,7 +134,7 @@
  NLU_ADJ: "경기동부연합"
  
  LAB: "무장단체 RO"
- LAB_DEF: "무장단체 RO"
+ LAB_DEF: "통합진보당 무장단체 RO"
  LAB_ADJ: "RO"
  
  AHN: "안철수 연구소"
@@ -296,13 +305,24 @@
  KAE_DEF: "개성공단"
  KAE_ADJ: "개성공단"
  
- INA: "인천국제공항"
- INA_DEF: "인천국제공항"
- INA_ADJ: "인천국제공항"
+ INA: "창공의 형제단"
+ INA_ADJ: "창공의 형제단"
  
  BUD: "조계종"
- BUD_DEF: "조계종"
+ BUD_DEF: "대한불교조계종"
  BUD_ADJ: "조계종"
+ 
+ ASS: "국K-1"
+ ASS_DEF: "국K-1 경기장"
+ ASS_ADJ: "국K-1
+ 
+ SPO: "대검찰청"
+ SPO_DEF: "대검찰청"
+ SPO_ADJ: "대검찰청"
+ 
+ LOT: "롯데 그룹"
+ LOT: "롯데 그룹"
+ LOT: "롯데 그룹"
  
  ZZZ: ""
  ZZZ_DEF: "무정부"

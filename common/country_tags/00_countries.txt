@@ -30,7 +30,6 @@ NON = "countries/South Korea.txt"
 SIN = "countries/South Korea.txt"
 PWS = "countries/South Korea.txt"
 CHU = "countries/South Korea.txt"
-
 SAG	= "countries/Japan Modern.txt"
 
 SEO = "countries/South Korea.txt"
@@ -81,5 +80,6 @@ YNG = "countries/South Korea.txt"
 KAE = "countries/South Korea.txt"
 INA = "countries/South Korea.txt"
 BUD = "countries/South Korea.txt"
+SPO = "countries/South Korea.txt"
+LOT = "countries/South Korea.txt"
 ZZZ = "countries/South Korea.txt"
->>>>>>> Stashed changes

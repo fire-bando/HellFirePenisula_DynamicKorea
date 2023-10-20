@@ -4,8 +4,8 @@ state={
 	name="STATE_563"
 
 	history={
-		owner = WPK
-		add_core_of = WPK
+		owner = KAE
+		add_core_of = KAE
         set_demilitarized_zone = yes
 	}
 
