@@ -1,26 +1,21 @@
-
 state={
-	id=25
-	name="STATE_25"
-
+	id=585
+	name="STATE_585"
 	history={
 		owner = ROK
 		add_core_of = ROK
 		victory_points = {
-			5866 50 
+			355 10 
 		}
 		buildings = {
 			infrastructure = 3
-
 		}
-
 	}
-
 	provinces={
-		769 3053 3722 4585 5242 5866 5951 6572 6940 7301 13530 13535 13540 13543 13549 13554 13559 13566 13574 
+		355 13524 
 	}
-	manpower=9445000
+	manpower=381000
+	state_category=large_city
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
 	local_supplies=0.000
 }
