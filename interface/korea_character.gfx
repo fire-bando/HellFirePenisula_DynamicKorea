@@ -3,6 +3,10 @@ spriteTypes={
 		name="GFX_YBJ_yoon_daddy_large"
 		texturefile="gfx/leaders/YBJ/yoon_daddy.png"
 	}
+	spriteType={
+		name="GFX_GWA_gang_gijeong_large"
+		texturefile="gfx/leaders/GWA/gang_gijeong.png"
+	}
 
 
 
