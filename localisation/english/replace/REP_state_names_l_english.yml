@@ -352,12 +352,13 @@
  STATE_330:0 "천안" #585k
  STATE_331:0 "아산" #285k
  STATE_332:0 "공주" #115k
- STATE_333:0 "논산계룡" #165k
+ STATE_333:0 "논산" #165k
  STATE_334:0 "부여" #75k
  STATE_335:0 "청양" #30k
  STATE_336:0 "예산" #85k
  STATE_337:0 "당진" #155k
  STATE_338:0 "서산" #165k
+ STATE_590:0 "계룡" #165k
  
  #South Gyeongsang Province
  STATE_19:0 "창원" #1.105m

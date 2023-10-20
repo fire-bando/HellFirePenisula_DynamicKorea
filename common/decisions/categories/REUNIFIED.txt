@@ -1,0 +1,5 @@
+KOR_REUNIFIED = { #ㅊ
+	allowed = {
+		original_tag = YBJ
+	}	
+}

@@ -1,5 +1,16 @@
 #reload countrycolors
-
+GYE = {
+	color = rgb { 61 61 61 }
+	color_ui = rgb { 61 61 61 }
+}
+NON = {
+	color = rgb { 62 21 117 }
+	color_ui = rgb { 62 21 117 }
+}
+GWA = {
+	color = rgb { 239 65 35 }
+	color_ui = rgb { 239 65 35 }
+}
 YBJ = {
 	color = rgb { 30 74 113 }
 	color_ui = rgb { 30 74 113 }

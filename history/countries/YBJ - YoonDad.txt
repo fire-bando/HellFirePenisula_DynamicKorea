@@ -1,6 +1,8 @@
 capital = 583
 
-oob = "standard_templates"
+oob = "YBJ_2023"
+
+recruit_character = YBJ_yoon_daddy
 
 # Starting tech
 set_technology = {

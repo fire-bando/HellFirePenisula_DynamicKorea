@@ -1,10 +1,6 @@
-capital = 293
+capital = 60
 
 oob = "standard_templates"
-
-recruit_character = JNR_daejung_kim
-recruit_character = JNR_jiwon_park
-recruit_character = JNR_democratic_party
 
 # Starting tech
 set_technology = {

@@ -1,0 +1,10 @@
+KOR_REUNIFIED = { #ㅊ
+	KOR_UNIFY_SEOUL = {
+		available = {
+			all_owned_state = {
+				
+			}
+		}
+		cost = 300
+	}	
+}
