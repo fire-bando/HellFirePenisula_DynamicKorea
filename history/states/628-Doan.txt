@@ -1,19 +1,16 @@
-
 state={
-	id=248
-	name="STATE_248"
+	id=628
+	name="STATE_628"
 
 	history={
 		owner = BUD
 		add_core_of = BUD
-		victory_points = { 7674 1 }
 	}
-
 	provinces={
-		6255 7674 8472
+		13907 
 	}
-	manpower=35653
+	manpower=1757
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }
