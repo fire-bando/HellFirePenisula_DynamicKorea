@@ -18,6 +18,10 @@ recruit_character = HMC_por_pip
 
 oob = "standard_templates"
 
+create_faction = "해병대 유니버스"
+add_to_faction = JEJ
+add_to_faction = GMP
+
 # Starting tech
 set_politics = {
 	ruling_party = fascism

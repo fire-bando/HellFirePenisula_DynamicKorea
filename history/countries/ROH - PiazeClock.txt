@@ -19,3 +19,4 @@ set_popularities = {
 	democratic = 100
 }
 create_faction = "노&문 합동 법률 사무소"
+add_to_faction = MJI

@@ -82,8 +82,32 @@ characters={
 			}
         }
     }
+    AIR_airgeunchul={
+        name=AIR_airgeunchul
+        portraits={
+            civilian={
+                large=GFX_portrait_air_hwang
+            }
+            army = {
+                large=GFX_portrait_air_hwang
+            }
+        }
+        field_marshal={
+			traits={ trait_cautious armor_officer politically_connected organizer logistics_wizard offensive_doctrine }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=5
+		}
+        country_leader={
+            ideology=nazism
+            traits={ }
+            expire="6974.6.9.1"
+        }
+    }
     HMC_hwang_geun_chul={
-        name=HMC_Hwang_geun_chul
+        name=HMC_hwang_geun_chul
         portraits={
             civilian={
                 large=GFX_portrait_hmc_hwang_large

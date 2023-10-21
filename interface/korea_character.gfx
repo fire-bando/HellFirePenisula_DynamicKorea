@@ -15,6 +15,14 @@ spriteTypes={
 
 
 	spriteType={
+		name="GFX_portrait_air_hwang"
+		texturefile="gfx/leaders/HMC/airhwang.dds"
+	}
+	spriteType={
+		name="GFX_portrait_hmc_hwang_large"
+		texturefile="gfx/leaders/HMC/portrait_large_hwang.dds"
+	}
+	spriteType={
 		name="GFX_park_chul_gon"
 		texturefile="gfx/ideas/portrait_park_chul_gon.dds"
 	}

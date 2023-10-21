@@ -2,6 +2,8 @@ capital = 287
 
 set_research_slots = 12
 
+recruit_character = AIR_airgeunchul
+
 oob = "standard_templates"
 
 # Starting tech
