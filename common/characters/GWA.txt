@@ -1,6 +1,6 @@
 characters={ 
     GWA_gang_gijeong={
-        name=JNR_daejung_kim
+        name=GWA_gang_gijeong
         portraits={
             civilian={
                 large=GFX_GWA_gang_gijeong_large
