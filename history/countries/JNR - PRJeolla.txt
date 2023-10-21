@@ -11,6 +11,19 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = YG1
+		autonomous_state = autonomy_integrated_puppet
+	}
+}
+
 set_convoys = 20
 
 set_politics = {

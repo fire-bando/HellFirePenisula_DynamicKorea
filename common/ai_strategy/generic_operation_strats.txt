@@ -66,6 +66,13 @@ run_generic_rescue_operation = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
+		type = operative_operation
+		operation = operation_rescue_operative
+		value = 1000
+		operation_target = var:rescue_operative_from
+	}
+	
+	ai_strategy = {
 		type = operation_equipment_priority
 		value = 100
 	}

@@ -11,6 +11,22 @@ set_technology = {
 
 set_convoys = 0
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SPO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = SPO
+	}
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2020.4.15"
