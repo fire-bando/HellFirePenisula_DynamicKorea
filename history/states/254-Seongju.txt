@@ -5,6 +5,9 @@ state={
 		owner = ROK
 		add_core_of = ROK
 		victory_points = { 5787 1 }
+		buildings = {
+			rocket_site = 2
+		}
 	}
 	provinces={
 		1668 1976 2084 2816 3040 3378 4436 4449 5105 5787 6557 7983 9050 9089 9237 14310 14330 14338 14355 14373 14378 14398 14399 14408 14415 

@@ -2,8 +2,11 @@ state={
 	id=581
 	name="STATE_581"
 	history = {
-	    owner = ROK
-		add_core_of = ROK
+	    owner = YNG
+		add_core_of = YNG
+		buildings = {
+			industrial_complex = 1
+		}
 	}
 	provinces={
 		1980 3149 4685 5102 13308 13313 13328 13332 13350 13355 13361 

@@ -2,10 +2,16 @@ state={
 	id=228
 	name="STATE_228"
 	history={
-		owner = ROK
-		add_core_of = ROK
+		buildings = {
+			industrial_complex = 1
+		}
+		owner = YNG
+		add_core_of = YNG
 		victory_points = {
 			13233 1 
+		}
+		buildings = {
+			air_base = 5
 		}
 	}
 	provinces={

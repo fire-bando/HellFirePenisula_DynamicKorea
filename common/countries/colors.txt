@@ -171,4 +171,6 @@ BUS = {	color = rgb { 177 15 187 }	color_ui = rgb { 177 15 187 }	}
 HNW = {	color = rgb { 92 130 166 }	color_ui = rgb { 92 130 166 }	}
 TTT = {	color = rgb { 5 61 74 }	color_ui = rgb { 5 61 74 }	}
 JEJ = {	color = rgb { 255 11 71 }	color_ui = rgb { 255 0 0 }	}
+YAN = {	color = rgb { 255 48 234 }	color_ui = rgb { 255 4 234 }	}
+GNW = {	color = rgb { 0 234 48 }	color_ui = rgb { 0 4 234 }	}
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}

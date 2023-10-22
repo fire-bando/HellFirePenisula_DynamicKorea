@@ -1,0 +1,14 @@
+characters={ 
+    TAE_junpyo_hong={
+        name=TAE_junpyo_hong
+        portraits={
+            civilian={
+                large=GFX_TAE_junpyo_hong_large
+            }
+        }
+        country_leader={
+            ideology=despotism
+            expire="1960.8.16"
+        }
+    }
+ }

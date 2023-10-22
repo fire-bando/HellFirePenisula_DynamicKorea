@@ -4,6 +4,9 @@ state={
 	history={
 		owner = INA
 		add_core_of = INA
+		buildings = {
+			air_base = 10
+		}
 	}
 	provinces={
 		4782 4917 5754 8052 8312 8619 13525 13529 13551 13571 15524 

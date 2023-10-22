@@ -7,6 +7,11 @@ state={
 		owner = ROK
 		add_core_of = ROK
 		victory_points = { 395 40 }
+		buildings = {
+			arms_factory = 5
+			industrial_complex = 7
+			infrastructure = 5
+		}
 	}
 
 	provinces={
@@ -14,6 +19,6 @@ state={
 	}
 	manpower=1105000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=megalopolis
 	local_supplies=0.000
 }

@@ -10,10 +10,6 @@ spriteTypes={
 
 
 
-
-
-
-
 	spriteType={
 		name="GFX_portrait_air_hwang"
 		texturefile="gfx/leaders/HMC/airhwang.dds"

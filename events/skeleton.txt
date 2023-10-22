@@ -1,0 +1,79 @@
+###########################
+# Ace pilots Events
+###########################
+
+add_namespace = tae_event
+add_namespace = jnr_event
+
+# New ace has been promoted
+country_event = { #대 - 군 합병
+	id = tae_event.1
+	title = tae_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tae_event.1.a
+        news_event = {
+            id = tae_event.1000
+            days = 0
+        }
+        TAE = {
+            annex_country = {
+                target = GNW
+                transfer_troops = yes
+            }
+            add_state_core = 256
+        }
+	}
+}
+country_event = { #신안 침공
+	id = jnr_event.1
+	title = jnr_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.1.a
+        news_event = {
+            id = jnr_event.1000
+            days = 0
+        }
+        JNR = {
+            declare_war_on = {
+                target = SIN
+                type = annex_everything
+            }
+        }
+	}
+}
+news_event = { 
+	id = tae_event.1000
+	title = tae_event.1000.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.1000.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tae_event.1000.a
+	}
+}
+news_event = { 
+	id = jnr_event.1000
+	title = jnr_event.1000.t
+	picture = GFX_report_event_jnr_event
+    desc = jnr_event.1000.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.1000.a
+	}
+}

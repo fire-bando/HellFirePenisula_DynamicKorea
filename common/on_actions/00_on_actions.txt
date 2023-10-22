@@ -1,3 +1,18 @@
 on_actions = {
-	# country 
+	on_startup = {
+		effect = {
+			TAE = {
+				country_event = {
+					id = tae_event.1
+					days = 1
+				}
+			}
+			JNR = {
+				country_event = {
+					id = jnr_event.1
+					days = 240
+				}
+			}
+		}
+	}
 }
