@@ -15,4 +15,13 @@ on_actions = {
 			}
 		}
 	}
+	on_weekly = {
+		effect = {
+			333 = {
+				owner = {
+					add_ideas = zzz_manpower_generator
+				}
+			}
+		}
+	}
 }
