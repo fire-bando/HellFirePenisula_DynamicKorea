@@ -1,12 +1,20 @@
 state={
 	id=303
 	name="STATE_303"
+	resources={
+		steel=30 
+		tungsten=12
+		aluminium=4
+	}
 	history={
 		owner = YG1
 		add_core_of = YG1
 		victory_points = { 14883 10 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
 		}
 	}
 	provinces={
@@ -14,6 +22,6 @@ state={
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=megalopolis
 	local_supplies=0.000
 }

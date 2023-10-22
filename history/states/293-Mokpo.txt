@@ -5,6 +5,11 @@ state={
 		owner = SIN
 		add_core_of = SIN
 		victory_points = { 3556 20 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 	provinces={
 		3556 9715 
