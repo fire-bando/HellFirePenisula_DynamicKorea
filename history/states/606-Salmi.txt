@@ -6,7 +6,7 @@ state={
 		add_core_of = CHU
 	}
 	provinces={
-		1843 4399 4576 13810 13814 13828 13844 
+		1843 4399 4576 13810 13828 13844 
 	}
 	manpower=2002
 	buildings_max_level_factor=1.000

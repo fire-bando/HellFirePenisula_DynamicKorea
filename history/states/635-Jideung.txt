@@ -1,19 +1,15 @@
-
 state={
-	id=596
-	name="STATE_596"
-
+	id=635
+	name="STATE_635"
 	history={
 		owner = CHU
 		add_core_of = CHU
-
 	}
-
 	provinces={
-		2294 6943 8878 9364 
+		13814
 	}
-	manpower=3507
+	manpower=150
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category = rural
 	local_supplies=0.000
 }
