@@ -173,4 +173,6 @@ TTT = {	color = rgb { 5 61 74 }	color_ui = rgb { 5 61 74 }	}
 JEJ = {	color = rgb { 255 11 71 }	color_ui = rgb { 255 0 0 }	}
 YAN = {	color = rgb { 255 48 234 }	color_ui = rgb { 255 4 234 }	}
 GNW = {	color = rgb { 0 234 48 }	color_ui = rgb { 0 4 234 }	}
+GAN = {	color = rgb { 31 196 97 }	color_ui = rgb { 31 196 97 }	}
+RPL = {	color = rgb { 237 160 45 }	color_ui = rgb { 237 160 45 }	}
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}

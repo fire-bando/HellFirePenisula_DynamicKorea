@@ -7,6 +7,10 @@ spriteTypes={
 		name="GFX_GWA_gang_gijeong_large"
 		texturefile="gfx/leaders/GWA/gang_gijeong.png"
 	}
+	spriteType={
+		name="GFX_ASS_k1_large"
+		texturefile="gfx/leaders/ASS/k1.png"
+	}
 
 
 

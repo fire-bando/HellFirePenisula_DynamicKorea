@@ -1,10 +1,10 @@
-
 state={
 	id=621
 	name="STATE_621"
 	history={
 		owner = ASS
 		add_core_of = ASS
+		set_demilitarized_zone = yes
 	}
 	provinces={
 		13535 

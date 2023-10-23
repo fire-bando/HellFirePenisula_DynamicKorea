@@ -4,8 +4,8 @@ state={
 	name="STATE_19"
 
 	history={
-		owner = ROK
-		add_core_of = ROK
+		owner = RPL
+		add_core_of = RPL
 		victory_points = { 395 40 }
 		buildings = {
 			arms_factory = 5
