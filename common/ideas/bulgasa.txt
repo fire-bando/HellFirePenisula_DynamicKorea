@@ -5,7 +5,7 @@ ideas = {
 			picture = tfv_can_conscription_crisis
 
 			modifier = {
-				weekly_manpower = 10000
+				weekly_manpower = 1000
 			}
 			targeted_modifier = {
 				tag = WPK

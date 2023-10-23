@@ -5,8 +5,8 @@ state={
 		buildings = {
 			industrial_complex = 1
 		}
-		owner = YNG
-		add_core_of = YNG
+		owner = YAN
+		add_core_of = YAN
 		victory_points = {
 			13233 1 
 		}
