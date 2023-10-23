@@ -1,0 +1,15 @@
+state={
+	id=631
+	name="STATE_631"
+	provinces={
+		6917 13496 
+	}
+	history={
+		owner = GGR
+		add_core_of = GGR
+	}
+	manpower=189000
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
