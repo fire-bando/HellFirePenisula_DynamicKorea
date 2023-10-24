@@ -1,6 +1,10 @@
 state={
 	id=232
 	name="STATE_232"
+	resources={
+		steel=60 
+		tungsten=240
+	}
 	history={
 		owner = ROK
 		add_core_of = ROK

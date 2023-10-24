@@ -1,6 +1,7 @@
 state={
 	id=395
 	name="STATE_395"
+
 	history={
 		owner = CHN
 		add_core_of = CHN
