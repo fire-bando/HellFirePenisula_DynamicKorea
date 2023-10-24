@@ -59,3 +59,15 @@ units = {
 		start_equipment_factor = 0.7
 	}
 }
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SBU"
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 90
+	}
+}

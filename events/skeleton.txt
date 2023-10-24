@@ -79,6 +79,9 @@ country_event = {
 			target = BSU
 			type = annex_everything
 		}
+		ROOT = {
+			set_cosmetic_tag = SBU_BUG
+		}
 	}
 }
 news_event = { 
