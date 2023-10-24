@@ -1,10 +1,6 @@
-capital = 58
-
-recruit_character = TAE_junpyo_hong
+capital = 256
 
 starting_train_buffer = 30
-
-oob = "TAE_2023"
 
 # Starting tech
 set_technology = {
@@ -12,7 +8,9 @@ set_technology = {
 	basic_train = 1
 }
 
-set_convoys = 20
+set_convoys = 0
+
+give_military_access = TAE
 
 set_politics = {
 	ruling_party = neutrality

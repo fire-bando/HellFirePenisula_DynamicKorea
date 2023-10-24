@@ -1,6 +1,9 @@
 state={
 	id=622
 	name="STATE_622"
+	resources = {
+		steel = 140
+	}
 	history={	
 		owner = HMR
 		add_core_of = HMR
