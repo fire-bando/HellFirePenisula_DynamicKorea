@@ -299,7 +299,6 @@
  #North Chungcheong Province
  STATE_23:0 "청주" #210k
  STATE_243:0 "단양" #30k
- STATE_244:0 "제천" #140k
  STATE_246:0 "음성" #95k
  STATE_247:0 "괴산" #40k
  STATE_248:0 "증평" #35k
@@ -328,6 +327,7 @@
  STATE_605:0 "대소원"
  STATE_606:0 "살미"
  STATE_607:0 "수안보"
+ STATE_635:0 "지등"
 
  #North Gyeongsang Province
  STATE_3:0 "안동" #170k
@@ -780,3 +780,19 @@
  STATE_570:0 "양구 DMZ"
  STATE_571:0 "인제 DMZ"
  STATE_572:0 "고성 DMZ"
+
+#Jecheon 
+STATE_244:0 "창전-중앙" #140k
+STATE_636:0 "한수"
+STATE_637:0 "백운"
+STATE_638:0 "북청풍"
+STATE_639:0 "남청풍"
+STATE_640:0 "봉양"
+STATE_641:0 "송학"
+STATE_642:0 "금성"
+STATE_643:0 "수산"
+STATE_644:0 "덕산"
+STATE_645:0 "신백"
+STATE_646:0 "교-의림지"
+STATE_647:0 "용두"
+STATE_648:0 "영서-화산-남현"

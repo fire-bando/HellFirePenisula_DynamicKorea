@@ -1,22 +1,15 @@
-
 state={
-	id=244
-	name="STATE_244"
-
+	id=636
+	name="STATE_636"
 	history={
 		owner = GAN
 		add_core_of = GAN
-		victory_points = {
-			13726 10 
-		}
-
 	}
-
 	provinces={
-		13726 
+		6141 7614 9722 13865 
 	}
-	manpower=140000
+	manpower=701
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category = rural
 	local_supplies=0.000
 }
