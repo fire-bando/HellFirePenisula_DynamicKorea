@@ -1,0 +1,24 @@
+capital = 635
+
+starting_train_buffer = 10
+
+oob = "SBU_2023"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 99
+	democratic = 1
+}

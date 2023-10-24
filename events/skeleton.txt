@@ -1,9 +1,6 @@
-###########################
-# Ace pilots Events
-###########################
-
 add_namespace = tae_event
 add_namespace = jnr_event
+add_namespace = sbu_event
 
 # New ace has been promoted
 country_event = { #대 - 군 합병
@@ -49,6 +46,32 @@ country_event = { #신안 침공
                 type = annex_everything
             }
         }
+	}
+}
+country_event = {
+	id = sbu_event.1
+	title = sbu_event.1.t
+	desc = sbu_event.1.d
+	is_triggered_only = yes
+	option = {
+		name=sbu_event.a
+		declare_war_on = {
+			target = BUS
+			type = annex_everything
+		}
+	}
+}
+country_event = {
+	id = sbu_event.2
+	title = sbu_event.2.t
+	desc = sbu_event.2.d
+	is_triggered_only = yes
+	option = {
+		name=sbu_event.a
+		declare_war_on = {
+			target = DAS
+			type = annex_everything
+		}
 	}
 }
 news_event = { 

@@ -2,8 +2,14 @@ state={
 	id=616
 	name="STATE_616"
 	history={
-		owner = BUS
+		owner = SBU
+		add_core_of = SBU
 		add_core_of = BUS
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			infrastructure=3
+		}
 	}
 	provinces={
 		534 1420 4723 5278 14744 14769 14783 

@@ -11,9 +11,14 @@ spriteTypes={
 		name="GFX_ASS_k1_large"
 		texturefile="gfx/leaders/ASS/k1.png"
 	}
-
-
-
+	spriteType={
+		name="GFX_TAE_junpyo_hong_large"
+		texturefile="gfx/leaders/TAE/junpyo_hong.png"
+	}
+	spriteType={
+		name="GFX_YG1_jung_gimyung_large"
+		texturefile="gfx/leaders/YG1/jung_gimyung.png"
+	}
 	spriteType={
 		name="GFX_portrait_air_hwang"
 		texturefile="gfx/leaders/HMC/airhwang.dds"

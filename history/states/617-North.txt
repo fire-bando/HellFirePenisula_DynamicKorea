@@ -1,18 +1,27 @@
+
 state={
 	id=617
 	name="STATE_617"
+
 	history={
 		owner = BRO
 		add_core_of = BRO
+		add_core_of = BUS
+		add_core_of = SBU
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
 		victory_points = {
-			14705 20
+			14705 20 
 		}
 	}
+
 	provinces={
-		7872 14705 
+		7872 14686 14705 
 	}
 	manpower=283000
-	state_category=city
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }

@@ -4,19 +4,23 @@ state={
 	name="STATE_61"
 
 	history={
-		owner = BUS
-		add_core_of = BUS
+		owner = SBU
+		add_core_of = SBU
+		buildings = {
+			industrial_complex = 6
+			arms_factory = 4
+			infrastructure=5
+		}
 		victory_points = {
 			2784 50 
 		}
-
 	}
 
 	provinces={
-		1218 1312 1365 1390 1925 2478 2784 3397 5079 5732 6299 6571 6674 8237 8329 8487 8802 9010 9028 9431 9661 14627 14645 14655 14669 14686 14720 14739 14774 14794 
+		5079 
 	}
-	manpower=3330000
+	manpower=333333
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 	local_supplies=0.000
 }

@@ -1,16 +1,22 @@
+
 state={
 	id=359
 	name="STATE_359"
+
 	history={
 		owner = NLU
 		add_core_of = NLU
-        victory_points = { 2123 10 }
+		victory_points = {
+			2123 10 
+		}
+
 	}
+
 	provinces={
-		2123 2837 9705 13538 13546 13552 13572 
+		1624 2123 2837 9705 13538 13546 13552 13572 
 	}
 	manpower=155000
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 	local_supplies=0.000
 }
