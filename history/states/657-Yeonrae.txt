@@ -1,23 +1,20 @@
 state={
-	id=644
-	name="STATE_644"
+	id=657
+	name="STATE_657"
 	history={
 		owner = BUS
 		add_core_of = BUS
 		add_core_of = SUB
 		buildings = {
-			industrial_complex = 3
-			arms_factory = 3
-			infrastructure=5
-		}
-		victory_points = {
-			2784 50 
+			industrial_complex = 2
+			arms_factory = 4
+			infrastructure=4
 		}
 	}
 	provinces={
-		2784 
+		14739 
 	}
-	manpower=353159
+	manpower=207144
 	state_category = metropolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

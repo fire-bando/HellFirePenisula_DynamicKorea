@@ -1,20 +1,22 @@
 state={
-	id=642
-	name="STATE_642"
+	id=655
+	name="STATE_655"
 	history={
 		owner = BUS
-		add_core_of = SBU
 		add_core_of = BUS
+		add_core_of = SBU
 		buildings = {
+			dockyard = 3
 			industrial_complex = 3
+			arms_factory = 4
 			infrastructure=4
 		}
 	}
 	provinces={
-		1925 6299 6674 14669 
+		1218 9010 
 	}
-	manpower=243300
-	state_category=city
+	manpower=401131
+	state_category = metropolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
