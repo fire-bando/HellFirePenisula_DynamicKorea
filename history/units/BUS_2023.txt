@@ -10,6 +10,8 @@
 		infantry = { x = 1 y = 2 }
 	}
 
+	division_names_group = SBU_INF_01
+
 	priority = 2
 }
 division_template = {
@@ -23,6 +25,8 @@ division_template = {
 	}
 
 	priority = 1
+
+	division_names_group = SBU_INF_01
 }
 units = {
 	division = {

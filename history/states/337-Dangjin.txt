@@ -3,6 +3,12 @@ state={
 	id=337
 	name="STATE_337"
 
+	resources={
+		steel=30 
+		tungsten=12
+		aluminium=4
+	}
+
 	history={
 		owner = HAL
 		add_core_of = HAL

@@ -59,6 +59,9 @@ country_event = {
 			target = BUS
 			type = annex_everything
 		}
+		ROOT = {
+			add_ideas = SBU_revolutionary_war
+		}
 	}
 }
 country_event = {
@@ -70,6 +73,10 @@ country_event = {
 		name=sbu_event.a
 		declare_war_on = {
 			target = DAS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = BSU
 			type = annex_everything
 		}
 	}

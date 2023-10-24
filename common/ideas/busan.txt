@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		SBU_revolutionary_war = {
+			picture = trotskyite_plot
+
+			modifier = {
+				weekly_manpower = 500
+				army_core_defence_factor = 0.75
+			}
+			available = {
+                has_war_with = BUS
+            }
+			targeted_modifier = {
+				tag = BUS
+				attack_bonus_against = 0.75
+			}
+		}
+	}
+}

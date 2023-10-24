@@ -16,11 +16,11 @@ on_actions = {
 			SBU = {
 				country_event = {
 					id = sbu_event.1
-					days = 140
+					days = 210
 				}
 				country_event = {
 					id = sbu_event.2
-					days = 350
+					days = 700
 				}
 			}
 		}

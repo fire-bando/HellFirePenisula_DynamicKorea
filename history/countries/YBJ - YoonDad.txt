@@ -2,7 +2,7 @@ capital = 583
 
 oob = "YBJ_2023"
 
-starting_train_buffer = 30
+starting_train_buffer = 19601218
 
 recruit_character = YBJ_yoon_daddy
 
