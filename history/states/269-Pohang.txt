@@ -1,6 +1,11 @@
 state={
 	id=269
 	name="STATE_269"
+	resources={
+		steel=90 
+		tungsten=36
+		aluminium=12
+	}
 	history={
 		owner = HMC
 		add_core_of = HMC

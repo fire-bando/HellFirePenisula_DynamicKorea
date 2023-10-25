@@ -1,0 +1,14 @@
+characters={ 
+    YG1_jung_gimyung={
+        name=YG1_jung_gimyung
+        portraits={
+            civilian={
+                large=GFX_YG1_jung_gimyung_large
+            }
+        }
+        country_leader={
+            ideology=liberalism
+            expire="2020.8.16"
+        }
+    }
+ }

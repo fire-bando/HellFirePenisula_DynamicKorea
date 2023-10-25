@@ -1,6 +1,9 @@
 state={
 	id=276
 	name="STATE_276"
+	resources = {
+		steel = 200
+	}
 	history={
 		owner = MJI
 		add_core_of = MJI

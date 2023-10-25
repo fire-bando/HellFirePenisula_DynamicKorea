@@ -2,11 +2,14 @@ capital = 583
 
 oob = "YBJ_2023"
 
+starting_train_buffer = 19601218
+
 recruit_character = YBJ_yoon_daddy
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	basic_train = 1
 }
 
 set_convoys = 0

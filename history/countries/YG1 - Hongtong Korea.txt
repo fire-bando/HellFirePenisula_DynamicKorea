@@ -1,5 +1,7 @@
 capital = 302
 
+recruit_character = YG1_jung_gimyung
+
 oob = "standard_templates"
 
 # Starting tech

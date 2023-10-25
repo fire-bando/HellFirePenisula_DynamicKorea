@@ -1,0 +1,21 @@
+state={
+	id=649
+	name="STATE_649"
+	history={
+		owner = SBU
+		add_core_of = SBU
+		add_core_of = BUS
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			infrastructure = 4
+		}
+	}
+	provinces={
+		3397 6571 
+	}
+	manpower=208000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

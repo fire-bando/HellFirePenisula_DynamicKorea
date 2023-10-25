@@ -1,6 +1,9 @@
 state={
 	id=228
 	name="STATE_228"
+	resources = {
+		steel = 110
+	}
 	history={
 		buildings = {
 			industrial_complex = 1

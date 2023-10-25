@@ -1,9 +1,6 @@
-###########################
-# Ace pilots Events
-###########################
-
 add_namespace = tae_event
 add_namespace = jnr_event
+add_namespace = sbu_event
 
 # New ace has been promoted
 country_event = { #대 - 군 합병
@@ -51,6 +48,68 @@ country_event = { #신안 침공
         }
 	}
 }
+country_event = { #홍통독립
+	id = jnr_event.2
+	title = jnr_event.2.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.2.a
+		news_event = {
+            id = jnr_event.1001
+            days = 0
+        }
+		JNR = {
+			end_puppet = YG1
+		}
+		YG1 = {
+			declare_war_on = {
+				target = JNR
+				type = annex_everything
+			}
+			set_cosmetic_tag = YG1_neutrality
+		}
+	}
+}
+country_event = {
+	id = sbu_event.1
+	title = sbu_event.1.t
+	desc = sbu_event.1.d
+	is_triggered_only = yes
+	option = {
+		name=sbu_event.a
+		declare_war_on = {
+			target = BUS
+			type = annex_everything
+		}
+		ROOT = {
+			add_ideas = SBU_revolutionary_war
+		}
+	}
+}
+country_event = {
+	id = sbu_event.2
+	title = sbu_event.2.t
+	desc = sbu_event.2.d
+	is_triggered_only = yes
+	option = {
+		name=sbu_event.a
+		declare_war_on = {
+			target = DAS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = BSU
+			type = annex_everything
+		}
+		ROOT = {
+			set_cosmetic_tag = SBU_BUG
+		}
+	}
+}
 news_event = { 
 	id = tae_event.1000
 	title = tae_event.1000.t
@@ -75,5 +134,29 @@ news_event = {
 	
 	option = {
 		name = jnr_event.1000.a
+	}
+}
+news_event = { 
+	id = jnr_event.1001
+	title = jnr_event.1001.t
+	picture = GFX_report_event_jnr_event
+    desc = jnr_event.1001.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.1001.a
+		trigger = {
+			original_tag = JNR
+		}
+	}
+	option = {
+		name = jnr_event.1001.b
+		trigger = {
+			NOT = {
+				original_tag = JNR
+			}
+		}
 	}
 }

@@ -13,6 +13,22 @@ on_actions = {
 					days = 240
 				}
 			}
+			SBU = {
+				country_event = {
+					id = sbu_event.1
+					days = 210
+				}
+				country_event = {
+					id = sbu_event.2
+					days = 700
+				}
+			}
+			YG1 = {
+				country_event = {
+					id = sbu_event.2
+					days = 720
+				}
+			}
 		}
 	}
 	on_weekly = {

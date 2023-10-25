@@ -10,6 +10,8 @@
 		infantry = { x = 1 y = 2 }
 	}
 
+	division_names_group = YBJ_INF_01
+
 	priority = 2
 }
 units = {
