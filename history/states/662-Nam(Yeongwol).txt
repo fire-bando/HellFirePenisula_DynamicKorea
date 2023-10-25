@@ -1,14 +1,14 @@
 state={
-	id=650
-	name="STATE_650"
+	id=662
+	name="STATE_662"
 	history={
 		owner = GAN
 		add_core_of = GAN
 	}
 	provinces={
-		1149 5691 13701 13717 
+		2711 8629 13722 
 	}
-	manpower=1382
+	manpower=2168
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000
