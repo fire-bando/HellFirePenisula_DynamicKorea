@@ -1,0 +1,15 @@
+state={
+	id=654
+	name="STATE_654"
+	history={
+		owner = GAN
+		add_core_of = GAN
+	}
+	provinces={
+		783 7264 13687 
+	}
+	manpower=2811
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=655
+	name="STATE_655"
+	history={
+		owner = GAN
+		add_core_of = GAN
+	}
+	provinces={
+		18 538 1038 13680 
+	}
+	manpower=3733
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
