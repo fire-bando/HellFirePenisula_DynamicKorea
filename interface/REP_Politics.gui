@@ -6,13 +6,12 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "party_name"
-			position = {x = 153 y = -17}
+			position = {x = -104 y = -17}
 			font = "hoi_16mbs"
-			text = "[This.GetRulingParty]"
+			text = "[This.GetRulingParty]([GetSubIdeologyLoc])"
 			fixedsize = yes
 			maxWidth = 160
 			maxHeight = 20
-			format = center
 		}
 		# iconType = {
 		# 	name = "current_faction_status"
@@ -25,14 +24,5 @@ guiTypes = {
 		# 	fixedsize = yesFACTION_STATUS_TT"
 		# 	centerposition = yes
 		# }
-		instantTextboxType = {
-			name = "TNO_subideology"
-			position = { x = 153 y = 0 }
-			font = "hoi_16mbs"
-			text = [GetSubIdeologyLoc]
-			maxWidth = 160
-			maxHeight = 20
-			format  = center
-		}
 	}
 }

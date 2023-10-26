@@ -67,6 +67,7 @@ ideologies = {
 			communism_subtype = {}
 			commnuism_juche_subtype = {}
 
+			udeol_democratic = {}
 			marxism = {}
 			leninism = {}
 			stalinism = {}

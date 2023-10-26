@@ -7,7 +7,7 @@ characters={
             }
         }
         country_leader={
-            ideology=anti_revisionism
+            ideology=udeol_democratic
             expire="1960.8.16"
         }
     }
