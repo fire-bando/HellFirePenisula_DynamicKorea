@@ -1,0 +1,87 @@
+JNR_breaking_down_nation = {
+    JNR_jeonju_riot = {
+        priority = 10
+        icon = GFX_decision_infiltrate_state
+        activation = {
+            NOT = {
+                has_country_flag = JEONJU_END
+            }
+        }
+        available = {
+            has_country_flag = JEONJU_END
+        }
+        icon = mission_icon     # For GFX_decision_mission_icon
+        is_good = no
+        days_mission_timeout = 420
+        selectable_mission = yes
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            country_event = {
+                id = jnr_event.2
+                days = 3
+            }
+        }
+        fire_only_once = yes
+    }
+    JNR_gyeumgun = {
+        priority = 0
+        icon = GFX_decision_infiltrate_state
+        visible = {
+            NOT = {
+                has_country_flag = JEONJU_END
+            }
+        }
+        cost = 75
+        complete_effect = {
+            add_days_mission_timeout = {
+                mission = JNR_jeonju_riot
+                days = 60
+            }
+        }
+        fire_only_once = yes
+    }
+    JNR_secret_ch_chepo = {
+        priority = -1
+        icon = GFX_decision_infiltrate_state
+        visible = {
+            NOT = {
+                has_country_flag = JEONJU_END
+            }
+        }
+        cost = 75
+        days_re_enable = 30
+        complete_effect = {
+            add_days_mission_timeout = {
+                mission = JNR_jeonju_riot
+                days = 15
+            }
+        }
+        fire_only_once = yes
+    }
+    JNR_hongtong_riot = {
+        priority = 5
+        icon = GFX_decision_infiltrate_state
+        activation = {
+            has_country_flag = YG1_riot
+        }
+        available = {
+            has_civil_war = no
+            has_war = yes
+        }
+        icon = mission_icon     # For GFX_decision_mission_icon
+        is_good = no
+        days_mission_timeout = 420
+        selectable_mission = yes
+        complete_effect = {
+            add_ideas = my_idea
+        }
+        timeout_effect = {
+            country_event = {
+                id = jnr_event.2
+                days = 3
+            }
+        }
+    }
+}

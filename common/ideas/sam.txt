@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		SAM_bleeding_finance = {
+			picture = trotskyite_plot
+
+			modifier = {
+				
+			}
+		}
+		SAM_bleeding_finance = {
+			picture = trotskyite_plot
+
+			modifier = {
+
+			}
+		}
+	}
+}

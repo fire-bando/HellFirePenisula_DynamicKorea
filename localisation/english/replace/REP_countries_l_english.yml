@@ -405,3 +405,7 @@
  SBU_BUG:0 "부울경인민혁명위원회"
  SBU_BUG_ADJ:0 "부울경인민혁명위원회"
  SBU_BUG_DEF:0 "부울경인민혁명위원회"
+ GNW_TAE_neutrality_autonomy_puppet:0 "군위군"
+ GNW_TAE_neutrality_autonomy_integrated_puppet:0 "군위군"
+ GNW_TAE_neutrality_autonomy_colony:0 "군위구"
+ GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"

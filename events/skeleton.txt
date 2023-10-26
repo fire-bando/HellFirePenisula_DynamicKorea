@@ -26,54 +26,6 @@ country_event = { #대 - 군 합병
         }
 	}
 }
-country_event = { #신안 침공
-	id = jnr_event.1
-	title = jnr_event.1.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.1.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.1.a
-        news_event = {
-            id = jnr_event.1000
-            days = 0
-        }
-        JNR = {
-            declare_war_on = {
-                target = SIN
-                type = annex_everything
-            }
-        }
-	}
-}
-country_event = { #홍통독립
-	id = jnr_event.2
-	title = jnr_event.2.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.2.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.2.a
-		news_event = {
-            id = jnr_event.1001
-            days = 0
-        }
-		JNR = {
-			end_puppet = YG1
-		}
-		YG1 = {
-			declare_war_on = {
-				target = JNR
-				type = annex_everything
-			}
-			set_cosmetic_tag = YG1_neutrality
-		}
-	}
-}
 country_event = {
 	id = sbu_event.1
 	title = sbu_event.1.t

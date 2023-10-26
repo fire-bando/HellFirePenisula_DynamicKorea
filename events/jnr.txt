@@ -1,0 +1,70 @@
+add_namespace = jnr_event
+
+# New ace has been promoted
+country_event = { #전라인민공화국 전당대회 결과
+	id = jnr_event.1
+	title = jnr_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.1.a
+		complete_national_focus = JNR_summon_gi_jeong_kang
+	}
+	option = {
+		name = jnr_event.1.b
+		complete_national_focus = JNR_who_is_he
+	}
+}
+country_event = { #홍통독립
+	id = jnr_event.2
+	title = jnr_event.2.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.2.a
+		news_event = {
+            id = jnr_event.1001
+            days = 0
+        }
+		JNR = {
+			end_puppet = YG1
+		}
+		YG1 = {
+			declare_war_on = {
+				target = JNR
+				type = annex_everything
+			}
+			set_cosmetic_tag = YG1_neutrality
+		}
+	}
+}
+news_event = { 
+	id = jnr_event.1001
+	title = jnr_event.1001.t
+	picture = GFX_report_event_jnr_event
+    desc = jnr_event.1001.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.1001.a
+		trigger = {
+			original_tag = JNR
+		}
+	}
+	option = {
+		name = jnr_event.1001.b
+		trigger = {
+			NOT = {
+				original_tag = JNR
+			}
+		}
+	}
+}

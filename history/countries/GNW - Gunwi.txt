@@ -24,3 +24,14 @@ set_popularities = {
 	communism = 10
 	democratic = 4
 }
+
+create_country_leader = {
+	name = "김진열"
+	desc = ""
+	picture = asd_gjk
+	expire = "1999.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

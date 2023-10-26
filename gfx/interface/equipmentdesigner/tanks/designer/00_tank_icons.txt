@@ -1,0 +1,4219 @@
+default = {
+
+	kugelpanzer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_kugelpanzer_medium
+			}
+			models = {
+				kugelpanzer_entity
+			}
+		}
+	}
+
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_light_SPART_1950_medium
+				GFX_light_SPAA_1950_medium
+				GFX_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_light_SPART_1960_medium
+				GFX_light_SPAA_1960_medium
+				GFX_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_light_SPART_1970_medium
+				GFX_light_SPAA_1970_medium
+				GFX_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_light_SPART_1980_medium
+				GFX_light_SPAA_1980_medium
+				GFX_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_light_SPART_1990_medium
+				GFX_light_SPAA_1990_medium
+				GFX_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_SPART_1950_medium
+				GFX_SPAA_1950_medium
+				GFX_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_SPART_1960_medium
+				GFX_SPAA_1960_medium
+				GFX_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_SPART_1970_medium
+				GFX_SPAA_1970_medium
+				GFX_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_SPART_1980_medium
+				GFX_SPAA_1980_medium
+				GFX_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_SPART_1990_medium
+				GFX_SPAA_1990_medium
+				GFX_MBT_1990_medium
+			}
+		}
+	}
+}
+
+USA = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_USA_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_USA_light_SPART_1950_medium
+				GFX_USA_light_SPAA_1950_medium
+				GFX_USA_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_USA_light_SPART_1960_medium
+				GFX_USA_light_SPAA_1960_medium
+				GFX_USA_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_USA_light_SPART_1970_medium
+				GFX_USA_light_SPAA_1970_medium
+				GFX_USA_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_USA_light_SPART_1980_medium
+				GFX_USA_light_SPAA_1980_medium
+				GFX_USA_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_USA_light_SPART_1990_medium
+				GFX_USA_light_SPAA_1990_medium
+				GFX_USA_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_USA_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_USA_SPART_1950_medium
+				GFX_USA_SPAA_1950_medium
+				GFX_USA_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_USA_SPART_1960_medium
+				GFX_USA_SPAA_1960_medium
+				GFX_USA_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_USA_SPART_1970_medium
+				GFX_USA_SPAA_1970_medium
+				GFX_USA_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_USA_SPART_1980_medium
+				GFX_USA_SPAA_1980_medium
+				GFX_USA_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_USA_SPART_1990_medium
+				GFX_USA_SPAA_1990_medium
+				GFX_USA_MBT_1990_medium
+			}
+		}
+	}
+}
+
+GER = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_SPART_1950_medium
+				GFX_GER_light_SPAA_1950_medium
+				GFX_GER_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_SPART_1960_medium
+				GFX_GER_light_SPAA_1960_medium
+				GFX_GER_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_SPART_1970_medium
+				GFX_GER_light_SPAA_1970_medium
+				GFX_GER_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_GER_light_SPART_1980_medium
+				GFX_GER_light_SPAA_1980_medium
+				GFX_GER_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_GER_light_SPART_1990_medium
+				GFX_GER_light_SPAA_1990_medium
+				GFX_GER_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_SPART_1950_medium
+				GFX_GER_SPAA_1950_medium
+				GFX_GER_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_SPART_1960_medium
+				GFX_GER_SPAA_1960_medium
+				GFX_GER_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_SPART_1970_medium
+				GFX_GER_SPAA_1970_medium
+				GFX_GER_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_GER_SPART_1980_medium
+				GFX_GER_SPAA_1980_medium
+				GFX_GER_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_GER_SPART_1990_medium
+				GFX_GER_SPAA_1990_medium
+				GFX_GER_MBT_1990_medium
+			}
+		}
+	}
+}
+
+JAP = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_JAP_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_JAP_light_SPART_1950_medium
+				GFX_JAP_light_SPAA_1950_medium
+				GFX_JAP_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_JAP_light_SPART_1960_medium
+				GFX_JAP_light_SPAA_1960_medium
+				GFX_JAP_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_JAP_light_SPART_1970_medium
+				GFX_JAP_light_SPAA_1970_medium
+				GFX_JAP_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_JAP_light_SPART_1980_medium
+				GFX_JAP_light_SPAA_1980_medium
+				GFX_JAP_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_JAP_light_SPART_1990_medium
+				GFX_JAP_light_SPAA_1990_medium
+				GFX_JAP_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_JAP_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_JAP_SPART_1950_medium
+				GFX_JAP_SPAA_1950_medium
+				GFX_JAP_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_JAP_SPART_1960_medium
+				GFX_JAP_SPAA_1960_medium
+				GFX_JAP_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_JAP_SPART_1970_medium
+				GFX_JAP_SPAA_1970_medium
+				GFX_JAP_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_JAP_SPART_1980_medium
+				GFX_JAP_SPAA_1980_medium
+				GFX_JAP_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_JAP_SPART_1990_medium
+				GFX_JAP_SPAA_1990_medium
+				GFX_JAP_MBT_1990_medium
+			}
+		}
+	}
+}
+
+ENG = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ENG_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ENG_light_SPART_1950_medium
+				GFX_ENG_light_SPAA_1950_medium
+				GFX_ENG_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ENG_light_SPART_1960_medium
+				GFX_ENG_light_SPAA_1960_medium
+				GFX_ENG_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ENG_light_SPART_1970_medium
+				GFX_ENG_light_SPAA_1970_medium
+				GFX_ENG_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_ENG_light_SPART_1980_medium
+				GFX_ENG_light_SPAA_1980_medium
+				GFX_ENG_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_ENG_light_SPART_1990_medium
+				GFX_ENG_light_SPAA_1990_medium
+				GFX_ENG_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ENG_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ENG_SPART_1950_medium
+				GFX_ENG_SPAA_1950_medium
+				GFX_ENG_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ENG_SPART_1960_medium
+				GFX_ENG_SPAA_1960_medium
+				GFX_ENG_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ENG_SPART_1970_medium
+				GFX_ENG_SPAA_1970_medium
+				GFX_ENG_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_ENG_SPART_1980_medium
+				GFX_ENG_SPAA_1980_medium
+				GFX_ENG_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_ENG_SPART_1990_medium
+				GFX_ENG_SPAA_1990_medium
+				GFX_ENG_MBT_1990_medium
+			}
+		}
+	}
+}
+
+SCO = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_SCO_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_SCO_light_SPART_1950_medium
+				GFX_SCO_light_SPAA_1950_medium
+				GFX_SCO_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_SCO_light_SPART_1960_medium
+				GFX_SCO_light_SPAA_1960_medium
+				GFX_SCO_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_SCO_light_SPART_1970_medium
+				GFX_SCO_light_SPAA_1970_medium
+				GFX_SCO_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_SCO_light_SPART_1980_medium
+				GFX_SCO_light_SPAA_1980_medium
+				GFX_SCO_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_SCO_light_SPART_1990_medium
+				GFX_SCO_light_SPAA_1990_medium
+				GFX_SCO_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_SCO_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_SCO_SPART_1950_medium
+				GFX_SCO_SPAA_1950_medium
+				GFX_SCO_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_SCO_SPART_1960_medium
+				GFX_SCO_SPAA_1960_medium
+				GFX_SCO_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_SCO_SPART_1970_medium
+				GFX_SCO_SPAA_1970_medium
+				GFX_SCO_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_SCO_SPART_1980_medium
+				GFX_SCO_SPAA_1980_medium
+				GFX_SCO_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_SCO_SPART_1990_medium
+				GFX_SCO_SPAA_1990_medium
+				GFX_SCO_MBT_1990_medium
+			}
+		}
+	}
+}
+
+IRE = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_IRE_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_IRE_light_SPART_1950_medium
+				GFX_IRE_light_SPAA_1950_medium
+				GFX_IRE_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_IRE_light_SPART_1960_medium
+				GFX_IRE_light_SPAA_1960_medium
+				GFX_IRE_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_IRE_light_SPART_1970_medium
+				GFX_IRE_light_SPAA_1970_medium
+				GFX_IRE_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_IRE_light_SPART_1980_medium
+				GFX_IRE_light_SPAA_1980_medium
+				GFX_IRE_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_IRE_light_SPART_1990_medium
+				GFX_IRE_light_SPAA_1990_medium
+				GFX_IRE_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_IRE_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_IRE_SPART_1950_medium
+				GFX_IRE_SPAA_1950_medium
+				GFX_IRE_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_IRE_SPART_1960_medium
+				GFX_IRE_SPAA_1960_medium
+				GFX_IRE_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_IRE_SPART_1970_medium
+				GFX_IRE_SPAA_1970_medium
+				GFX_IRE_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_IRE_SPART_1980_medium
+				GFX_IRE_SPAA_1980_medium
+				GFX_IRE_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_IRE_SPART_1990_medium
+				GFX_IRE_SPAA_1990_medium
+				GFX_IRE_MBT_1990_medium
+			}
+		}
+	}
+}
+
+BRA = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_BRA_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_BRA_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_BRA_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_BRA_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_BRA_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_BRA_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_BRA_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_BRA_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_BRA_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_BRA_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_BRA_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_BRA_MBT_1990_medium
+			}
+		}
+	}
+}
+
+SAF = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_SAF_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_SAF_light_SPART_1950_medium
+				GFX_SAF_light_SPAA_1950_medium
+				GFX_SAF_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_SAF_light_SPART_1960_medium
+				GFX_SAF_light_SPAA_1960_medium
+				GFX_SAF_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_SAF_light_SPART_1970_medium
+				GFX_SAF_light_SPAA_1970_medium
+				GFX_SAF_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_SAF_light_SPART_1980_medium
+				GFX_SAF_light_SPAA_1980_medium
+				GFX_SAF_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_SAF_light_SPART_1990_medium
+				GFX_SAF_light_SPAA_1990_medium
+				GFX_SAF_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_SAF_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_SAF_SPART_1950_medium
+				GFX_SAF_SPAA_1950_medium
+				GFX_SAF_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_SAF_SPART_1960_medium
+				GFX_SAF_SPAA_1960_medium
+				GFX_SAF_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_SAF_SPART_1970_medium
+				GFX_SAF_SPAA_1970_medium
+				GFX_SAF_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_SAF_SPART_1980_medium
+				GFX_SAF_SPAA_1980_medium
+				GFX_SAF_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_SAF_SPART_1990_medium
+				GFX_SAF_SPAA_1990_medium
+				GFX_SAF_MBT_1990_medium
+			}
+		}
+	}
+}
+
+BRG = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_BRG_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_BRG_light_SPART_1950_medium
+				GFX_BRG_light_SPAA_1950_medium
+				GFX_BRG_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_BRG_light_SPART_1960_medium
+				GFX_BRG_light_SPAA_1960_medium
+				GFX_BRG_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_BRG_light_SPART_1970_medium
+				GFX_BRG_light_SPAA_1970_medium
+				GFX_BRG_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_BRG_light_SPART_1980_medium
+				GFX_BRG_light_SPAA_1980_medium
+				GFX_BRG_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_BRG_light_SPART_1990_medium
+				GFX_BRG_light_SPAA_1990_medium
+				GFX_BRG_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_BRG_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_BRG_SPART_1950_medium
+				GFX_BRG_SPAA_1950_medium
+				GFX_BRG_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_BRG_SPART_1960_medium
+				GFX_BRG_SPAA_1960_medium
+				GFX_BRG_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_BRG_SPART_1970_medium
+				GFX_BRG_SPAA_1970_medium
+				GFX_BRG_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_BRG_SPART_1980_medium
+				GFX_BRG_SPAA_1980_medium
+				GFX_BRG_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_BRG_SPART_1990_medium
+				GFX_BRG_SPAA_1990_medium
+				GFX_BRG_MBT_1990_medium
+			}
+		}
+	}
+}
+
+OST = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_OST_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_OST_light_SPART_1950_medium
+				GFX_OST_light_SPAA_1950_medium
+				GFX_OST_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_OST_light_SPART_1960_medium
+				GFX_OST_light_SPAA_1960_medium
+				GFX_OST_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_OST_light_SPART_1970_medium
+				GFX_OST_light_SPAA_1970_medium
+				GFX_OST_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_OST_light_SPART_1980_medium
+				GFX_OST_light_SPAA_1980_medium
+				GFX_OST_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_OST_light_SPART_1990_medium
+				GFX_OST_light_SPAA_1990_medium
+				GFX_OST_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_OST_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_OST_SPART_1950_medium
+				GFX_OST_SPAA_1950_medium
+				GFX_OST_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_OST_SPART_1960_medium
+				GFX_OST_SPAA_1960_medium
+				GFX_OST_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_OST_SPART_1970_medium
+				GFX_OST_SPAA_1970_medium
+				GFX_OST_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_OST_SPART_1980_medium
+				GFX_OST_SPAA_1980_medium
+				GFX_OST_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_OST_SPART_1990_medium
+				GFX_OST_SPAA_1990_medium
+				GFX_OST_MBT_1990_medium
+			}
+		}
+	}
+}
+
+ITA = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ITA_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_SPART_1950_medium
+				GFX_ITA_light_SPAA_1950_medium
+				GFX_ITA_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_SPART_1960_medium
+				GFX_ITA_light_SPAA_1960_medium
+				GFX_ITA_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_SPART_1970_medium
+				GFX_ITA_light_SPAA_1970_medium
+				GFX_ITA_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_SPART_1980_medium
+				GFX_ITA_light_SPAA_1980_medium
+				GFX_ITA_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_SPART_1990_medium
+				GFX_ITA_light_SPAA_1990_medium
+				GFX_ITA_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ITA_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ITA_SPART_1950_medium
+				GFX_ITA_SPAA_1950_medium
+				GFX_ITA_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ITA_SPART_1960_medium
+				GFX_ITA_SPAA_1960_medium
+				GFX_ITA_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ITA_SPART_1970_medium
+				GFX_ITA_SPAA_1970_medium
+				GFX_ITA_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_ITA_SPART_1980_medium
+				GFX_ITA_SPAA_1980_medium
+				GFX_ITA_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_ITA_SPART_1990_medium
+				GFX_ITA_SPAA_1990_medium
+				GFX_ITA_MBT_1990_medium
+			}
+		}
+	}
+}
+
+COG = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_COG_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_COG_light_SPART_1950_medium
+				GFX_COG_light_SPAA_1950_medium
+				GFX_COG_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_COG_light_SPART_1960_medium
+				GFX_COG_light_SPAA_1960_medium
+				GFX_COG_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_COG_light_SPART_1970_medium
+				GFX_COG_light_SPAA_1970_medium
+				GFX_COG_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_COG_light_SPART_1980_medium
+				GFX_COG_light_SPAA_1980_medium
+				GFX_COG_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_COG_light_SPART_1990_medium
+				GFX_COG_light_SPAA_1990_medium
+				GFX_COG_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_COG_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_COG_SPART_1950_medium
+				GFX_COG_SPAA_1950_medium
+				GFX_COG_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_COG_SPART_1960_medium
+				GFX_COG_SPAA_1960_medium
+				GFX_COG_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_COG_SPART_1970_medium
+				GFX_COG_SPAA_1970_medium
+				GFX_COG_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_COG_SPART_1980_medium
+				GFX_COG_SPAA_1980_medium
+				GFX_COG_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_COG_SPART_1990_medium
+				GFX_COG_SPAA_1990_medium
+				GFX_COG_MBT_1990_medium
+			}
+		}
+	}
+}
+
+GRO = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GRO_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GRO_light_SPART_1950_medium
+				GFX_GRO_light_SPAA_1950_medium
+				GFX_GRO_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GRO_light_SPART_1960_medium
+				GFX_GRO_light_SPAA_1960_medium
+				GFX_GRO_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GRO_light_SPART_1970_medium
+				GFX_GRO_light_SPAA_1970_medium
+				GFX_GRO_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_GRO_light_SPART_1980_medium
+				GFX_GRO_light_SPAA_1980_medium
+				GFX_GRO_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_GRO_light_SPART_1990_medium
+				GFX_GRO_light_SPAA_1990_medium
+				GFX_GRO_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GRO_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GRO_SPART_1950_medium
+				GFX_GRO_SPAA_1950_medium
+				GFX_GRO_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GRO_SPART_1960_medium
+				GFX_GRO_SPAA_1960_medium
+				GFX_GRO_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GRO_SPART_1970_medium
+				GFX_GRO_SPAA_1970_medium
+				GFX_GRO_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_GRO_SPART_1980_medium
+				GFX_GRO_SPAA_1980_medium
+				GFX_GRO_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_GRO_SPART_1990_medium
+				GFX_GRO_SPAA_1990_medium
+				GFX_GRO_MBT_1990_medium
+			}
+		}
+	}
+}
+
+ANG = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ANG_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ANG_light_SPART_1950_medium
+				GFX_ANG_light_SPAA_1950_medium
+				GFX_ANG_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ANG_light_SPART_1960_medium
+				GFX_ANG_light_SPAA_1960_medium
+				GFX_ANG_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ANG_light_SPART_1970_medium
+				GFX_ANG_light_SPAA_1970_medium
+				GFX_ANG_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_ANG_light_SPART_1980_medium
+				GFX_ANG_light_SPAA_1980_medium
+				GFX_ANG_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_ANG_light_SPART_1990_medium
+				GFX_ANG_light_SPAA_1990_medium
+				GFX_ANG_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ANG_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ANG_SPART_1950_medium
+				GFX_ANG_SPAA_1950_medium
+				GFX_ANG_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ANG_SPART_1960_medium
+				GFX_ANG_SPAA_1960_medium
+				GFX_ANG_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ANG_SPART_1970_medium
+				GFX_ANG_SPAA_1970_medium
+				GFX_ANG_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_ANG_SPART_1980_medium
+				GFX_ANG_SPAA_1980_medium
+				GFX_ANG_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_ANG_SPART_1990_medium
+				GFX_ANG_SPAA_1990_medium
+				GFX_ANG_MBT_1990_medium
+			}
+		}
+	}
+}
+
+INS = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_INS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_INS_light_SPART_1950_medium
+				GFX_INS_light_SPAA_1950_medium
+				GFX_INS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_INS_light_SPART_1960_medium
+				GFX_INS_light_SPAA_1960_medium
+				GFX_INS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_INS_light_SPART_1970_medium
+				GFX_INS_light_SPAA_1970_medium
+				GFX_INS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_INS_light_SPART_1980_medium
+				GFX_INS_light_SPAA_1980_medium
+				GFX_INS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_INS_light_SPART_1990_medium
+				GFX_INS_light_SPAA_1990_medium
+				GFX_INS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_INS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_INS_SPART_1950_medium
+				GFX_INS_SPAA_1950_medium
+				GFX_INS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_INS_SPART_1960_medium
+				GFX_INS_SPAA_1960_medium
+				GFX_INS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_INS_SPART_1970_medium
+				GFX_INS_SPAA_1970_medium
+				GFX_INS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_INS_SPART_1980_medium
+				GFX_INS_SPAA_1980_medium
+				GFX_INS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_INS_SPART_1990_medium
+				GFX_INS_SPAA_1990_medium
+				GFX_INS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+CHI = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_CHI_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_CHI_light_SPART_1950_medium
+				GFX_CHI_light_SPAA_1950_medium
+				GFX_CHI_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_CHI_light_SPART_1960_medium
+				GFX_CHI_light_SPAA_1960_medium
+				GFX_CHI_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_CHI_light_SPART_1970_medium
+				GFX_CHI_light_SPAA_1970_medium
+				GFX_CHI_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_CHI_light_SPART_1980_medium
+				GFX_CHI_light_SPAA_1980_medium
+				GFX_CHI_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_CHI_light_SPART_1990_medium
+				GFX_CHI_light_SPAA_1990_medium
+				GFX_CHI_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_CHI_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_CHI_SPART_1950_medium
+				GFX_CHI_SPAA_1950_medium
+				GFX_CHI_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_CHI_SPART_1960_medium
+				GFX_CHI_SPAA_1960_medium
+				GFX_CHI_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_CHI_SPART_1970_medium
+				GFX_CHI_SPAA_1970_medium
+				GFX_CHI_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_CHI_SPART_1980_medium
+				GFX_CHI_SPAA_1980_medium
+				GFX_CHI_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_CHI_SPART_1990_medium
+				GFX_CHI_SPAA_1990_medium
+				GFX_CHI_MBT_1990_medium
+			}
+		}
+	}
+}
+
+IBR = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_IBR_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_IBR_light_SPART_1950_medium
+				GFX_IBR_light_SPAA_1950_medium
+				GFX_IBR_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_IBR_light_SPART_1960_medium
+				GFX_IBR_light_SPAA_1960_medium
+				GFX_IBR_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_IBR_light_SPART_1970_medium
+				GFX_IBR_light_SPAA_1970_medium
+				GFX_IBR_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_IBR_light_SPART_1980_medium
+				GFX_IBR_light_SPAA_1980_medium
+				GFX_IBR_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_IBR_light_SPART_1990_medium
+				GFX_IBR_light_SPAA_1990_medium
+				GFX_IBR_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_IBR_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_IBR_SPART_1950_medium
+				GFX_IBR_SPAA_1950_medium
+				GFX_IBR_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_IBR_SPART_1960_medium
+				GFX_IBR_SPAA_1960_medium
+				GFX_IBR_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_IBR_SPART_1970_medium
+				GFX_IBR_SPAA_1970_medium
+				GFX_IBR_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_IBR_SPART_1980_medium
+				GFX_IBR_SPAA_1980_medium
+				GFX_IBR_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_IBR_SPART_1990_medium
+				GFX_IBR_SPAA_1990_medium
+				GFX_IBR_MBT_1990_medium
+			}
+		}
+	}
+}
+
+YUN = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_YUN_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_YUN_light_SPART_1950_medium
+				GFX_YUN_light_SPAA_1950_medium
+				GFX_YUN_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_YUN_light_SPART_1960_medium
+				GFX_YUN_light_SPAA_1960_medium
+				GFX_YUN_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_YUN_light_SPART_1970_medium
+				GFX_YUN_light_SPAA_1970_medium
+				GFX_YUN_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_YUN_light_SPART_1980_medium
+				GFX_YUN_light_SPAA_1980_medium
+				GFX_YUN_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_YUN_light_SPART_1990_medium
+				GFX_YUN_light_SPAA_1990_medium
+				GFX_YUN_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_YUN_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_YUN_SPART_1950_medium
+				GFX_YUN_SPAA_1950_medium
+				GFX_YUN_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_YUN_SPART_1960_medium
+				GFX_YUN_SPAA_1960_medium
+				GFX_YUN_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_YUN_SPART_1970_medium
+				GFX_YUN_SPAA_1970_medium
+				GFX_YUN_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_YUN_SPART_1980_medium
+				GFX_YUN_SPAA_1980_medium
+				GFX_YUN_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_YUN_SPART_1990_medium
+				GFX_YUN_SPAA_1990_medium
+				GFX_YUN_MBT_1990_medium
+			}
+		}
+	}
+}
+
+##########
+#### W_RUS
+##########
+
+WRS = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+KOM = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+VYT = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+PRM = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+SAM = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+##########
+#### W_SIB
+##########
+
+SVR = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+TYM = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+OMS = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+ZLT = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+##########
+#### C_SIB
+##########
+
+TOM = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+NOV = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+KEM = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+SBA = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+PRC = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+##########
+#### F_EAS
+##########
+
+IRK = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+BRY = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+CHT = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+AMR = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+MAG = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}
+
+OMO = {
+	IFV_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_light_tank_medium
+			}
+		}
+	}
+	IFV_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1950_medium
+				GFX_WRS_light_SPAA_1950_medium
+				GFX_WRS_IFV_1950_medium
+			}
+		}
+	}
+	IFV_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1960_medium
+				GFX_WRS_light_SPAA_1960_medium
+				GFX_WRS_IFV_1960_medium
+			}
+		}
+	}
+	IFV_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1970_medium
+				GFX_WRS_light_SPAA_1970_medium
+				GFX_WRS_IFV_1970_medium
+			}
+		}
+	}
+	IFV_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1980_medium
+				GFX_WRS_light_SPAA_1980_medium
+				GFX_WRS_IFV_1980_medium
+			}
+		}
+	}
+	IFV_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_light_SPART_1990_medium
+				GFX_WRS_light_SPAA_1990_medium
+				GFX_WRS_IFV_1990_medium
+			}
+		}
+	}
+
+	MBT_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_WRS_advanced_medium_tank_medium
+			}
+		}
+	}
+	MBT_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1950_medium
+				GFX_WRS_SPAA_1950_medium
+				GFX_WRS_MBT_1950_medium
+			}
+		}
+	}
+	MBT_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1960_medium
+				GFX_WRS_SPAA_1960_medium
+				GFX_WRS_MBT_1960_medium
+			}
+		}
+	}
+	MBT_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1970_medium
+				GFX_WRS_SPAA_1970_medium
+				GFX_WRS_MBT_1970_medium
+			}
+		}
+	}
+	MBT_chassis_4 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1980_medium
+				GFX_WRS_SPAA_1980_medium
+				GFX_WRS_MBT_1980_medium
+			}
+		}
+	}
+	MBT_chassis_5 = {
+		pool = {
+			icons = {
+				GFX_WRS_SPART_1990_medium
+				GFX_WRS_SPAA_1990_medium
+				GFX_WRS_MBT_1990_medium
+			}
+		}
+	}
+}

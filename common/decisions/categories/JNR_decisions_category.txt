@@ -1,0 +1,5 @@
+JNR_breaking_down_nation = {
+    allowed = {
+        original_tag = JNR
+    }
+}
