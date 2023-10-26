@@ -8,6 +8,7 @@ ideologies = {
 			conservatism = {}
 			liberalism = {}
 			socialism = {}
+			gaeddal = {}
 		}
 
 		dynamic_faction_names = {
@@ -184,7 +185,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 97 97 97 }
+		color = { 110 110 110 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -215,6 +216,66 @@ ideologies = {
 
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
+	}
+	roh_samo = {
+		types = {
+			roh_samo_subtype = {}
+		}
+		color = { 232 211 0 }
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_cost_factor = 1
+			lend_lease_tension = 0.50
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		ai_ideology_wanted_units_factor = 1.65
+	}
+	odo_marinism = {
+		types = {
+			geunchulism = {}
+		}
+		color = { 178 0 0 }
+		war_impact_on_world_tension = 6.0			#evil!
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_cost_factor = 1
+			lend_lease_tension = 0.50
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		ai_ideology_wanted_units_factor = 1.65
 	}
 	spiritual_conscriptism = {
 		types = {

@@ -125,7 +125,7 @@ characters={
 			logistics_skill=5
 		}
         country_leader={
-            ideology=nazism
+            ideology=geunchulism
             traits={ dislikes_germany }
             expire="6974.6.9.1"
         }

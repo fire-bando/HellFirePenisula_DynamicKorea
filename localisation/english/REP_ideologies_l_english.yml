@@ -4,6 +4,12 @@
  spiritual_conscriptism_desc: "영적 징집주의"
  spiritual_conscriptism_subtype: "desc"
  neutrality: "권위주의"
+ roh_samo: "노사모"
+ roh_samo_desc: "국정원 체제"
+ gaeddal: "개딸"
+ odo_marinism: "해병정신"
+ odo_marinism_desc: "오도 짜세 해병체제"
+ geunchulism: "근출주의"
 
  #-- Communism --#
  commnuism_juche_subtype: "주체사상"

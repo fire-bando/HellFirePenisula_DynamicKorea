@@ -1,26 +1,8 @@
 capital = 269
 
-set_research_slots = 1
-
-recruit_character = HMC_hwang_geun_chul
-recruit_character = HMC_kwae_heung_tae
-recruit_character = HMC_gyeon_ssang_sub
-recruit_character = HMC_son_su_jal
-recruit_character = HMC_park_chul_gon
-recruit_character = HMC_gwak_mal_pung
-recruit_character = HMC_mu_mo_chil
-recruit_character = HMC_tonjung
-recruit_character = HMC_suck_dick_jo
-recruit_character = HMC_jegal_chamsu
-recruit_character = HMC_ma_galgon
-recruit_character = HMC_hwang_ryong
-recruit_character = HMC_por_pip
+set_research_slots = 3
 
 oob = "standard_templates"
-
-create_faction = "해병대 유니버스"
-add_to_faction = JEJ
-add_to_faction = GMP
 
 # Starting tech
 set_politics = {
@@ -30,41 +12,9 @@ set_politics = {
 }
 set_convoys = 2000
 set_popularities = {
-	democratic = 4
-	fascism = 88
-	communism = 4
-	neutrality = 4
+	odo_marinism = 100
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = HMR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = HMR
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1939.1.1"
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 0
-		fascism = 100
-		communism = 0
-		neutrality = 0
-	}
-}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

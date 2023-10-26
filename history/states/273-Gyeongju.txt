@@ -9,7 +9,9 @@ state={
 		victory_points = {
 			8954 20 
 		}
-
+		buildigns = {
+			intrastructure = 4
+		}
 	}
 
 	provinces={

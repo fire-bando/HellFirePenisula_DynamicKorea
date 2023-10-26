@@ -24,16 +24,14 @@ add_to_faction = GMP
 
 # Starting tech
 set_politics = {
-	ruling_party = fascism
+	ruling_party = odo_marinism
 	last_election = "1936.1.1"
 	elections_allowed = no
 }
 set_convoys = 2000
 set_popularities = {
-	democratic = 4
-	fascism = 88
-	communism = 4
-	neutrality = 4
+	odo_marinism = 78
+	spiritual_conscriptism = 22
 }
 
 if = {
@@ -52,19 +50,6 @@ if = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1939.1.1"
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 0
-		fascism = 100
-		communism = 0
-		neutrality = 0
-	}
-}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
