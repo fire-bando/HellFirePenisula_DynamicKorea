@@ -13,6 +13,8 @@ set_autonomy = {
 }
 add_ideas = {
 	SAM_group
+	SAM_bleeding_finance
+	SAM_no_idea_army
 }
 
 recruit_character = SMS_Lee_Jae_yong

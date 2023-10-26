@@ -1,0 +1,19 @@
+
+state={
+	id=676
+	name="STATE_676"
+	history = {
+		owner = DAS
+		add_core_of = DAS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		4561 4564 6810 7700 8080 14316 
+	}
+	state_category = town
+	manpower=23737
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

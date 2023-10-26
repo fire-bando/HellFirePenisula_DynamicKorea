@@ -1,17 +1,17 @@
 ideas = {
 	country = {
 		SAM_bleeding_finance = {
-			picture = trotskyite_plot
+			picture = chi_hyper_inflation
 
 			modifier = {
 				
 			}
 		}
-		SAM_bleeding_finance = {
-			picture = trotskyite_plot
+		SAM_no_idea_army = {
+			picture = chi_army_corruption3
 
 			modifier = {
-
+				
 			}
 		}
 	}

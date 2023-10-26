@@ -350,8 +350,22 @@
  STATE_270:0 "Yeongcheong" #100k
  STATE_271:0 "Gyeongsan" #250k
  STATE_272:0 "Cheongdo" #45k
- STATE_273:0 "Gyeongju" #265k
  STATE_274:0 "Ulleung" #10k
+ 
+ #Gyeongju - 경주
+ STATE_273:0 "경주 중부" #265k
+ STATE_667:0 "양남" #6.2K
+ STATE_668:0 "감포" #5.3K
+ STATE_669:0 "강동" #6.014K
+ STATE_670:0 "서면" #3.111K
+ STATE_671:0 "문무대왕" #4.132K
+ STATE_672:0 "내남" #4654
+ STATE_673:0 "산내" #3269
+ STATE_674:0 "외동" #22.28K
+ STATE_675:0 "천북" #5.737K
+ STATE_676:0 "안강" #23.737K
+ STATE_677:0 "현곡" #21.701K
+ STATE_678:0 "건천" #9.162K
 
  #North Jeolla Province
  STATE_21:0 "전주" #650k

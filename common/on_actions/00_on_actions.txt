@@ -4,7 +4,7 @@ on_actions = {
 			TAE = {
 				country_event = {
 					id = tae_event.1
-					days = 1
+					days = 35
 				}
 			}
 			SBU = {
@@ -19,6 +19,236 @@ on_actions = {
 			}
 			SMS = {
 				add_offsite_building = { type = industrial_complex level = 50 }
+			}
+			USA = {
+				modify_building_resources = {
+					building = industrial_complex
+					resource = rubber
+					amount = 1
+				}
+				modify_building_resources = {
+					building = industrial_complex
+					resource = oil
+					amount = 1
+				}
+				modify_building_resources = {
+					building = industrial_complex
+					resource = aluminium
+					amount = 500
+				}
+				modify_building_resources = {
+					building = industrial_complex
+					resource = tungsten
+					amount = 500
+				}
+				modify_building_resources = {
+					building = industrial_complex
+					resource = steel
+					amount = 500
+				}
+				modify_building_resources = {
+					building = industrial_complex
+					resource = chromium
+					amount = 500
+				}
+				add_offsite_building = { type = industrial_complex level = 500 }
+				add_offsite_building = { type = arms_factory level = 500 }
+				add_offsite_building = { type = dockyard level = 500 }
+				army_experience = 100
+				navy_experience = 100
+				air_experience = 100
+				set_technology = {
+					gwtank_chassis = 1
+					popup = no
+				}
+				set_technology = {
+					basic_light_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					improved_light_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					amphibious_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					amphibious_drive = 1
+					popup = no
+				}			
+				set_technology = {
+					advanced_light_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					basic_medium_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					improved_medium_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					advanced_medium_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					main_battle_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					basic_heavy_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					improved_heavy_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					advanced_heavy_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					super_heavy_tank_chassis = 1
+					popup = no
+				}			
+				set_technology = {
+					armor_tech_1 = 1
+					popup = no
+				}			
+				set_technology = {
+					armor_tech_2 = 1
+					popup = no
+				}			
+				set_technology = {
+					armor_tech_3 = 1
+					popup = no
+				}			
+				set_technology = {
+					armor_tech_4 = 1
+					popup = no
+				}			
+				set_technology = {
+					engine_tech_1 = 1
+					popup = no
+				}			
+				set_technology = {
+					engine_tech_2 = 1
+					popup = no
+				}			
+				set_technology = {
+					engine_tech_3 = 1
+					popup = no
+				}			
+				set_technology = {
+					engine_tech_4 = 1
+					popup = no
+				}
+				set_technology = {
+					gw_artillery = 1
+					popup = no
+				}
+				set_technology = {
+					interwar_artillery = 1
+					popup = no
+				}
+				set_technology = {
+					artillery1 = 1
+					popup = no
+				}
+				set_technology = {
+					artillery2 = 1
+					popup = no
+				}
+				set_technology = {
+					artillery3 = 1
+					popup = no
+				}
+				set_technology = {
+					artillery4 = 1
+					popup = no
+				}
+				set_technology = {
+					artillery5 = 1
+					popup = no
+				}
+				set_technology = {
+					mountain_gun = 1
+					popup = no
+				}
+				set_technology = {
+					rocket_artillery = 1
+					popup = no
+				}
+				set_technology = {
+					rocket_artillery2 = 1
+					popup = no
+				}
+				set_technology = {
+					rocket_artillery3 = 1
+					popup = no
+				}
+				set_technology = {
+					rocket_artillery4 = 1
+					popup = no
+				}
+				set_technology = {
+					interwar_antiair = 1
+					popup = no
+				}
+				set_technology = {
+					antiair1 = 1
+					popup = no
+				}
+				set_technology = {
+					antiair2 = 1
+					popup = no
+				}
+				set_technology = {
+					antiair3 = 1
+					popup = no
+				}
+				set_technology = {
+					antiair4 = 1
+					popup = no
+				}
+				set_technology = {
+					antiair5 = 1
+					popup = no
+				}
+				set_technology = {
+					interwar_antitank = 1
+					popup = no
+				}
+				set_technology = {
+					antitank1 = 1
+					popup = no
+				}
+				set_technology = {
+					antitank2 = 1
+					popup = no
+				}
+				set_technology = {
+					antitank3 = 1
+					popup = no
+				}
+				set_technology = {
+					antitank4 = 1
+					popup = no
+				}
+				set_technology = {
+					antitank5 = 1
+					popup = no
+				}
+				set_technology = {
+					tech_engineers = 1
+					popup = no
+				}
+				set_technology = {
+					tech_engineers2 = 1
+					popup = no
+				}
 			}
 		}
 	}

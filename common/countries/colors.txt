@@ -147,6 +147,7 @@ NKA = {	color = rgb { 132 12 39 }	color_ui = rgb { 132 12 39 }	}
 SKA = {	color = rgb { 50 96 18 }	color_ui = rgb { 50 96 18 }	}
 JES = {	color = rgb { 200 200 200 }	color_ui = rgb { 200 200 200 }	}
 LJM = {	color = rgb { 67 48 48 }	color_ui = rgb { 67 48 48 }	}
+YDG = {	color = rgb { 67 48 48 }	color_ui = rgb { 67 48 48 }	}
 OIL = {	color = rgb { 90 171 1 }	color_ui = rgb { 90 171 1 }	}
 LEA = {	color = rgb { 92 141 194 }	color_ui = rgb { 92 141 194 }	}
 LEI = {	color = rgb { 92 141 6 }	color_ui = rgb { 92 141 6 }	}

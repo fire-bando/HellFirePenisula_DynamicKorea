@@ -13,5 +13,19 @@ ideas = {
                 original_tag = SMS
             }
 		}
+		USA_group = {
+			picture = plot
+
+			modifier = {
+				hidden_modifier = {
+					trade_opinion_factor = -5
+					production_lack_of_resource_penalty_factor = -1
+				}
+				custom_modifier_tooltip = usa_amurica__
+			}
+			available = {
+                original_tag = USA
+            }
+		}
 	}
 }

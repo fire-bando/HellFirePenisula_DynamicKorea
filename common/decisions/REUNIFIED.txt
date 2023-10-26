@@ -1,10 +1,105 @@
 KOR_REUNIFIED = { #ㅊ
 	KOR_UNIFY_SEOUL = {
 		available = {
-			all_owned_state = {
-				
+			25 = {
+				is_owned_by = ROOT
+			}
+			582 = {
+				is_owned_by = ROOT
+			}
+			583 = {
+				is_owned_by = ROOT
+			}
+			584 = {
+				is_owned_by = ROOT
+			}
+			585 = {
+				is_owned_by = ROOT
+			}
+			586 = {
+				is_owned_by = ROOT
+			}
+			587 = {
+				is_owned_by = ROOT
+			}
+			588 = {
+				is_owned_by = ROOT
+			}
+			589 = {
+				is_owned_by = ROOT
+			}
+			618 = {
+				is_owned_by = ROOT
+			}
+			619 = {
+				is_owned_by = ROOT
+			}
+			620 = {
+				is_owned_by = ROOT
+			}
+			621 = {
+				is_owned_by = ROOT
+			}
+			622 = {
+				is_owned_by = ROOT
+			}
+			623 = {
+				is_owned_by = ROOT
+			}
+			624 = {
+				is_owned_by = ROOT
+			}
+			625 = {
+				is_owned_by = ROOT
+			}
+			626 = {
+				is_owned_by = ROOT
+			}
+			627 = {
+				is_owned_by = ROOT
+			}
+			629 = {
+				is_owned_by = ROOT
+			}
+			630 = {
+				is_owned_by = ROOT
+			}
+			632 = {
+				is_owned_by = ROOT
+			}
+			633 = {
+				is_owned_by = ROOT
+			}
+			634 = {
+				is_owned_by = ROOT
 			}
 		}
-		cost = 300
+		complete_effect = {
+			add_state_core = 25
+			add_state_core = 582
+			add_state_core = 583
+			add_state_core = 584
+			add_state_core = 585
+			add_state_core = 586
+			add_state_core = 587
+			add_state_core = 588
+			add_state_core = 589
+			add_state_core = 618
+			add_state_core = 619
+			add_state_core = 620
+			add_state_core = 621
+			add_state_core = 622
+			add_state_core = 623
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 629
+			add_state_core = 630
+			add_state_core = 632
+			add_state_core = 633
+			add_state_core = 634
+		}
+		cost = 15
 	}	
 }
