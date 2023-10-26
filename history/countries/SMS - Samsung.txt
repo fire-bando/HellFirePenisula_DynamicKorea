@@ -11,6 +11,9 @@ set_autonomy = {
 	target = YNG
 	autonomous_state = autonomy_puppet
 }
+add_ideas = {
+	SAM_group
+}
 
 recruit_character = SMS_Lee_Jae_yong
 

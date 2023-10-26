@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		SAM_group = {
+			picture = plot
+
+			modifier = {
+				hidden_modifier = {
+					industrial_factory_donations = 20
+				}
+				custom_modifier_tooltip = samsung_tt
+			}
+			available = {
+                original_tag = SMS
+            }
+		}
+	}
+}
