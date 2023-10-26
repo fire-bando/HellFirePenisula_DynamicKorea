@@ -7,7 +7,6 @@ CHI = "countries/China.txt"
 PRC = "countries/ComChina.txt"
 USA = "countries/USA.txt"
 MAN = "countries/Manchukou.txt"
-DCE = "countries/DCEly.txt"
 GER	= "countries/Germany.txt"
 
 ###
