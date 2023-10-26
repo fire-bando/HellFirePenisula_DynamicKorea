@@ -1,0 +1,38 @@
+guiTypes = {
+	containerWindowType = {
+		name = "REP_politics_faction_leader_container"
+		position = { x = 200 y = 335 }
+		size = { width = 193 height = 20 }
+
+		instantTextboxType = {
+			name = "party_name"
+			position = {x = 153 y = -17}
+			font = "hoi_16mbs"
+			text = "[This.GetRulingParty]"
+			fixedsize = yes
+			maxWidth = 160
+			maxHeight = 20
+			format = center
+		}
+		# iconType = {
+		# 	name = "current_faction_status"
+		# 	spriteType = "GFX_idea_unknown"
+		# 	position = { x = 75 y = -2 }
+		# 	scale = 0.70
+		# 	alwaystransparent = no
+		# 	pdx_tooltip = "CURRENT_FACTION_STATUS_SHORT_TT"
+		# 	pdx_tooltip_delayed = "CURRENT_
+		# 	fixedsize = yesFACTION_STATUS_TT"
+		# 	centerposition = yes
+		# }
+		instantTextboxType = {
+			name = "TNO_subideology"
+			position = { x = 153 y = 0 }
+			font = "hoi_16mbs"
+			text = [GetSubIdeologyLoc]
+			maxWidth = 160
+			maxHeight = 20
+			format  = center
+		}
+	}
+}

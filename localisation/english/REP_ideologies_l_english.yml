@@ -1,5 +1,10 @@
 ﻿l_english:
  spiritual_conscriptism: "영적 징집주의"
- spiritual_conscriptism_ideology: "영적 징집주의"
- spiritual_conscriptism_desc:0 "영적 징집주의"
- neutrality:0 "권위주의"
+ spiritual_conscriptism_subtype: "영적 징집주의"
+ spiritual_conscriptism_desc: "영적 징집주의"
+ spiritual_conscriptism_subtype: "desc"
+ neutrality: "권위주의"
+
+ #-- Communism --#
+ commnuism_juche_subtype: "주체사상"
+ commnuism_juche_subtype_desc: "김일성-김정일주의"

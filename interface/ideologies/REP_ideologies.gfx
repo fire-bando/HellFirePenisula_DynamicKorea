@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_commnuism_juche_subtype"
+		texturefile = "gfx/interface/ideologies/Juche.png"
+	}
+}

@@ -79,6 +79,13 @@ bitmapfonts = {
 		color = 0xff7799ff
 	}
 
+	bitmapfont = {
+		name = "invisiblefont"
+		path = "gfx/fonts/invisiblefont"
+		color = 0xffffffff
+		textcolors = { }
+	}
+
 	# bitmapfont = {
 	# 	name = "Main_24"
 	# 	path = "gfx/fonts/garamond_24"

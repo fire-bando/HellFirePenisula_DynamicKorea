@@ -3,15 +3,11 @@ ideologies = {
 	democratic = {
 
 		types = {
-
-			conservatism = {
-			}
-
-			liberalism = {
-			}
-
-			socialism = {
-			}
+			democratic_subtype = {}
+			
+			conservatism = {}
+			liberalism = {}
+			socialism = {}
 		}
 
 		dynamic_faction_names = {
@@ -67,21 +63,14 @@ ideologies = {
 	communism = {
 
 		types = {
+			communism_subtype = {}
+			commnuism_juche_subtype = {}
 
-			marxism = {
-			}
-
-			leninism = {
-			}
-
-			stalinism = {
-			}
-
-			anti_revisionism = {
-			}
-
-			anarchist_communism = {
-			}
+			marxism = {}
+			leninism = {}
+			stalinism = {}
+			anti_revisionism = {}
+			anarchist_communism = {}
 		}
 
 		dynamic_faction_names = {
@@ -128,21 +117,13 @@ ideologies = {
 	fascism = {
 
 		types = {
+			fascism_subtype = {}
 
-			nazism = {
-			}
-
-			gen_nazism = {
-			}
-
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-
-			rexism = {
-			}
+			nazism = {}
+			gen_nazism = {}
+			fascism_ideology = {}
+			falangism = {}
+			rexism = {}
 		}
 
 		dynamic_faction_names = {
@@ -184,22 +165,15 @@ ideologies = {
 	neutrality = {
 
 		types = {
+			neutrality_subtype = {}
 
-			despotism  = {
-			}
-
-			oligarchism  = {
-			}
-
+			despotism  = {}
+			oligarchism  = {}
 			anarchism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
-
-			moderatism = {
-			}
-
-			centrism = {
-			}
+			moderatism = {}
+			centrism = {}
 		}
 
 		dynamic_faction_names = {
@@ -244,8 +218,7 @@ ideologies = {
 	}
 	spiritual_conscriptism = {
 		types = {
-			spiritual_conscriptism_ideology  = {
-			}
+			spiritual_conscriptism_subtype = {}
 		}
 		color = { 62 21 117 }
 		war_impact_on_world_tension = 1.0			#evil!

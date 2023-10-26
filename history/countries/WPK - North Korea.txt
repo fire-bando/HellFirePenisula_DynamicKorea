@@ -2,6 +2,8 @@ capital = 32
 
 oob = "standard_templates"
 
+recruit_character = WPK_Kim_Jong_Un
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -15,6 +17,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	communism = 100
+}
+
+set_party_name = {
+    ideology = communism
+    long_name = "조선로동당"
+    name = "조선로동당"
 }

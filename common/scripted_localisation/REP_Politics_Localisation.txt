@@ -1,0 +1,64 @@
+defined_text = {
+	name = GetSubIdeologyLoc
+	text = {
+		trigger = { has_government = democratic }
+		localization_key = "[GetSubIdeologyLocDemocratic]"
+	}
+	text = {
+		trigger = { has_government = communism }
+		localization_key = "[GetSubIdeologyLocCommunism]"
+	}
+	text = {
+		trigger = { has_government = fascism }
+		localization_key = "[GetSubIdeologyLocFascism]"
+	}
+	text = {
+		trigger = { has_government = neutrality }
+		localization_key = "[GetSubIdeologyLocNeutrality]"
+	}
+	text = {
+		trigger = { has_government = spiritual_conscriptism }
+		localization_key = "[GetSubIdeologyLocSpiritualConscriptism]"
+	}
+}
+
+
+defined_text = {
+	name = GetSubIdeologyLocDemocratic
+	text = {
+		localization_key = democratic
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocCommunism
+	text = {
+		trigger = { has_country_leader_ideology = commnuism_juche_subtype }
+		localization_key = commnuism_juche_subtype
+	}
+	text = {
+		localization_key = communism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocFascism
+	text = {
+		localization_key = fascism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocNeutrality
+	text = {
+		localization_key = neutrality
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocSpiritualConscriptism
+	text = {
+		localization_key = spiritual_conscriptism
+	}
+}
+
