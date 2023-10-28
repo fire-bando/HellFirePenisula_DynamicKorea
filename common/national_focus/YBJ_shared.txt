@@ -1,0 +1,30 @@
+shared_focus = {
+	id = YBJ_collapse_government
+	icon = GFX
+	
+	cost = 2
+	
+	x = 8
+	y = 0
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_test_2
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_collapse_government
+	}
+
+	cost = 2
+	relative_position_id = YBJ_collapse_government
+	x = 0
+	y = 1
+
+	completion_reward = {
+		
+	}
+}

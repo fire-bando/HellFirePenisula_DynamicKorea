@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		YBJ_legitimacy_government = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = { always = no }
+			
+			removal_cost = -1
+
+			picture = GFX 
+
+			modifier = {
+
+			}
+		}
+
+		YBJ_low_support = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = { always = no }
+			
+			removal_cost = -1
+
+			picture = GFX 
+
+			modifier = {
+				stability_factor = -0.3
+			}
+		}
+	}
+}

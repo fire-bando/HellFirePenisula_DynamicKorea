@@ -17,6 +17,14 @@ add_to_faction = AHN
 add_to_faction = SPO
 add_to_faction = GNG
 
+add_ideas = {
+
+	## Spirits
+	YBJ_legitimacy_government
+	YBJ_low_support
+
+}
+
 set_research_slots = 5
 
 set_convoys = 0

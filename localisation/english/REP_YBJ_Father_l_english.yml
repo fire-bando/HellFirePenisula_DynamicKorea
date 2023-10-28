@@ -1,0 +1,26 @@
+﻿l_english: 
+
+####################################
+###   Yoon Father Localization   ###
+####################################
+
+#1 - Focus
+#2 - Ideas
+
+#################
+###   Focus   ###
+#################
+ focus_Yoon_Father: "윤버지 행정부 중점계통도"
+
+ YBJ_collapse_government: "붕괴한 정부"
+ YBJ_collapse_government_desc: ""
+ YBJ_test_2: ""
+ YBJ_test_2_desc: ""
+
+
+#################
+###   Ideas   ###
+#################
+ YBJ_legitimacy_government: "정통성 있는 정부"
+ YBJ_low_support: "바닥을 기는 지지율"
+ 

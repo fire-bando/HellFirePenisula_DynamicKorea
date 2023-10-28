@@ -1,0 +1,12 @@
+focus_tree = {
+	id = focus_Yoon_Father
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YBJ
+		}
+	}
+	default = no
+	shared_focus = YBJ_collapse_government
+}
