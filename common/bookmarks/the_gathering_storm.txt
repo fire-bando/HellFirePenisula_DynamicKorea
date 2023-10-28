@@ -16,8 +16,17 @@ bookmarks = {
 			
 			}
 		}
+		"SAM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
         
-        "WPK"={
+        "JNR"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {

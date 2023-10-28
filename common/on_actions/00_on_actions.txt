@@ -51,9 +51,9 @@ on_actions = {
 					resource = chromium
 					amount = 500
 				}
-				add_offsite_building = { type = industrial_complex level = 500 }
-				add_offsite_building = { type = arms_factory level = 500 }
-				add_offsite_building = { type = dockyard level = 500 }
+				add_offsite_building = { type = industrial_complex level = 1500 }
+				add_offsite_building = { type = arms_factory level = 1500 }
+				add_offsite_building = { type = dockyard level = 1500 }
 				army_experience = 100
 				navy_experience = 100
 				air_experience = 100

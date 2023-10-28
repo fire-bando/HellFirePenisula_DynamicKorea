@@ -31,6 +31,8 @@ PWS = "countries/South Korea.txt"
 CHU = "countries/South Korea.txt"
 SAG	= "countries/Japan Modern.txt"
 
+JDH = "countries/South Korea.txt"
+PCS = "countries/South Korea.txt"
 SEO = "countries/South Korea.txt"
 CCS = "countries/South Korea.txt"
 NLU = "countries/South Korea.txt"

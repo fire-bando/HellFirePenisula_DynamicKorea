@@ -169,6 +169,7 @@ ideologies = {
 		types = {
 			neutrality_subtype = {}
 
+			gumchal_dokjae = {}
 			despotism  = {}
 			oligarchism  = {}
 			anarchism = {

@@ -99,6 +99,30 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyLocNeutrality
 	text = {
+		trigger = { has_country_leader_ideology = gumchal_dokjae }
+		localization_key = gumchal_dokjae
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism }
+		localization_key = despotism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = oligarchism }
+		localization_key = oligarchism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anarchism }
+		localization_key = anarchism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = moderatism }
+		localization_key = moderatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = centrism }
+		localization_key = centrism
+	}
+	text = {
 		localization_key = neutrality
 	}
 }

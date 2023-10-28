@@ -1,0 +1,42 @@
+add_namespace = samsung_event
+
+# New ace has been promoted
+country_event = { #
+	id = samsung_event.1
+	title = samsung_event.1.t
+	picture = GFX_report_event_generic_sign_treaty1
+    desc = samsung_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = samsung_event.1.a
+		news_event = {
+			id = samsung_event.1000
+		}
+	}
+}
+news_event = { 
+	id = samsung_event.1000
+	title = samsung_event.1000.t
+	picture = GFX_news_event_generic_sign_treaty2
+    desc = samsung_event.1000.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = samsung_event.1000.a
+		trigger = {
+			original_tag = SMS
+		}
+	}
+	option = {
+		name = samsung_event.1000.b
+		trigger = {
+			NOT = {
+				original_tag = SMS
+			}
+		}
+	}
+}

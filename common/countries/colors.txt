@@ -55,6 +55,14 @@ YG1 = {
 	color = rgb { 214 51 51 }
 	color_ui = rgb { 214 51 51 }
 }
+PCS = {
+	color = rgb { 105 20 20 }
+	color_ui = rgb { 105 20 20 }
+}
+JDH = {
+	color = rgb { 189 124 102 }
+	color_ui = rgb { 189 124 102 }
+}
 JNR = {
 	color = rgb { 174 13 43 }
 	color_ui = rgb { 174 13 43 }

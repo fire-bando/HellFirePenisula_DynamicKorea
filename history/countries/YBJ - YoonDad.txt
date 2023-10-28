@@ -12,6 +12,11 @@ set_technology = {
 	basic_train = 1
 }
 
+create_faction = "아아 윤버지"
+add_to_faction = AHN
+add_to_faction = SPO
+add_to_faction = GNG
+
 set_research_slots = 5
 
 set_convoys = 0
