@@ -4,6 +4,10 @@ spriteTypes={
 		texturefile="gfx/leaders/GNG/kim_geonhee.png"
 	}
 	spriteType={
+		name="GFX_ryu_gyeongi_large"
+		texturefile="gfx/leaders/RGG/ryu_gyeongi.png"
+	}
+	spriteType={
 		name="GFX_AHN_cheol_su_large"
 		texturefile="gfx/leaders/AHN/cheol_su.png"
 	}

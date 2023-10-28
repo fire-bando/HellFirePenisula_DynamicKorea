@@ -1,0 +1,14 @@
+characters={ 
+    RGG_ryu_gyeongi={
+        name=RGG_ryu_gyeongi
+        portraits={
+            civilian={
+                large=GFX_ryu_gyeongi_large
+            }
+        }
+        country_leader={
+            ideology=gaeddal
+            expire="2020.8.16"
+        }
+    }
+ }
