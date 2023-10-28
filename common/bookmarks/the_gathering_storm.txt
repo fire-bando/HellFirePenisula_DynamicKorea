@@ -7,16 +7,7 @@ bookmarks = {
 		default_country = "ROK"
 		default = yes
 		
-		"ROK"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			
-			}
-		}
-		"SAM"={
+		"SMS"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -36,7 +27,7 @@ bookmarks = {
 			}
 		}
         
-        "RUS"={
+        "YBJ"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
@@ -46,17 +37,7 @@ bookmarks = {
 			}
 		}
         
-        "CHN"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			
-			}
-		}
-        
-        "JPN"={
+        "YG1"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
@@ -65,6 +46,7 @@ bookmarks = {
 			
 			}
 		}
+        
 		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
