@@ -1,5 +1,20 @@
 leader_traits = {
 	
+	half_human_half_god = {
+		random = no
+		political_power_factor = 0.25
+		communism_acceptance = -100
+		stability_factor = 0.516
+		political_power_factor = 0.25
+		ai_focus_aggressive_factor = 0.5
+		ai_focus_military_advancements_factor = 0.5
+		ai_desired_divisions_factor = 0.75
+		command_power_gain = 0.5
+		hidden_modifier = {
+			weekly_manpower = 500
+		}
+	}
+	
 	dictator = {
 		random = no
 		political_power_factor = 0.25

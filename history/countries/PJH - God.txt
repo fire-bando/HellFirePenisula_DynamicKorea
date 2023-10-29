@@ -1,0 +1,26 @@
+capital = 257
+
+starting_train_buffer = 1026
+
+recruit_character = PJH_commander
+recruit_character = PJH_god
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+set_research_slots = 3
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2020.4.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}

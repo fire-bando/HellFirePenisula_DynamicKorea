@@ -28,6 +28,10 @@ defined_text = {
 		trigger = { has_government = spiritual_conscriptism }
 		localization_key = "[GetSubIdeologyLocSpiritualConscriptism]"
 	}
+	text = {
+		trigger = { has_government = parkism }
+		localization_key = "[GetSubIdeologyLocParkism]"
+	}
 }
 
 
@@ -48,6 +52,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = gaeddal }
 		localization_key = gaeddal
+	}
+	text = {
+		trigger = { has_country_leader_ideology = aeguk_bosu }
+		localization_key = aeguk_bosu
 	}
 	text = {
 		localization_key = democratic
@@ -149,6 +157,17 @@ defined_text = {
 	name = GetSubIdeologyLocRohSamo
 	text = {
 		localization_key = roh_samo
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocParkism
+	text = {
+		trigger = { has_country_leader_ideology = chinbak }
+		localization_key = chinbak
+	}
+	text = {
+		localization_key = parkism
 	}
 }
 

@@ -1,0 +1,30 @@
+characters={ 
+    PJH_teulni={
+        name=PJH_teulni
+        portraits={
+            civilian={
+                large=""
+            }
+        }
+        country_leader={
+            ideology=aeguk_bosu
+            expire="1960.8.16"
+        }
+    }
+    PJH_god={
+        name=PJH_god
+        portraits={
+            civilian={
+                large="gfx/leaders/PJH/박정희.png"
+            }
+        }
+        country_leader={
+            ideology=gaka
+            expire="1979.10.26"
+            traits = {
+                half_human_half_god
+                economic_reformer
+            }
+        }
+    }
+}

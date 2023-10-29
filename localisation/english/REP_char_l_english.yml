@@ -15,7 +15,7 @@
  HMC_ma_galgon:0 "마갈곤"
  HMC_mu_mo_chil:0 "무모칠"
  
- JNR_daejung_kim:0 "사이버김대중"
+ JNR_daejung_kim:0 "인민대표자회의"
  JNR_jiwon_park:0 "박지원"
  RGG_ryu_gyeongi:0 "류경기"
  JNR_place_holder:0 "플레이스 홀더"
@@ -30,5 +30,8 @@
  AIR_airgeunchul:0 "공군출"
  TAE_junpyo_hong:0 "홍준표"
  ASS_k1:0 "국K1 스타디움"
+
+ PJH_teulni:0 "틀니딱딱씹보수단체수장"
+ PJH_god:0 "박정희"
 
  piaze_clock: "[USA.getName]"

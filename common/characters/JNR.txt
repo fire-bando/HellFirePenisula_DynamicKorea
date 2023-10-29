@@ -3,7 +3,7 @@ characters={
         name=JNR_daejung_kim
         portraits={
             civilian={
-                large=JNR_daejung_kim_large
+                large=GFX_portrait_SOV_supreme_soviet
             }
         }
         country_leader={

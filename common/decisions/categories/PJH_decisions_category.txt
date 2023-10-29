@@ -1,0 +1,5 @@
+PJH_revive = {
+    allowed = {
+        original_tag = PJH
+    }
+}
