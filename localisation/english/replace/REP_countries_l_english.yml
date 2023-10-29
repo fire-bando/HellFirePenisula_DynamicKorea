@@ -42,29 +42,27 @@
 
 
  CHU_democratic:0 "충주 공화국"
- CHU_democratic_ADJ:0 "충주 공화국"
  CHU_communism:0 "충주 농민 연합"
- CHU_fascism:0 "충주 임플란트 주권국"
- CHU_neutrality:0 "충주" #임시국명
-
- CHU_democratic_ADJ:0 "충주 공화국"
- CHU_communism_ADJ:0 "충주 농민 연합"
- CHU_fascism_ADJ:0 "충주 임플란트 주권국"
+ CHU_fascism:0 "강원도인 형제단 돌격사단"
+ CHU_neutrality:0 "대한민국 충주정부"
+ CHU_implantism:0 "충주 임플란트 주권국"
+ 
+ CHU_democratic_ADJ:0 "충주"
+ CHU_communism_ADJ:0 "충주"
+ CHU_fascism_ADJ:0 "충주" 
  CHU_neutrality_ADJ:0 "충주"
+ CHU_implantism_ADJ:0 "충주"
 
  CHU_democratic_DEF:0 "충주 공화국"
-
- CHU_communism:0 "충주 농민 연합"
- CHU_communism_ADJ:0 "충주 농민 연합"
  CHU_communism_DEF:0 "충주 농민 연합"
+ CHU_fascism_DEF:0 "강원도인 형제단 돌격사단" 
+ CHU_neutrality_DEF:0 "대한민국 충주정부"
+ CHU_implantism_DEF:0 "충주 임플란트 주권국"
 
- CHU_fascism:0 "충주 임플란트 주권국"
- CHU_fascism_ADJ:0 "충주 임플란트 주권국"
- CHU_fascism_DEF:0 "충주 임플란트 주권국"
-
- CHU_neutrality_DEF:0 "충주"
- CHU_neutrality:0 "충주" #임시국명
- CHU_neutrality_ADJ:0 "충주"
+ CHU_subject:0 "$OVERLORDADJ$령 $CHU$"
+ CHU_subject_DEF:0 "$OVERLORDADJ$령 $CHU$"
+ CHU_GAN_fascism_subject:0 "강원도인 형제단 충주지부"
+ MAC_ITA_fascism_subject_DEF:0 "강원도인 형제단 충주지부"
  
  SAG_democratic:0 "사가현" 
  SAG_communism:0 "사가 코뮌"
