@@ -310,7 +310,6 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 		ai_ideology_wanted_units_factor = 1.65
 	}
-<<<<<<< Updated upstream
 	parkism = {
 
 		types = {
@@ -363,7 +362,6 @@ ideologies = {
 		ai_fascist = yes #
 		ai_ideology_wanted_units_factor = 1.15
 	}
-=======
 	implantism = {
 		types = {
 			implantism_subtype = {}
@@ -394,7 +392,4 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 		ai_ideology_wanted_units_factor = 1.65
 	}
-	
-
->>>>>>> Stashed changes
 }
