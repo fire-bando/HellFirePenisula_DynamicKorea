@@ -1,0 +1,34 @@
+﻿JNR_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { JNR }
+
+	can_use = {	Not = { has_government = communism } }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { JNR_GAR_01 }
+
+	fallback_name = "%dth Jeolla People's Liberate Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Jeolla People's Liberate Division 'Democratization'" }
+		2 = { "%dnd Jeolla People's Liberate Division 'Anti-Tank'" }
+		3 = { "%drd Jeolla People's Liberate Division 'Love'" }
+		4 = { "%dth Jeolla People's Liberate Division" }
+		5 = { "%dth Jeolla People's Liberate Division 'Revolution'" }
+		6 = { "%dth Jeolla People's Liberate Division ''" }
+		7 = { "%dth Jeolla People's Liberate Division 'People'" }
+		8 = { "%dth Jeolla People's Liberate Division 'Free'" }
+		9 = { "%dth Jeolla People's Liberate Division 'Rodong'" }
+		10 = { "%dth Jeolla People's Liberate Division" }
+		11 = { "%dth Jeolla People's Liberate Division 'Daejung Kim'" }
+		12 = { "%dth Jeolla People's Liberate Division 'Victory'" }
+		100 = { "Capital Infantry Division" }
+	}
+}
