@@ -141,6 +141,31 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = JNR_commonwealth
+		icon = sbs
+		x = 1
+		y = 1
+		relative_position_id = JNR_nono_runrun
+		prerequisite = { focus = JNR_nono_runrun }
+		prerequisite = { focus = JNR_gukanbub }
+		cost = 10
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JNR_socialism_with_jeolla_state_characteristics_for_a_new_era
+		icon csc
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = JNR_commonwealth
+		prerequisite = { focus = JNR_commonwealth }
+		completion_reward = {
+
+		}
+	}
 
 
 
