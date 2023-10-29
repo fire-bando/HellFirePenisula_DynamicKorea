@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = JNR_rep
 		icon = GFX_abcdef
-		x = 14
+		x = 26
 		y = 0
 		cost = 5
 		completion_reward = {
@@ -27,7 +27,7 @@ focus_tree = {
 	focus = {
 		id = JNR_summon_gi_jeong_kang
 		icon = GFX_abcdef
-		x = -10
+		x = -14
 		y = 1
 		cost = 0
 		available = {
@@ -54,7 +54,7 @@ focus_tree = {
 	focus = {
 		id = JNR_jeonlang_diplomancy
 		icon = aa
-		x = -4
+		x = -8
 		y = 1
 		prerequisite = { focus = JNR_summon_gi_jeong_kang }
 		relative_position_id = JNR_summon_gi_jeong_kang
@@ -63,11 +63,11 @@ focus_tree = {
 	focus = {
 		id = JNR_attack_sinan
 		icon = yb
-		x = -5
-		y = 2
+		x = -1
+		y = 1
 		cost =10
 		prerequisite = { focus = JNR_jeonlang_diplomancy }
-		relative_position_id = JNR_summon_gi_jeong_kang
+		relative_position_id = JNR_jeonlang_diplomancy
 		completion_reward = {
 			declare_war_on = {
 				target = SIN
@@ -83,23 +83,20 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JNR_there_is_no_god
+		id = JNR_there_is_only_one_communist_state
 		icon = yb
-		x = -3
-		y = 2
+		x = 1
+		y = 1
 		cost =10
 		prerequisite = { focus = JNR_jeonlang_diplomancy }
-		relative_position_id = JNR_summon_gi_jeong_kang
+		relative_position_id = JNR_jeonlang_diplomancy
 		completion_reward = {
 			declare_war_on = {
-				target = JES
+				target = PCS
 				type = annex_everything
 			}
 			hidden_effect = {
-				326 = {
-					add_claim_of = JNR
-				}
-				252 = {
+				305 = {
 					add_claim_of = JNR
 				}
 			}
@@ -144,40 +141,6 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = JNR_sukcheong
-		icon = yb
-		x = 4
-		y = 1
-		cost =10
-		prerequisite = { focus = JNR_summon_gi_jeong_kang }
-		relative_position_id = JNR_summon_gi_jeong_kang
-		completion_reward = {
-			declare_war_on = {
-				target = SIN
-				type = annex_everything
-			}
-			hidden_effect = {
-				SIN = {
-					every_owned_state = {
-						add_core_of = JNR
-					}
-				}
-			}
-		}
-	}
-	focus = {
-		id = JNR_anti_fragile
-		icon = ac
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = JNR_sukcheong }
-		relative_position_id = JNR_sukcheong
-		completion_reward = {
-
-		}
-	}
 
 
 
@@ -186,7 +149,7 @@ focus_tree = {
 	focus = {
 		id = JNR_who_is_he
 		icon = GFX_abcdef
-		x = 10
+		x = 14
 		y = 1
 		cost = 0
 		available = { always = no }

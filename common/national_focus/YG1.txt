@@ -1,8 +1,5 @@
 focus_tree = {
 	id = YG1_focus
-	initial_show_position = {
-		focus = ABY_newfocus_0
-	}
 	continuous_focus_position = { x = 0 y = 1560 }
 	country = {
 		factor = 0
@@ -12,11 +9,11 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
-		id = YG1_gyeongsang
-		icon = GFX_abcdef
-		x = 5
-		y = 0
-		cost = 5
-	}
+	# focus = {
+	# 	id = YG1_gyeongsang
+	# 	icon = GFX_abcdef
+	# 	x = 5
+	# 	y = 0
+	# 	cost = 5
+	# }
 }
