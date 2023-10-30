@@ -18,6 +18,9 @@
  implantism: "증강주의"
  implantism_subtype: "증강주의"
  implantism_desc: "증강주의"
+ idolism: "아이돌주의"
+ idolism_subtype: "아이돌주의"
+ idolism_desc: "아이돌주의"
 
  #-- Communism --#
  commnuism_juche_subtype: "주체사상"
