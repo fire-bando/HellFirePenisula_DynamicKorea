@@ -65,8 +65,8 @@
  SAG_communism:0 "사가 코뮌"
  SAG_fascism:0 "사가국"
  SAG_neutrality:0 "사가"
- SAG_implantism :"사가 임플란트국"
- SAG_idolism："프랑슈슈"
+ SAG_implantism:0 "사가 임플란트국"
+ SAG_idolism:0 "프랑슈슈"
 
  SAG_subject:0 "$OVERLORDADJ$령 $SAG$"
  SAG_subject_DEF:0 "$OVERLORDADJ$령 $SAG$"
@@ -76,14 +76,14 @@
  SAG_fascism_ADJ:0 "사가" 
  SAG_neutrality_ADJ:0 "사가"
  SAG_implantism_ADJ:0 사가"
- SAG_idolism_ADJ："사가"
+ SAG_idolism_ADJ:0 "사가"
 
  SAG_democratic_DEF:0 "사가현"
  SAG_communism_DEF:0 "사가 코뮌"
  SAG_fascism_DEF:0 "사가국"
  SAG_neutrality_DEF:0 "사가"
  SAG_implantism_DEF:0 "사가 임플란트국"
- SAG_idolism："프랑슈슈"
+ SAG_idolism:0 "프랑슈슈"
  
  JBR: "전라"
  JBR_DEF: "전라"
