@@ -39,8 +39,6 @@
  JBR_communism_ADJ:0 "전라인민공화국 전주정부"
  JBR_communism_DEF:0 "전라인민공화국 전주정부"
 
-
-
  CHU_democratic:0 "충주 공화국"
  CHU_communism:0 "충주 농민 연합"
  CHU_fascism:0 "강원도인 형제단 돌격사단"
@@ -69,14 +67,17 @@
  SAG_neutrality:0 "사가"
  SAG_implantism :"사가 임플란트국"
  SAG_idolism："프랑슈슈"
+
  SAG_subject:0 "$OVERLORDADJ$령 $SAG$"
  SAG_subject_DEF:0 "$OVERLORDADJ$령 $SAG$"
+
  SAG_democratic_ADJ:0 "사가"
  SAG_communism_ADJ:0 "사가"
  SAG_fascism_ADJ:0 "사가" 
  SAG_neutrality_ADJ:0 "사가"
  SAG_implantism_ADJ:0 사가"
  SAG_idolism_ADJ："사가"
+
  SAG_democratic_DEF:0 "사가현"
  SAG_communism_DEF:0 "사가 코뮌"
  SAG_fascism_DEF:0 "사가국"
