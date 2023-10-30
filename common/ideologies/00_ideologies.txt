@@ -419,7 +419,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 		}
 
-		ai_fascist = no
 		ai_ideology_wanted_units_factor = 1.65
 	}
 }
