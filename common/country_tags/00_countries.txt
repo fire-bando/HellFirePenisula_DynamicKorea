@@ -30,7 +30,7 @@ SIN = "countries/South Korea.txt"
 PWS = "countries/South Korea.txt"
 CHU = "countries/South Korea.txt"
 SAG	= "countries/Japan Modern.txt"
-
+CIC = "countries/South Korea.txt"
 RGG = "countries/South Korea.txt"
 JDH = "countries/South Korea.txt"
 PCS = "countries/South Korea.txt"

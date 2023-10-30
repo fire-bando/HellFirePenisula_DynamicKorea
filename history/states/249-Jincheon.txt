@@ -2,8 +2,8 @@ state={
 	id=249
 	name="STATE_249"
 	history={
-		owner = UNF
-		add_core_of = UNF
+		owner = CIC
+		add_core_of = CIC
         victory_points = { 4111 5 }
 	}
 	provinces={
