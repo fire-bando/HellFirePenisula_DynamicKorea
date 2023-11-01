@@ -1,0 +1,29 @@
+state={
+	id=685
+	name="STATE_685"
+	resources = {
+		oil = 400
+		aluminium = 400
+		rubber = 400
+		tungsten = 400
+		steel = 400
+		chromium = 400
+	}
+	history = {
+		add_core_of = YG1
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			8527 = {
+				naval_base = 10
+			}
+		}
+	}
+	provinces={
+		8527 
+	}
+	manpower=319
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
