@@ -12,7 +12,7 @@ ideas = {
 			picture = GFX 
 
 			modifier = {
-
+				stability_factor = 0.24
 			}
 		}
 
@@ -28,7 +28,8 @@ ideas = {
 			picture = GFX 
 
 			modifier = {
-				stability_factor = -0.3
+				stability_factor = -0.65
+				war_support_factor = -0.1
 			}
 		}
 	}
