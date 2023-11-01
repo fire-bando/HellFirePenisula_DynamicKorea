@@ -421,6 +421,18 @@
  RPL_ADJ:0 "김문수 댓글부대 연구소"
  RPL_DEF:0 "김문수 댓글부대 연구소"
 
+ PCS:0 "조선인민유격대"
+ PCS_DEF:0 "조선인민유격대"
+ PCS_ADJ:0 "조선인민유격대"
+
+ RGG:0 "류경기경기국"
+ RGG_ADJ:0 "류경기경기국"
+ RGG_DEF:0 "류경기경기국"
+
+ IBE:0 "베충이"
+ IBE_ADJ:0 "베충이"
+ IBE_DEF:0 "베충이"
+ 
  #cosmetic ㅈㄴ 늘어나기 전까지 임시통합
  SBU_BUG:0 "부울경인민혁명위원회"
  SBU_BUG_ADJ:0 "부울경인민혁명위원회"
@@ -430,10 +442,3 @@
  GNW_TAE_neutrality_autonomy_colony:0 "군위구"
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
 
- PCS:0 "조선인민유격대"
- PCS_DEF:0 "조선인민유격대"
- PCS_ADJ:0 "조선인민유격대"
-
- RGG:0 "류경기경기국"
- RGG_ADJ:0 "류경기경기국"
- RGG_DEF:0 "류경기경기국"

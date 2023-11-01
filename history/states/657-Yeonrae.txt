@@ -5,6 +5,9 @@ state={
 		owner = BUS
 		add_core_of = BUS
 		add_core_of = SBU
+		victory_points = {
+			14739 10 
+		}
 		buildings = {
 			industrial_complex = 2
 			arms_factory = 4

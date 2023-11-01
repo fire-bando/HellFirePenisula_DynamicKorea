@@ -1,0 +1,14 @@
+state={
+	id=680
+	name="STATE_680"
+	history={
+		owner = TAE
+		add_core_of = TAE
+	}
+	provinces={
+		3271 6845 8606 9511 14335 14383 14392 
+	}
+	manpower=349379
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

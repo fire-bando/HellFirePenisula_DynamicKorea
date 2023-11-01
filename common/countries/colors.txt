@@ -191,3 +191,4 @@ HNU = {	color = rgb { 148 242 111 }	color_ui = rgb { 148 242 111 }	}
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
 SBU = {	color = rgb { 140 3 3 }	color_ui = rgb { 140 3 3 }	}
 RGG = {	color = rgb { 81 0 21 }	color_ui = rgb { 81 0 21 }	}
+IBE = {	color = rgb { 150 39 27 }	color_ui = rgb { 150 39 27 }	}

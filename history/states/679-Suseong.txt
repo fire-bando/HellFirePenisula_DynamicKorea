@@ -1,0 +1,16 @@
+state={
+	id=679
+	name="STATE_679"
+	history={
+		owner = IBE
+		add_core_of = IBE
+		add_core_of = TAE
+	}
+	provinces={
+		5217 6440 8859 14424 
+	}
+	manpower=420000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}
