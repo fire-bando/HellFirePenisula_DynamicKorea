@@ -5,6 +5,9 @@ state={
 		owner = ASS
 		add_core_of = ASS
 		set_demilitarized_zone = yes
+		victory_points = {
+			13535 35
+		}
 	}
 	provinces={
 		13535 
