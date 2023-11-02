@@ -1,13 +1,19 @@
+
 state={
 	id=361
 	name="STATE_361"
+
 	history={
 		owner = SCJ
 		add_core_of = SCJ
-        victory_points = { 6797 30 }
+		victory_points = {
+			6797 30 
+		}
+
 	}
+
 	provinces={
-		2834 6797 7000 7889 9313 13565 13585 13600 
+		2834 6797 7889 9313 13565 13585 13600 
 	}
 	manpower=670000
 	buildings_max_level_factor=1.000

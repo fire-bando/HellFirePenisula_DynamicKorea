@@ -337,6 +337,10 @@
  ASS_DEF:0 "국K-1 경기장"
  ASS_ADJ:0 "국K-1
  
+ BMB: "법무부"
+ BMB_DEF: "법무부"
+ BMB_ADJ: "법무부"
+ 
  SPO:0 "대검찰청"
  SPO_DEF:0 "대검찰청"
  SPO_ADJ:0 "대검찰청"
