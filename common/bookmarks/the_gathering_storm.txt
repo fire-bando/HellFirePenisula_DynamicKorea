@@ -2,10 +2,20 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2022.1.1.12
+		date = 2023.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "ROK"
+		default_country = "YBJ"
 		default = yes
+        
+        "YBJ"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
 		
 		"SMS"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -20,16 +30,6 @@ bookmarks = {
         "JNR"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			
-			}
-		}
-        
-        "YBJ"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
@@ -54,6 +54,55 @@ bookmarks = {
 		
 		# minors from DLC ####
 
+		"HMC"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AHN"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"NON"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"BMB"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"SPO"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
 
 		effect = {

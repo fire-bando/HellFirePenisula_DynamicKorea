@@ -32,6 +32,10 @@ defined_text = {
 		trigger = { has_government = parkism }
 		localization_key = "[GetSubIdeologyLocParkism]"
 	}
+	text = {
+		trigger = { has_government = feminism }
+		localization_key = "[GetSubIdeologyLocFeminism]"
+	}
 }
 
 
@@ -168,6 +172,17 @@ defined_text = {
 	}
 	text = {
 		localization_key = parkism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocFeminism
+	text = {
+		trigger = { has_country_leader_ideology = radical_feminism }
+		localization_key = radical_feminism
+	}
+	text = {
+		localization_key = feminism
 	}
 }
 
