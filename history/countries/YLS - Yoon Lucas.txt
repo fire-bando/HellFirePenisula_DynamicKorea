@@ -1,8 +1,8 @@
-capital = 257
+capital = 612
 
-starting_train_buffer = 1026
+recruit_character = YLS_lucas
 
-recruit_character = PJH_god
+starting_train_buffer = 12
 
 # Starting tech
 set_technology = {
@@ -10,16 +10,16 @@ set_technology = {
 	basic_train = 1
 }
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_convoys = 0
 
 set_politics = {
-	ruling_party = parkism
+	ruling_party = democratic
 	last_election = "2020.4.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	parkism = 100
+	democratic = 100
 }

@@ -1,0 +1,14 @@
+characters={ 
+    YLS_lucas={
+        name=YLS_lucas
+        portraits={
+            civilian={
+                large=GFX_YLS_lucas
+            }
+        }
+        country_leader={
+            ideology=aeguk_bosu
+            expire="1960.8.16"
+        }
+    }
+ }

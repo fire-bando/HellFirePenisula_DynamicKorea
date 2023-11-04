@@ -1,5 +1,9 @@
 spriteTypes={
 	spriteType={
+		name="GFX_YLS_lucas"
+		texturefile="gfx/leaders/YLS/lukas.png"
+	}
+	spriteType={
 		name="GFX_GNG_kim_geonhee_large"
 		texturefile="gfx/leaders/GNG/kim_geonhee.png"
 	}

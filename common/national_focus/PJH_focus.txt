@@ -1,0 +1,27 @@
+focus_tree = {
+	id = PJH_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PJH
+		}
+	}
+	default = no
+	focus = {
+		id = PJH_wtf_is_this
+		icon = GFX_abcdef
+		x = 26
+		y = 0
+		cost = 5
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = pjh_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+}
