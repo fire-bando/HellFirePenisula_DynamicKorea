@@ -277,9 +277,9 @@
  SKA_DEF:0 "대한군정청"
  SKA_ADJ:0 "대한군정청"
  
- JES:0 "신성복음연합"
- JES_DEF:0 "신성복음연합"
- JES_ADJ:0 "신성복음연합"
+ JMS:0 "신성복음연합"
+ JMS_DEF:0 "신성복음연합"
+ JMS_ADJ:0 "신성복음연합"
  
  LJM:0 "국제마피아파"
  LJM_DEF:0 "국제마피아파"
@@ -441,6 +441,22 @@
  IBE_ADJ:0 "베충이"
  IBE_DEF:0 "베충이"
 
+ BUY:0 "부여 계승국"
+ BUY_ADJ:0 "부여 계승국"
+ BUY_DEF:0 "부여 계승국"
+ 
+ TNK:0 "탱크를 들고 일어난 하나의 혁명"
+ TNK_DEF:0 "탱크를 들고 일어난 하나의 혁명"
+ TNK_ADJ:0 "탱크를 들고 일어난 하나의 혁명"
+
+ AML:0 "동물의 왕국"
+ AML_ADJ:0 "동물의 왕국"
+ AML_DEF:0 "동물의 왕국"
+ 
+ YED:0 "가장 신성한 영동지방의 주인"
+ YED_DEF:0 "가장 신성한 영동지방의 주인"
+ YED_ADJ:0 "가장 신성한 영동지방의 주인"
+
  GIR:0 "걸스캔두애니띵"
  GIR_ADJ:0 "걸스캔두애니띵"
  GIR_DEF:0 "걸스캔두애니띵"
@@ -454,3 +470,13 @@
  GNW_TAE_neutrality_autonomy_colony:0 "군위구"
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
 
+ YED_JNR:0 "전라인민공화국령 충청지역 식민지"
+ YED_JNR_ADJ:0 "홍어령 멍청"
+ YED_JNR_DEF:0 "홍어령 멍청"
+
+ FUCK:0 "문어삼겹살고추장구이 지역방위위원회"
+ FUCK_ADJ:0 "양념닭발 자유지구"
+ FUCK_DEF:0 "양념닭발 자유지구"
+
+ SUCK:0 "보수틀딱청어 75% 할인! 충주 시민이라면 지금 혜택보세요"
+ BUCK:0 "좌빨병신고아"

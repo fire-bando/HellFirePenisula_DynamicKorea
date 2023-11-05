@@ -153,7 +153,7 @@ INC = {	color = rgb { 10 10 30 }	color_ui = rgb { 10 10 30 }	}
 DNT = {	color = rgb { 90 189 196 }	color_ui = rgb { 90 189 196 }	}
 NKA = {	color = rgb { 132 12 39 }	color_ui = rgb { 132 12 39 }	}
 SKA = {	color = rgb { 50 96 18 }	color_ui = rgb { 50 96 18 }	}
-JES = {	color = rgb { 200 200 200 }	color_ui = rgb { 200 200 200 }	}
+JMS = {	color = rgb { 200 200 200 }	color_ui = rgb { 200 200 200 }	}
 LJM = {	color = rgb { 67 48 48 }	color_ui = rgb { 67 48 48 }	}
 YDG = {	color = rgb { 67 48 48 }	color_ui = rgb { 67 48 48 }	}
 OIL = {	color = rgb { 90 171 1 }	color_ui = rgb { 90 171 1 }	}
@@ -189,9 +189,13 @@ GGR = {	color = rgb { 150 16 16 }	color_ui = rgb { 150 16 16 }	}
 KDH = {	color = rgb { 156 63 255 }	color_ui = rgb { 156 63 255 }	}
 KRI = {	color = rgb { 243 212 0 }	color_ui = rgb { 243 212 0 }	}
 HNU = {	color = rgb { 148 242 111 }	color_ui = rgb { 148 242 111 }	}
-ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
 SBU = {	color = rgb { 140 3 3 }	color_ui = rgb { 140 3 3 }	}
 RGG = {	color = rgb { 81 0 21 }	color_ui = rgb { 81 0 21 }	}
 IBE = {	color = rgb { 150 39 27 }	color_ui = rgb { 150 39 27 }	}
 YLS = {	color = rgb { 157 18 37 }	color_ui = rgb { 157 18 37 }	}
+BUY = {	color = rgb { 106 84 69 }	color_ui = rgb { 106 84 69 }	}
+YED = {	color = rgb { 34 172 56 }	color_ui = rgb { 34 172 56 }	}
 GIR = {	color = rgb { 247 49 178 }	color_ui = rgb { 247 49 178 }	}
+TNK = {	color = rgb { 106 161 19 }	color_ui = rgb { 106 161 19 }	}
+AML = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
+ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}

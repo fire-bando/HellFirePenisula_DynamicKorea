@@ -4,8 +4,8 @@ state={
 	name="STATE_566"
 
 	history={
-		owner = ROK
-		add_core_of = ROK
+		owner = AML
+		add_core_of = AML
         set_demilitarized_zone = yes
 	}
 

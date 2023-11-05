@@ -22,6 +22,13 @@ if = {
 		}
 	}
 	set_autonomy = {
+		target = YED
+		autonomous_state = autonomy_colony
+	}
+	YED = {
+		set_cosmetic_tag = YED_JNR
+	}
+	set_autonomy = {
 		target = YG1
 		autonomous_state = autonomy_integrated_puppet
 	}

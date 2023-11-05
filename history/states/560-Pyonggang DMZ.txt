@@ -2,8 +2,8 @@ state={
 	id=560
 	name="STATE_560"
 	history={
-		owner = WPK
-		add_core_of = WPK
+		owner = NKA
+		add_core_of = NKA
         set_demilitarized_zone = yes
 	}
 	provinces={

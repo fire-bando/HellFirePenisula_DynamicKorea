@@ -4,7 +4,6 @@ state={
 	history = {
 	    owner = III
 		add_core_of = III
-        set_demilitarized_zone = yes
 	}
 	provinces={
 		2728 3043 3792 5306 5529 12969 13035 
