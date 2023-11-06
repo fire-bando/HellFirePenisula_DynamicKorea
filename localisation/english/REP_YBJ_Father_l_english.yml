@@ -14,9 +14,32 @@
 
  YBJ_collapse_government: "붕괴한 정부"
  YBJ_collapse_government_desc: ""
- YBJ_test_2: ""
- YBJ_test_2_desc: ""
+ YBJ_grasp_situation: "사태 파악"
+ YBJ_grasp_situation_desc: ""
+ YBJ_call_nsc: "국가안전보장회의 호출"
+ YBJ_call_nsc_desc: ""
+ YBJ_declare_emergency: "비상사태 선포"
+ YBJ_declare_emergency_desc: ""
+ YBJ_prosecution_dictatorship: "검찰독재" 
+ YBJ_prosecution_dictatorship_desc: ""
+ YBJ_integration_moj_prosecution: "법무부-대검찰청 통합"
+ YBJ_integration_moj_prosecution_desc: ""
+ YBJ_sixty_nine_hour: "주 69시간제 시행"
+ YBJ_sixty_nine_hour_desc: ""
+ YBJ_occupy_assembly: "국회 점거"
+ YBJ_occupy_assembly_desc: ""
 
+ # 권력투쟁 #
+ YBJ_power_struggle: "권력 투쟁"
+ YBJ_power_struggle_desc: ""
+ YBJ_yoon_father_power: "윤버지"
+ YBJ_yoon_father_power_desc: ""
+ YBJ_andy_lee_power: "개준스기"
+ YBJ_andy_lee_power_desc: ""
+ YBJ_ahn_cheol_soo_power: "간철수"
+ YBJ_ahn_cheol_soo_power_desc: ""
+ YBJ_unknown_power: "Unknown"
+ YBJ_unknown_power_desc: ""
 
 #################
 ###   Ideas   ###

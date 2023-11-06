@@ -1,3 +1,5 @@
+### 시작 ###
+
 shared_focus = {
 	id = YBJ_collapse_government
 	icon = GFX
@@ -13,7 +15,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_test_2
+	id = YBJ_grasp_situation
 	icon = GFX
 	prerequisite = {
 		focus = YBJ_collapse_government
@@ -21,6 +23,107 @@ shared_focus = {
 
 	cost = 2
 	relative_position_id = YBJ_collapse_government
+	x = -1
+	y = 1
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_call_nsc
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_collapse_government
+	}
+
+	cost = 2
+	relative_position_id = YBJ_collapse_government
+	x = 1
+	y = 1
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_declare_emergency
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_call_nsc
+	}
+	prerequisite = {
+		focus = YBJ_grasp_situation
+	}
+
+	cost = 2
+	relative_position_id = YBJ_call_nsc
+	x = -1
+	y = 1
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_prosecution_dictatorship
+	icon = GFX
+	# prerequisite = {
+	# 	focus = YBJ_grasp_situation
+	# }
+	# prerequisite = {
+	# 	focus = YBJ_call_nsc
+	# }
+	prerequisite = {
+		focus = YBJ_declare_emergency
+	}
+
+	cost = 2
+	relative_position_id = YBJ_declare_emergency
+	x = 0
+	y = 3
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_integration_moj_prosecution
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_prosecution_dictatorship
+	}
+
+	cost = 2
+	relative_position_id = YBJ_prosecution_dictatorship
+	x = -4
+	y = 1
+
+	completion_reward = {
+		BMB = {
+			annex_country = {
+				target = SPO
+				transfer_troops = yes
+			}
+			set_cosmetic_tag = BMB_with_SPO
+		}
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_placeholder_6
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_prosecution_dictatorship
+	}
+
+	cost = 2
+	relative_position_id = YBJ_prosecution_dictatorship
 	x = 0
 	y = 1
 
@@ -28,3 +131,201 @@ shared_focus = {
 		
 	}
 }
+
+shared_focus = {
+	id = YBJ_occupy_assembly
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_prosecution_dictatorship
+	}
+
+	cost = 2
+	relative_position_id = YBJ_prosecution_dictatorship
+	x = 4
+	y = 1
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_placeholder_1
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_placeholder_6
+	}
+
+	cost = 2
+	relative_position_id = YBJ_placeholder_6
+	x = -1
+	y = 1
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_placeholder_2
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_placeholder_1
+	}
+	prerequisite = {
+		focus = YBJ_placeholder_3
+	}
+	prerequisite = {
+		focus = YBJ_placeholder_4
+	}
+	prerequisite = {
+		focus = YBJ_placeholder_5
+	}
+
+	cost = 2
+	relative_position_id = YBJ_placeholder_6
+	x = 0
+	y = 2
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_placeholder_3
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_placeholder_6
+	}
+
+	cost = 2
+	relative_position_id = YBJ_placeholder_6
+	x = 1
+	y = 1
+	
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_placeholder_4
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_integration_moj_prosecution
+	}
+
+	cost = 2
+	relative_position_id = YBJ_integration_moj_prosecution
+	x = -1
+	y = 1
+	
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = YBJ_placeholder_5
+	icon = GFX
+	prerequisite = {
+		focus = YBJ_occupy_assembly
+	}
+
+	cost = 2
+	relative_position_id = YBJ_occupy_assembly
+	x = 1
+	y = 1
+	
+	completion_reward = {
+		
+	}
+}
+
+### 권력투쟁 ###
+
+# shared_focus = {
+# 	id = YBJ_power_struggle
+# 	icon = GFX
+# 	prerequisite = {
+# 		focus = YBJ_collapse_government
+# 	}
+
+# 	cost = 2
+# 	relative_position_id = YBJ_collapse_government
+# 	x = 0
+# 	y = 1
+
+# 	completion_reward = {
+		
+# 	}
+# }
+
+# shared_focus = {
+# 	id = YBJ_yoon_father_power
+# 	icon = GFX
+# 	prerequisite = {
+# 		focus = YBJ_power_struggle
+# 	}
+
+# 	cost = 2
+# 	relative_position_id = YBJ_power_struggle
+# 	x = -6
+# 	y = 1
+
+# 	completion_reward = {
+		
+# 	}
+# }
+
+# shared_focus = {
+# 	id = YBJ_andy_lee_power
+# 	icon = GFX
+# 	prerequisite = {
+# 		focus = YBJ_power_struggle
+# 	}
+
+# 	cost = 2
+# 	relative_position_id = YBJ_power_struggle
+# 	x = -2
+# 	y = 1
+
+# 	completion_reward = {
+		
+# 	}
+# }
+
+# shared_focus = {
+# 	id = YBJ_ahn_cheol_soo_power
+# 	icon = GFX
+# 	prerequisite = {
+# 		focus = YBJ_power_struggle
+# 	}
+
+# 	cost = 2
+# 	relative_position_id = YBJ_power_struggle
+# 	x = 2
+# 	y = 1
+
+# 	completion_reward = {
+		
+# 	}
+# }
+
+# shared_focus = {
+# 	id = YBJ_unknown_power
+# 	icon = GFX
+# 	prerequisite = {
+# 		focus = YBJ_power_struggle
+# 	}
+
+# 	cost = 2
+# 	relative_position_id = YBJ_power_struggle
+# 	x = 6
+# 	y = 1
+
+# 	completion_reward = {
+		
+# 	}
+# }
