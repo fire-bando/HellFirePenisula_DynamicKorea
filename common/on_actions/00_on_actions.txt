@@ -1,12 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			TAE = {
-				country_event = {
-					id = tae_event.1
-					days = 35
-				}
-			}
 			SBU = {
 				country_event = {
 					id = sbu_event.1

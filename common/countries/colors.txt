@@ -197,5 +197,6 @@ BUY = {	color = rgb { 106 84 69 }	color_ui = rgb { 106 84 69 }	}
 YED = {	color = rgb { 34 172 56 }	color_ui = rgb { 34 172 56 }	}
 GIR = {	color = rgb { 247 49 178 }	color_ui = rgb { 247 49 178 }	}
 TNK = {	color = rgb { 106 161 19 }	color_ui = rgb { 106 161 19 }	}
+SZC = {	color = rgb { 245 12 55 }	color_ui = rgb { 178 34 60 }	}
 AML = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}

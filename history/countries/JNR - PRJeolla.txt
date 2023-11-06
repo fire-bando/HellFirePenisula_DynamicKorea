@@ -1,6 +1,6 @@
 capital = 60
 
-oob = "standard_templates"
+oob = "JNR_2023"
 
 starting_train_buffer = 20
 

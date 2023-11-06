@@ -1,0 +1,123 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = daegu_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TAE
+		}
+	}
+	
+	default = no
+	focus = {
+		id = TAE_gunwi_eat
+		icon = GFX_goal_generic_military_sphere
+		mutually_exclusive = { focus = GER_oppose_hitler }
+		x = 25
+		y = 0
+		cost = 10
+
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = GER_oppose_hitler
+				}
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		completion_reward = {
+			country_event = {
+				id = tae_event.1
+				days = 2
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+		}		
+	}
+	focus = {
+		id = GER_hapcheon_friend
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = TAE_gunwi_eat }
+		mutually_exclusive = { focus = GER_gumi_friend }
+		available = {
+			is_subject = no
+			AND = {
+				country_exists = TNK
+				TNK = { is_subject = no }
+				NOT = { has_war_with = TNK }
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = TAE_gunwi_eat
+		cost = 10
+
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_in_faction_with = TNK
+				factor = 0 #TAE-sempai has already noticed you!
+			}
+		}	
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = GER_gumi_friend
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = TAE_gunwi_eat }
+		mutually_exclusive = { focus = GER_hapcheon_friend }
+		available = {
+			is_subject = no
+		}
+		x = -1
+		y = 1
+		relative_position_id = TAE_gunwi_eat
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				is_in_faction_with = TNK
+				factor = 0
+			}
+		}
+
+		available_if_capitulated = yes
+	}
+}

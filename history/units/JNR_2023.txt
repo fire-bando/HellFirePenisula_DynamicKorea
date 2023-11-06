@@ -15,7 +15,21 @@
 
 	division_names_group = JNR_INF_01
 
-	priority = 2
+	priority = 1
+}
+division_template = {
+	name = "Jeolla People's Armed Police Force"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	division_names_group = JNR_INF_02
+
+	priority = 0
 }
 units = {
 	division = {
@@ -25,7 +39,7 @@ units = {
 		}
 		location = 14756
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -35,7 +49,7 @@ units = {
 		}
 		location = 1182
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -45,7 +59,7 @@ units = {
 		}
 		location = 14892
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -55,7 +69,7 @@ units = {
 		}
 		location = 14522
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -65,7 +79,7 @@ units = {
 		}
 		location = 14376
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -75,7 +89,7 @@ units = {
 		}
 		location = 14318
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -85,7 +99,7 @@ units = {
 		}
 		location = 5248
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -95,7 +109,7 @@ units = {
 		}
 		location = 9169
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -105,7 +119,7 @@ units = {
 		}
 		location = 2612
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -115,7 +129,7 @@ units = {
 		}
 		location = 3380
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -125,7 +139,7 @@ units = {
 		}
 		location = 9042
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -135,7 +149,7 @@ units = {
 		}
 		location = 15010
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -145,7 +159,7 @@ units = {
 		}
 		location = 15046
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -155,7 +169,7 @@ units = {
 		}
 		location = 15068
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -165,7 +179,7 @@ units = {
 		}
 		location = 2590
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -175,7 +189,7 @@ units = {
 		}
 		location = 5970
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -185,7 +199,7 @@ units = {
 		}
 		location = 6881
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -195,7 +209,7 @@ units = {
 		}
 		location = 5970
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -205,7 +219,7 @@ units = {
 		}
 		location = 14883
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -215,7 +229,7 @@ units = {
 		}
 		location = 6514
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -225,7 +239,7 @@ units = {
 		}
 		location = 14764
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -235,7 +249,7 @@ units = {
 		}
 		location = 6514
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -245,7 +259,7 @@ units = {
 		}
 		location = 8792
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -255,7 +269,7 @@ units = {
 		}
 		location = 14685
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -265,7 +279,7 @@ units = {
 		}
 		location = 6832
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -275,7 +289,7 @@ units = {
 		}
 		location = 14629
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division = {
@@ -285,7 +299,133 @@ units = {
 		}
 		location = 6421
 		division_template = "Jeolla People's Liberate Army"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
+	}
+
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 6881
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 14483
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 14892
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		
+		}
+		location = 9394
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 3261
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		
+		}
+		location = 14693
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 14748
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		
+		}
+		location = 14662
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 6064
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		
+		}
+		location = 7743
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 726
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 6790
+		division_template = "Jeolla People's Armed Police Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
 	}
 }
