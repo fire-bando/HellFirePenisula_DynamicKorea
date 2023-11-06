@@ -1,0 +1,44 @@
+focus_tree = {
+	id = ROH_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROH
+		}
+	}
+	default = no
+	focus = {
+		id = fuck_fix
+		icon = GFX_human_living_sekai
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = {
+			set_country_leader_name = {
+				ideology = roh_samo
+				name = "노무현 비석"
+			}
+			set_country_leader_portrait = {
+				ideology = roh_samo
+				portrait = "gfx/leaders/ROH/unji.dds"
+			}
+		}
+	}
+	focus = {
+		id = ROH_wtf_is_this
+		icon = GFX_human_living_sekai
+		x = 26
+		y = 0
+		cost = 5
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = ROH_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+}
