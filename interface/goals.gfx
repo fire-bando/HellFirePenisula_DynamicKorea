@@ -1,0 +1,6 @@
+spriteTypes={
+	spriteType={
+		name="GFX_go_fast_gogo"
+		texturefile="gfx/interface/goals/good_go_fast.png"
+	}
+}

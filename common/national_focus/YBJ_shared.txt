@@ -2,7 +2,7 @@
 
 shared_focus = {
 	id = YBJ_collapse_government
-	icon = GFX
+	icon = GFX_go_fast_gogo
 	
 	cost = 2
 	
