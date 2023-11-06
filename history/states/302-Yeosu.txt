@@ -19,6 +19,9 @@ state={
 			industrial_complex = 2
 			synthetic_refinery = 3
 			air_base = 5
+			14980 = {
+				naval_base = 5
+			}
 		}
 	}
 

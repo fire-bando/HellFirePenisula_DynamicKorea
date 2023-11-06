@@ -15,6 +15,9 @@ state={
 			arms_factory = 4
 			industrial_complex = 3
 			dockyard = 3
+			14895 = {
+				naval_base = 5
+			}
 		}
 	}
 	provinces={
