@@ -11,6 +11,9 @@
  WPK:0 "조선민주주의인민공화국"
  WPK_DEF:0 "조선민주주의인민공화국"
  WPK_ADJ:0 "북한"
+ PPP:0 "국민의힘"
+ PPP_DEF:0 "국민의힘"
+ PPP_ADJ:0 "국민의힘"
  ROK:0 "인체를 개조해서 여자가 되는거다 오우야오우야오"
  ROK_DEF:0 "인체를 개조해서 여자가 되는거다 오우야오우야오"
  ROK_ADJ:0 "남한"
@@ -475,14 +478,18 @@
  PYO_ADJ:0 "평양 귀족국"
  PYO_DEF:0 "평양 귀족국"
  
- PTT:0 "감자 공국"
- PTT_ADJ:0 "감자 공국"
- PTT_DEF:0 "감자 공국"
- 
  US1:0 "미 공군 폭격 연습장"
  US1_ADJ:0 "미 공군 폭격 연습장"
  US1_DEF:0 "미 공군 폭격 연습장"
 
+ PTT:0 "감자 공국"
+ PTT_ADJ:0 "감자 공국"
+ PTT_DEF:0 "감자 공국"
+ 
+ OKS:0 "옥수수 제후국"
+ OKS_ADJ:0 "옥수수 제후국"
+ OKS_DEF:0 "옥수수 제후국"
+ 
 ######### 감자 공국 #########
  BNH: "봉화국"
  BNH_ADJ: "봉화국"
@@ -517,6 +524,10 @@
  GNW_TAE_neutrality_autonomy_integrated_puppet:0 "군위군"
  GNW_TAE_neutrality_autonomy_colony:0 "군위구"
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
+
+ JN1_JNR:0 "전라인민공화국령 영남식민지"
+ JN1_JNR_ADJ:0 "홍어련 개쌍"
+ JN1_JNR_DEF:0 "홍어련 개쌍"
 
  YED_JNR:0 "전라인민공화국령 충청지역 식민지"
  YED_JNR_ADJ:0 "홍어령 멍청"

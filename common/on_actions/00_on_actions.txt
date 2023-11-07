@@ -50,6 +50,10 @@ on_actions = {
 					target = KLG
 					autonomous_state = autonomy_bun
 				}
+				set_autonomy = {
+					target = OKS
+					autonomous_state = autonomy_bun
+				}
 			}
 			SBU = {
 				country_event = {
