@@ -5,8 +5,8 @@ state={
 		steel = 100
 	}
 	history={
-		owner = ROK
-		add_core_of = ROK
+		owner = PTT
+		add_core_of = PTT
         victory_points = { 13518 5 }
 	}
 	provinces={
