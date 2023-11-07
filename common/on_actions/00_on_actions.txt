@@ -1,6 +1,30 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			BNH = {
+				transfer_state = 263
+				add_state_core = 263
+			}
+			ULJ = {
+				transfer_state = 264
+				add_state_core = 264
+			}
+			TBK = {
+				transfer_state = 232
+				add_state_core = 232
+			}
+			SMC = {
+				transfer_state = 231
+				add_state_core = 231
+			}
+			ESE = {
+				transfer_state = 230
+				add_state_core = 230
+			}
+			KLG = {
+				transfer_state = 229
+				add_state_core = 229
+			}
 			SBU = {
 				country_event = {
 					id = sbu_event.1

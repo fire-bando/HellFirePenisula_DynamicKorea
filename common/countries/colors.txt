@@ -19,6 +19,10 @@ ROK = {
 	color = rgb { 125 155 205 }
 	color_ui = rgb { 125 155 205 }
 }
+US1 = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
 USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
@@ -198,5 +202,13 @@ YED = {	color = rgb { 34 172 56 }	color_ui = rgb { 34 172 56 }	}
 GIR = {	color = rgb { 247 49 178 }	color_ui = rgb { 247 49 178 }	}
 TNK = {	color = rgb { 106 161 19 }	color_ui = rgb { 106 161 19 }	}
 SZC = {	color = rgb { 245 12 55 }	color_ui = rgb { 178 34 60 }	}
+PYO = {	color = rgb { 244 44 44 }	color_ui = rgb { 244 44 44 }	}
+PTT = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+BNH = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+ULJ = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+TBK = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+SMC = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+ESE = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+KLG = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
 AML = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
