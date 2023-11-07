@@ -25,6 +25,32 @@ on_actions = {
 				transfer_state = 229
 				add_state_core = 229
 			}
+			PTT = {
+				set_autonomy = {
+					target = BNH
+					autonomous_state = autonomy_bun
+				}
+				set_autonomy = {
+					target = ULJ
+					autonomous_state = autonomy_bun
+				}
+				set_autonomy = {
+					target = TBK
+					autonomous_state = autonomy_bun
+				}
+				set_autonomy = {
+					target = SMC
+					autonomous_state = autonomy_bun
+				}
+				set_autonomy = {
+					target = ESE
+					autonomous_state = autonomy_bun
+				}
+				set_autonomy = {
+					target = KLG
+					autonomous_state = autonomy_bun
+				}
+			}
 			SBU = {
 				country_event = {
 					id = sbu_event.1
