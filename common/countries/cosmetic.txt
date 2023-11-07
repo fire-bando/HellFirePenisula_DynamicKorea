@@ -1,3 +1,11 @@
+DMP = {
+	color = rgb { 0 78 162 }
+	color_ui = rgb { 0 78 162 }
+}
+SUCK = {
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 35 35 35 }
+}
 FUCK = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 35 35 35 }
