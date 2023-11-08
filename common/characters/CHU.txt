@@ -1,0 +1,13 @@
+characters={ 
+    CHU_kim_seon_tae={
+        name=CHU_kim_seon_tae
+        portraits={
+            civilian={
+                large="gfx/leaders/CHU/kim_seon_tae.png"
+            }
+        }
+        country_leader={
+            ideology=neutrality
+            expire="1991.4.2"
+        }
+    }
