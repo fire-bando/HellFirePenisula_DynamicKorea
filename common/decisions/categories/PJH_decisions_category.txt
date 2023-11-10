@@ -1,3 +1,8 @@
+PJH_debug = {
+    allowed = {
+        original_tag = PJH
+    }
+}
 PJH_revive = {
     allowed = {
         original_tag = PJH
