@@ -1,5 +1,56 @@
 ideologies = {
+	parkism = {
 
+		types = {
+			parkism_subtype = {}
+
+			gaka = {}
+			chinbak = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+
+		color = { 26 46 62 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+			drift_defence_factor = 0.75
+			war_support_factor = 0.4
+			war_stability_factor = 0.95
+			civilian_intel_to_others = 0.0
+			army_intel_to_others = 0.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			justify_war_goal_when_in_major_war_time = -0.95
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_fascist = yes #
+		ai_ideology_wanted_units_factor = 1.15
+	}
 	democratic = {
 
 		types = {
@@ -7,7 +58,6 @@ ideologies = {
 			
 			conservatism = {}
 			liberalism = {}
-			socialism = {}
 			gaeddal = {}
 			aeguk_bosu = {}
 		}
@@ -60,20 +110,11 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
-
-
-	communism = {
+	socialism = {
 
 		types = {
-			communism_subtype = {}
-			commnuism_juche_subtype = {}
-
-			udeol_democratic = {}
-			marxism = {}
-			leninism = {}
-			stalinism = {}
-			anti_revisionism = {}
-			anarchist_communism = {}
+			socialism_subtype = {}
+			NL = {}
 		}
 
 		dynamic_faction_names = {
@@ -84,7 +125,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 255 0 0 }
+		color = { 255 29 29 }
 
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -114,9 +155,60 @@ ideologies = {
 		faction_modifiers = {
 
 		}
-
 	}
+	communism = {
 
+		types = {
+			communism_subtype = {}
+			commnuism_juche_subtype = {}
+
+			udeol_democratic = {}
+			marxism = {}
+			leninism = {}
+			stalinism = {}
+			anti_revisionism = {}
+			anarchist_communism = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+
+		color = { 170 0 0 }
+
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+
+		ai_communist = yes # uses the commie AI behaviour
+		ai_ideology_wanted_units_factor = 1.20
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+			lend_lease_tension = 0.50
+		}
+
+		faction_modifiers = {
+
+		}
+	}
 	fascism = {
 
 		types = {
@@ -164,7 +256,6 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 		ai_ideology_wanted_units_factor = 1.65
 	}
-
 	feminism = {
 
 		types = {
@@ -210,7 +301,6 @@ ideologies = {
 		ai_communist = yes 
 		ai_ideology_wanted_units_factor = 1.65
 	}
-
 	neutrality = {
 
 		types = {
@@ -355,58 +445,6 @@ ideologies = {
 
 		ai_fascist = yes # uses the fascist AI behaviour
 		ai_ideology_wanted_units_factor = 1.65
-	}
-	parkism = {
-
-		types = {
-			parkism_subtype = {}
-
-			gaka = {}
-			chinbak = {}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-
-		color = { 26 46 62 }
-
-
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = yes
-		}
-
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.0
-			join_faction_tension = 0.0
-			lend_lease_tension = 0.0
-			send_volunteers_tension = 0.0
-			guarantee_tension = 0.0
-			drift_defence_factor = 0.75
-			war_support_factor = 0.4
-			war_stability_factor = 0.95
-			civilian_intel_to_others = 0.0
-			army_intel_to_others = 0.0
-			navy_intel_to_others = 0.0
-			airforce_intel_to_others = 0.0
-			justify_war_goal_when_in_major_war_time = -0.95
-		}
-
-		faction_modifiers = {
-		}
-
-		ai_fascist = yes #
-		ai_ideology_wanted_units_factor = 1.15
 	}
 	implantism = {
 		types = {

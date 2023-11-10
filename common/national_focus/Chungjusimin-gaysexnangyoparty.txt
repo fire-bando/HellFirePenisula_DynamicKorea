@@ -1,0 +1,114 @@
+focus_tree = {
+	id = CHU_first_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHU
+		}
+	}
+	default = no
+	focus = {
+		id = CHU_seontae_says_that_he_hates_assembly
+		icon = GFX_abcdef
+		x = 12
+		y = 0
+		cost = 5
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHU_but_seontae_says_i_love_democracy
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = CHU_seontae_says_that_he_hates_assembly
+		prerequisite = { focus = CHU_seontae_says_that_he_hates_assembly }
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHU_make_human_using_rubber
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = CHU_but_seontae_says_i_love_democracy
+		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHU_how_to_basic__how_to_making_economy_pretty_good
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = CHU_but_seontae_says_i_love_democracy
+		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = CHU_but_seontae_says_i_love_democracy
+		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHU_election_with_gun
+		icon = GFX_abcdef
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = CHU_but_seontae_says_i_love_democracy
+		prerequisite = { focus = CHU_how_to_basic__how_to_making_economy_pretty_good }
+		prerequisite = { focus = CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house }
+		prerequisite = { focus = CHU_make_human_using_rubber }
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+}
