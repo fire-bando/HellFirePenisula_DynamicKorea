@@ -16,12 +16,7 @@ focus_tree = {
 		y = 0
 		cost = 5
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = jnr_event.1
-					days = 0 
-				}
-			}
+		
 		}
 	}
 	focus = {
@@ -33,12 +28,7 @@ focus_tree = {
 		relative_position_id = CHU_seontae_says_that_he_hates_assembly
 		prerequisite = { focus = CHU_seontae_says_that_he_hates_assembly }
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = jnr_event.1
-					days = 0 
-				}
-			}
+		
 		}
 	}
 	focus = {
@@ -50,12 +40,7 @@ focus_tree = {
 		relative_position_id = CHU_but_seontae_says_i_love_democracy
 		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = jnr_event.1
-					days = 0 
-				}
-			}
+		
 		}
 	}
 	focus = {
@@ -67,12 +52,7 @@ focus_tree = {
 		relative_position_id = CHU_but_seontae_says_i_love_democracy
 		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = jnr_event.1
-					days = 0 
-				}
-			}
+		
 		}
 	}
 	focus = {
@@ -84,12 +64,7 @@ focus_tree = {
 		relative_position_id = CHU_but_seontae_says_i_love_democracy
 		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = jnr_event.1
-					days = 0 
-				}
-			}
+		
 		}
 	}
 	focus = {
@@ -103,12 +78,7 @@ focus_tree = {
 		prerequisite = { focus = CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house }
 		prerequisite = { focus = CHU_make_human_using_rubber }
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = jnr_event.1
-					days = 0 
-				}
-			}
+		
 		}
 	}
 }
