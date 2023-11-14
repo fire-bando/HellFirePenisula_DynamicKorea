@@ -61,3 +61,4 @@ set_technology = {
 	trench_warfare = 1
 	base_strike = 1
 }
+

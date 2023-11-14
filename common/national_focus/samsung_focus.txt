@@ -10,10 +10,235 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = SMS_survival_worse_than_death
+		id = SMS_great_recession
 		icon = "GFX_SMS_survival_worse"
-		cost = 5
-		x=10
+		cost = 1
+		x=6
 		y=0
+	}
+	focus = {
+		id = SMS_inject_current_asset
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=2
+		y=1
+		prerequisite = {
+			focus = SMS_great_recession
+		}
+	}
+	focus = {
+		id = SMS_reassure_investors
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=6
+		y=1
+		prerequisite = {
+			focus = SMS_great_recession
+		}
+	}
+	focus = {
+		id = SMS_negotiating_with_politicians
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=10
+		y=1
+		prerequisite = {
+			focus = SMS_great_recession
+		}
+	}
+	focus = {
+		id = SMS_liquidity_crisis
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=4
+		y=2
+		prerequisite = {
+			focus = SMS_inject_current_asset
+		}
+		prerequisite = {
+			focus = SMS_reassure_investors
+		}
+	}
+	focus = {
+		id = SMS_scatter_money_envelopes
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=8
+		y=2
+		prerequisite = {
+			focus = SMS_negotiating_with_politicians
+		}
+		prerequisite = {
+			focus = SMS_reassure_investors
+		}
+	}
+	focus = {
+		id = SMS_tempting_fate
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=6
+		y=3
+		prerequisite = {
+			focus = SMS_scatter_money_envelopes
+		}
+		prerequisite = {
+			focus = SMS_liquidity_crisis
+		}
+	}
+	focus = {
+		id = SMS_breakdown_of_production_sales_consumption_cycle
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=3
+		y=4
+		prerequisite = {
+			focus = SMS_tempting_fate
+		}
+	}
+	focus = {
+		id = SMS_collapse_of_real_economy
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=4
+		y=5
+		prerequisite = {
+			focus = SMS_breakdown_of_production_sales_consumption_cycle
+		}
+	}
+	focus = {
+		id = SMS_declining_performance
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=9
+		y=4
+		prerequisite = {
+			focus = SMS_tempting_fate
+		}
+	}
+	focus = {
+		id = SMS_decreased_product_sales
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=8
+		y=5
+		prerequisite = {
+			focus = SMS_declining_performance
+		}
+	}
+	focus = {
+		id = SMS_circuit_breaker
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=6
+		y=6
+		prerequisite = {
+			focus = SMS_collapse_of_real_economy
+		}
+		prerequisite = {
+			focus = SMS_decreased_product_sales
+		}
+	}
+	focus = {
+		id = SMS_stock_price_plummets 
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=4
+		y=7
+		prerequisite = {
+			focus = SMS_circuit_breaker
+		}
+	}
+	focus = {
+		id = SMS_management_crisis
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=8
+		y=7
+		prerequisite = {
+			focus = SMS_circuit_breaker
+		}
+	}
+	focus = {
+		id = SMS_change_of_control_defense
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=7
+		y=8
+		prerequisite = {
+			focus = SMS_management_crisis
+		}
+	}
+	focus = {
+		id = SMS_committing_funds
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=9
+		y=8
+		prerequisite = {
+			focus = SMS_management_crisis
+		}
+	}
+	focus = {
+		id = SMS_buy_back_stock 
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=3
+		y=8
+		prerequisite = {
+			focus = SMS_stock_price_plummets
+		}
+		mutually_exclusive = {
+			focus = SMS_free_stock
+		}
+	}
+	focus = {
+		id = SMS_free_stock
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=5
+		y=8
+		prerequisite = {
+			focus = SMS_stock_price_plummets
+		}
+		mutually_exclusive = {
+			focus = SMS_buy_back_stock
+		}
+	}
+	focus = {
+		id = SMS_dont_get_better 
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=4
+		y=9
+		prerequisite = {
+			focus = SMS_buy_back_stock
+			focus = SMS_free_stock
+		}
+	}
+	focus = {
+		id = SMS_loss_of_funds
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=8
+		y=9
+		prerequisite = {
+			focus = SMS_change_of_control_defense
+		}
+		prerequisite = {
+			focus = SMS_committing_funds
+		}
+	}
+	focus = {
+		id = SMS_convene_board_meeting 
+		icon = "GFX_SMS_survival_worse"
+		cost = 1
+		x=6
+		y=10
+		prerequisite = {
+			focus = SMS_dont_get_better
+		}
+		prerequisite = {
+			focus = SMS_loss_of_funds
+		}
 	}
 }

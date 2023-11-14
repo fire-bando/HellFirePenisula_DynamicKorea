@@ -17,6 +17,13 @@ add_ideas = {
 	SAM_no_idea_army
 }
 
+completed_national_focus = SMS_great_recession
+completed_national_focus = SMS_inject_current_asset
+completed_national_focus = SMS_reassure_investors
+completed_national_focus = SMS_negotiating_with_politicians
+completed_national_focus = SMS_liquidity_crisis
+completed_national_focus = SMS_scatter_money_envelopes
+
 recruit_character = SMS_Lee_Jae_yong
 
 set_convoys = 0

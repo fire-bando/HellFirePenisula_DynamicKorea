@@ -15,7 +15,27 @@
  #########
  ## SMS ##
  #########
- SMS_survival_worse_than_death:0 "죽음보다 못한 생존"
+ SMS_great_recession:0 "대침체"
+ SMS_inject_current_asset:0 "유동성 자금 확보"
+ SMS_reassure_investors:0 "투자자들을 안심시키다"
+ SMS_negotiating_with_politicians:0 "정치인과의 협상"
+ SMS_liquidity_crisis:0 "유동성 위기?"
+ SMS_scatter_money_envelopes:0 "돈봉투를 뿌리다"
+ SMS_declining_performance:0 "실적의 하향세"
+ SMS_circuit_breaker:0 "서킷 브레이커가 걸리다"
+ SMS_stock_price_plummets:0 "주가 대폭락"
+ SMS_management_crisis:0 "경영권 위기"
+ SMS_change_of_control_defense:0 "경영권 방어"
+ SMS_committing_funds:0 "자금 투입"
+ SMS_buy_back_stock:0 "자사주 매입"
+ SMS_free_stock:0 "무상증자"
+ SMS_dont_get_better:0 "나아지지 않는 차트"
+ SMS_loss_of_funds:0 "자금 손실"
+ SMS_convene_board_meeting:0 "이사회 소집"
+ SMS_decreased_product_sales:0 "상품 판매량 감소"
+ SMS_collapse_of_real_economy:0 "실물 경제의 파탄"
+ SMS_breakdown_of_production_sales_consumption_cycle:0 "생산-판매-소비 사이클의 고장"
+ SMS_tempting_fate:0 ""주주 여러분 안심하십시오, 삼성은 안전합니다""
  SMS_survival_worse_than_death_desc:0 "예상치 못한 충격으로 분열된 대한민국은 다시는 형체를 못 알아볼 정도로 쪼개졌습니다. 이재용 회장님의 긴급한 결단력으로 삼성은 어느 외부의 도움 없이 일어섰습니다. 하지만 해결해야할 일이 태산입니다. 수원 좌익의 기습시위, 폭동, 경험이 부족한 군대, 경찰등이지요 . 내부뿐만이 아닙니다. 북부의 신천지는 군포에서 세뇌 및 납치를 일상적으로 행하여 자신들의 거점인 안양으로 우리 수원의 시민들을 데려가고 있습니다. 뭐라도 해야합니다."
 
  #########
