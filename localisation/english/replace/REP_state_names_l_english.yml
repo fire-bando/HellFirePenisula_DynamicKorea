@@ -303,7 +303,6 @@
  
  #North Chungcheong Province
  STATE_23:0 "청주" #210k
- STATE_243:0 "단양" #30k
  STATE_246:0 "음성" #95k
  STATE_247:0 "괴산" #40k
  STATE_248:0 "증평" #35k
@@ -831,3 +830,17 @@ STATE_648:0 "영서-화산-남현"
  STATE_664:0 "한반도"
  STATE_665:0 "주천"
  STATE_666:0 "무릉도원" ###아니 이건 너무한거 아닌가 김삿갓은 이해라도 가지###
+ STATE_696:0 "남영월"
+ STATE_697:0 "동영월"
+ STATE_698:0 "남무릉도원"
+ STATE_699:0 "서주천"
+
+# Danyang
+ STATE_243:0 "단양" #30k
+ STATE_689:0 "어상천"
+ STATE_690:0 "매포"
+ STATE_691:0 "서영춘"
+ STATE_692:0 "적성(단양)"
+ STATE_693:0 "가곡" 
+ STATE_694:0 "단성"
+ STATE_695:0 "대강"
