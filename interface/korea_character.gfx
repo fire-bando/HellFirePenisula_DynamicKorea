@@ -71,4 +71,12 @@ spriteTypes={
 		name="GFX_kwae_heung_tae"
 		texturefile="gfx/leaders/HMC/portrait_large_heung.dds"
 	}
+	spriteType={
+		name="GFX_kim_seon_tae"
+		texturefile="gfx/leaders/CHU/kim_seon_tae.png"
+	}
+	spriteType={
+		name="GFX_kim_jong_hyeon"
+		texturefile="gfx/leaders/CHU/kim_jong_hyeon.png"
+	}
 }
