@@ -14,6 +14,14 @@ leader_traits = {
 			weekly_manpower = 500
 		}
 	}
+
+	not_popular_leader = { #나중에 dynamic_modifier로 수정할것!!
+		random = no
+		political_power_factor = -0.5 
+		political_power_factor = 0.25
+		ai_desired_divisions_factor = 0.75
+		command_power_gain = -0.25
+	}
 	
 	dictator = {
 		random = no
