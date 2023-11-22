@@ -11,7 +11,7 @@ state={
 		owner = CHU
 		add_core_of = CHU
 		victory_points = {
-			9465 20 
+			9465 30 
 		}
 
 	}

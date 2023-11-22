@@ -19,6 +19,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 99
-	democratic = 1
+	fascism = 67
+	democratic = 3
+	communism = 10
+	feminism = 8
+	roh_samo = 12
 }
