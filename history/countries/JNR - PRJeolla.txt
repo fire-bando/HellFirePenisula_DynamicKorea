@@ -33,7 +33,7 @@ if = {
 	}
 	set_autonomy = {
 		target = YG1
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_one_country_two_system
 	}
 	set_autonomy = {
 		target = JN1

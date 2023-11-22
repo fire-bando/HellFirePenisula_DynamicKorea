@@ -47,4 +47,12 @@ characters={
             expire="1960.8.16"
         }
     }
+    PPP_jun_seok = { #쿠데타 이후 지도자
+        name = PPP_jun_seok
+        portraits={
+            civilian={
+                large=GFX_PPP_jun_seok
+            }
+        }
+    }
 }

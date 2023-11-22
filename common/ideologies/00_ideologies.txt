@@ -1,56 +1,4 @@
 ideologies = {
-	parkism = {
-
-		types = {
-			parkism_subtype = {}
-
-			gaka = {}
-			chinbak = {}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-
-		color = { 26 46 62 }
-
-
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = yes
-		}
-
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.0
-			join_faction_tension = 0.0
-			lend_lease_tension = 0.0
-			send_volunteers_tension = 0.0
-			guarantee_tension = 0.0
-			drift_defence_factor = 0.75
-			war_support_factor = 0.4
-			war_stability_factor = 0.95
-			civilian_intel_to_others = 0.0
-			army_intel_to_others = 0.0
-			navy_intel_to_others = 0.0
-			airforce_intel_to_others = 0.0
-			justify_war_goal_when_in_major_war_time = -0.95
-		}
-
-		faction_modifiers = {
-		}
-
-		ai_fascist = yes #
-		ai_ideology_wanted_units_factor = 1.15
-	}
 	democratic = {
 
 		types = {
@@ -109,6 +57,58 @@ ideologies = {
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+	}
+	parkism = {
+
+		types = {
+			parkism_subtype = {}
+
+			gaka = {}
+			chinbak = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+
+		color = { 26 46 62 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+			drift_defence_factor = 0.75
+			war_support_factor = 0.4
+			war_stability_factor = 0.95
+			civilian_intel_to_others = 0.0
+			army_intel_to_others = 0.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			justify_war_goal_when_in_major_war_time = -0.95
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_fascist = yes #
+		ai_ideology_wanted_units_factor = 1.15
 	}
 	socialism = {
 
