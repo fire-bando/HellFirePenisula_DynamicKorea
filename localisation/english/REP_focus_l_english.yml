@@ -56,11 +56,26 @@
  TAE_demand_chilgok:0 "칠곡 요구"
 
  CHU_seontae_says_that_he_hates_assembly:0 "의회해산"
+ CHU_seontae_says_that_he_hates_assembly_desc:0 "시의회에 테러가 끊이지 않자 실질적인 권력을 쥐던 의원들이 해외로 도피, 망명했습니다. 덕분에 안그래도 혼란스러웠던 충주는 더 혼란스러워졌습니다."
  CHU_but_seontae_says_i_love_democracy:0 "더불어민주당 수호를 위한 찢칠라의 노력"
+ CHU_but_seontae_says_i_love_democracy_desc:0 "도피, 망명을 하지 않은 지도부들은 빠른 시일 내에 선거를 개최하고자 합니다. 몇 없는 민주주의 세력이자 군벌로서, 한반도에 민주주의가 존속 하도록 무슨 수를 써서라도 선거를 실시해야 할 것 입니다."
  CHU_make_human_using_rubber:0 "시민 고무"
+ CHU_make_human_using_rubber_desc:0 "나치 독일이 유대인으로 비누를 만들었듯이 우리는 시민으로 고무를 만들겁니다!\n...예? rubber가 아니라 encourage였다고요? 이미 시민 몇몇 갈았는데?"
  CHU_how_to_basic__how_to_making_economy_pretty_good:0 "경제딸치기"
+ CHU_how_to_basic__how_to_making_economy_pretty_good_desc:0 "경제가 굴러가야 민생이 굴러갑니다. 돌아가지 않는 경제 때문에, 우리식 의회민주주의가 제대로 돌아가지 않고 있습니다."
  CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house:0 "원인 제거"
+ CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house_desc:0 "공화국이 개판이 된데에는 원인이 있을겁니다. 아마요. 그게 빨갱이 새끼건, 파쇼 새끼건 둘 중 하나는 확실합니다"
  CHU_election_with_gun:0 "총선거 실시"
+ CHU_election_with_gun_desc:0 "어떻게든.... 어떻게든... 민주주의는 굴러가야합니다."
+
+ CHU_hey_syngman_what_are_you_doing:0 "조작된 선거"
+ CHU_ottugi:0 "오뚜기처럼"
+ CHU_establishing_chungju_government:0 "충주 정부 출범"
+ CHU_minimum_wound:0 "최소한의 상처"
+ CHU_flying_democratic:0 "웅비하는 민주주의"
+ CHU_enemys_enemy_is_my_nakama:0 "적의 적은 나의 동료"
+ CHU_inside_of_blooding_old_town:0 "피흘린 옛터 속"
+ CHU_you_can_jerk_off_yourself:0 "자위권 보장"
 
 
  ROH_wtf_is_this:0 "대통령님은 살아계신다.."
