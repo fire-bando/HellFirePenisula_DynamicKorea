@@ -1,0 +1,20 @@
+state={
+	id=701
+	name="STATE_701"
+	provinces={
+		8946 9772 14930 14942 14954 14959 14974 
+	}
+	history = {
+		owner=YG1
+		add_core_of=YG1
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 5
+		}
+	}
+	manpower=22064
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

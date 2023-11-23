@@ -1,0 +1,20 @@
+state={
+	id=702
+	name="STATE_702"
+	provinces={
+		3437 4268 8656 15023 15040 
+	}
+	history = {
+		owner = YG1
+		add_core_of = YG1
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	state_category=rural
+	manpower=6974
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

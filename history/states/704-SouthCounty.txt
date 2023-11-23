@@ -1,0 +1,19 @@
+state={
+	id=704
+	name="STATE_704"
+	provinces={
+		5651 7393 7472 8215 15079 15101 
+	}
+	history = {
+		owner = YG1
+		add_core_of = YG1
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=2717
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=703
+	name="STATE_703"
+	provinces={
+		225 9573 15076 
+	}
+	history = {
+		owner = YG1
+		add_core_of = YG1
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=2095
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

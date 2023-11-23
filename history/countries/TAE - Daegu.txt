@@ -1,6 +1,7 @@
 capital = 58
 
 recruit_character = TAE_junpyo_hong
+recruit_character = TAE_jaewon_kim
 
 starting_train_buffer = 30
 
