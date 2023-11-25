@@ -29,7 +29,7 @@ units = {
 		location = 14391
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -39,7 +39,7 @@ units = {
 		location = 5081
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -49,7 +49,7 @@ units = {
 		location = 14382
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -59,7 +59,7 @@ units = {
 		location = 9020
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -69,17 +69,17 @@ units = {
 		location = 3271
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 14380
+		location = 14407
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -89,7 +89,7 @@ units = {
 		location = 14383
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -99,7 +99,7 @@ units = {
 		location = 8606
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -109,7 +109,7 @@ units = {
 		location = 9511
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -119,77 +119,67 @@ units = {
 		location = 7412
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 2364
+		location = 3872
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 14481
+		location = 14380
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 14511
+		location = 6845
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 4913
+		location = 6845
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 14478
+		location = 4955
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 8468
+		location = 8613
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 16
-		}
-		location = 8468
-		division_template = "대프리카 용병대"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -199,7 +189,7 @@ units = {
 		location = 9266
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -209,7 +199,7 @@ units = {
 		location = 9728
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -219,16 +209,16 @@ units = {
 		location = 14314
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 6592
+		location = 14416
 		division_template = "대프리카 용병대"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 }

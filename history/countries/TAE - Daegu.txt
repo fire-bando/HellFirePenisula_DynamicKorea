@@ -27,3 +27,7 @@ set_popularities = {
 	communism = 10
 	democratic = 4
 }
+declare_war_on = {
+	target = EOT
+	type = annex_everything
+}

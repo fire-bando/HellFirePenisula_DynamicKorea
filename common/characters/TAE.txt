@@ -13,7 +13,11 @@ characters={
     }
     TAE_jaewon_kim = {
         name=TAE_jaewon_kim
-        # 포트레잇 미상
+        portraits={
+            civilian={
+                large=GFX_TAE_jaewon_kim_large
+            }
+        }
         country_leader = {
             ideology = nazism
             expire=1972.11.21

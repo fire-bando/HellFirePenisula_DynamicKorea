@@ -5,6 +5,12 @@ state={
 		owner = EOT
 		add_core_of = TAE
 		add_core_of = EOT
+		2022.12.29 = {
+			TAE = {
+				set_province_controller = 4955
+				set_province_controller = 14380
+			}
+		}
 	}
 	provinces={
 		2364 2608 3279 4913 4955 5540 6348 6592 7150 8468 8729 14380 14422 14443 14451 14478 14481 14511 
