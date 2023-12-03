@@ -531,9 +531,15 @@
 ######### 감자 공국 끝 #########
 
  CIC: "혁신도시 방위대"
- CIC_ADJ:0 "혁신도시"
+ CIC_ADJ:0 "충북혁신도시"
  CIC_DEF:0 "충북혁신도시 방위대"
 
  EOT: "신 대구 제국"
  EOT_ADJ: "신 대구"
  EOT_DEF: "신 대구"
+
+ AUM: "진리국"
+ AUM_ADJ: "후쿠오카"
+ AUM_subject: "$OVERLORDADJ$령 $AUM$"
+ AUM_subject_DEF: "$OVERLORDADJ$령 $AUM$"
+ AUM_DEF: "진리국"
