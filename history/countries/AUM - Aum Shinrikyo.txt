@@ -1,4 +1,4 @@
-capital = 600
+capital = 11
 
 oob = "standard_templates"
 
@@ -11,11 +11,11 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2020.4.15"
+	ruling_party = neutrality
+	last_election = "1995.3.20"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	neutrality = 100
 }

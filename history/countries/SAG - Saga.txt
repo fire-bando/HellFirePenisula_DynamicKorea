@@ -10,14 +10,14 @@ set_technology = {
 	basic_train = 1
 }
 
-set_convoys = 20
+set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2015.1.14"
+	ruling_party = idolism
+	last_election = "2008.4.7"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	idolism = 100
 }
