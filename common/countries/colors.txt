@@ -123,6 +123,14 @@ SAG = {
 	color = rgb { 0 100 98 }
 	color_ui = rgb { 0 100 98 }
 }
+CIC = {
+	color = rgb { 114 191 68 }
+	color_ui = rgb { 114 191 68 }
+}
+AUM = {
+	color = rgb { 41 24 115 }
+	color_ui = rgb { 41 24 115 }
+}
 
 SEO = {	color = rgb { 8 90 225 }	color_ui = rgb { 8 90 225 }	}
 CCS = {	color = rgb { 249 202 224 }	color_ui = rgb { 249 202 224 }	}
