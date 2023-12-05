@@ -55,6 +55,10 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+KGR = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
 YG1 = {
 	color = rgb { 214 51 51 }
 	color_ui = rgb { 214 51 51 }

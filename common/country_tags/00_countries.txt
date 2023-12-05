@@ -9,6 +9,7 @@ USA = "countries/USA.txt"
 US1 = "countries/USA.txt"
 MAN = "countries/Manchukou.txt"
 GER	= "countries/Germany.txt"
+KGR	= "countries/Germany.txt"
 
 ###
 RUS	= "countries/Russia.txt"
