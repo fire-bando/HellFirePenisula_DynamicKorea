@@ -115,8 +115,8 @@
  #Pyongyang
  STATE_32:1 "평양" #3m
 
- #Rason 
- STATE_67:0 "라선" #205k
+ #나진 선봉지구 
+ STATE_67:0 "나진" #205k
  
  #Ryanggang Province
  STATE_44:1 "혜산" #195k

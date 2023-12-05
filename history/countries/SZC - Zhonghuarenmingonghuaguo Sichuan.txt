@@ -12,7 +12,6 @@ set_technology = {
 }
 
 create_faction = "중국특색 사회주의 사상 국제회의"
-add_to_faction = PCS
 
 set_convoys = 20
 

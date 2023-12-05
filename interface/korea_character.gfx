@@ -4,8 +4,12 @@ spriteTypes={
 		texturefile="gfx/leaders/YLS/lukas.png"
 	}
 	spriteType={
+		name="GFX_KGR_donitz_large"
+		texturefile="gfx/leaders/KGR/donitz.dds"
+	}
+	spriteType={
 		name="GFX_PRC_bo_xilai_large"
-		texturefile="gfx/leaders/PRC/bo_xilai.png"
+		texturefile="gfx/leaders/PRC/bo_xilai.dds"
 	}
 	spriteType={
 		name="GFX_GNG_kim_geonhee_large"

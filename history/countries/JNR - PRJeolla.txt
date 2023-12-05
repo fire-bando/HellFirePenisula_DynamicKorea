@@ -43,6 +43,7 @@ if = {
 
 create_faction = "공산당-노동자당 국제회의"
 add_to_faction = PCS
+add_to_faction = SBU
 
 set_convoys = 20
 
