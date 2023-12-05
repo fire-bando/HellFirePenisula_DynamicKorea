@@ -4,12 +4,18 @@ recruit_character = TAE_jaewon_kim
 
 starting_train_buffer = 5
 
+oob = "EOT_2023"
+
 # oob = "TAE_2023"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	basic_train = 1
+}
+
+add_ideas = {
+	scraping_the_barrel
 }
 
 set_convoys = 20
