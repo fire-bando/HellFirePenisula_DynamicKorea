@@ -165,6 +165,7 @@ ideologies = {
 			udeol_democratic = {}
 			marxism = {}
 			leninism = {}
+			maoism = {}
 			stalinism = {}
 			anti_revisionism = {}
 			anarchist_communism = {}

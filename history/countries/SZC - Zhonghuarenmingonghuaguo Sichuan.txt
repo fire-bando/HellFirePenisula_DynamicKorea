@@ -1,5 +1,7 @@
 capital = 286
 
+recruit_character = PRC_bo_xilai
+
 oob = "standard_templates"
 
 # Starting tech

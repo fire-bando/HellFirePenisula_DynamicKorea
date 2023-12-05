@@ -85,6 +85,10 @@ defined_text = {
 		localization_key = anti_revisionism
 	}
 	text = {
+		trigger = { has_country_leader_ideology = maoism }
+		localization_key = maoism
+	}
+	text = {
 		trigger = { has_country_leader_ideology = anarchist_communism }
 		localization_key = anarchist_communism
 	}
