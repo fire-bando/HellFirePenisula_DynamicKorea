@@ -10,6 +10,8 @@ set_technology = {
 
 set_convoys = 20
 
+create_faction = "아인하이츠팍트"
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "2020.4.15"

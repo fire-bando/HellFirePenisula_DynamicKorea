@@ -41,6 +41,9 @@ if = {
 	}
 }
 
+create_faction = "공산당-노동자당 국제회의"
+add_to_faction = PCS
+
 set_convoys = 20
 
 set_politics = {
