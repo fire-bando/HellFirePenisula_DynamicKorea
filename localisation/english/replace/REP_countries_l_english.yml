@@ -1,11 +1,18 @@
 ﻿l_english:
+
+
+
+ JAP_democratic:0 "무모구칠 렌야의 키타쵸센 총독부"
+ JAP_democratic_DEF:0 "무모구칠 렌야의 키타쵸센 총독부"
+ JAP_democratic_ADJ:0 "무모구칠 렌야의 키타쵸센 총독부"
+
  RUS:0 "러시아 연방"
  RUS_DEF:0 "러시아 연방"
  RUS_ADJ:0 "러시아"
  CHN:0 "중화인민공화국"
  CHN_DEF:0 "중화인민공화국"
  CHN_ADJ:0 "중국"
- JPN:0 "일본국"
+ JPN:0 "대일본제국"
  JPN_DEF:0 "일본"
  JPN_ADJ:0 "일본"
  WPK:0 "조선민주주의인민공화국"
@@ -17,8 +24,8 @@
  PPP:0 "국민의힘"
  PPP_DEF:0 "국민의힘"
  PPP_ADJ:0 "국민의힘"
- ROK:0 "인체를 개조해서 여자가 되는거다 오우야오우야오"
- ROK_DEF:0 "인체를 개조해서 여자가 되는거다 오우야오우야오"
+ ROK:0 "문재인과 국민의힘-민주당의 대한민국 제6공화국"
+ ROK_DEF:0 "문재인과 국민의힘-민주당의 대한민국 제6공화국"
  ROK_ADJ:0 "남한"
  YG1_democratic:0 "홍통특별행정구"
  YG1_communism:0 "홍통특별행정구"
