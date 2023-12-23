@@ -1,0 +1,229 @@
+focus_tree = {
+	id = SZC_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SZC
+		}
+	}
+	default = no
+	focus = {
+		id = SZC_save_the_china
+		icon = GFX_abcdef
+		x = 13
+		y = 0
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_attack_the_PRC
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		relative_position_id = SZC_save_the_china
+		prerequisite = { focus = SZC_save_the_china }
+		cost = 5
+		completion_reward = {
+			declare_war_on = {
+				target = CHN
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = SZC_attack_the_USA
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		relative_position_id = SZC_save_the_china
+		prerequisite = { focus = SZC_save_the_china }
+		cost = 5
+		completion_reward = {
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = SZC_holy_shit
+		icon = GFX_abcdef
+		x = 0
+		y = 2
+		relative_position_id = SZC_save_the_china
+		prerequisite = { focus = SZC_attack_the_PRC }
+		prerequisite = { focus = SZC_attack_the_USA }
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_renmin
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		relative_position_id = SZC_holy_shit
+		prerequisite = { focus = SZC_holy_shit }
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_jjit_bozi
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = SZC_holy_shit
+		prerequisite = { focus = SZC_holy_shit }
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_go_to_democratic_party
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = SZC_jjit_bozi
+		prerequisite = { focus = SZC_jjit_bozi }
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_geoze_fuck_you
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		relative_position_id = SZC_holy_shit
+		prerequisite = { focus = SZC_holy_shit }
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_fucking_korean
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = SZC_geoze_fuck_you
+		prerequisite = { focus = SZC_geoze_fuck_you }
+		cost = 5
+		completion_reward = {
+			286 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SZC_attack_busan
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		relative_position_id = SZC_fucking_korean
+		prerequisite = { focus = SZC_fucking_korean }
+		cost = 5
+		completion_reward = {
+			declare_war_on = {
+				target = SBU
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BUS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YDG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BRO
+				type = annex_everything
+			}
+		}
+	}
+}
