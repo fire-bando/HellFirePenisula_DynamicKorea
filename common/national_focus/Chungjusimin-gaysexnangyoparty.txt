@@ -10,7 +10,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = CHU_seontae_says_that_he_hates_assembly
+		id = CHU_get_out_congrass
 		icon = GFX_abcdef
 		x = 12
 		y = 0
@@ -20,63 +20,63 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CHU_but_seontae_says_i_love_democracy
+		id = CHU_democracy_protection
 		icon = GFX_abcdef
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = CHU_seontae_says_that_he_hates_assembly
-		prerequisite = { focus = CHU_seontae_says_that_he_hates_assembly }
+		relative_position_id = CHU_get_out_congrass
+		prerequisite = { focus = CHU_get_out_congrass }
 		completion_reward = {
 		
 		}
 	}
 	focus = {
-		id = CHU_make_human_using_rubber
+		id = CHU_encourage
 		icon = GFX_abcdef
 		x = -2
 		y = 1
 		cost = 5
-		relative_position_id = CHU_but_seontae_says_i_love_democracy
-		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_democracy_protection }
 		completion_reward = {
 		
 		}
 	}
 	focus = {
-		id = CHU_how_to_basic__how_to_making_economy_pretty_good
+		id = CHU_revitalize_economy
 		icon = GFX_abcdef
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = CHU_but_seontae_says_i_love_democracy
-		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_democracy_protection }
 		completion_reward = {
 		
 		}
 	}
 	focus = {
-		id = CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house
+		id = CHU_remove_cause
 		icon = GFX_abcdef
 		x = 2
 		y = 1
 		cost = 5
-		relative_position_id = CHU_but_seontae_says_i_love_democracy
-		prerequisite = { focus = CHU_but_seontae_says_i_love_democracy }
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_democracy_protection }
 		completion_reward = {
 		
 		}
 	}
 	focus = {
-		id = CHU_election_with_gun
+		id = CHU_general_election
 		icon = GFX_abcdef
 		x = 0
 		y = 2
 		cost = 5
-		relative_position_id = CHU_but_seontae_says_i_love_democracy
-		prerequisite = { focus = CHU_how_to_basic__how_to_making_economy_pretty_good }
-		prerequisite = { focus = CHU_using_kitchen_gun_to_remove_cause_of_polluting_of_my_kitchen_and_house }
-		prerequisite = { focus = CHU_make_human_using_rubber }
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_revitalize_economy }
+		prerequisite = { focus = CHU_remove_cause }
+		prerequisite = { focus = CHU_encourage }
 		completion_reward = {
 		
 		}
