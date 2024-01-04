@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SMS_tempting_fate
-		icon = "GFX_SMS_survival_worse"
+		icon = "GFX_focus_tempting_fate_shine"
 		cost = 1
 		x=6
 		y=3

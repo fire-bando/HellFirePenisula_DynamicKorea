@@ -51,6 +51,10 @@ MAN = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }
 }
+SPX = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
