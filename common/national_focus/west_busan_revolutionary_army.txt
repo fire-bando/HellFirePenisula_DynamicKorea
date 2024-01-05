@@ -1,0 +1,305 @@
+focus_tree = {
+	id = SBU_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SBU
+		}
+	}
+	default = no
+	focus = {
+		id = SBU_in_the_ruins
+		icon = GFX_focus_rom_abdicate
+		x = 22
+		y = 0
+		cost = 2
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_flut_the_red_flag
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		relative_position_id = SBU_in_the_ruins
+		prerequisite = { focus = SBU_in_the_ruins }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_establish_west_busan_liberate_army
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		relative_position_id = SBU_flut_the_red_flag
+		prerequisite = { focus = SBU_flut_the_red_flag }
+		x = 10
+		y = 2
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_chongiruldeulgoileonan_hanaeu_pokdong
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		relative_position_id = SBU_establish_west_busan_liberate_army
+		prerequisite = { focus = SBU_establish_west_busan_liberate_army }
+		x = -2
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_uniform_and_grenade
+		icon = GFX_focus_generic_steel
+		relative_position_id = SBU_establish_west_busan_liberate_army
+		prerequisite = { focus = SBU_establish_west_busan_liberate_army }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_act_on_gender_equality_for_female_soldiers
+		icon = GFX_focus_generic_women_in_military
+		relative_position_id = SBU_establish_west_busan_liberate_army
+		prerequisite = { focus = SBU_establish_west_busan_liberate_army }
+		x = 2
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_liberate_army_is_moving_forward
+		icon = GFX_focus_YUG_pan_slavic_congress
+		relative_position_id = SBU_establish_west_busan_liberate_army
+		prerequisite = { focus = SBU_act_on_gender_equality_for_female_soldiers }
+		prerequisite = { focus = SBU_uniform_and_grenade }
+		prerequisite = { focus = SBU_chongiruldeulgoileonan_hanaeu_pokdong }
+		x = 0
+		y = 2
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_frontier_underdeveloped_area
+		icon = GFX_focus_NOR_rikstanken
+		relative_position_id = SBU_flut_the_red_flag
+		prerequisite = { focus = SBU_flut_the_red_flag }
+		x = -3
+		y = 2
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_establing_west_busan_department
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = SBU_frontier_underdeveloped_area
+		prerequisite = { focus = SBU_frontier_underdeveloped_area }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_establishing_aid_center
+		icon = GFX_focus_generic_concessions
+		relative_position_id = SBU_establing_west_busan_department
+		prerequisite = { focus = SBU_establing_west_busan_department }
+		x = -1
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_donot_suck_lee_mang_pu_dick
+		relative_position_id = SBU_establishing_aid_center
+		prerequisite = { focus = SBU_establishing_aid_center }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_sasang_industrial_area
+		icon = GFX_goal_generic_construct_mil_factory	
+		relative_position_id = SBU_establing_west_busan_department
+		prerequisite = { focus = SBU_establing_west_busan_department }
+		x = 1
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_noksan_industrial_area
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = SBU_sasang_industrial_area
+		prerequisite = { focus = SBU_sasang_industrial_area }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_auferstanden_aufs_ruinen
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		relative_position_id = SBU_donot_suck_lee_mang_pu_dick
+		prerequisite = { focus = SBU_noksan_industrial_area }
+		prerequisite = { focus = SBU_donot_suck_lee_mang_pu_dick }
+		x = 1
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_swimming_yahoo
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = SBU_auferstanden_aufs_ruinen
+		prerequisite = { focus = SBU_auferstanden_aufs_ruinen }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_inho_choi_chairman
+		relative_position_id = SBU_flut_the_red_flag
+		prerequisite = { focus = SBU_flut_the_red_flag }
+		x = 3
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_dogwangyanghwe
+		relative_position_id = SBU_inho_choi_chairman
+		prerequisite = { focus = SBU_inho_choi_chairman }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_seunghaksan_partisan
+		relative_position_id = SBU_dogwangyanghwe
+		prerequisite = { focus = SBU_dogwangyanghwe }
+		x = -3
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_touching_feminist_is_illegal_may_be
+		relative_position_id = SBU_dogwangyanghwe
+		prerequisite = { focus = SBU_dogwangyanghwe }
+		x = -1
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_summoning_donga_univ_mesmerist
+		relative_position_id = SBU_dogwangyanghwe
+		prerequisite = { focus = SBU_dogwangyanghwe }
+		x = 1
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_young_mz_island
+		relative_position_id = SBU_dogwangyanghwe
+		prerequisite = { focus = SBU_dogwangyanghwe }
+		x = 3
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_soft_civilwar_at_main_busan
+		relative_position_id = SBU_dogwangyanghwe
+		prerequisite = { focus = SBU_seunghaksan_partisan }
+		prerequisite = { focus = SBU_touching_feminist_is_illegal_may_be }
+		prerequisite = { focus = SBU_summoning_donga_univ_mesmerist }
+		prerequisite = { focus = SBU_young_mz_island }
+		x = 0
+		y = 2
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_east_busan_riot
+		relative_position_id = SBU_soft_civilwar_at_main_busan
+		prerequisite = { focus = SBU_soft_civilwar_at_main_busan }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_peoples_liberation_war
+		relative_position_id = SBU_soft_civilwar_at_main_busan
+		prerequisite = { focus = SBU_soft_civilwar_at_main_busan }
+		x = 0
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SBU_kyeongtae_joe_chairman
+		relative_position_id = SBU_flut_the_red_flag
+		prerequisite = { focus = SBU_flut_the_red_flag }
+		x = -10
+		y = 1
+		cost = 8
+		completion_reward = {
+		
+		}
+	}
+}
