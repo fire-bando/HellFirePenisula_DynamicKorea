@@ -1,0 +1,220 @@
+
+music_station = "juche_station"
+
+music = {
+	song = "songofpeoplearmy"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
+	}
+}
+music = {
+	song = "sacred__war"
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			tag = PRK
+		}		
+	}
+}
+music = {
+	song = "strike_da"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
+	}
+}
+music = {
+	song = "rev_leader"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
+	}
+}
+music = {
+	song = "gotofuture"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}		
+	}
+}
+music = {
+	song = "welcome"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}		
+	}
+}
+music = {
+	song = "proper_worker"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}		
+	}
+}
+music = {
+	song = "idk"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
+	}
+}
+music = {
+	song = "highfast"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}		
+	}
+}
+music = {
+	song = "quickly"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
+	}
+}
+music = {
+	song = "canitakeyourorder"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
+	}
+}
