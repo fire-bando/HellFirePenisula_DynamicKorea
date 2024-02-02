@@ -60,7 +60,9 @@ on_actions = {
 				if = {
 					limit = {
 						OR = {
-							original_tag = PRK
+							original_tag = YBJ
+							original_tag = YG1
+							original_tag = SCJ
 							original_tag = ENG
 							original_tag = ITA
 						}
