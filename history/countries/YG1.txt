@@ -2,7 +2,7 @@ capital = 705
 
 recruit_character = YG1_jung_gimyung
 
-oob = "standard_templates"
+oob = "YG1_2023"
 
 # Starting tech
 set_technology = {
