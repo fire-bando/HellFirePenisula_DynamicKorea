@@ -2,8 +2,20 @@
 
 shared_focus = {
 	id = YBJ_collapse_government
-	icon = GFX_go_fast_gogo
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX_go_fast_gogo
+	}
 	
+	dynamic = yes
+
 	cost = 2
 	
 	x = 8
@@ -14,12 +26,78 @@ shared_focus = {
 	}
 }
 
+# shared_focus = {
+# 	id = YBJ_joint_focus_test
+# 	icon = {
+# 		trigger = {
+# 			YBJ = {
+# 				is_ai = yes
+# 			}
+# 		}
+# 		value = GFX_focus_cherrythumb
+# 	}
+# 	icon = {
+# 		trigger = {
+# 			YBJ = {
+# 				is_ai = no
+# 			}
+# 		}
+# 		value = GFX
+# 	}
+
+# 	dynamic = yes
+
+# 	# prerequisite = {
+# 	# 	focus = YBJ_declare_emergency
+# 	# }
+
+# 	# offset = {
+# 	# 	x = -27
+# 	# 	y = 0
+# 	# 	trigger = {
+# 	# 		has_focus_tree = finnish_focus
+# 	# 		has_game_rule = {
+# 	# 			rule = obsolete_focus_branches_visibility
+# 	# 			option = HIDE
+# 	# 		}
+# 	# 		has_completed_focus = FIN_suomalainen_sosialismi
+# 	# 	}
+# 	# }
+
+# 	cost = 2
+# 	#relative_position_id = YBJ_collapse_government
+# 	x = 0
+# 	y = 0
+
+# 	text_icon = NORDIC_focus_style
+
+# 	# available = {
+
+# 	# }
+
+# 	completion_reward = {
+# 		add_political_power = 100
+# 	}
+# }
+
 shared_focus = {
 	id = YBJ_grasp_situation
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_collapse_government
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_collapse_government
@@ -33,11 +111,23 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_call_nsc
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_collapse_government
 	}
 
+	dynamic = yes
+	
 	cost = 2
 	relative_position_id = YBJ_collapse_government
 	x = 1
@@ -50,13 +140,25 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_declare_emergency
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_call_nsc
 	}
 	prerequisite = {
 		focus = YBJ_grasp_situation
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_call_nsc
@@ -70,7 +172,17 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_prosecution_dictatorship
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	# prerequisite = {
 	# 	focus = YBJ_grasp_situation
 	# }
@@ -80,6 +192,8 @@ shared_focus = {
 	prerequisite = {
 		focus = YBJ_declare_emergency
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_declare_emergency
@@ -93,10 +207,22 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_integration_moj_prosecution
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_prosecution_dictatorship
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_prosecution_dictatorship
@@ -117,11 +243,23 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_placeholder_6
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_prosecution_dictatorship
 	}
 
+	dynamic = yes
+	
 	cost = 2
 	relative_position_id = YBJ_prosecution_dictatorship
 	x = 0
@@ -134,10 +272,22 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_occupy_assembly
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_prosecution_dictatorship
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_prosecution_dictatorship
@@ -151,10 +301,22 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_placeholder_1
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_placeholder_6
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_placeholder_6
@@ -168,7 +330,17 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_placeholder_2
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_placeholder_1
 	}
@@ -182,6 +354,8 @@ shared_focus = {
 		focus = YBJ_placeholder_5
 	}
 
+	dynamic = yes
+	
 	cost = 2
 	relative_position_id = YBJ_placeholder_6
 	x = 0
@@ -194,10 +368,22 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_placeholder_3
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_placeholder_6
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_placeholder_6
@@ -211,10 +397,22 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_placeholder_4
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_integration_moj_prosecution
 	}
+
+	dynamic = yes
 
 	cost = 2
 	relative_position_id = YBJ_integration_moj_prosecution
@@ -228,11 +426,23 @@ shared_focus = {
 
 shared_focus = {
 	id = YBJ_placeholder_5
-	icon = GFX
+	icon = {
+		trigger = {
+			YBJ = {
+				is_ai = yes
+			}
+		}
+		value = GFX_focus_cherrythumb
+	}
+	icon = {
+		value = GFX
+	}
 	prerequisite = {
 		focus = YBJ_occupy_assembly
 	}
 
+	dynamic = yes
+	
 	cost = 2
 	relative_position_id = YBJ_occupy_assembly
 	x = 1

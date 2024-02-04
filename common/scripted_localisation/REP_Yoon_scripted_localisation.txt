@@ -1,0 +1,72 @@
+defined_text = {
+	name = GetYBJFocusYBJ_joint_focus_test
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_joint_focus_test_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_collapse_government
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_collapse_government_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_grasp_situation
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_grasp_situation_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_call_nsc
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_call_nsc_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_declare_emergency
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_declare_emergency_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_prosecution_dictatorship
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_prosecution_dictatorship_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_integration_moj_prosecution
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_integration_moj_prosecution_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_sixty_nine_hour
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_sixty_nine_hour_text
+	}
+	text = { localization_key = YBJ_redacted }
+}
+defined_text = {
+	name = GetYBJFocusYBJ_occupy_assembly
+	text = {
+		trigger = { YBJ = { is_ai = no } }
+		localization_key = YBJ_occupy_assembly_text
+	}
+	text = { localization_key = YBJ_redacted }
+}

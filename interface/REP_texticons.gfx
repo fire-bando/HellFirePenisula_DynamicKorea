@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_moon_sign_texticon"
+		textureFile = "gfx/texticons/texticon_moon_sign.png"
+		legacy_lazy_load = no
+	}
+}
+
