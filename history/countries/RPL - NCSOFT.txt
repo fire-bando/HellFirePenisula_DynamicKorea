@@ -4,6 +4,8 @@ starting_train_buffer = 10
 
 oob = "standard_templates"
 
+recruit_character = RPL_taekjin_kim
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
