@@ -205,6 +205,8 @@ YAN = {	color = rgb { 255 48 234 }	color_ui = rgb { 255 4 234 }	}
 GNW = {	color = rgb { 0 234 48 }	color_ui = rgb { 0 4 234 }	}
 GAN = {	color = rgb { 31 196 97 }	color_ui = rgb { 31 196 97 }	}
 RPL = {	color = rgb { 3 78 153  }	color_ui = rgb { 3 78 153 }	}
+MSN = {	color = rgb { 0 159 180  }	color_ui = rgb { 0 159 180 }	}
+JHN = {	color = rgb { 32 129 130  }	color_ui = rgb { 32 129 130 }	}
 GGR = {	color = rgb { 150 16 16 }	color_ui = rgb { 150 16 16 }	}
 KDH = {	color = rgb { 156 63 255 }	color_ui = rgb { 156 63 255 }	}
 KRI = {	color = rgb { 243 212 0 }	color_ui = rgb { 243 212 0 }	}
