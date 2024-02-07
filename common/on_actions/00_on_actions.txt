@@ -56,16 +56,6 @@ on_actions = {
 					autonomous_state = autonomy_bun
 				}
 			}
-			SBU = {
-				country_event = {
-					id = sbu_event.1
-					days = 210
-				}
-				country_event = {
-					id = sbu_event.2
-					days = 700
-				}
-			}
 			SMS = {
 				add_offsite_building = { type = industrial_complex level = 50 }
 			}
