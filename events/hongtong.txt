@@ -1,0 +1,158 @@
+add_namespace = hong_event
+
+# New ace has been promoted
+country_event = { #남해국가판무관부의 최종통첩
+	id = hong_event.1
+	title = hong_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = hong_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = hong_event.1.a
+		KGR = {
+			declare_war_on = {
+				target = YG1
+				type = annex_everything
+			}
+			division_template = {
+				name = "Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision"
+				is_locked = yes
+				division_cap = 3 
+				division_names_group = USA_INF_01
+				priority = 0
+				template_counter = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+				}
+				support = {
+					military_police = { x = 0 y = 0 }
+				}
+			}
+			every_owned_state = {
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+				create_unit = {
+					division = "name = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" division_template = \"Großdeutsches Reich Südsee Nationalverwaltungsamt Verteidigungsdivision\" start_experience_factor = 0.5"
+					owner = KGR
+				}
+			}
+		}
+	}
+}
+country_event = { #식민정부의 마비
+	id = hong_event.2
+	title = hong_event.2.t
+	picture = GFX_report_event_tae_event
+    desc = hong_event.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = hong_event.2.a
+		JNR = {
+			end_puppet = JN1
+		}
+		JN1 = {
+			every_country = {
+				limit = {
+					has_war_with = JN1
+				}
+				white_peace=JN1
+			}
+			291 = {
+				set_demilitarized_zone = yes
+			}
+			290 = {
+				set_demilitarized_zone = yes
+			}
+			289 = {
+				set_demilitarized_zone = yes
+			}
+			288 = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+}
+country_event = { #배신자새끼
+	id = hong_event.3
+	title = hong_event.3.t
+	picture = GFX_report_event_tae_event
+    desc = hong_event.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = hong_event.3.a
+		KGR = {
+			transfer_state = 291
+			transfer_state = 290
+		}
+		TNK = {
+			annex_country = {
+				target = JN1
+				transfer_troops = yes
+			}
+		}
+	}
+}
