@@ -439,6 +439,8 @@
  
  #South Gyeongsang Province
  STATE_19:0 "창원" #1.105m
+ STATE_713:0 "마산" #363k
+ STATE_714:0 "진해" #192k
  STATE_275:0 "밀양" #110k
  STATE_276:0 "양산" #275k
  STATE_277:0 "김해" #530k
@@ -500,6 +502,7 @@
  
  #Ulsan
  STATE_59:0 "울산" #1.110m
+ STATE_712:0 "울주" #1.110m
  
  ### Liaoning Province ###
  

@@ -1,13 +1,13 @@
 
 state={
-	id=19
-	name="STATE_19"
+	id=713
+	name="STATE_713"
 
 	history={
 		owner = RPL
 		add_core_of = RPL
 		victory_points = {
-			14726 40 
+			395 10 
 		}
 		buildings = {
 			arms_factory = 4
@@ -23,10 +23,10 @@ state={
 	}
 
 	provinces={
-		1851 2740 4054 5377 5511 6133 8593 9691 14641 14652 14697 14726 14733 
+		395 1220 2032 2356 6248 6831 7780 7901 8579 14725 14762 14768 14780 14782 
 	}
-	manpower=1105000
+	manpower=363737
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 	local_supplies=0.000
 }

@@ -1,23 +1,27 @@
+
 state={
 	id=59
 	name="STATE_59"
-	resources = {
-		steel = 190
+	resources={
+		steel=190.000
 	}
-	provinces={
-		130 255 1319 2097 2354 2544 3133 3145 3703 3787 3886 4167 4168 4890 5628 6028 6898 7128 7415 7452 8282 8370 8927 9414 9707 14473 14476 14489 14505 14506 14512 14517 14521 14523 14536 14547 14554 14558 14567 14574 14578 
-	}
-    
-    history={
+
+	history={
 		owner = BSU
 		add_core_of = BSU
-		victory_points = { 7452 40 }
+		victory_points = {
+			7452 40 
+		}
 		buildings = {
 			air_base = 10
 		}
-	}  
-    
-	manpower=1110000
-	state_category=metropolis
+	}
+
+	provinces={
+		130 255 1319 2354 6898 7452 8370 9414 9707 14506 14512 
+	}
+	manpower=2201777
 	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
 }
