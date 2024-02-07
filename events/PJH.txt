@@ -1,0 +1,17 @@
+add_namespace = PJH_event
+
+country_event = { 
+	id = PJH_event.1
+	title = PJH_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = PJH_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PJH_event.1.a
+		every_country = {
+			drop_cosmetic_tag = yes
+		}
+	}
+}

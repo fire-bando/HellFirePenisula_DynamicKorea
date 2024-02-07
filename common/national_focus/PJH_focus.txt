@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = PJH_wtf_is_this
 		icon = GFX_abcdef
-		x = 26
+		x = 10
 		y = 0
 		cost = 5
 		completion_reward = {
@@ -23,5 +23,29 @@ focus_tree = {
 				}
 			}
 		}
+	}
+	focus = {
+		id = PJH_wtf_is_this
+		icon = GFX_abcdef
+		x = 10
+		y = 0
+		cost = 5
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = pjh_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = PJH_where_am_i
+	}
+	focus = {
+		id = PJH_what_is_today
+	}
+	focus = {
+		id = PJH_what_is_today
 	}
 }

@@ -63,8 +63,8 @@ on_actions = {
 							original_tag = YBJ
 							original_tag = YG1
 							original_tag = SCJ
+							original_tag = KRU
 							original_tag = ENG
-							original_tag = ITA
 						}
 					}
 					add_to_array = { CountryInfo_array_main = 101 }

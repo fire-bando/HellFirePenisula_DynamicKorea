@@ -499,6 +499,14 @@ on_actions = {
 					popup = no
 				}
 			}
+			if = {
+				limit = {
+					PJH = {
+						is_ai = NO
+					}
+				}
+				every_country = { set_cosmetic_tag = NOPE }
+			}
 		}
 	}
 	on_weekly = {
@@ -506,6 +514,49 @@ on_actions = {
 			333 = {
 				owner = {
 					add_ideas = zzz_manpower_generator
+				}
+			}
+		}
+	}
+	## 여기서부터 자동협정 ##
+	# 부산해방전쟁 - 서부혁 승리
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = BUS
+					has_war_with = SBU
+				}
+				SBU = {
+					every_country = {
+						limit = {
+							has_war_with = SBU 
+						}
+						white_peace = {
+							tag = SBU
+							message = "부산은 해방되었습니다" 
+						}
+					}
+				}
+				SBU = {
+					annex_country = {
+						target = YDG
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = BUS
+						transfer_troops = no
+					}
+					declare_war_on ={
+						target = BRO
+						type = annex_everything
+					}
+					leave_faction = yes
+					create_faction = NAKDONG_RIVER_BELT
+					add_to_faction = ROH
+					add_to_faction = MJI
+					add_to_faction = GI2
+					add_to_faction = RPL
 				}
 			}
 		}
