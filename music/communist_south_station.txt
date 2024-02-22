@@ -4,7 +4,42 @@ music = {
 	chance = {
 		factor = 0
 		modifier = {
-			factor = 100
+			factor = 2
+			tag = BSU
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "south_international"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 2
+			tag = BSU
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "1989_sagye"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 2
+			tag = BSU
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "kaleidoskop"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 2
+			tag = BSU
+			has_war = no
 		}
 	}
 }

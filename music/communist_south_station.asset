@@ -1,4 +1,16 @@
 music = {
+	name = "south_international"
+	file = "south_international.ogg"
+}
+music = {
+	name = "1989_sagye"
+	file = "1989.ogg"
+}
+music = {
 	name = "einheitsfrontlied"
 	file = "einheitsfrontlied.ogg"
+}
+music = {
+	name = "kaleidoskop"
+	file = "kaleidoskop.ogg"
 }
