@@ -1,0 +1,10 @@
+music_station = "communist_south_station"
+music = {
+	song = "einheitsfrontlied"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
