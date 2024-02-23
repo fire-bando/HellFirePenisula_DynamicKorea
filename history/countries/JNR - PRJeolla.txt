@@ -41,7 +41,7 @@ if = {
 	}
 }
 
-create_faction = "공산당-노동자당 국제회의"
+create_faction = "공산전체세력"
 add_to_faction = PCS
 add_to_faction = SBU
 

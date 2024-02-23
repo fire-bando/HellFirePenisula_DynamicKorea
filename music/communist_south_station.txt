@@ -15,9 +15,20 @@ music = {
 	chance = {
 		factor = 0
 		modifier = {
-			factor = 2
+			factor = 50
 			tag = BSU
 			has_war = yes
+		}
+	}
+}
+music = {
+	song = "when_the_day_is_come"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+			tag = BSU
+			has_war = no
 		}
 	}
 }
@@ -34,6 +45,39 @@ music = {
 }
 music = {
 	song = "kaleidoskop"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 2
+			tag = BSU
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "sol"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 2
+			tag = BSU
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "letsgoonthisroadtogether"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 2
+			tag = BSU
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "ground-of-equality"
 	chance = {
 		factor = 0
 		modifier = {

@@ -31,6 +31,10 @@ DCE = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
+UKK = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }

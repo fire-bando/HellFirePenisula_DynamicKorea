@@ -7,13 +7,13 @@
  GNW_TAE_neutrality_autonomy_colony:0 "군위구"
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
 
- JN1_JNR:0 "영남해방구"
- JN1_JNR_ADJ:0 "홍어련 개쌍"
- JN1_JNR_DEF:0 "홍어련 개쌍"
+ JN1_JNR:0 "서부방면군"
+ JN1_JNR_ADJ:0 "서부방면군"
+ JN1_JNR_DEF:0 "서부방면군"
 
  YED_JNR:0 "호서해방군"
- YED_JNR_ADJ:0 "홍어령 멍청"
- YED_JNR_DEF:0 "홍어령 멍청"
+ YED_JNR_ADJ:0 "호서해방군"
+ YED_JNR_DEF:0 "호서해방군"
 
  FUCK:0 "문어삼겹살고추장구이 지역방위위원회"
  FUCK_ADJ:0 "양념닭발 자유지구"

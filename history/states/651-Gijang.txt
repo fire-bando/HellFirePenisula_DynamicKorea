@@ -17,6 +17,7 @@ state={
 		victory_points = {
 			1365 2 
 		}
+		set_demilitarized_zone = yes
 	}
 	provinces={
 		1312 1365 1390 8237 8329 8487 8802 9028 14627 14645 14655 14720 

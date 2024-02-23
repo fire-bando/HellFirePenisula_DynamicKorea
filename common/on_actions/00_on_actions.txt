@@ -529,7 +529,7 @@ on_actions = {
 					}
 				}
 				SBU = {
-					annex_country = {
+					annex_country = { #스까국 행정력이 미치지 않는곳 혹은 묵인한곳을 고로시하는거다
 						target = YDG
 						transfer_troops = yes
 					}
@@ -537,9 +537,12 @@ on_actions = {
 						target = BUS
 						transfer_troops = no
 					}
-					declare_war_on ={
+					declare_war_on ={ #스까국 행정력이 미치지 않는곳 혹은 묵인한곳을 고로시하는거다
 						target = BRO
 						type = annex_everything
+					}
+					GI2 = { # 나중에 이벤트로 고칠건데 일단 귀찮으니 냅두죠
+						transfer_state = 653
 					}
 					leave_faction = yes
 					create_faction = NAKDONG_RIVER_BELT
@@ -547,6 +550,54 @@ on_actions = {
 					add_to_faction = MJI
 					add_to_faction = GI2
 					add_to_faction = RPL
+				}
+			}
+			if = {
+				limit = {
+					tag = TNK
+					has_war_with = EOT
+				}
+				every_country = {
+					limit = {
+						has_war_with = TNK 
+					}
+					white_peace = {
+						tag = TNK
+					}
+					EOT = {
+						annex_country = {
+							target = TNK
+							transfer_troops = no
+						}
+						add_state_core = 253
+						add_state_core = 254
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = EOT
+					has_war_with = TAE
+				}
+				TAE = {
+					transfer_state = 683
+				}
+				253 = {
+					set_demilitarized_zone = yes
+				}
+				254 = {
+					set_demilitarized_zone = yes
+				}
+				JNR = {
+					add_to_faction = EOT
+				}
+				every_country = {
+					limit = {
+						has_war_with = EOT 
+					}
+					white_peace = {
+						tag = EOT
+					}
 				}
 			}
 		}

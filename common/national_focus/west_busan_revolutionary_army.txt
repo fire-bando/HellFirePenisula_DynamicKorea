@@ -230,7 +230,10 @@ focus_tree = {
 		y = 1
 		cost = 8
 		completion_reward = {
-		
+			annex_country = {
+				target = GI2
+				transfer_troops = yes
+			}
 		}
 	}
 	focus = {

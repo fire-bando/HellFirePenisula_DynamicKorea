@@ -1,5 +1,6 @@
 JAP	= "countries/Japan.txt"
 ENG = "countries/England.txt"
+UKK = "countries/England.txt"
 SOV = "countries/Soviet Union.txt"
 FRA	= "countries/France.txt"
 MEN = "countries/Mengkukuo.txt"

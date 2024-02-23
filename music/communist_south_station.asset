@@ -14,3 +14,15 @@ music = {
 	name = "kaleidoskop"
 	file = "kaleidoskop.ogg"
 }
+music = {
+	name = "when_the_day_is_come"
+	file = "when_the_day_is_come.ogg"
+}
+music = {
+	name = "sol"
+	file = "sol.ogg"
+}
+music = {
+	name = "letsgoonthisroadtogether"
+	file = "letsgoonthisroadtogether.ogg"
+}
