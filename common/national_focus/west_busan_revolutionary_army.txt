@@ -269,18 +269,53 @@ focus_tree = {
 		y = 2
 		cost = 8
 		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = SBU_east_busan_riot
-		relative_position_id = SBU_soft_civilwar_at_main_busan
-		prerequisite = { focus = SBU_soft_civilwar_at_main_busan }
-		x = 0
-		y = 1
-		cost = 8
-		completion_reward = {
-		
+			create_dynamic_country = {
+				original_tag = SBU
+				copy_tag = SBU
+				add_political_power = 100
+				transfer_state = 651
+				set_cosmetic_tag = SBU_gijang_commune
+				set_country_flag = gijang_commune
+				division_template = {
+					name = "Gijang People Militia"
+					is_locked = yes
+					division_names_group = USA_INF_01
+					priority = 0
+					template_counter = 0
+					regiments = {
+						militia = { x = 0 y = 0 }
+						militia = { x = 0 y = 1 }
+						militia = { x = 0 y = 2 }
+						militia = { x = 1 y = 0 }
+						militia = { x = 1 y = 1 }
+						militia = { x = 1 y = 2 }
+					}
+				}
+				every_owned_state = {
+					create_unit = {
+						division = "name = \"민병대\" division_template = \"Gijang People Militia\" start_manpower_factor = 0.1"
+						owner = FROM
+						count = 11
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"민병대\" division_template = \"Gijang People Militia\" start_manpower_factor = 0.1"
+						owner = ROOT
+						count = 11
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"민병대\" division_template = \"Gijang People Militia\" start_manpower_factor = 0.1"
+						owner = THIS
+						count = 11
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+				declare_war_on = {
+					target = BUS
+					type = annex_everything
+				}
+			}
 		}
 	}
 	focus = {
@@ -291,7 +326,19 @@ focus_tree = {
 		y = 1
 		cost = 8
 		completion_reward = {
-		
+			every_country = {
+				limit = {
+					has_country_flag = gijang_commune
+				}
+				SBU = {
+					set_autonomy = {
+						target = PREV
+						autonomous_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
+				}
+			}
 		}
 	}
 }
