@@ -2,7 +2,7 @@ capital = 59
 
 starting_train_buffer = 20
 
-recruit_character = AHN_cheol_su
+recruit_character = BSU_metal_union
 
 # Starting tech
 set_technology = {
@@ -15,11 +15,12 @@ set_research_slots = 5
 set_convoys = 0
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "2020.4.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 98
+	socialism = 54
+	communism = 46
 }

@@ -19,6 +19,6 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-create_faction = "마계 연방"
+create_faction = MAKYE_FACTION
 add_to_faction = YDG
 add_to_faction = ANS

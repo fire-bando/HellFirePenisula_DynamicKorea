@@ -11,7 +11,23 @@ country_event = {
 	option = {
 		name = PJH_event.1.a
 		every_country = {
+			limit = {
+				NOT = {
+					OR = {
+						original_tag = JN1
+						original_tag = YED
+					}
+				}
+			}
 			drop_cosmetic_tag = yes
+		}
+		hidden_effect = {
+			JN1 = {
+				set_cosmetic_tag = JN1_JNR
+			}
+			YED = {
+				set_cosmetic_tag = YED_JNR
+			}
 		}
 	}
 }

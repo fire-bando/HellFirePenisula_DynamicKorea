@@ -324,7 +324,7 @@ focus_tree = {
 		prerequisite = { focus = SBU_soft_civilwar_at_main_busan }
 		x = 0
 		y = 1
-		cost = 8
+		cost = 1
 		completion_reward = {
 			every_country = {
 				limit = {
@@ -337,6 +337,12 @@ focus_tree = {
 						end_wars = no
 						end_civil_wars = no
 					}
+				}
+			}
+			SBU = {
+				declare_war_on = {
+					target = BUS
+					type = annex_everything
 				}
 			}
 		}

@@ -8,7 +8,7 @@ set_technology = {
 	basic_train = 1
 }
 
-create_faction = "워마드"
+create_faction = WOMAD
 add_to_faction = GI2
 
 set_convoys = 20

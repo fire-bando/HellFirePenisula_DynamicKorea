@@ -12,7 +12,7 @@ set_technology = {
 
 set_convoys = 20
 
-create_faction = "아인하이츠팍트"
+create_faction = einheitspakt
 
 set_politics = {
 	ruling_party = fascism

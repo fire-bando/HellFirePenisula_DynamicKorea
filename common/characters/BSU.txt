@@ -1,0 +1,14 @@
+characters={ 
+    BSU_metal_union={
+        name=BSU_metal_union
+        portraits={
+            civilian={
+                large="gfx/leaders/BSU/nojo.png"
+            }
+        }
+        country_leader={
+            ideology=NL
+            expire="1991.4.2"
+        }
+    }
+}

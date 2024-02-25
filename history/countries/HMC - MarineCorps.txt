@@ -18,7 +18,7 @@ recruit_character = HMC_por_pip
 
 oob = "standard_templates"
 
-create_faction = "해병대 유니버스"
+create_faction = MARINE_FACTION
 add_to_faction = JEJ
 add_to_faction = GMP
 

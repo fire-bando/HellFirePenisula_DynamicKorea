@@ -40,6 +40,17 @@ defined_text = {
 
 
 defined_text = {
+	name = GetSubIdeologyLocSocialism
+	text = {
+		trigger = { has_country_leader_ideology = NL }
+		localization_key = NL
+	}
+	text = {
+		localization_key = socialism
+	}
+}
+
+defined_text = {
 	name = GetSubIdeologyLocDemocratic
 	text = {
 		trigger = { has_country_leader_ideology = conservatism }
@@ -48,10 +59,6 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = liberalism }
 		localization_key = liberalism
-	}
-	text = {
-		trigger = { has_country_leader_ideology = socialism }
-		localization_key = socialism
 	}
 	text = {
 		trigger = { has_country_leader_ideology = gaeddal }

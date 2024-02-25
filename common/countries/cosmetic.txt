@@ -14,3 +14,7 @@ NOPE = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
+JN1_JNR = {
+	color = rgb { 227 48 82 }
+	color_ui = rgb { 227 48 82 }
+}

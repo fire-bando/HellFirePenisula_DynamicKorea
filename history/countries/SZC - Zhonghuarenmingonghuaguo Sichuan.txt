@@ -11,7 +11,7 @@ set_technology = {
 	infantry_weapons2 = 1
 }
 
-create_faction = "중국특색 사회주의 사상 국제회의"
+create_faction = CHINESE_SZC
 
 set_convoys = 20
 

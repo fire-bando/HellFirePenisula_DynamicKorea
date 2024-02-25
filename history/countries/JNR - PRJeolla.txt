@@ -41,7 +41,7 @@ if = {
 	}
 }
 
-create_faction = "공산전체세력"
+create_faction = JEOLLA_FACTION
 add_to_faction = PCS
 add_to_faction = SBU
 
