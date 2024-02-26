@@ -36,11 +36,19 @@ defined_text = {
 		trigger = { has_government = feminism }
 		localization_key = "[GetSubIdeologyLocFeminism]"
 	}
+	text = {
+		trigger = { has_government = socialism }
+		localization_key = "[GetSubIdeologyLocSocialism]"
+	}
 }
 
 
 defined_text = {
 	name = GetSubIdeologyLocSocialism
+	text = {
+		trigger = { has_country_leader_ideology = jongbuk }
+		localization_key = jongbuk
+	}
 	text = {
 		trigger = { has_country_leader_ideology = NL }
 		localization_key = NL

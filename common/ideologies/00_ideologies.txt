@@ -115,6 +115,7 @@ ideologies = {
 		types = {
 			socialism_subtype = {}
 			NL = {}
+			jongbuk = {}
 		}
 
 		dynamic_faction_names = {

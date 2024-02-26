@@ -1,0 +1,14 @@
+characters={ 
+    LAB_seokgi_lee={
+        name=LAB_seokgi_lee
+        portraits={
+            civilian={
+                large=GFX_seokgi_lee
+            }
+        }
+        country_leader={
+            ideology=NL
+            expire="1979.10.26"
+        }
+    }
+ }

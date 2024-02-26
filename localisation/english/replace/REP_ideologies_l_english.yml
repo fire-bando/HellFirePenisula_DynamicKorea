@@ -28,6 +28,11 @@
  radical_feminism: "급진적 페미니즘"
  accelerated_feminism: "촉진적 페미니즘"
  feminism_desc: "애미-애비뒤진체제"
+ socialism: "사회주의"
+ socialism_desc: "전체주의 체제"
+ parkism_desc: "유신체제"
+ jongbuk: "종북좌파"
+ NL: "민족해방정파"
 
  #-- Communism --#
  commnuism_juche_subtype: "주체사상"
