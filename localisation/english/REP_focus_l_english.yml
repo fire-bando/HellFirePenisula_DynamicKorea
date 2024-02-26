@@ -43,6 +43,26 @@
  ## PJH ##
  #########
  PJH_wtf_is_this:0 "상황 파악"
+ PJH_october_restoration: "10월 유신"
+ PJH_KBS: "한국방송공사 설립"
+ PJH_bulguksa: "불국사 복원"
+ PJH_yulgok:0 "율곡사업"
+ PJH_command_4:0 "긴급조치 4호"
+ PJH_for_chemical_and_heavy_industry:0 "중화학공업을 향하여"
+ PJH_pohang:0 "포항제철소"
+ PJH_daeduk_complex:0 "대덕연구단지"
+ PJH_changwon_national_industrial_complex:0 "창원국가산업단지"
+ PJH_juan_national_industrial_complex:0 "주안국가산업단지"
+ PJH_october_restoration_million_export:0 "10월유신,\n100억불 수출"
+ PJH_hyundai_ulsan_dockyard:0 "현대울산조선소 가동"
+ PJH_advancing_saemaeul_train:0 "새마을호는 달린다"
+ PJH_long_hair_and_mini_skirt:0 "장발 및 스커트 단속"
+ PJH_establish_restoration_political_friendship_association:0 "유신정우회 창설"
+ PJH_hey_dj_stop_the_party:0 "김대중 납치"
+ PJH_kinkyuu:0 "긴급조치 1, 2호 선포"
+ PJH_fuck_you_bro_haha:0 "집회 및 시위에 관한 법률 시행령"
+ PJH_second_people_revolutionary_party_incident:0 "2차 인혁당 사건"
+ PJH_4th_abcdefgh:0 "제4차 국민투표"
 
  ###TT
  JEONJU_END:0 "북부의 폭동을 막아내다"

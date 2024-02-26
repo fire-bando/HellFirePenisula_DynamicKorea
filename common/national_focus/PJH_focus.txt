@@ -1,6 +1,6 @@
 focus_tree = {
 	id = PJH_focus
-	continuous_focus_position = { x = 0 y = 1560 }
+	continuous_focus_position = { x = 0 y = 4560 }
 	country = {
 		factor = 0
 		modifier = {
@@ -11,8 +11,8 @@ focus_tree = {
 	default = no
 	focus = {
 		id = PJH_wtf_is_this
-		icon = GFX_abcdef
-		x = 10
+		icon = a
+		x = 1
 		y = 0
 		cost = 5
 		completion_reward = {
@@ -25,27 +25,245 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = PJH_wtf_is_this
-		icon = GFX_abcdef
+		id = PJH_october_restoration
+		icon = GFX_focus_usa_voter_registration_act
 		x = 10
 		y = 0
 		cost = 5
 		completion_reward = {
-			ROOT = {
-				country_event = {
-					id = pjh_event.1
-					days = 0 
-				}
-			}
+			
 		}
 	}
 	focus = {
-		id = PJH_where_am_i
+		id = PJH_KBS
+		icon = GFX_focus_SWE_radiotjanst
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_october_restoration
+		prerequisite = { focus = PJH_october_restoration } 
+		completion_reward = {
+
+		}
 	}
 	focus = {
-		id = PJH_what_is_today
+		id = PJH_bulguksa
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_KBS
+		prerequisite = { focus = PJH_KBS } 
+		completion_reward = {
+
+		}
 	}
 	focus = {
-		id = PJH_what_is_today
+		id = PJH_yulgok
+		icon = GFX_focus_generic_tank_production
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_bulguksa
+		prerequisite = { focus = PJH_bulguksa } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_command_4
+		icon = GFX_focus_generic_military_mission
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_yulgok
+		prerequisite = { focus = PJH_yulgok } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_for_chemical_and_heavy_industry
+		icon = GFX_focus_generic_aluminum
+		x = 3
+		y = 1
+		cost = 5
+		relative_position_id = PJH_october_restoration
+		prerequisite = { focus = PJH_october_restoration } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_pohang
+		icon = GFX_focus_generic_steel
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_for_chemical_and_heavy_industry
+		prerequisite = { focus = PJH_for_chemical_and_heavy_industry } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_hyundai_ulsan_dockyard
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_pohang
+		prerequisite = { focus = PJH_pohang } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_advancing_saemaeul_train
+		icon = GFX_focus_generic_railroad
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_hyundai_ulsan_dockyard
+		prerequisite = { focus = PJH_hyundai_ulsan_dockyard } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_daeduk_complex
+		icon = GFX_focus_research
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = PJH_for_chemical_and_heavy_industry
+		prerequisite = { focus = PJH_for_chemical_and_heavy_industry } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_changwon_national_industrial_complex
+		icon = GFX_focus_generic_industry_2
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_daeduk_complex
+		prerequisite = { focus = PJH_daeduk_complex } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_juan_national_industrial_complex
+		icon = GFX_focus_generic_industry_1
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = PJH_daeduk_complex
+		prerequisite = { focus = PJH_daeduk_complex } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_october_restoration_million_export
+		icon = GFX_focus_mex_privatisation
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = PJH_juan_national_industrial_complex
+		prerequisite = { focus = PJH_juan_national_industrial_complex } 
+		prerequisite = { focus = PJH_changwon_national_industrial_complex } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_long_hair_and_mini_skirt
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = -3
+		y = 1
+		cost = 5
+		relative_position_id = PJH_october_restoration
+		prerequisite = { focus = PJH_october_restoration } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_establish_restoration_political_friendship_association
+		icon = GFX_focus_generic_support_the_left_right
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_long_hair_and_mini_skirt
+		prerequisite = { focus = PJH_long_hair_and_mini_skirt } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_fuck_you_bro_haha
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_establish_restoration_political_friendship_association
+		prerequisite = { focus = PJH_establish_restoration_political_friendship_association } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_hey_dj_stop_the_party
+		icon = GFX_focus_generic_jet_planes
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = PJH_long_hair_and_mini_skirt
+		prerequisite = { focus = PJH_long_hair_and_mini_skirt } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_kinkyuu
+		icon = GFX_focus_LAT_suspend_constitution_of_latvia
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_hey_dj_stop_the_party
+		prerequisite = { focus = PJH_hey_dj_stop_the_party } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_second_people_revolutionary_party_incident
+		icon = GFX_focus_SWE_socialist_reforms
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_fuck_you_bro_haha
+		prerequisite = { focus = PJH_fuck_you_bro_haha } 
+		prerequisite = { focus = PJH_kinkyuu } 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PJH_4th_abcdefgh
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_command_4
+		prerequisite = { focus = PJH_advancing_saemaeul_train } 
+		prerequisite = { focus = PJH_second_people_revolutionary_party_incident } 
+		prerequisite = { focus = PJH_command_4 } 
+		completion_reward = {
+
+		}
 	}
 }

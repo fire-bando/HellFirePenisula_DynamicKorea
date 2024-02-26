@@ -15,5 +15,32 @@ ideas = {
 				attack_bonus_against = 0.75
 			}
 		}
+		NON_surgeon_surgeon_surgeon_surgeon = {
+			picture = generic_manpower_bonus
+
+			modifier = {
+				army_morale_factor = -0.20
+				army_org_factor = -0.15
+			}
+		}
+		NON_haha_doctor_idontcare = {
+			picture = generic_manpower_bonus
+
+			modifier = {
+				army_morale_factor = 0.15
+				army_org_factor = 0.1
+			}
+		}
+		SBU_high_people_support = {
+			picture = prc_low_popular_support3
+
+			modifier = {
+				army_core_defence_factor = 0.125
+			}
+			targeted_modifier = {
+				tag = BUS
+				attack_bonus_against = 0.75
+			}
+		}
 	}
 }
