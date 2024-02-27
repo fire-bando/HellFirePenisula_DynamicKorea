@@ -24,6 +24,7 @@ characters={
             traits = {
                 half_human_half_god
                 economic_reformer
+                dictator
             }
         }
     }

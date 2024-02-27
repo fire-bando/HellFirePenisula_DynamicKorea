@@ -188,3 +188,20 @@ set_politics = {
 set_popularities = {
 	parkism = 100
 }
+
+complete_national_focus = PJH_focus
+complete_national_focus = PJH_bulguksa
+complete_national_focus = PJH_yulgok
+complete_national_focus = PJH_command_4
+complete_national_focus = PJH_pohang
+complete_national_focus = PJH_hyundai_ulsan_dockyard
+complete_national_focus = PJH_advancing_saemaeul_train
+complete_national_focus = PJH_daeduk_complex
+complete_national_focus = PJH_changwon_national_industrial_complex
+complete_national_focus = PJH_juan_national_industrial_complex
+complete_national_focus = PJH_long_hair_and_mini_skirt
+complete_national_focus = PJH_establish_restoration_political_friendship_association
+complete_national_focus = PJH_hey_dj_stop_the_party
+complete_national_focus = PJH_kinkyuu
+complete_national_focus = PJH_second_people_revolutionary_party_incident
+complete_national_focus = PJH_4th_abcdefgh
