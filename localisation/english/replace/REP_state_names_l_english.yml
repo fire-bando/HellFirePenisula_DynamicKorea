@@ -445,7 +445,6 @@
  STATE_276:0 "양산" #275k
  STATE_277:0 "김해" #530k
  STATE_278:0 "창녕" #65k
- STATE_279:0 "합천" #50k
  STATE_280:0 "의령" #30k
  STATE_281:0 "함안" #70k
  STATE_282:0 "고성" #60k
@@ -458,6 +457,9 @@
  STATE_289:0 "함양" #40k
  STATE_290:0 "산청" #35k
  STATE_291:0 "하동" #50k
+ STATE_279:0 "합천" #50k
+ STATE_715:0 "가야-야로-묘산" #8k
+ STATE_716:0 "가회" #1.7k
  
  #South Jeolla Province
  STATE_17:0 "무안" #70k

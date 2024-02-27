@@ -576,11 +576,18 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = EOT
-					has_war_with = TAE
+					AND = {
+						tag = EOT
+						has_war_with = TAE
+					}
 				}
-				TAE = {
-					transfer_state = 683
+				every_country = {
+					limit = {
+						has_war_with = EOT 
+					}
+					white_peace = {
+						tag = EOT
+					}
 				}
 				if = {
 					limit = {
@@ -597,6 +604,11 @@ on_actions = {
 					JNR = {
 						add_to_faction = EOT
 					}
+				}
+				if {
+					limit = {
+						country_exists = TNK
+					}
 					every_country = {
 						limit = {
 							has_war_with = EOT 
@@ -605,11 +617,18 @@ on_actions = {
 							tag = EOT
 						}
 					}
-				}
-				else {
 					TNK = {
 						set_cosmetic_tag = TNK_UGD
 					}
+					TAE = {
+						set_autonomy = {
+							target = TNK
+							autonomous_state = autonomy_colony
+						}
+					}
+				}
+				TAE = {
+					transfer_state = 683
 				}
 			}
 		}

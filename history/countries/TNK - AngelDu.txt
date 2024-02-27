@@ -1,14 +1,6 @@
 capital = 279
 
-starting_train_buffer = 30
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	basic_train = 1
-}
-
-set_convoys = 20
+starting_train_buffer = 2
 
 set_politics = {
 	ruling_party = neutrality
@@ -22,6 +14,19 @@ set_popularities = {
 	communism = 10
 	democratic = 4
 }
+
+recruit_character = TNK_louis
+
+oob = "TNK_2023"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+set_convoys = 20
+
 declare_war_on = {
 	target = EOT
 	type = annex_everything

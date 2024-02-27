@@ -1,0 +1,20 @@
+state={
+	id=716
+	name="STATE_716"
+
+	history={
+		owner = TNK
+		add_core_of = TNK
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		5441 14592 
+	}
+	manpower=1732
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

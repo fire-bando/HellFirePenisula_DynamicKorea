@@ -95,4 +95,8 @@ spriteTypes={
 		name="GFX_RPL_taekjin_kim"
 		texturefile="gfx/leaders/RPL/RPL_taekjin_kim.dds"
 	}
+	spriteType={
+		name="GFX_TNK_louis_large"
+		texturefile="gfx/leaders/easter_egg/louis.png"
+	}
 }

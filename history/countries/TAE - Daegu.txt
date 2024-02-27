@@ -1,8 +1,5 @@
 capital = 58
 
-recruit_character = TAE_junpyo_hong
-recruit_character = TAE_jaewon_kim
-
 starting_train_buffer = 30
 
 oob = "TAE_2023"
@@ -31,3 +28,6 @@ declare_war_on = {
 	target = EOT
 	type = annex_everything
 }
+
+recruit_character = TAE_junpyo_hong
+recruit_character = TAE_jaewon_kim

@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "계엄군"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+
+	division_names_group = TNK_INF_01
+
+	priority = 2
+}
+division_template = {
+	name = "태극기부대"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	division_names_group = TNK_INF_02
+
+	priority = 2
+}
+
+units = {
+	# 계엄군 부대
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 14504
+		division_template = "계엄군"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14438
+		division_template = "계엄군"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	# 태극기 부대
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4738
+		division_template = "태극기부대"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7741
+		division_template = "태극기부대"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6399
+		division_template = "태극기부대"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6380
+		division_template = "태극기부대"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}
