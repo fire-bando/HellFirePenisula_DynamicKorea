@@ -21,10 +21,12 @@ characters={
         country_leader={
             ideology=gaka
             expire="1979.10.26"
+            desc=PJH_desc
             traits = {
                 half_human_half_god
                 economic_reformer
                 dictator
+                hearts_of_yushin
             }
         }
     }

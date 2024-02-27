@@ -10,6 +10,7 @@ leader_traits = {
 
 	hearts_of_yushin = {
 		random = no
+		consumer_goods_factor = -0.25
 		political_power_factor = 0.1026
 		communism_acceptance = -1026
 		economy_cost_factor = -0.66
