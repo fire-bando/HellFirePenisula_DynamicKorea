@@ -24,6 +24,32 @@
  
  BMB_with_SPO:0 "사법부"
 
+ TNK_JINBO:0 "진보당 경남도당"
+ TNK_JINBO_ADJ:0 "진보당 경남도당"
+ TNK_JINBO_DEF:0 "진보당 경남도당"
+
+ JBD_JN:0 "진보당 전남도당"
+ JBD_JN_ADJ:0 "진보당 전남도당"
+ JBD_JN_DEF:0 "진보당 전남도당"
+
+ JBD_JB:0 "진보당 전북도당"
+ JBD_JB_ADJ:0 "진보당 전북도당"
+ JBD_JB_DEF:0 "진보당 전북도당"
+
+ JBD_CB:0 "진보당 충북도당"
+ JBD_CB_ADJ:0 "진보당 충북도당"
+ JBD_CB_DEF:0 "진보당 충북도당"
+ 
+ JBD_CN:0 "진보당 충남도당"
+ JBD_CN_ADJ:0 "진보당 충남도당"
+ JBD_CN_DEF:0 "진보당 충남도당"
+
+ JBD_CN:0 "진보당"
+ JBD_CN_ADJ:0 "진보당"
+ JBD_CN_DEF:0 "진보당"
+
+ TNK_UGD:0 "우덜식공화당 경북애국동지회"
+
  autonomy_bun:0 "번국"
  autonomy_one_country_two_system: "일국양제"
 

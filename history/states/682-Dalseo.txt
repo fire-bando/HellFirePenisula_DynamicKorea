@@ -4,7 +4,11 @@ state={
 	name="STATE_682"
 	history={
 		owner = TAE
-		add_core_of = TAE
+		add_core_of = 
+		buildings = {
+			industrial_complex = 1
+			infrastructure=5
+		}
 	}
 	provinces={
 		8613 14391 14404 14407 

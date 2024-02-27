@@ -7,7 +7,7 @@ characters={
             }
         }
         country_leader={
-            ideology=NL
+            ideology=jongbuk
             expire="1979.10.26"
         }
     }

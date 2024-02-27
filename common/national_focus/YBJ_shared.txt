@@ -295,7 +295,16 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		
+		621 = {
+			set_demilitarized_zone = no
+		}
+		ROOT = {
+			add_state_core = 621
+		}
+		declare_war_on = {
+			target = ASS
+			type = puppet_wargoal_focus
+		}
 	}
 }
 

@@ -7,6 +7,9 @@ state={
 		owner = GNW
 		add_core_of = GNW
         victory_points = { 9266 1 }
+		buildings = {
+			infrastructure=3
+		}
 	}
 
 	provinces={

@@ -5,6 +5,10 @@ state={
 		owner = EOT
 		add_core_of = TAE
 		add_core_of = EOT
+		buildings = {
+			industrial_complex = 1
+			infrastructure=3
+		}
 		2022.12.29 = {
 			TAE = {
 				set_province_controller = 4955

@@ -4,6 +4,10 @@ state={
 	history={
 		owner = TAE
 		add_core_of = TAE
+		buildings = {
+			industrial_complex = 5
+			infrastructure=6
+		}
 		victory_points = {
 			5081 50 
 		}

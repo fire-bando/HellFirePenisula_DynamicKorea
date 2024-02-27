@@ -582,21 +582,33 @@ on_actions = {
 				TAE = {
 					transfer_state = 683
 				}
-				253 = {
-					set_demilitarized_zone = yes
-				}
-				254 = {
-					set_demilitarized_zone = yes
-				}
-				JNR = {
-					add_to_faction = EOT
-				}
-				every_country = {
+				if = {
 					limit = {
-						has_war_with = EOT 
+						253 = {
+							is_owned_by = EOT
+						}
 					}
-					white_peace = {
-						tag = EOT
+					253 = {
+						set_demilitarized_zone = yes
+					}
+					254 = {
+						set_demilitarized_zone = yes
+					}
+					JNR = {
+						add_to_faction = EOT
+					}
+					every_country = {
+						limit = {
+							has_war_with = EOT 
+						}
+						white_peace = {
+							tag = EOT
+						}
+					}
+				}
+				else {
+					TNK = {
+						set_cosmetic_tag = TNK_UGD
 					}
 				}
 			}
