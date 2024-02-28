@@ -4,6 +4,9 @@ state={
 	history={
 		owner = SPO
 		add_core_of = SPO
+		buildings = {
+			infrastructure = 9
+		}
 	}
 	provinces={
 		4585 5951 13554 

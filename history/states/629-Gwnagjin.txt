@@ -4,6 +4,9 @@ state={
 	history={
 		owner = RGG
 		add_core_of = RGG
+		buildings = {
+			infrastructure = 8
+		}
 	}
 	provinces={
 		17724 

@@ -4,6 +4,9 @@ state={
 	history={
 		owner = LAB
 		add_core_of = LAB
+		buildings = {
+			infrastructure = 9
+		}
 	}
 	provinces={
 		3053 7301 13530 

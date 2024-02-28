@@ -5,6 +5,9 @@ state={
 	history={
 		owner = GNG
 		add_core_of = GNG
+		buildings = {
+			infrastructure = 9
+		}
 	}
 	provinces={
 		5866 6572 

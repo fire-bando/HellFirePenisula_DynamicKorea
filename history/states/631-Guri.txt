@@ -7,6 +7,9 @@ state={
 	history={
 		owner = GGR
 		add_core_of = GGR
+		buildings = {
+			infrastructure = 7
+		}
 	}
 	manpower=189000
 	state_category = metropolis

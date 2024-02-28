@@ -3,7 +3,10 @@ state={
 	name="STATE_621"
 	history={
 		owner = ASS
-		add_core_of = ASS
+		add_core_of = 
+		buildings = {
+			infrastructure = 10
+		}
 		set_demilitarized_zone = yes
 		victory_points = {
 			13535 35

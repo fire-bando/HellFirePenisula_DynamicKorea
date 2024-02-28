@@ -5,7 +5,7 @@ state={
 		owner = JNH
 		add_core_of = JNH
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 		}
 	}
 	provinces={

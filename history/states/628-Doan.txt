@@ -5,6 +5,9 @@ state={
 	history={
 		owner = BUD
 		add_core_of = BUD
+		buildings = {
+			infrastructure = 9
+		}
 	}
 	provinces={
 		13907 

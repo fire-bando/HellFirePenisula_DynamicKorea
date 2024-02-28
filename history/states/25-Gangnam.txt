@@ -7,7 +7,7 @@ state={
 		owner = GNG
 		add_core_of = GNG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 
 		}
 		victory_points = {

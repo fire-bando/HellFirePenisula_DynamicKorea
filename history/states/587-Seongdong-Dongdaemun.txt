@@ -7,7 +7,7 @@ state={
 		owner = ITW
 		add_core_of = ITW
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 
 		}
 

@@ -6,7 +6,9 @@ state={
 	history={
 		owner = LOT
 		add_core_of = LOT
-
+		buildings = {
+			infrastructure = 9
+		}
 	}
 
 	provinces={

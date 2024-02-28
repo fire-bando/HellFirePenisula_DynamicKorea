@@ -6,7 +6,9 @@ state={
 	history={
 		owner = AHN
 		add_core_of = AHN
-
+		buildings = {
+			infrastructure = 9
+		}
 	}
 
 	provinces={

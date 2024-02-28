@@ -8,7 +8,7 @@ state={
 		buildings = {
 			industrial_complex = 2
 			arms_factory = 1
-			infrastructure=3
+			infrastructure=7
 		}
 	}
 	provinces={

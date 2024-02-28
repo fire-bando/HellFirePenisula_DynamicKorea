@@ -4,6 +4,9 @@ state={
 	history={
 		owner = SEO
 		add_core_of = SEO
+		buildings = {
+			infrastructure = 2
+		}
 		victory_points = {
 			17725 30 
 		}

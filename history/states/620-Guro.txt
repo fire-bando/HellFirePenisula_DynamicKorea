@@ -4,6 +4,10 @@ state={
 	history={	
 		owner = HMR
 		add_core_of = HMR
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 7
+		}
 	}
 	provinces={
 		13549 

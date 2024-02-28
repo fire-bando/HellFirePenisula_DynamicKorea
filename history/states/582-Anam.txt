@@ -5,6 +5,9 @@ state={ #우하하하, 드뎌 상온초전도 시대가 도래했다. 심지어 
 	history={
 		owner = KRU
 		add_core_of = KRU
+		buildings = {
+			infrastructure = 10
+		}
 	}
 
 	provinces={
