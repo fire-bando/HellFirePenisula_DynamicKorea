@@ -5,6 +5,9 @@ state={
 	history={
 		owner = LVI
 		add_core_of = LVI
+		buildings = {
+			infrastructure = 4
+		}
 	}
 
 	provinces={

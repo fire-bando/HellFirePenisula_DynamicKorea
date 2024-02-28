@@ -5,6 +5,9 @@ state={
 		owner = DNT
 		add_core_of = DNT
         victory_points = { 13706 20 }
+		buildings = {
+			infrastructure = 7
+		}
 	}
 	provinces={
 		13706 

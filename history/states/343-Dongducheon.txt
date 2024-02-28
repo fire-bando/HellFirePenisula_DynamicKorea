@@ -7,6 +7,9 @@ state={
 		owner = CCS
 		add_core_of = CCS
 		victory_points = { 1996 10 }
+		buildings = {
+			infrastructure = 5
+		}
 	}
 
 	provinces={

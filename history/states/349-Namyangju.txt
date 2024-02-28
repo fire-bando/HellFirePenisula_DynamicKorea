@@ -6,6 +6,9 @@ state={
 	history={
 		owner = NLU
 		add_core_of = NLU
+		buildings = {
+			infrastructure = 7
+		}
 		victory_points = {
 			569 40 
 		}

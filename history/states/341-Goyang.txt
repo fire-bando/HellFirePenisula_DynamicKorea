@@ -5,6 +5,9 @@ state={
 		owner = ILS
 		add_core_of = ILS
 		victory_points = { 2329 40 }
+		buildings = {
+			infrastructure = 7
+		}
 	}
 	provinces={
 		657 1832 2329 5195 5230 5392 6690 8227 13472 13473 13482 13485 13488 13499 13504 13507 

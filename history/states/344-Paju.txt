@@ -6,6 +6,9 @@ state={
 	history={
 		owner = LEI
 		add_core_of = LEI
+		buildings = {
+			infrastructure = 5
+		}
 		victory_points = {
 			4918 30 
 		}

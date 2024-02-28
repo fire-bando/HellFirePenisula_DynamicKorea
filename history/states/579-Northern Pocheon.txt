@@ -4,6 +4,9 @@ state={
 	history = {
 	    owner = VII
 		add_core_of = VII
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		1535 2374 2645 5704 6170 6357 9257 13246 13249 13250 13279 13282 13288 

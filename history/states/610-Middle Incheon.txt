@@ -6,6 +6,7 @@ state={
 		add_core_of = INA
 		buildings = {
 			air_base = 10
+			infrastructure = 8
 		}
 	}
 	provinces={

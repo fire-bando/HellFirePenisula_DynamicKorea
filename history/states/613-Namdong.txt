@@ -4,6 +4,9 @@ state={
 	history={
 		owner = LEA
 		add_core_of = LEA
+		buildings = {
+			infrastructure = 8
+		}
 	}
 	provinces={
 		2647 13573 

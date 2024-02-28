@@ -4,6 +4,9 @@ state={
 	history={
 		owner = ROK
 		add_core_of = ROK
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		879 5983 8671 13638 13647 13657 13678 13689 13728 15525 15526 

@@ -4,6 +4,9 @@ state={
 	history={
 		owner = LJM
 		add_core_of = LJM
+		buildings = {
+			infrastructure = 8
+		}
 	}
 	provinces={
 		6504 13497 13517 

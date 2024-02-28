@@ -5,6 +5,9 @@ state={
 		owner = LJM
 		add_core_of = LJM
         victory_points = { 6193 40 }
+		buildings = {
+			infrastructure = 7
+		}
 	}
 	provinces={
 		1329 3863 6193 9270 9440 13580 13586 13604 13613 

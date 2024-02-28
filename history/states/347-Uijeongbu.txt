@@ -5,6 +5,9 @@ state={
 		owner = SCH
 		add_core_of = SCH
         victory_points = { 8186 30 }
+		buildings = {
+			infrastructure = 7
+		}
 	}
 	provinces={
 		5697 8186 

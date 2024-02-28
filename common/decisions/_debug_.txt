@@ -1,0 +1,13 @@
+DEBUG_HERE = {
+    eat_seoul = {
+        complete_effect = {
+            every_state = {
+                limit = {
+                    region = 5
+                }
+                transfer_state_to = ROOT
+                add_core_of = ROOT
+            }
+        }
+    }
+}

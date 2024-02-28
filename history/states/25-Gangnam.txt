@@ -8,7 +8,6 @@ state={
 		add_core_of = GNG
 		buildings = {
 			infrastructure = 8
-
 		}
 		victory_points = {
 			13543 50 

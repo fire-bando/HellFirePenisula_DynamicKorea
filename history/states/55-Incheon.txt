@@ -10,6 +10,9 @@ state={
 	history={
 		owner = INC
 		add_core_of = INC
+		buildings = {
+			infrastructure = 8
+		}
 		victory_points = {
 			13548 50 
 		}

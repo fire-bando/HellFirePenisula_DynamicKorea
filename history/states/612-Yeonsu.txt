@@ -5,6 +5,9 @@ state={
 		owner = YLS
 		add_core_of = YLS
 		add_core_of = INA
+		buildings = {
+			infrastructure = 9
+		}
 	}
 	provinces={
 		2624 

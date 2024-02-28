@@ -4,6 +4,9 @@ state={
 	history={
 		owner = INC
 		add_core_of = INC
+		buildings = {
+			infrastructure = 8
+		}
 	}
 	provinces={
 		2480 13537 

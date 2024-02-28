@@ -5,6 +5,9 @@ state={
 		owner = LEA
 		add_core_of = LEA
         victory_points = { 4224 40 }
+		buildings = {
+			infrastructure = 7
+		}
 	}
 	provinces={
 		4161 4224 6285 
