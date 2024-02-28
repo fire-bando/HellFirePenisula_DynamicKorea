@@ -14,6 +14,6 @@ state={
 	}
 	manpower=305000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 	local_supplies=0.000
 }

@@ -6,8 +6,8 @@ state={
 		add_core_of = SBU
 		add_core_of = BUS
 		buildings = {
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 10
+			arms_factory = 2
 			infrastructure=7
 		}
 	}
@@ -15,7 +15,7 @@ state={
 		534 1420 4723 5278 14744 14769 14783 
 	}
 	manpower=84000
-	state_category=town
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
