@@ -7,12 +7,11 @@ state={
 	history={
 		owner = CHU
 		add_core_of = CHU
+		victory_points = { 2352 15 }
 	}
-	provinces={
-		2352 
-	}
+	provinces={ 2352 }
 	manpower=43650
 	state_category = large_city
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=3.000
 }

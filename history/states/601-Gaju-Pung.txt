@@ -7,6 +7,7 @@ state={
 	history={
 		owner = CHU
 		add_core_of = CHU
+		victory_points = { 3440 5 }
 	}
 	provinces={
 		3440 
@@ -14,5 +15,5 @@ state={
 	manpower=1450
 	state_category=town
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=2.000
 }
