@@ -10,4 +10,27 @@ DEBUG_HERE = {
             }
         }
     }
+    core_TK = {
+        complete_effect = {
+            every_state = {
+                limit = {
+                    region = 17
+                }
+                add_core_of = ROOT
+            }
+        }
+    }
+    core_PK = {
+        complete_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        region = 18
+                        region = 21
+                    }
+                }
+                add_core_of = ROOT
+            }
+        }
+    }
 }

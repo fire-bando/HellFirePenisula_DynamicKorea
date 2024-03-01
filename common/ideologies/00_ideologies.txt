@@ -6,8 +6,8 @@ ideologies = {
 			
 			conservatism = {}
 			liberalism = {}
-			gaeddal = {}
-			aeguk_bosu = {}
+			gaeddal = {} #온건
+			aeguk_bosu = {} #온건
 		}
 
 		dynamic_faction_names = {
