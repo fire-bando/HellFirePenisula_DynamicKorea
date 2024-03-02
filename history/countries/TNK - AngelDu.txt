@@ -15,6 +15,11 @@ set_popularities = {
 	democratic = 4
 }
 
+add_ideas = {
+	TNK_teulni_tak_tak
+	TNK_udeol_sik_ideology
+}
+
 recruit_character = TNK_louis
 
 oob = "TNK_2023"

@@ -1,5 +1,7 @@
 KOR_REUNIFIED = { #ㅊ
 	allowed = {
-		original_tag = YBJ
+		capital_scope = {
+			region = 5
+		}
 	}	
 }

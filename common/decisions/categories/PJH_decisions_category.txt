@@ -1,6 +1,6 @@
 PJH_debug = {
     allowed = {
-        original_tag = PJH
+        is_debug = yes
     }
 }
 PJH_revive = {

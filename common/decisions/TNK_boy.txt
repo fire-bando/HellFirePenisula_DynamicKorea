@@ -1,0 +1,26 @@
+kill_all_teultak = {
+    purge_teultak = {
+        ai_will_do = {
+            base = -100
+        }
+		available = {
+            AND = {
+                has_war_with = EOT
+                NOT = {
+                    OR = {
+                        has_war_with = TAE
+                        has_war_with = PJH
+                    }
+                }
+            }
+        }
+        complete_effect = {
+            remove_ideas = {
+                TNK_teulni_tak_tak
+            }
+            remove_ideas = {
+                TNK_udeol_sik_ideology
+            }
+        }
+	}	
+}

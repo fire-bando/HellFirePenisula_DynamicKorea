@@ -24,7 +24,10 @@ ideas = {
 				custom_modifier_tooltip = usa_amurica__
 			}
 			available = {
-                original_tag = USA
+                OR = {
+					original_tag = USA
+					original_tag = US1
+				}
             }
 		}
 	}

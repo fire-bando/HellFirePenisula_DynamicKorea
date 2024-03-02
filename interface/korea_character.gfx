@@ -99,4 +99,12 @@ spriteTypes={
 		name="GFX_TNK_louis_large"
 		texturefile="gfx/leaders/easter_egg/louis.png"
 	}
+	spriteType={
+		name="GFX_USA_biden_large"
+		texturefile="gfx/leaders/USA/biden.png"
+	}
+	spriteType={
+		name="GFX_USA_lemay_large"
+		texturefile="gfx/leaders/USA/lemay.png"
+	}
 }

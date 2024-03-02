@@ -83,7 +83,7 @@
  STATE_142:0 "Sinpyong" #65k
  STATE_223:0 "Chunghwa" #75k
  STATE_224:0 "Sangwon" #95k
- STATE_225:0 "Sungho" #85k
+ STATE_225:0 "승호" #85k
  
  #North Pyongan Province
  STATE_38:1 "신의주" #360k
@@ -97,7 +97,7 @@
  STATE_190:0 "Chongju" #190k
  STATE_191:0 "Unjon" #100k
  STATE_192:0 "Pakchon" #100k
- STATE_193:0 "Nyongbyon" #115k
+ STATE_193:0 "녕변" #115k
  STATE_194:0 "Taechon" #110k
  STATE_195:0 "Kusong" #195k
  STATE_196:0 "Chonma" #50k
@@ -154,9 +154,9 @@
  STATE_110:0 "Yodok" #40k
 
  #South Hwanghae Province
- STATE_30:1 "Haeju" #275k
- STATE_143:0 "남부 Chongdan" #145k
- STATE_574:0 "북부 Chongdan"
+ STATE_30:1 "해주" #275k
+ STATE_143:0 "남청단" #145k
+ STATE_574:0 "북청단"
  STATE_144:0 "Pyoksong" #90k
  STATE_145:0 "Sinwon" #85k
  STATE_146:0 "중앙 Yonan" #160k
@@ -184,7 +184,7 @@
  STATE_37:1 "Pyongsong" #235k
  STATE_163:0 "Pyongwon" #180k
  STATE_164:0 "Sukchon" #180k
- STATE_165:0 "Sunchon" #300k
+ STATE_165:0 "순천" #300k
  STATE_166:0 "Unsan" #205k
  STATE_167:0 "Songchon" #150k
  STATE_169:0 "Taedong" #130k
@@ -274,6 +274,7 @@
  STATE_351:0 "이천" #205k
  STATE_352:0 "안성" #180k
  STATE_353:0 "평택" #455k
+ STATE_717:0 "팽성" #27k
  STATE_354:0 "화성" #565k
  STATE_355:0 "오산" #210k
  STATE_356:0 "시흥-안산" #1.100m
@@ -293,7 +294,7 @@
  STATE_608:0 "계양" #302K
  STATE_609:0 "강화도" #69.2K
  STATE_610:0 "중앙 인천" #136K
- STATE_611:0 "옹진 군도" #20K
+ STATE_611:0 "옹진" #20K
  STATE_612:0 "연수" #369.6K
  STATE_613:0 "남동 인천" #532.3K
  STATE_614:0 "서부 인천" #544K

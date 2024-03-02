@@ -8,6 +8,12 @@ state={
 		add_core_of = WPK
 		add_core_of = US1
         victory_points = { 12701 20 }
+		buildings = {
+			infrastructure = 7
+			12701 = {
+				naval_base = 5
+			}
+		}
 	}
 
 	provinces={

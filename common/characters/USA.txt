@@ -1,0 +1,27 @@
+characters={ 
+    USA_biden={
+        name=USA_biden
+        portraits={
+            civilian={
+                large=GFX_USA_biden_large
+            }
+        }
+        country_leader={
+            ideology=liberalism
+            expire="2027.8.16"
+        }
+    }
+    USA_lemay={
+        name=USA_lemay
+        portraits={
+            civilian={
+                large=GFX_USA_lemay_large
+            }
+        }
+        country_leader={
+            ideology=conservatism
+            expire="2027.8.16"
+            desc=USA_lemay_desc
+        }
+    }
+}

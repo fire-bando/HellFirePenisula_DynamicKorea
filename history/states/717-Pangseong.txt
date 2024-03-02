@@ -1,0 +1,18 @@
+state={
+	id=717
+	name="STATE_717"
+	history = {
+		owner = US2
+		add_core_of = US2
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		2306 4444 7322 8853 
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

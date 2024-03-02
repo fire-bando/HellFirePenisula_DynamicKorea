@@ -1,0 +1,5 @@
+kill_all_teultak = {
+    allowed = {
+        original_tag = TNK
+    }
+}

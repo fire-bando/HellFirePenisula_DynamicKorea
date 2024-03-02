@@ -10,3 +10,8 @@
 
  PJH_revive:0 "살아있다"
  PJH_survive:0 "지옥에서 돌아오다"
+
+ kill_all_teultak:0 "디버프 제거"
+ kill_all_teultak_desc:0 "하라고 만든 국가가 아닌데, 용케도 플레이를 하시고 계시는군요, 다행히도 이 국가는 컨텐츠가 있기에 플레이 안하기에는 좀 아쉽기 때문에 제가 디버프 제거 디시전을 넣어뒀습니다."
+ purge_teultak:0 "틀딱 숙청"
+ purge_teultak_desc:0 "퍼-지"

@@ -1,5 +1,5 @@
 DEBUG_HERE = {
     allowed = {
-        always = yes
+        is_debug = yes
     }
 }

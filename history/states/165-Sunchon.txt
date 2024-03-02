@@ -2,8 +2,10 @@ state={
 	id=165
 	name="STATE_165"
 	history={
-		owner = WPK
-		add_core_of = WPK
+		owner = JNH
+		add_core_of = JNH
+		add_claimf_of = PCS
+		add_claimf_of = JNR
         victory_points = { 6779 20 }
 	}
 	provinces={
@@ -12,5 +14,5 @@ state={
 	manpower=295000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category=city
+	state_category=large_city
 }

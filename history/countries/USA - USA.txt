@@ -2,6 +2,8 @@ capital = 353
 
 oob = "standard_templates"
 
+recruit_character = USA_biden
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -56,4 +58,21 @@ set_popularities = {
 	fascism = 36
 	communism = 10
 	neutrality = 4
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = US1
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = US2
+		autonomous_state = autonomy_integrated_puppet
+	}
 }
