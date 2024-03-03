@@ -1,5 +1,7 @@
 capital = 333
 
+recruit_character = NON_gudgeons
+
 oob = "standard_templates"
 
 # Starting tech

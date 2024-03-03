@@ -1,6 +1,6 @@
 
 music = {
 	name = "maintheme"
-	file = "old_aegukga.ogg"
-	volume = 0.75
+	file = "to_you.ogg"
+	volume = 1
 }

@@ -1,0 +1,15 @@
+characters={ 
+    NON_gudgeons={
+        name=NON_gudgeons
+        portraits={
+            civilian={
+                large=GFX_NON_gudgeons_large
+            }
+        }
+        country_leader={
+            ideology=spiritual_conscriptism_subtype
+            desc = gudgeon_desc
+            expire="1960.8.16"
+        }
+    }
+ }
