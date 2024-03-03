@@ -1,0 +1,14 @@
+characters={ 
+   KSD_Park_Yong_Il ={
+        name= KSD_Park_Yong_Il
+        portraits = {
+            civilian = {
+                large = GFX_KSD_Park_Yong_Il
+            }
+        }
+        country_leader = {
+            ideology = socialism
+            expire = "2032.9.18"
+        }
+    }
+}
