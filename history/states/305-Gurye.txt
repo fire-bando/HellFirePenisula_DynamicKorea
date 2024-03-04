@@ -5,6 +5,10 @@ state={
 		owner = PCS
 		add_core_of = PCS
 		victory_points = { 14722 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 	provinces={
 		914 981 1598 3488 4234 4307 4741 5197 7627 8418 8721 8935 9249 14703 14722 14742 

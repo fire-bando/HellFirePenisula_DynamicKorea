@@ -5,6 +5,9 @@ state={
 		owner = JNR
 		add_core_of = JNR
 		victory_points = { 15048 1 }
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		220 529 871 1738 5003 5418 5875 6229 6668 8539 8655 9314 9470 9480 14995 15018 15025 15044 15048 15054 15060 15067 15071 15075 15086 15100 

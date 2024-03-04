@@ -10,7 +10,7 @@ state={
 		add_core_of = SBU
 		buildings = {
 			industrial_complex = 1
-			infrastructure = 3
+			infrastructure = 9
 		}
 		victory_points = {
 			14705 20 

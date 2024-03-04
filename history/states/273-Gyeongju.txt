@@ -10,7 +10,7 @@ state={
 			8954 20 
 		}
 		buildigns = {
-			intrastructure = 4
+			intrastructure = 6
 		}
 	}
 

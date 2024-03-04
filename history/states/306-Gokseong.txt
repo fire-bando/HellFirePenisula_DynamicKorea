@@ -7,7 +7,7 @@ state={
 		add_claim_of = JNR
 		victory_points = { 14688 1 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 	provinces={

@@ -5,7 +5,7 @@ state={
 		owner = DAS
 		add_core_of = DAS
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 	}
 	provinces={

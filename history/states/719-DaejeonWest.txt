@@ -1,0 +1,21 @@
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		9123 14171 14198 
+	}
+	history={
+		owner = SSD
+		add_core_of = SSD
+		victory_points = {
+			9123 40 
+		}
+		buildings = {
+			infrastructure = 9
+		}
+	}
+	manpower=472417
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	local_supplies=0.000
+}

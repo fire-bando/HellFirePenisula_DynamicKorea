@@ -1,0 +1,20 @@
+state={
+	id=721
+	name="STATE_721"
+	history={
+		owner = SSD
+		add_core_of = SSD
+		buildings = {
+			infrastructure = 9
+
+		}
+
+	}
+	provinces={
+		5896 14116 14131 14141 17726 
+	}
+	manpower=175000
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

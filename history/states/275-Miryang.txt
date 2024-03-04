@@ -6,6 +6,9 @@ state={
 		add_core_of = CWD
 		victory_points = { 14559 10 }
 		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 6
+		}
 	}
 	provinces={
 		1043 1191 2382 3120 3653 4479 4705 5423 5638 6324 6609 6751 7093 7300 8045 8121 8413 8974 9154 9248 14545 14559 14565 14571 14583 14589 14593 14603 14617 14631 

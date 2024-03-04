@@ -5,6 +5,9 @@ state={
 		owner = CWD
 		add_core_of = CWD
 		victory_points = { 14677 5 }
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		433 603 1368 1371 3141 5213 5948 7553 7834 8983 9232 14658 14672 14677 14690 14694 14711 14715 14728 

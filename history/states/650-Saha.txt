@@ -7,7 +7,7 @@ state={
 		add_core_of = BUS
 		buildings = {
 			industrial_complex = 4
-			infrastructure=4
+			infrastructure=6
 		}
 	}
 	provinces={

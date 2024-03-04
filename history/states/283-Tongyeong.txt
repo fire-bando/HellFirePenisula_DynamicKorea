@@ -5,6 +5,9 @@ state={
 		owner = AIR
 		add_core_of = AIR
 		victory_points = { 14938 10 }
+		buildings = {
+			infrastructure = 6
+		}
 	}
 	provinces={
 		930 5625 6886 7291 7668 9351 14885 14897 14917 14933 14938 14948 14949 14971 15016 15045 15533 

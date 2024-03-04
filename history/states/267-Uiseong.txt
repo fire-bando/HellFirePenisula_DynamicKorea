@@ -7,6 +7,9 @@ state={
 		owner = PJH
 		add_core_of = PJH
 		victory_points = { 7855 5 }
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={

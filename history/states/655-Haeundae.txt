@@ -9,7 +9,7 @@ state={
 			dockyard = 3
 			industrial_complex = 3
 			arms_factory = 4
-			infrastructure=4
+			infrastructure=7
 		}
 	}
 	provinces={

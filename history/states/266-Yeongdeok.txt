@@ -7,6 +7,9 @@ state={
 		owner = CRM
 		add_core_of = CRM
         victory_points = { 14105 1 }
+		buildings = {
+			infrastructure = 4
+		}
 	}
 
 	provinces={

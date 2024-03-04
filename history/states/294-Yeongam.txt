@@ -6,7 +6,7 @@ state={
 		add_core_of = JNR
 		victory_points = { 7914 5 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 		}
 	}

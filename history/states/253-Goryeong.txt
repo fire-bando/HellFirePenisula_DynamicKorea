@@ -5,6 +5,9 @@ state={
 		owner = TNK
 		add_core_of = TNK
 		victory_points = { 5636 1 }
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		1002 1336 1701 4738 5539 5636 6336 6380 6399 6510 7493 7741 9479 14483 

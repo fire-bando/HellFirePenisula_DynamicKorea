@@ -10,6 +10,7 @@ state={
 		add_core_of = BSU
 		buildings = {
 			air_base = 10
+			infrastructure = 4
 		}
 	}
 

@@ -1,0 +1,18 @@
+state={
+	id=720
+	name="STATE_720"
+	provinces={
+		1962 7730 
+	}
+	history={
+		owner = SSD
+		add_core_of = SSD
+		buildings = {
+			infrastructure = 9
+		}
+	}
+	manpower=229497
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

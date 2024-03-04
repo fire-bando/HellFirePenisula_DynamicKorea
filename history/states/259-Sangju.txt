@@ -6,7 +6,7 @@ state={
 		add_core_of = PJH
         victory_points = { 317 10 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
 		}
