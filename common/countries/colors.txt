@@ -244,4 +244,5 @@ CWD = {	color = rgb { 43 30 230 }	color_ui = rgb { 0 0 255 }	}
 AML = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
 KSD = {	color = rgb { 225	22 104 }	color_ui = rgb { 225 22 104 } }
 HAE = {	color = rgb { 204 0 0 }	color_ui = rgb { 204 0 0 } }
+KJI = {	color = rgb { 204 41 27 }	color_ui = rgb { 204 41 27 } }
 ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
