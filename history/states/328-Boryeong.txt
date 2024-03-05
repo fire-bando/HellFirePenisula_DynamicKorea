@@ -7,6 +7,9 @@ state={
 		owner = OIL
 		add_core_of = OIL
 		victory_points = { 86 10 }
+		buildings = {
+			infrastructure = 5
+		}
 	}
 
 	provinces={

@@ -8,6 +8,9 @@ state={
 		owner = CHU
 		add_core_of = CHU
 		victory_points = { 9329 15 }
+		buildings = {
+			infrastructure = 6
+		}
 	}
 	provinces={ 9329 }
 	manpower=56489

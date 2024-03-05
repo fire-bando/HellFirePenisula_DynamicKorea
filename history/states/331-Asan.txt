@@ -5,6 +5,9 @@ state={
 		owner = UNF
 		add_core_of = UNF
 		victory_points = { 622 20 }
+		buildings = {
+			infrastructure = 6
+		}
 	}
 	provinces={
 		238 622 670 1221 2219 2363 3396 3972 4327 6423 7064 9660 13831 13839 13847 13855 13863 13864 13874 13901 13913 13926 13927 13941 13950 13969 

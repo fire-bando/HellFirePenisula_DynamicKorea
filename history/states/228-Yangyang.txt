@@ -7,6 +7,7 @@ state={
 	history={
 		buildings = {
 			industrial_complex = 1
+			infrastructure = 2
 		}
 		owner = YAN
 		add_core_of = YAN

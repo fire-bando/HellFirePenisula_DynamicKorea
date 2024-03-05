@@ -1,0 +1,22 @@
+state={
+	id=722
+	name="STATE_722"
+	history={
+		owner = BSU
+		add_core_of = BSU
+		buildings = {
+			air_base = 10
+			arms_factory = 4
+			infrastructure = 9
+			synthetic_refinery = 2
+			industrial_complex = 6
+		}
+	}
+	provinces={
+		6898 
+	}
+	manpower=208668
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

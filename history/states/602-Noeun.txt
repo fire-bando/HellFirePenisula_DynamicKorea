@@ -7,6 +7,9 @@ state={
 	history={
 		owner = CHU
 		add_core_of = CHU
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		1315 6473 13757 

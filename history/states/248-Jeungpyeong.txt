@@ -7,6 +7,9 @@ state={
 		owner = BUD
 		add_core_of = BUD
 		victory_points = { 7674 1 }
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={

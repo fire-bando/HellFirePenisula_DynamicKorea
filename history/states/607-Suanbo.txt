@@ -1,12 +1,12 @@
 state={
 	id=607
 	name="STATE_607"
-	resources = {
-		steel = 10
-	}
 	history={
 		owner = CHU
 		add_core_of = CHU
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		467 1029 6985 13896 

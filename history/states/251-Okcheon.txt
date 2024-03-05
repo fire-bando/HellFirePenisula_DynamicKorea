@@ -5,6 +5,9 @@ state={
 		owner = OKC
 		add_core_of = OKC
         victory_points = { 14158 5 }
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		33 1068 2826 2996 3782 4220 4979 5077 5274 5899 7230 7307 7513 8219 14132 14157 14158 14176 14195 

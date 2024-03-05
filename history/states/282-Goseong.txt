@@ -7,7 +7,7 @@ state={
 		add_core_of = SZC
 		victory_points = { 9421 5 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
 	}
 	provinces={

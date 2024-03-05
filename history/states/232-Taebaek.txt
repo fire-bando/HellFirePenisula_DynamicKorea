@@ -9,6 +9,9 @@ state={
 		owner = PTT
 		add_core_of = PTT
         victory_points = { 13707 5 }
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	provinces={
 		627 1466 1788 6339 7477 7833 9276 9354 13675 13691 13694 13707 13727 13742 13756 

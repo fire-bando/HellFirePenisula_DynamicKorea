@@ -5,6 +5,9 @@ state={
 		owner = CHU
 		add_core_of = CHU
 		add_core_of = GAN
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces={
 		13814

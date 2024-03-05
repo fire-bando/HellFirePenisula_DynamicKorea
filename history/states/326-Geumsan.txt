@@ -5,6 +5,9 @@ state={
 		owner = JMS
 		add_core_of = JMS
 		victory_points = { 14252 5 }
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		1841 2024 2037 2128 4193 4326 4805 4843 5341 6587 6800 7098 7485 7827 7926 9243 14213 14216 14230 14246 14250 14252 
