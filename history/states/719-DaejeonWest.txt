@@ -1,6 +1,9 @@
 state={
 	id=719
 	name="STATE_719"
+	resources={
+		steel=24.000
+	}
 	provinces={
 		9123 14171 14198 
 	}
@@ -12,6 +15,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 9
+			industrial_complex = 4
 		}
 	}
 	manpower=472417
