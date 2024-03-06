@@ -1,0 +1,32 @@
+focus_tree = {
+	id = MIO_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MIO
+		}
+	}
+	default = no
+	focus = {
+		id = MIO_nani
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = MIO_social
+		icon = GFX_focus_generic_military_mission
+		x = 0
+		y = 1
+		relative_position_id = MIO_nani
+		prerequisite = { focus = MIO_nani }
+		cost = 5
+		completion_reward = { }
+	}
+}

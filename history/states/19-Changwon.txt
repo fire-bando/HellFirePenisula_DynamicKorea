@@ -6,6 +6,7 @@ state={
 	history={
 		owner = RPL
 		add_core_of = RPL
+		add_core_of = MIO
 		victory_points = {
 			14726 40 
 		}
