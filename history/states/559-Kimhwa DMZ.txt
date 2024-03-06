@@ -4,6 +4,7 @@ state={
 	history={
 		owner = NKA
 		add_core_of = NKA
+		set_demilitarized_zone = yes
 	}
 	provinces={
 		158 574 935 3612 4001 5179 5842 6834 13057 13067 13069 13075 13088 

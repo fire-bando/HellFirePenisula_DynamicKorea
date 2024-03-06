@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "BREAKED_NAME"
+		desc = "BREAKED_DESC"
 		date = 2023.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "YBJ"
 		default = yes
         
         "YBJ"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = neutrality
 			ideas = {
 			}
@@ -18,7 +18,7 @@ bookmarks = {
 		}
 		
 		"SMS"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = democratic
 			ideas = {
 			}
@@ -28,7 +28,7 @@ bookmarks = {
 		}
         
         "JNR"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = communism
 			ideas = {
 			}
@@ -38,8 +38,18 @@ bookmarks = {
 		}
         
         "YG1"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "OTHER_BREAKED_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+        "PJH"={
+			history = "OTHER_BREAKED_DESC"
+			ideology = parkism
 			ideas = {
 			}
 			focuses = {
@@ -49,14 +59,14 @@ bookmarks = {
         
 		
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 		}
 		
 		# minors from DLC ####
 
 		"HMC"={
 			minor = yes
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = democratic
 			ideas = {
 			}
@@ -66,7 +76,7 @@ bookmarks = {
 
 		"AHN"={
 			minor = yes
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = democratic
 			ideas = {
 			}
@@ -76,7 +86,7 @@ bookmarks = {
 
 		"NON"={
 			minor = yes
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = democratic
 			ideas = {
 			}
@@ -86,7 +96,7 @@ bookmarks = {
 
 		"BMB"={
 			minor = yes
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = democratic
 			ideas = {
 			}
@@ -96,7 +106,7 @@ bookmarks = {
 
 		"SPO"={
 			minor = yes
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BREAKED_DESC"
 			ideology = democratic
 			ideas = {
 			}

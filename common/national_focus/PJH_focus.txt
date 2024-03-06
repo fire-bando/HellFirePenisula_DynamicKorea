@@ -266,4 +266,52 @@ focus_tree = {
 
 		}
 	}
+	focus = {
+		id = PJH_han_river_north_fuck_u
+		icon = aa_lmg
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_4th_abcdefgh
+		prerequisite = { focus = PJH_4th_abcdefgh }
+	}
+	focus = {
+		id = PJH_yeouido
+		icon = aa_lmg
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_han_river_north_fuck_u
+		prerequisite = { focus = PJH_han_river_north_fuck_u }
+	}
+	focus = {
+		id = PJH_seoul_gosok
+		icon = aa_lmg
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_yeouido
+		prerequisite = { focus = PJH_yeouido }
+	}
+	focus = {
+		id = PJH_hey_same_banjik_dont_fucking_move
+		icon = aa_lmg
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_seoul_gosok
+		prerequisite = { focus = PJH_seoul_gosok }
+	}
+	focus = {
+		id = PJH_KCIA
+		icon = aa_lmg
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PJH_hey_same_banjik_dont_fucking_move
+		prerequisite = { focus = PJH_hey_same_banjik_dont_fucking_move }
+		completion_reward = {
+			custom_effect_tooltip = KCIA_will_kill_jaegyued
+		}
+	}
 }

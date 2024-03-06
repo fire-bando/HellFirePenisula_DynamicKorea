@@ -1,6 +1,38 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			
+			CHN = {
+				every_owned_state = {
+					limit = {
+						NOT = {
+							is_coastal = yes
+						}
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 7
+				}
+				every_owned_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_building_construction = {
+						type = dockyard
+						level = 5
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 5
+				}
+			}
 			BNH = {
 				transfer_state = 263
 				add_state_core = 263
@@ -609,12 +641,14 @@ on_actions = {
 					limit = {
 						country_exists = TNK
 					}
-					every_country = {
+					if = {
 						limit = {
-							has_war_with = EOT 
+							PJH = {
+								is_in_faction_with = TAE
+							}
 						}
-						white_peace = {
-							tag = EOT
+						PJH = {
+							dismantle_faction = yes
 						}
 					}
 					TNK = {
@@ -626,9 +660,66 @@ on_actions = {
 							autonomous_state = autonomy_colony
 						}
 					}
+					every_country = {
+						limit = {
+							has_war_with = EOT 
+						}
+						white_peace = {
+							tag = EOT
+						}
+					}
 				}
 				TAE = {
 					transfer_state = 683
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						tag = EOT
+						has_war_with = TAE
+						has_war_with = PJH
+					}
+				}
+				every_country = {
+					limit = {
+						has_war_with = EOT 
+					}
+					white_peace = {
+						tag = EOT
+					}
+				}
+				PJH = {
+					dismantle_faction = yes
+				}
+				TAE = {
+					transfer_state = 683
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					tag = TNK
+					has_war_with = PJH
+					has_global_flag = PJH_attacked_TNK
+				}
+				PJH = {
+					every_country = {
+						limit = {
+							has_war_with = PJH 
+						}
+						white_peace = {
+							tag = PJH
+							message = "군내 사조직을 탄압하여 국가의 질서를 되찾았습니다." 
+						}
+					}
+				}
+				PJH = {
+					annex_country = { 	
+						target = TNK
+						transfer_troops = yes
+					}
 				}
 			}
 		}

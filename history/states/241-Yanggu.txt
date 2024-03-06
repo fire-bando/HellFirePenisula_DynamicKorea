@@ -6,6 +6,7 @@ state={
 	history={
 		owner = III
 		add_core_of = III
+		set_demilitarized_zone = yes
 		victory_points = {
 			9382 1 
 		}

@@ -63,6 +63,12 @@
  PJH_fuck_you_bro_haha:0 "집회 및 시위에 관한 법률 시행령"
  PJH_second_people_revolutionary_party_incident:0 "2차 인혁당 사건"
  PJH_4th_abcdefgh:0 "제4차 국민투표"
+ PJH_han_river_north_fuck_u:0 "한강 이북 개발금지"
+ PJH_yeouido:0 "국회를 여의도로"
+ PJH_seoul_gosok:0 "서울고속터미널"
+ PJH_hey_same_banjik_dont_fucking_move:0 "동일방직노동자 체포"
+ PJH_KCIA:0 "중정부장 교체"
+ KCIA_will_kill_jaegyued:0 "김재규는 §H중앙정보부장§!이 됩니다."
 
  ###TT
  JEONJU_END:0 "북부의 폭동을 막아내다"
@@ -149,3 +155,6 @@
 
  BSU_socialist_state: "불멸의 인민공화국"
  BSU_pohang_exile: "포항 망명자 수용"
+
+ MIO_nani: "센넨오 사카노보루"
+ MIO_social: "오오이니 코토나루 샤카이"

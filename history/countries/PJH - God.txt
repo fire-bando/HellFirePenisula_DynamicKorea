@@ -189,7 +189,10 @@ set_popularities = {
 	parkism = 100
 }
 
-complete_national_focus = PJH_focus
+complete_national_focus = PJH_october_restoration
+complete_national_focus = PJH_KBS
+complete_national_focus = PJH_for_chemical_and_heavy_industry
+complete_national_focus = PJH_october_restoration_million_export
 complete_national_focus = PJH_bulguksa
 complete_national_focus = PJH_yulgok
 complete_national_focus = PJH_command_4
@@ -205,3 +208,9 @@ complete_national_focus = PJH_hey_dj_stop_the_party
 complete_national_focus = PJH_kinkyuu
 complete_national_focus = PJH_second_people_revolutionary_party_incident
 complete_national_focus = PJH_4th_abcdefgh
+complete_national_focus = PJH_han_river_north_fuck_u
+complete_national_focus = PJH_yeouido
+complete_national_focus = PJH_seoul_gosok
+complete_national_focus = PJH_hey_same_banjik_dont_fucking_move
+complete_national_focus = PJH_KCIA
+complete_national_focus = KCIA_will_kill_jaegyued

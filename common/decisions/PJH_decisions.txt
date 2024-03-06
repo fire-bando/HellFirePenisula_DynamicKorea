@@ -34,3 +34,80 @@ PJH_revive = {
         fire_only_once = yes
     }
 }
+PJH_operation = {
+    PJH_operation_daegu = {
+        available = {
+            PJH = {
+                has_army_size = {
+                    size > 1
+                    type = armor
+                }
+            }
+        }
+        visible = {
+            EOT = {
+                has_war_with = TAE
+            }
+        }
+        priority = 5
+        cost = 5
+        days_remove = 5
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 20
+                country_exists = EOT
+            }
+        }
+        remove_effect = {
+            TAE = {
+                give_military_access = PJH
+            }
+            ROOT = {
+                declare_war_on = {
+                    target = EOT
+                    type = liberate_wargoal
+                }
+                create_faction = "반공전선"
+                add_to_faction = TAE
+            }
+        }
+    }
+    PJH_operation_tnk = {
+        visible = {
+            country_exists = TNK
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 20
+                NOT = {
+                    AND = {
+                        country_exists = EOT
+                        TNK = {
+                            is_ai = no
+                        }
+                    }
+                }
+            }
+        }
+        available = {
+            PJH = {
+                has_army_size = {
+                    size > 0
+                    type = armor
+                }
+            }
+        }
+        priority = 3
+        cost = 5
+        days_remove = 30
+        remove_effect = {
+            declare_war_on = {
+                target = TNK
+                type = annex_everything
+            }
+            set_global_flag = PJH_attacked_TNK
+        }
+    }
+}

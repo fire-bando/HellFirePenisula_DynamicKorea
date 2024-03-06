@@ -5,6 +5,15 @@ PJH_debug = {
 }
 PJH_revive = {
     allowed = {
+        AND = {
+            original_tag = PJH
+            is_debug = yes
+        }
+    }
+}
+PJH_operation = {
+    priority = 10
+    allowed = {
         original_tag = PJH
     }
 }

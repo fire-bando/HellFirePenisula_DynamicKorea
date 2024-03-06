@@ -1,4 +1,219 @@
 DEBUG_HERE = {
+    unify_ptt_empire = {
+        allowed = {
+            original_tag = PTT
+        }
+        complete_effect = {
+            PTT = {
+                end_puppet = OKS
+                end_puppet = KLG
+                end_puppet = ESE
+                end_puppet = SMC
+                end_puppet = TBK
+                end_puppet = BNH
+                end_puppet = ULJ
+                set_faction_leader = OKS
+                leave_faction = yes
+                set_faction_name = "통합반대전선"
+            }
+            OKS = {
+                declare_war_on = {
+                    target = PTT
+                    type = annex_everything
+                }
+                division_template = {
+                    name = "arms against ptt"
+                    division_names_group = USA_INF_01
+                    priority = 0
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 3 }
+                    }
+                    support = {
+                        military_police = { x = 0 y = 0 }
+                    }
+                }
+                every_owned_state = {
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = OKS
+                    }
+                }
+            }
+            KLG = {
+                division_template = {
+                    name = "arms against ptt"
+                    division_names_group = USA_INF_01
+                    priority = 0
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 3 }
+                    }
+                    support = {
+                        military_police = { x = 0 y = 0 }
+                    }
+                }
+                every_owned_state = {
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = KLG
+                    }
+                }
+                declare_war_on = {
+                    target = PTT
+                    type = annex_everything
+                }
+            }
+            ESE = {
+                declare_war_on = {
+                    target = PTT
+                    type = annex_everything
+                }
+                division_template = {
+                    name = "arms against ptt"
+                    division_names_group = USA_INF_01
+                    priority = 0
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 3 }
+                    }
+                    support = {
+                        military_police = { x = 0 y = 0 }
+                    }
+                }
+                every_owned_state = {
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = ESE
+                    }
+                    create_unit = {
+                        division = "name = \"arms against ptt\" division_template = \"arms against ptt\" start_experience_factor = 0.5"
+                        owner = ESE
+                    }
+                }
+            }
+            annex_country = {
+                target = SMC
+                transfer_troops = yes
+            }
+            annex_country = {
+                target = TBK
+                transfer_troops = yes
+            }
+            annex_country = {
+                target = BNH
+                transfer_troops = yes
+            }
+            annex_country = {
+                target = ULJ
+                transfer_troops = yes
+            }
+        }
+    }
+    set_korea_greatest_gdp = {
+        complete_effect = {
+            every_state = {
+                limit = {
+                    NOT = {
+                        is_coastal = yes
+                    }
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 4
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 7
+            }
+        }
+    }
     eat_chosen = {
         complete_effect = {
             every_state = {
@@ -56,6 +271,68 @@ DEBUG_HERE = {
                     }
                 }
                 add_core_of = ROOT
+            }
+        }
+    }
+    eat_chosen_all = {
+        complete_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        region = 55
+                        region = 48
+                        region = 47
+                        region = 46
+                        region = 45
+                        region = 44
+                        region = 43
+                        region = 42
+                        region = 41
+                        region = 40
+                        region = 39
+                        region = 38
+                        region = 37
+                        region = 36
+                        region = 35
+                        region = 34
+                        region = 33
+                        region = 32
+                        region = 31
+                        region = 30
+                        region = 29
+                        region = 28
+                        region = 27
+                        region = 26
+                        region = 25
+                        region = 24
+                        region = 23
+                        region = 22
+                        region = 21
+                        region = 20
+                        region = 19
+                        region = 18
+                        region = 17
+                        region = 16
+                        region = 15
+                        region = 14
+                        region = 13
+                        region = 12
+                        region = 11
+                        region = 10
+                        region = 9
+                        region = 8
+                        region = 7
+                        region = 6
+                        region = 5
+                        region = 4
+                        region = 3
+                        region = 2
+                        region = 1
+                    }
+                }
+                every_country = {
+                    add_state_core = PREV
+                }
             }
         }
     }
