@@ -3,6 +3,14 @@ state={
 	id=35
 	name="STATE_35"
 
+	resources = {
+		oil = 75
+		aluminium = 2000
+		tungsten = 2000
+		steel = 2000
+		chromium = 2000
+	}
+
 	history={
 		owner = CHN
 		add_core_of = CHN

@@ -1,5 +1,10 @@
-JNR_breaking_down_nation = {
+JNR_skeleton = {
     allowed = {
         original_tag = JNR
+    }
+    visible = {
+        ROOT = {
+            is_ai = yes
+        }
     }
 }
