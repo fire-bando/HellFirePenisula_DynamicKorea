@@ -8,6 +8,11 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
+			341 = {
+				add_dynamic_modifier = {
+					modifier = ilsan_grad_state_modifier
+				}
+			}
 			every_state = {
 				limit = {
 					is_DMZ = yes

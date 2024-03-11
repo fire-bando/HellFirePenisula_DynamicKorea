@@ -1,10 +1,10 @@
 PJH_debug = {
-    allowed = {
+    visible = {
         is_debug = yes
     }
 }
 PJH_revive = {
-    allowed = {
+    visible = {
         AND = {
             original_tag = PJH
             is_debug = yes

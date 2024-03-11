@@ -1,2 +1,3 @@
 ﻿l_english:
- dmz_state_modifier:0 "격리된 구역"
+ dmz_state_modifier:0 "DMZ"
+ ilsan_grad_state_modifier:0 "일산그라드"

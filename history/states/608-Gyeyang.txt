@@ -1,15 +1,20 @@
+
 state={
 	id=608
 	name="STATE_608"
+
 	history={
 		owner = LJM
 		add_core_of = LJM
 		buildings = {
 			infrastructure = 8
+
 		}
+
 	}
+
 	provinces={
-		6504 13497 13517 
+		13517 
 	}
 	manpower=302000
 	buildings_max_level_factor=1.000

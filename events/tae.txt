@@ -119,7 +119,7 @@ news_event = { #뉴스 : 대구의 군위 합병
 }
 
 news_event = { #뉴스 : 군위 합병 거부
-	id = ㅊ
+	id = tae_event.2000
 	title = tae_event.2000.t
 	picture = GFX_report_event_tae_event
     desc = tae_event.2000.d
@@ -129,5 +129,19 @@ news_event = { #뉴스 : 군위 합병 거부
 	
 	option = {
 		name = tae_event.2000.a
+	}
+}
+
+news_event = { #뉴스 : 군위 합병 거부
+	id = tae_event.3000
+	title = tae_event.3000.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.3000.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tae_event.3000.a
 	}
 }

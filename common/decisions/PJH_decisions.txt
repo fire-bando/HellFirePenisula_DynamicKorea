@@ -11,6 +11,83 @@ PJH_revive = {
         }
         fire_only_once = yes
     }
+    PJH_attack_ROK = {
+        priority = 10
+        icon = GFX_decision_infiltrate_state
+        icon = mission_icon     # For GFX_decision_mission_icon
+        is_good = yes
+        complete_effect = {
+            every_country = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            original_tag = JAP
+                            original_tag = JPN
+                            original_tag = CHN
+                            original_tag = RUS
+                            original_tag = SAG
+                            original_tag = AUM
+                            original_tag = PYO
+                            original_tag = WPK
+                            original_tag = NKA
+                            original_tag = KAE
+                            original_tag = HAE
+                            original_tag = KSD
+                            original_tag = PYS
+                            original_tag = NYO
+                            original_tag = KJI
+                            original_tag = ROOT
+                        }
+                    }
+                }
+                ROK = {
+                    annex_country = {
+                        target = PREV
+                        transfer_troops = yes
+                    }
+                    every_owned_state = {
+                        add_core_of = ROK
+                    }
+                }
+            }
+            every_country = {
+                limit = {
+                    OR = {
+                        original_tag = NKA
+                        original_tag = KAE
+                        original_tag = HAE
+                        original_tag = KSD
+                        original_tag = PYO
+                        original_tag = PYS
+                        original_tag = NYO
+                        original_tag = KJI
+                    }
+                }
+                WPK = {
+                    create_faction = "고려민주연방공화국"
+                    add_to_faction = ROK
+                    transfer_state = 165
+                    transfer_state = 113
+                    transfer_state = 114
+                    transfer_state = 34
+                    transfer_state = 111
+                    transfer_state = 112
+                    annex_country = {
+                        target = PREV
+                        transfer_troops = yes
+                    }
+                    every_owned_state = {
+                        add_core_of = WPK
+                    }
+                    declare_war_on = {
+                        target = PJH
+                        type = annex_everything
+                    }
+                }
+            }
+        }
+        fire_only_once = yes
+    }
     PJH_make_rok = {
         priority = 1
         icon = GFX_decision_infiltrate_state
