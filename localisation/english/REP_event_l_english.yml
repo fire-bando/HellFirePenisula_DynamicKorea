@@ -40,9 +40,9 @@
  tae_event.4.a:0 "무력으로 군위를 굴복시키자!"
 
  ## 신규 더미데이터
- tae_event.2000.t:0 "홍통대전"
- tae_event.2000.d:0 "[PJH.GetNameDef]과 [JNR.GetNameDef] 사이의 전쟁, 이른바 '홍통대전'이 발발했습니다. [PJH.GetAdjective] 정부가 총동원령을 선포하고 [JNR.GetNameDef]에 선전포고를 단행한 것입니다. [PJH.GetLeader]은(는) [JNR.GetNameDef]의 팽창주의와 이념 대립을 전쟁의 명분으로 내세우고 있습니다. 한편 [JNR.GetNameDef] 측은 [PJH.GetNameDef]을(를) 호전적인 파시스트 정권이라 비난하며 전면전을 준비하고 있습니다. 양측 모두 물러서지 않고 있어 전쟁이 장기화될 조짐입니다. 이 전쟁이 한반도에 어떤 파장을 몰고 올지 국제 사회의 이목이 집중되고 있습니다."
- tae_event.2000.a:0 "홍통일체론이 무너졌다."
+ tae_event.3000.t:0 "홍통대전"
+ tae_event.3000.d:0 "[PJH.GetNameDef]과 [JNR.GetNameDef] 사이의 전쟁, 이른바 '홍통대전'이 발발했습니다. [PJH.GetAdjective] 정부가 총동원령을 선포하고 [JNR.GetNameDef]에 선전포고를 단행한 것입니다. [PJH.GetLeader]은(는) [JNR.GetNameDef]의 팽창주의와 이념 대립을 전쟁의 명분으로 내세우고 있습니다. 한편 [JNR.GetNameDef] 측은 [PJH.GetNameDef]을(를) 호전적인 파시스트 정권이라 비난하며 전면전을 준비하고 있습니다. 양측 모두 물러서지 않고 있어 전쟁이 장기화될 조짐입니다. 이 전쟁이 한반도에 어떤 파장을 몰고 올지 국제 사회의 이목이 집중되고 있습니다."
+ tae_event.3000.a:0 "홍통일체론이 무너졌다."
 
  jnr_event.10.t:0 "작전계획 흑산도"
  jnr_event.10.d:0 "jnr_event.10.d:0 "[SIN.GetNameDef]에 대한 선전포고 직후, 우리 인민해방군은 즉각 '작전계획 흑산도'를 실행에 옮길 준비를 마쳤고, 주석의 명령을 기다리고 있습니다. 정예 해병부대 7개 사단이 [SIN.GetNameDef] 본토 상륙을 위해 대기 중입니다. 이 대규모 상륙이 성공한다면 [SIN.GetNameDef]은(는) 치명적인 타격을 입게 될 것입니다."
