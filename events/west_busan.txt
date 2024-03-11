@@ -7,7 +7,7 @@ country_event = {
 	desc = sbu_event.1.d
 	is_triggered_only = yes
 	option = {
-		name=sbu_event.a
+		name=sbu_event.1.a
 		declare_war_on = {
 			target = BUS
 			type = annex_everything
@@ -23,17 +23,17 @@ country_event = {
 	desc = sbu_event.2.d
 	is_triggered_only = yes
 	option = {
-		name=sbu_event.a
-		declare_war_on = {
-			target = DAS
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = BSU
-			type = annex_everything
-		}
-		ROOT = {
-			set_cosmetic_tag = SBU_BUG
-		}
+		name=sbu_event.2.a
+		
+	}
+}
+
+news_event = {
+	id = sbu_event.1000
+	title = sbu_event.1000.t
+	desc = sbu_event.1000.d
+	is_triggered_only = yes
+	option = {
+
 	}
 }
