@@ -1,0 +1,21 @@
+is_DMZ = {
+    OR = {
+        state=570
+        state=557
+        state=558
+        state=561
+        state=563
+        state=564
+        state=572
+        state=568
+        state=559
+        state=560
+        state=562
+        state=567
+        state=566
+        state=571
+        state=565
+        state=556
+        state=559
+    }
+}

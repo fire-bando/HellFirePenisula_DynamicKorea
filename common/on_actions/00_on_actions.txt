@@ -8,6 +8,14 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
+			every_state = {
+				limit = {
+					is_DMZ = yes
+				}
+				add_dynamic_modifier = {
+					modifier = dmz_state_modifier
+				}
+			}
 			BNH = { #신성감자제국 번국 제후국 등등 연출용
 				transfer_state = 263
 				add_state_core = 263
