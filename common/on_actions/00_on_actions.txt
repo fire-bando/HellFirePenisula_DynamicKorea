@@ -547,7 +547,7 @@ on_actions = {
 			}
 		}
 	}
-	on_weekly = {
+	on_weekly = { # 거점 점령 보너스? 같은거 구현
 		effect = {
 			333 = {
 				owner = {
@@ -653,7 +653,7 @@ on_actions = {
 						add_to_faction = EOT
 					}
 				}
-				if {
+				if { # 세력 안터지는 버그 수정을 하던지 게입하는걸 빼던가 하나를 해야함
 					limit = {
 						country_exists = TNK
 					}
