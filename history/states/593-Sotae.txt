@@ -1,23 +1,18 @@
 state={
 	id=593
 	name="STATE_593"
-	resources = {
-		steel = 20
-	}
 	history={
-		owner = CHU
-		add_core_of = CHU
-		victory_points = {
-			4042 5
-		}
+		owner = SAG
+		add_core_of = SAG
+		add_core_of = JPN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
 	}
 	provinces={
-		4042 
+		6495 15351
 	}
-	manpower=1882
+	manpower=4247
 	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
