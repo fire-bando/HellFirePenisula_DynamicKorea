@@ -1,4 +1,16 @@
 characters={ 
+    BUS_bongmin_jeong={
+        name=BUS_bongmin_jeong
+        portraits={
+            civilian={
+                large=GFX_BUS_bongmin_jeong_large
+            }
+        }
+        country_leader={
+            ideology=gen_nazism
+            expire="1960.8.16"
+        }
+    }
     YBJ_yoon_daddy={
         name=YBJ_yoon_daddy
         portraits={
@@ -47,7 +59,7 @@ characters={
             expire="1960.8.16"
         }
     }
-    PPP_jun_seok = { #쿠데타 이후 지도자
+    PPP_jun_seok = { 
         name = PPP_jun_seok
         portraits={
             civilian={

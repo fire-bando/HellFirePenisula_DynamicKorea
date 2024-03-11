@@ -8,6 +8,7 @@ characters={
         }
         country_leader={
             ideology=despotism
+            desc=TAE_junpyo_hong_desc
             expire="1960.8.16"
         }
     }
@@ -23,4 +24,4 @@ characters={
             expire=1972.11.21
         }
     }
- }
+}

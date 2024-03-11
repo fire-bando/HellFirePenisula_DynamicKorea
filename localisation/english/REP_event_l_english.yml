@@ -12,6 +12,10 @@
  tae_event.1000.d:0 "[TAE.GetAdjective]의 [GNW.GetNameDef] 병합이 임박한 것 아니냐는 소문이 돌고 있습니다. [TAE.GetAdjective] 군대가 국경에 집결하는 것이 목격되었고 소식통들은 [GNW.Capital.GetCapitalVictoryPointName]에서 유혈사태 없이 항복을 강요하기 위해 외교적 압력이 가해지고 있다고 말하고 있습니다. [GNW.GetLeader]가 [TAE.GetAdjective]의 압력에 저항할 수 있을지는 두고 봐야겠지만, 상황이 좋아 보이지는 않습니다"
  tae_event.1000.a:0 "피할 수 없는 것이었다."
 
+ tae_event.2000.t:0 "[GNW.GetName]의 [TAE.GetNameDef]와의 통합 거부"
+ tae_event.2000.d:0 "아니 글 왜 안쓰냐고"
+ tae_event.2000.a:0 "피할 수 없는 것이었다."
+
  jnr_event.1000.t:0 "[JNR.GetName]의 [SIN.GetNameDef] 정벌"
  jnr_event.1000.d:0 "[JNR.GetNameDef]이(가) 오늘 공식적으로 [SIN.GetNameDef]에 대한 정벌을 선포했습니다.[SIN.GetName]은(는) 21세기에도 여전히 노예제를 유지하고 있을 뿐만 아니라, 최근 들어 [JNR.GetAdjective] 시민들을 노예로 납치하는 만행을 저지르고 있었습니다. 이는 인류 보편적 가치에 대한 중대한 위협이자, [JNR.GetName]의 주권과 안보를 심각하게 훼손하는 행위라고 말하고 있습니다 [SIN.getName]이 [JNR.getLeader]에게 저항할 수 있을까요?"
  jnr_event.1000.a:0 "피할 수 없는 것이었다."

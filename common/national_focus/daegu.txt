@@ -51,7 +51,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = tae_event.1
-				days = 2
+				days = 0
 			}
 			hidden_effect = {
 				if = {

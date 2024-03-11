@@ -14,7 +14,12 @@ NOPE = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
+FEM = {
+	color = rgb { 105 8 173 }
+	color_ui = rgb { 105 8 173 }
+}
 JN1_JNR = {
 	color = rgb { 227 48 82 }
 	color_ui = rgb { 227 48 82 }
 }
+GNW_TAE_tonggam = {	color = rgb { 232 145 46 }	color_ui = rgb { 232 145 46 }	}

@@ -1,0 +1,10 @@
+GIR_skeleton = {
+    allowed = {
+        original_tag = GIR
+    }
+    visible = {
+        ROOT = {
+            is_ai = yes
+        }
+    }
+}

@@ -2,9 +2,10 @@
  SBU_BUG:0 "부울경인민혁명위원회"
  SBU_BUG_ADJ:0 "부울경인민혁명위원회"
  SBU_BUG_DEF:0 "부울경인민혁명위원회"
+ GNW_TAE_tonggam:0 "군위보호령"
  GNW_TAE_neutrality_autonomy_puppet:0 "군위군"
  GNW_TAE_neutrality_autonomy_integrated_puppet:0 "군위군"
- GNW_TAE_neutrality_autonomy_colony:0 "군위구"
+ GNW_TAE_neutrality_autonomy_colony:0 "군위군"
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
  SBU_gijang_commune:0 "기장인민위원회"
 
@@ -23,6 +24,10 @@
  SPX:0 "스페이스 X 외계 식민지"
  
  BMB_with_SPO:0 "사법부"
+
+ FEM:0 "재건 여성의당"
+ FEM:0 "재건 여성의당"
+ FEM:0 "재건 여성의당"
 
  TNK_JINBO:0 "진보당 경남도당"
  TNK_JINBO_ADJ:0 "진보당 경남도당"

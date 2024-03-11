@@ -1,5 +1,7 @@
 capital = 658
 
+recruit_character = BUS_bongmin_jeong
+
 oob = "BUS_2023"
 
 starting_train_buffer = 15
@@ -20,8 +22,7 @@ set_politics = {
 }
 set_popularities = {
 	fascism = 67
-	democratic = 3
-	communism = 10
-	feminism = 8
-	roh_samo = 12
+	socialism = 12
+	feminism = 18
+	neutrality = 4
 }

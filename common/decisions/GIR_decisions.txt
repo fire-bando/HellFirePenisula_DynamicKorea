@@ -1,0 +1,28 @@
+GIR_skeleton = {
+    femi_party_restoration = {
+        fire_only_once = yes
+        available = {
+            date > 2025.2.7
+        }
+        days_remove = 2
+        remove_effect = {
+            set_cosmetic_tag = FEM
+            annex_country = {
+                target = GI2
+                transfer_troops = yes
+            }
+            set_global_flag = baerina_crisis
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 200
+                country_exists = GIR
+            }
+        }
+    }
+}
+
+
+# 스켈레톤 순서
+# 여성의당 복원

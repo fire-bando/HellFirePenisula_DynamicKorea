@@ -16,12 +16,16 @@ country_event = {
 					OR = {
 						original_tag = JN1
 						original_tag = YED
+						original_tag = GNW
 					}
 				}
 			}
 			drop_cosmetic_tag = yes
 		}
 		hidden_effect = {
+			GNW = {
+				set_cosmetic_tag = GNW_TAE_tonggam
+			}
 			JN1 = {
 				set_cosmetic_tag = JN1_JNR
 			}

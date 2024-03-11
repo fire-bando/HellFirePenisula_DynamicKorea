@@ -1,0 +1,133 @@
+add_namespace = tae_event
+
+# New ace has been promoted
+country_event = { #대 - 군 합병 : 대구
+	id = tae_event.1
+	title = tae_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+            base = 50
+        }
+		name = tae_event.1.a
+        GNW = {
+            country_event = {
+                id = tae_event.2
+                days = 1
+            }
+        }
+	}
+}
+country_event = { #대 - 군 합병 : 군위
+	id = tae_event.2
+	title = tae_event.2.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+            base = 50
+        }
+		name = tae_event.2.a
+		TAE = {
+			country_event = {
+                id = tae_event.3
+                days = 1
+            }
+        }
+	}
+	option = {
+		ai_chance = {
+            base = 5
+			modifier = { tag = GNW factor = 0 }
+        }
+		name = tae_event.2.b
+		GNW = {
+			drop_cosmetic_tag = yes
+		}
+		TAE = {
+			country_event = {
+                id = tae_event.4
+                days = 1
+            }
+		}
+	}
+}
+country_event = { #대 - 군 합병 : 군위수락
+	id = tae_event.3
+	title = tae_event.3.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+            base = 500
+        }
+		name = tae_event.3.a
+        news_event = {
+			id = tae_event.1000
+			days = 2
+		}
+        TAE = {
+			add_state_core = 256
+            annex_country = {
+				target = GNW
+				transfer_troops = yes
+			}
+        }
+	}
+}
+country_event = { #대 - 군 합병 : 군위거부
+	id = tae_event.4
+	title = tae_event.4.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.4.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tae_event.4.a
+        TAE = {
+            declare_war_on = {
+				target = GNW
+				type = annex_everything
+			}
+        }
+	}
+}
+
+news_event = { #뉴스 : 대구의 군위 합병
+	id = tae_event.1000
+	title = tae_event.1000.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.1000.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tae_event.1000.a
+	}
+}
+
+news_event = { #뉴스 : 군위 합병 거부
+	id = ㅊ
+	title = tae_event.2000.t
+	picture = GFX_report_event_tae_event
+    desc = tae_event.2000.d
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tae_event.2000.a
+	}
+}
