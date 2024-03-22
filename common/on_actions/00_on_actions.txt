@@ -8,6 +8,11 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
+			94 = {
+				add_dynamic_modifier = {
+					modifier = aozi_state_modifier
+				}
+			}
 			341 = {
 				add_dynamic_modifier = {
 					modifier = ilsan_grad_state_modifier

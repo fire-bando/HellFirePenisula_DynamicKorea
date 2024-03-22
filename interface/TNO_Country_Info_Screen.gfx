@@ -210,10 +210,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Novosibirsk.dds"
 	}
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_PRC"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_PRC.dds"
-	}
-	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_Amur"
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Amur.dds"
 	}
@@ -242,6 +238,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_England.dds"
 	}
 	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_England_Old"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_England_Old.dds"
+	}
+	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_Scotland"
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Scotland.dds"
 	}
@@ -266,10 +266,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Iberia.dds"
 	}
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_Brittany"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Brittany.dds"
-	}
-	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_Yunnan"
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Yunnan.dds"
 	}
@@ -290,10 +286,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Burgundy.dds"
 	}
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_Madagaskar"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Madagaskar.dds"
-	}
-	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_Brazil"
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Brazil.dds"
 	}
@@ -304,5 +296,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_Norway"
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Norway.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Ukraine"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Ukraine.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Poland"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Poland.dds"
 	}
 }

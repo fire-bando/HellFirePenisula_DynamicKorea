@@ -1,0 +1,14 @@
+spriteTypes={
+	spriteType = {
+		name = "generic_officer"
+		textureFile = "gfx/interface/ideas/idea_generic_officer.png"
+	}
+	spriteType = {
+		name = "generic_syndicalist_worker"
+		textureFile = "gfx/interface/ideas/generic_syndicalist_worker.png"
+	}
+	spriteType = {
+		name = "generic_wall_line"
+		textureFile = "gfx/interface/ideas/generic_wall_line.png"
+	}
+}

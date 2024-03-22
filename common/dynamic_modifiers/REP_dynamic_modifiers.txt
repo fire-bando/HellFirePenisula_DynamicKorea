@@ -26,8 +26,19 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+ilsan_grad_state_modifier = {
+	icon = generic_wall_line
+	enable = { always = yes }
+	remove_trigger = { always = no }
+	army_defence_factor = 0.75
+	army_attack_factor = -0.3
+	enemy_army_attack_factor = -0.8
+	enemy_army_speed_factor = -0.8
+	supply_consumption_factor = 0.2
+}
+
 dmz_state_modifier = {
-	icon = "GFX_idea_unknown"
+	icon = generic_officer
 	enable = { always = yes }
 	remove_trigger = { always = no }
 	army_speed_factor = -0.6
@@ -38,13 +49,11 @@ dmz_state_modifier = {
 	supply_node_range = -0.4
 }
 
-ilsan_grad_state_modifier = {
-	icon = "GFX_idea_unknown"
+aozi_state_modifier = {
+	icon = generic_syndicalist_worker
 	enable = { always = yes }
 	remove_trigger = { always = no }
-	army_defence_factor = 0.75
-	army_attack_factor = -0.3
-	enemy_army_attack_factor = -0.8
-	enemy_army_speed_factor = -0.8
-	supply_consumption_factor = 0.2
+	local_resources_factor = 0.95
+	state_production_speed_industrial_complex_factor = 0.5
+	supply_consumption_factor = 0.3
 }

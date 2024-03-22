@@ -123,7 +123,7 @@ guiTypes = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
 			position = { x = 207 y = 180 }
-			web_link = "https://discordapp.com/invite/TheNewOrder"
+			web_link = "https://discord.gg/theneworder"
 		}
 		buttonType = {
 			name = "TNO_reddit_button"
