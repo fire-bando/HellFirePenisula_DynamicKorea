@@ -6,7 +6,9 @@ ideologies = {
 			
 			conservatism = {}
 			liberalism = {}
-			gaeddal = {} #온건
+			gaeddal = {
+				color = { 2 51 149 }
+			} #온건
 			aeguk_bosu = {} #온건
 		}
 
@@ -308,10 +310,14 @@ ideologies = {
 		types = {
 			neutrality_subtype = {}
 			
-			gumchal_dokjae = {}
+			gumchal_dokjae = {
+				can_be_randomly_selected = no
+				color = { 15 74 112 }
+			}
 			despotism  = {}
 			oligarchism  = {}
 			anarchism = {
+				color = { 11 11 11 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			moderatism = {}

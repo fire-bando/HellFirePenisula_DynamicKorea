@@ -123,6 +123,10 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyLocFascism
 	text = {
+		trigger = { has_country_leader_ideology = nazism }
+		localization_key = nazism
+	}
+	text = {
 		localization_key = fascism
 	}
 }

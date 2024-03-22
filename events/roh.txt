@@ -1,0 +1,17 @@
+add_namespace = roh_event
+
+country_event = { 
+	id = roh_event.1
+	title = roh_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = roh_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = roh_event.1.a
+	}
+	option = {
+		name = roh_event.1.b
+	}
+}

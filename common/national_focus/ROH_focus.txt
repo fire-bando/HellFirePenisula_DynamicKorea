@@ -10,26 +10,9 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = fuck_fix
+		id = ROH_gaka_still_alive
 		icon = GFX_human_living_sekai
-		x = 0
-		y = 0
-		cost = 5
-		completion_reward = {
-			set_country_leader_name = {
-				ideology = roh_samo
-				name = "노무현 비석"
-			}
-			set_country_leader_portrait = {
-				ideology = roh_samo
-				portrait = "gfx/leaders/ROH/unji.dds"
-			}
-		}
-	}
-	focus = {
-		id = ROH_wtf_is_this
-		icon = GFX_human_living_sekai
-		x = 26
+		x = 10
 		y = 0
 		cost = 5
 		completion_reward = {
@@ -38,6 +21,48 @@ focus_tree = {
 					id = ROH_event.1
 					days = 0 
 				}
+			}
+		}
+	}
+	focus = {
+		id = ROH_regenerated_rohsamo
+		icon = 윤버지
+		prerequisite = { focus = ROH_gaka_still_alive }
+		relative_position_id = ROH_gaka_still_alive
+		x = -2
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_ideas = {
+				ROH_rohsamo_reunited
+			}
+		}
+	}
+	focus = {
+		id = ROH_for_human_living_sekai
+		icon = 윤버지
+		prerequisite = { focus = ROH_gaka_still_alive }
+		relative_position_id = ROH_gaka_still_alive
+		x = 2
+		y = 1
+		cost = 5
+		completion_reward = {
+			ROOT = { set_cosmetic_tag = ROH_piaze_sigye }
+		}
+	}
+	focus = {
+		id = ROH_dasi_minshushugi
+		icon = ROH_dasi_minshushugi
+		prerequisite = { focus = ROH_regenerated_rohsamo }
+		prerequisite = { focus = ROH_for_human_living_sekai }
+		relative_position_id = ROH_gaka_still_alive
+		x = 0
+		y = 2
+		cost = 5
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+				name = "열린우리당"
 			}
 		}
 	}
