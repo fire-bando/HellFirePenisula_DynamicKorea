@@ -1,0 +1,21 @@
+scripted_gui = {
+	YBJ = {
+		context_type = player_context
+		
+		window_name = "Gyeum"
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+
+		}
+		triggers = {
+
+		}
+		properties = {
+
+		}
+	}
+}

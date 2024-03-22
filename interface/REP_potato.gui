@@ -1,0 +1,7 @@
+guiTypes = {
+    containerWindowType = {
+        name = "Gyeum" # Can be used in the window_name of scripted GUI
+        position = { x = 0 y = 0 }
+        size = { width = 400 height= 210 }
+    }
+}
