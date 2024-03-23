@@ -27,7 +27,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		x = 28
 		y = 0
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -52,7 +52,7 @@ focus_tree = {
 		}
 		x = -11
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -71,7 +71,7 @@ focus_tree = {
 		mutually_exclusive = { focus = NORTH_anti_juche_idea }
 		x = -8
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -89,7 +89,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_juche_idea }
 		x = -6
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -107,7 +107,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_juche_idea }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -125,7 +125,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_new_capital }
 		x = -2
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -143,7 +143,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_new_capital }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -161,7 +161,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_new_capital }
 		x = 2
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -179,7 +179,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_monumental_architecture }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -198,7 +198,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_fortify_capital }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -222,7 +222,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_subway_system }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -240,7 +240,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_secret_bunkers }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -271,7 +271,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_bunker_network }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -300,7 +300,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_juche_idea }
 		x = 6
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -318,7 +318,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_seongunjeongchi }
 		x = -2
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -336,7 +336,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_seongunjeongchi }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -354,7 +354,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_seongunjeongchi }
 		x = 2
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -373,7 +373,7 @@ focus_tree = {
 		mutually_exclusive = { focus = NORTH_juche_idea }
 		x = 8
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -391,7 +391,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_anti_juche_idea }
 		x = -2
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -409,7 +409,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_anti_juche_idea }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -427,7 +427,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_anti_juche_idea }
 		x = 2
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -454,7 +454,7 @@ focus_tree = {
 	    }
 	    x = 11
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -473,7 +473,7 @@ focus_tree = {
 		mutually_exclusive = { focus = NORTH_ein_volk }
 	    x = -6
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -491,7 +491,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_le_republique }
 	    x = -1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -509,7 +509,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_le_republique }
 	    x = 1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -527,7 +527,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_le_republique }
 	    x = 0
 	    y = 2
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 	
@@ -562,7 +562,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_upa }
 	    x = 6
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -580,7 +580,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_ein_volk }
 	    x = -1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -598,7 +598,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_ein_volk }
 	    x = 1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -617,18 +617,14 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_ein_volk }
 	    x = 0
 	    y = 2
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
 	    available_if_capitulated = yes
 
 	    completion_reward = {
-	        add_ideas = total_mobilization_idea
-	        if = {
-	            limit = { has_idea = limited_conscription }
-	            add_ideas = extensive_conscription
-	        }
+
 	    }
 	}
 
@@ -639,7 +635,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_constitutional_democracy }
 	    x = -3
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -658,7 +654,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_constitutional_democracy }
 	    x = 1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -679,7 +675,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_judicial_independence }
 	    x = 2
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -701,7 +697,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_market_liberalization }
 	    x = 0
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_INDUSTRY }
 	
@@ -734,7 +730,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_economic_liberalization }
 	    x = 0
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_INDUSTRY }
 	
@@ -767,7 +763,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_militaristic_nationalism }
 	    x = -1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -786,7 +782,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_centralized_power }
 	    x = 1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -809,7 +805,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_secret_police }
 	    x = 1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -828,7 +824,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_total_mobilization }
 	    x = -1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 	
@@ -847,7 +843,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_total_mobilization }
 	    x = 1
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_INDUSTRY }
 	
@@ -880,7 +876,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_military_first }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -898,7 +894,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_songun_politics }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -916,7 +912,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_nuclear_program }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -934,7 +930,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_nuclear_tests }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -952,7 +948,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_total_control }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -970,7 +966,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_personality_cult }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -988,7 +984,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_upa }
 	    x = 0
 	    y = 2
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_INDUSTRY }
 	
@@ -1020,7 +1016,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_economic_recovery }
 	    x = 0
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_INDUSTRY }
 	
@@ -1051,7 +1047,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_economic_recovery }
 	    x = 2
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_STABILITY }
 	
@@ -1070,7 +1066,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_national_unity }
 	    x = 0
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -1096,21 +1092,14 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_economic_recovery }
 	    x = -2
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
 	    available_if_capitulated = yes
 
 	    completion_reward = {
-	        add_opinion_modifier = { 
-	            target = SKO 
-	            modifier = north_south_reconciliation
-	        }
-	        reverse_add_opinion_modifier = { 
-	            target = SKO 
-	            modifier = north_south_reconciliation
-	        }
+			
 	    }
 	}
 
@@ -1121,7 +1110,7 @@ focus_tree = {
 	    prerequisite = { focus = NORTH_reconciliation_with_south }
 	    x = 0
 	    y = 1
-	    cost = 6
+	    cost = 5
 
 	    search_filters = {  FOCUS_FILTER_POLITICAL }
 	
@@ -1140,7 +1129,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_open_door_policy }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -1158,7 +1147,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_foreign_investment }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -1176,7 +1165,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_denuclearization }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -1194,7 +1183,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_inter_korean_talks }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -1212,7 +1201,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_economic_reform }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -1230,7 +1219,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_special_economic_zones }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -1248,7 +1237,7 @@ focus_tree = {
 		prerequisite = { focus = NORTH_joint_ventures }
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		

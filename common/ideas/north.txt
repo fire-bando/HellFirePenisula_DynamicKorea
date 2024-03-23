@@ -19,7 +19,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				production_speed_buildings_factor = 0.1
 			}
 		}
@@ -43,7 +43,7 @@ ideas = {
 			picture = generic_reserve_divisions
 
 			modifier = {
-				consumer_goods_factor = 0.03
+				consumer_goods_expected_value = 0.03
 				local_resources_factor = 0.1
 			}
 		}
@@ -84,14 +84,13 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.1
-				consumer_goods_factor = 0.03
+				consumer_goods_expected_value = 0.03
 			}
 		}
 		diplomatic_outreach_idea = {
 			picture = generic_deal_with_the_devil2
 
 			modifier = {
-				improve_relations_maintain_cost_factor = -0.25
 				trade_opinion_factor = 0.2
 			}
 		}
