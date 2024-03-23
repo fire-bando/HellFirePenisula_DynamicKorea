@@ -8,7 +8,7 @@ characters={
         }
         country_leader={
             ideology=neutrality
-            expire="1991.4.2"
+            expire="2099.4.2"
         }
     }
 }
