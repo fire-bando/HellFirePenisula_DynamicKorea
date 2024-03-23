@@ -9,7 +9,9 @@ ideologies = {
 			gaeddal = {
 				color = { 2 51 149 }
 			} #온건
-			aeguk_bosu = {} #온건
+			aeguk_bosu = {
+				color = { 230 31 38 }
+			} #온건
 		}
 
 		dynamic_faction_names = {
@@ -66,7 +68,9 @@ ideologies = {
 			parkism_subtype = {}
 
 			gaka = {}
-			chinbak = {}
+			chinbak = {
+				color = { 8 156 74 }
+			}
 		}
 
 		dynamic_faction_names = {

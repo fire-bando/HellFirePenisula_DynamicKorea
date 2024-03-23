@@ -48,7 +48,7 @@
  STATE_27:1 "Kyongsong" #105k
  STATE_70:0 "김책" #210k
  STATE_75:0 "Yonsa" #40k
- STATE_76:0 "Hoeryong" #155k
+ STATE_76:0 "회령" #155k
  STATE_77:0 "Chongjin" #625k
  STATE_87:0 "Hwaede" #70k
  STATE_88:0 "Myongchon" #65k
@@ -58,7 +58,7 @@
  STATE_92:0 "Puryong" #50k
  STATE_93:0 "Musan" #125k
  STATE_94:0 "경흥" #105k
- STATE_95:0 "Onsong" #130k
+ STATE_95:0 "온성" #130k
  STATE_96:0 "Kyongwon" #105k
 
  #North Hwanghae Province

@@ -1,0 +1,31 @@
+REUNIFIED_SIX_JIN = {
+    reunified_6jin = {
+        available = {
+            ROOT = {
+                owns_state = 67
+                owns_state = 76
+                owns_state = 94
+                owns_state = 96
+            }
+        }
+        complete_effect = {
+            if = {
+                limit = {
+                    original_tag = AOJ
+                }
+                set_cosmetic_tag = AOJ_unified_6jin
+            }
+            if = {
+                limit = {
+                    original_tag = NJN
+                }
+                set_cosmetic_tag = NJN_unified_6jin
+            }
+            set_global_flag = SIXJIN_REUNIFIED
+            add_state_core = 67
+            add_state_core = 76
+            add_state_core = 94
+            add_state_core = 96 
+        }
+    }
+}

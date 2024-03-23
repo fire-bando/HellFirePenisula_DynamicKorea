@@ -1,0 +1,10 @@
+REUNIFIED_SIX_JIN = {
+    priority = 10
+    allowed = {
+        OR = {
+            original_tag = NJN
+            original_tag = YJN
+            original_tag = AOJ
+        }
+    }
+}

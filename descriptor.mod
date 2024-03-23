@@ -50,4 +50,4 @@ dependencies={
 	"Korean Language"
 	"Korean Language (Europa)"
 }	
-supported_version="1.13.3"
+supported_version="1.14.*"

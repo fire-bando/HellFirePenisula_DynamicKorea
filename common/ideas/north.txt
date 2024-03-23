@@ -1,0 +1,99 @@
+ideas = {
+	country = {
+		NORTH_building_peoples_palace = {
+			picture = generic_production_bonus
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				stability_weekly = 0.005
+			}
+		}
+		limited_conscription = {
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		economic_recovery_idea = {
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		civil_defense_idea = {
+			picture = generic_civil_defense
+
+			modifier = {
+				resistance_damage_to_garrison = -0.25
+				war_support_weekly = 0.005
+			}
+		}
+		fortification_focus = {
+			picture = generic_fortify_the_borders
+
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+			}
+		}
+		NORTH_strategic_reserve_idea = {
+			picture = generic_reserve_divisions
+
+			modifier = {
+				consumer_goods_factor = 0.03
+				local_resources_factor = 0.1
+			}
+		}
+		constitutional_democracy_idea = {
+			picture = generic_constitutional_guarantees
+
+			modifier = {
+				political_power_gain = 0.15
+				democratic_drift = 0.05
+			}
+		}
+		market_liberalization_idea = {
+			picture = generic_flexible_foreign_policy2
+
+			modifier = {
+				trade_opinion_factor = 0.2
+				min_export = -0.05
+			}
+		}
+		militaristic_nationalism_idea = {
+			picture = FRA_scw_intervention_nationalists_focus
+
+			modifier = {
+				war_support_factor = 0.1
+				mobilization_speed = 0.1
+			}
+		}
+		militarized_schools_idea = {
+			picture = generic_army_war_college
+
+			modifier = {
+				research_speed_factor = 0.05
+				training_time_factor = -0.1
+			}
+		}
+		social_welfare_programs_idea = {
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.03
+			}
+		}
+		diplomatic_outreach_idea = {
+			picture = generic_deal_with_the_devil2
+
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.25
+				trade_opinion_factor = 0.2
+			}
+		}
+	}
+}

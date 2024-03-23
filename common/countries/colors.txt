@@ -175,3 +175,5 @@ ZZZ = {	color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 }	}
 SPX = {	color = HSV { 0.1 0.15 0.4 }	color_ui = rgb { 138 155 116 } }
 NYO = {	color = rgb { 25 26 50 }	color_ui = rgb { 25 26 50 }	}
 AOJ = {	color = rgb { 42 37 73 }	color_ui = rgb { 42 37 73 }	}
+YJN = {	color = rgb { 132 179 209 }	color_ui = rgb { 132 179 209 }	}
+NJN = {	color = rgb { 170 49 39 }	color_ui = rgb { 170 49 39 }	}

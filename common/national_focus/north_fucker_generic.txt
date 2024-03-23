@@ -1,0 +1,1261 @@
+focus_tree = {
+	id = north_fucker_generic_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+				original_tag = WPK
+				original_tag = NYO
+				original_tag = KJI
+				original_tag = KSD
+				original_tag = HAE
+				original_tag = PYS
+				original_tag = AOJ
+				original_tag = YJN
+				original_tag = NJN
+			}
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = NORTH_politics
+		icon = GFX_goal_generic_political_pressure
+		x = 28
+		y = 0
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = NORTH_fucking_usa
+		icon = GFX_focus_generic_soviet_politics
+		relative_position_id = NORTH_politics
+		prerequisite = { focus = NORTH_politics }
+		mutually_exclusive = { focus = NORTH_upa }
+		available = {
+			OR = {
+				has_government = socialism
+				has_government = communism
+			}
+		}
+		x = -11
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_juche_idea
+		icon = GFX_focus_generic_soviet_politics
+		relative_position_id = NORTH_fucking_usa
+		prerequisite = { focus = NORTH_fucking_usa }
+		mutually_exclusive = { focus = NORTH_anti_juche_idea }
+		x = -8
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_seopjeong
+		icon = GFX_focus_generic_self_management
+		relative_position_id = NORTH_juche_idea
+		prerequisite = { focus = NORTH_juche_idea }
+		x = -6
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.2
+		}
+	}
+
+	focus = {
+		id = NORTH_new_capital
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NORTH_juche_idea
+		prerequisite = { focus = NORTH_juche_idea }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_monumental_architecture
+		icon = GFX_goal_generic_construction
+		relative_position_id = NORTH_new_capital
+		prerequisite = { focus = NORTH_new_capital }
+		x = -2
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_fortify_capital
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NORTH_new_capital
+		prerequisite = { focus = NORTH_new_capital }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_secret_bunkers
+		icon = GFX_goal_generic_secret_weapon
+		relative_position_id = NORTH_new_capital
+		prerequisite = { focus = NORTH_new_capital }
+		x = 2
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_peoples_palace
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NORTH_monumental_architecture
+		prerequisite = { focus = NORTH_monumental_architecture }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			add_timed_idea = { idea = NORTH_building_peoples_palace days = 180 }
+		}
+	}
+
+	focus = {
+		id = NORTH_subway_system
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = NORTH_fortify_capital
+		prerequisite = { focus = NORTH_fortify_capital }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NORTH_civil_defense
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NORTH_subway_system
+		prerequisite = { focus = NORTH_subway_system }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = civil_defense_idea
+		}
+	}
+
+	focus = {
+		id = NORTH_bunker_network
+		icon = GFX_goal_generic_secret_weapon
+		relative_position_id = NORTH_secret_bunkers
+		prerequisite = { focus = NORTH_secret_bunkers }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = fortification_focus
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = {
+						all_provinces = yes
+						limit_to_border = no
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NORTH_strategic_reserves
+		icon = GFX_goal_generic_oil_refinery
+		relative_position_id = NORTH_bunker_network
+		prerequisite = { focus = NORTH_bunker_network }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = NORTH_strategic_reserve_idea
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NORTH_seongunjeongchi
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		relative_position_id = NORTH_juche_idea
+		prerequisite = { focus = NORTH_juche_idea }
+		x = 6
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_military_first
+		icon = GFX_goal_generic_army_tanks
+		relative_position_id = NORTH_seongunjeongchi
+		prerequisite = { focus = NORTH_seongunjeongchi }
+		x = -2
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_nuclear_program
+		icon = GFX_focus_wonderweapons
+		relative_position_id = NORTH_seongunjeongchi
+		prerequisite = { focus = NORTH_seongunjeongchi }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_total_control
+		icon = GFX_goal_generic_political_pressure
+		relative_position_id = NORTH_seongunjeongchi
+		prerequisite = { focus = NORTH_seongunjeongchi }
+		x = 2
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_anti_juche_idea
+		icon = GFX_goal_generic_war_with_comintern
+		relative_position_id = NORTH_fucking_usa
+		prerequisite = { focus = NORTH_fucking_usa }
+		mutually_exclusive = { focus = NORTH_juche_idea }
+		x = 8
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_open_door_policy
+		icon = GFX_goal_generic_positive_trade_relations
+		relative_position_id = NORTH_anti_juche_idea
+		prerequisite = { focus = NORTH_anti_juche_idea }
+		x = -2
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_denuclearization
+		icon = GFX_goal_generic_special_forces
+		relative_position_id = NORTH_anti_juche_idea
+		prerequisite = { focus = NORTH_anti_juche_idea }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_economic_reform
+		icon = GFX_goal_generic_consumer_goods
+		relative_position_id = NORTH_anti_juche_idea
+		prerequisite = { focus = NORTH_anti_juche_idea }
+		x = 2
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+	    id = NORTH_upa
+	    icon = GFX_goal_generic_demand_territory
+	    relative_position_id = NORTH_politics
+	    prerequisite = { focus = NORTH_politics }
+	    mutually_exclusive = { focus = NORTH_fucking_usa }
+	    available = {
+	        NOT = {
+	            OR = {
+	                has_government = socialism
+	                has_government = communism
+	            }
+	        }
+	    }
+	    x = 11
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+		
+	    }
+	}
+
+	focus = {
+	    id = NORTH_le_republique
+	    icon = GFX_goal_generic_military_sphere
+	    relative_position_id = NORTH_upa
+	    prerequisite = { focus = NORTH_upa }
+		mutually_exclusive = { focus = NORTH_ein_volk }
+	    x = -6
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+		
+	    }
+	}
+
+	focus = {
+	    id = NORTH_constitutional_democracy  
+	    icon = GFX_goal_support_democracy
+	    relative_position_id = NORTH_le_republique
+	    prerequisite = { focus = NORTH_le_republique }
+	    x = -1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = constitutional_democracy_idea
+	    }
+	}
+
+	focus = {
+	    id = NORTH_free_elections
+	    icon = GFX_goal_generic_national_unity
+	    relative_position_id = NORTH_le_republique  
+	    prerequisite = { focus = NORTH_le_republique }
+	    x = 1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        country_event = { id = north_election_event.1 }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_market_liberalization
+	    icon = GFX_goal_generic_positive_trade_relations
+	    relative_position_id = NORTH_le_republique
+	    prerequisite = { focus = NORTH_le_republique }
+	    x = 0
+	    y = 2
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = market_liberalization_idea
+	        random_owned_controlled_state = {
+	            limit = {
+	                is_fully_controlled_by = ROOT
+	                free_building_slots = {
+	                    building = industrial_complex
+	                    size > 1
+	                    include_locked = yes
+	                }
+	            }
+	            add_extra_state_shared_building_slots = 2
+	            add_building_construction = {
+	                type = industrial_complex
+	                level = 2
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_ein_volk
+	    icon = GFX_goal_generic_military_sphere
+		mutually_exclusive = { focus = NORTH_le_republique }
+	    relative_position_id = NORTH_upa
+	    prerequisite = { focus = NORTH_upa }
+	    x = 6
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+		
+	    }
+	}
+
+	focus = {
+	    id = NORTH_militaristic_nationalism
+	    icon = GFX_goal_generic_political_pressure
+	    relative_position_id = NORTH_ein_volk
+	    prerequisite = { focus = NORTH_ein_volk }
+	    x = -1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = militaristic_nationalism_idea
+	    }
+	}
+
+	focus = {
+	    id = NORTH_centralized_power
+	    icon = GFX_goal_generic_forceful_treaty
+	    relative_position_id = NORTH_ein_volk
+	    prerequisite = { focus = NORTH_ein_volk }
+	    x = 1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 120
+	        add_stability = -0.05
+	    }
+	}
+
+	focus = {
+	    id = NORTH_total_mobilization
+	    icon = GFX_goal_generic_construct_military
+	    relative_position_id = NORTH_ein_volk
+	    prerequisite = { focus = NORTH_ein_volk }
+	    x = 0
+	    y = 2
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = total_mobilization_idea
+	        if = {
+	            limit = { has_idea = limited_conscription }
+	            add_ideas = extensive_conscription
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_freedom_of_press
+	    icon = GFX_goal_generic_propaganda
+	    relative_position_id = NORTH_constitutional_democracy
+	    prerequisite = { focus = NORTH_constitutional_democracy }
+	    x = -3
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 75
+	        add_stability = 0.05
+	    }
+	}
+
+	focus = {
+	    id = NORTH_judicial_independence
+	    icon = GFX_goal_generic_neutrality_focus
+	    relative_position_id = NORTH_constitutional_democracy
+	    prerequisite = { focus = NORTH_constitutional_democracy }
+	    x = 1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 75  
+	        add_stability = 0.05
+	    }
+	}
+
+	focus = {
+	    id = NORTH_democratic_coalition
+	    icon = GFX_goal_generic_alliance
+	    relative_position_id = NORTH_freedom_of_press
+	    prerequisite = { focus = NORTH_freedom_of_press }
+	    prerequisite = { focus = NORTH_free_elections }
+	    prerequisite = { focus = NORTH_judicial_independence }
+	    x = 2
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 120
+	        add_popularity = {
+	            ideology = democratic
+	            popularity = 0.1
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_economic_liberalization
+	    icon = GFX_goal_generic_construct_civ_factory
+	    relative_position_id = NORTH_market_liberalization
+	    prerequisite = { focus = NORTH_market_liberalization }
+	    x = 0
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        random_owned_controlled_state = {
+	            limit = {
+	                is_fully_controlled_by = ROOT
+	                free_building_slots = {
+	                    building = industrial_complex
+	                    size > 1
+	                    include_locked = yes
+	                }
+	            }
+	            add_extra_state_shared_building_slots = 2
+	            add_building_construction = {
+	                type = industrial_complex
+	                level = 2
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_open_trade_policy
+	    icon = GFX_goal_generic_positive_trade_relations
+	    relative_position_id = NORTH_economic_liberalization
+	    prerequisite = { focus = NORTH_economic_liberalization }
+	    x = 0
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = free_trade
+	        random_owned_controlled_state = {
+	            limit = {
+	                is_fully_controlled_by = ROOT
+	                free_building_slots = {
+	                    building = infrastructure
+	                    size > 1
+	                    include_locked = yes
+	                }
+	            }
+	            add_building_construction = {
+	                type = infrastructure
+	                level = 2
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_mass_surveillance 
+	    icon = GFX_goal_generic_intelligence_exchange
+	    relative_position_id = NORTH_militaristic_nationalism
+	    prerequisite = { focus = NORTH_militaristic_nationalism }
+	    x = -1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 120
+	        add_stability = 0.03
+	    }
+	}
+
+	focus = {
+	    id = NORTH_secret_police
+	    icon = GFX_goal_generic_military_deal
+	    relative_position_id = NORTH_centralized_power
+	    prerequisite = { focus = NORTH_centralized_power }
+	    x = 1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 120
+	        add_popularity = {
+	            ideology = fascism
+	            popularity = 0.05
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_personality_cult
+	    icon = GFX_focus_generic_support_the_left_right
+	    relative_position_id = NORTH_mass_surveillance
+	    prerequisite = { focus = NORTH_mass_surveillance }
+	    prerequisite = { focus = NORTH_secret_police }
+	    x = 1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 150
+	        add_stability = 0.1
+	    }
+	}
+
+	focus = {
+	    id = NORTH_militarized_education
+	    icon = GFX_focus_research
+	    relative_position_id = NORTH_total_mobilization
+	    prerequisite = { focus = NORTH_total_mobilization }
+	    x = -1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = militarized_schools_idea
+	        add_research_slot = 1
+	    }
+	}
+
+	focus = {
+	    id = NORTH_military_industrial_complex
+	    icon = GFX_goal_generic_production
+	    relative_position_id = NORTH_total_mobilization
+	    prerequisite = { focus = NORTH_total_mobilization }
+	    x = 1
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        random_owned_controlled_state = {
+	            limit = {
+	                is_fully_controlled_by = ROOT
+	                free_building_slots = {
+	                    building = arms_factory
+	                    size > 2
+	                    include_locked = yes
+	                }
+	            }
+	            add_extra_state_shared_building_slots = 3
+	            add_building_construction = {
+	                type = arms_factory
+	                level = 3
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+		id = NORTH_songun_politics
+		icon = GFX_goal_generic_military_sphere
+		relative_position_id = NORTH_military_first
+		prerequisite = { focus = NORTH_military_first }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_mass_mobilization
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = NORTH_songun_politics
+		prerequisite = { focus = NORTH_songun_politics }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_nuclear_tests
+		icon = GFX_focus_secret_rearmament
+		relative_position_id = NORTH_nuclear_program
+		prerequisite = { focus = NORTH_nuclear_program }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_missile_program
+		icon = GFX_focus_rocketry
+		relative_position_id = NORTH_nuclear_tests
+		prerequisite = { focus = NORTH_nuclear_tests }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_personality_cult
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = NORTH_total_control
+		prerequisite = { focus = NORTH_total_control }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_purge_dissidents
+		icon = GFX_focus_generic_strike_at_democracy1
+		relative_position_id = NORTH_personality_cult
+		prerequisite = { focus = NORTH_personality_cult }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+	    id = NORTH_economic_recovery
+	    icon = GFX_goal_generic_consumer_goods
+	    relative_position_id = NORTH_upa
+	    prerequisite = { focus = NORTH_upa }
+	    x = 0
+	    y = 2
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_timed_idea = { 
+	            idea = economic_recovery_idea
+	            days = 180
+	        }
+	        random_owned_controlled_state = {
+	            limit = {
+	                is_fully_controlled_by = ROOT
+	                industrial_complex > 0
+	            }
+	            add_building_construction = {
+	                type = industrial_complex
+	                level = 2
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_infrastructure_development
+	    icon = GFX_goal_generic_construct_infrastructure
+	    relative_position_id = NORTH_economic_recovery
+	    prerequisite = { focus = NORTH_economic_recovery }
+	    x = 0
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        random_owned_controlled_state = {
+	            limit = {
+	                is_fully_controlled_by = ROOT
+	                free_building_slots = {
+	                    building = infrastructure
+	                    size > 2
+	                }
+	            }
+	            add_building_construction = {
+	                type = infrastructure
+	                level = 3
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_national_unity
+	    icon = GFX_goal_generic_national_unity
+	    relative_position_id = NORTH_economic_recovery
+	    prerequisite = { focus = NORTH_economic_recovery }
+	    x = 2
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_STABILITY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_stability = 0.1
+	        add_war_support = 0.05
+	    }
+	}
+
+	focus = {
+	    id = NORTH_social_welfare
+	    icon = GFX_goal_generic_consumer_goods
+	    relative_position_id = NORTH_national_unity
+	    prerequisite = { focus = NORTH_national_unity }
+	    x = 0
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = social_welfare_programs_idea
+	        add_popularity = {
+	            ideology = democratic
+	            popularity = 0.05
+	        }
+	        add_popularity = {
+	            ideology = communism
+	            popularity = 0.05
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_reconciliation_with_south
+	    icon = GFX_goal_generic_improve_relations
+	    relative_position_id = NORTH_economic_recovery
+	    prerequisite = { focus = NORTH_economic_recovery }
+	    x = -2
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_opinion_modifier = { 
+	            target = SKO 
+	            modifier = north_south_reconciliation
+	        }
+	        reverse_add_opinion_modifier = { 
+	            target = SKO 
+	            modifier = north_south_reconciliation
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_diplomatic_outreach
+	    icon = GFX_goal_generic_improve_relations
+	    relative_position_id = NORTH_reconciliation_with_south
+	    prerequisite = { focus = NORTH_reconciliation_with_south }
+	    x = 0
+	    y = 1
+	    cost = 6
+
+	    search_filters = {  FOCUS_FILTER_POLITICAL }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_political_power = 120
+	        add_ideas = diplomatic_outreach_idea
+	    }
+	}
+
+	focus = {
+		id = NORTH_foreign_investment
+		icon = GFX_goal_generic_construction2
+		relative_position_id = NORTH_open_door_policy
+		prerequisite = { focus = NORTH_open_door_policy }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_diplomatic_outreach
+		icon = GFX_goal_generic_major_alliance
+		relative_position_id = NORTH_foreign_investment
+		prerequisite = { focus = NORTH_foreign_investment }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_inter_korean_talks
+		icon = GFX_goal_generic_dangerous_deal
+		relative_position_id = NORTH_denuclearization
+		prerequisite = { focus = NORTH_denuclearization }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_remove_landmines
+		icon = GFX_goal_generic_military_deal
+		relative_position_id = NORTH_inter_korean_talks
+		prerequisite = { focus = NORTH_inter_korean_talks }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_special_economic_zones
+		icon = GFX_goal_generic_production
+		relative_position_id = NORTH_economic_reform
+		prerequisite = { focus = NORTH_economic_reform }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_joint_ventures
+		icon = GFX_goal_generic_improve_relations
+		relative_position_id = NORTH_special_economic_zones
+		prerequisite = { focus = NORTH_special_economic_zones }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = NORTH_rebuild_industries
+		icon = GFX_focus_generic_industry_2
+		relative_position_id = NORTH_joint_ventures
+		prerequisite = { focus = NORTH_joint_ventures }
+		x = 0
+		y = 1
+		cost = 6
+
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+}

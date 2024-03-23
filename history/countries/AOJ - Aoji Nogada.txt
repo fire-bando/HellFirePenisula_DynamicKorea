@@ -1,0 +1,32 @@
+capital = 94
+
+starting_train_buffer = 10
+
+oob = "AOJ_2023"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	neutrality = 100
+}
+create_country_leader = {
+	name = "시구레 우이"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = GFX_시구레우이
+	expire = "2065.1.1"
+	ideology = centrism
+	traits = {
+	}
+}

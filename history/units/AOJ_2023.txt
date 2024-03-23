@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "Aoji Cave Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	division_names_group = AOJ_INF_01
+
+	priority = 1
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2729
+		division_template = "Aoji Cave Garrison"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7042
+		division_template = "Aoji Cave Garrison"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+}
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AOJ"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 90
+	}
+}

@@ -1,0 +1,63 @@
+SBU_historical_plan = {
+	name = "West Busan Historical Plan"
+	desc = "서부혁역사적중점"
+
+	allowed = {
+		original_tag = SBU
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort = {
+		is_subject = yes 
+		has_war = no 
+	}
+
+	ai_national_focuses = {
+		SBU_in_the_ruins
+		SBU_flut_the_red_flag
+		SBU_inho_choi_chairman
+		SBU_dogwangyanghwe
+		SBU_frontier_underdeveloped_area
+		SBU_establing_west_busan_department
+		SBU_establishing_aid_center
+		SBU_sasang_industrial_area
+		SBU_noksan_industrial_area
+		SBU_establish_west_busan_liberate_army
+		SBU_act_on_gender_equality_for_female_soldiers
+		SBU_touching_feminist_is_illegal_may_be
+		SBU_chongiruldeulgoileonan_hanaeu_pokdong
+		SBU_uniform_and_grenade
+		SBU_liberate_army_is_moving_forward
+		SBU_donot_suck_lee_mang_pu_dick
+		SBU_auferstanden_aufs_ruinen
+		SBU_swimming_yahoo
+		SBU_young_mz_island
+		SBU_summoning_donga_univ_mesmerist
+		SBU_seunghaksan_partisan
+		SBU_soft_civilwar_at_main_busan
+		SBU_peoples_liberation_war
+	}
+
+	focus_factors = {
+		
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
