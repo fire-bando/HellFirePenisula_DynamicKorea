@@ -57,6 +57,26 @@ bookmarks = {
 			}
 		}
         
+        "SBU"={
+			history = "OTHER_BREAKED_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+        "TAE"={
+			history = "OTHER_BREAKED_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
 		
 		"---"={
 			history = "OTHER_BREAKED_DESC"
@@ -64,57 +84,45 @@ bookmarks = {
 		
 		# minors from DLC ####
 
-		"HMC"={
+		"ROH"={
 			minor = yes
 			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
+			ideology = rohsamo
 			ideas = {
 			}
 			focuses = {
 			}
 		}
 
-		"AHN"={
+		"BSU"={
 			minor = yes
 			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
+			ideology = socialism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
 
-		"NON"={
+		"SZC"={
 			minor = yes
 			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"BMB"={
-			minor = yes
-			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"SPO"={
-			minor = yes
-			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
+			ideology = socialism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
 		
-
+		"HAE"={
+			minor = yes
+			history = "OTHER_BREAKED_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

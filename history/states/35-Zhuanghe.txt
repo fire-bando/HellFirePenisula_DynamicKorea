@@ -9,12 +9,16 @@ state={
 		tungsten = 2000
 		steel = 2000
 		chromium = 2000
+		rubber = 500
 	}
 
 	history={
 		owner = CHN
 		add_core_of = CHN
         victory_points = { 8438 40 }
+		buildings = {
+			infrastructure = 6
+		}
 	}
 
 	provinces={

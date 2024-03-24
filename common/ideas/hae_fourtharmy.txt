@@ -1,0 +1,59 @@
+ideas = {
+	country = {
+		HAE_ideological_education_idea = {
+			picture = generic_ideological_education
+			
+			allowed = {
+				tag = HAE
+			}
+			
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				political_power_gain = 0.25
+			}
+		}
+		
+		HAE_streamlined_administration_idea = {
+			picture = generic_efficient_administration
+			
+			allowed = {
+				tag = HAE
+			}
+			
+			modifier = {
+				political_power_gain = 0.25
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		HAE_loyal_officers_idea = {
+			picture = generic_loyal_officers
+			
+			allowed = {
+				tag = HAE
+			}
+			
+			modifier = {
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				experience_gain_army_factor = 0.10
+			}
+		}
+		
+		HAE_rigorous_training_idea = {
+			picture = generic_rigorous_training
+			
+			allowed = {
+				tag = HAE
+			}
+			
+			modifier = {
+				training_time_factor = -0.10
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+	}
+}

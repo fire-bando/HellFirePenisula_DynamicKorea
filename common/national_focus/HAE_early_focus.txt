@@ -1,0 +1,340 @@
+focus_tree = {
+	id = HAE_war_path
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAE
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	shared_focus = HAE_solidify_control
+
+	focus = {
+		id = HAE_solidify_control
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 0
+		cost = 2
+		
+		
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = HAE_enforce_party_discipline
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = HAE_solidify_control }
+		x = -1
+		y = 1
+		relative_position_id = HAE_solidify_control
+		cost = 2
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_ideological_education
+		icon = GFX_focus_generic_socialist_science
+		prerequisite = { focus = HAE_solidify_control }
+		x = 1
+		y = 1
+		relative_position_id = HAE_solidify_control
+		cost = 4
+		
+		completion_reward = {
+			add_ideas = HAE_ideological_education_idea
+		}
+	}
+
+	focus = {
+		id = HAE_reorganize_the_administration
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = HAE_enforce_party_discipline }
+		x = -1
+		y = 2
+		relative_position_id = HAE_solidify_control
+		cost = 4
+		
+		completion_reward = {
+			add_ideas = HAE_streamlined_administration_idea
+		}
+	}
+
+	focus = {
+		id = HAE_promote_loyal_officers
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = HAE_ideological_education }
+		x = 1
+		y = 2
+		relative_position_id = HAE_solidify_control
+		cost = 5
+		
+		completion_reward = {
+			add_ideas = HAE_loyal_officers_idea
+		}
+	}
+
+	focus = {
+		id = HAE_suppress_opposition
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = HAE_reorganize_the_administration }
+		prerequisite = { focus = HAE_promote_loyal_officers }
+		x = 0
+		y = 3
+		relative_position_id = HAE_solidify_control
+		cost = 6
+		
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = HAE_assess_military_strength
+		icon = GFX_goal_generic_position_armies
+		x = 6
+		y = 0
+		cost = 4
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = HAE_modernize_equipment
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = HAE_assess_military_strength }
+		x = -3
+		y = 1
+		relative_position_id = HAE_assess_military_strength
+		cost = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = HAE
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 200
+				producer = HAE
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_develop_battle_tactics
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = HAE_assess_military_strength }
+		x = -1
+		y = 1
+		relative_position_id = HAE_assess_military_strength
+		cost = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_expand_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = HAE_assess_military_strength }
+		x = 1
+		y = 1
+		relative_position_id = HAE_assess_military_strength
+		cost = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_secure_supply_lines
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = HAE_assess_military_strength }
+		x = 3
+		y = 1
+		relative_position_id = HAE_assess_military_strength
+		cost = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			527 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_intensify_training
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = HAE_modernize_equipment }
+		prerequisite = { focus = HAE_develop_battle_tactics }
+		x = -2
+		y = 2
+		relative_position_id = HAE_assess_military_strength
+		cost = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 50
+			add_ideas = HAE_rigorous_training_idea
+		}
+	}
+
+	focus = {
+		id = HAE_fortify_the_border
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = HAE_develop_battle_tactics }
+		prerequisite = { focus = HAE_expand_military_industry }
+		x = 0
+		y = 2
+		relative_position_id = HAE_assess_military_strength
+		cost = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			527 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4052
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4107
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_war_industrialization
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = HAE_expand_military_industry }
+		prerequisite = { focus = HAE_secure_supply_lines }
+		x = 2
+		y = 2
+		relative_position_id = HAE_assess_military_strength
+		cost = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_war_propaganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = HAE_intensify_training }
+		prerequisite = { focus = HAE_fortify_the_border }
+		x = -1
+		y = 3
+		relative_position_id = HAE_assess_military_strength
+		cost = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = HAE_mobilize_the_people
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = HAE_fortify_the_border }
+		prerequisite = { focus = HAE_war_industrialization }
+		x = 1
+		y = 3
+		relative_position_id = HAE_assess_military_strength
+		cost = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = limited_conscription
+				add_idea = extensive_conscription  
+			}
+		}
+	}
+
+	focus = {
+		id = HAE_declare_war_on_KSD
+		icon = GFX_focus_generic_provoke_border_clashes
+		prerequisite = { focus = HAE_war_propaganda }
+		prerequisite = { focus = HAE_mobilize_the_people }
+		x = 0
+		y = 4
+		relative_position_id = HAE_assess_military_strength
+		cost = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			declare_war_on = {
+				target = KSD
+				type = annex_everything
+			}
+		}
+	}
+}

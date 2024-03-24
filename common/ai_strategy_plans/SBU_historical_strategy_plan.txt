@@ -1,6 +1,6 @@
 SBU_historical_plan = {
 	name = "West Busan Historical Plan"
-	desc = "서부혁역사적중점"
+	desc = "WBHP"
 
 	allowed = {
 		original_tag = SBU

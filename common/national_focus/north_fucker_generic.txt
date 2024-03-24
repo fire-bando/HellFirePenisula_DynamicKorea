@@ -1062,25 +1062,7 @@ focus_tree = {
 	    }
 	}
 
-	focus = {
-	    id = NORTH_personality_cult
-	    icon = GFX_focus_generic_support_the_left_right
-	    relative_position_id = NORTH_mass_surveillance
-	    prerequisite = { focus = NORTH_mass_surveillance }
-	    prerequisite = { focus = NORTH_secret_police }
-	    x = 1
-	    y = 1
-	    cost = 5
 
-	    search_filters = {  FOCUS_FILTER_POLITICAL }
-	
-	    available_if_capitulated = yes
-
-	    completion_reward = {
-	        add_political_power = 150
-	        add_stability = 0.1
-	    }
-	}
 
 	focus = {
 	    id = NORTH_militarized_education
@@ -1369,24 +1351,6 @@ focus_tree = {
 	    }
 	}
 
-	focus = {
-	    id = NORTH_diplomatic_outreach
-	    icon = GFX_goal_generic_improve_relations
-	    relative_position_id = NORTH_reconciliation_with_south
-	    prerequisite = { focus = NORTH_reconciliation_with_south }
-	    x = 0
-	    y = 1
-	    cost = 5
-
-	    search_filters = {  FOCUS_FILTER_POLITICAL }
-	
-	    available_if_capitulated = yes
-
-	    completion_reward = {
-	        add_political_power = 120
-	        add_ideas = diplomatic_outreach_idea
-	    }
-	}
 
 	focus = {
 		id = NORTH_foreign_investment

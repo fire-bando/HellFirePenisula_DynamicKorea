@@ -1,0 +1,57 @@
+SBU_historical_plan = {
+	name = "People's Fourth Army"
+	desc = "WPK 4 ARMED FORCE"
+
+	allowed = {
+		original_tag = HAE
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort = {
+		is_subject = yes 
+		has_war = no 
+	}
+
+	ai_national_focuses = {
+		HAE_solidify_control
+		HAE_assess_military_strength
+		HAE_enforce_party_discipline
+		HAE_ideological_education
+		HAE_modernize_equipment
+		HAE_develop_battle_tactics
+		HAE_expand_military_industry
+		HAE_secure_supply_lines
+		HAE_reorganize_the_administration
+		HAE_promote_loyal_officers
+		HAE_suppress_opposition
+		HAE_intensify_training
+		HAE_fortify_the_border
+		HAE_war_industrialization
+		HAE_war_propaganda
+		HAE_mobilize_the_people
+		HAE_declare_war_on_KSD
+	}
+
+	focus_factors = {
+		
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
