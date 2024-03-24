@@ -14,7 +14,7 @@ focus_tree = {
 		icon = GFX_abcdef
 		x = 13
 		y = 0
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -37,7 +37,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_save_the_china
 		prerequisite = { focus = SZC_save_the_china }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			declare_war_on = {
 				target = CHN
@@ -52,7 +52,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_save_the_china
 		prerequisite = { focus = SZC_save_the_china }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			declare_war_on = {
 				target = USA
@@ -68,7 +68,7 @@ focus_tree = {
 		relative_position_id = SZC_save_the_china
 		prerequisite = { focus = SZC_attack_the_PRC }
 		prerequisite = { focus = SZC_attack_the_USA }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -91,7 +91,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_holy_shit
 		prerequisite = { focus = SZC_holy_shit }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -114,7 +114,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_holy_shit
 		prerequisite = { focus = SZC_holy_shit }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -137,7 +137,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_jjit_bozi
 		prerequisite = { focus = SZC_jjit_bozi }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -160,7 +160,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_holy_shit
 		prerequisite = { focus = SZC_holy_shit }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -183,7 +183,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_geoze_fuck_you
 		prerequisite = { focus = SZC_geoze_fuck_you }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -206,7 +206,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SZC_fucking_korean
 		prerequisite = { focus = SZC_fucking_korean }
-		cost = 5
+		cost = 300
 		completion_reward = {
 			declare_war_on = {
 				target = SBU

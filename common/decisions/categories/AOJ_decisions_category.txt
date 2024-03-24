@@ -1,0 +1,10 @@
+AOJ_to_survive = {
+    priority = 15
+    allowed = {
+        OR = {
+            original_tag = NJN
+            original_tag = YJN
+            original_tag = AOJ
+        }
+    }
+}

@@ -22,10 +22,275 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 
+
 	focus = {
-		id = NORTH_politics
+	    id = NORTH_gear_is_turning
+	    icon = GFX_goal_generic_production2
+	    x = 4
+	    y = 0
+	    cost = 5
+
+	    search_filters = {  FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_tech_bonus = {
+	            name = industrial_bonus
+	            bonus = 0.5
+	            uses = 2
+	            category = industry
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_using_dprk_electricity 
+	    icon = GFX_focus_generic_hydroelectric_energy
+	    relative_position_id = NORTH_gear_is_turning
+	    prerequisite = { focus = NORTH_gear_is_turning }
+	    x = -4
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_timed_idea = { idea = NORTH_increased_electricity days = 180 }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_demolition
+	    icon = GFX_focus_generic_industry_1
+	    relative_position_id = NORTH_gear_is_turning
+	    prerequisite = { focus = NORTH_gear_is_turning }
+	    x = 0
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_ideas = NORTH_demolition_effort
+	    }
+	}
+
+	focus = {
+	    id = NORTH_industrial_expansion
+	    icon = GFX_goal_generic_construct_civ_factory
+	    relative_position_id = NORTH_gear_is_turning
+	    prerequisite = { focus = NORTH_gear_is_turning }
+	    x = 4
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        random_owned_controlled_state = {
+	            limit = {
+	                free_building_slots = {
+	                    building = industrial_complex
+	                    size > 1
+	                    include_locked = yes
+	                }
+	            }
+	            add_extra_state_shared_building_slots = 2
+	            add_building_construction = {
+	                type = industrial_complex
+	                level = 2
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_heavy_industry_development
+	    icon = GFX_goal_generic_production
+	    relative_position_id = NORTH_using_dprk_electricity
+	    prerequisite = { focus = NORTH_using_dprk_electricity }
+	    x = -1
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_tech_bonus = {
+	            name = industrial_bonus
+	            bonus = 0.75
+	            uses = 1
+	            category = heavy_industry
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_increased_steel_production
+	    icon = GFX_goal_generic_construction2
+	    relative_position_id = NORTH_using_dprk_electricity
+	    prerequisite = { focus = NORTH_using_dprk_electricity }
+	    x = 1
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_resource = {
+	            type = steel
+	            amount = 10
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_rare_earth_extraction
+	    icon = GFX_focus_generic_rubber
+	    relative_position_id = NORTH_demolition
+	    prerequisite = { focus = NORTH_demolition }
+	    x = 0
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_resource = {
+	            type = rare_earth_ore
+	            amount = 10
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_additional_military_factories
+	    icon = GFX_goal_generic_construct_mil_factory
+	    relative_position_id = NORTH_industrial_expansion
+	    prerequisite = { focus = NORTH_industrial_expansion }
+	    x = 0
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        random_owned_controlled_state = {
+	            limit = {
+	                free_building_slots = {
+	                    building = arms_factory
+	                    size > 1
+	                    include_locked = yes
+	                }
+	            }
+	            add_extra_state_shared_building_slots = 1
+	            add_building_construction = {
+	                type = arms_factory
+	                level = 1
+	                instant_build = yes
+	            }
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_improved_construction_methods
+	    icon = GFX_goal_generic_construction
+	    relative_position_id = NORTH_rare_earth_extraction
+	    prerequisite = { focus = NORTH_rare_earth_extraction }
+	    prerequisite = { focus = NORTH_additional_military_factories }
+	    x = 2
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        swap_ideas = {
+	            remove_idea = NORTH_demolition_effort
+	            add_idea = NORTH_improved_construction_methods_idea  
+	        }
+	    }
+	}
+
+	focus = {
+	    id = NORTH_industrial_modernization
+	    icon = GFX_focus_generic_industry_2
+	    relative_position_id = NORTH_increased_steel_production
+	    prerequisite = { focus = NORTH_increased_steel_production }
+	    prerequisite = { focus = NORTH_additional_military_factories }
+	    x = 1
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        add_research_slot = 1
+	    }
+	}
+
+	focus = {
+	    id = NORTH_rising_industrial_power
+	    icon = GFX_goal_generic_construction
+	    relative_position_id = NORTH_improved_construction_methods
+	    prerequisite = { focus = NORTH_improved_construction_methods }
+	    prerequisite = { focus = NORTH_industrial_modernization }
+	    x = -2
+	    y = 1
+	    cost = 5
+
+	    search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	    available_if_capitulated = yes
+
+	    completion_reward = {
+	        random_owned_controlled_state = {
+	            limit = {
+	                free_building_slots = {
+	                    building = industrial_complex
+	                    size > 2
+	                    include_locked = yes
+	                }
+	            }
+	            add_extra_state_shared_building_slots = 3
+	            add_building_construction = {
+	                type = industrial_complex
+	                level = 3
+	                instant_build = yes
+	            }
+	        }
+	        swap_ideas = {
+	            remove_idea = NORTH_improved_construction_methods_idea
+	            add_idea = NORTH_rising_industrial_power_idea
+	        }
+	    }
+	}
+
+	focus = {
+		id = NORTH_politics #정치중점
 		icon = GFX_goal_generic_political_pressure
-		x = 28
+		x = 36
 		y = 0
 		cost = 5
 
@@ -1000,6 +1265,7 @@ focus_tree = {
 	                is_fully_controlled_by = ROOT
 	                industrial_complex > 0
 	            }
+				add_extra_state_shared_building_slots = 2
 	            add_building_construction = {
 	                type = industrial_complex
 	                level = 2

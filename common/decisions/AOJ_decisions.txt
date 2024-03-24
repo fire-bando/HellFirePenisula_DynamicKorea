@@ -1,0 +1,41 @@
+AOJ_to_survive = {
+    AOJ_kidnapping = { #주변 주에서 인력납치
+        icon = generic_prepare_civil_war
+        state_target = yes
+        on_map_mode = map_and_decisions_view
+        target_trigger = {
+            FROM = {
+                NOT = { is_owned_by = ROOT }
+                any_neighbor_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        cost = 50
+        days_remove = 90
+        available = {
+            OR = {
+                has_equipment = {
+                    infantry_equipment > 549
+                }
+            }
+            NOT = { has_country_flag = AOJ_KIDNAPPING_A }
+        }
+
+        remove_effect = {
+            clr_country_flag = AOJ_KIDNAPPING_A
+            FROM = {
+                add_manpower = -200
+                ROOT = { add_manpower = 200 }
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = AOJ_KIDNAPPING_A
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -750
+            }
+        }
+    }
+}
