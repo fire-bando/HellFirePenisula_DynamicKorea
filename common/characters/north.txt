@@ -1,0 +1,23 @@
+characters={ 
+    DRG_durgman={
+        name=DRG_durgman
+        portraits={
+            army={
+                small=GFX_drug_man
+                large=GFX_drug_man
+            }
+        }
+        corps_commander = {
+            traits = { media_personality war_hero }
+            skill = 5
+            attack_skill = 5
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 5
+        }
+        country_leader={
+            ideology=
+            expire="1985.8.16"
+        }
+    }
+}
