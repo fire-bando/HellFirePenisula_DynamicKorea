@@ -320,8 +320,8 @@ ideologies = {
 			}
 			despotism  = {}
 			oligarchism  = {}
-			religious_anarchism = {
-				color = { 11 11 11 }
+			theocratic_totalitarianism = {
+				color = { 255 194 36 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			anarchism = {

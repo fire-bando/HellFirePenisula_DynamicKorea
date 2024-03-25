@@ -1,4 +1,18 @@
 DEBUG_HERE = {
+    suck_all_state = {
+        allowed = {
+            original_tag = JCR
+        }
+        complete_effect = {
+            every_state = {
+                limit = {
+                    is_coastal = yes
+                }
+                transfer_state_to = JCR
+                add_core_of = JCR
+            }
+        }
+    }
     unify_ptt_empire = {
         allowed = {
             original_tag = PTT

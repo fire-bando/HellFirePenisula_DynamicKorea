@@ -1,6 +1,6 @@
 characters={ 
-    DRG_durgman={
-        name=DRG_durgman
+    DRG_drugman={
+        name=DRG_drugman
         portraits={
             army={
                 small=GFX_drug_man
@@ -16,8 +16,8 @@ characters={
             logistics_skill = 5
         }
         country_leader={
-            ideology=
-            expire="1985.8.16"
+            ideology=theocratic_totalitarianism
+            expire="3033.8.16"
         }
     }
 }
