@@ -17,6 +17,7 @@ characters={
         }
         country_leader={
             ideology=theocratic_totalitarianism
+            desc = DRG_drugman_desc
             expire="3033.8.16"
         }
     }

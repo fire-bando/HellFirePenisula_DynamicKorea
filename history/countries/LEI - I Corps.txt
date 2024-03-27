@@ -1,0 +1,193 @@
+capital = 344
+
+starting_train_buffer = 10
+
+oob = "I_Corps_2023"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	improved_infantry_weapons_2 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	advanced_infantry_weapons = 1
+	advanced_infantry_weapons2 = 1
+	paratroopers = 1
+	paratroopers2 = 1
+	paratroopers3 = 1
+	marines = 1
+	marines2 = 1
+	marines3 = 1
+	tech_special_forces = 1
+	night_vision = 1
+	night_vision2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	motorized_rocket_unit = 1
+	armored_car1 = 1
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1
+	mechanised_infantry3 = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	artillery3 = 1
+	artillery4 = 1
+	artillery5 = 1
+	mobile_warfare = 1
+	superior_firepower = 1
+	sup_delay = 1
+	mobile_defence = 1
+	dispersed_support = 1
+	overwhelming_firepower = 1
+	sup_mechanized_offensive = 1
+	armor_tech_1 = 1
+	armor_tech_2 = 1
+	armor_tech_3 = 1
+	armor_tech_4 = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
+	engine_tech_3 = 1
+	engine_tech_4 = 1
+	interwar_antiair = 1
+	antiair1 = 1
+	antiair2 = 1
+	antiair3 = 1
+	antiair4 = 1
+	antiair5 = 1
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	antitank3 = 1
+	antitank4 = 1
+	antitank5 = 1
+	rocket_artillery = 1
+	rocket_artillery2 = 1
+	rocket_artillery3 = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	amphibious_tank_chassis = 1
+	amphibious_drive = 1
+	advanced_light_tank_chassis = 1
+	basic_medium_tank_chassis = 1
+	improved_medium_tank_chassis = 1
+	advanced_medium_tank_chassis = 1
+	main_battle_tank_chassis = 1
+	basic_heavy_tank_chassis = 1
+	improved_heavy_tank_chassis = 1
+	advanced_heavy_tank_chassis = 1
+	super_heavy_tank_chassis = 1
+	armor_tech_1 = 1
+	armor_tech_2 = 1
+	armor_tech_3 = 1
+	armor_tech_4 = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
+	engine_tech_3 = 1
+	engine_tech_4 = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	neutrality = 100
+}
+add_ideas = {
+	service_by_requirement
+	closed_economy
+	tot_economic_mobilisation
+}
+create_equipment_variant = {
+	name = "K2"
+	type = modern_tank_chassis_1
+	parent_version = 0
+	modules = {
+		turret_type_slot = tank_modern_tank_turret
+		main_armament_slot = tank_heavy_cannon_3
+		suspension_type_slot = tank_torsion_bar_suspension
+		armor_type_slot = tank_cast_armor
+		engine_type_slot = tank_diesel_engine
+		special_type_slot_1 = sloped_armor
+		special_type_slot_2 = smoke_launchers
+		special_type_slot_3 = additional_machine_guns
+		special_type_slot_4 = dozer_blade
+
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 12
+		tank_nsb_armor_upgrade = 4
+	}
+	obsolete = no
+}
+create_equipment_variant = {
+	name = "K-9"
+	type = modern_tank_artillery_chassis_1
+    parent_version = 0
+    modules = {
+        turret_type_slot = tank_modern_tank_turret
+		main_armament_slot = tank_heavy_howitzer
+        armor_type_slot = tank_cast_armor
+        suspension_type_slot = tank_torsion_bar_suspension
+        engine_type_slot = tank_diesel_engine
+        special_type_slot_1 = additional_machine_guns
+        special_type_slot_2 = wet_ammo_storage
+        special_type_slot_3 = smoke_launchers
+        special_type_slot_4 = extra_ammo_storage
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 8
+        tank_nsb_armor_upgrade = 2
+    }
+    obsolete = no
+}
+# create_equipment_variant = {
+#     name = "K-9 Thunder"
+#     type = modern_tank_chassis_1
+# 	parent_version = 0
+# 	modules = {
+# 		turret_type_slot = tank_modern_tank_turret
+# 		main_armament_slot = tank_heavy_cannon_3
+# 		suspension_type_slot = tank_torsion_bar_suspension
+# 		armor_type_slot = tank_cast_armor
+# 		engine_type_slot = tank_diesel_engine
+# 		special_type_slot_1 = sloped_armor
+# 		special_type_slot_2 = smoke_launchers
+# 		special_type_slot_3 = additional_machine_guns
+# 		special_type_slot_4 = dozer_blade
+# 
+# 	}
+# 	upgrades = {
+# 		tank_nsb_engine_upgrade = 12
+# 		tank_nsb_armor_upgrade = 4
+# 	}
+# 	obsolete = no
+# }
+add_equipment_to_stockpile = {
+	type = modern_tank_chassis_1
+    amount = 1000
+    variant_name = "K2"
+}
+create_country_leader = {
+	name = "주성운"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = GFX_주성운
+	expire = "2065.1.1"
+	ideology = military_dictatorship
+	traits = {
+	}
+}

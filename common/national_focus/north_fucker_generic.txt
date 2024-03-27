@@ -25,6 +25,407 @@ focus_tree = {
 	reset_on_civilwar = no
 
 
+	### Army Focuses ###
+	focus = {
+		id = NORTH_modernize_infantry_equipment
+		icon = GFX_goal_generic_army_artillery
+		x = 10
+		y = 0
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_special_forces_training
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = NORTH_modernize_infantry_equipment }
+		x = 10
+		y = 1
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+			}
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = marines
+			}
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = tech_mountaineers
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_armored_warfare
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = NORTH_modernize_infantry_equipment }
+		x = 12
+		y = 1
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_artillery_modernization
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = NORTH_special_forces_training }
+		x = 10
+		y = 2
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_mechanized_efforts
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = NORTH_armored_warfare }
+		x = 12
+		y = 2
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_modern_army_training
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = NORTH_artillery_modernization }
+		prerequisite = { focus = NORTH_mechanized_efforts }
+		x = 12
+		y = 3
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			army_experience = 25
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	### Navy Focuses ###
+	focus = {
+		id = NORTH_submarine_warfare
+		icon = GFX_goal_generic_navy_submarine
+		x = 16
+		y = 0
+		cost = 5
+
+		available = {
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_destroyer_effort
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = NORTH_submarine_warfare }
+		x = 16
+		y = 1
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_cruiser_development
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = NORTH_submarine_warfare }
+		x = 18
+		y = 1
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_capital_ship_effort
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = NORTH_cruiser_development }
+		x = 18
+		y = 2
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = capital_bonus
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+				category = bc_tech
+				category = cv_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_naval_aviation
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = NORTH_destroyer_effort focus = NORTH_capital_ship_effort }
+		x = 17
+		y = 3
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+			add_tech_bonus = {
+				name = cv_fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_air
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_modern_naval_training
+		icon = GFX_focus_generic_naval_production
+		prerequisite = { focus = NORTH_naval_aviation }
+		x = 17
+		y = 4
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	### Air Force Focuses ###
+	focus = {
+		id = NORTH_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		x = 20
+		y = 0
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				category = light_fighter
+				category = heavy_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_tactical_bombing
+		icon = GFX_goal_generic_occupy_start_war
+		prerequisite = { focus = NORTH_fighter_focus }
+		x = 20
+		y = 1
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = tac_bomber_bonus
+				bonus = 0.5
+				uses = 2
+				category = tactical_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_strategic_bombing
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = NORTH_fighter_focus }
+		x = 22
+		y = 1
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = strat_bomber_bonus
+				bonus = 0.5
+				uses = 2
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_air_superiority
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = NORTH_tactical_bombing }
+		x = 20
+		y = 2
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				category = light_fighter
+				category = heavy_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_long_range_aircraft
+		icon = GFX_focus_generic_air_bomber
+		prerequisite = { focus = NORTH_strategic_bombing }
+		x = 22
+		y = 2
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = tp_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_equipment
+			}
+			add_tech_bonus = {
+				name = strat_bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = heavy_air
+			}
+		}
+	}
+	
+	focus = {
+		id = NORTH_air_force_modernization
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = NORTH_air_superiority }
+		prerequisite = { focus = NORTH_long_range_aircraft }
+		x = 21
+		y = 3
+		cost = 5
+		
+		search_filters = { FOCUS_FILTER_MILITARY }
+		
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+
 	focus = {
 	    id = NORTH_gear_is_turning
 	    icon = GFX_goal_generic_production2
@@ -292,7 +693,7 @@ focus_tree = {
 	focus = {
 		id = NORTH_politics #정치중점
 		icon = GFX_goal_generic_political_pressure
-		x = 36
+		x = 50
 		y = 0
 		cost = 5
 
