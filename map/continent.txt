@@ -1,0 +1,9 @@
+continents = {
+	honshu
+	kyushu
+	hokkaido
+	shikoku
+	sakhalin
+	korea
+	asia
+}
