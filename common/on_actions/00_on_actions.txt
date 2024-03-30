@@ -8,6 +8,16 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
+			NKA = {
+				country_event = {
+					id = skevent.1
+					days = 420
+				}
+				news_event = {
+					id = skevent.2
+					days = 421
+				}
+			}
 			94 = {
 				add_dynamic_modifier = {
 					modifier = aozi_state_modifier

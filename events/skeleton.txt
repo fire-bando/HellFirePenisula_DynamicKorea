@@ -1,0 +1,47 @@
+add_namespace = skevent
+
+
+country_event = {
+	id = skevent.1
+	title = skevent.1.t
+	desc = skevent.1.d
+	is_triggered_only = yes
+	option = {
+		name=skevent.1.a
+		GWO = {
+			transfer_state = 120
+			transfer_state = 121
+			transfer_state = 122
+			transfer_state = 123
+			transfer_state = 556
+			transfer_state = 557
+			transfer_state = 558
+			transfer_state = 559
+			add_state_core = 120
+			add_state_core = 121
+			add_state_core = 122
+			add_state_core = 123
+			add_state_core = 556
+			add_state_core = 557
+			add_state_core = 558
+			add_state_core = 559
+			##남한고성코어
+			add_state_core = 572
+			add_state_core = 227
+		}
+		AML = {
+			transfer_state = 560
+		}
+	}
+}
+
+news_event = {
+	id = skevent.2
+	title = skevent.2.t
+	desc = skevent.2.d
+	picture = GFX_news_event_german_soldiers
+	is_triggered_only = yes
+	option = {
+		name=skevent.2.a
+	}
+}
