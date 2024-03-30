@@ -1,8 +1,8 @@
-capital = 344
+capital = 240
 
 starting_train_buffer = 11
 
-oob = "I_Corps_2023"
+oob = "III_Corps_2023"
 
 # Starting tech
 
@@ -178,6 +178,7 @@ create_equipment_variant = {
 # 	}
 # 	obsolete = no
 # }
+add_manpower = 7400
 add_equipment_to_stockpile = {
 	type = modern_tank_chassis_1
     amount = 1000
@@ -189,9 +190,9 @@ add_equipment_to_stockpile = {
     variant_name = "K-9"
 }
 create_country_leader = {
-	name = "주성운"
+	name = "김봉수"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = GFX_주성운
+	picture = GFX_김봉수
 	expire = "2065.1.1"
 	ideology = military_dictatorship
 	traits = {
