@@ -9,4 +9,165 @@ focus_tree = {
 		}
 	}
 	default = no
+	focus = {
+		id = JNR_rep
+		icon = GFX_abcdef
+		x = 26
+		y = 0
+		cost = 5
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_summon_gi_jeong_kang
+		icon = GFX_abcdef
+		x = -14
+		y = 1
+		cost = 0
+		available = {
+			always = no
+		}
+		prerequisite = { focus = JNR_rep }
+		relative_position_id = JNR_rep
+		mutually_exclusive = { focus = JNR_who_is_he }
+		completion_reward = {
+			GWA = {
+				GWA_gang_gijeong = {
+					set_nationality = JNR
+				}
+			}
+			GWA_gang_gijeong = {
+				promote_character = yes
+			}
+			set_autonomy = {
+				target = GWA
+				autonomous_state = autonomy_integrated_puppet
+			}
+		}
+	}
+	focus = {
+		id = JNR_jeonlang_diplomancy
+		icon = aa
+		x = -8
+		y = 1
+		prerequisite = { focus = JNR_summon_gi_jeong_kang }
+		relative_position_id = JNR_summon_gi_jeong_kang
+		cost = 10
+	}
+	focus = {
+		id = JNR_attack_sinan
+		icon = yb
+		x = -1
+		y = 1
+		cost =10
+		prerequisite = { focus = JNR_jeonlang_diplomancy }
+		relative_position_id = JNR_jeonlang_diplomancy
+		completion_reward = {
+			declare_war_on = {
+				target = SIN
+				type = annex_everything
+			}
+			hidden_effect = {
+				SIN = {
+					every_owned_state = {
+						add_core_of = JNR
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_fuck_tonghong
+		icon = yb
+		x = 0
+		y = 1
+		cost =5
+		prerequisite = { focus = JNR_summon_gi_jeong_kang }
+		relative_position_id = JNR_summon_gi_jeong_kang
+		completion_reward = {
+			YG1 = {
+				country_event = {
+					id = yg1_event.1
+					days = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_nono_runrun
+		icon = yb
+		x = -1
+		y = 1
+		cost = 2.5
+		prerequisite = { focus = JNR_fuck_tonghong }
+		prerequisite = { focus = JNR_jeonlang_diplomancy }
+		relative_position_id = JNR_fuck_tonghong
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = JNR_gukanbub
+		icon = yb
+		x = 1
+		y = 1
+		cost = 2.5
+		prerequisite = { focus = JNR_fuck_tonghong }
+		relative_position_id = JNR_fuck_tonghong
+		completion_reward = {
+			ROOT = {
+				set_country_flag = YG1_riot
+			}
+		}
+	}
+	focus = {
+		id = JNR_commonwealth
+		icon = sbs
+		x = 1
+		y = 1
+		relative_position_id = JNR_nono_runrun
+		prerequisite = { focus = JNR_nono_runrun }
+		prerequisite = { focus = JNR_gukanbub }
+		cost = 10
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = JNR_socialism_with_jeolla_state_characteristics_for_a_new_era
+		icon csc
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = JNR_commonwealth
+		prerequisite = { focus = JNR_commonwealth }
+		completion_reward = {
+
+		}
+	}
+
+
+
+
+	### 여기서부터 김영록 중점 ###
+	focus = {
+		id = JNR_who_is_he
+		icon = GFX_abcdef
+		x = 14
+		y = 1
+		cost = 0
+		available = { always = no }
+		prerequisite = { focus = JNR_rep }
+		relative_position_id = JNR_rep
+		mutually_exclusive = { focus = JNR_summon_gi_jeong_kang }
+		completion_reward = {
+			
+		}
+	}
 }

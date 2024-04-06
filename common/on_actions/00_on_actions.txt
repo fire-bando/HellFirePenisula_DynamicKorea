@@ -10,19 +10,21 @@ on_actions = {
 		effect = {
 			every_country = {
 				limit = {
-					original_tag = AOJ
-					original_tag = BUS
-					original_tag = EOT
-					original_tag = LEI
-					original_tag = III
-					original_tag = JNR
-					original_tag = NJN
-					original_tag = PJH
-					original_tag = SBU
-					original_tag = TAE
-					original_tag = YNK
-					original_tag = YBJ
-					original_tag = YG1
+					NOT = {
+						original_tag = AOJ
+						original_tag = BUS
+						original_tag = EOT
+						original_tag = LEI
+						original_tag = III
+						original_tag = JNR
+						original_tag = NJN
+						original_tag = PJH
+						original_tag = SBU
+						original_tag = TAE
+						original_tag = YNK
+						original_tag = YBJ
+						original_tag = YG1
+					}
 				}
 				load_oob = standard_templates
 				add_offsite_building = { type = industrial_complex level = 5 }
