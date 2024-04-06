@@ -413,3 +413,17 @@
  HAE_promote_loyal_officers_desc:0 "군 지도부의 충성심이 국가 안정의 핵심입니다. 당에 충실한 인물들을 장교로 발탁하여 군의 신뢰를 확보합시다."
  HAE_suppress_opposition:0 "반대파 숙청"
  HAE_suppress_opposition_desc:0 "우리에게 도전하는 세력은 용납할 수 없습니다. 반대파를 찾아내 가차 없이 제거하고 정치적 안정을 이룹시다."
+
+
+ MIO_focus:0 "미오야마 중점 계통도"
+ MIO_nani:0 "미오야마의 출현"
+ MIO_yamato_court:0 "야마토 조정 설립"
+ MIO_ancestor_worship:0 "조상 숭배"
+ MIO_rice_cultivation:0 "벼농사"
+ MIO_bronze_working:0 "청동기 제작"
+ MIO_sacred_treasures:0 "삼종신기"
+ MIO_clan_system:0 "씨족 제도"
+ MIO_mounted_archers:0 "기마 궁병"
+ MIO_kojiki_nihon_shoki:0 "고사기와 일본서기"
+ MIO_imperial_family:0 "천황가"
+ MIO_yamato_supremacy:0 "야마토의 패권"

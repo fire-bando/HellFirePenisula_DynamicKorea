@@ -125,12 +125,12 @@
  STATE_78:0 "김정숙" #45k
  STATE_79:0 "갑산" #70k
  STATE_80:0 "삼수" #40k
- STATE_81:0 "Pungso" #45k
- STATE_82:0 "Kimhyonggwon" #40k
- STATE_83:0 "Unhung" #60k
- STATE_84:0 "Pochon" #40k
- STATE_85:0 "Taehongdan" #35k
- STATE_86:0 "Paegam" #70k
+ STATE_81:0 "풍서" #45k
+ STATE_82:0 "김형권" #40k
+ STATE_83:0 "운흥" #60k
+ STATE_84:0 "보천" #40k
+ STATE_85:0 "대홍단" #35k
+ STATE_86:0 "백암" #70k
 
  #South Hamgyong Province
  STATE_41:1 "Changjin" #65k

@@ -50,4 +50,6 @@ dependencies={
 	"Korean Language"
 	"Korean Language (Europa)"
 }	
+picture="thumbnail.png"
 supported_version="1.14.*"
+path="mod/HellFirePenisula_DynamicKorea"
