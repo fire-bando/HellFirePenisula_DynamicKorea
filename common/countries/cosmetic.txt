@@ -26,4 +26,20 @@ JN1_JNR = {
 	color = rgb { 227 48 82 }
 	color_ui = rgb { 227 48 82 }
 }
+HADONG_COMMITTEE = {
+	color = rgb { 227 48 82 }
+	color_ui = rgb { 227 48 82 }
+}
+SANCHEONG_COMMITTEE = {
+	color = rgb { 227 48 82 }
+	color_ui = rgb { 227 48 82 }
+}
+HAMYANG_COMMITTEE = {
+	color = rgb { 227 48 82 }
+	color_ui = rgb { 227 48 82 }
+}
+GEOCHANG_COMMITTEE = {
+	color = rgb { 227 48 82 }
+	color_ui = rgb { 227 48 82 }
+}
 GNW_TAE_tonggam = {	color = rgb { 232 145 46 }	color_ui = rgb { 232 145 46 }	}

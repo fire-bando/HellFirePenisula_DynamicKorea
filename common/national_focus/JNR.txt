@@ -9,4 +9,838 @@ focus_tree = {
 		}
 	}
 	default = no
+	focus = { #2022 제 1기 2차 전국인민대표자회의
+		id = JNR_rep
+		icon = GFX_abcdef
+		x = 36
+		y = 0
+		cost = 5
+		offset = {
+			x = -30
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = JNR_who_is_he
+			}
+		}
+		completion_reward = {
+			ROOT = {
+				country_event = {
+					id = jnr_event.1
+					days = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_summon_gi_jeong_kang #급진루트 - 전라도 이외 지역을 공산화 하는것이 최종 목표
+		icon = GFX_abcdef
+		x = -14
+		y = 1
+		cost = 0
+		available = {
+			always = no
+		}
+		prerequisite = { focus = JNR_rep }
+		relative_position_id = JNR_rep
+		mutually_exclusive = { focus = JNR_who_is_he }
+		offset = {
+			x = 14
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = JNR_summon_gi_jeong_kang
+			}
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = JNR_who_is_he
+				}
+			}
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			GWA = {
+				GWA_gang_gijeong = {
+					set_nationality = JNR
+				}
+			}
+			GWA_gang_gijeong = {
+				promote_character = yes
+			}
+			set_autonomy = {
+				target = GWA
+				autonomous_state = autonomy_integrated_puppet
+			}
+		}
+	}
+	focus = {
+		id = JNR_attacking_diplomancy # 공격적인 외교
+		icon = aa
+		x = -8
+		y = 1
+		prerequisite = { focus = JNR_summon_gi_jeong_kang }
+		relative_position_id = JNR_summon_gi_jeong_kang
+		cost = 10
+	}
+	focus = {
+		id = JNR_attack_sinan #신안 침공
+		icon = yb
+		x = -1
+		y = 1
+		cost =10
+		prerequisite = { focus = JNR_attacking_diplomancy }
+		relative_position_id = JNR_attacking_diplomancy
+		completion_reward = {
+			declare_war_on = {
+				target = SIN
+				type = annex_everything
+			}
+			hidden_effect = {
+				SIN = {
+					every_owned_state = {
+						add_core_of = JNR
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_ultimatum_for_north_small_country #신안 침공
+		icon = yb
+		x = 1
+		y = 1
+		cost =10
+		prerequisite = { focus = JNR_attacking_diplomancy }
+		relative_position_id = JNR_attacking_diplomancy
+		completion_reward = {
+			JMS = {
+				country_event = {
+					id = jnr_event.3
+					days = 3
+				}
+			}
+			OKC = {
+				country_event = {
+					id = jnr_event.3
+					days = 4
+				}
+			}
+			BUY = {
+				country_event = {
+					id = jnr_event.3
+					days = 5
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_fuck_tonghong #홍통특별행정구의 자치권 재 논의
+		icon = yb
+		x = 0
+		y = 1
+		cost =5
+		prerequisite = { focus = JNR_summon_gi_jeong_kang }
+		relative_position_id = JNR_summon_gi_jeong_kang
+		completion_reward = {
+			YG1 = {
+				country_event = {
+					id = yg1_event.1
+					days = 3
+				}
+			}
+		}
+	}
+	focus = { 
+		id = JNR_nono_runrun #2022년 도주범죄인 및 형사법 관련 법률 개정안 실행
+		icon = yb
+		x = -1
+		y = 1
+		cost = 2.5
+		prerequisite = { focus = JNR_fuck_tonghong }
+		prerequisite = { focus = JNR_attacking_diplomancy }
+		relative_position_id = JNR_fuck_tonghong
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = JNR_gukanbub #홍통에 대한 전국인민대표회의에 대한 결정 (홍통국가보안법)
+		icon = yb
+		x = 1
+		y = 1
+		cost = 2.5
+		prerequisite = { focus = JNR_fuck_tonghong }
+		relative_position_id = JNR_fuck_tonghong
+		completion_reward = {
+			ROOT = {
+				set_country_flag = YG1_riot
+			}
+		}
+	}
+	focus = {
+		id = JNR_commonwealth #공동 부유 시대로
+		icon = sbs
+		x = 1
+		y = 1
+		relative_position_id = JNR_nono_runrun
+		prerequisite = { focus = JNR_nono_runrun }
+		prerequisite = { focus = JNR_gukanbub }
+		cost = 10
+		completion_reward = {
+
+		}
+	}
+	focus = { #전라인민의새로운공산정체성정치의 시대
+		id = JNR_socialism_with_jeolla_state_characteristics_for_a_new_era
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = JNR_commonwealth
+		prerequisite = { focus = JNR_commonwealth }
+		completion_reward = {
+
+		}
+	}
+	focus = { #전라인민의새로운공산정체성정치의 시대
+		id = JNR_socialism_with_jeolla_state_characteristics_for_a_new_era
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = JNR_commonwealth
+		prerequisite = { focus = JNR_commonwealth }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = JNR_gi_jeong_kang_industry
+		x = 0
+		y = 0
+		cost = 7
+		completion_reward = {
+
+		}
+		allow_branch = {
+			has_completed_focus = JNR_summon_gi_jeong_kang
+		}
+	}
+
+	focus = {
+		id = JNR_here_is_jogyewon
+		x = 6
+		y = 0
+		cost = 7
+		available = {
+			NOT = {
+				has_global_flag = LEE_JAEMYEONG_HAS_NOT_APPEAR
+			}
+		}
+		relative_position_id = JNR_gi_jeong_kang_industry
+		allow_branch = {
+			has_completed_focus = JNR_summon_gi_jeong_kang
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = JNR_economy_develop_5years_plan
+		x = 3
+		y = 1
+		cost = 7
+		relative_position_id = JNR_gi_jeong_kang_industry
+		prerequisite = { focus = JNR_gi_jeong_kang_industry }
+		prerequisite = { focus = JNR_here_is_jogyewon }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = JNR_emergency_command_for_hongtong_economy
+		x = -2
+		y = 1
+		cost = 3.33333
+		prerequisite = { focus = JNR_economy_develop_5years_plan }
+		relative_position_id = JNR_economy_develop_5years_plan
+		completion_reward = {
+			custom_effect_tooltip = JNR_HONGTONG_BYEBYE
+			hidden_effect = {
+				YG1 = {
+					add_ideas = {
+						YG1_emergency_measures_one
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_agriculture_centralisation
+		x = 0
+		y = 1
+		cost = 3.33333
+		prerequisite = { focus = JNR_economy_develop_5years_plan }
+		relative_position_id = JNR_economy_develop_5years_plan
+		completion_reward = {
+			add_ideas = JNR_agriculture_centralisized
+		}
+	}
+	focus = {
+		id = JNR_nationalization_geumho
+		x = 2
+		y = 1
+		cost = 3.33333
+		prerequisite = { focus = JNR_economy_develop_5years_plan }
+		relative_position_id = JNR_economy_develop_5years_plan
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 5 }
+		}
+	}
+	focus = {
+		id = JNR_reverse_the_independent_guarantee_for_PCS
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = JNR_agriculture_centralisation }
+		prerequisite = { focus = JNR_emergency_command_for_hongtong_economy }
+		relative_position_id = JNR_emergency_command_for_hongtong_economy
+		completion_reward = {
+			remove_from_faction = PCS
+			every_state = {
+				limit = {
+					is_core_of = PCS
+				}
+				add_core_of = JNR
+			}
+			declare_war_on = {
+				target = PCS
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = JNR_stop_the_YG1_CAPITALISM
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = JNR_nationalization_geumho }
+		prerequisite = { focus = JNR_emergency_command_for_hongtong_economy }
+		relative_position_id = JNR_emergency_command_for_hongtong_economy
+		completion_reward = {
+			custom_effect_tooltip = WITHOUT_FOREIGN_COMPANY_EVERYOFCORPORATIONDEAD
+			hidden_effect = {
+				ROOT = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = 4
+					} 
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_the_best_efficiency_for_hongtong
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = JNR_stop_the_YG1_CAPITALISM }
+		relative_position_id = JNR_stop_the_YG1_CAPITALISM
+		completion_reward = {
+			custom_effect_tooltip = PRINCESS_DO_NOT_NEED_A_PRINCE
+			hidden_effect = {
+				ROOT = {
+					transfer_state = 707
+					transfer_state = 709
+					transfer_state = 708
+					transfer_state = 700
+					transfer_state = 701
+					transfer_state = 702
+					transfer_state = 703
+					transfer_state = 704
+					transfer_state = 706
+
+					add_state_core = 707
+					add_state_core = 709
+					add_state_core = 708
+					add_state_core = 700
+					add_state_core = 701
+					add_state_core = 702
+					add_state_core = 703
+					add_state_core = 704
+					add_state_core = 706
+					
+				}
+			}
+		}
+	}
+	focus = {
+		id = JNR_capital_ingeun_gaebal
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = JNR_stop_the_YG1_CAPITALISM }
+		prerequisite = { focus = JNR_reverse_the_independent_guarantee_for_PCS }
+		relative_position_id = JNR_agriculture_centralisation
+		available = {
+			num_of_factories > 85
+		}
+		completion_reward = {
+			custom_effect_tooltip = JNR_CAPITAL_DEVELOP_COMMITTEE
+			hidden_effect = {
+				set_country_flag = JNR_CAPITAL_DEVELOP_COMMITTEE_AVAILABLE
+			}
+		}
+	}
+	focus = {
+		id = JNR_suncheon_dream
+		x = -2
+		y = 2
+		cost = 10
+		prerequisite = { focus = JNR_stop_the_YG1_CAPITALISM }
+		prerequisite = { focus = JNR_reverse_the_independent_guarantee_for_PCS }
+		relative_position_id = JNR_agriculture_centralisation
+		available = {
+			num_of_factories > 70
+		}
+		completion_reward = {
+			304 = {
+				increase_state_category = yes
+				add_extra_state_shared_building_slots = 2
+			}
+			300 = {
+				increase_state_category = yes
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+
+	### 여기서부터 김영록 중점 ###
+	    focus = {
+        id = JNR_who_is_he #김영록의 신 전라도 계획 (온건주의)
+        icon = GFX_abcdef
+        x = 14
+        y = 1
+        cost = 0
+        available = { always = no }
+        prerequisite = { focus = JNR_rep }
+        relative_position_id = JNR_rep
+        mutually_exclusive = { focus = JNR_who_is_he }
+		offset = {
+			x = -14
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = JNR_who_is_he
+			}
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = JNR_summon_gi_jeong_kang
+				}
+			}
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
+    }
+
+    focus = {
+        id = JNR_youngrok_plan #영록플랜
+        icon = yb
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JNR_who_is_he }
+        relative_position_id = JNR_who_is_he
+        completion_reward = {
+            add_political_power = 100
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = JNR_youngnam_diplomacy #영호남 화합 정책
+        icon = yb
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_youngrok_plan } 
+        relative_position_id = JNR_youngrok_plan
+        completion_reward = {
+            # YG1 = { 
+            #     add_opinion_modifier = { 
+            #         target = JNR
+            #         modifier = large_increase
+            #     }
+            # }
+        }
+    }
+
+    focus = {
+        id = JNR_build_infra #전라 지역 인프라 확충
+        icon = industry_civilian
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_youngrok_plan }
+        relative_position_id = JNR_youngrok_plan
+        completion_reward = {
+            304 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                }
+            } 
+            302 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes  
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = JNR_build_dock #여수 항구 증축
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_build_infra }
+        relative_position_id = JNR_build_infra
+        completion_reward = {
+            302 = {
+                add_building_construction = { 
+                    type = dockyard
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    
+    focus = {
+        id = JNR_korea_maritime_capital #해양한국 수도 계획
+        icon = GFX_focus_generic_coastal_fort
+        x = 0
+        y = 1
+        cost = 10    
+        prerequisite = { focus = JNR_build_dock }
+        prerequisite = { focus = JNR_youngnam_diplomacy }
+        relative_position_id = JNR_build_dock
+        completion_reward = {
+            302 = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {  
+        id = JNR_naval_buildup #해군력 증강  
+        icon = GFX_goal_generic_build_navy
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_korea_maritime_capital }
+        relative_position_id = JNR_korea_maritime_capital
+        completion_reward = {
+            navy_experience = 25
+            add_doctrine_cost_reduction = {
+                name = naval_doc_bonus
+                cost_reduction = 0.5
+                uses = 1
+                category = naval_doctrine
+            }
+        }        
+    }
+
+    focus = {
+        id = JNR_naval_alliance #해양 동맹 결성
+        icon = GFX_focus_generic_treaty
+        x = 1 
+        y = 1
+        cost = 5
+        prerequisite = { focus = JNR_korea_maritime_capital }
+        relative_position_id = JNR_korea_maritime_capital
+        completion_reward = {
+            # 해군 관련 국가들과의 동맹 결성 이벤트 또는 디시전 
+        }    
+    }
+
+    focus = {
+        id = JNR_jeonnam_maritime_power #전라남도 해양강국 완성
+        icon = GFX_goal_generic_occupy_states_coastal 
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_naval_buildup }
+        prerequisite = { focus = JNR_naval_alliance }
+        relative_position_id = JNR_naval_buildup
+        completion_reward = {
+            
+        }
+    }
+
+	focus = {
+        id = JNR_contact_namhae #남해와의 접촉
+        icon = GFX_goal_generic_improve_relations
+        x = 4
+        y = 1
+        cost = 5
+        prerequisite = { focus = JNR_youngrok_plan }
+        relative_position_id = JNR_youngrok_plan
+        completion_reward = {
+            # 남해 국가와 접촉하는 이벤트 또는 디시전
+        }
+    }
+
+    focus = {
+        id = JNR_negotiate_with_namhae #남해와의 협상 
+        icon = GFX_goal_generic_major_alliance
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_contact_namhae }
+        relative_position_id = JNR_contact_namhae
+        completion_reward = {
+            # 남해와 협상 진행, 결과에 따른 이벤트
+        }
+    }
+    
+    focus = {
+        id = JNR_yeosu_namhae_integration #여수-남해 통합시대
+        icon = GFX_goal_generic_territory_or_war
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_negotiate_with_namhae } 
+        relative_position_id = JNR_negotiate_with_namhae
+        completion_reward = {
+            # 남해 국가를 여수에 통합하는 이벤트 
+            # 홍통특별행정구 영토 확장
+        }
+    }
+
+    focus = {
+        id = JNR_disband_western_army #서부방면군 해산
+        icon = GFX_goal_generic_occupy_states_ongoing_war
+        x = 6
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_youngrok_plan }
+        relative_position_id = JNR_youngrok_plan  
+        completion_reward = {
+            create_dynamic_country = {
+				original_tag = ROK
+				save_global_event_target_as = HADONG_COMMITTE_
+				copy_tag = BUS
+				set_country_flag = HADONG
+				set_cosmetic_tag = HADONG_COMMITTEE
+				add_political_power = 100
+				transfer_state = 291
+			}
+            create_dynamic_country = {
+				original_tag = ROK
+				save_global_event_target_as = SANCHEONG_COMMITTE_
+				copy_tag = BUS
+				set_country_flag = SANCHEONG
+				set_cosmetic_tag = SANCHEONG_COMMITTEE
+				add_political_power = 100
+				transfer_state = 290
+			}
+            create_dynamic_country = {
+				original_tag = ROK
+				save_global_event_target_as = HAMYANG_COMMITTE_
+				copy_tag = BUS
+				set_country_flag = HAMYANG
+				set_cosmetic_tag = HAMYANG_COMMITTEE
+				add_political_power = 100
+				transfer_state = 289
+			}
+            create_dynamic_country = {
+				original_tag = ROK
+				save_global_event_target_as = GEOCHANG_COMMITTE_
+				copy_tag = BUS
+				set_country_flag = GEOCHANG
+				set_cosmetic_tag = GEOCHANG_COMMITTEE
+				add_political_power = 100
+				transfer_state = 288
+			}
+			hidden_effect = {
+				set_autonomy = {
+					target = event_target:HADONG_COMMITTE_
+					autonomous_state = autonomy_supervised_state
+					end_wars = no
+					end_civil_wars = no
+				}
+				set_autonomy = {
+					target = event_target:SANCHEONG_COMMITTE_
+					autonomous_state = autonomy_supervised_state
+					end_wars = no
+					end_civil_wars = no
+				}
+				set_autonomy = {
+					target = event_target:HAMYANG_COMMITTE_
+					autonomous_state = autonomy_supervised_state
+					end_wars = no
+					end_civil_wars = no
+				}
+				set_autonomy = {
+					target = event_target:GEOCHANG_COMMITTE_
+					autonomous_state = autonomy_supervised_state
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+        }
+    }
+
+    focus = {
+        id = JNR_our_future #우리의 미래
+        icon = GFX_focus_generic_self_management
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JNR_jeonnam_maritime_power } 
+        prerequisite = { focus = JNR_yeosu_namhae_integration }
+        prerequisite = { focus = JNR_disband_western_army }
+        relative_position_id = JNR_jeonnam_maritime_power
+        completion_reward = {
+            # 전라남도의 미래상을 제시하는 이벤트
+        }
+    }
+
+    focus = {
+        id = JNR_unavoidable_war #피할 수 없는 전쟁
+        icon = GFX_goal_generic_attack_allies
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_our_future }
+        relative_position_id = JNR_our_future
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = NON
+            }
+        }
+    }
+
+    focus = {
+        id = JNR_jeonnam_industrial_reform #전남 산업 개혁
+        icon = GFX_focus_generic_industry_3
+        x = -4
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_youngrok_plan } 
+        relative_position_id = JNR_youngrok_plan
+        completion_reward = {
+            add_tech_bonus = {
+                name = industrial_bonus
+                bonus = 0.5
+                uses = 2
+                category = industry
+            }
+        }
+    }
+
+    focus = {
+        id = JNR_invite_investors #투자자 유치
+        icon = GFX_focus_generic_concessions
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_jeonnam_industrial_reform }
+        relative_position_id = JNR_jeonnam_industrial_reform
+        completion_reward = {
+            add_offsite_building = {
+                type = industrial_complex
+                level = 2
+            } 
+        }
+    }
+
+    focus = {
+        id = JNR_rural_development #농촌 지역 개발
+        icon = GFX_goal_generic_construction2 
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_jeonnam_industrial_reform }
+        relative_position_id = JNR_jeonnam_industrial_reform
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    is_fully_controlled_by = ROOT
+                    is_core_of = ROOT  
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = JNR_economic_miracle #전남 경제 기적
+        icon = GFX_focus_generic_the_giant_wakes
+        x = 1
+        y = 1
+        cost = 10  
+        prerequisite = { focus = JNR_invite_investors }
+        prerequisite = { focus = JNR_rural_development } 
+        relative_position_id = JNR_invite_investors
+        completion_reward = {
+            # 전남 경제 호황, 국민경제력 증대 이벤트/디시전
+        }
+    }
+
+    focus = {
+        id = JNR_peoples_welfare #인민 복지 정책
+        icon = GFX_goal_generic_consumer_goods 
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JNR_economic_miracle }
+        relative_position_id = JNR_economic_miracle    
+        completion_reward = {
+            add_ideas = JNR_peoples_welfare_idea
+        }
+    }
 }

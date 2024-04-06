@@ -2,11 +2,10 @@
  KOR_REUNIFIED:0 "다시 하나되어"
  KOR_UNIFY_SEOUL:0 "서울 통합"
 
- JNR_breaking_down_nation:0 "무너지는 인민공화국"
- JNR_jeonju_riot:0 "전주 폭동"
- JNR_hongtong_riot:0 "홍통 민주화 폭동"
- JNR_gyeumgun:0 "계엄령"
- JNR_secret_ch_chepo:0 "비밀스런 충청지역 스파이 체포"
+ JNR_CAPITAL_DEVELOP_COMMITTEE_AGENDA: "전라인민공화국 수도권 개발 위원회"
+ NAJU_INNOVATION_CITY:0 "나주 혁신 도시 확장"
+ SONGJEONG_DEVELOP:0 "송정 재개발"
+ GWANGSAN_DEVELOP:0 "광산시 개발"
 
  PJH_revive:0 "살아있다"
  PJH_survive:0 "지옥에서 돌아오다"
