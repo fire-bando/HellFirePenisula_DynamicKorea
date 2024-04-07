@@ -15,6 +15,10 @@ IRE = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }
 }
+CHO = {
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}
 JPN = {
 	color = rgb { 252 201 185 }
 	color_ui = rgb { 252 201 185 }
