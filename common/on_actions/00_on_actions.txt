@@ -645,6 +645,34 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					tag = SIN
+					has_war_with = JNR
+				}
+				JNR = {
+					every_country = {
+						limit = {
+							has_war_with = JNR 
+						}
+						white_peace = {
+							tag = JNR
+							message = "하나의 전라도, 하나의 민족, 하나의 국가" 
+						}
+					}
+				}
+				JNR = {
+					annex_country = { #스까국 행정력이 미치지 않는곳 혹은 묵인한곳을 고로시하는거다
+						target = SIN
+						transfer_troops = yes
+					}
+					add_state_core = 293 #목포 코어
+					add_state_core = 17 #무안 코어
+					add_state_core = 292 #신안 코어
+					add_state_core = 312 #진도 코어
+					add_state_core = 310 #완도 코어
+				}
+			}
+			if = {
+				limit = {
 					tag = TNK
 					has_war_with = EOT
 				}

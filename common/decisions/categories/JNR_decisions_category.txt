@@ -1,10 +1,8 @@
-JNR_skeleton = {
+JNR_CAPITAL_DEVELOP_COMMITTEE_AGENDA = {
     allowed = {
         original_tag = JNR
     }
     visible = {
-        ROOT = {
-            is_ai = yes
-        }
+        has_country_flag = JNR_CAPITAL_DEVELOP_COMMITTEE_AVAILABLE
     }
 }

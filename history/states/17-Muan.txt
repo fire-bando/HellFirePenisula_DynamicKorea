@@ -7,7 +7,7 @@ state={
 		owner = SIN
 		add_core_of = SIN
 		victory_points = {
-			1483 5 
+			1483 15 
 		}
 		buildings = {
 			infrastructure = 3

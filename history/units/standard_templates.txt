@@ -52,37 +52,3 @@ division_template = {
 
 	priority = 1
 }
-units = {
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 5584
-		division_template = "Infantry Division"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9434
-		division_template = "Armored Division"
-		start_experience_factor = 0.4
-		start_equipment_factor = 5
-	}
-}
-instant_effect = {
-		
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "PJH"
-		}
-		requested_factories = 2
-		progress = 0.1
-		efficiency = 90
-	}
-}

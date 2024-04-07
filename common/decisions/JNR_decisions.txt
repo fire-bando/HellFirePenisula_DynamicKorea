@@ -1,116 +1,125 @@
-JNR_skeleton = {
-    take_doridori = {
-        fire_only_once = yes
+JNR_CAPITAL_DEVELOP_COMMITTEE_AGENDA = {
+    NAJU_INNOVATION_CITY = {
         available = {
-            date > 2027.6.1
-        }
-        days_remove = 5
-        remove_effect = {
-            YG1 = {
-                transfer_state = 685
-                transfer_state = 684
+            295 = {
+                is_owned_by = ROOT
+            }
+            NOT = {
+                has_country_flag = JNR_INNOVATING
             }
         }
-        ai_will_do = {
-            base = 0
-            modifier = {
-                add = 200
-                country_exists = UKK
+        days_remove = 180
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = JNR_INNOVATING
+        }
+        remove_effect = {
+            increase_state_category = yes
+            clr_country_flag = JNR_INNOVATING
+            add_victory_points = {
+                province = 8417
+                value = 30
+            }
+            add_victory_points = {
+                province = 1182
+                value = -5
+            }
+            295 = {
+                add_manpower = 7400
+            }
+            306 = {
+                add_manpower = -4000
+            }
+            296 = {
+                add_manpower = -1000
+            }
+            292 = {
+                add_manpower = -1600
+            }
+            17 = {
+                add_manpower = -750
+            }
+            293 = {
+                add_manpower = -50
             }
         }
     }
-    attacking_sinan = {
-        fire_only_once = yes
+    GWANGSAN_DEVELOP = {
         available = {
-            date > 2024.6.1
+            710 = {
+                is_owned_by = ROOT
+            }
+            NOT = {
+                has_country_flag = JNR_INNOVATING
+            }
         }
-        days_remove = 5
+        days_remove = 90
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = JNR_INNOVATING
+        }
         remove_effect = {
-            declare_war_on = {
-                target = SIN
-                type = annex_everything
+            increase_state_category = yes
+            clr_country_flag = JNR_INNOVATING
+            add_victory_points = {
+                province = 14748
+                value = 15
             }
-            SIN = {
-                every_owned_state = {
-                    add_core_of = JNR
-                }
+            add_victory_points = {
+                province = 14772
+                value = 15
             }
-        }
-        ai_will_do = {
-            base = 0
-            modifier = {
-                add = 200
-                country_exists = SIN
+            710 = {
+                add_manpower = 37560
             }
+            304 = {
+                add_manpower = -1200
+            }
+            705 = {
+                add_manpower = -400
+            }
+            302 = {
+                add_manpower = -300
+            }
+            300 = {
+                add_manpower = -10400
+            }
+            305 = {
+                add_manpower = -13200
+            }
+            315 = {
+                add_manpower = -6400
+            }
+            313 = {
+                add_manpower = -3100
+            }
+            311 = {
+                add_manpower = -2560
+            }
+             
         }
     }
-    attacking_seobu_gunjeong = {
-        fire_only_once = yes
+    SONGJEONG_DEVELOP = {
         available = {
-            date > 2024.8.1
-        }
-        ai_will_do = {
-            base = 0
-            modifier = {
-                add = 200
-                JN1 = {
-                    is_puppet_of = JNR
-                }
+            710 = {
+                is_owned_by = ROOT
+            }
+            NOT = {
+                has_country_flag = JNR_INNOVATING
             }
         }
-        days_remove = 5
-        remove_effect = {
-            JN1 = {
-                set_cosmetic_tag = JN1_minjeong
-                every_state = {
-                    limit = {
-                        OR = {
-                            region = 17
-                            region = 18
-                            region = 21
-                        }
-                    }
-                    add_core_of = JN1
-                }
-            }
-        }
-    }
-    attacking_pjh = {
-        
+        days_remove = 90
         fire_only_once = yes
-
-        available = {
-            AND = {
-                date > 2029.11.26
-                NOT = {
-                    has_war_with = PJH
-                }
-            }
+        complete_effect = {
+            set_country_flag = JNR_INNOVATING
         }
-        ai_will_do = {
-            base = 0
-            modifier = {
-                add = 200
-                AND = {
-                    YED = {
-                        is_puppet_of = JNR
-                    }
-                    country_exists = PJH
-                }
-            }
-        }
-        days_remove = 5
         remove_effect = {
-            declare_war_on = {
-                target = PJH
-                type = annex_everything
+            increase_state_category = yes
+            clr_country_flag = JNR_INNOVATING
+            add_victory_points = {
+                province = 4873
+                value = 15
             }
         }
     }
 }
-
-
-# 스켈레톤 순서
-# 거문도 복속
-# 군정 종료
-# 홍통대전
