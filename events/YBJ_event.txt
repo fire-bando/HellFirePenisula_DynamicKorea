@@ -1,0 +1,36 @@
+add_namespace = YBJ_event
+
+# New ace has been promoted
+country_event = { #안철수의 간보기 - 빤쓰런
+	id = YBJ_event.1
+	title = YBJ_event.1.t
+	picture = GFX_report_event_tae_event
+    desc = YBJ_event.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = YBJ_event.1.a
+		AHN = {
+			diplomatic_relation = {
+				country = YBJ
+				relation = non_aggression_pact
+				active = yes
+			}
+			set_country_leader_ideology = centrism
+			leave_faction = yes
+			hold_election = AHN
+			set_cosmetic_tag = AHN_PP
+			set_party_name = {
+				ideology = neutrality
+				long_name = AHN_neutrality_party_run_at_PPP_long
+				name = AHN_neutrality_party_run_at_PPP
+			}
+		}
+		hidden_effect = {
+			AHN = {
+				manpower = 70000
+			}
+		}
+	}
+}

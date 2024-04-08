@@ -23,7 +23,7 @@
 
  SPX:0 "스페이스 X 외계 식민지"
  
- BMB_with_SPO:0 "사법부"
+ BMB_with_SPO:0 "법무수사부"
 
  FEM:0 "재건 여성의당"
  FEM:0 "재건 여성의당"
@@ -80,3 +80,4 @@
  GEOCHANG_COMMITTEE:0 "거창건국준비위원회"
  GEOCHANG_COMMITTEE_ADJ:0 "거창위원회"
  GEOCHANG_COMMITTEE_DEF:0 "거창위원회"
+ AHN_PP:0 "국민정책연구원"

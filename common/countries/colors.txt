@@ -187,4 +187,5 @@ YJN = {	color = rgb { 132 179 209 }	color_ui = rgb { 132 179 209 }	}
 NJN = {	color = rgb { 170 49 39 }	color_ui = rgb { 170 49 39 }	}
 JCR = {	color = rgb { 168 5 6 }	color_ui = rgb { 168 5 6 }	}
 DRG = {	color = rgb { 129 156 76 }	color_ui = rgb { 129 156 76 }	}
+MSN = {	color = rgb { 109 125 135 }	color_ui = rgb { 109 125 135 }	}
 GWO = {	color = rgb { 135 47 41 }	color_ui = rgb { 135 47 41 }	}

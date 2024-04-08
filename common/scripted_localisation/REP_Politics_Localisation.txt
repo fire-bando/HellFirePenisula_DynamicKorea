@@ -69,8 +69,8 @@ defined_text = {
 		localization_key = liberalism
 	}
 	text = {
-		trigger = { has_country_leader_ideology = gaeddal }
-		localization_key = gaeddal
+		trigger = { has_country_leader_ideology = theminju }
+		localization_key = theminju
 	}
 	text = {
 		trigger = { has_country_leader_ideology = aeguk_bosu }

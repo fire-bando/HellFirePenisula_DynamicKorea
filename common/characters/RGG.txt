@@ -7,7 +7,7 @@ characters={
             }
         }
         country_leader={
-            ideology=gaeddal
+            ideology=theminju
             expire="2020.8.16"
         }
     }

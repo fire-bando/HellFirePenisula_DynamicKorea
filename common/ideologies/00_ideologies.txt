@@ -6,7 +6,7 @@ ideologies = {
 			
 			conservatism = {}
 			liberalism = {}
-			gaeddal = {
+			theminju = {
 				color = { 2 51 149 }
 			} #온건
 			aeguk_bosu = {

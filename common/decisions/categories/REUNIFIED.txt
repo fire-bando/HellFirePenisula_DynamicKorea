@@ -1,7 +1,7 @@
 KOR_REUNIFIED = { #ㅊ
 	allowed = {
 		capital_scope = {
-			region = 5
+			region = 57
 		}
 	}	
 }

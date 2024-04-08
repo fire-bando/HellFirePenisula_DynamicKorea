@@ -40,7 +40,8 @@
  YBJ_occupy_assembly: "[Root.GetYBJFocusYBJ_occupy_assembly]"
  YBJ_occupy_assembly_text: "국회 점거"
  YBJ_occupy_assembly_desc: ""
-
+ YBJ_gunhee_kim: ""부부간 공동명의 해버리자""
+ YBJ_party_of_Yoon: "윤석열의 당."
  # 권력투쟁 #
  YBJ_power_struggle: "권력 투쟁"
  YBJ_power_struggle_desc: ""

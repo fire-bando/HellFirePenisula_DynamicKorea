@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = WPK
-		add_core_of = WPK
+		owner = MSN
+		add_core_of = MSN
         victory_points = { 545 10 }
 	}
 

@@ -242,7 +242,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_placeholder_6
+	id = YBJ_gunhee_kim
 	icon = {
 		trigger = {
 			YBJ = {
@@ -266,7 +266,12 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		
+		annex_country = {
+			target = GNG
+			transfer_troops = yes
+		}
+		add_state_core = 625
+		add_state_core = 25
 	}
 }
 
@@ -322,13 +327,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_6
+		focus = YBJ_gunhee_kim
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_placeholder_6
+	relative_position_id = YBJ_gunhee_kim
 	x = -1
 	y = 1
 
@@ -338,7 +343,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_placeholder_2
+	id = YBJ_party_of_Yoon
 	icon = {
 		trigger = {
 			YBJ = {
@@ -366,12 +371,17 @@ shared_focus = {
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_placeholder_6
+	relative_position_id = YBJ_gunhee_kim
 	x = 0
 	y = 2
 
 	completion_reward = {
-		
+		ROOT = {
+			country_event = {
+				days = 3
+				id = YBJ_event.1
+			}
+		}
 	}
 }
 
@@ -389,13 +399,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_6
+		focus = YBJ_gunhee_kim
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_placeholder_6
+	relative_position_id = YBJ_gunhee_kim
 	x = 1
 	y = 1
 	

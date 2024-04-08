@@ -11,6 +11,10 @@
  YBJ_fascism_party:0 "지역살리기운동본부"
  YBJ_communism_party:0 "공산 전체주의 세력"
 
+ AHN_neutrality_party:0 "국민의힘 - 친안파"
+ AHN_neutrality_party_run_at_PPP_long:0 "국민의당"
+ AHN_neutrality_party_run_at_PPP:0 "국민의당"
+
  DNT_neutrality_party:0 "동탄맘들 모여라"
  #DNT_democratic_party:0 ""
  DNT_fascism_party:0 "동탄미시녀사랑회"
