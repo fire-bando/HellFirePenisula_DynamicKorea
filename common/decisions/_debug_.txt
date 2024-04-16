@@ -1,4 +1,14 @@
 DEBUG_HERE = {
+    suck_that_pussy = {
+        complete_effect = {
+            every_country = {
+                declare_war_on = {
+                    target = ROOT
+                    type = annex_everything
+                }
+            }
+        }
+    }
     suck_all_state = {
         allowed = {
             original_tag = JCR

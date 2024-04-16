@@ -495,3 +495,9 @@
  MIO_kojiki_nihon_shoki:0 "고사기와 일본서기"
  MIO_imperial_family:0 "천황가"
  MIO_yamato_supremacy:0 "야마토의 패권"
+
+ #통합진보당경북괴
+ EOT_the_time_is_going:0 "시간은 흐른다.."
+ EOT_for_the_minjung:0 "민중을 위해서.."
+ EOT_for_the_worker:0 "..노동자를 위해서"
+ EOT_grain_management_act_for_farmer:0 "농민을 위한 양곡관리법"

@@ -1,0 +1,101 @@
+focus_tree = {
+	id = EOT_civilwar
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EOT
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1000 }
+	focus = {
+		id = EOT_the_time_is_going
+		icon = GFX_focus_generic_total_war
+		x = 10
+		y = 0
+		cost = 2
+		search_filters = {  }
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		completion_reward = {
+			if = {
+				limit = {
+					EOT = {
+						is_ai = no
+					}
+				}
+				add_ideas = EOT_revolutionary_war
+			}
+			hidden_effect = {
+				load_oob = EOT_focus_1
+			}
+		}
+	}
+	focus = {
+		id = EOT_for_the_minjung
+		icon = GFX_focus_generic_military_academy
+		x = -1
+		y = 1
+		cost = 2
+		search_filters = {  }
+
+		relative_position_id = EOT_the_time_is_going
+		prerequisite = { focus = EOT_the_time_is_going }
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		completion_reward = {
+			hidden_effect = {
+				load_oob = EOT_focus_2
+			}
+		}
+	}
+	focus = {
+		id = EOT_for_the_worker
+		icon = GFX_focus_generic_workers
+		x = 1
+		y = 1
+		cost = 2
+		search_filters = {  }
+
+		relative_position_id = EOT_the_time_is_going
+		prerequisite = { focus = EOT_the_time_is_going }
+		
+		available_if_capitulated = yes
+		cancelable = no
+
+		completion_reward = {
+			hidden_effect = {
+				load_oob = EOT_focus_3
+			}
+		}
+	}
+	focus = {
+		id = EOT_grain_management_act_for_farmer
+		icon = GFX_focus_generic_workers_and_farmers_rise
+		x = 0
+		y = 2
+		cost = 2
+
+		cancelable = no
+
+		search_filters = {  }
+
+		relative_position_id = EOT_the_time_is_going
+		prerequisite = { focus = EOT_for_the_worker }
+		prerequisite = { focus = EOT_for_the_minjung }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EOT_grain_management_act
+			hidden_effect = {
+				load_oob = EOT_focus_4
+			}
+		}
+	}
+}

@@ -8,7 +8,8 @@ characters={
         }
         country_leader={
             ideology=aeguk_bosu
-            expire="1960.8.16"
+            desc=true_yoon_daddy_desc
+            expire="2050.8.16"
         }
     }
  }

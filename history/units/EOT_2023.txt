@@ -196,3 +196,7 @@ units = {
 		start_equipment_factor = 0.75
 	}
 }
+focus = {
+    current = "EOT_the_time_is_going"
+    Progress = 0
+}   
