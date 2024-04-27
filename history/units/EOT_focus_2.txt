@@ -1,4 +1,4 @@
 ﻿focus = {
     current = "EOT_for_the_worker"
-    Progress = 0
+    Progress = 1
 }   
