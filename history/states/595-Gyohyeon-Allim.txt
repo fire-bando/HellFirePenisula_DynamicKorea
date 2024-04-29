@@ -1,21 +1,27 @@
+
 state={
 	id=595
 	name="STATE_595"
-	resources = {
-		steel = 20
+	resources={
+		steel=20.000
 	}
+
 	history={
 		owner = CHU
 		add_core_of = CHU
 		add_core_of = MNC
 		buildings = {
 			infrastructure = 6
+
 		}
-		victory_points = { 2352 15 }
+
 	}
-	provinces={ 2352 }
+
+	provinces={
+		17740 17742 
+	}
 	manpower=43650
-	state_category = large_city
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=3.000
 }
