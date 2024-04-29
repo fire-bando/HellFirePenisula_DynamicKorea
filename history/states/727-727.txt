@@ -1,0 +1,18 @@
+state={
+	id=727
+	name="STATE_727"
+	history={
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		17733 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}
