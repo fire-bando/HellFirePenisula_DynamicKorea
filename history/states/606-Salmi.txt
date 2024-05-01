@@ -9,7 +9,6 @@ state={
 	history={
 		owner = CHU
 		add_core_of = CHU
-		add_core_of = HCH
 		buildings = {
 			infrastructure = 3
 
@@ -18,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1843 4399 4576 13828 13844 
+		1843 4399 4576 13828 
 	}
-	manpower=2002
+	manpower=4004
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

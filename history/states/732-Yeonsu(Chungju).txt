@@ -1,9 +1,11 @@
 state={
 	id=732
 	name="STATE_732"
+	resources={ steel=10.000 }
 	history={
 		owner = CHU
 		add_core_of = CHU
+		victory_points = { 17741 5 }
 		buildings = {
 			infrastructure = 6
 		}
@@ -13,6 +15,6 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=city
 	local_supplies=0.000
 }

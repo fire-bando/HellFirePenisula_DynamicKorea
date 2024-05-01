@@ -9,8 +9,14 @@ state={
 	history={
 		owner = CHU
 		add_core_of = CHU
+		victory_points = { 13810 1 }
+		victory_points = { 17727 1 }
+		victory_points = { 17729 1 }
+		victory_points = { 17730 1 }
+		victory_points = { 17731 5 }
+		victory_points = { 17736 1 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 
 		}
 
@@ -21,6 +27,6 @@ state={
 	}
 	manpower=1450
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=2.000
 }
