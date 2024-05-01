@@ -9,7 +9,7 @@ state={
 		victory_points = {
 			8954 20 
 		}
-		buildigns = {
+		buildings = {
 			intrastructure = 6
 		}
 	}
