@@ -1,8 +1,8 @@
 ﻿l_english:
- JNR_neutrality_party:0 "더불어민주당"
- JNR_democratic_party:0 "박지원"
- JNR_fascism_party:0 "홍어삼합회"
- JNR_communism_party:0 "길위의 김대중"
+ JNR_communism_party:0 "다수파"
+
+ JBR_neutrality_party:0 "전주정무위원회"
+ JBR_neutrality_rebuild_nation_party:0 "전라민국 혁신위원회"
 
  BSU_communism_party:0 "노동자연합"
 
