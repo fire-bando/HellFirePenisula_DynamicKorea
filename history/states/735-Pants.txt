@@ -1,0 +1,20 @@
+state={
+	id=735
+	name="STATE_735"
+	history = {
+		owner = SSR
+		add_core_of = SSR
+		buildings = {
+			15049 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		1505 9009 15049 
+	}
+	manpower=480
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

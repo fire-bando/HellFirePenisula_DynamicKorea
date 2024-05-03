@@ -52,5 +52,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.14.4"
-path="C:/Users/ieonh/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/HellFirePenisula_DynamicKorea"
+path="mod/HellFirePenisula_DynamicKorea"
 remote_file_id="3214279131"

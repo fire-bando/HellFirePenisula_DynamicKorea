@@ -477,6 +477,8 @@
  #South Jeolla Province
  STATE_17:0 "무안" #70k
  STATE_292:0 "신안" #45k
+ STATE_735:0 "하의" #4H
+ STATE_736:0 "흑산도" #4H
  STATE_293:0 "목포" #240k
  STATE_294:0 "영암" #65k
  STATE_295:0 "나주" #100k

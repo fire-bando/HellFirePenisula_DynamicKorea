@@ -41,6 +41,12 @@ on_actions = {
 					days = 421
 				}
 			}
+			JBR = {
+				country_event = {
+					id = international.1
+					days = 240
+				}
+			}
 			94 = {
 				add_dynamic_modifier = {
 					modifier = aozi_state_modifier

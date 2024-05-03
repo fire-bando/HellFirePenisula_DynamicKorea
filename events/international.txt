@@ -1,0 +1,43 @@
+add_namespace = international
+add_namespace = international_news
+
+country_event = { #잼버리
+	id = international.1
+	title = international.1.t
+	picture = GFX_report_event_international
+    desc = international.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+            base = 50
+        }
+		name = international.1.a
+        news_event = {
+            id = international_news.1
+            days = 2
+        }
+        JBR = {
+            declare_war_on = {
+                target = SMG
+                type = annex_evertyhing
+            }
+        }
+	}
+}
+
+news_event = { #잼버리
+	id = international_news.1
+	title = international_news.1.t
+	picture = GFX_report_event_international_news
+    desc = international_news.1.d
+
+    is_major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = international_news.1.a
+	}
+}
