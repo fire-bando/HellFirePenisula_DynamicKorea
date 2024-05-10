@@ -1,0 +1,10 @@
+music_station = "otaku_station"
+music = {
+	song = "girls_legend_u"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

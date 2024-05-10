@@ -1,0 +1,24 @@
+music = {
+	name = "girls_legend_u"
+	file = "glu.ogg"
+}
+music = {
+	name = "r_p_g"
+	file = "RPG.ogg"
+}
+music = {
+	name = "nmul"
+	file = "nmul.ogg"
+}
+music = {
+	name = "srudb"
+	file = "srudb.ogg"
+}
+music = {
+	name = "onimai_ed"
+	file = "onimai_ed.ogg"
+}
+music = {
+	name = "uma_2_ed"
+	file = "uma_2_ed.ogg"
+}
