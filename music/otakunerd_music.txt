@@ -8,3 +8,48 @@ music = {
 		}
 	}
 }
+music = {
+	song = "r_p_g"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "nmul"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "srudb"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "onimai_ed"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "uma_2_ed"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
