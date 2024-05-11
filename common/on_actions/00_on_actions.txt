@@ -30,7 +30,7 @@ on_actions = {
 				add_offsite_building = { type = industrial_complex level = 5 }
 				add_offsite_building = { type = arms_factory level = 5 }
 			}
-			play_song = "letsgoonthisroadtogether"
+			play_song = "sewol"
 			NKA = {
 				country_event = {
 					id = skevent.1

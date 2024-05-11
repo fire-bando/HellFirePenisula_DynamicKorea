@@ -29,9 +29,7 @@ focus_tree = {
 				}
 				add_ideas = EOT_revolutionary_war
 			}
-			hidden_effect = {
-				load_oob = EOT_focus_1
-			}
+			
 		}
 	}
 	focus = {

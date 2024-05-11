@@ -1,4 +1,5 @@
-﻿focus = {
+﻿
+focus = {
     current = "EOT_for_the_minjung"
-    Progress = 1
-}
+    Progress = 0
+}   
