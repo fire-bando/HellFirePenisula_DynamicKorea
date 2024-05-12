@@ -1,6 +1,6 @@
 add_namespace = jnr_event
 
-# New ace has been promoted
+
 country_event = { #전라인민공화국 전당대회 결과
 	id = jnr_event.1
 	title = jnr_event.1.t

@@ -21,19 +21,15 @@ focus_tree = {
 		cancelable = no
 
 		completion_reward = {
-			if = {
-				limit = {
-					EOT = {
-						is_ai = no
-					}
-				}
-				add_ideas = EOT_revolutionary_war
+			set_country_flag = EOT_NL_STARTED_WORKING
+			country_event = {
+				id = gb_jinbo.1
+				days = 2
 			}
-			
 		}
 	}
 	focus = {
-		id = EOT_for_the_minjung
+		id = EOT_for_the_people
 		icon = GFX_focus_generic_military_academy
 		x = -1
 		y = 1
@@ -46,8 +42,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		cancelable = no
 
+		available = {
+			has_country_flag = EOT_NL_STARTED_WORKING
+		}
+
 		completion_reward = {
 			hidden_effect = {
+				set_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
 				load_oob = EOT_focus_2
 			}
 		}
@@ -66,8 +67,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		cancelable = no
 
+		available = {
+			has_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
+		}
+
 		completion_reward = {
 			hidden_effect = {
+				set_country_flag = EOT_FARMER_DEMAND_HELP
 				load_oob = EOT_focus_3
 			}
 		}
@@ -83,14 +89,21 @@ focus_tree = {
 
 		search_filters = {  }
 
+		available = {
+			has_country_flag = EOT_FARMER_DEMAND_HELP
+		}
+
 		relative_position_id = EOT_the_time_is_going
 		prerequisite = { focus = EOT_for_the_worker }
-		prerequisite = { focus = EOT_for_the_minjung }
+		prerequisite = { focus = EOT_for_the_people }
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = EOT_grain_management_act
+			swap_ideas = {
+				remove_idea = TEULNIST_HATE 
+				add_idea = EOT_grain_management_act 
+			}
 			hidden_effect = {
 				load_oob = EOT_focus_4
 			}

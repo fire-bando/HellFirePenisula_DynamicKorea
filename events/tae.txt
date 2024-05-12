@@ -1,6 +1,6 @@
 add_namespace = tae_event
 
-# New ace has been promoted
+
 country_event = { #대 - 군 합병 : 대구
 	id = tae_event.1
 	title = tae_event.1.t

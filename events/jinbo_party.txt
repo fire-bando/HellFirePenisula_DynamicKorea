@@ -1,353 +1,151 @@
-add_namespace = jnr_event
+add_namespace = gb_jinbo
 
-# New ace has been promoted
-country_event = { #전라인민공화국 전당대회 결과
-	id = jnr_event.1
-	title = jnr_event.1.t
+country_event = { #time_is_going focus's event ( wrote about the party start a civilwar )
+	id = gb_jinbo.1
+	title = gb_jinbo.1.t
 	picture = GFX_report_event_tae_event
-    desc = jnr_event.1.d
+    desc = gb_jinbo.1.d
 
 	is_triggered_only = yes
 	
 	option = {
-		name = jnr_event.1.a
-		complete_national_focus = JNR_summon_gi_jeong_kang
-	}
-	option = {
-		name = jnr_event.1.b
-		complete_national_focus = JNR_who_is_he
-	}
-}
-country_event = { #졸려서 기억안나
-	id = jnr_event.2
-	title = jnr_event.2.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.2.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.2.a
-		trigger = {
-			original_tag = JNR
-		}
-	}
-	option = {
-		name = jnr_event.2.b
-		trigger = {
-			original_tag = YG1
-		}
-	}
-}
-country_event = { #전인공은 정명석 요구하다
-	id = jnr_event.3
-	title = jnr_event.3.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.3.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.3.a
-		trigger = {
-			original_tag = JMS
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.4
+		name = gb_jinbo.1.a
+		if = {
+			limit = {
+				EOT = {
+					is_ai = no
+				}
 			}
-		}
-	}
-	option = {
-		name = jnr_event.3.b #괴뢰 조이기
-		trigger = {
-			original_tag = JMS
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				NOT = {
-					is_historical_focus_on = yes
+			add_ideas = EOT_revolutionary_war
+			681 = {
+				create_unit = {
+					division = "name = \"박정희 독재 우상화 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 3
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+			271 = {
+				create_unit = {
+					division = "name = \"검찰독재 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 3
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+			715 = {
+				create_unit = {
+					division = "name = \"반 전두환 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 1"
+					owner = EOT
+					count = 3
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
 				}
 			}
 		}
-		JNR = {
-			country_event = {
-				id = jnr_event.5 #괴뢰5번
+		else {
+			681 = {
+				create_unit = {
+					division = "name = \"박정희 독재 우상화 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
 			}
-		}
-	}
-	option = {
-		name = jnr_event.3.c
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
+			271 = {
+				create_unit = {
+					division = "name = \"검찰독재 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
 			}
-		}
-		trigger = {
-			original_tag = JMS
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.6
-			}
-		}
-	}
-	
-	option = {
-		name = jnr_event.3.a
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
-			}
-		}
-		trigger = {
-			original_tag = OKC
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.7
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.b
-		trigger = {
-			original_tag = OKC
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				NOT = {
-					is_historical_focus_on = yes
+			715 = {
+				create_unit = {
+					division = "name = \"반 전두환 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 1"
+					owner = EOT
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
 				}
 			}
 		}
-		JNR = {
-			country_event = {
-				id = jnr_event.8 #괴뢰8번
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.c
-		trigger = {
-			original_tag = OKC
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.9
-			}
-		}
-	}
-	
-	option = {
-		name = jnr_event.3.a
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
-			}
-		}
-		trigger = {
-			original_tag = BUY
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.10
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.b
-		trigger = {
-			original_tag = BUY
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				NOT = {
-					is_historical_focus_on = yes
-				}
-			}
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.11
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.c
-		trigger = {
-			original_tag = BUY
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.12
-			}
+		hidden_effect = {
+			load_oob = EOT_focus_1 #EOT_for_the_people will be start
 		}
 	}
 }
 
-country_event = { #합병을 조여라
-	id = jnr_event.4
-	title = jnr_event.4.t
+country_event = { #EOT_for_the_people focus's event ( wrote about trade union has been formed at our occupation zone (dalseong district) )
+	id = gb_jinbo.2
+	title = gb_jinbo.2.t
 	picture = GFX_report_event_tae_event
-    desc = jnr_event.4.d
+    desc = gb_jinbo.2.d
 
 	is_triggered_only = yes
 	
 	option = {
-		name = jnr_event.4.a
-		annex_country = {
-			target = JMS
-		}
-	}
-}
-country_event = { #합병을 조여라
-	id = jnr_event.7
-	title = jnr_event.7.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.7.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.7.a
-		annex_country = {
-			target = OKC
-		}
-	}
-}
-country_event = { #합병을 조여라
-	id = jnr_event.10
-	title = jnr_event.10.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.10.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.10.a
-		annex_country = {
-			target = BUY
+		name = gb_jinbo.2.a
+		hidden_effect = {
+			set_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
+			load_oob = EOT_focus_2 #EOT_for_the_worker will be start
 		}
 	}
 }
 
-country_event = { # 괴뢰화 조여라
-	id = jnr_event.5
-	title = jnr_event.5.t
+country_event = { #EOT_for_the_worker focus's event ( wrote about occupation zone's farmers aren't wealthy )
+	id = gb_jinbo.3
+	title = gb_jinbo.3.t
 	picture = GFX_report_event_tae_event
-    desc = jnr_event.5.d
+    desc = gb_jinbo.3.d
 
 	is_triggered_only = yes
 	
 	option = {
-		name = jnr_event.5.a
-		JNR = {
-			set_autonomy = {
-				target = JMS
-				autonomous_state = autonomy_puppet
-			}
-		}
-	}
-}
-country_event = { # 괴뢰화 조여라
-	id = jnr_event.8
-	title = jnr_event.8.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.8.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.8.a
-		JNR = {
-			set_autonomy = {
-				target = OKC
-				autonomous_state = autonomy_puppet
-			}
-		}
-	}
-}
-country_event = { # 괴뢰화 조여라
-	id = jnr_event.11
-	title = jnr_event.11.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.11.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.11.a
-		JNR = {
-			set_autonomy = {
-				target = BUY
-				autonomous_state = autonomy_puppet
-			}
-		}
-	}
-}
-
-country_event = { # 목 조여라
-	id = jnr_event.7
-	title = jnr_event.7.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.7.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.7.a
-		declare_war_on = {
-			target = JMS
-			type = annex_everything
-		}
-		add_state_claim = 326
-		add_state_claim = 335
-	}
-}
-country_event = { # 목 조여라
-	id = jnr_event.9
-	title = jnr_event.9.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.9.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.9.a
-		declare_war_on = {
-			target = OKC
-			type = annex_everything
-		}
-		add_state_claim = 251
-	}
-}
-country_event = { # 목 조여라
-	id = jnr_event.12
-	title = jnr_event.12.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.12.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.12.a
-		add_state_claim = 334
-		declare_war_on = {
-			target = BUY
-			type = annex_everything
+		name = gb_jinbo.3.a
+		hidden_effect = {
+			set_country_flag = EOT_FARMER_DEMAND_HELP
+			load_oob = EOT_focus_3 #EOT_grain_management_act_for_farmer will be start
 		}
 	}
 }

@@ -1,0 +1,162 @@
+focus_tree = {
+	id = PONGTAN_FOCUS
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DNT
+		}
+	}
+	default = no
+	focus = { #공부하기
+		id = DNT_do_study
+		icon = GFX_abcdef
+		x = 8
+		y = 0
+		cost = 5
+	}
+	focus = { #공부하기
+		id = DNT_do_study_1
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = DNT_do_study
+		prerequisite = { focus = DNT_do_study }
+	}
+	focus = { #공부하기
+		id = DNT_do_study_2
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		relative_position_id = DNT_do_study
+		prerequisite = { focus = DNT_do_study }
+		cost = 5
+	}
+	focus = { #좋은대학가기
+		id = DNT_join_a_nice_school
+		icon = GFX_abcdef
+		x = 0
+		y = 2
+		relative_position_id = DNT_do_study
+		prerequisite = { focus = DNT_do_study_1 }
+		prerequisite = { focus = DNT_do_study_2 }
+		cost = 5
+	}
+	focus = { #공부하기
+		id = DNT_get_a_nice_credit
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		relative_position_id = DNT_join_a_nice_school
+		prerequisite = { focus = DNT_join_a_nice_school }
+		cost = 5
+	}
+	focus = { #공부하기
+		id = DNT_study_more
+		icon = GFX_abcdef
+		x = -1
+		y = 1
+		relative_position_id = DNT_get_a_nice_credit
+		prerequisite = { focus = DNT_get_a_nice_credit }
+		cost = 5
+	}
+	focus = { #곧졸업
+		id = DNT_try_to_get_a_job
+		icon = GFX_abcdef
+		x = 1
+		y = 1
+		relative_position_id = DNT_get_a_nice_credit
+		prerequisite = { focus = DNT_get_a_nice_credit }
+		cost = 5
+	}
+	focus = { #직업쟁취
+		id = DNT_i_finally_get_a_job
+		icon = GFX_abcdef
+		x = -1
+		y = 1
+		relative_position_id = DNT_try_to_get_a_job
+		prerequisite = { focus = DNT_try_to_get_a_job }
+		prerequisite = { focus = DNT_study_more }
+		cost = 5
+	}
+	focus = { #모쏠아다새끼
+		id = DNT_mossol_ada_life
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		relative_position_id = DNT_join_a_nice_school
+		prerequisite = { focus = DNT_join_a_nice_school }
+		cost = 5
+	}
+	focus = { #모쏠아다탈출을위한발악
+		id = DNT_do_something
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = DNT_mossol_ada_life
+		prerequisite = { focus = DNT_mossol_ada_life }
+		cost = 5
+	}
+	focus = { #모쏠아다탈출을위한발악
+		id = DNT_meet_someone
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = DNT_do_something
+		prerequisite = { focus = DNT_do_something }
+		cost = 5
+	}
+	focus = { #급격스런 결혼
+		id = DNT_progressive_marry
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		relative_position_id = DNT_i_finally_get_a_job
+		prerequisite = { focus = DNT_i_finally_get_a_job }
+		prerequisite = { focus = DNT_meet_someone }
+		cost = 5
+	}
+	focus = { #경제권 털림
+		id = DNT_lose_keizai
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = DNT_progressive_marry
+		prerequisite = { focus = DNT_progressive_marry }
+		cost = 5
+	}
+	focus = { #출산
+		id = DNT_get_a_child
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = DNT_lose_keizai
+		prerequisite = { focus = DNT_lose_keizai }
+		cost = 5
+	}
+	focus = { #약속의 10년
+		id = DNT_yakusokuno_jyuunenn
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = DNT_get_a_child
+		prerequisite = { focus = DNT_get_a_child }
+		cost = 521.43857142857142857142857142857
+	}
+	focus = { #도축
+		id = DNT_dochuk_irangke
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		relative_position_id = DNT_yakusokuno_jyuunenn
+		prerequisite = { focus = DNT_yakusokuno_jyuunenn }
+		cost = 5
+		completion_reward = {
+			ROOT = {
+				set_cosmetic_tag = DNT_PONGPONGMAAM
+			}
+		}
+	}
+}

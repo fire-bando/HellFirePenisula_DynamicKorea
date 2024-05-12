@@ -1,6 +1,6 @@
 add_namespace = samsung_event
 
-# New ace has been promoted
+
 country_event = { #
 	id = samsung_event.1
 	title = samsung_event.1.t

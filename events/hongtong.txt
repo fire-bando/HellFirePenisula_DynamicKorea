@@ -1,6 +1,6 @@
 add_namespace = hong_event
 
-# New ace has been promoted
+
 country_event = { #남해국가판무관부의 최종통첩
 	id = hong_event.1
 	title = hong_event.1.t
