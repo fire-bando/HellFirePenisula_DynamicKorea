@@ -63,7 +63,7 @@ DCE = {	color = rgb { 67 127 63 }	color_ui = rgb { 87 165 82 } }
 UKK = {	color = rgb { 201 56 93 }	color_ui = rgb { 255 73 121 } }
 KGR = {	color = HSV { 0.1 0.15 0.4 }	color_ui = rgb { 138 155 116 } }
 YG1 = {	color = rgb { 214 51 51 }	color_ui = rgb { 214 51 51 } }
-PCS = {	color = rgb { 105 20 20 }	color_ui = rgb { 105 20 20 } }
+SNC = {	color = rgb { 20 105 20 }	color_ui = rgb { 20 105 20 } }
 JDH = {	color = rgb { 189 124 102 }	color_ui = rgb { 189 124 102 } }
 JNR = {	color = rgb { 174 13 43 }	color_ui = rgb { 174 13 43 } }
 MJJ = {	color = rgb { 110 43 23 }	color_ui = rgb { 174 13 43 } }

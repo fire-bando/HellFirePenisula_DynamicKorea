@@ -7,7 +7,7 @@ state={
 	history={
 		owner = JNH
 		add_core_of = JNH
-		add_claimf_of = PCS
+		add_claimf_of = SNC
 		add_claimf_of = JNR
         victory_points = { 6779 20 }
 	}

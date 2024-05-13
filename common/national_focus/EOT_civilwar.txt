@@ -49,7 +49,10 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				set_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
-				load_oob = EOT_focus_2
+				country_event = {
+					id = gb_jinbo.2
+					days = 2
+				}
 			}
 		}
 	}
@@ -74,7 +77,10 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				set_country_flag = EOT_FARMER_DEMAND_HELP
-				load_oob = EOT_focus_3
+				country_event = {
+					id = gb_jinbo.3
+					days = 2
+				}
 			}
 		}
 	}
@@ -103,9 +109,6 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = TEULNIST_HATE 
 				add_idea = EOT_grain_management_act 
-			}
-			hidden_effect = {
-				load_oob = EOT_focus_4
 			}
 		}
 	}

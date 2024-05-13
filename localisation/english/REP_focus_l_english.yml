@@ -72,7 +72,7 @@
  JNR_gi_jeong_kang_industry:0 "강기정식 경제"
  JNR_here_is_jogyewon:0 "조계원을 초청하다"
  JNR_emergency_command_for_hongtong_economy:0 "홍통 경제에 대한 주석 긴급조치명령"
- JNR_reverse_the_independent_guarantee_for_PCS:0 "[PCS.getName]의 독립 보장 취소"
+ JNR_reverse_the_independent_guarantee_for_SNC:0 "[SNC.getName]의 독립 보장 취소"
  JNR_agriculture_centralisation:0 "서부 농업 집산화"
  JNR_nationalization_geumho:0 "금호그룹 국유화"
  JNR_stop_the_YG1_CAPITALISM:0 "[YG1.getName]의 자본주의 일시 중지"
