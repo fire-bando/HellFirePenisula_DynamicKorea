@@ -1,10 +1,10 @@
 focus_tree = {
-	id = JNR_focus
+	id = JNR_committee_focus
 	continuous_focus_position = { x = 0 y = 1560 }
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 0
 			tag = JNR
 		}
 	}

@@ -1,0 +1,26 @@
+focus_tree = {
+	id = JNR_pro_civilwar_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = JNR
+		}
+	}
+	default = no
+	focus = {
+		id = JNR_kinkyuu_kaigi
+		cancelable = no
+		icon = GFX_abcdef
+		x = 6
+		y = 0
+		cost = 14
+		completion_reward = {
+			country_event = {
+				id = jnr_event.15
+				days = 0
+			}
+		}
+	}
+}

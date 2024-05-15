@@ -5,8 +5,11 @@ state={
 		6994 14907 
 	}
 	history = {
-		owner=YG1
+		owner=JNR
+		add_core_of=SNC
+		add_core_of=JNR
 		add_core_of=YG1
+		# set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
 		}

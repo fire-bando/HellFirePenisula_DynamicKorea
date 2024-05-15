@@ -9,7 +9,6 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		set_demilitarized_zone = yes
 	}
 	provinces={
 		4342 14859 

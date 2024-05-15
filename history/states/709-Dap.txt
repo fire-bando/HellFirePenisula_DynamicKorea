@@ -4,7 +4,6 @@ state={
 	history={
 		owner = YG1
 		add_core_of = YG1
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

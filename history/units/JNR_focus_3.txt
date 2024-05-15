@@ -1,0 +1,5 @@
+﻿
+focus = {
+    current = "JNR_kinkyuu_kaigi"
+    Progress = 0
+}   

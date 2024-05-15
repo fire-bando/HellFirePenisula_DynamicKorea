@@ -1,24 +1,20 @@
 add_namespace = jnr_event
 
 
-country_event = { #전라인민공화국 전당대회 결과
+news_event = {
 	id = jnr_event.1
 	title = jnr_event.1.t
-	picture = GFX_report_event_tae_event
+	picture = GFX_news_event_019
     desc = jnr_event.1.d
 
 	is_triggered_only = yes
 	
 	option = {
 		name = jnr_event.1.a
-		complete_national_focus = JNR_summon_gi_jeong_kang
-	}
-	option = {
-		name = jnr_event.1.b
-		complete_national_focus = JNR_who_is_he
 	}
 }
-country_event = { #졸려서 기억안나
+
+country_event = { #비상대책위원회 위원장 선출에 관한 정보
 	id = jnr_event.2
 	title = jnr_event.2.t
 	picture = GFX_report_event_tae_event
@@ -28,18 +24,15 @@ country_event = { #졸려서 기억안나
 	
 	option = {
 		name = jnr_event.2.a
-		trigger = {
-			original_tag = JNR
-		}
+		complete_national_focus = JNR_summon_gi_jeong_kang
 	}
 	option = {
 		name = jnr_event.2.b
-		trigger = {
-			original_tag = YG1
-		}
+		complete_national_focus = JNR_who_is_he
 	}
 }
-country_event = { #전인공은 정명석 요구하다
+
+country_event = { 
 	id = jnr_event.3
 	title = jnr_event.3.t
 	picture = GFX_report_event_tae_event
@@ -49,156 +42,31 @@ country_event = { #전인공은 정명석 요구하다
 	
 	option = {
 		name = jnr_event.3.a
-		trigger = {
-			original_tag = JMS
+		304 = {
+			set_demilitarized_zone = yes
 		}
-		JNR = {
-			country_event = {
-				id = jnr_event.4
-			}
+		306 = {
+			set_demilitarized_zone = yes
 		}
-	}
-	option = {
-		name = jnr_event.3.b #괴뢰 조이기
-		trigger = {
-			original_tag = JMS
+		305 = {
+			set_demilitarized_zone = yes
 		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				NOT = {
-					is_historical_focus_on = yes
-				}
-			}
+		315 = {
+			set_demilitarized_zone = yes
 		}
-		JNR = {
-			country_event = {
-				id = jnr_event.5 #괴뢰5번
-			}
+		316 = {
+			set_demilitarized_zone = yes
 		}
-	}
-	option = {
-		name = jnr_event.3.c
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
-			}
+		317 = {
+			set_demilitarized_zone = yes
 		}
-		trigger = {
-			original_tag = JMS
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.6
-			}
-		}
-	}
-	
-	option = {
-		name = jnr_event.3.a
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
-			}
-		}
-		trigger = {
-			original_tag = OKC
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.7
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.b
-		trigger = {
-			original_tag = OKC
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				NOT = {
-					is_historical_focus_on = yes
-				}
-			}
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.8 #괴뢰8번
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.c
-		trigger = {
-			original_tag = OKC
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.9
-			}
-		}
-	}
-	
-	option = {
-		name = jnr_event.3.a
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
-			}
-		}
-		trigger = {
-			original_tag = BUY
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.10
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.b
-		trigger = {
-			original_tag = BUY
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				NOT = {
-					is_historical_focus_on = yes
-				}
-			}
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.11
-			}
-		}
-	}
-	option = {
-		name = jnr_event.3.c
-		trigger = {
-			original_tag = BUY
-		}
-		JNR = {
-			country_event = {
-				id = jnr_event.12
-			}
+		318 = {
+			set_demilitarized_zone = yes
 		}
 	}
 }
 
-country_event = { #합병을 조여라
+country_event = { 
 	id = jnr_event.4
 	title = jnr_event.4.t
 	picture = GFX_report_event_tae_event
@@ -208,43 +76,22 @@ country_event = { #합병을 조여라
 	
 	option = {
 		name = jnr_event.4.a
-		annex_country = {
-			target = JMS
+		17 = {
+			set_demilitarized_zone = yes
 		}
-	}
-}
-country_event = { #합병을 조여라
-	id = jnr_event.7
-	title = jnr_event.7.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.7.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.7.a
-		annex_country = {
-			target = OKC
+		292 = {
+			set_demilitarized_zone = yes
 		}
-	}
-}
-country_event = { #합병을 조여라
-	id = jnr_event.10
-	title = jnr_event.10.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.10.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.10.a
-		annex_country = {
-			target = BUY
+		735 = {
+			set_demilitarized_zone = yes
+		}
+		736 = {
+			set_demilitarized_zone = yes
 		}
 	}
 }
 
-country_event = { # 괴뢰화 조여라
+country_event = { 
 	id = jnr_event.5
 	title = jnr_event.5.t
 	picture = GFX_report_event_tae_event
@@ -254,52 +101,21 @@ country_event = { # 괴뢰화 조여라
 	
 	option = {
 		name = jnr_event.5.a
-		JNR = {
-			set_autonomy = {
-				target = JMS
-				autonomous_state = autonomy_puppet
-			}
-		}
 	}
 }
-country_event = { # 괴뢰화 조여라
-	id = jnr_event.8
-	title = jnr_event.8.t
+country_event = { 
+	id = jnr_event.6
+	title = jnr_event.6.t
 	picture = GFX_report_event_tae_event
-    desc = jnr_event.8.d
+    desc = jnr_event.6.d
 
 	is_triggered_only = yes
 	
 	option = {
-		name = jnr_event.8.a
-		JNR = {
-			set_autonomy = {
-				target = OKC
-				autonomous_state = autonomy_puppet
-			}
-		}
+		name = jnr_event.6.a
 	}
 }
-country_event = { # 괴뢰화 조여라
-	id = jnr_event.11
-	title = jnr_event.11.t
-	picture = GFX_report_event_tae_event
-    desc = jnr_event.11.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = jnr_event.11.a
-		JNR = {
-			set_autonomy = {
-				target = BUY
-				autonomous_state = autonomy_puppet
-			}
-		}
-	}
-}
-
-country_event = { # 목 조여라
+country_event = { 
 	id = jnr_event.7
 	title = jnr_event.7.t
 	picture = GFX_report_event_tae_event
@@ -309,15 +125,22 @@ country_event = { # 목 조여라
 	
 	option = {
 		name = jnr_event.7.a
-		declare_war_on = {
-			target = JMS
-			type = annex_everything
-		}
-		add_state_claim = 326
-		add_state_claim = 335
 	}
 }
-country_event = { # 목 조여라
+
+country_event = { 
+	id = jnr_event.8
+	title = jnr_event.8.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.8.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.8.a
+	}
+}
+country_event = { 
 	id = jnr_event.9
 	title = jnr_event.9.t
 	picture = GFX_report_event_tae_event
@@ -327,14 +150,34 @@ country_event = { # 목 조여라
 	
 	option = {
 		name = jnr_event.9.a
-		declare_war_on = {
-			target = OKC
-			type = annex_everything
-		}
-		add_state_claim = 251
 	}
 }
-country_event = { # 목 조여라
+country_event = { 
+	id = jnr_event.10
+	title = jnr_event.10.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.10.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.10.a
+	}
+}
+
+country_event = { 
+	id = jnr_event.11
+	title = jnr_event.11.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.11.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.11.a
+	}
+}
+country_event = { 
 	id = jnr_event.12
 	title = jnr_event.12.t
 	picture = GFX_report_event_tae_event
@@ -344,10 +187,124 @@ country_event = { # 목 조여라
 	
 	option = {
 		name = jnr_event.12.a
-		add_state_claim = 334
-		declare_war_on = {
-			target = BUY
-			type = annex_everything
+	}
+}
+country_event = { 
+	id = jnr_event.14
+	title = jnr_event.14.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.14.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.14.a
+	}
+}
+country_event = { 
+	id = jnr_event.15
+	title = jnr_event.15.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.15.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.15.a
+	}
+}
+
+country_event = { 
+	id = jnr_event.523
+	title = jnr_event.523.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.523.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_honam_develop_theory_enable
+			load_oob = JNR_focus_1
+		}
+	}
+	
+	option = {
+		name = jnr_event.523.a
+	}
+}
+country_event = { 
+	id = jnr_event.524
+	title = jnr_event.524.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.524.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_east_jeolla_plan_enable
+			load_oob = JNR_focus_2
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.525
+	title = jnr_event.525.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.525.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			load_focus_tree = JNR_pro_civilwar_focus
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.526 #비대위 자동중점 시작
+	title = jnr_event.526.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.526.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			load_oob = JNR_focus_3
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.1001
+	title = jnr_event.1001.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.1001.d
+
+	is_triggered_only = yes
+	option = {
+		name = jnr_event.1001.a
+		ROOT = {
+			clr_country_flag = JNR_east_jeolla_plan_enable
+		}
+		news_event = {
+			id = jnr_event.1
+			days = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = jnr_event.3
+				days = 20
+			}
+			country_event = {
+				id = jnr_event.525
+				days = 1
+			}
+			country_event = {
+				id = jnr_event.526
+				days = 3
+			}
 		}
 	}
 }
