@@ -9,9 +9,9 @@
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
  SBU_gijang_commune:0 "기장인민위원회"
 
- JN1_JNR:0 "서부방면군"
- JN1_JNR_ADJ:0 "서부방면군"
- JN1_JNR_DEF:0 "서부방면군"
+ JN1_JNR:0 "동부급반군단"
+ JN1_JNR_ADJ:0 "동부급반군단"
+ JN1_JNR_DEF:0 "동부급반군단"
 
  YED_JNR:0 "호서해방군"
  YED_JNR_ADJ:0 "호서해방군"
@@ -82,3 +82,6 @@
  GEOCHANG_COMMITTEE_DEF:0 "거창위원회"
  AHN_PP:0 "국민정책연구원"
  DNT_PONGPONGMAAM:0 "퐁퐁부인시티"
+ JNR_KNDMG:0 "광양만 자유국"
+ JNR_KNDMG_ADJ:0 "광양만 자유국"
+ JNR_KNDMG_DEF:0 "광양만 자유국"

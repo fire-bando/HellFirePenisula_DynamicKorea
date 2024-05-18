@@ -1,26 +1,20 @@
-
 state={
-	id=291
-	name="STATE_291"
-
+	id=739
+	name="STATE_739"
 	history={
 		owner = JN1
 		add_core_of = JN1
-		victory_points = {
-			24 5 
-		}
 		buildings = {
 			infrastructure = 3
 
 		}
 
 	}
-
 	provinces={
-		24 1071 1625 2680 14801 
+		552 4941 5655 7742 8144 
 	}
-	manpower=50000
+	manpower=2300
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 	local_supplies=0.000
 }

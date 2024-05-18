@@ -66,7 +66,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { # 슨상청
 	id = jnr_event.4
 	title = jnr_event.4.t
 	picture = GFX_report_event_tae_event
@@ -87,6 +87,25 @@ country_event = {
 		}
 		736 = {
 			set_demilitarized_zone = yes
+		}
+		293 = {
+			set_demilitarized_zone = yes
+		}
+		310 = {
+			set_demilitarized_zone = yes
+		}
+		312 = {
+			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			SSR = {
+				add_state_core = 293
+				transfer_state = 293
+				add_state_core = 735
+				transfer_state = 735
+				add_state_core = 736
+				transfer_state = 736
+			}
 		}
 	}
 }
@@ -138,6 +157,30 @@ country_event = {
 	
 	option = {
 		name = jnr_event.8.a
+		21 = {
+			set_demilitarized_zone = yes
+		}
+		319 = {
+			set_demilitarized_zone = yes
+		}
+		320 = {
+			set_demilitarized_zone = yes
+		}
+		321 = {
+			set_demilitarized_zone = yes
+		}
+		322 = {
+			set_demilitarized_zone = yes
+		}
+		323 = {
+			set_demilitarized_zone = yes
+		}
+		324 = {
+			set_demilitarized_zone = yes
+		}
+		325 = {
+			set_demilitarized_zone = yes
+		}
 	}
 }
 country_event = { 
@@ -213,6 +256,145 @@ country_event = {
 		name = jnr_event.15.a
 	}
 }
+country_event = { 
+	id = jnr_event.16
+	title = jnr_event.16.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.16.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.16.a
+	}
+}
+country_event = { 
+	id = jnr_event.17
+	title = jnr_event.17.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.17.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jnr_event.17.a
+		ROOT = {
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+		}
+		SMG = {
+			transfer_state = 323
+			transfer_state = 324
+			transfer_state = 325
+			add_state_core = 323
+			add_state_core = 324
+			add_state_core = 325
+		}
+		JBR = {
+			transfer_state = 21
+			add_state_core = 21
+		}
+		SIN = {
+			transfer_state = 17
+			transfer_state = 292
+			transfer_state = 310
+			transfer_state = 312
+		}
+		YG1 = {
+			set_cosmetic_tag = JNR_KNDMG
+			transfer_state = 706
+			transfer_state = 303
+			transfer_state = 707
+			transfer_state = 708
+			transfer_state = 709
+			transfer_state = 701
+			transfer_state = 705
+			transfer_state = 302
+			transfer_state = 306
+			transfer_state = 702
+			transfer_state = 703
+			transfer_state = 704
+			transfer_state = 700
+		}
+		SNC = {
+			transfer_state = 304
+			transfer_state = 305
+			transfer_state = 306
+			transfer_state = 300
+			transfer_state = 301			
+		}
+		NMJ = {
+			transfer_state = 316
+			transfer_state = 317
+			transfer_state = 318
+		}
+		WNS = {
+			transfer_state = 322
+			add_state_core = 322
+		}
+		DAG = {
+			transfer_state = 314
+			add_state_core = 314
+			transfer_state = 299
+		}
+		NAJ = {
+			transfer_state = 295
+			add_state_core = 295
+		}
+		SSR = {
+			transfer_state = 293
+			transfer_state = 735
+			transfer_state = 736
+		}
+		IMS = {
+			transfer_state = 319
+			add_state_core = 319
+		}
+		NMW = {
+			transfer_state = 315
+			add_state_core = 315
+		}
+		HWA = {
+			transfer_state = 307
+			add_state_core = 307
+		}
+		JRC={
+			transfer_state = 294
+			add_state_core = 294
+			transfer_state = 309
+			add_state_core = 309
+			transfer_state = 311
+			add_state_core = 311
+			transfer_state = 308
+			add_state_core = 308
+		}
+		BGB = {
+			transfer_state = 320
+			transfer_state = 321
+			add_state_core = 320
+			add_state_core = 321
+		}
+		HPG = {
+			transfer_state = 297
+			add_state_core = 297
+			transfer_state = 296
+			add_state_core = 296
+		}
+		KCG = {
+			transfer_state = 313
+			add_state_core = 313
+		}
+		JSG = {
+			transfer_state = 298
+			add_state_core = 298
+		}
+		GSN = {
+			transfer_state = 710
+			add_state_core = 710
+		}
+	}
+}
 
 country_event = { 
 	id = jnr_event.523
@@ -273,6 +455,111 @@ country_event = {
 	immediate = {
 		ROOT = {
 			load_oob = JNR_focus_3
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.527 #비대위 자동중점 - 비대위체제전환
+	title = jnr_event.527.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.527.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_SET_THE_PARTY_LEADER
+			load_oob = JNR_focus_4
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.528 #비대위 자동중점 - 지역방위군과접촉
+	title = jnr_event.528.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.528.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_CONTACT_LOCAL_DEFENCE_ARMY
+			load_oob = JNR_focus_5
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.529 #비대위 자동중점 - 친노대숙청
+	title = jnr_event.529.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.529.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_PURGE_PRO_ROH_ENABLE
+			load_oob = JNR_focus_6
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.530 #비대위 자동중점 - 친노대숙청
+	title = jnr_event.530.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.530.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_ANNEX_YG1_ENABLE
+			load_oob = JNR_focus_7
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.531 #비대위 자동중점 - 동부군관구 해산 로딩
+	title = jnr_event.531.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.531.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_PUSHING_AHEAD_WEST_ARMY_MILITARY_GOVERNMENT_IN_SOUTH_GYEONGNAM_PROVINCES_COUNTRY_INDEPENDENCE
+			load_oob = JNR_focus_8
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.532 #비대위 자동중점 - 최후의 결정 중점 로딩
+	title = jnr_event.532.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.532.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_NEW_LEADER_ENABLE
+			load_oob = JNR_focus_9
+		}
+	}
+}
+country_event = { 
+	id = jnr_event.533 #비대위 자동중점 - 군대해산 중점
+	title = jnr_event.533.t
+	picture = GFX_report_event_tae_event
+    desc = jnr_event.533.d
+
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = JNR_ARMED_FORCE_UNJI_ENABLED
+			load_oob = JNR_focus_10
 		}
 	}
 }

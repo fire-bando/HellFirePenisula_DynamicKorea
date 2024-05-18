@@ -1,0 +1,19 @@
+state={
+	id=737
+	name="STATE_737"
+	history={
+		owner = JN1
+		add_core_of = JN1
+		buildings = {
+			dockyard = 1
+			infrastructure = 2
+		}
+	}
+	provinces={
+		848 1134 2196 6407 7423 14806 14832 14836 14850 14857 14878 
+	}
+	manpower=400
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

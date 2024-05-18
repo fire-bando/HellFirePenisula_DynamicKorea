@@ -5,7 +5,7 @@
  JNR_new_sunshine_policy:0 "새로운 햇볕 정책"
  JNR_einig_waterland:0 "우리 민족의 국가 재건"
  JNR_check_the_army:0 "군대 확인"
- JNR_contact_with_western_army:0 "서부방면군 군정지역 합병"
+ JNR_contact_with_western_army:0 "동부급반군단 군정지역 합병"
  JNR_new_expo_at_jeolla:0 "새로운 엑스포 계획"
  JNR_honam_develop_theory:0 "호남발전론"
  JNR_suncheon_east_provincial_government:0 "순천 동부청사 설립"
@@ -123,8 +123,8 @@
  JNR_negotiate_with_namhae_desc:0 "남해안 국가들과 영토 통합을 위한 협상을 진행합니다." 
  JNR_yeosu_namhae_integration:0 "여수-남해 통합시대"  
  JNR_yeosu_namhae_integration_desc:0 "여수와 남해안을 아우르는 새로운 시대를 열어갑니다."
- JNR_disband_western_army:0 "서부방면군 해산"
- JNR_disband_western_army_desc:0 "경상남도에 주둔하는 서부방면군을 해산하고 지역 통제권을 장악합니다."
+ JNR_disband_western_army:0 "동부급반군단 해산"
+ JNR_disband_western_army_desc:0 "경상남도에 주둔하는 동부급반군단을 해산하고 지역 통제권을 장악합니다."
  JNR_our_future:0 "우리의 미래"
  JNR_our_future_desc:0 "전라인민공화국의 밝은 내일을 향해 전진합니다." 
  JNR_unavoidable_war:0 "피할 수 없는 전쟁"
@@ -152,6 +152,11 @@
  JNR_suncheon_dream:0 "순천드림"
  JNR_suncheon_dream_desc:0 "홍통 드림은 이제 사라졌습니다, 그 자리를 이을 순천드림을 소개합니다"
  JNR_ultimatum_for_north_small_country:0 "북부 소국에게 최후통첩"
+ JNR_big_stephan_organ:0 "비대위 설치"
+ JNR_contact_local_defence_army:0 "지역방위군과의 접촉"
+ JNR_purge_pro_roh:0 "친노계 기강잡기"
+ JNR_check_the_sar_hongtong:0 "특별행정구 병합"
+
 
  #########
  ## SMS ##

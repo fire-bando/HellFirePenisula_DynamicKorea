@@ -1,0 +1,19 @@
+state={
+	id=738
+	name="STATE_738"
+	history={
+		owner = JN1
+		add_core_of = JN1
+		add_core_of = AIR
+		buildings = {
+			dockyard = 3
+		}
+	}
+	provinces={
+		1146 2160 9128 14745 14759 14767 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

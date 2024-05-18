@@ -1,0 +1,5 @@
+
+focus = {
+    current = "JNR_contact_local_defence_army"
+    Progress = 0
+}   

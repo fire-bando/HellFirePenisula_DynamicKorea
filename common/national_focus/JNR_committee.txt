@@ -656,7 +656,7 @@ focus_tree = {
     }
 
     focus = {
-        id = JNR_disband_western_army #서부방면군 해산
+        id = JNR_disband_western_army #동부급반군단 해산
         icon = GFX_goal_generic_occupy_states_ongoing_war
         x = 6
         y = 1

@@ -620,9 +620,9 @@
  MSN_ADJ: "무산강철"
  MSN_DEF: "무산강철"
 
- MJJ: "무진장 코뮌"
- MJJ_ADJ: "무진장코뮌"
- MJJ_DEF: "무진장코뮌"
+ NMJ: "무진장 농민봉기"
+ NMJ_ADJ: "무진장코뮌"
+ NMJ_DEF: "무진장코뮌"
 
  GGO: "꼬맑슈타트"
  GGO_ADJ: "꼬맑슈타트"
@@ -652,6 +652,42 @@
  SSR_ADJ:0 "슨상청"
  SSR_DEF:0 "슨상청"
 
- NHH:0 "농민협동조합"
- NHH_ADJ:0 "농협"
- NHH_DEF:0 "농협"
+ JRC:0 "전라인민공화국 1군단"
+ JRC_ADJ:0 "전라인민공화국 1군단"
+ JRC_DEF:0 "전라인민공화국 1군단"
+
+ WNS:0 "완주군벌"
+ WNS_ADJ:0 "완주군벌"
+ WNS_DEF:0 "완주군벌"
+
+ BGB:0 "부안군벌"
+ BGB_ADJ:0 "부안군벌"
+ BGB_DEF:0 "부안군벌"
+
+ NAJ:0 "나주군벌"
+ NAJ_ADJ:0 "나주군벌"
+ NAJ_DEF:0 "나주군벌"
+
+ IMS:0 "임실 상공회의소"
+ IMS_ADJ:0 "임실 상공회의소"
+ IMS_DEF:0 "임실 상공회의소"
+
+ HWA:0 "화순군벌"
+ HWA_ADJ:0 "화순군벌"
+ HWA_DEF:0 "화순군벌"
+ 
+ HPG:0 "함평 적위대"
+ HPG_DEF:0 "함평 적위대"
+ HPG_ADJ:0 "함평"
+ 
+ JSG:0 "장성 민중해방군"
+ JSG_DEF:0 "장성 민중해방군"
+ JSG_ADJ:0 "장성"
+ 
+ GSN:0 "광산 정무위원회"
+ GSN_DEF:0 "광산 정무위원회"
+ GSN_ADJ:0 "광산"
+ 
+ KCG:0 "고창 혁명위원회"  
+ KCG_DEF:0 "고창 혁명위원회"
+ KCG_ADJ:0 "고창"

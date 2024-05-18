@@ -54,11 +54,24 @@ GGO = "countries/South Korea.txt"
 DAG = "countries/South Korea.txt"
 SSR = "countries/South Korea.txt"
 #GGO = "countries/South Korea.txt"
+WNS = "countries/South Korea.txt" #완주군벌
+BGB = "countries/South Korea.txt" #부안군벌
+SNH = "countries/South Korea.txt" #순창군벌
+IMS = "countries/South Korea.txt" #임실민병대
+NMW = "countries/South Korea.txt" #중부군관구
+JRC = "countries/South Korea.txt" #농민군
+NAJ = "countries/South Korea.txt" #나주군벌
+HWA = "countries/South Korea.txt" #화순군벌
+HPG = "countries/South Korea.txt" #함평군벌
+JSG = "countries/South Korea.txt" #장성군벌
+GSN = "countries/South Korea.txt" #광산군벌
+YKG = "countries/South Korea.txt" #영광군벌
+KCG = "countries/South Korea.txt" #고창군벌
 
 #남조선 괴뢰도당
 ROK = "countries/South Korea.txt"
 YG1 = "countries/South Korea.txt"
-MJJ = "countries/South Korea.txt"
+NMJ = "countries/South Korea.txt"
 HMC = "countries/South Korea.txt"
 AIR = "countries/South Korea.txt"
 KRU = "countries/South Korea.txt"
