@@ -1,3 +1,4 @@
+
 state={
 	id=710
 	name="STATE_710"
@@ -6,20 +7,18 @@ state={
 		owner = JNR
 		add_core_of = JNR
 		buildings = {
-			industrial_complex = 4
-			air_base = 5
-			arms_factory = 2
-			infrastructure = 9
+			industrial_complex = 1
+			infrastructure = 7
 
 		}
 
 	}
 
 	provinces={
-		3168 4433 4873 6463 6647 6926 14748 14772 14779 14786 14805 
+		3168 6463 6926 14772 14779 14786 
 	}
 	manpower=404700
-	state_category = megalopolis
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

@@ -120,6 +120,37 @@ country_event = {
 	
 	option = {
 		name = jnr_event.5.a
+			JNR = {
+				every_owned_state = {
+					limit = {
+						NOT = {
+							OR = {
+								state = 60
+								state = 710
+							}
+						}
+					}
+					set_demilitarized_zone = yes
+				}
+			}
+		hidden_effect = {
+			HDG = {
+				set_cosmetic_tag = HDG_idpdce
+				transfer_state = 291
+				load_oob = HDG_indpce
+				declare_war_on = {
+					target = JN1
+					type = independence_wargoal
+				}
+			}
+			AIR = {
+				declare_war_on = {
+					target = JN1
+					type = take_state_focus
+					generator = { 738 }
+				}
+			}
+		}
 	}
 }
 country_event = { 

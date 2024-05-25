@@ -1,0 +1,25 @@
+state={
+	id=743
+	name="STATE_743"
+
+	history={
+		owner = JNR
+		add_core_of = JNR
+		buildings = {
+			industrial_complex = 4
+			air_base = 5
+			arms_factory = 2
+			infrastructure = 9
+
+		}
+
+	}
+
+	provinces={
+		4873 14748 
+	}
+	manpower=80832
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

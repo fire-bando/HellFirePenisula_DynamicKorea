@@ -237,7 +237,8 @@
  
  #광주
  STATE_60:0 "광주" #1.435m
- STATE_710:0 "광산-송정" #1.435m
+ STATE_710:0 "광산" #1.435m
+ STATE_743:0 "송정" #80K
  
  #Gangwon Province
  STATE_7:0 "춘천" #285k

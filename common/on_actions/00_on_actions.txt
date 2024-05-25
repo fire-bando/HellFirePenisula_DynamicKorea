@@ -666,7 +666,7 @@ on_actions = {
 					}
 				}
 				JNR = {
-					annex_country = { #스까국 행정력이 미치지 않는곳 혹은 묵인한곳을 고로시하는거다
+					annex_country = { #신안홍어를잡아라
 						target = SIN
 						transfer_troops = yes
 					}
