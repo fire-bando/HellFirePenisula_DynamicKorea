@@ -282,9 +282,9 @@
  ILS_DEF:0 "일산그라드"
  ILS_ADJ:0 "일산그라드"
  
- INC:0 "마계"
- INC_DEF:0 "마계"
- INC_ADJ:0 "마계"
+ ICH:0 "마계"
+ ICH_DEF:0 "마계"
+ ICH_ADJ:0 "마계"
 
  YDG:0 "영아일랜드"
  YDG_ADJ:0 "마계 영도"

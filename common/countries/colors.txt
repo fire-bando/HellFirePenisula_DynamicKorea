@@ -114,7 +114,7 @@ DON = {	color = rgb { 138 122 125 }	color_ui = rgb { 138 122 125 }	}
 SCJ = {	color = rgb { 245 227 230 }	color_ui = rgb { 245 227 230 }	}
 UNF = {	color = rgb { 179 97 51 }	color_ui = rgb { 179 97 51 }	}
 ILS = {	color = rgb { 100 110 120 }	color_ui = rgb { 100 110 120 }	}
-INC = {	color = rgb { 10 10 30 }	color_ui = rgb { 10 10 30 }	}
+ICH = {	color = rgb { 10 10 30 }	color_ui = rgb { 10 10 30 }	}
 DNT = {	color = rgb { 90 189 196 }	color_ui = rgb { 90 189 196 }	}
 NKA = {	color = rgb { 132 12 39 }	color_ui = rgb { 132 12 39 }	}
 SKA = {	color = rgb { 50 96 18 }	color_ui = rgb { 50 96 18 }	}

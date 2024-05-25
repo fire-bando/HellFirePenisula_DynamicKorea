@@ -343,7 +343,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_party_of_Yoon
+	id = YBJ_republic_of_Gumchal
 	icon = {
 		trigger = {
 			YBJ = {
