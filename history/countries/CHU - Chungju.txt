@@ -1,6 +1,8 @@
-capital = 245
+capital = 595
 
 oob = "standard_templates"
+
+recruit_character = CHU_kim_seon_tae
 
 # Starting tech
 set_technology = {
