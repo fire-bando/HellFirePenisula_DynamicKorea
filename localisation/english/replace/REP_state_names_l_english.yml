@@ -330,7 +330,7 @@
  STATE_596:0 "동량"
  STATE_597:0 "교현-안림"
  STATE_598:0 "금가"
- STATE_599:0 "중앙탑"
+ STATE_599:0 "가금"
  STATE_600:0 "목행-용탄"
  STATE_601:0 "달천"
  STATE_602:0 "노은"
@@ -347,6 +347,9 @@
  STATE_731:0 "봉방"
  STATE_732:0 "연수(충주)"
  STATE_733:0 "소태"
+ STATE_737:0 "탑평"
+ STATE_738:0 "용전-검단"
+ STATE_739:0 "루암"
 
  #North Gyeongsang Province
  STATE_3:0 "안동" #170k

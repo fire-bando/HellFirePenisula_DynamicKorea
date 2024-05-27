@@ -13772,7 +13772,7 @@
 13771;209;121;250;land;false;hills;1
 13772;243;64;205;land;false;mountain;1
 13773;181;143;182;land;false;mountain;1
-13774;158;134;251;land;false;plains;1
+13774;158;134;251;land;false;urban;1
 13775;225;240;80;land;false;urban;1
 13776;198;240;216;land;false;mountain;1
 13777;100;194;231;land;false;mountain;1
@@ -17743,3 +17743,5 @@
 17742;187;106;70;land;false;urban;1
 17743;145;112;135;land;false;hills;1
 17744;210;22;188;land;false;hills;1
+17745;50;218;152;land;false;urban;0
+17746;54;233;94;land;false;hills;0

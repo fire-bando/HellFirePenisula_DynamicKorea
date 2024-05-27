@@ -1,0 +1,19 @@
+state={
+	id=737
+	name="STATE_737"
+	history={
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}	provinces={
+		7158 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
