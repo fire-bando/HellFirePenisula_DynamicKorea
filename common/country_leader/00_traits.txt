@@ -1,5 +1,14 @@
 leader_traits = {
-	
+	yoon_ka = {
+		random = no
+	}
+	yoon_dog = {
+		random = no
+		custom_modifier_tooltip = monthly_fucker_popular_increasing
+	}
+	killer_bosu = {
+		random = no
+	}
 	star_of_republic = {
 		random = no
 		communism_acceptance = 10
@@ -32,14 +41,6 @@ leader_traits = {
 		hidden_modifier = {
 			weekly_manpower = 500
 		}
-	}
-
-	not_popular_leader = { #나중에 dynamic_modifier로 수정할것!!
-		random = no
-		political_power_factor = -0.5 
-		political_power_factor = 0.25
-		ai_desired_divisions_factor = 0.75
-		command_power_gain = -0.25
 	}
 	
 	dictator = {

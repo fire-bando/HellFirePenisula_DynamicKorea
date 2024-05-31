@@ -16,6 +16,6 @@ focus_tree = {
 	}
 	default = no
     focus = {
-        id = heil
+        id = CLIQUE_broked_nation
     }
 }
