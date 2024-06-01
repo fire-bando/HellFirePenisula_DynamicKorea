@@ -120,19 +120,10 @@ country_event = {
 	
 	option = {
 		name = jnr_event.5.a
-			JNR = {
-				every_owned_state = {
-					limit = {
-						NOT = {
-							OR = {
-								state = 60
-								state = 710
-							}
-						}
-					}
-					set_demilitarized_zone = yes
-				}
-			}
+		ROOT = {
+			end_puppet = JN1
+			remove_from_faction = JN1
+		}
 		hidden_effect = {
 			HDG = {
 				set_cosmetic_tag = HDG_idpdce
