@@ -26,6 +26,20 @@ bookmarks = {
 			
 			}
 		}
+
+		"BUS"={
+			history = "OTHER_BREAKED_DESC"
+			ideology = fascism
+			ideas ={ }
+			focuses  { }
+		}
+
+		"PYO" = {
+			history="OTHER_BREAKED_DESC"
+			ideology = democratic
+			ideas = { }
+			focuses = { }
+		}
         
         "JNR"={
 			history = "OTHER_BREAKED_DESC"
