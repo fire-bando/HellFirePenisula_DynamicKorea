@@ -1,0 +1,23 @@
+capital = 293
+
+
+oob = SSR_2023
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2020.4.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 7
+	neutrality = 93
+}

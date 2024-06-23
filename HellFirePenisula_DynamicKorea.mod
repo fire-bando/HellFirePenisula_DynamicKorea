@@ -51,6 +51,6 @@ dependencies={
 	"Korean Language (Europa)"
 }
 picture="thumbnail.png"
-supported_version="1.14.4"
-path="mod/HellFirePenisula_DynamicKorea"
+supported_version="1.14.*"
+path="C:/Users/ieonh/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/HellFirePenisula_DynamicKorea"
 remote_file_id="3214279131"

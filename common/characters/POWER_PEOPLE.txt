@@ -8,7 +8,7 @@ characters={
         }
         country_leader={
             ideology=gen_nazism
-            expire="1960.8.16"
+            expire="8192.2.8"
         }
     }
     YBJ_yoon_daddy={
@@ -20,7 +20,10 @@ characters={
         }
         country_leader={
             ideology=gumchal_dokjae
-            expire="1960.8.16"
+            traits = {
+                yoon_dog
+            }
+            expire="8192.2.8"
         }
     }
     SPO_donghun={
@@ -32,7 +35,7 @@ characters={
         }
         country_leader={
             ideology=gumchal_dokjae
-            expire="1960.8.16"
+            expire="8192.2.8"
         }
     }
     GNG_kim_geonhee={
@@ -44,7 +47,7 @@ characters={
         }
         country_leader={
             ideology=gumchal_dokjae
-            expire="1960.8.16"
+            expire="8192.2.8"
         }
     }
     AHN_cheol_su={
@@ -56,7 +59,7 @@ characters={
         }
         country_leader={
             ideology=gumchal_dokjae
-            expire="1960.8.16"
+            expire="8192.2.8"
         }
     }
     PPP_jun_seok = { 

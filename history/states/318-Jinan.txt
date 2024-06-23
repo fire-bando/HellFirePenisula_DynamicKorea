@@ -3,6 +3,7 @@ state={
 	name="STATE_318"
 	history={
 		owner = JNR
+		add_core_of = NMJ
 		add_core_of = JNR
 		victory_points = { 14427 1 }
 		buildings = {

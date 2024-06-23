@@ -1,0 +1,21 @@
+state={
+	id=741
+	name="STATE_741"
+	provinces={
+		4027 5426 6392 14164 14185 14204 
+	}
+	history={
+		owner = PJH
+		add_core_of = PJH
+		victory_points = {
+			5584 30 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	state_category=town
+	manpower=4300
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

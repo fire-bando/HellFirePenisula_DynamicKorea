@@ -6,17 +6,21 @@ state={
 	history={
 		owner = PJH
 		add_core_of = PJH
-        victory_points = { 5584 30 }
+		victory_points = {
+			5584 30 
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 5
 			industrial_complex = 6
 			air_base = 5
+
 		}
+
 	}
 
 	provinces={
-		1076 1398 1884 2383 2761 3758 4027 4626 5426 5584 5659 6077 6392 6920 7119 7779 8099 8624 8647 9378 9434 14164 14179 14182 14185 14196 14204 14212 14214 14243 14247 14254 14261 14266 14273 
+		1076 1398 2383 3758 5584 5659 6077 7119 7779 8099 8624 9378 14179 14182 14212 14243 14247 14254 14261 14266 14273 
 	}
 	manpower=420000
 	buildings_max_level_factor=1.000

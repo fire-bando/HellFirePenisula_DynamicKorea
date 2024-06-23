@@ -1,0 +1,151 @@
+add_namespace = gb_jinbo
+
+country_event = { #time_is_going focus's event ( wrote about the party start a civilwar )
+	id = gb_jinbo.1
+	title = gb_jinbo.1.t
+	picture = GFX_report_event_tae_event
+    desc = gb_jinbo.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gb_jinbo.1.a
+		if = {
+			limit = {
+				EOT = {
+					is_ai = no
+				}
+			}
+			add_ideas = EOT_revolutionary_war
+			681 = {
+				create_unit = {
+					division = "name = \"박정희 독재 우상화 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 3
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+			271 = {
+				create_unit = {
+					division = "name = \"검찰독재 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 3
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+			715 = {
+				create_unit = {
+					division = "name = \"반 전두환 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 1"
+					owner = EOT
+					count = 3
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+		}
+		else {
+			681 = {
+				create_unit = {
+					division = "name = \"박정희 독재 우상화 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+			271 = {
+				create_unit = {
+					division = "name = \"검찰독재 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
+					owner = EOT
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+			715 = {
+				create_unit = {
+					division = "name = \"반 전두환 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 1"
+					owner = EOT
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					country_score = {
+						base = 3
+						modifier = {
+							factor = 2
+							tag = TNK
+						}
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			load_oob = EOT_focus_1 #EOT_for_the_people will be start
+		}
+	}
+}
+
+country_event = { #EOT_for_the_people focus's event ( wrote about trade union has been formed at our occupation zone (dalseong district) )
+	id = gb_jinbo.2
+	title = gb_jinbo.2.t
+	picture = GFX_report_event_tae_event
+    desc = gb_jinbo.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gb_jinbo.2.a
+		hidden_effect = {
+			set_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
+			load_oob = EOT_focus_2 #EOT_for_the_worker will be start
+		}
+	}
+}
+
+country_event = { #EOT_for_the_worker focus's event ( wrote about occupation zone's farmers aren't wealthy )
+	id = gb_jinbo.3
+	title = gb_jinbo.3.t
+	picture = GFX_report_event_tae_event
+    desc = gb_jinbo.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gb_jinbo.3.a
+		hidden_effect = {
+			set_country_flag = EOT_FARMER_DEMAND_HELP
+			load_oob = EOT_focus_3 #EOT_grain_management_act_for_farmer will be start
+		}
+	}
+}

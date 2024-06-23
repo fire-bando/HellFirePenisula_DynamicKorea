@@ -26,3 +26,6 @@ set_popularities = {
 	feminism = 18
 	neutrality = 4
 }
+create_faction = SKKA_FACT
+add_to_faction = BRO
+add_to_faction = YDG

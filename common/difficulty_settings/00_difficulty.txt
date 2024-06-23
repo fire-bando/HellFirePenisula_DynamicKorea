@@ -1,0 +1,14 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_jnr"
+		modifier = diff_strong_ai_generic
+		countries = { JNR JBR YG1 SNC SSR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_pus"
+		modifier = diff_strong_ai_generic
+		countries = { BUS SBU }
+		multiplier = 2.0
+	}
+}

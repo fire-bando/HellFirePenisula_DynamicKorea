@@ -119,6 +119,13 @@ ideologies = {
 	socialism = {
 
 		types = {
+			china_special_socialism_idea = {
+
+				color = { 170 0 0 }
+
+				can_be_randomly_selected = no
+
+			}
 			socialism_subtype = {}
 			NL = {}
 			jongbuk = {}

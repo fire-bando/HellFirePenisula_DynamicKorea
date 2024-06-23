@@ -42,7 +42,7 @@ if = {
 }
 
 create_faction = JEOLLA_FACTION
-add_to_faction = PCS
+add_to_faction = SNC
 add_to_faction = SBU
 
 set_convoys = 20

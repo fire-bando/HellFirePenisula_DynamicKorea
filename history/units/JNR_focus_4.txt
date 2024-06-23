@@ -1,0 +1,5 @@
+﻿
+focus = {
+    current = "JNR_big_stephan_organ"
+    Progress = 0
+}   

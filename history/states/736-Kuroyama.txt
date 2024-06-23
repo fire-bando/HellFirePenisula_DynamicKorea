@@ -5,8 +5,9 @@ state={
 		7967 15011 15030 15534 15535 
 	}
 	history = {
-		owner = SSR
+		owner = JNR
 		add_core_of = SSR
+    add_core_of = JNR
 		buildings = {
 			7967 = {
 				naval_base = 1

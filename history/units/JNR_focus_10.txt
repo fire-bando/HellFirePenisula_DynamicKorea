@@ -1,0 +1,5 @@
+
+focus = {
+    current = "JNR_remove_army"
+    Progress = 0
+}   

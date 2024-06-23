@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = JNR
+		add_core_of = GGO
 		add_core_of = JNR
 		victory_points = {
 			9394 5 

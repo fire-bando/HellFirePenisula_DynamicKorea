@@ -1,4 +1,5 @@
-﻿focus = {
+﻿
+focus = {
     current = "EOT_grain_management_act_for_farmer"
     Progress = 1
 }   

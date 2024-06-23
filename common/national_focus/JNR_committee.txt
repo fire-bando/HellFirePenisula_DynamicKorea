@@ -1,10 +1,10 @@
 focus_tree = {
-	id = JNR_focus
+	id = JNR_committee_focus
 	continuous_focus_position = { x = 0 y = 1560 }
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 0
 			tag = JNR
 		}
 	}
@@ -313,7 +313,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JNR_reverse_the_independent_guarantee_for_PCS
+		id = JNR_reverse_the_independent_guarantee_for_SNC
 		x = 1
 		y = 1
 		cost = 5
@@ -321,15 +321,15 @@ focus_tree = {
 		prerequisite = { focus = JNR_emergency_command_for_hongtong_economy }
 		relative_position_id = JNR_emergency_command_for_hongtong_economy
 		completion_reward = {
-			remove_from_faction = PCS
+			remove_from_faction = SNC
 			every_state = {
 				limit = {
-					is_core_of = PCS
+					is_core_of = SNC
 				}
 				add_core_of = JNR
 			}
 			declare_war_on = {
-				target = PCS
+				target = SNC
 				type = puppet_wargoal_focus
 			}
 		}
@@ -362,7 +362,7 @@ focus_tree = {
 		prerequisite = { focus = JNR_stop_the_YG1_CAPITALISM }
 		relative_position_id = JNR_stop_the_YG1_CAPITALISM
 		completion_reward = {
-			custom_effect_tooltip = PRINCESS_DO_NOT_NEED_A_PRINCE
+			custom_effect_tooltip = PRICHESS_DO_NOT_NEED_A_PRICHE
 			hidden_effect = {
 				ROOT = {
 					transfer_state = 707
@@ -395,7 +395,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		prerequisite = { focus = JNR_stop_the_YG1_CAPITALISM }
-		prerequisite = { focus = JNR_reverse_the_independent_guarantee_for_PCS }
+		prerequisite = { focus = JNR_reverse_the_independent_guarantee_for_SNC }
 		relative_position_id = JNR_agriculture_centralisation
 		available = {
 			num_of_factories > 85
@@ -413,7 +413,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		prerequisite = { focus = JNR_stop_the_YG1_CAPITALISM }
-		prerequisite = { focus = JNR_reverse_the_independent_guarantee_for_PCS }
+		prerequisite = { focus = JNR_reverse_the_independent_guarantee_for_SNC }
 		relative_position_id = JNR_agriculture_centralisation
 		available = {
 			num_of_factories > 70
@@ -656,7 +656,7 @@ focus_tree = {
     }
 
     focus = {
-        id = JNR_disband_western_army #서부방면군 해산
+        id = JNR_disband_western_army #동부급반군단 해산
         icon = GFX_goal_generic_occupy_states_ongoing_war
         x = 6
         y = 1

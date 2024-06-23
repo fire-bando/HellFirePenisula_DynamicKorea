@@ -54,6 +54,10 @@ defined_text = {
 		localization_key = NL
 	}
 	text = {
+		trigger = { has_country_leader_ideology = china_special_socialism_idea }
+		localization_key = china_special_socialism_idea
+	}
+	text = {
 		localization_key = socialism
 	}
 }

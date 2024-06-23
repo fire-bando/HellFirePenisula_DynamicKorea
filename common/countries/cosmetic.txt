@@ -38,6 +38,10 @@ HAMYANG_COMMITTEE = {
 	color = rgb { 227 48 82 }
 	color_ui = rgb { 227 48 82 }
 }
+JNR_KNDMG = {
+	color = rgb { 227 48 82 }
+	color_ui = rgb { 227 48 82 }
+}
 GEOCHANG_COMMITTEE = {
 	color = rgb { 227 48 82 }
 	color_ui = rgb { 227 48 82 }

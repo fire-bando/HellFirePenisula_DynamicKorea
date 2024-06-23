@@ -1,0 +1,40 @@
+﻿SSR_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { SSR }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%dth Seungsang's Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Seungsang's Division 'Heuksando'" }
+		2 = { "%dnd Seungsang's Division 'Mokpo'" }
+		3 = { "%drd Seungsang's Division 'Gwangju'" }
+		4 = { "%dth Seungsang's Division" }
+	}
+}
+
+SSR_GAR_01 = 
+{
+	name = "Armed Police Force"
+
+	for_countries = { SSR }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%dth Bangwidae"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Mokpo Maritime Defense Force" }
+		2 = { "Mokpo Haesang Bangwidae" }
+		2 = { "Mokpo Seunsang Bangwidae" }
+	}
+}

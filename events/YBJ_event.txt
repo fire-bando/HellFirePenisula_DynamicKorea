@@ -1,6 +1,6 @@
 add_namespace = YBJ_event
 
-# New ace has been promoted
+
 country_event = { #안철수의 간보기 - 빤쓰런
 	id = YBJ_event.1
 	title = YBJ_event.1.t

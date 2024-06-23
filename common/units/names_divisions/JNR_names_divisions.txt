@@ -36,24 +36,37 @@ JNR_GAR_01 =
 
 	division_types = { "infantry" }
 
-	fallback_name = "%dth Jeolla People's Liberate Division"
+	fallback_name = "%dth Jeolla People's Armed Police Force"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Jeolla People's Liberate Division 'Democratization'" }
-		2 = { "%dnd Jeolla People's Liberate Division 'Anti-Tank'" }
-		3 = { "%drd Jeolla People's Liberate Division 'Love'" }
-		4 = { "%dth Jeolla People's Liberate Division" }
-		5 = { "%dth Jeolla People's Liberate Division 'Revolution'" }
-		6 = { "%dth Jeolla People's Liberate Division ''" }
-		7 = { "%dth Jeolla People's Liberate Division 'People'" }
-		8 = { "%dth Jeolla People's Liberate Division 'Free'" }
-		9 = { "%dth Jeolla People's Liberate Division 'Rodong'" }
-		10 = { "%dth Jeolla People's Liberate Division" }
-		11 = { "%dth Jeolla People's Liberate Division 'Daejung Kim'" }
-		12 = { "%dth Jeolla People's Liberate Division 'Victory'" }
-		100 = { "Capital Infantry Division" }
+		1 = { "%dst Jeolla People's Armed Police Force" }
+		2 = { "%dnd Jeolla People's Armed Police Force" }
+		3 = { "%drd Jeolla People's Armed Police Force" }
+		4 = { "%dth Jeolla People's Armed Police Force" }
+	}
+}
+
+JNR_MAR_01 = 
+{
+	name = "Marine Corps"
+
+	for_countries = { JNR }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%dth Jeolla People's Marine Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Jeolla People's Marine Division 'Heuksan'" }
+		2 = { "%dnd Jeolla People's Marine Division 'Haui'" }
+		3 = { "%drd Jeolla People's Marine Division 'Red Fish'" }
+		4 = { "%dth Jeolla People's Marine Division 'Black Fish'" }
+		4 = { "%dth Jeolla People's Marine Division 'Blue Fish'" }
 	}
 }

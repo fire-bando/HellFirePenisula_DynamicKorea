@@ -2,19 +2,18 @@ state={
 	id=738
 	name="STATE_738"
 	history={
-		owner = CHU
-		add_core_of = CHU
+		owner = JN1
+		add_core_of = JN1
+		add_core_of = AIR
 		buildings = {
-			infrastructure = 6
-
+			dockyard = 3
 		}
-
 	}
 	provinces={
-		13774 17745 
+		1146 2160 9128 14745 14759 14767 
 	}
-	manpower=50000
-	state_category=city
+	manpower=2000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category=town
 }

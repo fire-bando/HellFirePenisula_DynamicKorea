@@ -4,29 +4,29 @@
 
  #Chagang Province
  STATE_46:1 "강계" #250k
- STATE_206:0 "Ragrim" #35k
- STATE_207:0 "Songgan" #90k
- STATE_208:0 "Wiwon" #60k
- STATE_209:0 "Sijung" #40k
- STATE_210:0 "Changgang" #55k
- STATE_211:0 "Manpo" #115k
- STATE_212:0 "Hwapyong" #40k
- STATE_213:0 "Chasong" #50k
- STATE_214:0 "Chunggang" #40k
- STATE_215:0 "Ryongrim" #35k
- STATE_216:0 "Chonchon" #105k
- STATE_217:0 "Tongsin" #45k
- STATE_218:0 "Huichon" #170k
- STATE_219:0 "Songwon" #40k
- STATE_220:0 "Kopung" #30k
- STATE_221:0 "Usi" #45k
- STATE_222:0 "Chosan" #45k
+ STATE_206:0 "랑림" #35k
+ STATE_207:0 "성간" #90k
+ STATE_208:0 "위원" #60k
+ STATE_209:0 "시중" #40k
+ STATE_210:0 "장강" #55k
+ STATE_211:0 "만포" #115k
+ STATE_212:0 "화평" #40k
+ STATE_213:0 "자성" #50k
+ STATE_214:0 "중강" #40k
+ STATE_215:0 "룡림" #35k
+ STATE_216:0 "전천" #105k
+ STATE_217:0 "동신" #45k
+ STATE_218:0 "희천" #170k
+ STATE_219:0 "송원" #40k
+ STATE_220:0 "고풍" #30k
+ STATE_221:0 "우시" #45k
+ STATE_222:0 "초산" #45k
 
  #Kangwon Province
  STATE_34:1 "원산" #365k
- STATE_111:0 "Munchon" #125k
- STATE_112:0 "Chonnae" #85k
- STATE_113:0 "Poptong" #35k
+ STATE_111:0 "문천" #125k
+ STATE_112:0 "천내" #85k
+ STATE_113:0 "법동" #35k
  STATE_114:0 "안변" #95k
  STATE_115:0 "고산" #105k
  STATE_116:0 "통천" #90k
@@ -38,7 +38,7 @@
  STATE_122:0 "창도" #50k
  STATE_123:0 "김화" #55k
  STATE_124:0 "북부 철원" #60k
- STATE_125:0 "Ichon" #60k
+ STATE_125:0 "이천" #60k
  STATE_126:0 "평강" #90k
 
  #Nampo
@@ -62,55 +62,55 @@
  STATE_96:0 "경원" #105k
 
  #North Hwanghae Province
- STATE_28:1 "중앙 개성" #195k
- STATE_577:0 "북부 개성"
+ STATE_28:1 "개성" #195k
+ STATE_577:0 "개성"
  STATE_31:1 "사리원" #310k
  STATE_127:0 "송림" #130k
  STATE_128:0 "황주" #155k
  STATE_129:0 "봉산" #125k
- STATE_130:0 "Unpa" #110k
- STATE_131:0 "Rinsan" #75k
- STATE_132:0 "Yontan" #75k
- STATE_133:0 "Sohung" #100k
- STATE_134:0 "Pyongsan" #125k
- STATE_135:0 "Yonsan" #65k
- STATE_136:0 "Suan" #75k
- STATE_137:0 "Singye" #80k
- STATE_138:0 "Tosan" #65k
- STATE_139:0 "Kumchon" #70k
- STATE_140:0 "Changpung" #70k
- STATE_141:0 "Koksan" #120k
- STATE_142:0 "Sinpyong" #65k
- STATE_223:0 "Chunghwa" #75k
- STATE_224:0 "Sangwon" #95k
+ STATE_130:0 "은파" #110k
+ STATE_131:0 "린산" #75k
+ STATE_132:0 "연탄" #75k
+ STATE_133:0 "서흥" #100k
+ STATE_134:0 "평산" #125k
+ STATE_135:0 "연산" #65k
+ STATE_136:0 "수안" #75k
+ STATE_137:0 "신계" #80k
+ STATE_138:0 "토산" #65k
+ STATE_139:0 "금촌" #70k
+ STATE_140:0 "장풍" #70k
+ STATE_141:0 "곡산" #120k
+ STATE_142:0 "신평" #65k
+ STATE_223:0 "중화" #75k
+ STATE_224:0 "상원" #95k
  STATE_225:0 "승호" #85k
  
  #North Pyongan Province
  STATE_38:1 "신의주" #360k
- STATE_183:0 "Ryongchon" #135k
- STATE_184:0 "Pihyon" #110k
- STATE_185:0 "Yomju" #115k
- STATE_186:0 "Cholsan" #85k
- STATE_187:0 "Tongrim" #105k
- STATE_188:0 "Sonchon" #125k
- STATE_189:0 "Kwaksan" #100k
- STATE_190:0 "Chongju" #190k
- STATE_191:0 "Unjon" #100k
- STATE_192:0 "Pakchon" #100k
+ STATE_183:0 "룡천" #135k
+ STATE_184:0 "피현" #110k
+ STATE_185:0 "염주" #115k
+ STATE_186:0 "철산" #85k
+ STATE_187:0 "동림" #105k
+ STATE_188:0 "선천" #125k
+ STATE_189:0 "곽산" #100k
+ STATE_190:0 "정주" #190k
+ STATE_191:0 "운전" #100k
+ STATE_192:0 "박천" #100k
  STATE_193:0 "녕변" #115k
- STATE_194:0 "Taechon" #110k
- STATE_195:0 "Kusong" #195k
- STATE_196:0 "Chonma" #50k
- STATE_197:0 "Uiju" #110k
- STATE_198:0 "Sakju" #160k
- STATE_199:0 "Taegwan" #70k
- STATE_200:0 "Tongchang" #30k
- STATE_201:0 "Changsong" #25k
- STATE_202:0 "Pyoktong" #35k
- STATE_203:0 "Unsan" #105k
- STATE_204:0 "Hyangsan" #50k
- STATE_205:0 "Kujang" #140k
- STATE_371:0 "Sindo" #10k
+ STATE_194:0 "태천" #110k
+ STATE_195:0 "구성" #195k
+ STATE_196:0 "천마" #50k
+ STATE_197:0 "의주" #110k
+ STATE_198:0 "삭주" #160k
+ STATE_199:0 "대관" #70k
+ STATE_200:0 "동창" #30k
+ STATE_201:0 "창성" #25k
+ STATE_202:0 "벽동" #35k
+ STATE_203:0 "운산" #105k
+ STATE_204:0 "향산" #50k
+ STATE_205:0 "구장" #140k
+ STATE_371:0 "신도" #10k
  
  #Pyongyang
  STATE_32:1 "평양" #3m
@@ -133,74 +133,75 @@
  STATE_86:0 "백암" #70k
 
  #South Hamgyong Province
- STATE_41:1 "Changjin" #65k
- STATE_71:0 "Tanchon" #345k
- STATE_72:0 "Sinpo" #155k
- STATE_73:0 "Hamhung" #770k
- STATE_74:0 "Kumya" #210k
- STATE_97:0 "Hochon" #105k
- STATE_98:0 "Riwon" #115k
- STATE_99:0 "Pukchong" #160k
- STATE_100:0 "Toksong" #100k
- STATE_101:0 "Hongwon" #145k
- STATE_102:0 "Ragwon" #60k
- STATE_103:0 "Hamju" #135k
- STATE_104:0 "Yonggwang" #105k
- STATE_105:0 "Sinhung" #105k
- STATE_106:0 "Pujon" #50k
- STATE_107:0 "Chongpyong" #180k
- STATE_108:0 "Kowon" #95k
- STATE_109:0 "Sudong" #95k
- STATE_110:0 "Yodok" #40k
+ STATE_41:1 "장진" #65k
+ STATE_71:0 "단천" #345k
+ STATE_72:0 "신포" #155k
+ STATE_73:0 "함흥" #770k
+ STATE_74:0 "금야" #210k
+ STATE_97:0 "허천" #105k
+ STATE_98:0 "리원" #115k
+ STATE_99:0 "북청" #160k
+ STATE_100:0 "덕성" #100k
+ STATE_101:0 "홍원" #145k
+ STATE_102:0 "락원" #60k
+ STATE_103:0 "함주" #135k
+ STATE_104:0 "영광" #105k
+ STATE_105:0 "신흥" #105k
+ STATE_106:0 "부전" #50k
+ STATE_107:0 "정평" #180k
+ STATE_108:0 "고원" #95k
+ STATE_109:0 "수동" #95k
+ STATE_110:0 "요덕" #40k
 
  #South Hwanghae Province
  STATE_30:1 "해주" #275k
  STATE_143:0 "남청단" #145k
  STATE_574:0 "북청단"
- STATE_144:0 "Pyoksong" #90k
- STATE_145:0 "Sinwon" #85k
- STATE_146:0 "중앙 Yonan" #160k
- STATE_575:0 "북부 Yonan"
+ STATE_144:0 "벽성" #90k
+ STATE_145:0 "신원" #85k
+ STATE_146:0 "중앙 연안" #160k
+ STATE_575:0 "북부 연안"
  STATE_147:0 "북부 배천" #160k
  STATE_576:0 "중앙 배천"
- STATE_148:0 "Pongchon" #80k
- STATE_149:0 "Kangryong" #105k
- STATE_150:0 "남부 Ongjin" #155k
- STATE_573:0 "북부 Ongjin"
- STATE_151:0 "Taetan" #65k
- STATE_152:0 "Ryongyon" #90k
- STATE_153:0 "Changyon" #90k
- STATE_154:0 "Kwail" #90k
- STATE_155:0 "Songhwa" #45k
- STATE_156:0 "Samchon" #85k
- STATE_157:0 "Sinchon" #140k
- STATE_158:0 "Chaeryong" #125k
- STATE_159:0 "Anak" #125k
- STATE_160:0 "Unchon" #95k
- STATE_161:0 "Unryul" #110k
- STATE_162:0 "West Sea Islands" #10k
+ STATE_148:0 "봉천" #80k
+ STATE_149:0 "강령" #105k
+ STATE_150:0 "남부 옹진" #155k
+ STATE_573:0 "북부 옹진"
+ STATE_151:0 "태탄" #65k
+ STATE_152:0 "룡연" #90k
+ STATE_153:0 "장연" #90k
+ STATE_154:0 "과일(FRUIT!!!!!)" #90k
+ STATE_155:0 "송화" #45k
+ STATE_156:0 "삼천" #85k
+ STATE_157:0 "신천" #140k
+ STATE_158:0 "재령" #125k
+ STATE_159:0 "안악" #125k
+ STATE_160:0 "은천" #95k
+ STATE_161:0 "은률" #110k
+
+ STATE_162:0 "서해5도" #10k
  
  #South Pyongan Province
- STATE_37:1 "Pyongsong" #235k
- STATE_163:0 "Pyongwon" #180k
- STATE_164:0 "Sukchon" #180k
+ STATE_37:1 "평성" #235k
+ STATE_163:0 "평원" #180k
+ STATE_164:0 "숙천" #180k
  STATE_165:0 "순천" #300k
- STATE_166:0 "Unsan" #205k
- STATE_167:0 "Songchon" #150k
- STATE_169:0 "Taedong" #130k
- STATE_170:0 "Chungsan" #115k
- STATE_171:0 "Hoechang" #90k
- STATE_172:0 "Yangdok" #60k
- STATE_173:0 "Sinyang" #60k
- STATE_174:0 "Maengsan" #50k
- STATE_175:0 "Nyongwon" #30k
- STATE_176:0 "Taehung" #35k
- STATE_177:0 "Tokchon" #235k
- STATE_178:0 "Tukchang" #50k
- STATE_179:0 "Pukchang" #140k
- STATE_180:0 "Kaechon" #320k
- STATE_181:0 "Anju" #240k
- STATE_182:0 "Mundok-Chongnam" #220k
+ STATE_166:0 "은산" #205k
+ STATE_167:0 "성천" #150k
+ STATE_169:0 "대동" #130k
+ STATE_170:0 "증산" #115k
+ STATE_171:0 "회창" #90k
+ STATE_172:0 "양덕" #60k
+ STATE_173:0 "신양" #60k
+ STATE_174:0 "맹산" #50k
+ STATE_175:0 "녕원" #30k
+ STATE_176:0 "대흥" #35k
+ STATE_177:0 "덕천" #235k
+ STATE_178:0 "득장" #50k
+ STATE_179:0 "북창" #140k
+ STATE_180:0 "개천" #320k
+ STATE_181:0 "안주" #240k
+ STATE_182:0 "문덕" #220k
 
  ### South Korea ###
  
@@ -212,12 +213,10 @@
  STATE_650:0 "사하" #319.542K
  STATE_651:0 "기장" #146.3K
  STATE_652:0 "영도" #124K
- STATE_653:0 "부산 남부" #267.422K
  STATE_654:0 "동래" #270.745K
  STATE_655:0 "해운대" #401.131K
  STATE_656:0 "금정" #243.3K
  STATE_657:0 "연래" #207.144K
- STATE_658:0 "부산진" #353.159K
  
  #대구
  STATE_58:0 "대구 중앙" #2.365m
@@ -236,7 +235,8 @@
  
  #광주
  STATE_60:0 "광주" #1.435m
- STATE_710:0 "광산-송정" #1.435m
+ STATE_710:0 "광산" #1.435m
+ STATE_743:0 "송정" #80K
  
  #Gangwon Province
  STATE_7:0 "춘천" #285k
@@ -355,7 +355,7 @@
  STATE_3:0 "안동" #170k
  STATE_253:0 "고령" #35k
  STATE_254:0 "성주" #45k
- STATE_255:0 "칠곡" #120k #칠곡군의 칠곡지구 탈환 지지함
+ STATE_255:0 "칠곡" #120k 
  STATE_256:0 "군위" #25k
  STATE_257:0 "구미" #420k
  STATE_258:0 "김천" #135k
@@ -363,7 +363,7 @@
  STATE_260:0 "문경" #75k
  STATE_261:0 "예천" #45k
  STATE_262:0 "영주" #110k
- STATE_263:0 "봉화" #35k #사저 뒤 봉화산 부엉이바위
+ STATE_263:0 "봉화" #35k 
  STATE_264:0 "울진" #50k
  STATE_265:0 "영양" #20k
  STATE_266:0 "영덕" #40k
@@ -374,6 +374,9 @@
  STATE_271:0 "경산" #250k
  STATE_272:0 "청도" #45k
  STATE_274:0 "울릉" #10k
+ STATE_740:0 "고아" #4.3k (구미시)
+ STATE_741:0 "옥성" #4.3k (구미시)
+ STATE_742:0 "무을" #4.3k (구미시)
  
  #Gyeongju - 경주
  STATE_273:0 "경주" #265k
@@ -476,6 +479,9 @@
  STATE_279:0 "합천" #50k
  STATE_715:0 "가야-야로-묘산" #8k
  STATE_716:0 "가회" #1.7k
+ STATE_737:0 "금성" #0.4k (하동군)
+ STATE_738:0 "옥종" #4k (하동군)
+ STATE_739:0 "화개" #4k (하동군) 하동군의 성지
  
  #South Jeolla Province
  STATE_17:0 "무안" #70k
@@ -519,6 +525,8 @@
  STATE_707:0 "광양" #150k
  STATE_708:0 "진월" #150k
  STATE_709:0 "다압" #150k
+ STATE_653:0 "옥곡" #150k
+ STATE_658:0 "봉강" #150k
  
  #Ulsan
  STATE_59:0 "울산 남부" #320k
