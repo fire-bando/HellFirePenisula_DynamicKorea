@@ -344,7 +344,15 @@ country_event = {
 			transfer_state = 305
 			transfer_state = 306
 			transfer_state = 300
-			transfer_state = 301			
+			transfer_state = 301
+			transfer_state = 744
+			transfer_state = 745
+			transfer_state = 746
+			transfer_state = 747
+			transfer_state = 748
+			transfer_state = 749
+			transfer_state = 750
+			transfer_state = 751
 		}
 		NMJ = {
 			transfer_state = 316

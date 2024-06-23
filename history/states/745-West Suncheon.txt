@@ -2,10 +2,20 @@
 state={
 	id=745
 	name="STATE_745"
+	history={
+		owner = JNR
+		add_core_of = SNC
+		add_core_of = JNR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
 	provinces={
 		2887 5912 9411 14846 
 	}
-	manpower=0
+	manpower=1
+	state_category=rural	
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
