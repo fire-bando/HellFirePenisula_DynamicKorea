@@ -1,5 +1,5 @@
 ﻿
 focus = {
-    current = "JNR_big_stephan_organ"
+    current = "JNR_morning_news"
     Progress = 0
 }   

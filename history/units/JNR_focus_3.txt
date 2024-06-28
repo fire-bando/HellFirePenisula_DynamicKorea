@@ -1,5 +1,5 @@
 ﻿
 focus = {
-    current = "JNR_kinkyuu_kaigi"
+    current = "JNR_bisang_daechaek"
     Progress = 0
 }   

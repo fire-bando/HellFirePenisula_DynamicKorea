@@ -1,7 +1,7 @@
 ﻿l_english:
  JNR_daejung_focus:0 "김대중 인민의 정부 중점"
  JNR_pro_civilwar_focus:0 "전라인민공화국 비상대책최고인민위원회"
- JNR_kinkyuu_kaigi:0 "긴급회의"
+ JNR_bisang_daechaek:0 "비대위설치"
  JNR_new_sunshine_policy:0 "새로운 햇볕 정책"
  JNR_einig_waterland:0 "우리 민족의 국가 재건"
  JNR_check_the_army:0 "군대 확인"
@@ -126,10 +126,10 @@
  JNR_disband_western_army:0 "동부급반군단 해산"
  JNR_disband_western_army_desc:0 "경상남도에 주둔하는 동부급반군단을 해산하고 지역 통제권을 장악합니다."
  JNR_ultimatum_for_north_small_country:0 "북부 소국에게 최후통첩"
- JNR_big_stephan_organ:0 "비대위 설치"
+ JNR_morning_news:0 "보도"
  JNR_contact_local_defence_army:0 "동부급반군단 출격"
  JNR_purge_pro_roh:0 "친노계 기강잡기"
- JNR_check_the_sar_hongtong:0 "특별행정구 병합"
+ JNR_check_the_sar_hongtong:0 "비상대권 발동"
 
 
  #########

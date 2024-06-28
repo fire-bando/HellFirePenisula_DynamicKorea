@@ -10,7 +10,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = JNR_kinkyuu_kaigi
+		id = JNR_bisang_daechaek
 		cancelable = no
 		icon = GFX_abcdef
 		x = 6
@@ -40,13 +40,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JNR_big_stephan_organ
+		id = JNR_morning_news
 		cancelable = no
 		icon = GFX_abcdef
 		x = 0
 		y = 1
-		relative_position_id = JNR_kinkyuu_kaigi
-		prerequisite = { focus = JNR_kinkyuu_kaigi }
+		relative_position_id = JNR_bisang_daechaek
+		prerequisite = { focus = JNR_bisang_daechaek }
 		cost = 3
 		available = {
 			custom_trigger_tooltip = {
@@ -56,7 +56,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = jnr_event.15
+				id = jnr_event.16
 				days = 0
 			}
 			hidden_effect = {
@@ -73,8 +73,8 @@ focus_tree = {
 		icon = GFX_abcdef
 		x = 0
 		y = 1
-		relative_position_id = JNR_big_stephan_organ
-		prerequisite = { focus = JNR_big_stephan_organ }
+		relative_position_id = JNR_morning_news
+		prerequisite = { focus = JNR_morning_news }
 		cost = 3
 		available = {
 			custom_trigger_tooltip = {
@@ -101,8 +101,8 @@ focus_tree = {
 		icon = GFX_abcdef
 		x = 4
 		y = 1
-		relative_position_id = JNR_big_stephan_organ
-		prerequisite = { focus = JNR_big_stephan_organ }
+		relative_position_id = JNR_morning_news
+		prerequisite = { focus = JNR_morning_news }
 		cost = 3
 		available = {
 			custom_trigger_tooltip = {
@@ -129,8 +129,8 @@ focus_tree = {
 		icon = GFX_abcdef
 		x = -4
 		y = 1
-		relative_position_id = JNR_big_stephan_organ
-		prerequisite = { focus = JNR_big_stephan_organ }
+		relative_position_id = JNR_morning_news
+		prerequisite = { focus = JNR_morning_news }
 		cost = 3
 		available = {
 			custom_trigger_tooltip = {
