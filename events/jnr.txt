@@ -42,27 +42,7 @@ country_event = {
 	
 	option = {
 		name = jnr_event.3.a
-		304 = {
-			set_demilitarized_zone = yes
-		}
-		306 = {
-			set_demilitarized_zone = yes
-		}
-		305 = {
-			set_demilitarized_zone = yes
-		}
-		315 = {
-			set_demilitarized_zone = yes
-		}
-		316 = {
-			set_demilitarized_zone = yes
-		}
-		317 = {
-			set_demilitarized_zone = yes
-		}
-		318 = {
-			set_demilitarized_zone = yes
-		}
+		add_stability = -0.3
 	}
 }
 
