@@ -1,0 +1,84 @@
+focus_tree = {
+	id = SCH_main_focus	
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SCH
+		}
+	}
+	default = no
+	focus = {
+		id = SCH_new_student_recruitment
+		icon = GFX_abcdef
+		x = 12
+		y = 0
+		cost = 5
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SCH_democracy_protection
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SCH_new_student_recruitment
+		prerequisite = { focus = SCH_new_student_recruitment }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SCH_encourage
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = SCH_democracy_protection
+		prerequisite = { focus = SCH_democracy_protection }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SCH_revitalize_economy
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SCH_democracy_protection
+		prerequisite = { focus = SCH_democracy_protection }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SCH_remove_cause
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = SCH_democracy_protection
+		prerequisite = { focus = SCH_democracy_protection }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = SCH_general_election
+		icon = GFX_abcdef
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = SCH_democracy_protection
+		prerequisite = { focus = SCH_revitalize_economy }
+		prerequisite = { focus = SCH_remove_cause }
+		prerequisite = { focus = SCH_encourage }
+		completion_reward = {
+		
+		}
+	}
+}

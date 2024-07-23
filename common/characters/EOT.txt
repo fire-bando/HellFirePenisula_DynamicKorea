@@ -1,0 +1,30 @@
+characters={ 
+    EOT_yeo_chan={
+        name= EOT_yeo_chan
+        corps_commander = {
+            skill = 1
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 5
+        }
+        portraits = {
+            civilian = {
+                large = GFX_EOT_yeo_chan
+            }
+        }
+    }
+    EOT_hwang_sungyu={
+        name= EOT_hwang_sungyu
+        advisor = {
+            slot = theorist
+            ledger = army
+            traits = { military_theorist }
+        }
+        portraits = {
+            civilian = {
+                large = GFX_EOT_hwang_sungyu
+            }
+        }
+    }
+}

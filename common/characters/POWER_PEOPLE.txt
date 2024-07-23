@@ -26,6 +26,54 @@ characters={
             expire="8192.2.8"
         }
     }
+    YBJ_won_heeryong={ #원희룡
+        name=YBJ_won_heeryong
+        advisor = {
+            slot = political_advisor
+            traits = {  }
+        }
+        portraits={
+            civilian={
+                large=GFX_YBJ_won_heeryong_large
+            }
+        }
+    }
+    YBJ_na_kyungwon={ #나경원
+        name=YBJ_na_kyungwon
+        advisor = {
+            slot = political_advisor
+            traits = {  }
+        }
+        portraits={
+            civilian={
+                large=GFX_YBJ_na_kyungwon_large
+            }
+        }
+    }
+    YBJ_yoon_sanghyun={
+        name=YBJ_yoon_sanghyun
+        advisor = {
+            slot = political_advisor
+            traits = {  }
+        }
+        portraits={
+            civilian={
+                large=GFX_YBJ_yoon_sanghyun_large
+            }
+        }
+    }
+    YBJ_tae_yeong_ho={
+        name=YBJ_tae_yeong_ho
+        advisor = {
+            slot = political_advisor
+            traits = {  }
+        }
+        portraits={
+            civilian={
+                large=GFX_YBJ_tae_yeong_ho_large
+            }
+        }
+    }
     SPO_donghun={
         name=SPO_donghun
         portraits={

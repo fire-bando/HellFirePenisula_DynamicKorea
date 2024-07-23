@@ -3,6 +3,30 @@ spriteTypes={
 		name="GFX_drug_man"
 		texturefile="gfx/leaders/north/drug_man.dds"
 	}
+	
+	spriteType={
+		name="GFX_SCH_tankboy_cola_large"
+		texturefile="gfx/leaders/SCH/tankboy_cola.dds"
+	}
+	spriteType={
+		name="GFX_SCH_tankboy_cola_small"
+		texturefile="gfx/leaders/SCH/tankboy_cola_minister.dds"
+	}
+	
+	spriteType={
+		name="GFX_SCH_tankboy_apple_large"
+		texturefile="gfx/leaders/SCH/tankboy_apple.dds"
+	}
+	spriteType={
+		name="GFX_SCH_tankboy_apple_small"
+		texturefile="gfx/leaders/SCH/tankboy_apple_minister.dds"
+	}
+
+	spriteType={
+		name="GFX_SCH_tankboy_large"
+		texturefile="gfx/leaders/SCH/tankboy_icecream.dds"
+	}
+
 	spriteType={
 		name="GFX_seokgi_lee"
 		texturefile="gfx/leaders/RED/lee_seokgi.png"

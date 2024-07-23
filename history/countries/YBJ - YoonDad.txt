@@ -5,6 +5,9 @@ oob = "YBJ_2023"
 starting_train_buffer = 1218
 
 recruit_character = YBJ_yoon_daddy
+recruit_character = YBJ_na_kyungwon
+recruit_character = YBJ_yoon_sanghyun
+recruit_character = YBJ_tae_yeong_ho
 
 # Starting tech
 set_technology = {
