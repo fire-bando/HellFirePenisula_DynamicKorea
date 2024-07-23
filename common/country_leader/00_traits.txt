@@ -9,6 +9,11 @@ leader_traits = {
 	killer_bosu = {
 		random = no
 	}
+	purifier = {
+		political_power_factor = 0.02
+		stability_factor = 0.2
+		random = no
+	}
 	star_of_republic = {
 		random = no
 		communism_acceptance = 10

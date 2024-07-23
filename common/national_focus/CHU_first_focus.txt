@@ -1,0 +1,84 @@
+focus_tree = {
+	id = CHU_first_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHU
+		}
+	}
+	default = no
+	focus = {
+		id = CHU_get_out_congrass
+		icon = GFX_abcdef
+		x = 12
+		y = 0
+		cost = 5
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = CHU_democracy_protection
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = CHU_get_out_congrass
+		prerequisite = { focus = CHU_get_out_congrass }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = CHU_encourage
+		icon = GFX_abcdef
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_democracy_protection }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = CHU_revitalize_economy
+		icon = GFX_abcdef
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_democracy_protection }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = CHU_remove_cause
+		icon = GFX_abcdef
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_democracy_protection }
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = CHU_general_election
+		icon = GFX_abcdef
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = CHU_democracy_protection
+		prerequisite = { focus = CHU_revitalize_economy }
+		prerequisite = { focus = CHU_remove_cause }
+		prerequisite = { focus = CHU_encourage }
+		completion_reward = {
+		
+		}
+	}
+}

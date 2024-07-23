@@ -286,6 +286,7 @@ country_event = {
 			}
 		}
 		SMG = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 323
 			transfer_state = 324
 			transfer_state = 325
@@ -294,16 +295,19 @@ country_event = {
 			add_state_core = 325
 		}
 		JBR = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 21
 			add_state_core = 21
 		}
 		SIN = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 17
 			transfer_state = 292
 			transfer_state = 310
 			transfer_state = 312
 		}
 		YG1 = {
+			load_oob = JNR_CLIQUEOOB
 			set_cosmetic_tag = JNR_KNDMG
 			transfer_state = 706
 			transfer_state = 303
@@ -318,8 +322,11 @@ country_event = {
 			transfer_state = 703
 			transfer_state = 704
 			transfer_state = 700
+			transfer_state = 653
+			transfer_state = 658
 		}
 		SNC = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 304
 			transfer_state = 305
 			transfer_state = 306
@@ -335,41 +342,50 @@ country_event = {
 			transfer_state = 751
 		}
 		NMJ = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 316
 			transfer_state = 317
 			transfer_state = 318
 		}
 		WNS = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 322
 			add_state_core = 322
 		}
 		DAG = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 314
 			add_state_core = 314
 			transfer_state = 299
 		}
 		NAJ = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 295
 			add_state_core = 295
 		}
 		SSR = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 293
 			transfer_state = 735
 			transfer_state = 736
 		}
 		IMS = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 319
 			add_state_core = 319
 		}
 		NMW = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 315
 			add_state_core = 315
 		}
 		HWA = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 307
 			add_state_core = 307
 		}
 		JRC={
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 294
 			add_state_core = 294
 			transfer_state = 309
@@ -380,26 +396,31 @@ country_event = {
 			add_state_core = 308
 		}
 		BGB = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 320
 			transfer_state = 321
 			add_state_core = 320
 			add_state_core = 321
 		}
 		HPG = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 297
 			add_state_core = 297
 			transfer_state = 296
 			add_state_core = 296
 		}
 		KCG = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 313
 			add_state_core = 313
 		}
 		JSG = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 298
 			add_state_core = 298
 		}
 		GSN = {
+			load_oob = JNR_CLIQUEOOB
 			transfer_state = 710
 			add_state_core = 710
 		}

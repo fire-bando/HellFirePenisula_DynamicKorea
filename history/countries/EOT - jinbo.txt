@@ -2,6 +2,9 @@ capital = 683
 
 starting_train_buffer = 5
 
+recruit_character = EOT_yeo_chan
+recruit_character = EOT_hwang_sungyu
+
 oob = "EOT_2023"
 
 # Starting tech

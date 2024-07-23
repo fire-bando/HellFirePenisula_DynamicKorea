@@ -1,0 +1,74 @@
+characters={ 
+    SCH_tankboy={
+        name=SCH_tankboy
+        portraits={
+            civilian={
+                large=GFX_SCH_tankboy_large
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="1960.8.16"
+        }
+    }
+    SCH_tankboy_apple={
+        name=SCH_tankboy_apple
+        portraits={
+            civilian={
+                large=GFX_SCH_tankboy_apple_large
+                small=GFX_SCH_tankboy_apple_small
+            }
+        }
+        advisor={
+			slot = political_advisor
+			idea_token = tankboy_apple
+            can_be_fired = no
+			available = {
+			}
+			allowed = {
+				original_tag = SCH
+			}
+			traits = {
+				#
+			}
+			do_effect = {
+				NOT = {
+					has_government = neutrality 
+				}
+			}
+			ai_will_do = {
+				factor = 10.000
+			}
+		}
+    }
+    SCH_tankboy_cola={
+        name=SCH_tankboy_cola
+        portraits={
+            civilian={
+                large=GFX_SCH_tankboy_cola_large
+                small=GFX_SCH_tankboy_cola_small
+            }
+        }
+        advisor={
+			slot = political_advisor
+			idea_token = tankboy_cola
+            can_be_fired = no
+			available = {
+			}
+			allowed = {
+				original_tag = SCH
+			}
+			traits = {
+				purifier
+			}
+			do_effect = {
+				NOT = {
+					has_government = neutrality 
+				}
+			}
+			ai_will_do = {
+				factor = 10.000
+			}
+		}
+    }
+ }
