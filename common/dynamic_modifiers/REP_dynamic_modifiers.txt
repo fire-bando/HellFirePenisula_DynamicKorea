@@ -57,3 +57,5 @@ aozi_state_modifier = {
 	state_production_speed_industrial_complex_factor = 0.5
 	supply_consumption_factor = 0.3
 }
+
+developting_state_modifier = { }

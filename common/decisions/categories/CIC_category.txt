@@ -1,0 +1,5 @@
+make_chungbuk_greatest_again = {
+    allowed = {
+        original_tag = CIC
+    }
+}

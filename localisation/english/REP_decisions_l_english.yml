@@ -1,6 +1,9 @@
 ﻿l_english:
- KOR_REUNIFIED:0 "다시 하나되어"
- KOR_UNIFY_SEOUL:0 "서울 통합"
+#  KOR_REUNIFIED:0 "다시 하나되어"
+#  KOR_UNIFY_SEOUL:0 "서울 통합"
+
+ make_chungbuk_greatest_again:0 "충북을 위대하게"
+ JINCHEON_CITY_promote:0 "진천 승격"
 
  JNR_CAPITAL_DEVELOP_COMMITTEE_AGENDA: "전라인민공화국 수도권 개발 위원회"
  NAJU_INNOVATION_CITY:0 "나주 혁신 도시 확장"

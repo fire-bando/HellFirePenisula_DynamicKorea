@@ -1,0 +1,21 @@
+make_chungbuk_greatest_again = {
+	JINCHEON_CITY_promote = {
+        available = {
+            249 = {
+                is_owned_by = ROOT
+            }
+        }
+        days_remove = 70
+		cost = 150
+        fire_only_once = yes
+        remove_effect = {
+            249 = {
+				increase_state_category = yes
+			}
+            add_victory_points = {
+                province = 4111
+                value = 15
+            }
+        }
+    }
+}
