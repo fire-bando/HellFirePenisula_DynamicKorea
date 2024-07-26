@@ -10,7 +10,10 @@ state={
 		owner = YG1
 		add_core_of = YG1
 		victory_points = {
-			6881 20 
+			14997 15 
+		}
+		victory_points = {
+			7003 5 
 		}
 		buildings = {
 			infrastructure = 7
@@ -23,7 +26,7 @@ state={
 	}
 
 	provinces={
-		7003 14980 14997 
+		7003 14980 14997 17747
 	}
 	manpower=94398
 	buildings_max_level_factor=1.000

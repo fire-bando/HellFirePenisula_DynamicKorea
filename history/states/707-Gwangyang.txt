@@ -6,6 +6,9 @@ state={
 	history={
 		owner = YG1
 		add_core_of = YG1
+		victory_points = {
+			14883 10 
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
