@@ -4,6 +4,9 @@ state={
 	history={
 		owner = INA
 		add_core_of = INA
+		victory_points = {
+			4782 5
+		}
 		buildings = {
 			air_base = 10
 			infrastructure = 8

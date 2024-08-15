@@ -1,3 +1,4 @@
+
 state={
 	id=705
 	name="STATE_705"
@@ -16,14 +17,16 @@ state={
 			arms_factory = 4
 			synthetic_refinery = 3
 			industrial_complex = 6
+
 		}
 
 	}
+
 	provinces={
 		493 5334 6881 7003 8949 14941 14947 14963 14964 14970 
 	}
 	manpower=125721
-	state_category=megalopolis
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }
