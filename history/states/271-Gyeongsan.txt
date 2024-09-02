@@ -9,6 +9,13 @@ state={
 			industrial_complex = 2
 			infrastructure=6
 		}
+		2022.12.29 = {
+			EOT = {
+				set_province_controller = 5519
+				set_province_controller = 7867
+				set_province_controller = 5121
+			}
+		}
 	}
 	provinces={
 		1133 3027 3228 3945 4622 5121 5519 5650 6496 6786 7867 7933 9070 9136 14344 14364 14389 14417 14428 14436 14447 

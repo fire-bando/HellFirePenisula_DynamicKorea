@@ -45,6 +45,7 @@ replace_path="common/units/names_ships"
 replace_path="common/units/codenames_operatives"
 replace_path="common/unit_leader"
 replace_path="common/peace_conference"
+replace_path="common/military_industrial_organization"
 replace_path="events"
 dependencies={
 	"Korean Language"
@@ -52,5 +53,4 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="C:/Users/ieonh/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/HellFirePenisula_DynamicKorea"
 remote_file_id="3214279131"
