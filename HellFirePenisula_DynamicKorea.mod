@@ -2,7 +2,7 @@ version="republic"
 tags={
 	"National Focuses"
 }
-name="Hell Fire Penisula - Dynamic Korea"
+name="Hell Fire Peninsula - Dynamic Korea"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/general"
