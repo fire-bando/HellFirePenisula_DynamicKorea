@@ -21,7 +21,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = TAE_sand_timer_hong
-		x = 25
+		x = 11
 		y = 0
 		cost = 1
 
@@ -39,7 +39,7 @@ focus_tree = {
 	focus = {
 		id = TAE_gunwi_eat
 		icon = GFX_goal_generic_military_sphere
-		x = 0
+		x = 1
 		y = 1
 		cost = 5
 		relative_position_id = TAE_sand_timer_hong
@@ -68,5 +68,50 @@ focus_tree = {
 				}
 			}
 		}		
+	}
+	focus = {
+		id = TAE_chilgok_chilgok
+		icon = GFX_goal_generic_military_sphere
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = TAE_sand_timer_hong
+		prerequisite = { focus = TAE_sand_timer_hong }
+		available = {
+			is_subject = no
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		completion_reward = {
+			255 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}		
+	}
+	focus = {
+		id = TAE_build_gunwi_new_airport
+		icon = GFX_fuck
+		x = 1
+		y = 1
+		relative_position_id = TAE_chilgok_chilgok
+		prerequisite = {
+			focus = TAE_chilgok_chilgok
+			focus = TAE_gunwi_eat
+		}
+		completion_reward = {
+			256 = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 }

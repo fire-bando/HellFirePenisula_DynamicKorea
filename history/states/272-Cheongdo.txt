@@ -8,6 +8,16 @@ state={
 		buildings = {
 			infrastructure=3
 		}
+		2022.12.29 = {
+			EOT = {
+				set_province_controller = 14484
+				set_province_controller = 7132
+				set_province_controller = 14520
+				set_province_controller = 720
+				set_province_controller = 14479
+				set_province_controller = 7084
+			}
+		}
 	}
 	provinces={
 		720 1715 1987 3106 3193 4702 5513 5611 6276 7084 7132 14466 14475 14479 14482 14484 14499 14509 14518 14520 14527 

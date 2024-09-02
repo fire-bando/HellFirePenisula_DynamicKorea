@@ -192,12 +192,8 @@
  JEONJU_END:0 "북부의 폭동을 막아내다"
 
  TAE_gunwi_eat:0 "군위 합병"
- GER_hapcheon_friend:0 "합천과의 친선"
- GER_gumi_friend:0 "구미와의 친선"
- TAE_gyeongschuluss:0 "경슐루스"
- GER_demand_yeongcheon:0 "영천 영유권 재주장"
- TAE_daegu_spirit:0 "대구정신 총동원"
- TAE_demand_chilgok:0 "칠곡 요구"
+ TAE_chilgok_chilgok:0 "칠곡지구-칠곡 일원화"
+ TAE_build_gunwi_new_airport:0 "대구경북공항 건설"
 
  CHU_seontae_says_that_he_hates_assembly:0 "의회해산"
  CHU_seontae_says_that_he_hates_assembly_desc:0 "시의회에 테러가 끊이지 않자 실질적인 권력을 쥐던 의원들이 해외로 도피, 망명했습니다. 덕분에 안그래도 혼란스러웠던 충주는 더 혼란스러워졌습니다."

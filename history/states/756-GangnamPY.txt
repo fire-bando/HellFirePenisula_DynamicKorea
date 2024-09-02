@@ -1,10 +1,17 @@
 state={
 	id=756
 	name="STATE_756"
+	history = {
+		buildings = {
+			infrastructure = 5
+			owner = PYO
+			add_core_of = PYO
+		}
+	}
 	provinces={
 		5271 6070 7669 8158 12782 12814 12825 
 	}
-	manpower=0
+	manpower=432900
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
