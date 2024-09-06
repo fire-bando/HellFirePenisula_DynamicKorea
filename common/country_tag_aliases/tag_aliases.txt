@@ -55,7 +55,7 @@ MNC = {
 
 GCH = { 
 	original_tag = CHU
-	has_government =fascism
+	has_government = fascism
 }
 
 JCH = { 

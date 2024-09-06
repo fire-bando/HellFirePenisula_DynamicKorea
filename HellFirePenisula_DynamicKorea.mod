@@ -46,6 +46,8 @@ replace_path="common/units/codenames_operatives"
 replace_path="common/unit_leader"
 replace_path="common/peace_conference"
 replace_path="common/military_industrial_organization"
+replace_path="common/military_industrial_organization/organizations"
+replace_path="common/bop"
 replace_path="events"
 dependencies={
 	"Korean Language"

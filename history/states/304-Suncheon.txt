@@ -7,7 +7,7 @@ state={
 		owner = JNR
 		add_core_of = SNC
 		add_core_of = JNR
-		add_claim_of = JNR
+		add_claim_by = JNR
 		victory_points = {
 			14892 20 
 		}
