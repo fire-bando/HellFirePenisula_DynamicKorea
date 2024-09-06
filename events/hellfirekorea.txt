@@ -26,7 +26,7 @@ country_event = { #비상대책위원회 위원장 선출에 관한 정보
 			every_state = {
 				set_state_owner_to = ZZZ
 				transfer_state_to = ZZZ
-				add_core_of = ZZZ
+				
 			}
 			ZZZ = {
 				annex_country = {

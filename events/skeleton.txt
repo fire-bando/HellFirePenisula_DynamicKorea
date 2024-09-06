@@ -29,7 +29,7 @@ country_event = {
 			add_state_core = 572
 			add_state_core = 227
 		}
-		AML = {
+		ZZZ = {
 			transfer_state = 560
 		}
 	}

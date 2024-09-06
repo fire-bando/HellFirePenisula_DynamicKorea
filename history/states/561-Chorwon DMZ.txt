@@ -2,8 +2,8 @@ state={
 	id=561
 	name="STATE_561"
 	history={
-		owner = AML
-		add_core_of = AML
+		owner = ZZZ
+		
         set_demilitarized_zone = yes
 	}
 	provinces={
