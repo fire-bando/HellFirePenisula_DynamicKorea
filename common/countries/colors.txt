@@ -246,7 +246,10 @@ KCG = {
 	color = rgb { 180 100 120 }
 	color_ui = rgb { 234 130 156 }
 }
-MNC = {	color = rgb { 235 95 66 }	color_ui = rgb { 235 95 66 } }
+MNC = {
+	color = rgb { 235 95 66 }
+	color_ui = rgb { 235 95 66 }
+}
 ACH = {	color = rgb { 41 42 66 }	color_ui = rgb { 41 42 66 } }
 TCH = {	color = rgb { 73 145 79 }	color_ui = rgb { 73 145 79 } }
 GCH = {	color = rgb { 0 153 66 }	color_ui = rgb { 0 153 66 } }

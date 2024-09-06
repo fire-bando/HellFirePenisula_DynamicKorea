@@ -34,9 +34,22 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 1 }
+	}
+	is_locked = yes
+
+	priority = 0
+}
+division_template = {
+	name = "반제구국민족해방군"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 1 }
 	}
 	is_locked = yes
 
@@ -194,6 +207,86 @@ units = {
 		division_template = "전투경찰"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 14484
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 7132
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 14520
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 5519
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 7867
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 14329
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 7193
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 8003
+		division_template = "반제구국민족해방군"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
 	}
 }
 focus = {

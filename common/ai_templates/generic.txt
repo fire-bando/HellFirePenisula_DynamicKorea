@@ -711,21 +711,7 @@ suppression_generic = {
 infantry_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-		CHI
-		PRC 
-		GXC
-		YUN
-		SHX
-		XSM
-		SIK
-		MEN
-		MAN
+		# 남해국판넣으면된다
 	}
 
 	roles = {

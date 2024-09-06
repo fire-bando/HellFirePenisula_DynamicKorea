@@ -19,3 +19,10 @@ is_DMZ = {
         state=559
     }
 }
+is_literally_china = {
+    OR = {
+        original_tag = CHN
+        original_tag = CHI
+        original_tag = SZC
+    }
+}
