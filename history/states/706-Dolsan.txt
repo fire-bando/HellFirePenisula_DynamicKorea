@@ -10,6 +10,9 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		victory_points = {
+			8331 1
+		}
 	}
 	manpower=12681
 	state_category=rural

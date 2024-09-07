@@ -1,22 +1,9 @@
 ideas = {
 	country = {
-		YG1_emergency_measures_one = {
-			picture = smd
-			modifier = {
-				min_export = 1
-				local_resources_factor = 0.5
-				cic_to_overlord_factor = 0.75
-				mic_to_overlord_factor = 1
-				extra_trade_to_overlord_factor = 1
-				custom_modifier_tooltip = HONGTONG_ECONOMY_DEAD_TT
-			}
-		}
-		JNR_agriculture_centralisized = {
+		YG1_legacy_of_EXPO_1 = {
 			picture = mmd
 			modifier = {
-				mobilization_speed = 0.3
-				local_supply_impact_factor = -0.1
-				local_supplies = 0.2
+				production_speed_buildings_factor = -0.25
 			}
 		}
 	}
