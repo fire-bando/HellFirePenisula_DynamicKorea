@@ -1,0 +1,17 @@
+##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
+REP_fire_super_event = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { has_country_flag = REP_SUPER_EVENT_OFF } }
+			set_variable = { REP_super_event = REP_temp_super_event }
+			### SUPERS WITH DYNAMIC SFX ###
+
+			### DEFAULT ###
+			meta_effect = {
+				text = { scoped_play_song = "REP_[SUPER]" }
+				SUPER = "[?REP_super_event.GetTokenKey]"
+			}
+			log = "[GetDateText]: Superevent [?REP_super_event.GetTokenKey]"
+		}
+	}
+}

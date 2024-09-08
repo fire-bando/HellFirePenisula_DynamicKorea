@@ -1,0 +1,8 @@
+music_station = "rep_superevents"
+
+music = {
+	song = "REP_SE_YOON_UNIFICATION"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

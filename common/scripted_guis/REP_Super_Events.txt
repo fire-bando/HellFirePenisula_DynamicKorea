@@ -1,0 +1,29 @@
+##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
+scripted_gui = {
+	REP_super_events = {
+		context_type = player_context
+		window_name = "REP_SG_Super_Event"
+		dirty = REP_super_event
+
+		visible = {
+			is_ai = no
+			has_variable = REP_super_event
+		}
+
+		triggers = {
+			underlay_visible = {
+				NOT = { has_global_flag = REP_my_world_is_on_fire_how_about_yours }
+			}
+		}
+
+		properties = {
+			SE_image = { image = "[REPGetSuperEventImage]" }
+		}
+		
+		effects = {
+			SE_option_click = {
+				clear_variable = REP_super_event
+			}
+		}
+	}
+}

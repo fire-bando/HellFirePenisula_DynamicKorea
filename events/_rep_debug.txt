@@ -1,0 +1,16 @@
+add_namespace = rep_debug
+
+country_event = {
+	id = rep_debug.1
+	title = rep_debug.1.t
+	picture = GFX_report_event_tae_event
+    desc = rep_debug.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = rep_debug.1.a
+		set_temp_variable = { REP_temp_super_event = token:SE_YOON_UNIFICATION }
+		REP_fire_super_event = yes
+	}
+}

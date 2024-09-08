@@ -1,0 +1,51 @@
+defined_text = {
+	name = REPGetSuperEventImage
+	### SUPERS WITH DYNAMIC GFX ###
+
+	### DEFAULT ###
+	text = {
+		localization_key = "GFX_[?REP_super_event.GetTokenKey]"
+	}
+}
+
+defined_text = {
+	name = REPGetSuperEventTitle
+	### SUPERS WITH DYNAMIC TITLES ###
+
+	### DEFAULT ###
+	text = {
+		localization_key = "[?REP_super_event.GetTokenLocalizedKey]"
+	}
+}
+
+defined_text = {
+	name = REPGetSuperEventOption
+	### SUPERS WITH DYNAMIC OPTIONS ###
+
+	### DEFAULT ###
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = { set_temp_variable = { super_a_var = token:[SUPER]_A } }
+				SUPER = "[?REP_super_event.GetTokenKey]"
+			}
+		}
+		localization_key = "[?super_a_var.GetTokenLocalizedKey]"
+	}
+}
+
+defined_text = {
+	name = REPGetSuperEventDesc
+	### SUPERS WITH DYNAMIC DESCS ###
+
+	### DEFAULT ###
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = { set_temp_variable = { super_d_var = token:[SUPER]_D } }
+				SUPER = "[?REP_super_event.GetTokenKey]"
+			}
+		}
+		localization_key = "[?super_d_var.GetTokenLocalizedKey]"
+	}
+}

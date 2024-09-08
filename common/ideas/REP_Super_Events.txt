@@ -1,0 +1,7 @@
+ideas = {
+	hidden_ideas = {
+		SE_YOON_UNIFICATION = {}
+		SE_YOON_UNIFICATION_D = {}
+		SE_YOON_UNIFICATION_A = {}
+	}
+}
