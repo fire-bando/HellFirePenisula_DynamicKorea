@@ -1,5 +1,0 @@
-﻿
-focus = {
-    current = "JNR_morning_news"
-    Progress = 0
-}   

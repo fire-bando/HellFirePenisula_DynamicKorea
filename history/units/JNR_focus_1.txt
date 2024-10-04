@@ -1,5 +1,0 @@
-﻿
-focus = {
-    current = "JNR_honam_develop_theory"
-    Progress = 0
-}   

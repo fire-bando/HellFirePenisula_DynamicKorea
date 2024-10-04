@@ -1,5 +1,0 @@
-
-focus = {
-    current = "JNR_check_the_sar_hongtong"
-    Progress = 0
-}   

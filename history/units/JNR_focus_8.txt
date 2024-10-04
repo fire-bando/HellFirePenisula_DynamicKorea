@@ -1,5 +1,0 @@
-
-focus = {
-    current = "JNR_political_calculate"
-    Progress = 0
-}   

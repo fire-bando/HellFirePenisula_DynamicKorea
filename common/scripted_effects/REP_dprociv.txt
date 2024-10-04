@@ -1,0 +1,5 @@
+RUSSIA_REVOLUTION = {
+	RUS = {
+		set_cosmetic_tag = RUS_SOV
+	}
+}

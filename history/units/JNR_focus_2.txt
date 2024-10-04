@@ -1,5 +1,0 @@
-﻿
-focus = {
-    current = "JNR_west_jeolla_plan"
-    Progress = 0
-}   

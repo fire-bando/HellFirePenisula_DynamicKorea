@@ -14,3 +14,18 @@ country_event = {
 		REP_fire_super_event = yes
 	}
 }
+
+country_event = {
+	id = rep_debug.2
+	title = rep_debug.2.t
+	picture = GFX_report_event_tae_event
+    desc = rep_debug.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = rep_debug.2.a
+		set_temp_variable = { REP_temp_super_event = token:SE_RUSSIA_REVOLUTION }
+		REP_fire_super_event = yes
+	}
+}

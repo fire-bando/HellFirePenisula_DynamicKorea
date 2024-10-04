@@ -1,5 +1,10 @@
 ﻿l_english:
- SE_YOON_UNIFICATION: "여기에 제목 입력"
- SE_YOON_UNIFICATION_D: "여기에 명언 입력\n-여기에 글쓴이 입력"
- SE_YOON_UNIFICATION_A: "여기에 텍스트 입력"
- REP_SE_YOON_UNIFICATION: "슈퍼이벤트이름음악용"
+  SE_YOON_UNIFICATION: "여기에 제목 입력"
+  SE_YOON_UNIFICATION_D: "여기에 명언 입력\n-여기에 글쓴이 입력"
+  SE_YOON_UNIFICATION_A: "여기에 텍스트 입력"
+  REP_SE_YOON_UNIFICATION: "슈퍼이벤트이름음악용"
+
+  SE_RUSSIA_REVOLUTION: "러시아 혁명"
+  SE_RUSSIA_REVOLUTION_D: "죽음은 끝이 아니라 다른 것의 시작일 뿐이다. 우리는 모두 지옥에 갈 것이다. 하지만 지옥에서는 우리가 최고가 될 것이다.\n-예브게니 프리고진"
+  SE_RUSSIA_REVOLUTION_A: "..."
+  REP_SE_RUSSIA_REVOLUTION: "슈퍼이벤트이름음악용"

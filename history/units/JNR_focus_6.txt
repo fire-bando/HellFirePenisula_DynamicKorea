@@ -1,5 +1,0 @@
-
-focus = {
-    current = "JNR_purge_pro_roh"
-    Progress = 0
-}   

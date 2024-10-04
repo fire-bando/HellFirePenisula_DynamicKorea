@@ -1,5 +1,0 @@
-
-focus = {
-    current = "JNR_final_decision"
-    Progress = 0
-}   
