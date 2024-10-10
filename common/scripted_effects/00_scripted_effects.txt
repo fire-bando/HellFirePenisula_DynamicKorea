@@ -1421,3 +1421,10 @@ store_core_states_on_game_start = { #Should be called from history file
 		}
 	}
 }
+
+rename_jeollanam = {
+	# set_province_name = {
+	# 	id = 14892
+	# 	name = "順天"
+	# }
+}

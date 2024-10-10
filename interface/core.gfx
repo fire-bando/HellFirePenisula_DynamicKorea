@@ -1044,6 +1044,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_16mbs"
 			"gfx/fonts/hoi_16mbs_cryllic"
+			"gfx/fonts/japanese/hoi_16mbs"
+			"gfx/fonts/chinese/hoi_16mbs_1of4EX"
+			"gfx/fonts/chinese/hoi_16mbs_2of4EX"
+			"gfx/fonts/chinese/hoi_16mbs_3of4EX"
+			"gfx/fonts/chinese/hoi_16mbs_4of4EX"
 		}
 		color = 0xffffffff
 
@@ -1056,14 +1061,6 @@ bitmapfonts = {
 			T = { 255 255 255 }
 			g = { 175 175 175 }
 		}
-	}
-
-	bitmapfont_override = {
-		name = "hoi_16mbs"
-		fontfiles = {
-			"gfx/fonts/japanese/hoi_16mbs"
-		}
-		languages = { "l_japanese" }
 	}
 
 	bitmapfont = {
@@ -1098,6 +1095,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_18"
 			"gfx/fonts/hoi_18_cryllic"
+			"gfx/fonts/japanese/hoi_18b"
+			"gfx/fonts/chinese/hoi_18_1of4"	
+			"gfx/fonts/chinese/hoi_18_2of4"	
+			"gfx/fonts/chinese/hoi_18_3of4"	
+			"gfx/fonts/chinese/hoi_18_4of4"
 		}
 		color = 0xffffffff
 
@@ -1123,6 +1125,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_18mbs"
 			"gfx/fonts/hoi_18mbs_cryllic"
+			"gfx/fonts/chinese/hoi_18mbs_1of4EX"	
+			"gfx/fonts/chinese/hoi_18mbs_2of4EX"	
+			"gfx/fonts/chinese/hoi_18mbs_3of4EX"	
+			"gfx/fonts/chinese/hoi_18mbs_4of4EX"
 		}
 		color = 0xffffffff
 
