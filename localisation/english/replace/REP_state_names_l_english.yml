@@ -473,7 +473,7 @@
  STATE_283:0 "통영" #145k
  STATE_284:0 "거제" #245k
  STATE_285:0 "남해" #50k
- STATE_286:0 "사천" #120k
+ STATE_286:0 "泗(四)川" #120k
  STATE_287:0 "진주" #340k
  STATE_288:0 "거창" #65k
  STATE_289:0 "함양" #40k
@@ -547,139 +547,139 @@
  STATE_723:0 "울산 북부" #218k
  STATE_724:0 "울산 동부" #152k
  
- ### 리아오닝 성 ###
+ ### Liaoning Province ###
  
- #안산 시
- STATE_45:0 "하이청" 
- STATE_376:0 "시우얀" 
- STATE_377:0 "톄시" 
- STATE_378:0 "톄둥-리산" 
- STATE_379:0 "천산" 
- STATE_380:0 "타이안" 
+ #Anshan Prefecture
+ STATE_45:0 "海城" #1.130m
+ STATE_376:0 "岫岩" #510k
+ STATE_377:0 "铁西" #290k
+ STATE_378:0 "铁东-立山" #910k
+ STATE_379:0 "千山" #260k
+ STATE_380:0 "台安" #380k
  
- #번시 시
- STATE_43:0 "번시" 
- STATE_364:0 "환런" 
- STATE_365:0 "시후" 
- STATE_366:0 "밍산" 
- STATE_367:0 "난펀" 
- STATE_368:0 "핑산" 
+ #Benxi Prefecture
+ STATE_43:0 "本溪" #300k
+ STATE_364:0 "桓仁" #300k
+ STATE_365:0 "溪湖" #220k
+ STATE_366:0 "明山" #300k
+ STATE_367:0 "南芬" #80k
+ STATE_368:0 "平山" #350k
  
- #달리안 시
- STATE_35:0 "좡허" 
- STATE_374:0 "창하이"  
- #단동 시
- STATE_42:0 "펑청" 
- STATE_369:0 "관디안" 
- STATE_370:0 "둥강" 
- STATE_372:0 "젠안" 
- STATE_373:0 "위안바오-젠싱" 
+ #Dalian Prefecture
+ STATE_35:0 "庄河" #900k
+ STATE_374:0 "长海" #70k
  
- #푸순 시
- STATE_40:0 "푸순" 
- STATE_388:0 "신빈" 
- STATE_389:0 "칭위안" 
- STATE_390:0 "동저우-신부" 
- STATE_391:0 "순청왕화" 
- 
- #푸신 시
- STATE_33:0 "장우" 
- 
- #리아양 시
- STATE_47:0 "남 리아양"
- STATE_381:0 "덩타"
- STATE_382:0 "타이즈허"
- STATE_383:0 "바이타"
- STATE_384:0 "웬승"
- STATE_385:0 "홍웨이"
- STATE_386:0 "공창링"
- STATE_387:0 "북 리아양"
- 
- #쉐니양 시
- STATE_24:0 "센베이"
- STATE_398:0 "강핑"
- STATE_399:0 "파쿠"
- STATE_400:0 "신민"
- STATE_401:0 "료종"
- STATE_402:0 "톄시-유홍" #
- STATE_403:0 "수지아툰"
- STATE_404:0 "훈난"
- STATE_405:0 "센허-허핑" #
- STATE_406:0 "황구-다동" #
- 
- #톄릉 시
- STATE_16:0 "톄릉"
- STATE_392:0 "창투" #
- STATE_393:0 "시펑"
- STATE_394:0 "카이위안"
- STATE_395:0 "칭허"
- STATE_396:0 "인저우"
- STATE_397:0 "디아오빙샨"
- 
- #통랴오 시
- STATE_1:0 "호르친 좌후진 기"
- STATE_407:0 "호르친"
- 
- #잉커우 시
- STATE_39:0 "다시커"
- STATE_375:0 "가이저우"
- 
- ### 지린 성 ###
- 
- #백산 시
- STATE_36:0 "푸송"
- STATE_426:0 "창백"
- STATE_427:0 "린장"
- STATE_428:0 "훈장"
- STATE_429:0 "장위안"
- STATE_430:0 "징위"
- 
- #창춘 시
- STATE_4:0 "쉬앙양"
- STATE_408:0 "공주릉"
- 
- #지린 시
- STATE_5:0 "화디안"
- STATE_422:0 "판시"
- STATE_423:0 "용지"
- STATE_424:0 "펑만"
- STATE_425:0 "자오허"
+ #Dandong Prefecture
+ STATE_42:0 "凤城" #580k
+ STATE_369:0 "宽甸" #440k
+ STATE_370:0 "东港" #640k
+ STATE_372:0 "振安" #190k
+ STATE_373:0 "元宝-振兴" #560k
 
+  #Fushun Prefecture
+ STATE_40:0 "抚顺" #165k
+ STATE_388:0 "新宾" #255k
+ STATE_389:0 "清原" #290k
+ STATE_390:0 "东洲-新抚" #575k
+ STATE_391:0 "顺城-望花" #475k
+ 
+ #Fuxin Prefecture
+ STATE_33:0 "彰武" #420k
+ 
+ #Liaoyang Prefecture
+ STATE_47:0 "辽阳南" #190k
+ STATE_381:0 "灯塔" #510k
+ STATE_382:0 "太子河" #120k
+ STATE_383:0 "白塔" #210k
+ STATE_384:0 "文圣" #180k
+ STATE_385:0 "宏伟" #110k
+ STATE_386:0 "弓长岭" #90k
+ STATE_387:0 "辽阳北" #400k
+ 
+ #Shenyang Prefecture
+ STATE_24:0 "沈北" #320k
+ STATE_398:0 "康平" #355k
+ STATE_399:0 "法库" #450k
+ STATE_400:0 "新民" #690k
+ STATE_401:0 "辽中" #535k
+ STATE_402:0 "铁西-于洪" #1.345m
+ STATE_403:0 "苏家屯" #430k
+ STATE_404:0 "浑南" #325k
+ STATE_405:0 "沈河-和平" #1.360m
+ STATE_406:0 "皇姑-大东" #1.505m
+ 
+ #Tieling Prefecture
+ STATE_16:0 "铁岭" #380k
+ STATE_392:0 "昌图" #1.030m
+ STATE_393:0 "西丰" #350k
+ STATE_394:0 "开原" #580k
+ STATE_395:0 "清河" #100k
+ STATE_396:0 "银州" #340k
+ STATE_397:0 "调兵山" #240k
+ 
+ #Tongliao Prefecture
+ STATE_1:0 "科尔沁左翼后旗" #380k
+ STATE_407:0 "科尔沁" #890k
+ 
+ #Yingkou Prefecture
+ STATE_39:0 "大石桥" #705k
+ STATE_375:0 "盖州" #690k
+
+ ### Jilin Province ###
+ 
+ #Baishan Prefecture
+ STATE_36:0 "抚松" #300k
+ STATE_426:0 "长白" #80k
+ STATE_427:0 "临江" #180k
+ STATE_428:0 "浑江" #330k
+ STATE_429:0 "江源" #260k
+ STATE_430:0 "靖宇" #140k
+ 
+ #Changchun Prefecture
+ STATE_4:0 "双阳" #335k
+ STATE_408:0 "公主岭" #860k
+ 
+ #Jilin Prefecture
+ STATE_5:0 "桦甸" #445k
+ STATE_422:0 "磐石" #505k
+ STATE_423:0 "永吉" #395k
+ STATE_424:0 "丰满" #295k
+ STATE_425:0 "蛟河" #445k
  
  #Siping Prefecture
- STATE_2:0 "리쑤"
- STATE_409:0 "이통"
- STATE_410:0 "톄동"
- STATE_411:0 "톄시"
- STATE_412:0 "쉬앙리아오"
+ STATE_2:0 "梨树" #790k
+ STATE_409:0 "伊通" #470k
+ STATE_410:0 "铁东" #370k
+ STATE_411:0 "铁西" #270k
+ STATE_412:0 "双辽" #410k
  
- # 리아오위안 시
- STATE_20:0 "동랴오"
- STATE_413:0 "동펑"
- STATE_414:0 "룽산-시안"
+ #Liaoyuan Prefecture
+ STATE_20:0 "东辽" #395k
+ STATE_413:0 "东丰" #410k
+ STATE_414:0 "龙山-西安" #465k
  
- # 무단장 시
- STATE_437:0 "동닝"
+ #Mudanjiang Prefecture
+ STATE_437:0 "东宁" #210k
  
- # 통화 시
- STATE_29:0 "통화"
- STATE_415:0 "메이허커우"
- STATE_416:0 "후이난"
- STATE_417:0 "류허"
- STATE_418:0 "동창"
- STATE_419:0 "어르다오지앙"
- STATE_420:0 "지안"
- STATE_421:0 "남동 통화"
+ #Tonghua Prefecture
+ STATE_29:0 "通化" #200k
+ STATE_415:0 "梅河口" #615k
+ STATE_416:0 "辉南" #360k
+ STATE_417:0 "柳河" #365k
+ STATE_418:0 "东昌" #360k
+ STATE_419:0 "二道江" #145k
+ STATE_420:0 "集安" #230k
+ STATE_421:0 "通化东南" #50k
  
- # 연변 시
- STATE_6:0 "둔화"
- STATE_431:0 "안투"
- STATE_432:0 "헐롱"
- STATE_433:0 "투멘"
- STATE_434:0 "룽징"
- STATE_435:0 "얀지"
- STATE_436:0 "왕칭"
- STATE_438:0 "훈춘"
+ #Yanbian Prefecture
+ STATE_6:0 "敦化(돈화)" #480k
+ STATE_431:0 "安图(안도)" #210k
+ STATE_432:0 "和龙(화룡)" #210k
+ STATE_433:0 "图们(도문)" #130k
+ STATE_434:0 "龙井(룡정)" #250k
+ STATE_435:0 "延吉(연길)" #410k
+ STATE_436:0 "汪清(왕청)" #250k
+ STATE_438:0 "珲春(훈춘)" #220k
  
  ### 프리모르스키 지방 ###
  
