@@ -14,7 +14,7 @@ country_event = {
 			limit = {
 				NOT = {
 					OR = {
-						original_tag = JN1
+						original_tag = JYA
 						original_tag = YED
 						original_tag = GNW
 					}
@@ -26,8 +26,8 @@ country_event = {
 			GNW = {
 				set_cosmetic_tag = GNW_TAE_tonggam
 			}
-			JN1 = {
-				set_cosmetic_tag = JN1_JNR
+			JYA = {
+				set_cosmetic_tag = JYA_JNR
 			}
 			YED = {
 				set_cosmetic_tag = YED_JNR

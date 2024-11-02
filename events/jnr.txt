@@ -101,8 +101,8 @@ country_event = {
 	option = {
 		name = jnr_event.5.a
 		ROOT = {
-			end_puppet = JN1
-			remove_from_faction = JN1
+			end_puppet = JYA
+			remove_from_faction = JYA
 		}
 		hidden_effect = {
 			HDG = {
@@ -110,13 +110,13 @@ country_event = {
 				transfer_state = 291
 				load_oob = HDG_indpce
 				declare_war_on = {
-					target = JN1
+					target = JYA
 					type = independence_wargoal
 				}
 			}
 			AIR = {
 				declare_war_on = {
-					target = JN1
+					target = JYA
 					type = take_state_focus
 					generator = { 738 }
 				}

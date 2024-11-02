@@ -26,6 +26,11 @@ country_event = {
 	option = {
 		name = rep_debug.2.a
 		rename_jeollanam = yes
+		# set_temp_variable = { REP_temp_super_event = token:SE_RUSSIA_REVOLUTION }
+		# REP_fire_super_event = yes
+	}
+	option = {
+		name = rep_debug.2.b
 		set_temp_variable = { REP_temp_super_event = token:SE_RUSSIA_REVOLUTION }
 		REP_fire_super_event = yes
 	}

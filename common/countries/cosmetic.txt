@@ -26,7 +26,7 @@ FEM = {
 	color = rgb { 105 8 173 }
 	color_ui = rgb { 105 8 173 }
 }
-JN1_JNR = {
+JYA_JNR = {
 	color = rgb { 227 48 82 }
 	color_ui = rgb { 227 48 82 }
 }

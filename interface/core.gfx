@@ -828,7 +828,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "Main_14"
 		fontfiles = {
-			"gfx/fonts/japanese/garamond_14"
+			# "gfx/fonts/japanese/garamond_14"
 			"gfx/fonts/garamond_14"
 		}
 		color = 0xffffffff

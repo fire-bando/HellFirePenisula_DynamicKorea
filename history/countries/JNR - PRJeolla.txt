@@ -25,9 +25,6 @@ if = {
 		target = YED
 		autonomous_state = autonomy_colony
 	}
-	JN1 = {
-		set_cosmetic_tag = JN1_JNR
-	}
 	YED = {
 		set_cosmetic_tag = YED_JNR
 	}
@@ -36,7 +33,7 @@ if = {
 		autonomous_state = autonomy_one_country_two_system
 	}
 	set_autonomy = {
-		target = JN1
+		target = JYA
 		autonomous_state = autonomy_integrated_puppet
 	}
 }

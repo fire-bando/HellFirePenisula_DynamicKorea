@@ -99,41 +99,6 @@ country_event = { #남해국가판무관부의 최종통첩
 		}
 	}
 }
-country_event = { #식민정부의 마비
-	id = hong_event.2
-	title = hong_event.2.t
-	picture = GFX_report_event_tae_event
-    desc = hong_event.2.d
-
-	is_triggered_only = yes
-	
-	option = {
-		name = hong_event.2.a
-		JNR = {
-			end_puppet = JN1
-		}
-		JN1 = {
-			every_country = {
-				limit = {
-					has_war_with = JN1
-				}
-				white_peace=JN1
-			}
-			291 = {
-				set_demilitarized_zone = yes
-			}
-			290 = {
-				set_demilitarized_zone = yes
-			}
-			289 = {
-				set_demilitarized_zone = yes
-			}
-			288 = {
-				set_demilitarized_zone = yes
-			}
-		}
-	}
-}
 country_event = { #배신자새끼
 	id = hong_event.3
 	title = hong_event.3.t
@@ -150,7 +115,7 @@ country_event = { #배신자새끼
 		}
 		TNK = {
 			annex_country = {
-				target = JN1
+				target = JYA
 				transfer_troops = yes
 			}
 		}

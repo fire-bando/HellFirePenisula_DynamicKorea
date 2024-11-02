@@ -10,10 +10,6 @@
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
  SBU_gijang_commune:0 "기장인민위원회"
 
- JN1_JNR:0 "동부급반군단"
- JN1_JNR_ADJ:0 "동부급반군단"
- JN1_JNR_DEF:0 "동부급반군단"
-
  YED_JNR:0 "호서해방군"
  YED_JNR_ADJ:0 "호서해방군"
  YED_JNR_DEF:0 "호서해방군"
@@ -63,8 +59,6 @@
  NOPE_ADJ:0 ""
  NOPE_DEF:0 ""
  
- JN1_minjeong:0 "영남민정청"
-
  ROH_piaze_sigye:0 "참여 정부"
 
  AOJ_unified_6jin:0 "신 조선민주주의인민공화국"

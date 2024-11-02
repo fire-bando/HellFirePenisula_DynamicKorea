@@ -19,7 +19,7 @@ bookmarks = {
 		
 		"SMS"={
 			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
@@ -33,27 +33,10 @@ bookmarks = {
 			ideas ={ }
 			focuses  { }
 		}
-
-		"PYO" = {
-			history="OTHER_BREAKED_DESC"
-			ideology = democratic
-			ideas = { }
-			focuses = { }
-		}
         
         "JNR"={
 			history = "OTHER_BREAKED_DESC"
 			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			
-			}
-		}
-        
-        "YG1"={
-			history = "OTHER_BREAKED_DESC"
-			ideology = democratic
 			ideas = {
 			}
 			focuses = {
