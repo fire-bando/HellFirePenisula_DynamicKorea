@@ -350,9 +350,10 @@
  STATE_731:0 "봉방"
  STATE_732:0 "연수(충주)"
  STATE_733:0 "소태"
- STATE_737:0 "탑평"
- STATE_738:0 "용전-검단"
- STATE_739:0 "루암"
+ STATE_734:0 "토계"
+ STATE_754:0 "탑평"
+ STATE_753:0 "용전-검단"
+ STATE_752:0 "루암"
 
  #North Gyeongsang Province
  STATE_3:0 "안동" #170k

@@ -1,8 +1,10 @@
+
 capital = 595
 
 oob = "standard_templates"
 
 recruit_character = CHU_kim_seon_tae
+recruit_character = CHU_cho_gil_hyeong
 
 # Starting tech
 set_technology = {

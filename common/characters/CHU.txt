@@ -1,14 +1,104 @@
-characters={ 
-    CHU_kim_seon_tae={
-        name=CHU_kim_seon_tae
-        portraits={
-            civilian={
-                large="gfx/leaders/CHU/kim_seon_tae.png"
-            }
-        }
-        country_leader={
-            ideology=neutrality
-            expire="1991.4.2"
-        }
-    }
+characters={
+	CHU_kim_seon_tae={
+		portraits={
+			civilian={
+				large= "gfx/leaders/CHU/kim_seon_tae.png"
+			}
+		}
+		country_leader={
+			ideology= neutrality
+			#expire="1965.1.1.1"
+			desc = "CHU_kim_seon_tae_desc"
+			id=-1
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	CHU_cho_gil_hyeong={
+		
+		portraits={
+			civilian={
+				large= "gfx/leaders/CHU/cho_gil_hyeong.png"
+			}
+		}
+		country_leader={
+			ideology= democratic
+			#expire="1965.1.1.1"
+			desc = "CHU_cho_gil_hyeong_desc"
+			id=-1
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	CHU_kim_jong_hyun={
+		portraits={
+			civilian={
+				large= "gfx/leaders/CHU/kim_jong_hyun.png"
+			}
+		}
+		country_leader={
+			ideology= communism
+			#expire="1965.1.1.1"
+			desc = "CHU_kim_jong_hyun_desc"
+			id=-1
+		}
+		
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+
+	CHU_council={		
+		portraits={
+			civilian={
+				large= "gfx/leaders/CHU/council.png"
+			}
+		}
+	}
+
+	CHU_university_union={		
+		portraits={
+			civilian={
+				large= "gfx/leaders/CHU/university_union.png"
+			}
+		}
+	}
+
+#거 씨발 광고 작작해
+	MNC_today_doc={
+		portraits={
+			civilian={
+				large= "gfx/leaders/CHU/today_doc.png"
+			}
+		}
+		country_leader={
+			ideology= implantism
+			#expire="1965.1.1.1"
+			desc = "MNC_today_doc_desc"
+			id=-1
+		}
+	}
 }
