@@ -561,10 +561,7 @@ country_event = {
 		MNC = {
 			transfer_state = 732
 			transfer_state = 597
-			transfer_state = 727
-			transfer_state = 728
 			transfer_state = 729
-			transfer_state = 730
 			division_template = {
 				name = "Marketing Division"
 				priority = 1
@@ -646,10 +643,7 @@ country_event = {
 		MNC = {
 			transfer_state = 732
 			transfer_state = 597
-			transfer_state = 727
-			transfer_state = 728
 			transfer_state = 729
-			transfer_state = 730
 			division_template = {
 				name = "Marketing Division"
 				priority = 1
@@ -743,11 +737,7 @@ country_event = {
 	option = {
 		name = CHU_civilwar.5.a
 		ai_chance = { factor = 100 }
-		CPA = {
-			transfer_state = 245
-			transfer_state = 606
-			transfer_state = 607
-			transfer_state = 734
+		CHU = {
 			division_template = {
 				name = "Police Division"
 				priority = 1
@@ -761,78 +751,8 @@ country_event = {
 				support = {
 				}
 			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-			random_owned_state = {
-				limit = { is_owned_by = CPA }
-				create_unit = {
-					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
-				}
-			}
-		}
-		country_event = {
-			id = CHU_civilwar.6
-			days = 2
-		}
-	}
-	option = {
-		name = CHU_civilwar.5.b
-		ai_chance = { factor = 0 }
-		CPA = {
-			transfer_state = 245
-			transfer_state = 606
-			transfer_state = 607
-			transfer_state = 734
 			division_template = {
-				name = "Police Division"
+				name = "Air Force Division"
 				priority = 1
 				division_names_group = CHU_infantry
 				regiments = {
@@ -845,62 +765,145 @@ country_event = {
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
 			random_owned_state = {
-				limit = { is_owned_by = CPA }
+				limit = { is_owned_by = CHU }
 				create_unit = {
 					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
-					owner = CPA
+					owner = CHU
 				}
 			}
-			change_tag_from = CHU
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
+			random_owned_state = {
+				limit = { is_owned_by = CHU }
+				create_unit = {
+					division = "division_template = \"Air Force Division\" start_experience_factor = 0.5" 
+					owner = CHU
+				}
+			}
 		}
 		country_event = {
 			id = CHU_civilwar.6
@@ -910,7 +913,7 @@ country_event = {
 }
 
 country_event = {
-	id =CHU_civilwar.6
+	id = CHU_civilwar.6
 	immediate = { 
 		log = "[GetDateText]: [Root.GetName]: event CHU_civilwar.6"
 	}
@@ -923,25 +926,7 @@ country_event = {
 
 	option = {
 		name = CHU_civilwar.6.a
-		KNU = {
-			transfer_state = 752
-			transfer_state = 753
-			transfer_state = 754
-		}
-		GLO = {
-			transfer_state = 601
-		}
-		CIW = {
-			transfer_state = 598
-		}
-		CHU = {
-			set_cosmetic_tag = CHUNGJU_CIVILWAR
-			create_faction = CHUNGJU_NEUTRAL_ZONE
-			add_to_faction = CHU 
-			add_to_faction = GLO
-			add_to_faction = KNU
-			add_to_faction = CIW
-		}
+		hidden_effect = {
 		GAN = {
 			diplomatic_relation = { country = MNC relation = non_aggression_pact }
 			diplomatic_relation = { country = DPC relation = non_aggression_pact }
@@ -963,7 +948,7 @@ country_event = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = CPA
+				target = CHU
 				type = annex_everything
 			}
 			declare_war_on = {
@@ -977,7 +962,7 @@ country_event = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = CPA
+				target = CHU
 				type = annex_everything
 			}
 			declare_war_on = {
@@ -991,13 +976,13 @@ country_event = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = CPA
+				target = CHU
 				type = annex_everything
 			}
 		}
-		CPA = {
+		MNC = {
 			declare_war_on = {
-				target = MNC
+				target = CHU
 				type = annex_everything
 			}
 		}
@@ -1006,7 +991,6 @@ country_event = {
 				is_core_of = CHU
 			}
 			add_core_of = MNC
-			add_core_of = CPA
 			add_core_of = DPC
 			add_core_of = PGC
 			add_core_of = GCH
@@ -1024,6 +1008,8 @@ country_event = {
 			add_offsite_building = { type = arms_factory level = 5 }
 			add_offsite_building = { type = industrial_complex level = 5 }
 		}
+	}
+		custom_effect_tooltip = CJ_civilwar_tt
 	}
 }
 

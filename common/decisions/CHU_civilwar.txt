@@ -1,0 +1,334 @@
+KNUT_KKU_collapse_decision  = {
+	attack_neutral_zone = {
+		fire_only_once = yes
+
+		activation = {
+			OR = {
+				has_war_with = MNC
+				has_war_with = PGC
+				has_war_with = DPC
+				has_war_with = GCH
+			}
+		}
+		available = {
+			has_war = no 
+		}
+		days_mission_timeout = 500
+		timeout_effect = { 
+			GLO = {
+				transfer_state = 601
+				declare_war_on = {
+					target = CHU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KNU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CIW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				hidden_effect = {
+					division_template = {
+						name = "KKU Division"
+						priority = 1
+						division_names_group = CHU_infantry
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+						}
+						support = {
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = GLO }
+						create_unit = {
+							division = "division_template = \"KKU Division\" start_experience_factor = 0.5" 
+							owner = GLO
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = GLO }
+						create_unit = {
+							division = "division_template = \"KKU Division\" start_experience_factor = 0.5" 
+							owner = GLO
+						}
+					}
+				}
+			}
+			KNU = {
+				transfer_state = 752
+				transfer_state = 753
+				transfer_state = 754
+				declare_war_on = {
+					target = CHU
+					type = annex_everything
+				} 
+				declare_war_on = {
+					target = CIW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				hidden_effect = {
+					division_template = {
+						name = "KNUT Division"
+						priority = 1
+						division_names_group = CHU_infantry
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+						}
+						support = {
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = KNU }
+						create_unit = {
+							division = "division_template = \"KNUT Division\" start_experience_factor = 0.5" 
+							owner = KNU
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = KNU }
+						create_unit = {
+							division = "division_template = \"KNUT Division\" start_experience_factor = 0.5" 
+							owner = KNU
+						}
+					}
+				}
+			}
+			CIW = {
+				transfer_state = 598
+				declare_war_on = {
+					target = CHU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				hidden_effect = {
+					division_template = {
+						name = "19th Air Force Division"
+						priority = 1
+						division_names_group = CHU_infantry
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+						}
+						support = {
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CIW }
+						create_unit = {
+							division = "division_template = \"19th Air Force Division\" start_experience_factor = 0.5" 
+							owner = CIW
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CIW }
+						create_unit = {
+							division = "division_template = \"19th Air Force Division\" start_experience_factor = 0.5" 
+							owner = CIW
+						}
+					}
+				}
+			}
+			CPA = {
+				transfer_state = 606
+				transfer_state = 734
+				transfer_state = 607
+				declare_war_on = {
+					target = CHU
+					type = annex_everything
+				}
+				hidden_effect = {
+					division_template = {
+						name = "Police Division"
+						priority = 1
+						division_names_group = CHU_infantry
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+						}
+						support = {
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+					random_owned_state = {
+						limit = { is_owned_by = CPA }
+						create_unit = {
+							division = "division_template = \"Police Division\" start_experience_factor = 0.5" 
+							owner = CPA
+						}
+					}
+				}
+			}
+			MNC = {
+				declare_war_on = {
+					target = CIW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KNU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = GLO
+					type = annex_everything
+				}
+			}
+			DPC = {
+				declare_war_on = {
+					target = CIW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KNU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = GLO
+					type = annex_everything
+				}
+			}
+			PGC = {
+				declare_war_on = {
+					target = CIW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KNU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = GLO
+					type = annex_everything
+				}
+			}
+			GCH = {
+				declare_war_on = {
+					target = CIW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CPA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KNU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = GLO
+					type = annex_everything
+				}
+			}
+		}
+	}
+}

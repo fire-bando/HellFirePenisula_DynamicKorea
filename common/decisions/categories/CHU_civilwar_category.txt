@@ -1,0 +1,18 @@
+chungju_civilwar_decision = {
+    allowed = {
+	OR = {
+		original_tag = MNC
+		original_tag = DPC
+		original_tag = PGC
+		original_tag = CPA
+		original_tag = CHU
+		original_tag = GCH
+	}
+    }
+}
+
+KNUT_KKU_collapse_decision = {
+    allowed = {
+	original_tag = CHU
+    }
+}
