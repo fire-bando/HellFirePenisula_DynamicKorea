@@ -174,7 +174,7 @@ SMC = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
 ESE = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
 JYA = {	color = rgb { 252 57 27 }	color_ui = rgb { 252 57 27 }	}
 OKS = {	color = rgb { 252 255 107 }	color_ui = rgb { 252 255 107 }	}
-KLG = {	color = rgb { 234 194 23 }	color_ui = rgb { 234 194 23 }	}
+NMP = {	color = rgb { 104 133 97 }	color_ui = rgb { 104 133 97 }	}
 PPP = {	color = rgb { 230 30 43 }	color_ui = rgb { 255 0 0 }	}
 CWD = {	color = rgb { 43 30 230 }	color_ui = rgb { 0 0 255 }	}
 KSD = {	color = rgb { 225	22 104 }	color_ui = rgb { 225 22 104 } }

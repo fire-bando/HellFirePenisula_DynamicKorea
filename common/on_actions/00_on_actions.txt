@@ -104,10 +104,6 @@ on_actions = {
 				transfer_state = 230
 				add_state_core = 230
 			}
-			KLG = {
-				transfer_state = 229
-				add_state_core = 229
-			}
 			PTT = { # 얘네 괴뢰국박기
 				set_cosmetic_tag = PTT_main
 				set_autonomy = {
@@ -128,10 +124,6 @@ on_actions = {
 				}
 				set_autonomy = {
 					target = ESE
-					autonomous_state = autonomy_bun
-				}
-				set_autonomy = {
-					target = KLG
 					autonomous_state = autonomy_bun
 				}
 				set_autonomy = {

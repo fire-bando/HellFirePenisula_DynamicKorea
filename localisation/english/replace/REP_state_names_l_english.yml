@@ -259,7 +259,9 @@
  STATE_240:0 "중앙 인제" #35k
  STATE_580:0 "남부 인제"
  STATE_241:0 "양구" #25k
- STATE_242:0 "홍천" #70k
+ STATE_242:0 "화천" #70k
+ STATE_758:0 "광원" #70k
+ STATE_759:0 "홍천" #70k
  
  #Gyeonggi Province
  STATE_26:0 "수원" #1.175m

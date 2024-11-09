@@ -5,8 +5,8 @@ state={
 		steel = 120
 	}
 	history={
-		owner = PTT
-		add_core_of = PTT
+		owner = NMP
+		add_core_of = NMP
         victory_points = { 1452 20 }
 		buildings = {
 			infrastructure = 6
