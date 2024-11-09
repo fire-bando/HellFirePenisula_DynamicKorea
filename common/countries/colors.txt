@@ -245,12 +245,12 @@ KCG = {
 	color = rgb { 180 100 120 }
 	color_ui = rgb { 234 130 156 }
 }
-MNC = {
-	color = rgb { 235 95 66 }
-	color_ui = rgb { 235 95 66 }
-}
-ACH = {	color = rgb { 41 42 66 }	color_ui = rgb { 41 42 66 } }
-TCH = {	color = rgb { 73 145 79 }	color_ui = rgb { 73 145 79 } }
+MNC = { color = rgb { 235 95 66 } 	color_ui = rgb { 235 95 66 } }
+TCN = {	color = rgb { 73 145 79 }	color_ui = rgb { 73 145 79 } }
 GCH = {	color = rgb { 0 153 66 }	color_ui = rgb { 0 153 66 } }
-HCH = {	color = rgb { 255 241 0 }	color_ui = rgb { 255 241 0 } }
-JCH = {	color = rgb { 214 0 28 }	color_ui = rgb { 214 0 28 } }
+GLO = {	color = rgb { 69 179 53 }	color_ui = rgb { 69 179 53 } }
+KNU = {	color = rgb { 107 29 33 }	color_ui = rgb { 107 29 33 } }
+CIW = {	color = rgb { 42 42 84 }	color_ui = rgb { 42 42 84 } }
+PGC = {	color = rgb { 214 0 28 }	color_ui = rgb { 214 0 28 } }
+CPA = {	color = rgb { 1 86 167 }	color_ui = rgb { 1 86 167 } }
+DPC = {	color = rgb { 21 36 132 }	color_ui = rgb { 21 36 132  } }

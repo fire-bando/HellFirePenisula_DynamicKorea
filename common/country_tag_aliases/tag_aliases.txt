@@ -45,39 +45,6 @@
 #	# ...
 #}
 
-# 충주 내전 세력
-
-MNC = { 
-	original_tag = CHU
-	has_government = implantism
-}
-# 그래서 나한테 임플란트 광고카스 뿌리는 이유가 뭔데
-
-GCH = { 
-	original_tag = CHU
-	has_government = fascism
-}
-
-JCH = { 
-	original_tag = CHU
-	has_government = communism
-}
-
-HCH = { 
-	original_tag = CHU
-	has_government =neutrality
-}
-
-TCH = { 
-	original_tag = CHU
-	has_government =idolism
-}
-
-ACH = { 
-	original_tag = CHU
-	has_government = odo_marinism
-}
-
 # operative operation target
 # only set for majors who has agency
 # set on on_weekly

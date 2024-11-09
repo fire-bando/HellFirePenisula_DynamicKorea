@@ -6,7 +6,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= neutrality
+			ideology= neutrality_subtype
 			#expire="1965.1.1.1"
 			desc = "CHU_kim_seon_tae_desc"
 			id=-1
@@ -30,7 +30,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= democratic
+			ideology= liberalism
 			#expire="1965.1.1.1"
 			desc = "CHU_cho_gil_hyeong_desc"
 			id=-1
@@ -53,7 +53,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= communism
+			ideology= communism_subtype 
 			#expire="1965.1.1.1"
 			desc = "CHU_kim_jong_hyun_desc"
 			id=-1

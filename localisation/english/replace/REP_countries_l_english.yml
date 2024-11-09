@@ -47,57 +47,54 @@
  JBR_DEF:0 "전주정무위원회"
 
  CHU_democratic:0 "충주 공화국"
- CHU_communism:0 "충주 농민 연합"
- CHU_fascism:0 "강원도인 형제단 돌격사단"
  CHU_neutrality:0 "대한민국 충주정부"
- CHU_implantism:0 "충주 임플란트 주권국"
- CHU_idolism:0 "트레센 학원 충주 분교"
- CHU_odo_marinism:0 "공군 제 19 전투비행단"
- 
  CHU_democratic_ADJ:0 "충주"
- CHU_communism_ADJ:0 "충주"
- CHU_fascism_ADJ:0 "충주" 
  CHU_neutrality_ADJ:0 "충주"
- CHU_implantism_ADJ:0 "충주"
- CHU_idolism_ADJ:0 "충주"
- CHU_odo_marinism_ADJ:0 "충주"
-
  CHU_democratic_DEF:0 "충주 공화국"
- CHU_communism_DEF:0 "충주 농민 연합"
- CHU_fascism_DEF:0 "강원도인 형제단 돌격사단"
  CHU_neutrality_DEF:0 "대한민국 충주정부"
- CHU_implantism_DEF:0 "충주 임플란트 주권국"
- CHU_idolism_DEF:0 "트레센 학원 충주 분교"
- CHU_odo_marinism_DEF:0 "공군 제 19 전투비행단"
-
  CHU_subject:0 "$OVERLORDADJ$령 $CHU$"
  CHU_subject_DEF:0 "$OVERLORDADJ$령 $CHU$"
- CHU_GAN_fascism_subject:0 "강원도인 형제단 충주지부"
+
+ MNC:0 "이지엠앤씨"
+ MNC_ADJ:0 "이지엠앤씨"
+ MNC_DEF:0 "이지엠앤씨"
+
+ GLO_democratic:0 "건국대학교 글로컬캠퍼스"
+ GLO_democratic_ADJ:0 "글로컬캠퍼스"
+ GLO_democratic_DEF:0 "건국대학교 글로컬캠퍼스"
+
+ KNU:0 "국립한국교통대학교 충주캠퍼스"
+ KNU_ADJ:0 "교통대"
+ KNU_DEF:0 "국립한국교통대학교 충주캠퍼스"
+
+ TCN:0 "트레센 학원"
+ TCN_ADJ:0 "트레센"
+ TCN_DEF:0 "트레센 학원"
+
+ GCH:0 "강원도인 형제단 충주지부"
+ GCH_ADJ:0 "강원도인 형제단 충주지부"
+ GCH_DEF:0 "강원도인 형제단 충주지부"
+
+ CIW:0 "제19전투비행단"
+ CIW_ADJ:0 "제19전투비행단"
+ CIW_DEF:0 "제19전투비행단"
+
+ PGC:0 "진보당 충북도당"
+ PGC_ADJ:0 "충북 진보당"
+ PGC_DEF:0 "진보당 충북도당"
+
+ CPA:0 "중앙경찰학교"
+ CPA_ADJ:0 "중앙경찰학교"
+ CPA_DEF:0 "중앙경찰학교"
+
+ DPC:0 "더불어민주당 충주지역위원회"
+ DPC_ADJ:0 "충주 민주당"
+ DPC_DEF:0 "더불어민주당 충주지역위원회"
  
- SAG_democratic:0 "사가현" 
- SAG_communism:0 "사가 코뮌"
- SAG_fascism:0 "사가국"
- SAG_neutrality:0 "사가"
- SAG_implantism:0 "사가 임플란트국"
- SAG_idolism:0 "프랑슈슈"
+ SAG:0 "사가현" 
+ SAG_ADJ:0 "사가"
+ SAG_DEF:0 "사가현"
 
- SAG_subject:0 "$OVERLORDADJ$령 $SAG$"
- SAG_subject_DEF:0 "$OVERLORDADJ$령 $SAG$"
-
- SAG_democratic_ADJ:0 "사가"
- SAG_communism_ADJ:0 "사가"
- SAG_fascism_ADJ:0 "사가" 
- SAG_neutrality_ADJ:0 "사가"
- SAG_implantism_ADJ:0 "사가"
- SAG_idolism_ADJ:0 "사가"
-
- SAG_democratic_DEF:0 "사가현"
- SAG_communism_DEF:0 "사가 코뮌"
- SAG_fascism_DEF:0 "사가국"
- SAG_neutrality_DEF:0 "사가"
- SAG_implantism_DEF:0 "사가 임플란트국"
- SAG_idolism:0 "프랑슈슈"
- 
  KGR:0 "남해 국가판무관부"
  KGR_DEF:0 "남해 국가판무관부"
  KGR_ADJ:0 "남해 국가판무관부"

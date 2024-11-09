@@ -26,3 +26,17 @@ is_literally_china = {
         original_tag = SZC
     }
 }
+is_chungju_country = {
+	OR = {
+		original_tag = CHU
+		original_tag = MNC
+		original_tag = TCN
+		original_tag = GCH
+		original_tag = GLO
+		original_tag = KNU
+		original_tag = CIW
+		original_tag = PGC
+		original_tag = CPA
+		original_tag = DPC
+	}
+}

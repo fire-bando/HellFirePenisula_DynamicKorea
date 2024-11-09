@@ -1,10 +1,12 @@
 
-capital = 595
-
-oob = "standard_templates"
 
 recruit_character = CHU_kim_seon_tae
 recruit_character = CHU_cho_gil_hyeong
+recruit_character = CHU_kim_jong_hyun
+
+capital = 595
+
+oob = "standard_templates"
 
 # Starting tech
 set_technology = {
@@ -15,7 +17,7 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2020.4.15"
 	election_frequency = 48
 	elections_allowed = yes
