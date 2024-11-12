@@ -1,18 +1,22 @@
+
 state={
 	id=577
 	name="STATE_577"
-	resources = {
-		steel = 130
+	resources={
+		steel=130.000
 	}
-	history = {
-	    owner = KAE 
-		add_core_of = KAE 
+
+	history={
+		owner = KAE
+		add_core_of = KAE
+
 	}
+
 	provinces={
-		1606 1920 2665 13255 13268 13272 13278 13289 
+		1606 1920 2665 7594 9720 13255 13260 13268 13272 13278 13286 13289 
 	}
 	manpower=40000
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-	state_category = rural
 }

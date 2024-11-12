@@ -5,12 +5,12 @@ state={
 
 	history={
 		owner = ZZZ
-		
-        set_demilitarized_zone = yes
+		set_demilitarized_zone = yes
+
 	}
 
 	provinces={
-		2767 3241 5133 5412 9487 13348 13392 
+		2767 3241 5133 5412 9384 9487 13348 13392 
 	}
 	manpower=193
 	buildings_max_level_factor=1.000

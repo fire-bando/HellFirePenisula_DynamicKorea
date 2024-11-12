@@ -126,10 +126,6 @@ on_actions = {
 					target = ESE
 					autonomous_state = autonomy_bun
 				}
-				set_autonomy = {
-					target = OKS
-					autonomous_state = autonomy_bun
-				}
 				create_faction = empire_of_ptt #REP_coutnries_l_english.yml 참조
 			}
 			

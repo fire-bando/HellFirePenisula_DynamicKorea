@@ -1,10 +1,18 @@
 state={
 	id=759
 	name="STATE_759"
+	history = {
+		owner = VII
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 2
+		}
+	}
 	provinces={
 		256 540 2257 2530 3616 4513 4982 5594 6534 7596 8466 9425 13501 
 	}
-	manpower=0
+	state_category = rural
+	manpower=1640
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

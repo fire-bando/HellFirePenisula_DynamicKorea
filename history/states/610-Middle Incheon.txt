@@ -1,22 +1,21 @@
+
 state={
 	id=610
 	name="STATE_610"
+
 	history={
 		owner = INA
 		add_core_of = INA
-		victory_points = {
-			4782 5
-		}
 		buildings = {
-			air_base = 10
 			infrastructure = 8
 		}
 	}
+
 	provinces={
-		4782 4917 5754 8052 8312 8619 13525 13529 13551 13571 15524 
+		8619 13571 
 	}
 	manpower=136000
-	state_category = city
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }

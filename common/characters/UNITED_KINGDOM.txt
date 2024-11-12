@@ -1,0 +1,14 @@
+characters={ 
+    UKK_rishi_sunak={
+        name=UKK_rishi_sunak
+        portraits={
+            civilian={
+                large=GFX_rishi_sunak
+            }
+        }
+        country_leader={
+            ideology=conservatism
+            expire="2024.7.5"
+        }
+    }
+}
