@@ -1,0 +1,18 @@
+capital = 760
+
+# Starting tech
+set_technology = {
+
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2020.4.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 100
+}

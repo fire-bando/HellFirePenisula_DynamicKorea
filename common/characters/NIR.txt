@@ -1,0 +1,10 @@
+characters={ 
+	NIR_yongil_lee={
+        name=NIR_yongil_lee
+        country_leader={
+            ideology=commnuism_juche_subtype
+            traits={ }
+            expire="6974.6.9.1"
+        }
+    }
+}

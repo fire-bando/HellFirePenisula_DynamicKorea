@@ -38,6 +38,7 @@ DRG = "countries/North Korea.txt"
 GWO = "countries/North Korea.txt"
 YGD = "countries/North Korea.txt"
 MSN = "countries/North Korea.txt"
+NIR = "countries/North Korea.txt"
 
 # 미 제국주의
 USA = "countries/USA.txt"

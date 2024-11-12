@@ -78,6 +78,7 @@ CAT = {	color = rgb { 196 118 252 }	color_ui = rgb { 196 118 252 } }
 JBR = {	color = rgb { 245 221 66 }	color_ui = rgb { 245 221 66 } }
 KRU = {	color = rgb { 137 0 37 }	color_ui = rgb { 137 0 37 } }
 AIR = {	color = rgb { 3 111 252 }	color_ui = rgb { 2 84 191 } }
+NIR = {	color = rgb { 40 123 212 }	color_ui = rgb { 23 23 138 } }
 HMC = {	color = rgb { 255 11 71 }	color_ui = rgb { 255 0 0 } }
 PWS = {	color = rgb { 47 45 147 }	color_ui = rgb { 47 45 147 } }
 CHU = {	color = rgb { 237 173 35 }	color_ui = rgb { 237 173 35 } }

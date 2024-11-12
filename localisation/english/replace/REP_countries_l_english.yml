@@ -114,6 +114,14 @@
  AIR:0 "공군 사령부"
  AIR_DEF:0 "진주 공군 사령부"
  AIR_ADJ:0 "공군"
+
+ NIR:0 "항공 및 반항공군 지휘부"
+ NIR_ADJ:0 "조선인민군 공군"
+ NIR_DEF:0 "평양-중화 공군 지휘부"
+
+ NIR_commnuism_juche_subtype:0 "항공 및 반항공군 지휘부"
+ NIR_commnuism_juche_subtype_ADJ:0 "조선인민군 공군"
+ NIR_commnuism_juche_subtype_DEF:0 "평양-중화 공군 지휘부"
  
  IRK:0 "Tuile Mhóir Deirge"
  IRK_DEF:0 "아일랜드 감자 연방"

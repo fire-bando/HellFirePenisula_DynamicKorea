@@ -19,6 +19,7 @@ focus_tree = {
 				original_tag = NJN
 				original_tag = JCR
 				original_tag = DRG
+				original_tag = NIR
 			}
 		}
 	}
