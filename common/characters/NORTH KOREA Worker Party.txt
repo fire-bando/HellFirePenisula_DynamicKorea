@@ -11,4 +11,16 @@ characters={
             expire = "1960.8.16"
         }
     }
+    WPK_Kim_Jong_Un={
+        name= WPK_Kim_Jong_Un
+        portraits = {
+            civilian = {
+                large = GFX_WPK_Kim_Jong_Un
+            }
+        }
+        country_leader = {
+            ideology = commnuism_juche_subtype
+            expire = "1960.8.16"
+        }
+    }
 }

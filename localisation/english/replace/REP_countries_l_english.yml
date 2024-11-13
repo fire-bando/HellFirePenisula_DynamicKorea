@@ -122,6 +122,10 @@
  NIR_commnuism_juche_subtype:0 "항공 및 반항공군 지휘부"
  NIR_commnuism_juche_subtype_ADJ:0 "조선인민군 공군"
  NIR_commnuism_juche_subtype_DEF:0 "평양-중화 공군 지휘부"
+
+ USA:0 "미합중국"
+ USA_ADJ:0 "미합중국"
+ USA_DEF:0 "미합중국"
  
  IRK:0 "Tuile Mhóir Deirge"
  IRK_DEF:0 "아일랜드 감자 연방"
