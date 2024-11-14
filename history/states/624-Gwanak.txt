@@ -1,18 +1,23 @@
+
 state={
 	id=624
 	name="STATE_624"
+
 	history={
 		owner = SPO
 		add_core_of = SPO
 		buildings = {
 			infrastructure = 9
+
 		}
+
 	}
+
 	provinces={
-		4585 5951 13554 
+		4585 5951 6572 13554 
 	}
 	manpower=286000
-	state_category=megalopolis
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

@@ -7,6 +7,18 @@ CHN = {
 	color = rgb { 175 13 0 }
 	color_ui = rgb { 175 13 0 }
 }
+CHK = {
+	color = rgb { 175 13 0 }
+	color_ui = rgb { 175 13 0 }
+}
+CHM = {
+	color = rgb { 175 13 0 }
+	color_ui = rgb { 175 13 0 }
+}
+CK2 = {
+	color = rgb { 175 13 0 }
+	color_ui = rgb { 175 13 0 }
+}
 IRK = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }

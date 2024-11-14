@@ -13,7 +13,12 @@ KGR	= "countries/Germany.txt"
 
 ###
 RUS	= "countries/Russia.txt"
+
+## 中华人民共和国
 CHN	= "countries/China Modern.txt"
+CHK	= "countries/China Modern.txt"
+CK2	= "countries/China Modern.txt"
+CHM	= "countries/China Modern.txt"
 
 # 토착왜구
 JAP	= "countries/Japan.txt"

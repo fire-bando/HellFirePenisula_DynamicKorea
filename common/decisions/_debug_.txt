@@ -305,7 +305,7 @@ DEBUG_HERE = {
         complete_effect = {
             every_state = {
                 limit = {
-                    region = 5
+                    region = 57
                 }
                 transfer_state_to = ROOT
                 add_core_of = ROOT
