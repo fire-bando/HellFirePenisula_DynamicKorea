@@ -1,0 +1,50 @@
+leader_traits = {
+	yoon_ka = {
+		random = no
+	}
+	yoon_dog = {
+		random = no
+		custom_modifier_tooltip = monthly_fucker_popular_increasing
+	}
+	killer_bosu = {
+		random = no
+	}
+	purifier = {
+		political_power_factor = 0.02
+		stability_factor = 0.2
+		random = no
+	}
+	star_of_republic = {
+		random = no
+		communism_acceptance = 10
+		communism_drift = 0.02
+		army_core_attack_factor = 0.05
+		army_core_defence_factor = 0.05 #todo 강기정 전용
+	}
+
+	hearts_of_yushin = {
+		random = no
+		consumer_goods_factor = -0.25
+		political_power_factor = 0.1026
+		communism_acceptance = -1026
+		economy_cost_factor = -0.66
+		ai_desired_divisions_factor = 1.026
+		hidden_modifier = {
+			weekly_manpower = 500
+		}
+	}
+
+	half_human_half_god = {
+		random = no
+		political_power_factor = 0.3
+		communism_acceptance = -516
+		stability_factor = 0.516
+		political_power_factor = 0.25
+		ai_focus_aggressive_factor = 0.516
+		ai_focus_military_advancements_factor = 0.516
+		command_power_gain = 0.5
+		hidden_modifier = {
+			weekly_manpower = 500
+		}
+	}
+}
