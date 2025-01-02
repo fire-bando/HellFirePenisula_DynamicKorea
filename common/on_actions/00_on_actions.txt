@@ -8,6 +8,9 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
+			every_country = {
+				play_song = "sewol"
+			}
 			if = {
 				limit = {
 					is_historical_focus_on = no
@@ -22,8 +25,10 @@ on_actions = {
 				}
 			}
 			random_state = {
-				if = {
-					is_owned_by = RUS
+				IF = {
+					limit = {
+						is_owned_by = RUS
+					}
 				}
 				RUSSIA_REVOLUTION = yes
 			}
@@ -40,7 +45,6 @@ on_actions = {
 						original_tag = PJH
 						original_tag = SBU
 						original_tag = TAE
-						original_tag = YNK
 						original_tag = YBJ
 						original_tag = YG1
 					}
@@ -49,7 +53,6 @@ on_actions = {
 				add_offsite_building = { type = industrial_complex level = 5 }
 				add_offsite_building = { type = arms_factory level = 5 }
 			}
-			play_song = "sewol"
 			NKA = {
 				country_event = {
 					id = skevent.1

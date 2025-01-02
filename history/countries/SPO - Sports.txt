@@ -1,6 +1,6 @@
 capital = 624
 
-oob = ""
+# oob = ""
 
 starting_train_buffer = 12
 

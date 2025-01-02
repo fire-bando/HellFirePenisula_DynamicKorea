@@ -2,7 +2,7 @@ capital = 26
 
 set_research_slots = 8
 
-oob = "SAM_2023"
+# oob = "SAM_2023"
 
 # Starting tech
 set_politics = {

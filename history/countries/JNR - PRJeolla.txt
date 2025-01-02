@@ -6,7 +6,6 @@ starting_train_buffer = 20
 
 recruit_character = JNR_daejung_kim
 recruit_character = JNR_jiwon_park
-recruit_character = JNR_democratic_party
 
 # Starting tech
 set_technology = {

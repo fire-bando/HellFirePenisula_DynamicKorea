@@ -325,24 +325,9 @@ ideologies = {
 				can_be_randomly_selected = no
 				color = { 15 74 112 }
 			}
-			# military_dictatorship = {
-			# 	color = { 48 50 69 }
-			# 	modifiers = {
-			# 		justify_war_goal_when_in_major_war_time = -0.50
-			# 		civilian_intel_to_others = 7.5
-			# 		army_intel_to_others = 5.0
-			# 		navy_intel_to_others = 5.0
-			# 		airforce_intel_to_others = 5.0
-			# 		hidden_modifier = {
-			# 			conscription_factor = 0.3
-			# 			ai_badass_factor = 0.5
-			# 			ai_desired_divisions_factor = 0.75
-			# 			ai_focus_aggressive_factor = 1
-			# 			ai_focus_war_production_factor = 0.8
-			# 			ai_focus_war_production_factor = 0
-			# 		}
-			# 	}
-			# }
+			military_dictatorship = {
+				color = { 48 50 69 }
+			}
 			despotism  = {}
 			oligarchism  = {}
 			theocratic_totalitarianism = {

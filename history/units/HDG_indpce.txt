@@ -16,7 +16,7 @@
 		infantry = { x = 3 y = 2 }
 	}
 
-	division_names_group = HDG_INF_01
+	# division_names_group = HDG_INF_01
 
 	priority = 1
 }
@@ -38,7 +38,7 @@ division_template = {
 		militia = { x = 3 y = 2 }
 	}
 
-	division_names_group = HDG_INF_01
+	# division_names_group = HDG_INF_01
 
 	priority = 1
 }

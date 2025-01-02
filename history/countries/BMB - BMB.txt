@@ -1,7 +1,5 @@
 capital = 686
 
-oob = ""
-
 starting_train_buffer = 1218
 
 recruit_character = SPO_donghun

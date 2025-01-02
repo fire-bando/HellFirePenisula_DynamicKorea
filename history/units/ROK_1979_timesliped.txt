@@ -71,7 +71,7 @@ units = {
 		location = 9434
 		division_template = "Armored Division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 5
+		start_equipment_factor = 0.5
 	}
 }
 instant_effect = {

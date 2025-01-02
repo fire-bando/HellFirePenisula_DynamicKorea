@@ -1,10 +1,13 @@
 capital = 292
 
-oob = "SIN_2023"
+# oob = "SIN_2023"
 
 # Starting tech
 set_technology = {
-
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	base_strike = 1
 }
 
 set_convoys = 0

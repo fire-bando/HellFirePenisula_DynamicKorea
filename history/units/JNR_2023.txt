@@ -224,7 +224,7 @@ units = {
 	}
 }
 
-focus = {
-    current = "JNR_new_sunshine_policy"
-    Progress = 2
-}   
+# focus = {
+#     current = "JNR_new_sunshine_policy"
+#     Progress = 2
+# }   

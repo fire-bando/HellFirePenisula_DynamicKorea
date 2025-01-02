@@ -213,4 +213,3 @@ complete_national_focus = PJH_yeouido
 complete_national_focus = PJH_seoul_gosok
 complete_national_focus = PJH_hey_same_banjik_dont_fucking_move
 complete_national_focus = PJH_KCIA
-complete_national_focus = KCIA_will_kill_jaegyued

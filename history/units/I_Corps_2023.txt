@@ -23,7 +23,7 @@
 		signal_company = { x = 0 y = 3 }		
 		engineer = { x = 0 y = 4 }		
 	}
-	division_names_group = KOR_INF_01
+	# division_names_group = KOR_INF_01
 
 	priority = 1
 }
@@ -52,7 +52,7 @@ division_template = {
 		signal_company = { x = 0 y = 3 }		
 		engineer = { x = 0 y = 4 }	
 	}
-	division_names_group = KOR_INF_01
+	# division_names_group = KOR_INF_01
 
 	priority = 1
 }
@@ -65,7 +65,7 @@ units = {
 		location = 1536
 		division_template = "Infantry Division I"
 		start_experience_factor = 0.2
-		start_equipment_factor = 1.5
+		start_equipment_factor = 1
 	}
 	division = {
 		division_name = {
@@ -75,7 +75,7 @@ units = {
 		location = 13421
 		division_template = "Infantry Division IX"
 		start_experience_factor = 0.2
-		start_equipment_factor = 1.5
+		start_equipment_factor = 1
 	}
 }
 instant_effect = {

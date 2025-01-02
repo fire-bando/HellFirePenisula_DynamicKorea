@@ -13,7 +13,7 @@
 		infantry = { x = 2 y = 2 }
 	}
 
-	division_names_group = SBU_INF_01
+	# division_names_group = SBU_INF_01
 
 	priority = 1
 }

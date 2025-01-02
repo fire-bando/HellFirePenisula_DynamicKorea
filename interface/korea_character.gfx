@@ -33,7 +33,7 @@ spriteTypes={
 	}
 	spriteType={
 		name="GFX_YLS_lucas"
-		texturefile="gfx/leaders/YLS/lukas.png"
+		texturefile="gfx/leaders/YLS/lukas.dds"
 	}
 	spriteType={
 		name="GFX_KGR_donitz_large"
@@ -91,10 +91,10 @@ spriteTypes={
 		name="GFX_portrait_hmc_hwang_large"
 		texturefile="gfx/leaders/HMC/portrait_large_hwang.dds"
 	}
-	spriteType={
-		name="GFX_park_chul_gon"
-		texturefile="gfx/ideas/portrait_park_chul_gon.dds"
-	}
+	# spriteType={ FILE IS MISSING
+	# 	name="GFX_park_chul_gon"
+	# 	texturefile="gfx/ideas/portrait_park_chul_gon.dds"
+	# }
 	spriteType={
 		name="GFX_son_su_jal"
 		texturefile="gfx/leaders/HMC/portrait_large_son.dds"

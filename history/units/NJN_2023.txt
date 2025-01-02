@@ -8,7 +8,7 @@
 		infantry = { x = 1 y = 1 }
 	}
 
-	division_names_group = AOJ_INF_01
+	# division_names_group = AOJ_INF_01
 
 	priority = 1
 }

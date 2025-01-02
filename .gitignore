@@ -5,3 +5,4 @@ repl-temp-*
 temp/
 localisation/japanese
 *.psd
+.vscode/

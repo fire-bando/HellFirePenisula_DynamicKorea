@@ -20,7 +20,7 @@ set_politics = {
 }
 set_popularities = {
 	neutrality = 99
-	fasicsm = 1
+	fascism = 1
 }
 declare_war_on = {
 	target = GIR
