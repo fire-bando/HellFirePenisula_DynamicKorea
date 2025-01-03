@@ -15,6 +15,9 @@
  AHN_neutrality_party_run_at_PPP_long:0 "국민의당"
  AHN_neutrality_party_run_at_PPP:0 "국민의당"
 
+ DDJ_democratic_party:0 "국민의힘 대전시당"
+ WDJ_democratic_party:0 "더불어민주당 대전시당"
+
  DNT_neutrality_party:0 "동탄맘들 모여라"
  #DNT_democratic_party:0 ""
  DNT_fascism_party:0 "동탄미시녀사랑회"
@@ -23,8 +26,6 @@
  SCJ_neutrality_party:0 "신천지 예수교 증거장막성전"
 
  NON_spiritual_conscriptism_party:0 "병무청"
-
- BMB_neutrality_party:0 "법무부 버스"
 
  SPO_neutrality_party:0 "대검찰청"
 
@@ -62,11 +63,8 @@
 
  EOT_socialism_party:0 "진보당 경북도당"
  EOT_communism_party:0 "진보당 경북도당"
-
  NJN_communism_party:0 "조선로동당 라선시 당위원회"
-
  CHN_socialism_party:0 "중국공산당"
  CHN_communism_party:0 "중국공산당"
- 
  UKK_democratic_party:0 "보수당"
  UKK_socialism_party:0 "노동당"

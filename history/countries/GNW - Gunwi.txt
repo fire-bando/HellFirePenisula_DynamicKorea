@@ -33,7 +33,4 @@ create_country_leader = {
 	picture = asd_gjk
 	expire = "1999.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
 }

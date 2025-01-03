@@ -46,13 +46,6 @@ if = {
 	else = {
 		puppet = SPO
 	}
-	set_autonomy = {
-		target = BMB
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = BMB
-	}
 }
 
 set_politics = {

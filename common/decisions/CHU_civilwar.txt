@@ -37,7 +37,7 @@ KNUT_KKU_collapse_decision  = {
 					division_template = {
 						name = "KKU Division"
 						priority = 1
-						division_names_group = CHU_infantry
+						# division_names_group = CHU_infantry
 						regiments = {
 							infantry = { x = 0 y = 0 }
 							infantry = { x = 0 y = 1 }
@@ -83,7 +83,7 @@ KNUT_KKU_collapse_decision  = {
 					division_template = {
 						name = "KNUT Division"
 						priority = 1
-						division_names_group = CHU_infantry
+						# division_names_group = CHU_infantry
 						regiments = {
 							infantry = { x = 0 y = 0 }
 							infantry = { x = 0 y = 1 }
@@ -123,7 +123,7 @@ KNUT_KKU_collapse_decision  = {
 					division_template = {
 						name = "19th Air Force Division"
 						priority = 1
-						division_names_group = CHU_infantry
+						# division_names_group = CHU_infantry
 						regiments = {
 							infantry = { x = 0 y = 0 }
 							infantry = { x = 0 y = 1 }
@@ -161,7 +161,7 @@ KNUT_KKU_collapse_decision  = {
 					division_template = {
 						name = "Police Division"
 						priority = 1
-						division_names_group = CHU_infantry
+						# division_names_group = CHU_infantry
 						regiments = {
 							infantry = { x = 0 y = 0 }
 							infantry = { x = 0 y = 1 }

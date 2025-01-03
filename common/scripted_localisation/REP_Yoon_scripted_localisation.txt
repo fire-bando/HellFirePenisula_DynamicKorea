@@ -23,26 +23,26 @@ defined_text = {
 	text = { localization_key = YBJ_redacted }
 }
 defined_text = {
-	name = GetYBJFocusYBJ_call_nsc
+	name = GetYBJFocusYBJ_unconstitutional_state_council_proceedings
 	text = {
 		trigger = { YBJ = { is_ai = no } }
-		localization_key = YBJ_call_nsc_text
+		localization_key = YBJ_unconstitutional_state_council_proceedings_text
 	}
 	text = { localization_key = YBJ_redacted }
 }
 defined_text = {
-	name = GetYBJFocusYBJ_declare_emergency
+	name = GetYBJFocusYBJ_declare_martial_law
 	text = {
 		trigger = { YBJ = { is_ai = no } }
-		localization_key = YBJ_declare_emergency_text
+		localization_key = YBJ_declare_martial_law_text
 	}
 	text = { localization_key = YBJ_redacted }
 }
 defined_text = {
-	name = GetYBJFocusYBJ_prosecution_dictatorship
+	name = GetYBJFocusYBJ_eradicate_pro_dprk_anti_state_forces
 	text = {
 		trigger = { YBJ = { is_ai = no } }
-		localization_key = YBJ_prosecution_dictatorship_text
+		localization_key = YBJ_eradicate_pro_dprk_anti_state_forces_text
 	}
 	text = { localization_key = YBJ_redacted }
 }
@@ -63,10 +63,10 @@ defined_text = {
 	text = { localization_key = YBJ_redacted }
 }
 defined_text = {
-	name = GetYBJFocusYBJ_occupy_assembly
+	name = GetYBJFocusYBJ_occupy_NEC
 	text = {
 		trigger = { YBJ = { is_ai = no } }
-		localization_key = YBJ_occupy_assembly_text
+		localization_key = YBJ_occupy_NEC_text
 	}
 	text = { localization_key = YBJ_redacted }
 }

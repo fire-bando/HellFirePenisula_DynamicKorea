@@ -27,12 +27,12 @@ bookmarks = {
 			}
 		}
 
-		"BUS"={
-			history = "OTHER_BREAKED_DESC"
-			ideology = fascism
-			ideas ={ }
-			focuses  { }
-		}
+		# "BUS"={
+		# 	history = "OTHER_BREAKED_DESC"
+		# 	ideology = fascism
+		# 	ideas ={ }
+		# 	focuses  { }
+		# }
         
         "JNR"={
 			history = "OTHER_BREAKED_DESC"
@@ -84,7 +84,7 @@ bookmarks = {
 		"ROH"={
 			minor = yes
 			history = "OTHER_BREAKED_DESC"
-			ideology = rohsamo
+			ideology = roh_samo
 			ideas = {
 			}
 			focuses = {

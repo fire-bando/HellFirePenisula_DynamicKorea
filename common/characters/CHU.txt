@@ -49,7 +49,7 @@ characters={
 	CHU_kim_jong_hyun={
 		portraits={
 			civilian={
-				large= "gfx/leaders/CHU/kim_jong_hyun.png"
+				large= "gfx/leaders/CHU/kim_jong_hyun.png" #이미지 경로 문제있음
 			}
 		}
 		country_leader={

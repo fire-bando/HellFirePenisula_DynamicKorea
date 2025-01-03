@@ -23,10 +23,10 @@ set_popularities = {
 }
 create_country_leader = {
 	name = "시구레 우이"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	# desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = GFX_시구레우이
 	expire = "2065.1.1"
 	ideology = centrism
-	traits = {
-	}
+	# traits = {
+	# }
 }

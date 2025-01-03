@@ -388,10 +388,6 @@
  YLS_DEF: "겨울왕국"
  YLS_ADJ: "겨울왕국"
  
- BMB: "법무부"
- BMB_DEF: "법무부"
- BMB_ADJ: "법무부"
- 
  KJI: "메카-김정일 연구소"
  KJI_DEF: "메카-김정일 연구소"
  KJI_ADJ: "메카-김정일 연구소"
@@ -713,3 +709,15 @@
  HDG:0 "하동"
  HDG_ADJ:0 "하동"
  HDG_DEF:0 "하동"
+
+ EDJ:0 "동대전"
+ EDJ_ADJ:0 "동대전"
+ EDJ_DEF:0 "동대전"
+#  EDJ_fascism:0 "대전아 이름뭘로짓지 고민 존나된다 시발"
+ EDJ_democratic:0 "대전사회공화국"
+ 
+ WDJ:0 "서대전"
+ WDJ_democratic:0 "대전민주공화국"
+ WDJ_ADJ:0 "서대전"
+ WDJ_DEF:0 "서대전"
+ WDJ_communism:0 "대전인민공화국"

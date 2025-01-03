@@ -22,8 +22,6 @@ create_country_leader = {
 	picture = GFX_시진핑
 	expire = "2065.1.1"
 	ideology = china_special_socialism_idea
-	traits = {
-	}
 }
 
 set_popularities = {

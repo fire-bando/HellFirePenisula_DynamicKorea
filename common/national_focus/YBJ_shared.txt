@@ -22,7 +22,10 @@ shared_focus = {
 	y = 0
 
 	completion_reward = {
-		
+		country_event = {
+			id = YBJ_event.1
+			days = 2
+		}
 	}
 }
 
@@ -48,7 +51,7 @@ shared_focus = {
 # 	dynamic = yes
 
 # 	# prerequisite = {
-# 	# 	focus = YBJ_declare_emergency
+# 	# 	focus = YBJ_declare_martial_law
 # 	# }
 
 # 	# offset = {
@@ -105,12 +108,15 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		
+		country_event = {
+			id = YBJ_event.2
+			days = 2
+		}
 	}
 }
 
 shared_focus = {
-	id = YBJ_call_nsc
+	id = YBJ_unconstitutional_state_council_proceedings
 	icon = {
 		trigger = {
 			YBJ = {
@@ -139,7 +145,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_declare_emergency
+	id = YBJ_declare_martial_law
 	icon = {
 		trigger = {
 			YBJ = {
@@ -152,7 +158,7 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_call_nsc
+		focus = YBJ_unconstitutional_state_council_proceedings
 	}
 	prerequisite = {
 		focus = YBJ_grasp_situation
@@ -161,7 +167,7 @@ shared_focus = {
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_call_nsc
+	relative_position_id = YBJ_unconstitutional_state_council_proceedings
 	x = -1
 	y = 1
 
@@ -171,7 +177,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_prosecution_dictatorship
+	id = YBJ_eradicate_pro_dprk_anti_state_forces
 	icon = {
 		trigger = {
 			YBJ = {
@@ -187,16 +193,16 @@ shared_focus = {
 	# 	focus = YBJ_grasp_situation
 	# }
 	# prerequisite = {
-	# 	focus = YBJ_call_nsc
+	# 	focus = YBJ_unconstitutional_state_council_proceedings
 	# }
 	prerequisite = {
-		focus = YBJ_declare_emergency
+		focus = YBJ_declare_martial_law
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_declare_emergency
+	relative_position_id = YBJ_declare_martial_law
 	x = 0
 	y = 3
 
@@ -219,30 +225,23 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_prosecution_dictatorship
+		focus = YBJ_eradicate_pro_dprk_anti_state_forces
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_prosecution_dictatorship
+	relative_position_id = YBJ_eradicate_pro_dprk_anti_state_forces
 	x = -4
 	y = 1
 
 	completion_reward = {
-		BMB = {
-			annex_country = {
-				target = SPO
-				transfer_troops = yes
-			}
-			set_cosmetic_tag = BMB_with_SPO
-		}
 		
 	}
 }
 
 shared_focus = {
-	id = YBJ_gunhee_kim
+	id = YBJ_occupying_national_assembly
 	icon = {
 		trigger = {
 			YBJ = {
@@ -255,13 +254,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_prosecution_dictatorship
+		focus = YBJ_eradicate_pro_dprk_anti_state_forces
 	}
 
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_prosecution_dictatorship
+	relative_position_id = YBJ_eradicate_pro_dprk_anti_state_forces
 	x = 0
 	y = 1
 
@@ -276,7 +275,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_occupy_assembly
+	id = YBJ_occupy_NEC
 	icon = {
 		trigger = {
 			YBJ = {
@@ -289,13 +288,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_prosecution_dictatorship
+		focus = YBJ_eradicate_pro_dprk_anti_state_forces
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_prosecution_dictatorship
+	relative_position_id = YBJ_eradicate_pro_dprk_anti_state_forces
 	x = 4
 	y = 1
 
@@ -314,7 +313,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_placeholder_1
+	id = YBJ_kill_PPP_senior
 	icon = {
 		trigger = {
 			YBJ = {
@@ -327,13 +326,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_gunhee_kim
+		focus = YBJ_occupying_national_assembly
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_gunhee_kim
+	relative_position_id = YBJ_occupying_national_assembly
 	x = -1
 	y = 1
 
@@ -356,10 +355,10 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_1
+		focus = YBJ_kill_PPP_senior
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_3
+		focus = YBJ_new_legislature_controlled_by_administration
 	}
 	prerequisite = {
 		focus = YBJ_placeholder_4
@@ -371,22 +370,17 @@ shared_focus = {
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_gunhee_kim
+	relative_position_id = YBJ_occupying_national_assembly
 	x = 0
 	y = 2
 
 	completion_reward = {
-		ROOT = {
-			country_event = {
-				days = 3
-				id = YBJ_event.1
-			}
-		}
+
 	}
 }
 
 shared_focus = {
-	id = YBJ_placeholder_3
+	id = YBJ_new_legislature_controlled_by_administration
 	icon = {
 		trigger = {
 			YBJ = {
@@ -399,13 +393,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_gunhee_kim
+		focus = YBJ_occupying_national_assembly
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_gunhee_kim
+	relative_position_id = YBJ_occupying_national_assembly
 	x = 1
 	y = 1
 	
@@ -457,13 +451,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_occupy_assembly
+		focus = YBJ_occupy_NEC
 	}
 
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_occupy_assembly
+	relative_position_id = YBJ_occupy_NEC
 	x = 1
 	y = 1
 	

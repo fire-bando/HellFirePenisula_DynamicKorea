@@ -74,6 +74,10 @@ GSN = "countries/South Korea.txt" #광산군벌
 YKG = "countries/South Korea.txt" #영광군벌
 KCG = "countries/South Korea.txt" #고창군벌
 
+# 대전
+WDJ = "countries/South Korea.txt" # 서대전
+EDJ = "countries/South Korea.txt" # 동대전
+
 #남조선 괴뢰도당
 ROK = "countries/South Korea.txt"
 YG1 = "countries/South Korea.txt"
@@ -103,7 +107,7 @@ DCE = "countries/South Korea.txt"
 SSD = "countries/South Korea.txt"
 BSU = "countries/South Korea.txt"
 SAD = "countries/South Korea.txt"
-ILB = "countries/South Korea.txt"
+ILB = "countries/South Korea.txt" # 일베시티
 IBE = "countries/South Korea.txt"
 JNH = "countries/South Korea.txt"
 ITW = "countries/South Korea.txt"
@@ -145,7 +149,6 @@ INA = "countries/South Korea.txt"
 BUD = "countries/South Korea.txt"
 ASS = "countries/South Korea.txt"
 SPO = "countries/South Korea.txt"
-BMB = "countries/South Korea.txt"
 LOT = "countries/South Korea.txt"
 BRO = "countries/South Korea.txt"
 NUC = "countries/South Korea.txt"
@@ -178,13 +181,13 @@ TBK = "countries/South Korea.txt"
 SMC = "countries/South Korea.txt"
 ESE = "countries/South Korea.txt"
 NMP = "countries/South Korea.txt"
-GIR = "countries/South Korea.txt"
-GI2 = "countries/South Korea.txt"
+GIR = "countries/South Korea.txt" # 여성의당
+GI2 = "countries/South Korea.txt" # 여성의당
 OKS = "countries/South Korea.txt"
 JYA = "countries/South Korea.txt"
-PPP = "countries/South Korea.txt"
-EOT = "countries/South Korea.txt"
-HDG = "countries/South Korea.txt"
+PPP = "countries/South Korea.txt" # 국민의힘
+EOT = "countries/South Korea.txt" # 대구 진보
+HDG = "countries/South Korea.txt" # 독립 하동 
 MNC = "countries/South Korea.txt" # 이지엠앤씨
 GCH = "countries/South Korea.txt" # 충주 강원도인
 TCN = "countries/South Korea.txt" # 그레이스 트레센

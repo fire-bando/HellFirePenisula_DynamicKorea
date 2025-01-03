@@ -1,12 +1,8 @@
+capital = 719
 
+starting_train_buffer = 3
 
-recruit_character = CHU_kim_seon_tae
-recruit_character = CHU_cho_gil_hyeong
-recruit_character = CHU_kim_jong_hyun
-
-capital = 595
-
-oob = "standard_templates"
+recruit_character = WDJ_Seoung_lae
 
 # Starting tech
 set_technology = {
@@ -14,7 +10,9 @@ set_technology = {
 	basic_train = 1
 }
 
-set_convoys = 20
+set_research_slots = 3
+
+set_convoys = 0
 
 set_politics = {
 	ruling_party = democratic

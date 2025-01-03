@@ -2,8 +2,6 @@ capital = 32
 
 oob = "standard_templates"
 
-recruit_character = WPK_Kim_Jong_Un
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

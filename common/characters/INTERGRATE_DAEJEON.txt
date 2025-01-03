@@ -1,0 +1,30 @@
+characters={ 
+    WDJ_Seoung_lae={
+        name=WDJ_Seoung_lae
+        portraits={
+            civilian={
+                # large=GFX_WDJ_Seoung_lae_large
+            }
+        }
+        country_leader={
+            ideology=theminju
+            expire="1960.8.16"
+        }
+    }
+    
+    
+    
+    ############### EAST DAEJEON #################
+    EDJ_Chang_Hyun={
+        name=EDJ_Chang_Hyun
+        portraits={
+            civilian={
+                # large=GFX_EDJ_Chang_Hyun_large
+            }
+        }
+        country_leader={
+            ideology=aeguk_bosu
+            expire="1960.8.16"
+        }
+    }
+ }

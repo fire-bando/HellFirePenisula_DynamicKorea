@@ -35,11 +35,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "통합진보연합"
+	name = "진보당 경북도당 상임위"
 	picture = GFX_portrait_SOV_supreme_soviet
-	desc = "insub_desc"
+	# desc = "insub_desc"
 	expire = "2965.1.1"
 	ideology = NL
-	traits = {
-	}
+	# traits = {
+	# }
 }
