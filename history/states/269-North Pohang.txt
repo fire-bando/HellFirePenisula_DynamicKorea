@@ -1,0 +1,31 @@
+state={
+	id=269
+	name="STATE_269"
+	resources={
+		steel=90.000
+		tungsten=36.000
+		aluminium=12.000
+	}
+	history = {
+		owner = HMC
+		add_core_of = HMC
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			6532 = {
+				naval_base = 2
+			}
+			9493 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		53 233 376 668 1195 1337 2086 2170 3267 3660 3681 5159 5999 6532 6814 7260 7367 7892 8196 8372 9063 9338 9433 9493 14173 14193 14201 14215 14225 14229 14240 14244 14255 14256 14268 14270 14275 14284 14294 
+	}
+	manpower=273051
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

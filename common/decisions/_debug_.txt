@@ -17,4 +17,18 @@ DEBUG_HERE = {
             }
         }
     }
+    YBJ_state_council_closed = {
+        complete_effect = {
+            if = {
+                limit = {
+                    has_country_flag = YBJ_state_council_open
+                }
+                clr_country_flag = YBJ_state_council_open
+                custom_effect_tooltip = close_tt
+            }
+            OR = {
+                set_country_flag = YBJ_state_council_open
+            }
+        }
+    }
 }

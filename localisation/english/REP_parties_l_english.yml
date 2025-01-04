@@ -15,7 +15,7 @@
  AHN_neutrality_party_run_at_PPP_long:0 "국민의당"
  AHN_neutrality_party_run_at_PPP:0 "국민의당"
 
- DDJ_democratic_party:0 "국민의힘 대전시당"
+ EDJ_democratic_party:0 "국민의힘 대전시당"
  WDJ_democratic_party:0 "더불어민주당 대전시당"
 
  DNT_neutrality_party:0 "동탄맘들 모여라"
@@ -30,7 +30,6 @@
  SPO_neutrality_party:0 "대검찰청"
 
  SAM_neutrality_party:0 "삼성 경영진"
- SAM_spiritual_conscriptism_party:0 "삼성 충성파 징집위원회"
 
  ROH_roh_samo_party:0 "사람사는 세상"
 

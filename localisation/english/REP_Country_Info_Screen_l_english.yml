@@ -1,0 +1,91 @@
+﻿l_english: 
+# GUI functionality
+
+ CountryInfo_pls_click_on_entry: "== 왼쪽의 항목 클릭 =="
+ CountryInfo_Folder_button_tt: "§G클릭§!해서 §Y[CountryInfo_GET_Folder_Country]§! 국가의 항목창 켜고 끄기"
+ CountryInfo_Content_button_tt: "§G클릭§!하여 §Y[CountryInfo_GET_Content_Country]§! 내의 항목 보기"
+ TNO_COUNTRY_INFO_BUTTON_TT: "[TNO_COUNTRY_INFO_BUTTON_TT_LOC]"
+ TNO_COUNTRY_INFO_BUTTON_TT_ALL: "§Y운명이 기다리고 있습니다.§!"
+ TNO_COUNTRY_INFO_BUTTON_TT_YBJ: "§Y윤윤윤.§!\n\n§R윤윤윤§!"
+ 
+### COUNTRY OPENING ###
+ CountryInfo_tab_name_country: "국가 개요"
+ 
+
+ ### TUTORIALS ###
+ CountryInfo_tab_name_tutorials: "모드 정보"
+
+ CountryInfo_Tutorial_Folder.101: "asdf" 
+
+ CountryInfo_Tutorial_Content.1: ""
+ CountryInfo_Tutorial_Content_desc.1: ""
+
+ CountryInfo_Tutorial_Content.3: ""
+ CountryInfo_Tutorial_Content_desc.3: ""
+
+ CountryInfo_Tutorial_Content.4: ""
+ CountryInfo_Tutorial_Content_desc.4: ""
+ 
+ CountryInfo_Tutorial_Content.5: ""
+ CountryInfo_Tutorial_Content_desc.5: ""
+ 
+ CountryInfo_Tutorial_Folder.102: ""
+ 
+ CountryInfo_Tutorial_Content.6: ""
+ CountryInfo_Tutorial_Content_desc.6: ""
+ 
+ CountryInfo_Tutorial_Content.7: ""
+ CountryInfo_Tutorial_Content_desc.7: ""
+ 
+ CountryInfo_Tutorial_Content.8: ""
+ CountryInfo_Tutorial_Content_desc.8: ""
+ 
+ CountryInfo_tab_name_development: ""
+ CountryInfo_Development_Folder.101: ""
+ CountryInfo_Development_Content.1: ""
+ CountryInfo_Development_Content_desc.1: ""
+ CountryInfo_Development_Folder.102: ""
+ CountryInfo_Development_Content.2: ""
+ CountryInfo_Development_Content.3: ""
+ CountryInfo_Development_Content.4: ""
+ 
+ CountryInfo_Development_Content_desc.2: ""
+ CountryInfo_Development_Content_desc.3: ""
+ CountryInfo_Development_Content_desc.4: ""
+
+ ### COUNTRY ENDING ###
+ CountryInfo_tab_name_ending: "Afterthought"
+ 
+ ###YBJ
+ TNO_COUNTRY_INFO_BUTTON_TEXT: ""
+ TNO_COUNTRY_INFO_BUTTON_TEXT_YBJ: ""
+ YBJ_CountryInfo_Folder.101: ""
+ YBJ_CountryInfo_Folder.102: ""
+ # 101
+ YBJ_CountryInfo_Content.1: ""
+ YBJ_CountryInfo_Content_desc.1: ""
+ 
+ YBJ_CountryInfo_Content.2: ""
+ YBJ_CountryInfo_Content_desc.2: ""
+ 
+ YBJ_CountryInfo_Content.3: ""
+ YBJ_CountryInfo_Content_desc.3: ""
+ 
+ YBJ_CountryInfo_Content.4: ""
+ YBJ_CountryInfo_Content_desc.4: ""
+ 
+ YBJ_CountryInfo_Content.5: ""
+ YBJ_CountryInfo_Content_desc.5: ""
+ 
+ # 102
+ YBJ_CountryInfo_Content.6: ""
+ YBJ_CountryInfo_Content_desc.6: ""
+  
+ YBJ_CountryInfo_Content.7: ""
+ YBJ_CountryInfo_Content_desc.7: ""
+  
+ YBJ_CountryInfo_Content.8: ""
+ YBJ_CountryInfo_Content_desc.8: ""
+  
+ YBJ_CountryInfo_Content.9: ""
+ YBJ_CountryInfo_Content_desc.9: ""

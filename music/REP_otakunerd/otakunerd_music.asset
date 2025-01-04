@@ -3,10 +3,6 @@ music = {
 	file = "glu.ogg"
 }
 music = {
-	name = "r_p_g"
-	file = "RPG.ogg"
-}
-music = {
 	name = "nmul"
 	file = "nmul.ogg"
 }

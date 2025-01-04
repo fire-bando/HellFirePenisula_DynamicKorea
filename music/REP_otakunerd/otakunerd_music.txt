@@ -9,15 +9,6 @@ music = {
 	}
 }
 music = {
-	song = "r_p_g"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-music = {
 	song = "nmul"
 	chance = {
 		factor = 0
