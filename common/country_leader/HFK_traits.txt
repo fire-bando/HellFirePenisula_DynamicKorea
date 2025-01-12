@@ -6,7 +6,11 @@ leader_traits = {
 		random = no
 		custom_modifier_tooltip = monthly_fucker_popular_increasing
 	}
-	killer_bosu = {
+	yoon_bullshit = {
+		random = no
+		custom_modifier_tooltip = yoon_is_shit
+	}
+	conservatism_killer = {
 		random = no
 	}
 	purifier = {

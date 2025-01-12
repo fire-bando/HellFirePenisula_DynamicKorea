@@ -142,6 +142,10 @@ defined_text = {
 		localization_key = gumchal_dokjae
 	}
 	text = {
+		trigger = { has_country_leader_ideology = yongsanism }
+		localization_key = yongsanism
+	}
+	text = {
 		trigger = { has_country_leader_ideology = despotism }
 		localization_key = despotism
 	}

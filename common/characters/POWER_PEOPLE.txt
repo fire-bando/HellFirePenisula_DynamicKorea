@@ -11,11 +11,11 @@ characters={
             expire="8192.2.8"
         }
     }
-    YBJ_yoon_daddy={
-        name=YBJ_yoon_daddy
+    YBJ_yoon_father={
+        name=YBJ_yoon_father
         portraits={
             civilian={
-                large=GFX_YBJ_yoon_daddy_large
+                large=GFX_YBJ_yoon_father_large
             }
         }
         country_leader={

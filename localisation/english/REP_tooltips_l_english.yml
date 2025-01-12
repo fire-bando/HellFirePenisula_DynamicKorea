@@ -7,8 +7,4 @@
  EOT_TRADE_UNION_HAS_BEEN_FORMED:0 "노동조합이 형성됨"
  EOT_FARMER_DEMAND_HELP:0 "당이 농민의 요구를 수락함"
 
- custom_diff_strong_jnr:0 "전라민국 강화"
- BRO_YOU_CANT_CONTROL_THE_COUNTRY:0 "아직도 동교동계와 친노파의 이권다툼은 계속되고 있습니다. 당신이 완전히 국가를 통제하고 있다고 생각하십니까?\n\n\n"
- JNR_WESTERN_ARMY1_TT:0 "동부급반군단을 철수시키고 민정청을 수립합니다.\n\n\n   동부급반군단의 불만이 커지면, 그들의 독립적인 지위를 이용할 것입니다."
- JNR_YEONGROK_BECOME_A_LEADER_TT:0 "§Y친노계§!를 배제한 상태에서 최고지도자를 선출합니다."
- TOOLTIP_RE_START_PLZ:0 "§R제발 게임 시작 전 역사적 AI 중점을 키십시오.§!"
+ YBJ_kill_PPP_senior_tt:0 "§Y검찰공화국§!에서 §Y나경원§! 사망.\n§Y검찰공화국§!에서 §Y태영호§! 사망.\n§Y검찰공화국§!에서 §Y한동훈§! 사망."

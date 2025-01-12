@@ -325,6 +325,10 @@ ideologies = {
 				can_be_randomly_selected = no
 				color = { 15 74 112 }
 			}
+			yongsanism = {
+				can_be_randomly_selected = no
+				color = { 150 33 33 }
+			}
 			military_dictatorship = {
 				color = { 48 50 69 }
 			}

@@ -172,7 +172,22 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		
+		ROOT = {
+			swap_ruler_traits = {
+				remove = yoon_dog
+				add = yoon_bullshit
+			}
+			set_country_leader_ideology = yongsanism
+			# set_country_leader_name = { 굳이 이름까지?
+			# 	ideology = neutrality
+			# 	name = LOC_KEY
+			# }
+			set_party_name = {
+				ideology = neutrality
+				long_name = YBJ_neutrality_party_yongsanism
+				name = YBJ_neutrality_party_yongsanism
+			}
+		}
 	}
 }
 
@@ -212,7 +227,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_integration_moj_prosecution
+	id = YBJ_gag_on_media
 	icon = {
 		trigger = {
 			YBJ = {
@@ -337,7 +352,11 @@ shared_focus = {
 	y = 1
 
 	completion_reward = {
-		
+		hidden_effect = {
+			retire_character = YBJ_na_kyungwon
+			retire_character = YBJ_tae_yeong_ho
+		}
+		custom_effect_tooltip = YBJ_kill_PPP_senior_tt
 	}
 }
 
@@ -422,13 +441,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_integration_moj_prosecution
+		focus = YBJ_gag_on_media
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_integration_moj_prosecution
+	relative_position_id = YBJ_gag_on_media
 	x = -1
 	y = 1
 	

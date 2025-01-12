@@ -1,0 +1,24 @@
+capital = 257
+
+starting_train_buffer = 5
+
+# recruit_character = PJH_god
+
+# oob = "ROK_1979_timesliped"
+
+# Starting tech
+
+
+set_research_slots = 3
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = parkism
+	last_election = "2020.4.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	parkism = 100
+}
