@@ -2,6 +2,8 @@ capital = 618
 
 starting_train_buffer = 20
 
+oob = "LAB_2023"
+
 recruit_character = LAB_seokgi_lee
 
 # Starting tech

@@ -1,8 +1,4 @@
 ﻿l_english:
- JAP_democratic:0 "무모구칠 렌야의 키타쵸센 총독부"
- JAP_democratic_DEF:0 "무모구칠 렌야의 키타쵸센 총독부"
- JAP_democratic_ADJ:0 "무모구칠 렌야의 키타쵸센 총독부"
-
  RUS:0 "러시아 연방"
  RUS_DEF:0 "러시아 연방"
  RUS_ADJ:0 "러시아"
@@ -456,17 +452,17 @@
  GGR_ADJ:0 "고구려"
  GGR_DEF:0 "고구려"
 
- PJH_parkism:0 "국가재건최고회의"
- PJH_parkism_ADJ:0 "국가재건최고회의"
- PJH_parkism_DEF:0 "국가재건최고회의"
+ PJH_parkism:0 "더이상(고)박정희대통령각하를매도하지말자"
+ PJH_parkism_ADJ:0 "더이상(고)박정희대통령각하를매도하지말자"
+ PJH_parkism_DEF:0 "더이상(고)박정희대통령각하를매도하지말자"
  
  GAN:0 "강원도인 형제단"
  GAN_ADJ:0 "강원도인 형제단"
  GAN_DEF:0 "강원도인 형제단"
  
  KRI:0 "미합중국 원주민 보호구역"
- KRI_ADJ:0 "미합중국 원주민 보호구역"
- KRI_DEF:0 "미합중국 원주민 보호구역"
+ KRI_ADJ:0 "원클라호마"
+ KRI_DEF:0 "원클라호마"
  
  SBU:0 "서부산인민혁명위원회"
  SBU_ADJ:0 "서부산인민혁명위원회"

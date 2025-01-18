@@ -173,6 +173,7 @@ shared_focus = {
 
 	completion_reward = {
 		ROOT = {
+			set_cosmetic_tag = YBJ_after_martial_law
 			swap_ruler_traits = {
 				remove = yoon_dog
 				add = yoon_bullshit
@@ -186,6 +187,40 @@ shared_focus = {
 				ideology = neutrality
 				long_name = YBJ_neutrality_party_yongsanism
 				name = YBJ_neutrality_party_yongsanism
+			}
+			# 이거 나중에 이벤트로 바꿔야함
+			AHN = {
+				leave_faction = yes
+				set_cosmetic_tag = AHN_PP
+			}
+		}
+		hidden_effect = {
+			AHN = {
+				add_popularity = { ideology = democratic popularity = 1 }
+				if = { #MM: I honestly have no idea about how this works, so checking just in case
+					limit = {
+						AHN_cheol_su = {
+							is_country_leader = yes
+						}
+					}
+					remove_country_leader_role = {
+						character = AHN_cheol_su
+						ideology = gumchal_dokjae
+					}
+				}
+				add_country_leader_role = {
+					character = AHN_cheol_su
+					country_leader = {
+						expire = "1989.1.1"
+						ideology = conservatism
+					}
+					promote_leader = yes
+				}
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					last_election = "2022.5.3"
+				}
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 add_namespace = hellfirekorea
 
-country_event = { #비상대책위원회 위원장 선출에 관한 정보
+country_event = { 
 	id = hellfirekorea.1
 	title = hellfirekorea.1.t
 	picture = ㅛㅠㅓ
@@ -38,5 +38,17 @@ country_event = { #비상대책위원회 위원장 선출에 관한 정보
 				change_tag_from = ROOT
 			}	
 		}
+	}
+}
+country_event = { 
+	id = hellfirekorea.2
+	title = hellfirekorea.2.t
+    desc = hellfirekorea.2.d
+
+	is_triggered_only = yes
+	option = { #
+		set_country_flag = HFK_YBJ_END
+		TNO_Country_Closing_Screen_Show = yes
+		name = korea.10016.a
 	}
 }

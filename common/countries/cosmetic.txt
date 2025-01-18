@@ -6,6 +6,10 @@ RUS_SOV = {
 	color = rgb { 121 12 21 }
 	color_ui = rgb { 121 12 21 }
 }
+YBJ_after_martial_law = {
+	color = rgb { 40 56 57 }
+	color_ui = rgb { 40 56 57 }
+}
 SUCK = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 35 35 35 }
