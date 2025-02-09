@@ -1,0 +1,287 @@
+#################
+# /// Index /// #
+#################
+# / Definers
+# 	Get_TNO_CountryClosing_picture
+# 	Get_TNO_CountryClosing_epilogue
+# / Tag-Specific Pictures
+# / Tag-Specific Text
+# / Main GUI Elements
+
+# / Definers
+defined_text = {
+	name = Get_TNO_CountryClosing_picture
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = "[Get_TNO_CountryClosing_picture_USA]"
+	}
+	text = {
+		trigger = { original_tag = KOR }
+		localization_key = "[Get_TNO_CountryClosing_picture_KOR]"
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = "[Get_TNO_CountryClosing_picture_JAP]"
+	}
+	text = {
+		trigger = { original_tag = SIA }
+		localization_key = "[Get_TNO_CountryClosing_picture_SIA]"
+	}
+	text = {
+		localization_key = "GFX_TNO_CountryClosing_picture_generic"
+	}
+}
+defined_text = {
+	name = Get_TNO_CountryClosing_epilogue
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = "[Get_TNO_CountryClosing_epilogue_USA]"
+	}
+	text = {
+		trigger = {
+			original_tag = KOR
+		}
+		localization_key = "[Get_TNO_CountryClosing_epilogue_KOR]"
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = "[Get_TNO_CountryClosing_epilogue_JAP]"
+	}
+	text = {
+		trigger = {
+			original_tag = SIA
+		}
+		localization_key = "[Get_TNO_CountryClosing_epilogue_SIA]"
+	}
+	text = {
+		localization_key = "TNO_CountryClosing_epilogue_generic"
+	}
+}
+
+# / Tag-Specific Pictures
+defined_text = {
+	name = Get_TNO_CountryClosing_picture_USA
+	text = {
+		trigger = {
+			has_country_flag = USA_chep_success_ending
+		}
+		localization_key = "GFX_TNO_CountryClosing_picture_chep_success"
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_chep_failure_ending
+		}
+		localization_key = "GFX_TNO_CountryClosing_picture_chep_failure"
+	}
+	text = {
+		localization_key = "GFX_TNO_CountryClosing_picture_generic"
+	}
+}
+
+# / Tag-Specific Text
+defined_text = {
+ 	name = Get_TNO_CountryClosing_epilogue_USA
+	text = {
+		trigger = {
+			has_country_flag = USA_chep_success_ending
+		}
+		localization_key = "TNO_CountryClosing_epilogue_USA_Chep_Success"
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_chep_failure_ending
+		}
+		localization_key = "TNO_CountryClosing_epilogue_USA_Chep_Failure"
+	}
+	text = {
+		localization_key = "TNO_CountryClosing_epilogue_USA_Generic"
+	}
+}	
+# / Tag-Specific Pictures
+defined_text = {
+	name = Get_TNO_CountryClosing_picture_KOR
+	text = {
+		trigger = {
+			has_country_flag = TLE_THE_LAST_EMPIRE #정사
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_KOR_the_last_empire"
+	}
+	text = {
+		trigger = {
+			has_country_flag = TLE_DUTY_OF_CONFUCIANS #TNO
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_KOR_new_order"
+	}
+	#
+	text = {
+		trigger = {
+			has_country_flag = TLE_KIM_GAW_LOSE_ENDING #TNO
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_KOR_kim_failed"
+	}
+	text = {
+		trigger = {
+			has_country_flag = TLE_KIM_GAW_WIN_ENDING #TNO
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_KOR_kim_victory"
+	}
+	#
+	text = {
+		trigger = {
+			has_country_flag = TLE_AN_GAW_NONE_WIN_ENDING #
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_KOR_an_none_victory"
+	}
+	#
+	text = {
+		trigger = {
+			has_country_flag = TLE_PAK_GAW_WIN_ENDING #TNO
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_KOR_pak_victory"
+	}
+	text = {
+		localization_key = "GFX_TNO_CountryClosing_picture_generic"
+	}
+}
+
+# / Tag-Specific Text
+defined_text = {
+ 	name = Get_TNO_CountryClosing_epilogue_KOR
+	text = {
+		trigger = {
+			has_country_flag = TLE_THE_LAST_EMPIRE #정사
+		}
+		localization_key = "TLE_CountryClosing_epilogue_KOR_the_last_empire"
+	}
+	text = {
+		trigger = {
+			has_country_flag = TLE_DUTY_OF_CONFUCIANS #TNO
+		}
+		localization_key = "TLE_CountryClosing_epilogue_KOR_new_order"
+	}	
+	#
+	text = {
+		trigger = {
+			has_country_flag = TLE_KIM_GAW_LOSE_ENDING #
+		}
+		localization_key = "TLE_CountryClosing_epilogue_KOR_kim_failed"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = TLE_KIM_GAW_WIN_ENDING #
+		}
+		localization_key = "TLE_CountryClosing_epilogue_KOR_kim_victory"
+	}	
+	#
+	text = {
+		trigger = {
+			has_country_flag = TLE_AN_GAW_NONE_WIN_ENDING #
+		}
+		localization_key = "TLE_CountryClosing_epilogue_KOR_an_none_victory"
+	}	
+	#
+	text = {
+		trigger = {
+			has_country_flag = TLE_PAK_GAW_WIN_ENDING #
+		}
+		localization_key = "TLE_CountryClosing_epilogue_KOR_pak_victory"
+	}	
+	text = {
+		localization_key = "TNO_CountryClosing_epilogue_KOR_Generic"
+	}
+}
+# / Tag-Specific Pictures
+defined_text = {
+	name = Get_TNO_CountryClosing_picture_JAP
+	text = {
+		trigger = {
+			has_country_flag = TLE_THE_LAST_EMPIRE #정사
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_JAP_the_last_empire"
+	}
+	text = {
+		localization_key = "GFX_TNO_CountryClosing_picture_generic"
+	}
+}
+
+# / Tag-Specific Text
+defined_text = {
+ 	name = Get_TNO_CountryClosing_epilogue_JAP
+	text = {
+		trigger = {
+			has_country_flag = TLE_THE_LAST_EMPIRE #정사
+		}
+		localization_key = "TLE_CountryClosing_epilogue_JAP_the_last_empire"
+	}
+	text = {
+		localization_key = "TNO_CountryClosing_epilogue_KOR_Generic"
+	}
+}
+defined_text = {
+	name = Get_TNO_CountryClosing_picture_SIA
+	text = {
+		trigger = {
+			has_country_flag = TLE_THE_LAST_EMPIRE
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_SIA_the_last_empire"
+	}
+	text = {
+		trigger = {
+			has_country_flag = TLE_DUTY_OF_CONFUCIANS #TNO
+		}
+		localization_key = "GFX_TLE_CountryClosing_epilogue_SIA_new_order"
+	}
+	text = {
+		localization_key = "GFX_TNO_CountryClosing_picture_generic"
+	}
+}
+
+# / Tag-Specific Text
+defined_text = {
+ 	name = Get_TNO_CountryClosing_epilogue_SIA
+	text = {
+		trigger = {
+			has_country_flag = TLE_THE_LAST_EMPIRE #정사
+		}
+		localization_key = "TLE_CountryClosing_epilogue_SIA_the_last_empire"
+	}
+	text = {
+		trigger = {
+			has_country_flag = TLE_DUTY_OF_CONFUCIANS #TNO
+		}
+		localization_key = "TLE_CountryClosing_epilogue_SIA_new_order"
+	}	
+	text = {
+		localization_key = "TNO_CountryClosing_epilogue_SIA_Generic"
+	}
+}
+# / Main GUI Elements
+defined_text = {
+	name = Get_TNO_CountryClosing_credits
+	text = {
+		trigger = { check_variable = { CountryClosing_array_credits_pages^0 = 2 } }
+		localization_key = "TNO_CountryClosing_credits_0"
+	}
+	text = {
+		trigger = { check_variable = { CountryClosing_array_credits_pages^1 = 2 } }
+		localization_key = "TNO_CountryClosing_credits_1"
+	}
+	text = {
+		trigger = { check_variable = { CountryClosing_array_credits_pages^2 = 2 } }
+		localization_key = "TNO_CountryClosing_credits_2"
+	}
+}
+defined_text = {
+	name = Get_TNO_CountryClosing_page_btn_text
+	text = {
+		trigger = {
+			set_temp_variable = { displayNumber = i }
+			add_to_temp_variable = { displayNumber = 1 }
+		}
+		localization_key = "[?displayNumber]"
+	}
+}

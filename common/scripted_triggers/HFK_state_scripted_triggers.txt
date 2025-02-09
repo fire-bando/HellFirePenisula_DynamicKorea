@@ -1,0 +1,45 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+is_chungju_state = {
+	OR = {
+		state = 245
+		state = 591
+		state = 592
+		state = 593
+		state = 594
+		state = 595
+		state = 596
+		state = 597 
+		state = 598
+		state = 599
+		state = 600
+		state = 601
+		state = 602
+		state = 603
+		state = 604
+		state = 605
+		state = 606
+		state = 607
+		state = 635
+		state = 727
+		state = 728
+		state = 729
+		state = 730
+		state = 731
+		state = 732
+		state = 733
+		state = 734
+	}
+}

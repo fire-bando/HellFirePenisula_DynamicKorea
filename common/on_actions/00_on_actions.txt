@@ -76,7 +76,7 @@ on_actions = {
 			}
 			341 = {
 				add_dynamic_modifier = {
-					modifier = ilsan_grad_state_modifier
+					modifier = ilsan_grad_state_modifier #일산그라드 모디파이어!!!!!
 				}
 			}
 			every_state = {

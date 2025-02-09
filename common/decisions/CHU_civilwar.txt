@@ -329,6 +329,20 @@ KNUT_KKU_collapse_decision  = {
 					type = annex_everything
 				}
 			}
+			CHU = {
+				delete_unit_template_and_units = {
+					division_template = "Police Division"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Air Force Division"
+					disband = yes
+				}
+			}
+			ZZZ = {
+				transfer_state = 245
+				transfer_state = 727
+			}
 		}
 	}
 }

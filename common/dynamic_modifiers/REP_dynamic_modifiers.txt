@@ -36,6 +36,15 @@ ilsan_grad_state_modifier = {
 	supply_consumption_factor = 0.4
 }
 
+chu_civil_war_state_modifier = {
+	icon = generic_officer
+	enable = { is_chungju_state = yes }
+	remove_trigger = { has_war = no }
+	army_speed_factor = -2
+	army_defence_factor = -0.8
+	supply_consumption_factor = 0.6
+}
+
 dmz_state_modifier = {
 	icon = generic_officer
 	enable = { always = yes }
