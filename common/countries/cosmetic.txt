@@ -6,6 +6,14 @@ RUS_SOV = {
 	color = rgb { 121 12 21 }
 	color_ui = rgb { 121 12 21 }
 }
+SEO_PPP = {
+	color = rgb { 222 31 42 }
+	color_UI = rgb { 222 31 42 }
+}
+gyeongbu_expressway = {
+	color = rgb { 205 46 58 }
+	color_UI = rgb { 205 46 58 }
+}
 YBJ_after_martial_law = {
 	color = rgb { 40 56 57 }
 	color_ui = rgb { 40 56 57 }

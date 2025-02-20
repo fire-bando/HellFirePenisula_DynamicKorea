@@ -16,9 +16,17 @@
 
  SPX:0 "스페이스 X 외계 식민지"
 
- FEM:0 "재건 여성의당"
- FEM:0 "재건 여성의당"
- FEM:0 "재건 여성의당"
+ SEO_PPP:0 "오세이돈 시청"
+ SEO_PPP_DEF:0 "오세이돈 시청"
+ SEO_PPP_ADJ:0 "오세이돈"
+
+ gyeongbu_expressway:0 "경부고속도로 제국"
+ gyeongbu_expressway_DEF:0 "경부고속도로 제국"
+ gyeongbu_expressway_ADJ:0 "경부고속도로"
+
+ FEM:0 "여성의당"
+ FEM:0 "여성의당"
+ FEM:0 "여성의당"
 
  TNK_JINBO:0 "진보당 경남도당"
  TNK_JINBO_ADJ:0 "진보당 경남도당"
