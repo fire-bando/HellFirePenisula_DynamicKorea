@@ -12,16 +12,16 @@ characters={
             expire="1960.8.16"
         }
     }
-    TAE_jaewon_kim = {
-        name=TAE_jaewon_kim
-        portraits={
-            civilian={
-                large=GFX_TAE_jaewon_kim_large
-            }
-        }
-        country_leader = {
-            ideology = nazism
-            expire=1972.11.21
-        }
-    }
+    # TAE_jaewon_kim = {
+    #     name=TAE_jaewon_kim
+    #     portraits={
+    #         civilian={
+    #             large=GFX_TAE_jaewon_kim_large
+    #         }
+    #     }
+    #     country_leader = {
+    #         ideology = nazism
+    #         expire=1972.11.21
+    #     }
+    # }
 }

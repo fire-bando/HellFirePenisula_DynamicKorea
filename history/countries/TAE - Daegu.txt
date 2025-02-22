@@ -25,7 +25,7 @@ set_popularities = {
 	democratic = 4
 }
 declare_war_on = {
-	target = EOT
+	target = TKJ
 	type = annex_everything
 }
 

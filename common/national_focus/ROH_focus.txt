@@ -39,7 +39,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ROH_for_human_living_sekai
+		id = ROH_ban_daily_best
 		icon = 윤버지
 		prerequisite = { focus = ROH_gaka_still_alive }
 		relative_position_id = ROH_gaka_still_alive
@@ -47,14 +47,18 @@ focus_tree = {
 		y = 1
 		cost = 5
 		completion_reward = {
-			ROOT = { set_cosmetic_tag = ROH_piaze_sigye }
+			country_event = {
+				id = ROH_event.2
+				days = 2
+			}
+			set_country_flag = kill_the_sebu
 		}
 	}
 	focus = {
-		id = ROH_dasi_minshushugi
-		icon = ROH_dasi_minshushugi
+		id = ROH_pay_for_tofu
+		icon = ROH_pay_for_tofu
 		prerequisite = { focus = ROH_regenerated_rohsamo }
-		prerequisite = { focus = ROH_for_human_living_sekai }
+		prerequisite = { focus = ROH_ban_daily_best }
 		relative_position_id = ROH_gaka_still_alive
 		x = 0
 		y = 2

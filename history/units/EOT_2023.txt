@@ -290,6 +290,6 @@ units = {
 	}
 }
 focus = {
-    current = "EOT_the_time_is_going"
+    current = "TKJ_the_time_is_going"
     Progress = 0
 }   

@@ -1,0 +1,5 @@
+TAE_new_conservate = {
+    allowed = {
+        original_tag = TAE
+    }
+}

@@ -4,15 +4,14 @@ state={
 	history={
 		owner = ILS
 		add_core_of = ILS
-		victory_points = { 2329 40 }
 		buildings = {
 			infrastructure = 7
 		}
 	}
 	provinces={
-		657 1832 2329 5195 5230 5392 6690 8227 13472 13473 13482 13485 13488 13499 13504 13507 
+		5195 5392 8227 13472 13473 13482 13485 
 	}
-	manpower=1040000
+	manpower=580000
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 	local_supplies=0.000

@@ -220,8 +220,8 @@
 
  ROH_gaka_still_alive:0 "대통령님은 살아계신다.."
  ROH_regenerated_rohsamo:0 "노사모를 재결집하라"
- ROH_for_human_living_sekai:0 "사람 사는 세상으로"
- ROH_dasi_minshushugi:0 "다시 민주주의"
+ ROH_ban_daily_best:0 "일간베스트 금지"
+ ROH_pay_for_tofu:0 "지옥에 있는 노무현 나와라~"
 
 
  ## SZC ##
@@ -543,10 +543,10 @@
  MIO_yamato_supremacy:0 "야마토의 패권"
 
  #통합진보당경북괴
- EOT_the_time_is_going:0 "시간은 흐른다.."
- EOT_for_the_people:0 "민중을 위해서.."
- EOT_for_the_worker:0 "..노동자를 위해서"
- EOT_grain_management_act_for_farmer:0 "농민을 위한 양곡관리법"
+ TKJ_the_time_is_going:0 "시간은 흐른다.."
+ TKJ_for_the_people:0 "민중을 위해서.."
+ TKJ_for_the_worker:0 "..노동자를 위해서"
+ TKJ_grain_management_act_for_farmer:0 "농민을 위한 양곡관리법"
 
  PONGTAN_FOCUS:0 "퐁퐁남 일대기"
  DNT_do_study:0 "공부하기"

@@ -1,15 +1,11 @@
 ﻿l_english:
-#  KOR_REUNIFIED:0 "다시 하나되어"
-#  KOR_UNIFY_SEOUL:0 "서울 통합"
 
- make_chungbuk_greatest_again:0 "충북을 위대하게"
- JINCHEON_CITY_promote:0 "진천 승격"
-
- JNR_CAPITAL_DEVELOP_COMMITTEE_AGENDA: "전라인민공화국 수도권 개발 위원회"
- NAJU_INNOVATION_CITY:0 "나주 혁신 도시 확장"
- SONGJEONG_DEVELOP:0 "송정 재개발"
- GWANGSAN_DEVELOP:0 "광산시 개발"
-
+ TAE_new_conservate:0 "새보수주의"
+ TAE_new_conservate_desc:0 "'이준석'을 필두로, 보수진영의 새로운 흐름이 시작되었습니다. 이들은 기존 보수진영과는 다른 방식으로 국가를 이끌어가려 합니다. 이들은 (나중에 이어서 작성해야함 TODO 2025-02-14)"
+ TAE_new_conservate_movement:0 "새보수주의 운동"
+ TAE_reform_party_daegu_city_party:0 "개혁신당 대구시당의 창당"
+ TAE_discussion:0 "공개 토론회 개최"
+ 
  PJH_revive:0 "살아있다"
  PJH_survive:0 "지옥에서 돌아오다"
 

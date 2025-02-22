@@ -37,7 +37,7 @@ on_actions = {
 					NOT = {
 						original_tag = AOJ
 						original_tag = BUS
-						original_tag = EOT
+						original_tag = TKJ
 						original_tag = LEI
 						original_tag = III
 						original_tag = JNR
@@ -689,7 +689,7 @@ on_actions = {
 			}
 			if = { #경북도당 항복
 				limit = {
-					tag = EOT
+					tag = TKJ
 					has_war_with = TAE
 				}
 				TAE = {
@@ -704,37 +704,37 @@ on_actions = {
 				}
 				TAE = {
 					annex_country = { #경북도당을 따먹다
-						target = EOT
+						target = TKJ
 						transfer_troops = no
 					}
 				}
-				EOT = {
+				TKJ = {
 					every_state = {
-						remove_core_of = EOT
+						remove_core_of = TKJ
 					}
 				}
 			}
 			if = { #땅크가 진보당에 의해 항복하다
 				limit = {
 					tag = TNK
-					has_war_with = EOT
+					has_war_with = TKJ
 				}
-				EOT = {
+				TKJ = {
 					every_country = {
 						limit = {
 							AND = {
-								has_war_with = EOT
+								has_war_with = TKJ
 								NOT = {
 									original_tag = TAE
 								}
 							}
 						}
 						white_peace = {
-							tag = EOT
+							tag = TKJ
 						}
 					}
 				}
-				EOT = {
+				TKJ = {
 					annex_country = { #KILL THE TANK
 						target = TNK
 						transfer_troops = no
@@ -749,24 +749,24 @@ on_actions = {
 			if = { #홍준표 처형
 				limit = {
 					tag = TAE
-					has_war_with = EOT
+					has_war_with = TKJ
 				}
-				EOT = {
+				TKJ = {
 					every_country = {
 						limit = {
 							AND = {
-								has_war_with = EOT
+								has_war_with = TKJ
 								NOT = {
 									original_tag = TNK
 								}
 							}
 						}
 						white_peace = {
-							tag = EOT
+							tag = TKJ
 						}
 					}
 				}
-				EOT = {
+				TKJ = {
 					annex_country = { #KILL THE TANK
 						target = TAE
 						transfer_troops = no

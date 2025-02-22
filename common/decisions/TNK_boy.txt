@@ -5,7 +5,7 @@ kill_all_teultak = {
         }
 		available = {
             AND = {
-                has_war_with = EOT
+                has_war_with = TKJ
                 NOT = {
                     OR = {
                         has_war_with = TAE

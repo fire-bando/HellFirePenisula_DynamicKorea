@@ -35,3 +35,19 @@ country_event = {
 		REP_fire_super_event = yes
 	}
 }
+
+country_event = {
+	id = rep_debug.3
+	title = rep_debug.3.t
+	picture = GFX_report_event_tae_event
+    desc = rep_debug.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = rep_debug.3.a
+		every_state = {
+			set_resistance = 100
+		}
+	}
+}

@@ -33,6 +33,6 @@ set_technology = {
 set_convoys = 20
 
 declare_war_on = {
-	target = EOT
+	target = TKJ
 	type = annex_everything
 }

@@ -1,5 +1,5 @@
 ﻿
 focus = {
-    current = "EOT_for_the_worker"
+    current = "TKJ_for_the_worker"
     Progress = 1
 }   

@@ -1,16 +1,16 @@
 focus_tree = {
-	id = EOT_civilwar
+	id = TKJ_civilwar
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = EOT
+			tag = TKJ
 		}
 	}
 	default = no
 	continuous_focus_position = { x = 50 y = 1000 }
 	focus = {
-		id = EOT_the_time_is_going
+		id = TKJ_the_time_is_going
 		icon = GFX_focus_generic_total_war
 		x = 10
 		y = 0
@@ -21,7 +21,7 @@ focus_tree = {
 		cancelable = no
 
 		completion_reward = {
-			set_country_flag = EOT_NL_STARTED_WORKING
+			set_country_flag = TKJ_NL_STARTED_WORKING
 			country_event = {
 				id = gb_jinbo.1
 				days = 2
@@ -29,26 +29,26 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = EOT_for_the_people
+		id = TKJ_for_the_people
 		icon = GFX_focus_generic_military_academy
 		x = -1
 		y = 1
 		cost = 2
 		search_filters = {  }
 
-		relative_position_id = EOT_the_time_is_going
-		prerequisite = { focus = EOT_the_time_is_going }
+		relative_position_id = TKJ_the_time_is_going
+		prerequisite = { focus = TKJ_the_time_is_going }
 		
 		available_if_capitulated = yes
 		cancelable = no
 
 		available = {
-			has_country_flag = EOT_NL_STARTED_WORKING
+			has_country_flag = TKJ_NL_STARTED_WORKING
 		}
 
 		completion_reward = {
 			hidden_effect = {
-				set_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
+				set_country_flag = TKJ_TRADE_UNION_HAS_BEEN_FORMED
 				country_event = {
 					id = gb_jinbo.2
 					days = 2
@@ -57,26 +57,26 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = EOT_for_the_worker
+		id = TKJ_for_the_worker
 		icon = GFX_focus_generic_workers
 		x = 1
 		y = 1
 		cost = 2
 		search_filters = {  }
 
-		relative_position_id = EOT_the_time_is_going
-		prerequisite = { focus = EOT_the_time_is_going }
+		relative_position_id = TKJ_the_time_is_going
+		prerequisite = { focus = TKJ_the_time_is_going }
 		
 		available_if_capitulated = yes
 		cancelable = no
 
 		available = {
-			has_country_flag = EOT_TRADE_UNION_HAS_BEEN_FORMED
+			has_country_flag = TKJ_TRADE_UNION_HAS_BEEN_FORMED
 		}
 
 		completion_reward = {
 			hidden_effect = {
-				set_country_flag = EOT_FARMER_DEMAND_HELP
+				set_country_flag = TKJ_FARMER_DEMAND_HELP
 				country_event = {
 					id = gb_jinbo.3
 					days = 2
@@ -85,7 +85,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = EOT_grain_management_act_for_farmer
+		id = TKJ_grain_management_act_for_farmer
 		icon = GFX_focus_generic_workers_and_farmers_rise
 		x = 0
 		y = 2
@@ -96,19 +96,19 @@ focus_tree = {
 		search_filters = {  }
 
 		available = {
-			has_country_flag = EOT_FARMER_DEMAND_HELP
+			has_country_flag = TKJ_FARMER_DEMAND_HELP
 		}
 
-		relative_position_id = EOT_the_time_is_going
-		prerequisite = { focus = EOT_for_the_worker }
-		prerequisite = { focus = EOT_for_the_people }
+		relative_position_id = TKJ_the_time_is_going
+		prerequisite = { focus = TKJ_for_the_worker }
+		prerequisite = { focus = TKJ_for_the_people }
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = TEULNIST_HATE 
-				add_idea = EOT_grain_management_act 
+				add_idea = TKJ_grain_management_act 
 			}
 		}
 	}

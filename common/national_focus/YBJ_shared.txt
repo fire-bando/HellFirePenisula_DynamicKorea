@@ -363,7 +363,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_kill_PPP_senior
+	id = YBJ_remove_the_joat
 	icon = {
 		trigger = {
 			YBJ = {
@@ -391,7 +391,7 @@ shared_focus = {
 			retire_character = YBJ_na_kyungwon
 			retire_character = YBJ_tae_yeong_ho
 		}
-		custom_effect_tooltip = YBJ_kill_PPP_senior_tt
+		custom_effect_tooltip = YBJ_remove_the_joat_tt
 	}
 }
 
@@ -409,7 +409,7 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_kill_PPP_senior
+		focus = YBJ_remove_the_joat
 	}
 	prerequisite = {
 		focus = YBJ_new_legislature_controlled_by_administration

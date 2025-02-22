@@ -10,8 +10,48 @@ country_event = {
 	
 	option = {
 		name = roh_event.1.a
+		country_event = { }
 	}
+}
+country_event = { 
+	id = roh_event.2
+	title = roh_event.2.t
+	picture = GFX_report_event_tae_event
+    desc = roh_event.2.d
+
+	is_triggered_only = yes
+	
 	option = {
-		name = roh_event.1.b
+		name = roh_event.2.a
+		country_event = {
+			id = roh_event.3
+		}
+	}
+}
+country_event = { 
+	id = roh_event.3
+	title = roh_event.3.t
+	picture = GFX_report_event_tae_event
+    desc = roh_event.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = roh_event.3.a
+		country_event = {
+			id = roh_event.4
+		}
+	}
+}
+country_event = { 
+	id = roh_event.4
+	title = roh_event.4.t
+	picture = GFX_report_event_tae_event
+    desc = roh_event.4.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = roh_event.4.a
 	}
 }

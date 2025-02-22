@@ -7,13 +7,13 @@ ideas = {
 				consumer_goods_expected_value = 0.1
 			}
 		}
-		EOT_revolutionary_war = {
+		TKJ_revolutionary_war = {
 			picture = generic_infantry_equipment_manufacturer_2
 			modifier = {
 				army_attack_factor = 0.125
 			}
 		}
-		EOT_grain_management_act = {
+		TKJ_grain_management_act = {
 			picture = LIT_invested_in_farms
 			modifier = {
 				consumer_goods_expected_value = 0.05

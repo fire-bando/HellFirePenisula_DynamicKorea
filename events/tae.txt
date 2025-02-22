@@ -1,4 +1,5 @@
 add_namespace = tae_event
+add_namespace = TAE_new_conservate
 
 
 country_event = { #대 - 군 합병 : 대구
@@ -101,6 +102,67 @@ country_event = { #대 - 군 합병 : 군위거부
 				type = annex_everything
 			}
         }
+	}
+}
+country_event = { #개준스기 지지자 폭동
+	id = TAE_new_conservate.1
+	title = TAE_new_conservate.1.t
+	picture = GFX_report_event_tae_event
+    desc = TAE_new_conservate.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TAE_new_conservate.1.a
+	}
+}
+country_event = { #새로운 보수 세력의 토론 승리
+	id = TAE_new_conservate.2
+	title = TAE_new_conservate.2.t
+	picture = GFX_report_event_tae_event
+    desc = TAE_new_conservate.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TAE_new_conservate.2.a
+	}
+}
+country_event = { #새로운 보수 세력의 토론 참패
+	id = TAE_new_conservate.3
+	title = TAE_new_conservate.3.t
+	picture = GFX_report_event_tae_event
+    desc = TAE_new_conservate.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TAE_new_conservate.3.a
+	}
+}
+country_event = { #개병신당 대구시당 창당
+	id = TAE_new_conservate.4
+	title = TAE_new_conservate.3.t
+	picture = GFX_report_event_tae_event
+    desc = TAE_new_conservate.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TAE_new_conservate.3.a
+		set_country_flag = TAE_reform_party_established_in_daegu
+	}
+}
+country_event = {
+	id = TAE_new_conservate.5
+	title = TAE_new_conservate.5.t
+	picture = GFX_report_event_tae_event
+	desc = TAE_new_conservate.5.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TAE_new_conservate.5.a
 	}
 }
 

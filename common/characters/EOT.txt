@@ -1,6 +1,6 @@
 characters={ 
-    EOT_yeo_chan={
-        name= EOT_yeo_chan
+    TKJ_yeo_chan={
+        name= TKJ_yeo_chan
         corps_commander = {
             skill = 1
             attack_skill = 2
@@ -10,12 +10,12 @@ characters={
         }
         portraits = {
             civilian = {
-                large = GFX_EOT_yeo_chan
+                large = GFX_TKJ_yeo_chan
             }
         }
     }
-    EOT_hwang_sungyu={
-        name= EOT_hwang_sungyu
+    TKJ_hwang_sungyu={
+        name= TKJ_hwang_sungyu
         advisor = {
             slot = theorist
             ledger = army
@@ -23,7 +23,7 @@ characters={
         }
         portraits = {
             civilian = {
-                large = GFX_EOT_hwang_sungyu
+                large = GFX_TKJ_hwang_sungyu
             }
         }
     }

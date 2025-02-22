@@ -10,7 +10,7 @@ state={
 			infrastructure=6
 		}
 		2022.12.29 = {
-			EOT = {
+			TKJ = {
 				set_province_controller = 5519
 				set_province_controller = 7867
 				set_province_controller = 5121

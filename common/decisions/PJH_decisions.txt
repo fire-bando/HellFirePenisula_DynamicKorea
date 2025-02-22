@@ -122,7 +122,7 @@ PJH_operation = {
             }
         }
         visible = {
-            EOT = {
+            TKJ = {
                 has_war_with = TAE
             }
         }
@@ -133,7 +133,7 @@ PJH_operation = {
             base = 0
             modifier = {
                 add = 20
-                country_exists = EOT
+                country_exists = TKJ
             }
         }
         remove_effect = {
@@ -142,7 +142,7 @@ PJH_operation = {
             }
             ROOT = {
                 declare_war_on = {
-                    target = EOT
+                    target = TKJ
                     type = liberate_wargoal
                 }
                 create_faction = "반공전선"
@@ -160,7 +160,7 @@ PJH_operation = {
                 add = 20
                 NOT = {
                     AND = {
-                        country_exists = EOT
+                        country_exists = TKJ
                         TNK = {
                             is_ai = no
                         }
