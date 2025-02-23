@@ -10,15 +10,15 @@ state={
 			13692 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
 	}
 
 	provinces={
-		724 13692 
+		724 13692 783 7264 13687 7927 9531 13643 2711 8629 13722 3654 13723 509 1840 13683 13693 783 7264 13687 7927 9531 13643
 	}
-	manpower=20561
+	manpower=29504
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 	local_supplies=0.000
 }

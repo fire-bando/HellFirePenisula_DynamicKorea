@@ -10,9 +10,9 @@ state={
 	}
 
 	provinces={
-		5571 
+		5571 162 782 8059 9160 
 	}
-	manpower=2109
+	manpower=5000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

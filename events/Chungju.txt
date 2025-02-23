@@ -834,8 +834,8 @@ country_event = {
 			}
 			598 = { add_core_of = CIW }
 			752 = { add_core_of = KNU }
-			753 = { add_core_of = KNU }
-			754 = { add_core_of = KNU }
+			644 = { add_core_of = KNU }
+			643 = { add_core_of = KNU }
 			601 = { add_core_of = GLO }
 			every_country = {
 				limit = { 
