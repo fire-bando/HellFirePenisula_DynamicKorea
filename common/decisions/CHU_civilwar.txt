@@ -341,7 +341,6 @@ KNUT_KKU_collapse_decision  = {
 			}
 			ZZZ = {
 				transfer_state = 245
-				transfer_state = 727
 			}
 		}
 	}

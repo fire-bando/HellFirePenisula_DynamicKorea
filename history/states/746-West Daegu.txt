@@ -1,19 +1,19 @@
 state={
-	id=682
-	name="STATE_682"
+	id=746
+	name="STATE_746"
 	history={
 		owner = TAE
 		add_core_of = TAE
 		buildings = {
-			industrial_complex = 1
-			infrastructure=6
+			industrial_complex = 5
+			infrastructure=7
 		}
 	}
 	provinces={
-		8613 14407 
+		14391 14404 
 	}
-	manpower=544926
+	manpower=162815
+	state_category = large_city
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }
