@@ -1,0 +1,19 @@
+state={
+	id=663
+	name="STATE_663"
+	provinces={
+		669 3376 3963 4137 5259 5782 6443 7800 7829 7861 7929 8140 8761 8823 9039 9040 9192 14292 14296 14297 14306 14311 14315 14319 14320 14346 14357 14365 
+	}
+	history = {
+		owner = HMC
+		add_core_of = HMC
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+	}
+	manpower=221682
+	buildings_max_level_factor=1.000
+	state_category = city
+	local_supplies=0.000
+}

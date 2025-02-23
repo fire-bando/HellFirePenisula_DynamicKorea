@@ -1,0 +1,19 @@
+state={
+	id=698
+	name="STATE_698"
+	history={
+		owner = YNG
+		add_core_of = YNG
+        victory_points = { 4344 40 }
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		150 524 1602 1897 1995 2109 3425 4344 4515 5029 5164 5885 5994 6280 7133 7781 9086 9137 9473 13652 13677 13679 13695 13703 13730 
+	}
+	manpower=286243
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

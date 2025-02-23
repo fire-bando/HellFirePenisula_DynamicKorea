@@ -1,0 +1,20 @@
+
+state={
+	id=645
+	name="STATE_645"
+	history={
+		owner = SNC
+		add_core_of = SNC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		2887 5912 9411 14846 
+	}
+	manpower=1
+	state_category=rural	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

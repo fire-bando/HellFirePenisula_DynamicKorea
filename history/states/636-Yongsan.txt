@@ -1,0 +1,19 @@
+state={
+	id=636
+	name="STATE_636"
+	history={
+		owner = YBJ
+		add_core_of = YBJ
+        victory_points = { 4344 40 }
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		17752
+	}
+	manpower=130
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
