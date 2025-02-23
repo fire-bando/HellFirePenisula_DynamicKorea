@@ -16,7 +16,6 @@ set_technology = {
 add_ideas = {
 	scraping_the_barrel
 	TEULNIST_HATE
-	tot_economic_mobilisation
 	closed_economy
 }
 
