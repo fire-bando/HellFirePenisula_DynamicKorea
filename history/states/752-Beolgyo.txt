@@ -1,0 +1,22 @@
+state={
+	id=752
+	name="STATE_752"
+	history={
+		owner = GGO
+		add_core_of = GGO
+		buildings = {
+			infrastructure=3
+			industrial_complex = 1
+		}
+		victory_points = {
+			6055 1
+		}
+	}
+	provinces={
+		5431 14955 6055 14918 2786 14957
+	}
+	manpower=11400
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

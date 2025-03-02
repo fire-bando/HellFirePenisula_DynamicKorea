@@ -10,9 +10,11 @@
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
  SBU_gijang_commune:0 "기장인민위원회"
 
- YBJ_after_martial_law:0 "용산자유민주주의국민공화국"
- YBJ_after_martial_law_ADJ:0 "용산 대통령실"
- YBJ_after_martial_law_DEF:0 "용산 대통령실"
+ GGO_coastalstat:0 "코스탈슈타트"
+
+ YBJ_yongsan_totalism_state:0 "용산자유민주주의국민공화국"
+ YBJ_yongsan_totalism_state_ADJ:0 "용산 대통령실"
+ YBJ_yongsan_totalism_state_DEF:0 "용산 대통령실"
 
  SPX:0 "스페이스 X 외계 식민지"
 
@@ -55,7 +57,7 @@
  TNK_UGD:0 "우덜식공화당 경북애국동지회"
 
  autonomy_bun:0 "번국"
- autonomy_one_country_two_system: "일국양제"
+ autonomy_one_country_two_system:0 "일국양제"
 
  NOPE:0 ""
  NOPE_ADJ:0 ""
@@ -65,31 +67,10 @@
 
  AOJ_unified_6jin:0 "신 조선민주주의인민공화국"
  NJN_unified_6jin:0 "육진인민위원회"
- HADONG_COMMITTEE:0 "하동건국준비위원회"
- HADONG_COMMITTEE_ADJ:0 "하동"
- HADONG_COMMITTEE_DEF:0 "하동"
- SANCHEONG_COMMITTEE:0 "산청건국준비위원회"
- SANCHEONG_COMMITTEE_ADJ:0 "산청"
- SANCHEONG_COMMITTEE_DEF:0 "산청"
- HAMYANG_COMMITTEE:0 "함양건국준비위원회"
- HAMYANG_COMMITTEE_ADJ:0 "함양"
- HAMYANG_COMMITTEE_DEF:0 "함양"
- GEOCHANG_COMMITTEE:0 "거창건국준비위원회"
- GEOCHANG_COMMITTEE_ADJ:0 "거창위원회"
- GEOCHANG_COMMITTEE_DEF:0 "거창위원회"
  AHN_PP:0 "국민정책연구원"
  DNT_PONGPONGMAAM:0 "퐁퐁부인시티"
- JNR_KNDMG:0 "광양만 자유국"
- JNR_KNDMG_ADJ:0 "광양만 자유국"
- JNR_KNDMG_DEF:0 "광양만 자유국"
-
- HDG_idpdce:0 "하동"
- HDG_idpdce_ADJ:0 "하동"
- HDG_idpdce_DEF:0 "하동"
 
  CHUNGJU_CIVILWAR:0 "충주시청"
- HDG_idpdce_ADJ:0 "충주"
- HDG_idpdce_DEF:0 "충주"
 
  SPV_by_pyo:0 "총독부"
 

@@ -173,7 +173,7 @@ shared_focus = {
 
 	completion_reward = {
 		ROOT = {
-			set_cosmetic_tag = YBJ_after_martial_law
+			set_cosmetic_tag = YBJ_yongsan_totalism_state
 			swap_ruler_traits = {
 				remove = yoon_dog
 				add = yoon_bullshit
@@ -415,7 +415,7 @@ shared_focus = {
 		focus = YBJ_new_legislature_controlled_by_administration
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_4
+		focus = YBJ_remember_2013_con_da_1
 	}
 	prerequisite = {
 		focus = YBJ_placeholder_5
@@ -463,7 +463,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_placeholder_4
+	id = YBJ_remember_2013_con_da_1
 	icon = {
 		trigger = {
 			YBJ = {

@@ -18,7 +18,7 @@ gyeongbu_expressway = {
 	color = rgb { 205 46 58 }
 	color_UI = rgb { 205 46 58 }
 }
-YBJ_after_martial_law = {
+YBJ_yongsan_totalism_state = {
 	color = rgb { 40 56 57 }
 	color_ui = rgb { 40 56 57 }
 }
@@ -68,3 +68,4 @@ GEOCHANG_COMMITTEE = {
 }
 AHN_PP = {	color = rgb { 0 98 65 }	color_ui = rgb { 0 98 65 }	}
 GNW_TAE_tonggam = {	color = rgb { 232 145 46 }	color_ui = rgb { 232 145 46 }	}
+GGO_coastalstat = {	color = rgb { 14 43 113 }	color_ui = rgb { 14 43 113 } }

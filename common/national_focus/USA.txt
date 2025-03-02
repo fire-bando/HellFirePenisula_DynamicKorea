@@ -1,0 +1,869 @@
+focus_tree = {
+	id = USA_biden_gilded_age
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = USA
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1500 }
+	
+	### STARTING FOCUS ###
+	focus = {
+		id = USA_gilded_age_delusion
+		icon = GFX_focus_usa_concessions_to_the_south
+		x = 9
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_stability = -0.10
+			add_war_support = -0.05
+			country_event = usa.gilded_age_delusion.1
+			set_country_flag = USA_gilded_age_began
+			add_ideas = USA_presidential_confusion
+		}
+	}
+	
+	### RAILROAD EXPANSION BRANCH ###
+	focus = {
+		id = USA_transcontinental_railroad_revival
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = USA_gilded_age_delusion }
+		x = 5
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas = USA_railroad_revival
+		}
+	}
+	
+	focus = {
+		id = USA_golden_spike_ceremony
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = USA_transcontinental_railroad_revival }
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			country_event = usa.golden_spike.1
+			add_timed_idea = {
+				idea = USA_national_celebration
+				days = 70
+			}
+		}
+	}
+	
+	focus = {
+		id = USA_railroad_land_grants
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = USA_transcontinental_railroad_revival }
+		x = 6
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -25
+			add_ideas = USA_land_grant_policy
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = USA_subsidize_rail_barons
+		icon = GFX_goal_rhineland
+		prerequisite = { focus = USA_golden_spike_ceremony focus = USA_railroad_land_grants }
+		x = 5
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = -0.05
+			add_ideas = USA_railroad_monopolies
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	### INDUSTRIAL ROBBER BARONS BRANCH ###
+	focus = {
+		id = USA_robber_baron_economics
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = USA_gilded_age_delusion }
+		x = 9
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -0.10
+			add_timed_idea = {
+				idea = USA_economic_instability
+				days = 180
+			}
+			add_ideas = USA_laissez_faire_economics
+		}
+	}
+	
+	focus = {
+		id = USA_vertical_integration
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = USA_robber_baron_economics }
+		x = 8
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			add_ideas = USA_vertical_monopolies
+		}
+	}
+	
+	focus = {
+		id = USA_standard_oil_revival
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = USA_robber_baron_economics }
+		x = 10
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 24
+				state = 375 # Texas
+			}
+			add_resource = {
+				type = oil
+				amount = 16
+				state = 377 # Oklahoma
+			}
+			add_ideas = USA_oil_monopoly
+		}
+	}
+	
+	focus = {
+		id = USA_carnegie_steel_revival
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = USA_vertical_integration }
+		prerequisite = { focus = USA_standard_oil_revival }
+		x = 9
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 24
+				state = 360 # Pennsylvania
+			}
+			add_ideas = USA_steel_monopoly
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = USA_grand_mansions_project
+		icon = GFX_focus_research2
+		prerequisite = { focus = USA_carnegie_steel_revival }
+		x = 9
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = -50
+			country_event = usa.gilded_mansions.1
+			add_ideas = USA_wealth_gap
+			add_timed_idea = {
+				idea = USA_architectural_prestige
+				days = 365
+			}
+		}
+	}
+	
+	### LABOR ISSUES BRANCH ###
+	focus = {
+		id = USA_labor_unrest
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = USA_vertical_integration focus = USA_standard_oil_revival }
+		prerequisite = { focus = USA_subsidize_rail_barons }
+		x = 7
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = -0.15
+			add_war_support = 0.05
+			add_political_power = -50
+			country_event = usa.labor_unrest.1
+			add_ideas = USA_worker_protests
+		}
+	}
+	
+	focus = {
+		id = USA_pinkerton_detectives
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = USA_labor_unrest }
+		mutually_exclusive = { focus = USA_labor_reforms }
+		x = 6
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = 50
+			add_ideas = USA_pinkerton_agency
+			create_intelligence_agency = {
+				name = "Pinkerton National Detective Agency"
+				icon = GFX_intelligence_agency_logo_usa
+			}
+			add_to_faction = ROOT
+		}
+	}
+	
+	focus = {
+		id = USA_labor_reforms
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = USA_labor_unrest }
+		mutually_exclusive = { focus = USA_pinkerton_detectives }
+		x = 8
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.20
+			add_political_power = -25
+			add_ideas = USA_labor_rights
+			remove_ideas = USA_worker_protests
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	### POLITICAL BRANCH ###
+	focus = {
+		id = USA_tammany_hall_revival
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = USA_gilded_age_delusion }
+		x = 13
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_stability = -0.05
+			add_ideas = USA_political_machines
+			country_event = usa.tammany_hall.1
+		}
+	}
+	
+	focus = {
+		id = USA_spoils_system
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = USA_tammany_hall_revival }
+		x = 12
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.05
+			add_ideas = USA_patronage_system
+		}
+	}
+	
+	focus = {
+		id = USA_corrupt_bargains
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = USA_spoils_system }
+		x = 11
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.10
+			add_war_support = -0.05
+			add_ideas = USA_corrupt_politics
+			country_event = usa.corrupt_bargain.1
+		}
+	}
+	
+	focus = {
+		id = USA_civil_service_reform
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = USA_tammany_hall_revival }
+		x = 14
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -25
+			add_stability = 0.10
+			add_ideas = USA_merit_system
+		}
+	}
+	
+	focus = {
+		id = USA_muckraking_journalism
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = USA_civil_service_reform }
+		prerequisite = { focus = USA_corrupt_bargains }
+		x = 13
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.15
+			add_ideas = USA_free_press
+			country_event = usa.muckraker.1
+			if = {
+				limit = {
+					has_idea = USA_corrupt_politics
+				}
+				remove_ideas = USA_corrupt_politics
+			}
+		}
+	}
+	
+	### FOREIGN POLICY BRANCH ###
+	focus = {
+		id = USA_yellow_journalism
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = USA_gilded_age_delusion }
+		x = 17
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_war_support = 0.10
+			add_stability = -0.05
+			add_ideas = USA_sensationalist_media
+			country_event = usa.yellow_press.1
+		}
+	}
+	
+	focus = {
+		id = USA_remember_the_maine
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = USA_yellow_journalism }
+		x = 16
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_war_support = 0.15
+			add_political_power = 100
+			create_wargoal = {
+				type = annex_everything
+				target = SPR
+			}
+			navy_experience = 25
+			country_event = usa.remember_maine.1
+		}
+	}
+	
+	focus = {
+		id = USA_roosevelt_rough_riders
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = USA_remember_the_maine }
+		x = 15
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 50
+			add_ideas = USA_rough_riders
+			create_corps_commander = {
+				name = "Theodore Roosevelt"
+				portrait_path = "gfx/leaders/USA/Portrait_USA_Theodore_Roosevelt.dds"
+				traits = { cavalry_officer media_personality }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = USA_annex_hawaii
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = USA_yellow_journalism }
+		x = 18
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_state_core = 629 # Hawaii
+			if = {
+				limit = {
+					NOT = { has_global_flag = hawaii_annex_happened }
+				}
+				country_event = usa.annex_hawaii.1
+				set_global_flag = hawaii_annex_happened
+			}
+		}
+	}
+	
+	focus = {
+		id = USA_dollar_diplomacy
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = USA_annex_hawaii }
+		prerequisite = { focus = USA_roosevelt_rough_riders }
+		x = 17
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+			add_ideas = USA_economic_imperialism
+			random_country = {
+				limit = {
+					capital_scope = {
+						is_on_continent = south_america
+					}
+				}
+				country_event = usa.dollar_diplomacy.1
+			}
+		}
+	}
+	
+	focus = {
+		id = USA_build_panama_canal
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = { focus = USA_dollar_diplomacy }
+		x = 17
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			navy_experience = 50
+			add_political_power = 150
+			add_ideas = USA_panama_canal
+			country_event = usa.panama_canal.1
+			hidden_effect = {
+				news_event = {
+					id = news.usa_panama_canal
+					hours = 24
+				}
+			}
+		}
+	}
+	
+	### REALITY CHECK FINALE ###
+	focus = {
+		id = USA_medical_intervention
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = USA_build_panama_canal focus = USA_pinkerton_detectives focus = USA_labor_reforms focus = USA_muckraking_journalism focus = USA_grand_mansions_project }
+		x = 10
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.25
+			add_political_power = 200
+			remove_ideas = USA_presidential_confusion
+			country_event = usa.reality_check.1
+			hidden_effect = {
+				news_event = {
+					id = news.usa_reality_check
+					hours = 6
+				}
+			}
+			add_ideas = USA_return_to_normalcy
+		}
+	}
+}
+
+# Ideas
+ideas = {
+	country = {
+		USA_presidential_confusion = {
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = -0.15
+				war_support_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		USA_railroad_revival = {
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		USA_land_grant_policy = {
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				local_resources_factor = 0.1
+			}
+		}
+		
+		USA_railroad_monopolies = {
+			picture = generic_economic_increase
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.15
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+		
+		USA_laissez_faire_economics = {
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+				local_resources_factor = 0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		USA_vertical_monopolies = {
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		USA_oil_monopoly = {
+			picture = generic_oil_refinery
+			
+			modifier = {
+				local_resources_factor = 0.1
+				fuel_gain_factor = 0.15
+			}
+		}
+		
+		USA_steel_monopoly = {
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
+			}
+		}
+		
+		USA_wealth_gap = {
+			picture = generic_economic_crisis
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		USA_worker_protests = {
+			picture = generic_strikes
+			
+			modifier = {
+				industrial_capacity_factory = -0.2
+				stability_factor = -0.15
+				political_power_gain = -0.1
+			}
+		}
+		
+		USA_pinkerton_agency = {
+			picture = generic_secret_police
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+				encryption = 1
+				foreign_subversive_activites = -0.3
+			}
+		}
+		
+		USA_labor_rights = {
+			picture = generic_production_bonus
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.03
+				stability_factor = 0.1
+			}
+		}
+		
+		USA_political_machines = {
+			picture = generic_intel_bonus
+			
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.05
+				drift_defence_factor = 0.2
+			}
+		}
+		
+		USA_patronage_system = {
+			picture = generic_political_support
+			
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = -0.05
+			}
+		}
+		
+		USA_corrupt_politics = {
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		USA_merit_system = {
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_speed_factor = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.1
+			}
+		}
+		
+		USA_free_press = {
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = -0.1
+				foreign_subversive_activites = -0.2
+			}
+		}
+		
+		USA_sensationalist_media = {
+			picture = generic_propaganda
+			
+			modifier = {
+				war_support_factor = 0.15
+				justify_war_goal_time = -0.15
+				stability_factor = -0.05
+			}
+		}
+		
+		USA_rough_riders = {
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				training_time_army_factor = -0.1
+				army_org_factor = 0.05
+				cavalry_attack_factor = 0.15
+			}
+		}
+		
+		USA_economic_imperialism = {
+			picture = generic_foreign_capital
+			
+			modifier = {
+				trade_opinion_factor = 0.25
+				min_export = -0.1
+				war_support_factor = 0.05
+			}
+		}
+		
+		USA_panama_canal = {
+			picture = generic_navy_bonus
+			
+			modifier = {
+				naval_speed_factor = 0.1
+				naval_coordination = 0.05
+				convoy_escort_efficiency = 0.1
+			}
+		}
+		
+		USA_return_to_normalcy = {
+			picture = generic_constitutional_guarantee
+			
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = -0.1
+				political_power_gain = 0.25
+				drift_defence_factor = 0.3
+			}
+		}
+		
+		USA_national_celebration = {
+			picture = generic_morale_bonus
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		
+		USA_economic_instability = {
+			picture = generic_economic_crisis
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		USA_architectural_prestige = {
+			picture = generic_constitutional_guarantee
+			
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+				foreign_subversive_activites = -0.1
+			}
+		}
+	}
+}
