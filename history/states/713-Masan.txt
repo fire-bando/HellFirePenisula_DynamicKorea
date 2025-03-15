@@ -7,6 +7,7 @@ state={
 		owner = RPL
 		add_core_of = RPL
 		add_core_of = MIO
+		set_demilitarized_zone = yes
 		victory_points = {
 			395 10 
 		}

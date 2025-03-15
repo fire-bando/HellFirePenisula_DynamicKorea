@@ -8,6 +8,16 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
+			if = {
+				limit = {
+						MIO = {
+							is_ai = yes
+					}
+				}
+				MIO = {
+					set_cosmetic_tag = MIO_MZZ
+				}
+			}
 			SPX = { news_event = { id = skevent.3 days = 673 } }
 			SPX = { country_event = { id = skevent.4 days = 750 } }
 			if = {
