@@ -8,9 +8,8 @@ on_actions = {
 	}
 	on_startup = {
 		effect = {
-			every_country = {
-				play_song = "sewol"
-			}
+			SPX = { news_event = { id = skevent.3 days = 673 } }
+			SPX = { country_event = { id = skevent.4 days = 750 } }
 			if = {
 				limit = {
 					is_historical_focus_on = no

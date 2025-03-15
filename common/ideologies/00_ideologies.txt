@@ -333,6 +333,7 @@ ideologies = {
 				color = { 48 50 69 }
 			}
 			despotism  = {}
+			capitalism  = {}
 			oligarchism  = {}
 			theocratic_totalitarianism = {
 				color = { 255 194 36 }

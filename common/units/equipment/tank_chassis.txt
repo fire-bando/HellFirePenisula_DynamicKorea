@@ -9,22 +9,6 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
-
 		picture = archetype_light_tank_equipment
 		type = armor
 		group_by = archetype
@@ -254,21 +238,7 @@ equipments = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
+
 		picture = archetype_medium_tank_equipment
 		type = armor
 		group_by = archetype
@@ -496,21 +466,6 @@ equipments = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
 		picture = archetype_heavy_tank_equipment
 		type = armor
 		group_by = archetype
@@ -737,21 +692,6 @@ equipments = {
 		year = 1948
 		is_archetype = yes
 		is_buildable = no
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
 		picture = archetype_modern_tank_equipment
 		type = armor
 		group_by = archetype
@@ -922,21 +862,6 @@ equipments = {
 		year = 1948
 		is_archetype = yes
 		is_buildable = no
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
 		picture = archetype_super_heavy_tank_equipment
 		type = armor
 		group_by = archetype
@@ -1104,21 +1029,6 @@ equipments = {
 		year = 1936
 		is_archetype = yes
 		is_buildable = no
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
 		picture = archetype_amphibious_tank_equipment
 		type = armor
 		group_by = archetype

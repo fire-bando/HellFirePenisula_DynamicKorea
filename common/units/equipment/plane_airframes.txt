@@ -3,21 +3,6 @@ equipments = {
 	small_plane_airframe = {
 		year = 1933
 
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
 
 		is_archetype = yes
 		is_convertable = yes
@@ -659,22 +644,6 @@ equipments = {
 	cv_small_plane_airframe = {
 		year = 1933
 
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
-
 		is_archetype = yes
 		is_convertable = yes
 		carrier_capable = yes
@@ -1290,14 +1259,7 @@ equipments = {
 		year = 1933
 
 		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
+
 			else = {
 				NOT = {
 					has_idea = BUL_army_restrictions
@@ -2161,23 +2123,6 @@ equipments = {
 
 	large_plane_airframe = {
 		year = 1933
-
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
-		}
-
 		is_archetype = yes
 		is_convertable = yes
 		picture = archetype_strat_bomber_equipment

@@ -17,6 +17,11 @@
  YBJ_yongsan_totalism_state_DEF:0 "용산 대통령실"
 
  SPX:0 "스페이스 X 외계 식민지"
+ SPX_USTERRITORYOFMARS:0 "미합중국 화성 영토"
+ SPX_PROTECTORATE:0 "미합중국 화성 보호령"
+ SPX_DOGE_MARSCOLONIZATION_COMMITTEE:0 "미합중국 정부효율부 산하 화성식민위원회"
+ SPX_DOGE_MARSCOLONIZATION_COMMITTEE_ADJ:0 "화성식민위원회"
+ SPX_DOGE_MARSCOLONIZATION_COMMITTEE_DEF:0 "화성식민위원회"
 
  SEO_PPP:0 "오세이돈 시청"
  SEO_PPP_DEF:0 "오세이돈 시청"

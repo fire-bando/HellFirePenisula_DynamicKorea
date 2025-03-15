@@ -29,14 +29,14 @@ recruit_character = SMS_Lee_Jae_yong
 set_convoys = 0
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	neutrality = 100
 	fascism = 0
 	communism = 0
-	neutrality = 0
+	democratic = 0
 }

@@ -1,84 +1,84 @@
-TAE_new_conservate = {
-    TAE_new_conservate_movement = {
-        allowed = {
-            original_tag = TAE
-        }
-        days_mission_timeout = 210
-        is_good = no
-        available = {
-            AND = {
-                NOT = {
-                    TAE_junpyo_hong = {
-                        is_country_leader = yes
-                    }
-                }   
-            }
-        }
-        timeout_effect = {
-            country_event = {
-                id = TAE_new_conservate.1
-                days = 2
-            }
-        }
-        fire_only_once = yes
-    }
-    TAE_reform_party_daegu_city_party = {
-        fire_only_once = yes
-        allowed = {
-            original_tag = TAE
-        }
-        available = {
-            always = no
-        }
-        is_good = no
-        days_mission_timeout = 60
-        timeout_effect = {
-            country_event = {
-                id = TAE_new_conservate.4
-                days = 1
-            }
-        }
-    }
-    TAE_second_civil_war = {
-        fire_only_once = yes
-        allowed = {
-            original_tag = TAE
-        }
-        available = {
-            always = no
-        }
-        activation = {
-            has_country_flag = TAE_reform_party_established_in_daegu
-        }
-        is_good = no
-        days_mission_timeout = 60
-        timeout_effect = {
-            country_event = {
-                id = TAE_new_conservate.4
-                days = 1
-            }
-        }
-    }
-    TAE_discussion = {
-        allowed = {
-            original_tag = TAE
-        }
-        cost = 150
-        complete_effect = {
-            random = {
-                chance = 50
-                country_event = {
-                    id = TAE_new_conservate.2
-                    days = 1
-                }
-            }
-            random = {
-                chance = 50
-                country_event = {
-                    id = TAE_new_conservate.3
-                    days = 1
-                }
-            }
-        }
-    }
-}
+# TAE_new_conservate = {
+#     TAE_new_conservate_movement = {
+#         allowed = {
+#             original_tag = TAE
+#         }
+#         days_mission_timeout = 210
+#         is_good = no
+#         available = {
+#             AND = {
+#                 NOT = {
+#                     TAE_junpyo_hong = {
+#                         is_country_leader = yes
+#                     }
+#                 }   
+#             }
+#         }
+#         timeout_effect = {
+#             country_event = {
+#                 id = TAE_new_conservate.1
+#                 days = 2
+#             }
+#         }
+#         fire_only_once = yes
+#     }
+#     TAE_reform_party_daegu_city_party = {
+#         fire_only_once = yes
+#         allowed = {
+#             original_tag = TAE
+#         }
+#         available = {
+#             always = no
+#         }
+#         is_good = no
+#         days_mission_timeout = 60
+#         timeout_effect = {
+#             country_event = {
+#                 id = TAE_new_conservate.4
+#                 days = 1
+#             }
+#         }
+#     }
+#     TAE_second_civil_war = {
+#         fire_only_once = yes
+#         allowed = {
+#             original_tag = TAE
+#         }
+#         available = {
+#             always = no
+#         }
+#         activation = {
+#             has_country_flag = TAE_reform_party_established_in_daegu
+#         }
+#         is_good = no
+#         days_mission_timeout = 60
+#         timeout_effect = {
+#             country_event = {
+#                 id = TAE_new_conservate.4
+#                 days = 1
+#             }
+#         }
+#     }
+#     TAE_discussion = {
+#         allowed = {
+#             original_tag = TAE
+#         }
+#         cost = 150
+#         complete_effect = {
+#             random = {
+#                 chance = 50
+#                 country_event = {
+#                     id = TAE_new_conservate.2
+#                     days = 1
+#                 }
+#             }
+#             random = {
+#                 chance = 50
+#                 country_event = {
+#                     id = TAE_new_conservate.3
+#                     days = 1
+#                 }
+#             }
+#         }
+#     }
+# }
