@@ -60,8 +60,8 @@ spriteTypes={
 		texturefile="gfx/leaders/SPO/donghun.png"
 	}
 	spriteType={
-		name="GFX_YBJ_yoon_father_large"
-		texturefile="gfx/leaders/YBJ/yoon_daddy.png"
+		name="GFX_YNN_yoon_father_large"
+		texturefile="gfx/leaders/YNN/yoon_daddy.png"
 	}
 	spriteType={
 		name="GFX_SMS_Lee_Jae_yong_large"

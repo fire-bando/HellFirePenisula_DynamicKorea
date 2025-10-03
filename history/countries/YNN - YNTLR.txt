@@ -1,13 +1,13 @@
 capital = 583
 
-oob = "YBJ_2023"
+oob = "YNN_2023"
 
 starting_train_buffer = 1218
 
-recruit_character = YBJ_yoon_father
-recruit_character = YBJ_na_kyungwon
-recruit_character = YBJ_yoon_sanghyun
-recruit_character = YBJ_tae_yeong_ho
+recruit_character = YNN_yoon_father
+recruit_character = YNN_na_kyungwon
+recruit_character = YNN_yoon_sanghyun
+recruit_character = YNN_tae_yeong_ho
 
 # Starting tech
 set_technology = {
@@ -23,8 +23,8 @@ add_to_faction = GNG
 add_ideas = {
 
 	## Spirits
-	YBJ_legitimacy_government
-	YBJ_low_support
+	YNN_legitimacy_government
+	YNN_low_support
 
 }
 

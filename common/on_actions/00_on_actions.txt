@@ -45,7 +45,7 @@ on_actions = {
 						original_tag = PJH
 						original_tag = SBU
 						original_tag = TAE
-						original_tag = YBJ
+						original_tag = YNN
 						original_tag = YG1
 					}
 				}

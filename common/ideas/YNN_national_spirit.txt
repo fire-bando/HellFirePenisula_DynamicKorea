@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		YBJ_legitimacy_government = {
+		YNN_legitimacy_government = {
 			allowed = {
 				always = no
 			}
@@ -16,7 +16,7 @@ ideas = {
 			}
 		}
 
-		YBJ_low_support = {
+		YNN_low_support = {
 			allowed = {
 				always = no
 			}

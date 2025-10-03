@@ -31,18 +31,18 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-YBJ_INF_01 = 
+YNN_INF_01 = 
 {
 	name = "Infantry Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = {	Not = { has_government = communism } }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_GAR_01 }
+	#link_numbering_with = { YNN_GAR_01 }
 
 	fallback_name = "%dth ROK Infantry Division"
 
@@ -53,18 +53,18 @@ YBJ_INF_01 =
 
 	}
 }
-YBJ_GAR_01 = 
+YNN_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_INF_01 }
+	#link_numbering_with = { YNN_INF_01 }
 
 	fallback_name = "%dth Garrison Division"
 
@@ -129,18 +129,18 @@ YBJ_GAR_01 =
 	}
 }
 
-YBJ_MAR_01 = 
+YNN_MAR_01 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = { not = { has_government = communism } }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_INF_01 }
+	#link_numbering_with = { YNN_INF_01 }
 
 	fallback_name = "%dth ROK Marine Division"
 
@@ -162,18 +162,18 @@ YBJ_MAR_01 =
 	}
 }
 
-YBJ_MAR_02 = 
+YNN_MAR_02 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = { has_government = communism }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_INF_01 }
+	#link_numbering_with = { YNN_INF_01 }
 
 	fallback_name = "%dth Marine Division"
 
@@ -195,18 +195,18 @@ YBJ_MAR_02 =
 	}
 }
 
-YBJ_MTN_01 = 
+YNN_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_INF_01 }
+	#link_numbering_with = { YNN_INF_01 }
 
 	fallback_name = "%dth Mountain Division"
 
@@ -228,18 +228,18 @@ YBJ_MTN_01 =
 	}
 }
 
-YBJ_PAR_01 = 
+YNN_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = { not = { has_government = communism} }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_INF_01 }
+	#link_numbering_with = { YNN_INF_01 }
 
 	fallback_name = "%dth ROK Airborne Division"
 
@@ -261,18 +261,18 @@ YBJ_PAR_01 =
 	}
 }
 
-YBJ_PAR_02 = 
+YNN_PAR_02 = 
 {
 	name = "Paratrooper Divisions"
 
-	for_countries = { YBJ }
+	for_countries = { YNN }
 
 	can_use = { has_government = communism }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YBJ_INF_01 }
+	#link_numbering_with = { YNN_INF_01 }
 
 	fallback_name = "%dth Airborne Division"
 

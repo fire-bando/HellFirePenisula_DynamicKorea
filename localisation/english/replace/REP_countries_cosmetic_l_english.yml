@@ -10,9 +10,9 @@
  GNW_TAE_neutrality_autonomy_dominion:0 "군위 자치구"
  SBU_gijang_commune:0 "기장인민위원회"
 
- YBJ_after_martial_law:0 "용산자유민주주의국민공화국"
- YBJ_after_martial_law_ADJ:0 "용산 대통령실"
- YBJ_after_martial_law_DEF:0 "용산 대통령실"
+ YNN_after_martial_law:0 "용산자유민주주의국민공화국"
+ YNN_after_martial_law_ADJ:0 "용산 대통령실"
+ YNN_after_martial_law_DEF:0 "용산 대통령실"
 
  SPX:0 "스페이스 X 외계 식민지"
 

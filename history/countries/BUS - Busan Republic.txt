@@ -1,6 +1,6 @@
 capital = 658
 
-recruit_character = BUS_bongmin_jeong
+recruit_character = BUS_jewon_Jang
 
 oob = "BUS_2023"
 

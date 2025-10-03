@@ -146,8 +146,8 @@
 defined_text = {
 	name = GET_CLOSEBUTTON_TEXT
 	text = {
-		trigger = { tag = YBJ }
-		localization_key = TNO_COUNTRY_INFO_BUTTON_TEXT_YBJ
+		trigger = { tag = YNN }
+		localization_key = TNO_COUNTRY_INFO_BUTTON_TEXT_YNN
 	}
 
 	## Default
@@ -160,7 +160,7 @@ defined_text = {
 defined_text = {
 	name = GET_POSTER
 	text = {
-		trigger = { tag = YBJ }
+		trigger = { tag = YNN }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_PP"
 	}
 }
@@ -194,27 +194,27 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = YBJ
+			original_tag = YNN
 		}
-		localization_key = "[Get_FolderLoc_YBJ]"
+		localization_key = "[Get_FolderLoc_YNN]"
 	}
 }
 
-	## Folder_ScriptedLoc_YBJ
+	## Folder_ScriptedLoc_YNN
 	defined_text = {
-		name = Get_FolderLoc_YBJ
+		name = Get_FolderLoc_YNN
 		
 		text = {
 			trigger = {
 				check_variable = { f = 101 }
 			}
-			localization_key = YBJ_CountryInfo_Folder.101
+			localization_key = YNN_CountryInfo_Folder.101
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 102 }
 			}
-			localization_key = YBJ_CountryInfo_Folder.102
+			localization_key = YNN_CountryInfo_Folder.102
 		}
 	}
 
@@ -258,68 +258,68 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			original_tag = YBJ
+			original_tag = YNN
 		}
-		localization_key = "[Get_ContentLoc_YBJ]"
+		localization_key = "[Get_ContentLoc_YNN]"
 	}
 }
 
-	## Content_ScriptedLoc_YBJ	
+	## Content_ScriptedLoc_YNN	
 	defined_text = {
-		name = Get_ContentLoc_YBJ
+		name = Get_ContentLoc_YNN
 		text = {
 			trigger = {
 				check_variable = { f = 1 }
 			}
-			localization_key = YBJ_CountryInfo_Content.1
+			localization_key = YNN_CountryInfo_Content.1
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 2 }
 			}
-			localization_key = YBJ_CountryInfo_Content.2
+			localization_key = YNN_CountryInfo_Content.2
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 3 }
 			}
-			localization_key = YBJ_CountryInfo_Content.3
+			localization_key = YNN_CountryInfo_Content.3
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 4 }
 			}
-			localization_key = YBJ_CountryInfo_Content.4
+			localization_key = YNN_CountryInfo_Content.4
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 5 }
 			}
-			localization_key = YBJ_CountryInfo_Content.5
+			localization_key = YNN_CountryInfo_Content.5
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 6 }
 			}
-			localization_key = YBJ_CountryInfo_Content.6
+			localization_key = YNN_CountryInfo_Content.6
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 7 }
 			}
-			localization_key = YBJ_CountryInfo_Content.7
+			localization_key = YNN_CountryInfo_Content.7
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 8 }
 			}
-			localization_key = YBJ_CountryInfo_Content.8
+			localization_key = YNN_CountryInfo_Content.8
 		}
 		text = {
 			trigger = {
 				check_variable = { f = 9 }
 			}
-			localization_key = YBJ_CountryInfo_Content.9
+			localization_key = YNN_CountryInfo_Content.9
 		}
 	}
 
@@ -352,68 +352,68 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			original_tag = YBJ
+			original_tag = YNN
 		}
-		localization_key = "[Get_ContentLoc_desc_YBJ]"
+		localization_key = "[Get_ContentLoc_desc_YNN]"
 	}
 }
 
-	## Content_ScriptedLoc_desc_YBJ
+	## Content_ScriptedLoc_desc_YNN
 	defined_text = {
-		name = Get_ContentLoc_desc_YBJ
+		name = Get_ContentLoc_desc_YNN
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 1 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.1
+			localization_key = YNN_CountryInfo_Content_desc.1
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 2 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.2
+			localization_key = YNN_CountryInfo_Content_desc.2
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 3 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.3
+			localization_key = YNN_CountryInfo_Content_desc.3
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 4 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.4
+			localization_key = YNN_CountryInfo_Content_desc.4
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 5 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.5
+			localization_key = YNN_CountryInfo_Content_desc.5
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 6 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.6
+			localization_key = YNN_CountryInfo_Content_desc.6
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 7 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.7
+			localization_key = YNN_CountryInfo_Content_desc.7
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 8 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.8
+			localization_key = YNN_CountryInfo_Content_desc.8
 		}
 		text = {
 			trigger = {
 				check_variable = { CountryInfo_Selected = 9 }
 			}
-			localization_key = YBJ_CountryInfo_Content_desc.9
+			localization_key = YNN_CountryInfo_Content_desc.9
 		}
 	}
 	
@@ -707,8 +707,8 @@ defined_text = {
 defined_text = {
 	name = TNO_COUNTRY_INFO_BUTTON_TT_LOC
 	text = {
-		trigger = { tag = YBJ }
-		localization_key = TNO_COUNTRY_INFO_BUTTON_TT_YBJ
+		trigger = { tag = YNN }
+		localization_key = TNO_COUNTRY_INFO_BUTTON_TT_YNN
 	}
 
 	## Default

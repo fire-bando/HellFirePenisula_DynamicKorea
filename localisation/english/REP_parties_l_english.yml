@@ -6,10 +6,10 @@
 
  BSU_communism_party:0 "노동자연합"
 
- YBJ_neutrality_party:0 "대통령실"
- YBJ_democratic_party:0 "자유민주주의를 수호하는 태극기부대"
- YBJ_fascism_party:0 "지역살리기운동본부"
- YBJ_communism_party:0 "공산 전체주의 세력"
+ YNN_neutrality_party:0 "대통령실"
+ YNN_democratic_party:0 "자유민주주의를 수호하는 태극기부대"
+ YNN_fascism_party:0 "지역살리기운동본부"
+ YNN_communism_party:0 "공산 전체주의 세력"
 
  AHN_neutrality_party:0 "국민의힘 - 친안파"
  AHN_neutrality_party_run_at_PPP_long:0 "국민의당"
@@ -33,7 +33,8 @@
 
  ROH_roh_samo_party:0 "사람사는 세상"
 
- PJH_parkism_party:0 "민주공화당"
+ PJH_parkism_party:0 "더이상(고)박정희대통령각하를매도하지말자"
+#  PJH_parkism_party:0 "더이상(고)박정희대통령각하의매도주문을체결하지말자"
 
  GIR_feminism_party:0 "손발이떨리고눈물이나"
 
@@ -76,4 +77,4 @@
  CHU_odo_marinism_party:0 "공군 제19전투비행단"
  CHU_idolism_party:0 "트레센 학원 충주 분교 총학생회"
 
- YBJ_neutrality_party_yongsanism:0 "용산당"
+ YNN_neutrality_party_yongsanism:0 "용산당"

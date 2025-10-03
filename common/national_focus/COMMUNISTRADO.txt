@@ -1,0 +1,24 @@
+focus_tree = {
+	id = focus_COMUNIST_RADO
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JNR
+		}
+	}
+	focus = {
+		id = JNR_eastern_diplomacy
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		x = 10
+		y = 0
+		cost = 5
+		# completion_reward = {
+		# 	ROOT = {
+		# 		
+		# 	}
+		# } 발트외교 참고, 동부3국(순천 광양 보성 관련 -> 전쟁분기 / 자발적가입분기 also oob 조정필요)
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 2000 }
+}

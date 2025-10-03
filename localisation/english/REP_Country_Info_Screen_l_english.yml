@@ -6,7 +6,7 @@
  CountryInfo_Content_button_tt: "§G클릭§!하여 §Y[CountryInfo_GET_Content_Country]§! 내의 항목 보기"
  TNO_COUNTRY_INFO_BUTTON_TT: "[TNO_COUNTRY_INFO_BUTTON_TT_LOC]"
  TNO_COUNTRY_INFO_BUTTON_TT_ALL: "§Y운명이 기다리고 있습니다.§!"
- TNO_COUNTRY_INFO_BUTTON_TT_YBJ: "§Y윤윤윤.§!\n\n§R윤윤윤§!"
+ TNO_COUNTRY_INFO_BUTTON_TT_YNN: "§Y윤윤윤.§!\n\n§R윤윤윤§!"
  
 ### COUNTRY OPENING ###
  CountryInfo_tab_name_country: "국가 개요"
@@ -56,36 +56,36 @@
  ### COUNTRY ENDING ###
  CountryInfo_tab_name_ending: "Afterthought"
  
- ###YBJ
+ ###YNN
  TNO_COUNTRY_INFO_BUTTON_TEXT: ""
- TNO_COUNTRY_INFO_BUTTON_TEXT_YBJ: ""
- YBJ_CountryInfo_Folder.101: ""
- YBJ_CountryInfo_Folder.102: ""
+ TNO_COUNTRY_INFO_BUTTON_TEXT_YNN: ""
+ YNN_CountryInfo_Folder.101: ""
+ YNN_CountryInfo_Folder.102: ""
  # 101
- YBJ_CountryInfo_Content.1: ""
- YBJ_CountryInfo_Content_desc.1: ""
+ YNN_CountryInfo_Content.1: ""
+ YNN_CountryInfo_Content_desc.1: ""
  
- YBJ_CountryInfo_Content.2: ""
- YBJ_CountryInfo_Content_desc.2: ""
+ YNN_CountryInfo_Content.2: ""
+ YNN_CountryInfo_Content_desc.2: ""
  
- YBJ_CountryInfo_Content.3: ""
- YBJ_CountryInfo_Content_desc.3: ""
+ YNN_CountryInfo_Content.3: ""
+ YNN_CountryInfo_Content_desc.3: ""
  
- YBJ_CountryInfo_Content.4: ""
- YBJ_CountryInfo_Content_desc.4: ""
+ YNN_CountryInfo_Content.4: ""
+ YNN_CountryInfo_Content_desc.4: ""
  
- YBJ_CountryInfo_Content.5: ""
- YBJ_CountryInfo_Content_desc.5: ""
+ YNN_CountryInfo_Content.5: ""
+ YNN_CountryInfo_Content_desc.5: ""
  
  # 102
- YBJ_CountryInfo_Content.6: ""
- YBJ_CountryInfo_Content_desc.6: ""
+ YNN_CountryInfo_Content.6: ""
+ YNN_CountryInfo_Content_desc.6: ""
   
- YBJ_CountryInfo_Content.7: ""
- YBJ_CountryInfo_Content_desc.7: ""
+ YNN_CountryInfo_Content.7: ""
+ YNN_CountryInfo_Content_desc.7: ""
   
- YBJ_CountryInfo_Content.8: ""
- YBJ_CountryInfo_Content_desc.8: ""
+ YNN_CountryInfo_Content.8: ""
+ YNN_CountryInfo_Content_desc.8: ""
   
- YBJ_CountryInfo_Content.9: ""
- YBJ_CountryInfo_Content_desc.9: ""
+ YNN_CountryInfo_Content.9: ""
+ YNN_CountryInfo_Content_desc.9: ""

@@ -1,27 +1,27 @@
-add_namespace = YBJ_event
+add_namespace = YNN_event
 
 country_event = { #나라 좆됨
-	id = YBJ_event.1
-	title = YBJ_event.1.t
+	id = YNN_event.1
+	title = YNN_event.1.t
 	picture = GFX_report_event_tae_event
-    desc = YBJ_event.1.d
+    desc = YNN_event.1.d
 
 	is_triggered_only = yes
 	
 	option = {
-		name = YBJ_event.1.a
+		name = YNN_event.1.a
 	}
 }
 
 country_event = { #나라 종북 때문에 좆됨
-	id = YBJ_event.2
-	title = YBJ_event.2.t
+	id = YNN_event.2
+	title = YNN_event.2.t
 	picture = GFX_report_event_tae_event
-    desc = YBJ_event.2.d
+    desc = YNN_event.2.d
 
 	is_triggered_only = yes
 	
 	option = {
-		name = YBJ_event.2.a
+		name = YNN_event.2.a
 	}
 }

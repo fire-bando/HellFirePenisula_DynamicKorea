@@ -8,10 +8,10 @@ ideologies = {
 			liberalism = {}
 			theminju = {
 				color = { 2 51 149 }
-			} #온건
+			} 
 			aeguk_bosu = {
 				color = { 230 31 38 }
-			} #온건
+			} 
 		}
 
 		dynamic_faction_names = {
@@ -342,6 +342,8 @@ ideologies = {
 				color = { 11 11 11 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
+			# tongilgyo = {}
+			# sanctuarychurch = {}
 			moderatism = {}
 			centrism = {}
 		}

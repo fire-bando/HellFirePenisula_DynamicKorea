@@ -1,0 +1,26 @@
+characters={ 
+    UNF_hakja_han={
+        name=UNF_hakja_han
+        portraits={
+            civilian={
+                large=GFX_rishi_sunak
+            }
+        }
+        country_leader={
+            ideology=theocratic_totalitarianism
+            expire="2024.7.5"
+        }
+    }
+    STC_hyeongjin_moon={
+        name=STC_hyeongjin_moon
+        portraits={
+            civilian={
+                large=GFX_rishi_sunak
+            }
+        }
+        country_leader={
+            ideology=theocratic_totalitarianism
+            expire="2024.7.5"
+        }
+    }
+}

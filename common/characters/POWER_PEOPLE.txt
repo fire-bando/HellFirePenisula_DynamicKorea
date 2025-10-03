@@ -1,9 +1,9 @@
 characters={ 
-    BUS_bongmin_jeong={
-        name=BUS_bongmin_jeong
+    BUS_jewon_Jang={
+        name=BUS_jewon_Jang
         portraits={
             civilian={
-                large=GFX_BUS_bongmin_jeong_large
+                large=GFX_BUS_jewon_Jang_large
             }
         }
         country_leader={
@@ -11,11 +11,11 @@ characters={
             expire="8192.2.8"
         }
     }
-    YBJ_yoon_father={
-        name=YBJ_yoon_father
+    YNN_yoon_father={
+        name=YNN_yoon_father
         portraits={
             civilian={
-                large=GFX_YBJ_yoon_father_large
+                large=GFX_YNN_yoon_father_large
             }
         }
         country_leader={
@@ -26,51 +26,51 @@ characters={
             expire="8192.2.8"
         }
     }
-    YBJ_won_heeryong={ #원희룡
-        name=YBJ_won_heeryong
+    YNN_won_heeryong={ #원희룡
+        name=YNN_won_heeryong
         advisor = {
             slot = political_advisor
             traits = {  }
         }
         portraits={
             civilian={
-                large=GFX_YBJ_won_heeryong_large
+                large=GFX_YNN_won_heeryong_large
             }
         }
     }
-    YBJ_na_kyungwon={ #나경원
-        name=YBJ_na_kyungwon
+    YNN_na_kyungwon={ #나경원
+        name=YNN_na_kyungwon
         advisor = {
             slot = political_advisor
             traits = {  }
         }
         portraits={
             civilian={
-                large=GFX_YBJ_na_kyungwon_large
+                large=GFX_YNN_na_kyungwon_large
             }
         }
     }
-    YBJ_yoon_sanghyun={
-        name=YBJ_yoon_sanghyun
+    YNN_yoon_sanghyun={
+        name=YNN_yoon_sanghyun
         advisor = {
             slot = political_advisor
             traits = {  }
         }
         portraits={
             civilian={
-                large=GFX_YBJ_yoon_sanghyun_large
+                large=GFX_YNN_yoon_sanghyun_large
             }
         }
     }
-    YBJ_tae_yeong_ho={
-        name=YBJ_tae_yeong_ho
+    YNN_tae_yeong_ho={
+        name=YNN_tae_yeong_ho
         advisor = {
             slot = political_advisor
             traits = {  }
         }
         portraits={
             civilian={
-                large=GFX_YBJ_tae_yeong_ho_large
+                large=GFX_YNN_tae_yeong_ho_large
             }
         }
     }

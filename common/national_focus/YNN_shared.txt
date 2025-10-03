@@ -1,10 +1,10 @@
 ### 시작 ###
 
 shared_focus = {
-	id = YBJ_collapse_government
+	id = YNN_collapse_government
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -23,17 +23,17 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = {
-			id = YBJ_event.1
+			id = YNN_event.1
 			days = 2
 		}
 	}
 }
 
 # shared_focus = {
-# 	id = YBJ_joint_focus_test
+# 	id = YNN_joint_focus_test
 # 	icon = {
 # 		trigger = {
-# 			YBJ = {
+# 			YNN = {
 # 				is_ai = yes
 # 			}
 # 		}
@@ -41,7 +41,7 @@ shared_focus = {
 # 	}
 # 	icon = {
 # 		trigger = {
-# 			YBJ = {
+# 			YNN = {
 # 				is_ai = no
 # 			}
 # 		}
@@ -51,7 +51,7 @@ shared_focus = {
 # 	dynamic = yes
 
 # 	# prerequisite = {
-# 	# 	focus = YBJ_declare_martial_law
+# 	# 	focus = YNN_declare_martial_law
 # 	# }
 
 # 	# offset = {
@@ -68,7 +68,7 @@ shared_focus = {
 # 	# }
 
 # 	cost = 2
-# 	#relative_position_id = YBJ_collapse_government
+# 	#relative_position_id = YNN_collapse_government
 # 	x = 0
 # 	y = 0
 
@@ -84,10 +84,10 @@ shared_focus = {
 # }
 
 shared_focus = {
-	id = YBJ_grasp_situation
+	id = YNN_grasp_situation
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -97,29 +97,29 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_collapse_government
+		focus = YNN_collapse_government
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_collapse_government
+	relative_position_id = YNN_collapse_government
 	x = -1
 	y = 1
 
 	completion_reward = {
 		country_event = {
-			id = YBJ_event.2
+			id = YNN_event.2
 			days = 2
 		}
 	}
 }
 
 shared_focus = {
-	id = YBJ_unconstitutional_state_council_proceedings
+	id = YNN_unconstitutional_state_council_proceedings
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -129,13 +129,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_collapse_government
+		focus = YNN_collapse_government
 	}
 
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_collapse_government
+	relative_position_id = YNN_collapse_government
 	x = 1
 	y = 1
 
@@ -145,10 +145,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_declare_martial_law
+	id = YNN_declare_martial_law
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -158,22 +158,22 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_unconstitutional_state_council_proceedings
+		focus = YNN_unconstitutional_state_council_proceedings
 	}
 	prerequisite = {
-		focus = YBJ_grasp_situation
+		focus = YNN_grasp_situation
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_unconstitutional_state_council_proceedings
+	relative_position_id = YNN_unconstitutional_state_council_proceedings
 	x = -1
 	y = 1
 
 	completion_reward = {
 		ROOT = {
-			set_cosmetic_tag = YBJ_after_martial_law
+			set_cosmetic_tag = YNN_after_martial_law
 			swap_ruler_traits = {
 				remove = yoon_dog
 				add = yoon_bullshit
@@ -185,8 +185,8 @@ shared_focus = {
 			# }
 			set_party_name = {
 				ideology = neutrality
-				long_name = YBJ_neutrality_party_yongsanism
-				name = YBJ_neutrality_party_yongsanism
+				long_name = YNN_neutrality_party_yongsanism
+				name = YNN_neutrality_party_yongsanism
 			}
 			# 이거 나중에 이벤트로 바꿔야함
 			AHN = {
@@ -227,10 +227,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_eradicate_pro_dprk_anti_state_forces
+	id = YNN_eradicate_pro_dprk_anti_state_forces
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -240,19 +240,19 @@ shared_focus = {
 		value = GFX
 	}
 	# prerequisite = {
-	# 	focus = YBJ_grasp_situation
+	# 	focus = YNN_grasp_situation
 	# }
 	# prerequisite = {
-	# 	focus = YBJ_unconstitutional_state_council_proceedings
+	# 	focus = YNN_unconstitutional_state_council_proceedings
 	# }
 	prerequisite = {
-		focus = YBJ_declare_martial_law
+		focus = YNN_declare_martial_law
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_declare_martial_law
+	relative_position_id = YNN_declare_martial_law
 	x = 0
 	y = 3
 
@@ -262,10 +262,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_gag_on_media
+	id = YNN_gag_on_media
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -275,13 +275,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_eradicate_pro_dprk_anti_state_forces
+		focus = YNN_eradicate_pro_dprk_anti_state_forces
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_eradicate_pro_dprk_anti_state_forces
+	relative_position_id = YNN_eradicate_pro_dprk_anti_state_forces
 	x = -4
 	y = 1
 
@@ -291,10 +291,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_occupying_national_assembly
+	id = YNN_occupying_national_assembly
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -304,13 +304,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_eradicate_pro_dprk_anti_state_forces
+		focus = YNN_eradicate_pro_dprk_anti_state_forces
 	}
 
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_eradicate_pro_dprk_anti_state_forces
+	relative_position_id = YNN_eradicate_pro_dprk_anti_state_forces
 	x = 0
 	y = 1
 
@@ -325,10 +325,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_occupy_NEC
+	id = YNN_occupy_NEC
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -338,13 +338,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_eradicate_pro_dprk_anti_state_forces
+		focus = YNN_eradicate_pro_dprk_anti_state_forces
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_eradicate_pro_dprk_anti_state_forces
+	relative_position_id = YNN_eradicate_pro_dprk_anti_state_forces
 	x = 4
 	y = 1
 
@@ -363,10 +363,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_kill_PPP_senior
+	id = YNN_kill_PPP_senior
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -376,30 +376,30 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_occupying_national_assembly
+		focus = YNN_occupying_national_assembly
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_occupying_national_assembly
+	relative_position_id = YNN_occupying_national_assembly
 	x = -1
 	y = 1
 
 	completion_reward = {
 		hidden_effect = {
-			retire_character = YBJ_na_kyungwon
-			retire_character = YBJ_tae_yeong_ho
+			retire_character = YNN_na_kyungwon
+			retire_character = YNN_tae_yeong_ho
 		}
-		custom_effect_tooltip = YBJ_kill_PPP_senior_tt
+		custom_effect_tooltip = YNN_kill_PPP_senior_tt
 	}
 }
 
 shared_focus = {
-	id = YBJ_republic_of_Gumchal
+	id = YNN_republic_of_Gumchal
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -409,22 +409,22 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_kill_PPP_senior
+		focus = YNN_kill_PPP_senior
 	}
 	prerequisite = {
-		focus = YBJ_new_legislature_controlled_by_administration
+		focus = YNN_new_legislature_controlled_by_administration
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_4
+		focus = YNN_placeholder_4
 	}
 	prerequisite = {
-		focus = YBJ_placeholder_5
+		focus = YNN_placeholder_5
 	}
 
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_occupying_national_assembly
+	relative_position_id = YNN_occupying_national_assembly
 	x = 0
 	y = 2
 
@@ -434,10 +434,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_new_legislature_controlled_by_administration
+	id = YNN_new_legislature_controlled_by_administration
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -447,13 +447,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_occupying_national_assembly
+		focus = YNN_occupying_national_assembly
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_occupying_national_assembly
+	relative_position_id = YNN_occupying_national_assembly
 	x = 1
 	y = 1
 	
@@ -463,10 +463,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_placeholder_4
+	id = YNN_placeholder_4
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -476,13 +476,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_gag_on_media
+		focus = YNN_gag_on_media
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YBJ_gag_on_media
+	relative_position_id = YNN_gag_on_media
 	x = -1
 	y = 1
 	
@@ -492,10 +492,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YBJ_placeholder_5
+	id = YNN_placeholder_5
 	icon = {
 		trigger = {
-			YBJ = {
+			YNN = {
 				is_ai = yes
 			}
 		}
@@ -505,13 +505,13 @@ shared_focus = {
 		value = GFX
 	}
 	prerequisite = {
-		focus = YBJ_occupy_NEC
+		focus = YNN_occupy_NEC
 	}
 
 	dynamic = yes
 	
 	cost = 2
-	relative_position_id = YBJ_occupy_NEC
+	relative_position_id = YNN_occupy_NEC
 	x = 1
 	y = 1
 	
@@ -523,14 +523,14 @@ shared_focus = {
 ### 권력투쟁 ###
 
 # shared_focus = {
-# 	id = YBJ_power_struggle
+# 	id = YNN_power_struggle
 # 	icon = GFX
 # 	prerequisite = {
-# 		focus = YBJ_collapse_government
+# 		focus = YNN_collapse_government
 # 	}
 
 # 	cost = 2
-# 	relative_position_id = YBJ_collapse_government
+# 	relative_position_id = YNN_collapse_government
 # 	x = 0
 # 	y = 1
 
@@ -540,14 +540,14 @@ shared_focus = {
 # }
 
 # shared_focus = {
-# 	id = YBJ_yoon_father_power
+# 	id = YNN_yoon_father_power
 # 	icon = GFX
 # 	prerequisite = {
-# 		focus = YBJ_power_struggle
+# 		focus = YNN_power_struggle
 # 	}
 
 # 	cost = 2
-# 	relative_position_id = YBJ_power_struggle
+# 	relative_position_id = YNN_power_struggle
 # 	x = -6
 # 	y = 1
 
@@ -557,14 +557,14 @@ shared_focus = {
 # }
 
 # shared_focus = {
-# 	id = YBJ_andy_lee_power
+# 	id = YNN_andy_lee_power
 # 	icon = GFX
 # 	prerequisite = {
-# 		focus = YBJ_power_struggle
+# 		focus = YNN_power_struggle
 # 	}
 
 # 	cost = 2
-# 	relative_position_id = YBJ_power_struggle
+# 	relative_position_id = YNN_power_struggle
 # 	x = -2
 # 	y = 1
 
@@ -574,14 +574,14 @@ shared_focus = {
 # }
 
 # shared_focus = {
-# 	id = YBJ_ahn_cheol_soo_power
+# 	id = YNN_ahn_cheol_soo_power
 # 	icon = GFX
 # 	prerequisite = {
-# 		focus = YBJ_power_struggle
+# 		focus = YNN_power_struggle
 # 	}
 
 # 	cost = 2
-# 	relative_position_id = YBJ_power_struggle
+# 	relative_position_id = YNN_power_struggle
 # 	x = 2
 # 	y = 1
 
@@ -591,14 +591,14 @@ shared_focus = {
 # }
 
 # shared_focus = {
-# 	id = YBJ_unknown_power
+# 	id = YNN_unknown_power
 # 	icon = GFX
 # 	prerequisite = {
-# 		focus = YBJ_power_struggle
+# 		focus = YNN_power_struggle
 # 	}
 
 # 	cost = 2
-# 	relative_position_id = YBJ_power_struggle
+# 	relative_position_id = YNN_power_struggle
 # 	x = 6
 # 	y = 1
 

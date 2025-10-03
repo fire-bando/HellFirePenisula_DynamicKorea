@@ -47,7 +47,7 @@ country_event = {
 
 	is_triggered_only = yes
 	option = { #
-		set_country_flag = HFK_YBJ_END
+		set_country_flag = HFK_YNN_END
 		TNO_Country_Closing_Screen_Show = yes
 		name = korea.10016.a
 	}
