@@ -19,8 +19,8 @@ CHN	= "countries/China Modern.txt"
 CHK	= "countries/China Modern.txt"
 CK2	= "countries/China Modern.txt"
 CHM	= "countries/China Modern.txt"
+ELG = "countries/China Modern.txt"
 
-# 토착왜구
 JAP	= "countries/Japan.txt"
 JPN	= "countries/Japan Modern.txt"
 MIO	= "countries/Japan Old.txt"
@@ -28,7 +28,6 @@ SAG	= "countries/Japan Modern.txt"
 AUM = "countries/Japan Modern.txt"
 CHO = "countries/Japan Old.txt"
 
-#공산전체주의
 WPK = "countries/North Korea.txt"
 NYO = "countries/North Korea.txt"
 KJI = "countries/North Korea.txt"
@@ -107,7 +106,7 @@ DCE = "countries/South Korea.txt"
 SSD = "countries/South Korea.txt"
 BSU = "countries/South Korea.txt"
 SAD = "countries/South Korea.txt"
-ILB = "countries/South Korea.txt" # 일베시티
+ILB = "countries/South Korea.txt"
 IBE = "countries/South Korea.txt"
 JNH = "countries/South Korea.txt"
 ITW = "countries/South Korea.txt"

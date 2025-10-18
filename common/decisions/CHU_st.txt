@@ -1,0 +1,5 @@
+chungju_expansion = {
+    attack_cic = {
+        
+    }
+}

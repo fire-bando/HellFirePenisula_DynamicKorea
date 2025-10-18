@@ -14,6 +14,9 @@
  CHM:0 "만족 자치현"
  CHM_ADJ:0 "만족"
  CHM_DEF:0 "만족"
+ ELG:0 "전능하신하나님"
+ ELG_ADJ:0 "동방번개"
+ ELG_DEF:0 "동방번개"
  JPN:0 ""
  JPN_DEF:0 "일본"
  JPN_ADJ:0 "일본"
@@ -709,7 +712,6 @@
  EDJ:0 "동대전"
  EDJ_ADJ:0 "동대전"
  EDJ_DEF:0 "동대전"
-#  EDJ_fascism:0 "대전아 이름뭘로짓지 고민 존나된다 시발"
  EDJ_democratic:0 "대전사회공화국"
  
  WDJ:0 "서대전"

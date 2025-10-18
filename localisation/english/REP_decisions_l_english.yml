@@ -1,26 +1,13 @@
 ﻿l_english:
-#  KOR_REUNIFIED:0 "다시 하나되어"
-#  KOR_UNIFY_SEOUL:0 "서울 통합"
-
  make_chungbuk_greatest_again:0 "충북을 위대하게"
  JINCHEON_CITY_promote:0 "진천 승격"
-
- JNR_CAPITAL_DEVELOP_COMMITTEE_AGENDA: "전라인민공화국 수도권 개발 위원회"
- NAJU_INNOVATION_CITY:0 "나주 혁신 도시 확장"
- SONGJEONG_DEVELOP:0 "송정 재개발"
- GWANGSAN_DEVELOP:0 "광산시 개발"
-
- PJH_revive:0 "살아있다"
- PJH_survive:0 "지옥에서 돌아오다"
-
+ attack_cic:0 "충북혁신도시 공격" 
+ attack_pseudo_religion:0 "사이비 종교 격퇴" 
+ 
  kill_all_teultak:0 "디버프 제거"
  kill_all_teultak_desc:0 "하라고 만든 국가가 아닌데, 용케도 플레이를 하시고 계시는군요, 다행히도 이 국가는 컨텐츠가 있기에 플레이 안하기에는 좀 아쉽기 때문에 제가 디버프 제거 디시전을 넣어뒀습니다."
  purge_teultak:0 "틀딱 숙청"
  purge_teultak_desc:0 "퍼-지"
-
- PJH_operation:0 "국가수복작전"
- PJH_operation_daegu:0 "대구 개입"
- PJH_operation_tnk:0 "하나회 탄압"
 
  REUNIFIED_SIX_JIN:0 "육진 통합"
  reunified_6jin:0 "육진 통합"
@@ -29,3 +16,7 @@
  AOJ_to_survive:0 "살아남기 위해서"
  AOJ_kidnapping:0 "[FROM.GetName]에서의 납치"
  AOJ_KIDNAPPING_A:0 "인근 주에서 납치가 진행중임"
+
+ AOJ_exploitation_of_workers:0 "[FROM.GetName]에서의 노동력 착취"
+ AOJ_EXPLOITATION_OF_WORKERS_A:0 "인근 주에서 노동력 착취가 진행중임"
+ AOJ_contact_NJN_people_committee:0 "나진인민위원회와의 접촉"

@@ -1,0 +1,10 @@
+chungju_expansion = {
+    allowed = {
+        original_tag = CHU
+    }
+    visible = {
+        ROOT = {
+            has_country_flag = VICTOR_OF_CHJ_CIVILWAR
+        }
+    }
+}

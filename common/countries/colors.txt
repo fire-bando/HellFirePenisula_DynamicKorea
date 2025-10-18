@@ -19,6 +19,10 @@ CK2 = {
 	color = rgb { 175 13 0 }
 	color_ui = rgb { 175 13 0 }
 }
+ELG = {
+	color = rgb { 29 32 136 }
+	color_ui = rgb { 29 32 136 }
+}
 IRK = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }

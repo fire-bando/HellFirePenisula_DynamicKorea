@@ -24,14 +24,6 @@ on_actions = {
 					}
 				}
 			}
-			random_state = {
-				IF = {
-					limit = {
-						is_owned_by = RUS
-					}
-				}
-				RUSSIA_REVOLUTION = yes
-			}
 			every_country = {
 				limit = {
 					NOT = {

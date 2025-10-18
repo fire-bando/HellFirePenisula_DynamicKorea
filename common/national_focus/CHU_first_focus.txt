@@ -16,7 +16,11 @@ focus_tree = {
 		y = 0
 		cost = 2
 		completion_reward = {
-		
+			set_party_name = {
+				ideology = democratic
+				name = CHU_democratic_party_b
+				long_name = CHU_democratic_party_b
+			}
 		}
 	}
 	focus = {

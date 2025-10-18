@@ -692,7 +692,6 @@ focus_tree = {
 	        }
 	    }
 	}
-
 	focus = {
 		id = NORTH_politics #정치중점
 		icon = GFX_goal_generic_political_pressure
@@ -710,11 +709,27 @@ focus_tree = {
 	}
 
 	focus = {
+		id = NORTH_aus_ruinen #정치중점
+		icon = GFX_goal_generic_political_pressure
+		x = 50
+		y = 3
+		cost = 5
+
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
 		id = NORTH_fucking_usa
 		icon = GFX_focus_generic_soviet_politics
-		relative_position_id = NORTH_politics
-		prerequisite = { focus = NORTH_politics }
-		mutually_exclusive = { focus = NORTH_upa }
+		relative_position_id = NORTH_aus_ruinen
+		prerequisite = { focus = NORTH_aus_ruinen }
+		mutually_exclusive = { focus = NORTH_new_challenge }
 		available = {
 			OR = {
 				has_government = socialism
@@ -739,7 +754,7 @@ focus_tree = {
 		icon = GFX_focus_generic_soviet_politics
 		relative_position_id = NORTH_fucking_usa
 		prerequisite = { focus = NORTH_fucking_usa }
-		mutually_exclusive = { focus = NORTH_anti_juche_idea }
+		mutually_exclusive = { focus = NORTH_exodus_from_juche }
 		x = -8
 		y = 1
 		cost = 5
@@ -1037,7 +1052,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NORTH_anti_juche_idea
+		id = NORTH_exodus_from_juche
 		icon = GFX_goal_generic_war_with_comintern
 		relative_position_id = NORTH_fucking_usa
 		prerequisite = { focus = NORTH_fucking_usa }
@@ -1056,64 +1071,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NORTH_open_door_policy
-		icon = GFX_goal_generic_positive_trade_relations
-		relative_position_id = NORTH_anti_juche_idea
-		prerequisite = { focus = NORTH_anti_juche_idea }
-		x = -2
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_denuclearization
-		icon = GFX_goal_generic_special_forces
-		relative_position_id = NORTH_anti_juche_idea
-		prerequisite = { focus = NORTH_anti_juche_idea }
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_economic_reform
-		icon = GFX_goal_generic_consumer_goods
-		relative_position_id = NORTH_anti_juche_idea
-		prerequisite = { focus = NORTH_anti_juche_idea }
-		x = 2
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-	    id = NORTH_upa
+	    id = NORTH_new_challenge
 	    icon = GFX_goal_generic_demand_territory
-	    relative_position_id = NORTH_politics
-	    prerequisite = { focus = NORTH_politics }
+	    relative_position_id = NORTH_aus_ruinen
+	    prerequisite = { focus = NORTH_aus_ruinen }
 	    mutually_exclusive = { focus = NORTH_fucking_usa }
 	    available = {
 	        NOT = {
@@ -1123,7 +1084,7 @@ focus_tree = {
 	            }
 	        }
 	    }
-	    x = 11
+	    x = 18
 	    y = 1
 	    cost = 5
 
@@ -1139,8 +1100,8 @@ focus_tree = {
 	focus = {
 	    id = NORTH_le_republique
 	    icon = GFX_goal_generic_military_sphere
-	    relative_position_id = NORTH_upa
-	    prerequisite = { focus = NORTH_upa }
+	    relative_position_id = NORTH_new_challenge
+	    prerequisite = { focus = NORTH_new_challenge }
 		mutually_exclusive = { focus = NORTH_ein_volk }
 	    x = -6
 	    y = 1
@@ -1229,8 +1190,8 @@ focus_tree = {
 	    id = NORTH_ein_volk
 	    icon = GFX_goal_generic_military_sphere
 		mutually_exclusive = { focus = NORTH_le_republique }
-	    relative_position_id = NORTH_upa
-	    prerequisite = { focus = NORTH_upa }
+	    relative_position_id = NORTH_new_challenge
+	    prerequisite = { focus = NORTH_new_challenge }
 	    x = 6
 	    y = 1
 	    cost = 5
@@ -1633,8 +1594,8 @@ focus_tree = {
 	focus = {
 	    id = NORTH_economic_recovery
 	    icon = GFX_goal_generic_consumer_goods
-	    relative_position_id = NORTH_upa
-	    prerequisite = { focus = NORTH_upa }
+	    relative_position_id = NORTH_new_challenge
+	    prerequisite = { focus = NORTH_le_republique focus = NORTH_ein_volk }
 	    x = 0
 	    y = 2
 	    cost = 5
@@ -1756,131 +1717,22 @@ focus_tree = {
 			
 	    }
 	}
-
-
 	focus = {
-		id = NORTH_foreign_investment
-		icon = GFX_goal_generic_construction2
-		relative_position_id = NORTH_open_door_policy
-		prerequisite = { focus = NORTH_open_door_policy }
-		x = 0
+		id = NORTH_MARXISM_IS_OUR_WAY
+		icon = GFX_focus_AUS_austromarxism
+		relative_position_id = NORTH_exodus_from_juche
+		x = -2
 		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_INDUSTRY }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
+		prerequisite = { focus = NORTH_exodus_from_juche }
+		mutually_exclusive = { focus = NORTH_MAOISM }
 	}
-
 	focus = {
-		id = NORTH_diplomatic_outreach
-		icon = GFX_goal_generic_major_alliance
-		relative_position_id = NORTH_foreign_investment
-		prerequisite = { focus = NORTH_foreign_investment }
-		x = 0
+		id = NORTH_MAOISM
+		icon = GFX_focus_prc_maoism
+		relative_position_id = NORTH_exodus_from_juche
+		prerequisite = { focus = NORTH_exodus_from_juche }
+		mutually_exclusive = { focus = NORTH_MARXISM_IS_OUR_WAY }
+		x = 2
 		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_inter_korean_talks
-		icon = GFX_goal_generic_dangerous_deal
-		relative_position_id = NORTH_denuclearization
-		prerequisite = { focus = NORTH_denuclearization }
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_remove_landmines
-		icon = GFX_goal_generic_military_deal
-		relative_position_id = NORTH_inter_korean_talks
-		prerequisite = { focus = NORTH_inter_korean_talks }
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_special_economic_zones
-		icon = GFX_goal_generic_production
-		relative_position_id = NORTH_economic_reform
-		prerequisite = { focus = NORTH_economic_reform }
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_INDUSTRY }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_joint_ventures
-		icon = GFX_goal_generic_improve_relations
-		relative_position_id = NORTH_special_economic_zones
-		prerequisite = { focus = NORTH_special_economic_zones }
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_INDUSTRY }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = NORTH_rebuild_industries
-		icon = GFX_focus_generic_industry_2
-		relative_position_id = NORTH_joint_ventures
-		prerequisite = { focus = NORTH_joint_ventures }
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_INDUSTRY }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
 	}
 }

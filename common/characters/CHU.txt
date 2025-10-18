@@ -33,7 +33,6 @@ characters={
 			ideology= liberalism
 			#expire="1965.1.1.1"
 			desc = "CHU_cho_gil_hyeong_desc"
-			id=-1
 		}
 		corps_commander={
 			traits={  }
