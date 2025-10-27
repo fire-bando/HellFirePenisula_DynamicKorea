@@ -6,5 +6,11 @@ ideas = {
 				production_speed_buildings_factor = -0.25
 			}
 		}
+		YG1_special_administration_zone = {
+			picture = mmd
+			modifier = {
+				production_speed_buildings_factor = -0.25
+			}
+		}
 	}
 }

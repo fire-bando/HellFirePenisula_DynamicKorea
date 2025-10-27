@@ -175,46 +175,6 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 8 #익산
-		}
-		location = 14318
-		division_template = "Defence Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 9 #군산
-		}
-		location = 5248
-		division_template = "Defence Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 10 #군산
-		}
-		location = 14337
-		division_template = "Defence Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 11 #군산
-		}
-		location = 7967
-		division_template = "Defence Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
 			name_order = 1 #상륙대기
 		}
 		location = 14980

@@ -84,7 +84,7 @@ JDH = {	color = rgb { 189 124 102 }	color_ui = rgb { 189 124 102 } }
 JNR = {	color = rgb { 174 13 43 }	color_ui = rgb { 174 13 43 } }
 NMJ = {	color = rgb { 110 43 23 }	color_ui = rgb { 174 13 43 } }
 GGO = {	color = rgb { 14 113 43 }	color_ui = rgb { 14 113 43 } }
-SMG = {	color = rgb { 48 21 173 }	color_ui = rgb { 48 21 173 } }
+# SMG = {	color = rgb { 48 21 173 }	color_ui = rgb { 48 21 173 } }
 SIN = {	color = rgb { 13 105 171 }	color_ui = rgb { 13 105 171 } }
 GYE = {	color = rgb { 61 61 61 }	color_ui = rgb { 61 61 61 } }
 NON = {	color = rgb { 62 21 117 }	color_ui = rgb { 62 21 117 } }
@@ -272,3 +272,4 @@ CPA = {	color = rgb { 1 86 167 }	color_ui = rgb { 1 86 167 } }
 DPC = {	color = rgb { 21 36 132 }	color_ui = rgb { 21 36 132  } }
 EDJ = { color = rgb { 214 0 28 }	color_ui = rgb { 214 0 28 } }
 WDJ = { color = rgb { 22 37 132 }	color_ui = rgb { 22 37 132 } }
+SMG = { color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 } }

@@ -37,10 +37,6 @@ if = {
 	}
 }
 
-create_faction = JEOLLA_FACTION
-add_to_faction = SNC
-add_to_faction = SBU
-
 set_convoys = 20
 
 set_politics = {

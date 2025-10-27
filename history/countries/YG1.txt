@@ -11,6 +11,8 @@ set_technology = {
 
 set_convoys = 20
 
+add_ideas = YG1_legacy_of_EXPO_1
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2020.4.15"

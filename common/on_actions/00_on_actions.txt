@@ -68,7 +68,7 @@ on_actions = {
 			}
 			341 = {
 				add_dynamic_modifier = {
-					modifier = ilsan_grad_state_modifier #일산그라드 모디파이어!!!!!
+					modifier = ilsan_grad_state_modifier 
 				}
 			}
 			every_state = {
@@ -79,7 +79,7 @@ on_actions = {
 					modifier = dmz_state_modifier
 				}
 			}
-			BNH = { #신성감자제국 번국 제후국 등등 연출용
+			BNH = { #신성감자제국 번국 제후국 등등 연출용 <-폐지할것
 				transfer_state = 263
 				add_state_core = 263
 			}
@@ -595,6 +595,9 @@ on_actions = {
 					}
 				}
 				every_country = { set_cosmetic_tag = NOPE }
+			}
+			YG1 = {
+				
 			}
 		}
 	}
