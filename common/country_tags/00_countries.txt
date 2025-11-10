@@ -189,11 +189,11 @@ EOT = "countries/South Korea.txt" # 대구 진보
 HDG = "countries/South Korea.txt" # 독립 하동 
 MNC = "countries/South Korea.txt" # 이지엠앤씨
 GCH = "countries/South Korea.txt" # 충주 강원도인
-TCN = "countries/South Korea.txt" # 그레이스 트레센
 GLO = "countries/South Korea.txt" # 건국대학교 글로컬캠퍼스
 KNU = "countries/South Korea.txt" # 한국교통대학교
 CIW = "countries/South Korea.txt" # 제19전투비행단
 PGC = "countries/South Korea.txt" # 진보당 충북도당
+PPC = "countries/South Korea.txt" # 국민의힘 충주시 지역위원회
 CPA = "countries/South Korea.txt" # 중앙경찰학교
 DPC = "countries/South Korea.txt" # 더불어민주당 충주지역위원회
 

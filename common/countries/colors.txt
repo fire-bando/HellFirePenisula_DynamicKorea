@@ -262,7 +262,6 @@ KCG = {
 	color_ui = rgb { 234 130 156 }
 }
 MNC = { color = rgb { 235 95 66 } 	color_ui = rgb { 235 95 66 } }
-TCN = {	color = rgb { 73 145 79 }	color_ui = rgb { 73 145 79 } }
 GCH = {	color = rgb { 0 153 66 }	color_ui = rgb { 0 153 66 } }
 GLO = {	color = rgb { 69 179 53 }	color_ui = rgb { 69 179 53 } }
 KNU = {	color = rgb { 107 29 33 }	color_ui = rgb { 107 29 33 } }
@@ -270,6 +269,7 @@ CIW = {	color = rgb { 42 42 84 }	color_ui = rgb { 42 42 84 } }
 PGC = {	color = rgb { 214 0 28 }	color_ui = rgb { 214 0 28 } }
 CPA = {	color = rgb { 1 86 167 }	color_ui = rgb { 1 86 167 } }
 DPC = {	color = rgb { 21 36 132 }	color_ui = rgb { 21 36 132  } }
+PPC = {	color = rgb { 230 30 43 }	color_ui = rgb { 230 30 43 } }
 EDJ = { color = rgb { 214 0 28 }	color_ui = rgb { 214 0 28 } }
 WDJ = { color = rgb { 22 37 132 }	color_ui = rgb { 22 37 132 } }
 SMG = { color = rgb { 0 0 0 }	color_ui = rgb { 0 0 0 } }

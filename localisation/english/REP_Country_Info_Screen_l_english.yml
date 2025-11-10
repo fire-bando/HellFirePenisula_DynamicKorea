@@ -7,6 +7,7 @@
  TNO_COUNTRY_INFO_BUTTON_TT: "[TNO_COUNTRY_INFO_BUTTON_TT_LOC]"
  TNO_COUNTRY_INFO_BUTTON_TT_ALL: "§Y운명이 기다리고 있습니다.§!"
  TNO_COUNTRY_INFO_BUTTON_TT_YNN: "§Y윤윤윤.§!\n\n§R윤윤윤§!"
+ TNO_COUNTRY_INFO_BUTTON_TT_CHU: "§Y충주가 좋아§!"
  
 ### COUNTRY OPENING ###
  CountryInfo_tab_name_country: "국가 개요"
