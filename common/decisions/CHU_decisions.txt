@@ -1,0 +1,8 @@
+CHU_civilwar = {
+    PPC_persuade_mayor = {
+        visible = {
+            original_tag = PPC
+        }
+        cost = 50
+    }
+}

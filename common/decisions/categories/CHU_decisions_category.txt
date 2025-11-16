@@ -1,0 +1,11 @@
+CHU_civilwar = {
+    priority = 10
+    allowed = {
+        OR = {
+            original_tag = PPC
+            original_tag = CHU
+            original_tag = PGC
+            original_tag = GCH
+        }
+    }
+}

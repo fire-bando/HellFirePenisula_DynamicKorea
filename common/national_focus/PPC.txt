@@ -1,0 +1,25 @@
+focus_tree = {
+	id = PPC_focus
+	continuous_focus_position = { x = 0 y = 1560 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PPC
+		}
+	}
+	default = no
+	focus = {
+		id = PPC_struggle_for_freedom
+		icon = GFX_goal_generic_small_arms
+		x = 8
+		y = 0
+		cost = 2
+		completion_reward = {
+			hidden_effect = {
+
+			}
+			
+		}
+	}
+}

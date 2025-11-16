@@ -56,8 +56,6 @@
  ROH_for_human_living_sekai:0 "사람 사는 세상으로"
  ROH_dasi_minshushugi:0 "다시 민주주의"
 
-
- ## SZC ##
  SZC_save_the_china:0 "保衛中國"
  SZC_attack_the_PRC:0 "攻擊大陸"
  SZC_attack_the_USA:0 "攻擊美帝國主義"
@@ -68,6 +66,8 @@
  SZC_geoze_fuck_you: "거제 시민 강제이주"
  SZC_fucking_korean: "좆같은 가오리방쯔 새끼"
  SZC_attack_busan: "부산은 정당한 중화의 강역"
+
+ PPC_struggle_for_freedom:0 "자유민주주의를 위한 투쟁"
 
  ## SBU ##
  SBU_in_the_ruins: "폐허 속에서"
