@@ -1,0 +1,4 @@
+﻿focus = {
+    current = "CHU_get_out_congrass"
+    Progress = 2
+}   

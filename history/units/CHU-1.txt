@@ -1,0 +1,4 @@
+﻿focus = {
+    current = "CHU_democracy_protection"
+    Progress = 0
+}   
