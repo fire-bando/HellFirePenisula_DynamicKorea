@@ -1,0 +1,721 @@
+﻿l_korean:
+ RUS:0 "러시아 연방"
+ RUS_DEF:0 "러시아 연방"
+ RUS_ADJ:0 "러시아"
+ CHN:0 "중화인민공화국"
+ CHN_DEF:0 "중화인민공화국"
+ CHN_ADJ:0 "중국"
+ CHK:0 "연변조선족자치주"
+ CHK_ADJ:0 "연변 조선족"
+ CHK_DEF:0 "연변 조선족"
+ CK2:0 "장백조선족자치현"
+ CK2_ADJ:0 "장백 조선족"
+ CK2_DEF:0 "장백 조선족"
+ CHM:0 "만족 자치현"
+ CHM_ADJ:0 "만족"
+ CHM_DEF:0 "만족"
+ ELG:0 "전능하신하나님"
+ ELG_ADJ:0 "동방번개"
+ ELG_DEF:0 "동방번개"
+ JPN:0 ""
+ JPN_DEF:0 "일본"
+ JPN_ADJ:0 "일본"
+ WPK:0 "조선민주주의인민공화국"
+ WPK_DEF:0 "조선민주주의인민공화국"
+ WPK_ADJ:0 "북한"
+ DMP:0 "더불어민주당"
+ DMP_DEF:0 "더불어민주당"
+ DMP_ADJ:0 "더불어민주당"
+ PPP:0 "국민의힘"
+ PPP_DEF:0 "국민의힘"
+ PPP_ADJ:0 "국민의힘"
+ ROK:0 "대한민국"
+ ROK_DEF:0 "대한민국"
+ ROK_ADJ:0 "남한"
+ YG1_democratic:0 "홍통특별행정구"
+ YG1_communism:0 "홍통특별행정구"
+ YG1_fascism:0 "홍통특별행정구"
+ YG1_neutrality:0 "홍혈 왕국"
+ YG1_democratic_ADJ:0 "홍통특별행정구"
+ YG1_democratic_DEF:0 "홍통특별행정구"
+ YG1_communism_ADJ:0 "홍통특별행정구"
+ YG1_communism_DEF:0 "홍통특별행정구"
+ YG1_fascism_ADJ:0 "홍통특별행정구"
+ YG1_fascism_DEF:0 "홍통특별행정구"
+ YG1_neutrality_ADJ:0 "홍혈 왕국"
+ YG1_neutrality_DEF:0 "홍혈 왕국"
+ JNR_democratic:0 "전라민국"
+ JNR_democratic_ADJ:0 "전라민국"
+ JNR_democratic_DEF:0 "전라민국"
+ JNR_communism:0 "전라인민공화국"
+ JNR_communism_ADJ:0 "전라인민공화국"
+ JNR_communism_DEF:0 "전라인민공화국"
+ JBR:0 "전주정무위원회"
+ JBR_ADJ:0 "전주정무위원회"
+ JBR_DEF:0 "전주정무위원회"
+
+ CHU_democratic:0 "충주 공화국"
+ CHU_neutrality:0 "대한민국 충주정부"
+ CHU_democratic_ADJ:0 "충주"
+ CHU_neutrality_ADJ:0 "충주"
+ CHU_democratic_DEF:0 "충주 공화국"
+ CHU_neutrality_DEF:0 "대한민국 충주정부"
+ CHU_subject:0 "$OVERLORDADJ$령 $CHU$"
+ CHU_subject_DEF:0 "$OVERLORDADJ$령 $CHU$"
+
+ MNC:0 "이지엠앤씨"
+ MNC_ADJ:0 "이지엠앤씨"
+ MNC_DEF:0 "이지엠앤씨"
+
+ GLO_democratic:0 "건국대학교 글로컬캠퍼스"
+ GLO_democratic_ADJ:0 "글로컬캠퍼스"
+ GLO_democratic_DEF:0 "건국대학교 글로컬캠퍼스"
+
+ KNU:0 "국립한국교통대학교 충주캠퍼스"
+ KNU_ADJ:0 "교통대"
+ KNU_DEF:0 "국립한국교통대학교 충주캠퍼스"
+
+ PPC:0 "국민의힘 충주시 지역위원회"
+ PPC_ADJ:0 "국민의힘 충주시 지역위원회"
+ PPC_DEF:0 "국민의힘 충주시 지역위원회"
+
+ GCH:0 "강원도인 형제단 충주지부"
+ GCH_ADJ:0 "강원도인 형제단 충주지부"
+ GCH_DEF:0 "강원도인 형제단 충주지부"
+
+ CIW:0 "제19전투비행단"
+ CIW_ADJ:0 "제19전투비행단"
+ CIW_DEF:0 "제19전투비행단"
+
+ PGC:0 "충주 시민 연대"
+ PGC_ADJ:0 "충주"
+ PGC_DEF:0 "충주 시민 연대"
+
+ CPA:0 "중앙경찰학교"
+ CPA_ADJ:0 "중앙경찰학교"
+ CPA_DEF:0 "중앙경찰학교"
+
+ DPC:0 "충주 제2공화국"
+ DPC_ADJ:0 "충주"
+ DPC_DEF:0 "충주 제2공화국"
+ 
+ SAG:0 "사가현" 
+ SAG_ADJ:0 "사가"
+ SAG_DEF:0 "사가현"
+
+ KGR:0 "남해 국가판무관부"
+ KGR_DEF:0 "남해 국가판무관부"
+ KGR_ADJ:0 "남해 국가판무관부"
+  
+ JNR:0 "전라"
+ JNR_DEF:0 "전라"
+ JNR_ADJ:0 "전라"
+ 
+ CWD:0 "윤석열 친위대"
+ CWD_DEF:0 "윤석열 친위대"
+ CWD_ADJ:0 "윤석열 친위대"
+
+ HMC:0 "해병성채"
+ HMC_DEF:0 "포항 해병성채"
+ HMC_ADJ:0 "포항해병"
+ 
+ AIR:0 "공군 사령부"
+ AIR_DEF:0 "진주 공군 사령부"
+ AIR_ADJ:0 "공군"
+
+ NIR:0 "항공 및 반항공군 지휘부"
+ NIR_ADJ:0 "조선인민군 공군"
+ NIR_DEF:0 "평양-중화 공군 지휘부"
+
+ NIR_commnuism_juche_subtype:0 "항공 및 반항공군 지휘부"
+ NIR_commnuism_juche_subtype_ADJ:0 "조선인민군 공군"
+ NIR_commnuism_juche_subtype_DEF:0 "평양-중화 공군 지휘부"
+
+ USA:0 "미합중국"
+ USA_ADJ:0 "미합중국"
+ USA_DEF:0 "미합중국"
+ 
+ IRK:0 "Tuile Mhóir Deirge"
+ IRK_DEF:0 "아일랜드 감자 연방"
+ IRK_ADJ:0 "아일랜드 감자 연방"
+ 
+ KRU:0 "고려대학교"
+ KRU_DEF:0 "고려대학교 초전도체 군단"
+ KRU_ADJ:0 "고려대"
+ 
+ CAT:0 "한국고양이보호협회"
+ CAT_DEF:0 "한국고양이보호협회"
+ CAT_ADJ:0 "캣맘"
+ 
+ YNN:0 "검찰공화국"
+ YNN_DEF:0 "용산 윤버지 대통령실"
+ YNN_ADJ:0 "대통령실"
+ 
+ GWA:0 "신성 광주정신 숭고국"
+ GWA_DEF:0 "신성 광주정신 숭고국"
+ GWA_ADJ:0 "광주"
+
+ GYE:0 "계룡대 사이버 사령부"
+ GYE_DEF:0 "계룡대 사이버맨 사령부"
+ GYE_ADJ:0 "계룡대"
+
+ NON:0 "논산군트 징집단국"
+ NON_DEF:0 "논산군트 징집단국"
+ NON_ADJ:0 "논산"
+
+ SIN:0 "신안 제국"
+ SIN_DEF:0 "신안 제국"
+ SIN_ADJ:0 "신안"
+
+ PWS:0 "킁킁 생불령"
+ PWS_ADJ:0 "킁킁"
+ PWS_DEF:0 "킁킁"
+ 
+ SEO:0 "씨발시티 시청"
+ SEO_DEF:0 "씨발시티 시청"
+ SEO_ADJ:0 "씨발시티"
+ 
+ CCS:0 "동두천 바이킹"
+ CCS_DEF:0 "동두천 바이킹"
+ CCS_ADJ:0 "동두천 바이킹"
+ 
+ HNU:0 "한우국"
+ HNU_DEF:0 "한우국"
+ HNU_ADJ:0 "한우국"
+ 
+ NLU:0 "경기동부연합"
+ NLU_DEF:0 "경기동부연합"
+ NLU_ADJ:0 "경기동부연합"
+ 
+ JYA_0:0 "공동평화지구"
+ JYA_DEF:0 "공동평화지구"
+ JYA_ADJ:0 "공동평화지구"
+ 
+ LAB:0 "무장단체 RO"
+ LAB_DEF:0 "통합진보당 무장단체 RO"
+ LAB_ADJ:0 "RO"
+ 
+ AHN:0 "안철수 연구소"
+ AHN_DEF:0 "안철수 연구소"
+ AHN_ADJ:0 "안철수 연구소"
+ 
+ SMS:0 "삼성 그룹"
+ SMS_DEF:0 "삼성 그룹"
+ SMS_ADJ:0 "삼성 그룹"
+ 
+ DCE:0 "대한두체협회"
+ DCE_DEF:0 "대한두체협회"
+ DCE_ADJ:0 "대한두체협회"
+ 
+ SSD:0 "성심당"
+ SSD_DEF:0 "대전 성심당 종교재판위원회"
+ SSD_ADJ:0 "성심당"
+ 
+ BSU:0 "브라더후드 오브 스틸"
+ BSU_DEF:0 "브라더후드 오브 스틸 울산지부"
+ BSU_ADJ:0 "브라더후드 오브 스틸"
+ 
+ SAD:0 "전국장애인차별철폐연대"
+ SAD_DEF:0 "전국장애인차별철폐연대"
+ SAD_ADJ:0 "전장연"
+ 
+ ILB:0 "일베시티"
+ ILB_DEF:0 "일베시티"
+ ILB_ADJ:0 "일베시티"
+ 
+ JNH:0 "호남향우회"
+ JNH_DEF:0 "호남향우회"
+ JNH_ADJ:0 "호남향우회"
+ 
+ ITW:0 "이태원 칼리프국"
+ ITW_DEF:0 "이태원 칼리프국"
+ ITW_ADJ:0 "이태원 칼리프국"
+ 
+ VII:0 "윤의철의 7군단"
+ VII_DEF:0 "윤의철의 7군단"
+ VII_ADJ:0 "7군단"
+ 
+ LEG:0 "레고랜드"
+ LEG_DEF:0 "춘천 레고랜드"
+ LEG_ADJ:0 "레고랜드"
+ 
+ MUT:0 "슈퍼뮤턴트"
+ MUT_DEF:0 "슈퍼뮤턴트"
+ MUT_ADJ:0 "슈퍼뮤턴트"
+ 
+ DAS:0 "다스 PMC 그룹"
+ DAS_DEF:0 "주식회사 다스"
+ DAS_ADJ:0 "다스"
+ 
+ TAE:0 "통궈랜드"
+ TAE_DEF:0 "통궈랜드 머구"
+ TAE_ADJ:0 "통궈랜드"
+ 
+ ROH:0 "봉하마을"
+ ROH_DEF:0 "봉하마을"
+ ROH_ADJ:0 "봉하마을"
+ 
+ MJI:0 "평산책방"
+ MJI_DEF:0 "문크 예거의 친위여단 평산책방"
+ MJI_ADJ:0 "평산책방"
+ 
+ CAS:0 "강원랜드"
+ CAS_DEF:0 "강원랜드 스트립"
+ CAS_ADJ:0 "강원랜드"
+ 
+ PJH:0 "더이상(고)박정희각하를모욕하지말자"
+ PJH_DEF:0 "구미시"
+ PJH_ADJ:0 "구미시"
+ 
+ CRM:0 "청송교도소 지존파"
+ CRM_DEF:0 "청송교도소 지존파"
+ CRM_ADJ:0 "청송교도소"
+ 
+ SCH:0 "삼청교육대"
+ SCH_DEF:0 "삼청교육대"
+ SCH_ADJ:0 "삼청교육대"
+ 
+ GNG:0 "코바나컨텐츠"
+ GNG_DEF:0 "코바나컨텐츠"
+ GNG_ADJ:0 "코바나컨텐츠"
+ 
+ YGD:0 "량강도농민련합"
+ YGD_DEF:0 "량강도농민련합"
+ YGD_ADJ:0 "량강도농민련합"
+ 
+ ANS:0 "안산드레아스 카르텔"
+ ANS_DEF:0 "안산드레아스"
+ ANS_ADJ:0 "안산드레아스"
+ 
+ DON:0 "동대문상인연합회"
+ DON_DEF:0 "동대문상인연합회"
+ DON_ADJ:0 "동대문상인연합회"
+ 
+ SCJ:0 "신천지"
+ SCJ_DEF:0 "신천지 예수교 증거장막성전"
+ SCJ_ADJ:0 "신천지"
+ 
+ UNF:0 "통일교"
+ UNF_DEF:0 "세계평화통일가정연합"
+ UNF_ADJ:0 "통일교"
+ 
+ ILS:0 "일산그라드"
+ ILS_DEF:0 "일산그라드"
+ ILS_ADJ:0 "일산그라드"
+ 
+ ICH:0 "마계"
+ ICH_DEF:0 "마계"
+ ICH_ADJ:0 "마계"
+
+ YDG:0 "영아일랜드"
+ YDG_ADJ:0 "마계 영도"
+ YDG_DEF:0 "마계 영도"
+ 
+ DNT:0 "퐁퐁시티"
+ DNT_DEF:0 "퐁퐁시티"
+ DNT_ADJ:0 "퐁퐁시티"
+ 
+ NKA:0 "조국통일전선"
+ NKA_DEF:0 "조국통일전선"
+ NKA_ADJ:0 "조국통일전선"
+ 
+ SKA:0 "대한군정청"
+ SKA_DEF:0 "대한군정청"
+ SKA_ADJ:0 "대한군정청"
+ 
+ JMS:0 "신성복음연합"
+ JMS_DEF:0 "신성복음연합"
+ JMS_ADJ:0 "신성복음연합"
+ 
+ LJM:0 "국제마피아파"
+ LJM_DEF:0 "국제마피아파"
+ LJM_ADJ:0 "국제마피아파"
+ 
+ OIL:0 "태안에미리트 왕국"
+ OIL_DEF:0 "태안에미리트 사우드 하심 왕국"
+ OIL_ADJ:0 "태안"
+ 
+ LEA:0 "수도군단"
+ LEA_DEF:0 "수도군단"
+ LEA_ADJ:0 "수도군단"
+ 
+ LEI:0 "1군단"
+ LEI_DEF:0 "1군단"
+ LEI_ADJ:0 "1군단"
+ 
+ III:0 "3군단"
+ III_DEF:0 "3군단"
+ III_ADJ:0 "3군단"
+ 
+ LEV:0 "5군단"
+ LEV_DEF:0 "5군단"
+ LEV_ADJ:0 "5군단"
+ 
+ LVI:0 "6군단"
+ LVI_DEF:0 "6군단"
+ LVI_ADJ:0 "6군단"
+ 
+ CLW:0 "태봉국"
+ CLW_DEF:0 "태봉국"
+ CLW_ADJ:0 "태봉국"
+ 
+ HAL:0 "할카스월드"
+ HAL_DEF:0 "할카스월드"
+ HAL_ADJ:0 "할카스월드"
+ 
+ YNG:0 "에버랜드"
+ YNG_DEF:0 "에버랜드 방위 사령부"
+ YNG_ADJ:0 "에버랜드"
+ 
+ KAE:0 "개성공단"
+ KAE_DEF:0 "개성공단"
+ KAE_ADJ:0 "개성공단"
+ 
+ INA:0 "창공의 형제단"
+ INA_DEF:0 "창공의 형제단"
+ INA_ADJ:0 "창공의 형제단"
+ 
+ BUD:0 "조계종"
+ BUD_DEF:0 "대한불교조계종"
+ BUD_ADJ:0 "조계종"
+ 
+ ASS:0 "국K-1"
+ ASS_DEF:0 "국K-1 경기장"
+ ASS_ADJ:0 "국K-1
+ 
+ YLS: "겨울왕국"
+ YLS_DEF: "겨울왕국"
+ YLS_ADJ: "겨울왕국"
+ 
+ KJI: "메카-김정일 연구소"
+ KJI_DEF: "메카-김정일 연구소"
+ KJI_ADJ: "메카-김정일 연구소"
+ 
+ SPO:0 "대검찰청"
+ SPO_DEF:0 "대검찰청"
+ SPO_ADJ:0 "대검찰청"
+ 
+ LOT:0 "롯데 그룹"
+ LOT_DEF:0 "롯데 그룹"
+ LOT_ADJ:0 "롯데 그룹"
+ 
+ BRO:0 "형제복지원"
+ BRO_DEF:0 "형제복지원"
+ BRO_ADJ:0 "형제복지원"
+ 
+ NUC:0 "오대산 핵사일로"
+ NUC_DEF:0 "오대산 핵사일로"
+ NUC_ADJ:0 "오대산 핵사일로"
+ 
+ NYO:0 "녕변 핵사일로"
+ NYO_DEF:0 "녕변 핵사일로"
+ NYO_ADJ:0 "녕변 핵사일로"
+ 
+ GMP:0 "김포 해병대"
+ GMP_DEF:0 "김포 해병대사령부"
+ GMP_ADJ:0 "김포 해병"
+ 
+ HMR:0 "해병대전우회"
+ HMR_DEF:0 "해병대전우회"
+ HMR_ADJ:0 "해병대전우회"
+ 
+ OKC:0 "옥천 허브"
+ OKC_DEF:0 "옥천 허브"
+ OKC_ADJ:0 "옥천 허브"
+ 
+ BUS:0 "스까국"
+ BUS_DEF:0 "스까국"
+ BUS_ADJ:0 "스까국
+ 
+ HNW:0 "하나원"
+ HNW_DEF:0 "하나원"
+ HNW_ADJ:0 "하나원"
+ 
+ TTT:0 "대한민국어버이연합"
+ TTT_DEF:0 "대한민국어버이연합"
+ TTT_ADJ:0 "대한민국어버이연합"
+ 
+ JEJ:0 "제주 해병대"
+ JEJ_DEF:0 "제주 해병대"
+ JEJ_ADJ:0 "제주 해병대"
+
+ YAN:0 "양양 나이트 클럽"
+ YAN_ADJ:0 "양양 나이트 클럽"
+ YAN_DEF:0 "양양 나이트 클럽"
+  
+ GNW:0 "군위"
+ GNW_ADJ:0 "군위"
+ GNW_DEF:0 "군위"
+  
+ ZZZ:0 ""
+ ZZZ_DEF:0 "무정부"
+ ZZZ_ADJ:0 "무정부"
+
+ GGR:0 "구리 고구려 계승국"
+ GGR_ADJ:0 "고구려"
+ GGR_DEF:0 "고구려"
+
+ PJH_parkism:0 "더이상(고)박정희대통령각하를매도하지말자"
+ PJH_parkism_ADJ:0 "더이상(고)박정희대통령각하를매도하지말자"
+ PJH_parkism_DEF:0 "더이상(고)박정희대통령각하를매도하지말자"
+ 
+ GAN:0 "강원도인 형제단"
+ GAN_ADJ:0 "강원도인 형제단"
+ GAN_DEF:0 "강원도인 형제단"
+ 
+ KRI:0 "미합중국 원주민 보호구역"
+ KRI_ADJ:0 "원클라호마"
+ KRI_DEF:0 "원클라호마"
+ 
+ SBU:0 "서부산인민혁명위원회"
+ SBU_ADJ:0 "서부산인민혁명위원회"
+ SBU_DEF:0 "서부산인민혁명위원회"
+
+ KDH:0 "우미관"
+ KDH_ADJ:0 "우미관"
+ KDH_DEF:0 "우미관"
+
+ UKK:0 "대영제국 왕실령 포트 해밀턴"
+ UKK_ADJ:0 "대영제국 왕실령 포트 해밀턴"
+ UKK_DEF:0 "대영제국 왕실령 포트 해밀턴"
+
+ RPL:0 "네오 창원"
+ RPL_ADJ:0 "네오 창원"
+ RPL_DEF:0 "네오 창원"
+
+ SNC:0 "순상그라드"
+ SNC_DEF:0 "순상그라드 정무위원회"
+ SNC_ADJ:0 "순상그라드 정무위원회"
+
+ RGG:0 "류경기경기국"
+ RGG_ADJ:0 "류경기경기국"
+ RGG_DEF:0 "류경기경기국"
+
+ IBE:0 "베충이"
+ IBE_ADJ:0 "베충이"
+ IBE_DEF:0 "베충이"
+
+ BUY:0 "부여 계승국"
+ BUY_ADJ:0 "부여 계승국"
+ BUY_DEF:0 "부여 계승국"
+ 
+ TNK:0 "탱크를 들고 일어난 하나회"
+ TNK_DEF:0 "탱크를 들고 일어난 하나회"
+ TNK_ADJ:0 "탱크를 들고 일어난 하나회"
+
+ YED:0 "호서혁명위원회"
+ YED_DEF:0 "호서혁명위원회"
+ YED_ADJ:0 "호서혁명위원회"
+
+ GIR:0 "걸스캔두애니띵"
+ GIR_ADJ:0 "워마드"
+ GIR_DEF:0 "워마드"
+ 
+ SZC:0 "중화인민공화국 쓰촨정부"
+ SZC_ADJ:0 "중화인민공화국 쓰촨정부"
+ SZC_DEF:0 "중화인민공화국 쓰촨정부"
+ 
+ PYO:0 "제일 고귀한 평양 자본주의 귀족 공화국"
+ PYO_ADJ:0 "평양 귀족국"
+ PYO_DEF:0 "평양 귀족국"
+ 
+ US1:0 "미 공군 폭격 연습장"
+ US1_ADJ:0 "미 공군 폭격 연습장"
+ US1_DEF:0 "미 공군 폭격 연습장"
+
+ US2:0 "주한 미8군 한국군지원단"
+ US2_ADJ:0 "주한 미8군 한국군지원단"
+ US2_DEF:0 "주한 미8군 한국군지원단"
+
+ PTT:0 "신성감자제국"
+ PTT_ADJ:0 "신성감자제국"
+ PTT_DEF:0 "신성감자제국"
+ 
+ OKS:0 "한국형 콘 벨트"
+ OKS_ADJ:0 "한국형 콘 벨트"
+ OKS_DEF:0 "한국형 콘 벨트"
+ 
+ GI2:0 "영남 해방구"
+ GI2_ADJ:0 "워마드 영남지부"
+ GI2_DEF:0 "워마드 영남지부"
+ 
+######### 감자 공국 #########
+ PTT_main: "신성감자제국 직할령"
+
+ empire_of_ptt:0 "신성감자제국"
+
+
+ BNH: "봉화국"
+ BNH_ADJ: "봉화국"
+ BNH_DEF: "봉화국"
+
+ ULJ: "울진 변경백"
+ ULJ_ADJ: "울진 변경백"
+ ULJ_DEF: "울진 변경백"
+
+ TBK: "태백국"
+ TBK_ADJ: "태백국"
+ TBK_DEF: "태백국"
+
+ SMC: "삼척국"
+ SMC_ADJ: "삼척국"
+ SMC_DEF: "삼척국"
+
+ ESE: "동해국"
+ ESE_ADJ: "동해국"
+ ESE_DEF: "동해국"
+
+ NMP: "뉴 먼로파크"
+ NMP_ADJ: "뉴 먼로파크"
+ NMP_DEF: "뉴 먼로파크"
+######### 감자 공국 끝 #########
+
+ CIC: "혁신도시 방위대"
+ CIC_ADJ:0 "충북혁신도시"
+ CIC_DEF:0 "충북혁신도시 방위대"
+
+ EOT: "진보당 경북도당 잔당"
+ EOT_ADJ: "진보당 경북도당 잔당"
+ EOT_DEF: "진보당 경북도당 잔당"
+
+ KJI: "메카 김정일 연구소"
+ KJI_ADJ: "메카 김정일 연구소"
+ KJI_DEF: "메카 김정일 연구소"
+
+ AUM: "진리국"
+ AUM_ADJ: "후쿠오카"
+ AUM_subject: "$OVERLORDADJ$령 $AUM$"
+ AUM_subject_DEF: "$OVERLORDADJ$령 $AUM$"
+ AUM_DEF: "진리국"
+
+ KSD: "조선사회민주군"
+ KSD_ADJ: "조선사회민주군"
+ KSD_DEF: "조선사회민주군"
+ HAE: "조선인민군 제4군단"
+ HAE_ADJ: "조선인민군 제4군단"
+ HAE_DEF: "조선인민군 제4군단"
+ PYS: "조선인민군 제2군단"
+ PYS_ADJ: "조선인민군 제2군단"
+ PYS_DEF: "조선인민군 제2군단"
+ GWO: "조선인민군 제1군단"
+ GWO_ADJ: "조선인민군 제1군단"
+ GWO_DEF: "조선인민군 제1군단"
+
+ MIO: "미오야마국"
+ MIO_ADJ: "미오야마"
+ MIO_DEF: "미오야마"
+
+ AOJ: "아오지 수용소"
+ AOJ_ADJ: "아오지 수용소"
+ AOJ_DEF: "아오지 수용소"
+
+ YJN: "육진"
+ YJN_ADJ: "육진"
+ YJN_DEF: "육진"
+
+ NJN: "나진인민위원회"
+ NJN_ADJ: "나진"
+ NJN_DEF: "나진"
+
+ JCR: "재일조선인총연합"
+ JCR_ADJ: "조총련"
+ JCR_DEF: "조총련"
+
+ DRG: "마약왕국"
+ DRG_ADJ: "수리남 한인 마약왕국"
+ DRG_DEF: "수리남 한인 마약왕국"
+
+ CHO: "조선총독부"
+ CHO_ADJ: "조선총독부"
+ CHO_DEF: "조선총독부"
+
+ MSN: "무산강철 공업-무역 유한회사"
+ MSN_ADJ: "무산강철"
+ MSN_DEF: "무산강철"
+
+ NMJ: "무진장 농민봉기"
+ NMJ_ADJ: "무진장코뮌"
+ NMJ_DEF: "무진장코뮌"
+
+ GGO: "꼬맑슈타트"
+ GGO_ADJ: "꼬맑슈타트"
+ GGO_DEF: "꼬맑슈타트"
+
+ SMG: "새만금개발공사"
+ SMG_ADJ: "새만금개발공사"
+ SMG_DEF: "새만금개발공사"
+
+ DAG: "담양군벌"
+ DAG_ADJ: "담양군벌"
+ DAG_DEF: "담양군벌"
+ DAG_democratic: "담양군벌"
+ DAG_communism: "담양군벌"
+ DAG_fascism: "담양군벌"
+ DAG_neutrality: "담양군벌"
+ DAG_democratic_ADJ: "담양군벌"
+ DAG_communism_ADJ: "담양군벌"
+ DAG_fascism_ADJ: "담양군벌"
+ DAG_neutrality_ADJ: "담양군벌"
+ DAG_democratic_DEF: "담양군벌"
+ DAG_communism_DEF: "담양군벌"
+ DAG_fascism_DEF: "담양군벌"
+ DAG_neutrality_DEF: "담양군벌"
+
+ SSR:0 "슨상령"
+ SSR_ADJ:0 "슨상청"
+ SSR_DEF:0 "슨상청"
+
+ JRC:0 "전라인민공화국 1군단"
+ JRC_ADJ:0 "전라인민공화국 1군단"
+ JRC_DEF:0 "전라인민공화국 1군단"
+
+ WNS:0 "완주군벌"
+ WNS_ADJ:0 "완주군벌"
+ WNS_DEF:0 "완주군벌"
+
+ BGB:0 "부안군벌"
+ BGB_ADJ:0 "부안군벌"
+ BGB_DEF:0 "부안군벌"
+
+ NAJ:0 "나주군벌"
+ NAJ_ADJ:0 "나주군벌"
+ NAJ_DEF:0 "나주군벌"
+
+ IMS:0 "임실 상공회의소"
+ IMS_ADJ:0 "임실 상공회의소"
+ IMS_DEF:0 "임실 상공회의소"
+
+ HWA:0 "화순군벌"
+ HWA_ADJ:0 "화순군벌"
+ HWA_DEF:0 "화순군벌"
+ 
+ HPG:0 "함평 적위대"
+ HPG_DEF:0 "함평 적위대"
+ HPG_ADJ:0 "함평"
+ 
+ JSG:0 "장성 민중해방군"
+ JSG_DEF:0 "장성 민중해방군"
+ JSG_ADJ:0 "장성"
+ 
+ GSN:0 "광산 정무위원회"
+ GSN_DEF:0 "광산 정무위원회"
+ GSN_ADJ:0 "광산"
+ 
+ KCG:0 "고창 혁명위원회"  
+ KCG_DEF:0 "고창 혁명위원회"
+ KCG_ADJ:0 "고창"
+
+ HDG:0 "하동"
+ HDG_ADJ:0 "하동"
+ HDG_DEF:0 "하동"
+
+ EDJ:0 "동대전"
+ EDJ_ADJ:0 "동대전"
+ EDJ_DEF:0 "동대전"
+ EDJ_democratic:0 "대전사회공화국"
+ 
+ WDJ:0 "서대전"
+ WDJ_democratic:0 "대전민주공화국"
+ WDJ_ADJ:0 "서대전"
+ WDJ_DEF:0 "서대전"
+ WDJ_communism:0 "대전인민공화국"

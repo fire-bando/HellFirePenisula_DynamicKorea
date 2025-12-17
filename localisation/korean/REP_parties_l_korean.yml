@@ -1,0 +1,80 @@
+﻿l_korean:
+ JNR_communism_party:0 "중앙당"
+
+ JBR_neutrality_party:0 "전주정무위원회"
+ SMG_neutrality_party:0 "새만금개발공사"
+ BSU_communism_party:0 "노동자연합"
+
+ YNN_neutrality_party:0 "대통령실"
+ YNN_democratic_party:0 "자유민주주의를 수호하는 태극기부대"
+ YNN_fascism_party:0 "지역살리기운동본부"
+ YNN_communism_party:0 "공산 전체주의 세력"
+
+ AHN_neutrality_party:0 "국민의힘 - 친안파"
+ AHN_neutrality_party_run_at_PPP_long:0 "국민의당"
+ AHN_neutrality_party_run_at_PPP:0 "국민의당"
+
+ EDJ_democratic_party:0 "국민의힘 대전시당"
+ WDJ_democratic_party:0 "더불어민주당 대전시당"
+
+ DNT_neutrality_party:0 "동탄맘들 모여라"
+
+ SCJ_neutrality_party:0 "신천지 예수교 증거장막성전"
+
+ NON_spiritual_conscriptism_party:0 "병무청"
+
+ SPO_neutrality_party:0 "대검찰청"
+
+ SAM_neutrality_party:0 "삼성 경영진"
+
+ ROH_roh_samo_party:0 "사람사는 세상"
+
+ PJH_parkism_party:0 "더이상(고)박정희대통령각하를매도하지말자"
+
+ GIR_feminism_party:0 "손발이떨리고눈물이나"
+
+ HMC_odo_marinism_party:0 "해병성채"
+ HMR_odo_marinism_party:0 "해병성채"
+ JEJ_odo_marinism_party:0 "제주 해병성채"
+ GMP_odo_marinism_party:0 "김포 해병성채"
+ 
+ CHU_neutrality_party:0 "충주시청 홍보담당관실"
+ CHU_democratic_party:0 "충주시의회"
+ CHU_fascism_party:0 "강원도인 형제단 충주지부"
+ CHU_communism_party:0 "진보당 충주당원협의회"
+ CHU_implantism_party:0 "오늘의병원 임플란트 준비위원회"
+ CHU_odo_marinism_party:0 "공군 제19전투비행단"
+ CHU_idolism_party:0 "트레센 학원 충주 분교 총학생회"
+
+ SAG_democratic_party:0 "사가현의회"
+ SAG_neutrality_party:0 "자유민주당"
+ SAG_fascism_party:0 "사가 파시스트당"
+ SAG_communism_party:0 "코뮌 회의"
+ SAG_implantism_party:0 "오늘의병원 임플란트 준비위원회 사가지부"
+ SAG_idolism_party:0 "프랑슈슈"
+
+ LAB_socialism_party:0 "통합진보당"
+ LAB_communism_party:0 "통합진보당"
+
+ EOT_socialism_party:0 "진보당 경북도당"
+ EOT_communism_party:0 "진보당 경북도당"
+ NJN_communism_party:0 "조선로동당 라선시 당위원회"
+ CHN_socialism_party:0 "중국공산당"
+ CHN_communism_party:0 "중국공산당"
+ CK2_socialism_party:0 "중국공산당"
+ CK2_communism_party:0 "중국공산당"
+ CK1_socialism_party:0 "중국공산당"
+ CK1_communism_party:0 "중국공산당"
+ UKK_democratic_party:0 "보수당"
+ UKK_socialism_party:0 "노동당"
+
+ CHU_democratic_party:0 "충주시의회"
+ CHU_democratic_party_b:0 "충주시청"
+ CHU_neutrality_party:0 "충주시청 홍보담당관실"
+ CHU_fascism_party:0 "강원도인 형제단 충주지부"
+ CHU_communism_party:0 "진보당 충주당원협의회"
+ CHU_implantism_party:0 "오늘의병원 임플란트 준비위원회"
+ CHU_odo_marinism_party:0 "공군 제19전투비행단"
+ CHU_idolism_party:0 "트레센 학원 충주 분교 총학생회"
+
+ YNN_neutrality_party_yongsanism:0 "용산당"

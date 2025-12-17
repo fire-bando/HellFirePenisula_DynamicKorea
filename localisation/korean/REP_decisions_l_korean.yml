@@ -1,0 +1,25 @@
+﻿l_korean:
+ make_chungbuk_greatest_again:0 "충북을 위대하게"
+ JINCHEON_CITY_promote:0 "진천 승격"
+ attack_cic:0 "충북혁신도시 공격" 
+ attack_pseudo_religion:0 "사이비 종교 격퇴" 
+ CHU_civilwar:0 "충주내전"
+ PPC_persuade_mayor:0 "[CHU.getLeader] 설득"
+ PPC_persuade_mayor_desc:0 "[CHU.getLeader]의 소속정당은 우리 국민의힘으로 [CHU.getLeader]을 충분히 설득하면 우리가 충주시를 통제할 수 있습니다."
+ 
+ kill_all_teultak:0 "디버프 제거"
+ kill_all_teultak_desc:0 "하라고 만든 국가가 아닌데, 용케도 플레이를 하시고 계시는군요, 다행히도 이 국가는 컨텐츠가 있기에 플레이 안하기에는 좀 아쉽기 때문에 제가 디버프 제거 디시전을 넣어뒀습니다."
+ purge_teultak:0 "틀딱 숙청"
+ purge_teultak_desc:0 "퍼-지"
+
+ REUNIFIED_SIX_JIN:0 "육진 통합"
+ reunified_6jin:0 "육진 통합"
+ REUNIFIED_SIX_JIN_desc:0 "육진은 조선 세종 시기에 여진족을 정벌하고 두만강 유역에 설치한 6개의 진영을 말합니다. §Y세종대왕§!은 §G고토 수복 이념과 북방 개척 정책§!의 일환으로 이 지역에 조선의 지배력을 확립하고자 했습니다. 현재 육진 지역은 §R적대적인 군벌들§!에게 분할 점령된 상태이지만, 우리야말로 §G세종의 뜻을 계승한 정통 후계자§!입니다. 군사력과 외교력을 동원해 잃어버린 영토를 하나씩 §Y통합§!해 나간다면 육진 지역 전체에 대한 지배권을 되찾을 수 있을 것입니다. 이는 우리 민족의 §G정통성§!을 되찾고 한반도 전체를 아우르는 §G패권§!을 쥐기 위한 첫걸음이 될 것입니다."
+ 
+ AOJ_to_survive:0 "살아남기 위해서"
+ AOJ_kidnapping:0 "[FROM.GetName]에서의 납치"
+ AOJ_KIDNAPPING_A:0 "인근 주에서 납치가 진행중임"
+
+ AOJ_exploitation_of_workers:0 "[FROM.GetName]에서의 노동력 착취"
+ AOJ_EXPLOITATION_OF_WORKERS_A:0 "인근 주에서 노동력 착취가 진행중임"
+ AOJ_contact_NJN_people_committee:0 "나진인민위원회와의 접촉"

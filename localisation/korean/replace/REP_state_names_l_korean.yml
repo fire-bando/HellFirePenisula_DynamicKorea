@@ -1,0 +1,920 @@
+﻿l_korean:
+
+ ### North Korea ###
+
+ #Chagang Province
+ STATE_46:1 "강계" #250k
+ STATE_206:0 "랑림" #35k
+ STATE_207:0 "성간" #90k
+ STATE_208:0 "위원" #60k
+ STATE_209:0 "시중" #40k
+ STATE_210:0 "장강" #55k
+ STATE_211:0 "만포" #115k
+ STATE_212:0 "화평" #40k
+ STATE_213:0 "자성" #50k
+ STATE_214:0 "중강" #40k
+ STATE_215:0 "룡림" #35k
+ STATE_216:0 "전천" #105k
+ STATE_217:0 "동신" #45k
+ STATE_218:0 "희천" #170k
+ STATE_219:0 "송원" #40k
+ STATE_220:0 "고풍" #30k
+ STATE_221:0 "우시" #45k
+ STATE_222:0 "초산" #45k
+
+ #Kangwon Province
+ STATE_34:1 "원산" #365k
+ STATE_111:0 "문천" #125k
+ STATE_112:0 "천내" #85k
+ STATE_113:0 "법동" #35k
+ STATE_114:0 "안변" #95k
+ STATE_115:0 "고산" #105k
+ STATE_116:0 "통천" #90k
+ STATE_117:0 "회양" #40k
+ STATE_118:0 "판교" #45k
+ STATE_119:0 "세포" #60k
+ STATE_120:0 "고성" #60k
+ STATE_121:0 "금강" #55k
+ STATE_122:0 "창도" #50k
+ STATE_123:0 "김화" #55k
+ STATE_124:0 "북부 철원" #60k
+ STATE_125:0 "이천" #60k
+ STATE_126:0 "평강" #90k
+
+ #Nampo
+ STATE_168:0 "남포" #985k
+
+ #North Hamgyong Province
+ STATE_27:1 "경성" #105k
+ STATE_70:0 "김책" #210k
+ STATE_75:0 "연사" #40k
+ STATE_76:0 "회령" #155k
+ STATE_77:0 "청진" #625k
+ STATE_87:0 "화대" #70k
+ STATE_88:0 "명천" #65k
+ STATE_89:0 "명간" #100k
+ STATE_90:0 "길주" #140k
+ STATE_91:0 "어랑" #90k
+ STATE_92:0 "부령" #50k
+ STATE_93:0 "무산" #125k
+ STATE_94:0 "경흥" #105k
+ STATE_95:0 "온성" #130k
+ STATE_96:0 "경원" #105k
+
+ #North Hwanghae Province
+ STATE_28:1 "개성" #195k
+ STATE_577:0 "개성"
+ STATE_31:1 "사리원" #310k
+ STATE_127:0 "송림" #130k
+ STATE_128:0 "황주" #155k
+ STATE_129:0 "봉산" #125k
+ STATE_130:0 "은파" #110k
+ STATE_131:0 "린산" #75k
+ STATE_132:0 "연탄" #75k
+ STATE_133:0 "서흥" #100k
+ STATE_134:0 "평산" #125k
+ STATE_135:0 "연산" #65k
+ STATE_136:0 "수안" #75k
+ STATE_137:0 "신계" #80k
+ STATE_138:0 "토산" #65k
+ STATE_139:0 "금촌" #70k
+ STATE_140:0 "장풍" #70k
+ STATE_141:0 "곡산" #120k
+ STATE_142:0 "신평" #65k
+ STATE_223:0 "중화" #75k
+ STATE_224:0 "상원" #95k
+ STATE_225:0 "승호" #85k
+ 
+ #North Pyongan Province
+ STATE_38:1 "신의주" #360k
+ STATE_183:0 "룡천" #135k
+ STATE_184:0 "피현" #110k
+ STATE_185:0 "염주" #115k
+ STATE_186:0 "철산" #85k
+ STATE_187:0 "동림" #105k
+ STATE_188:0 "선천" #125k
+ STATE_189:0 "곽산" #100k
+ STATE_190:0 "정주" #190k
+ STATE_191:0 "운전" #100k
+ STATE_192:0 "박천" #100k
+ STATE_193:0 "녕변" #115k
+ STATE_194:0 "태천" #110k
+ STATE_195:0 "구성" #195k
+ STATE_196:0 "천마" #50k
+ STATE_197:0 "의주" #110k
+ STATE_198:0 "삭주" #160k
+ STATE_199:0 "대관" #70k
+ STATE_200:0 "동창" #30k
+ STATE_201:0 "창성" #25k
+ STATE_202:0 "벽동" #35k
+ STATE_203:0 "운산" #105k
+ STATE_204:0 "향산" #50k
+ STATE_205:0 "구장" #140k
+ STATE_371:0 "신도" #10k
+ 
+ #Pyongyang
+ STATE_32:1 "평양" #3m
+ STATE_755:0 "강동" #221k
+ STATE_756:0 "강남" #221k
+
+ #나진 선봉지구 
+ STATE_67:0 "나진" #205k
+ 
+ #Ryanggang Province
+ STATE_44:1 "혜산" #195k
+ STATE_68:0 "삼지연" #30k
+ STATE_69:0 "김형직" #60k
+ STATE_78:0 "김정숙" #45k
+ STATE_79:0 "갑산" #70k
+ STATE_80:0 "삼수" #40k
+ STATE_81:0 "풍서" #45k
+ STATE_82:0 "김형권" #40k
+ STATE_83:0 "운흥" #60k
+ STATE_84:0 "보천" #40k
+ STATE_85:0 "대홍단" #35k
+ STATE_86:0 "백암" #70k
+
+ #South Hamgyong Province
+ STATE_41:1 "장진" #65k
+ STATE_71:0 "단천" #345k
+ STATE_72:0 "신포" #155k
+ STATE_73:0 "함흥" #770k
+ STATE_74:0 "금야" #210k
+ STATE_97:0 "허천" #105k
+ STATE_98:0 "리원" #115k
+ STATE_99:0 "북청" #160k
+ STATE_100:0 "덕성" #100k
+ STATE_101:0 "홍원" #145k
+ STATE_102:0 "락원" #60k
+ STATE_103:0 "함주" #135k
+ STATE_104:0 "영광" #105k
+ STATE_105:0 "신흥" #105k
+ STATE_106:0 "부전" #50k
+ STATE_107:0 "정평" #180k
+ STATE_108:0 "고원" #95k
+ STATE_109:0 "수동" #95k
+ STATE_110:0 "요덕" #40k
+
+ #South Hwanghae Province
+ STATE_30:1 "해주" #275k
+ STATE_143:0 "남청단" #145k
+ STATE_574:0 "북청단"
+ STATE_144:0 "벽성" #90k
+ STATE_145:0 "신원" #85k
+ STATE_146:0 "중앙 연안" #160k
+ STATE_575:0 "북부 연안"
+ STATE_147:0 "북부 배천" #160k
+ STATE_576:0 "중앙 배천"
+ STATE_148:0 "봉천" #80k
+ STATE_149:0 "강령" #105k
+ STATE_150:0 "남부 옹진" #155k
+ STATE_573:0 "북부 옹진"
+ STATE_151:0 "태탄" #65k
+ STATE_152:0 "룡연" #90k
+ STATE_153:0 "장연" #90k
+ STATE_154:0 "과일(FRUIT!!!!!)" #90k
+ STATE_155:0 "송화" #45k
+ STATE_156:0 "삼천" #85k
+ STATE_157:0 "신천" #140k
+ STATE_158:0 "재령" #125k
+ STATE_159:0 "안악" #125k
+ STATE_160:0 "은천" #95k
+ STATE_161:0 "은률" #110k
+
+ STATE_162:0 "서해5도" #10k
+ 
+ #South Pyongan Province
+ STATE_37:1 "평성" #235k
+ STATE_163:0 "평원" #180k
+ STATE_164:0 "숙천" #180k
+ STATE_165:0 "순천" #300k
+ STATE_166:0 "은산" #205k
+ STATE_167:0 "성천" #150k
+ STATE_169:0 "대동" #130k
+ STATE_170:0 "증산" #115k
+ STATE_171:0 "회창" #90k
+ STATE_172:0 "양덕" #60k
+ STATE_173:0 "신양" #60k
+ STATE_174:0 "맹산" #50k
+ STATE_175:0 "녕원" #30k
+ STATE_176:0 "대흥" #35k
+ STATE_177:0 "덕천" #235k
+ STATE_178:0 "득장" #50k
+ STATE_179:0 "북창" #140k
+ STATE_180:0 "개천" #320k
+ STATE_181:0 "안주" #240k
+ STATE_182:0 "문덕" #220k
+
+ ### South Korea ###
+ 
+ #부산
+ STATE_61:0 "부산" #3.330m
+ STATE_616:0 "부산 강서구" #84K
+ STATE_617:0 "부산 북구" #283K
+ STATE_649:0 "사상" #208K
+ STATE_650:0 "사하" #319.542K
+ STATE_651:0 "기장" #146.3K
+ STATE_652:0 "영도" #124K
+ STATE_654:0 "동래" #270.745K
+ STATE_655:0 "해운대" #401.131K
+ STATE_656:0 "금정" #243.3K
+ STATE_657:0 "연래" #207.144K
+ 
+ #대구
+ STATE_58:0 "대구 중앙" #2.365m
+ STATE_679:0 "수성" #420K
+ STATE_680:0 "대구 동부" #349K
+ STATE_681:0 "대구 북부" #164K 528
+ STATE_682:0 "달서" #164K 528
+ STATE_683:0 "달성" #164K 528
+ 
+ #대전
+ STATE_57:0 "대전 동부" #220k
+ STATE_718:0 "유성" #356k
+ STATE_719:0 "대전 서부" #472k
+ STATE_720:0 "대전 중부" #229k
+ STATE_721:0 "대전 북부" #175k
+ 
+ #광주
+ STATE_60:0 "광주" #1.435m
+ JNR_STATE_60:0 "슨상그라드" #1.435m
+ STATE_710:0 "광산" #1.435m
+ STATE_743:0 "송정" #80K
+ 
+ #Gangwon Province
+ STATE_7:0 "춘천" #285k
+ STATE_226:0 "속초" #85k
+ STATE_227:0 "고성" #30k
+ STATE_228:0 "북부 양양" #30k
+ STATE_581:0 "남부 양양"
+ STATE_229:0 "강릉" #215k
+ STATE_230:0 "동해" #95k
+ STATE_231:0 "삼척" #70k
+ STATE_232:0 "태백" #50k
+ STATE_233:0 "정선" #40k
+ STATE_234:0 "평창" #45k
+ STATE_236:0 "원주" #340k
+ STATE_237:0 "횡성" #45k
+ STATE_238:0 "철원" #50k
+ STATE_239:0 "화천" #25k
+ STATE_240:0 "중앙 인제" #35k
+ STATE_580:0 "남부 인제"
+ STATE_241:0 "양구" #25k
+ STATE_242:0 "화촌" #70k
+ STATE_758:0 "광원" #70k
+ STATE_759:0 "홍천" #70k
+ 
+ #Gyeonggi Province
+ STATE_26:0 "수원" #1.175m
+ STATE_339:0 "가평" #60k
+ STATE_340:0 "남부 포천" #155k
+ STATE_579:0 "북부 포천"
+ STATE_341:0 "고양" #1.040m
+ STATE_342:0 "김포" #345k
+ STATE_343:0 "동두천" #100k
+ STATE_344:0 "파주" #415k
+ STATE_345:0 "남부 연천" #45k
+ STATE_578:0 "중앙 연천"
+ STATE_346:0 "양주" #205k
+ STATE_347:0 "의정부" #430k
+ STATE_348:0 "양평" #105k
+ STATE_349:0 "남양주" #825k
+ STATE_350:0 "여주" #110k
+ STATE_351:0 "이천" #205k
+ STATE_352:0 "안성" #180k
+ STATE_353:0 "평택" #455k
+ STATE_717:0 "팽성" #27k
+ STATE_354:0 "화성" #565k
+ STATE_355:0 "오산" #210k
+ STATE_356:0 "안산" #716k
+ STATE_357:0 "부천" #848k
+ STATE_358:0 "성남" #995k
+ STATE_359:0 "하남" #155k
+ STATE_360:0 "광주" #305k
+ STATE_361:0 "안양" #670k
+ STATE_362:0 "군포-의왕" #450k
+ STATE_363:0 "용인" #970k
+ STATE_631:0 "구리" #189K
+ STATE_686:0 "과천" #189K
+ STATE_711:0 "퐁퐁" #189K
+ STATE_725:0 "시흥" #472k
+ STATE_726:0 "광명" #298k
+ STATE_757:0 "초월" #123 
+ 
+ #Incheon
+ STATE_55:0 "미추홀" #407.4K
+ STATE_608:0 "계양" #302K
+ STATE_609:0 "강화도" #69.2K
+ STATE_610:0 "제물포" #136K
+ STATE_611:0 "옹진" #20K
+ STATE_612:0 "연수" #369.6K
+ STATE_613:0 "남촌" #532.3K
+ STATE_614:0 "청라" #544K
+ STATE_615:0 "부평" #508.6K
+ STATE_760:0 "영종도" #508.6K
+ 
+ #Jeju
+ STATE_12:0 "제주" #445k
+ STATE_486:0 "서귀포"  #160k
+ 
+ #North Chungcheong Province
+ STATE_23:0 "청주" #210k
+ STATE_246:0 "음성" #95k
+ STATE_247:0 "괴산" #40k
+ STATE_248:0 "증평" #35k
+ STATE_628:0 "도안" #1k
+ STATE_249:0 "진천" #65k
+ STATE_250:0 "보은" #35k
+ STATE_251:0 "옥천" #55k
+ STATE_252:0 "영동" #50k
+ 
+ # Chungju
+ STATE_245:0 "호암-직" #210k
+ STATE_591:0 "엄정"
+ STATE_592:0 "산척"
+ STATE_594:0 "앙성"
+ STATE_595:0 "칠금-금릉"
+ STATE_596:0 "동량"
+ STATE_597:0 "교현-안림"
+ STATE_598:0 "금가"
+ STATE_599:0 "가금"
+ STATE_600:0 "목행-용탄"
+ STATE_601:0 "달천"
+ STATE_602:0 "노은"
+ STATE_603:0 "신니"
+ STATE_604:0 "주덕"
+ STATE_605:0 "대소원"
+ STATE_606:0 "살미"
+ STATE_607:0 "수안보"
+ STATE_635:0 "지등"
+ STATE_727:0 "용산(충주)"
+ STATE_728:0 "지현"
+ STATE_729:0 "성내-충인"
+ STATE_730:0 "문화"
+ STATE_731:0 "봉방"
+ STATE_732:0 "연수(충주)"
+ STATE_733:0 "소태"
+ STATE_734:0 "토계"
+ STATE_754:0 "탑평"
+ STATE_753:0 "용전-검단"
+ STATE_752:0 "루암"
+
+ #North Gyeongsang Province
+ STATE_3:0 "안동" #170k
+ STATE_253:0 "고령" #35k
+ STATE_254:0 "성주" #45k
+ STATE_255:0 "칠곡" #120k 
+ STATE_256:0 "군위" #25k
+ STATE_257:0 "구미" #420k
+ STATE_258:0 "김천" #135k
+ STATE_259:0 "상주" #105k
+ STATE_260:0 "문경" #75k
+ STATE_261:0 "예천" #45k
+ STATE_262:0 "영주" #110k
+ STATE_263:0 "봉화" #35k 
+ STATE_264:0 "울진" #50k
+ STATE_265:0 "영양" #20k
+ STATE_266:0 "영덕" #40k
+ STATE_267:0 "의성" #55k
+ STATE_268:0 "청송" #25k
+ STATE_269:0 "포신항문해병직할오도짜세기합광역특별자치시 북구" #520k
+ STATE_761:0 "포항 남구" #520k
+ STATE_270:0 "영천" #100k
+ STATE_271:0 "경산" #250k
+ STATE_272:0 "청도" #45k
+ STATE_274:0 "울릉" #10k
+ STATE_740:0 "고아" #4.3k (구미시)
+ STATE_741:0 "옥성" #4.3k (구미시)
+ STATE_742:0 "무을" #4.3k (구미시)
+ 
+ #Gyeongju - 경주
+ STATE_273:0 "경주" #265k
+ STATE_667:0 "양남" #6.2K
+ STATE_668:0 "감포" #5.3K
+ STATE_669:0 "강동" #6.014K
+ STATE_670:0 "경주 서부" #3.111K
+ STATE_671:0 "문무대왕" #4.132K
+ STATE_672:0 "내남" #4654
+ STATE_673:0 "산내" #3269
+ STATE_674:0 "외동" #22.28K
+ STATE_675:0 "천북" #5.737K
+ STATE_676:0 "안강" #23.737K
+ STATE_677:0 "현곡" #21.701K
+ STATE_678:0 "건천" #9.162K
+
+ #North Jeolla Province
+ STATE_21:0 "전주" #650k
+ STATE_313:0 "고창" #60k
+ STATE_314:0 "순창" #30k
+ STATE_315:0 "남원" #85k
+ STATE_316:0 "장수" #25k
+ STATE_317:0 "무주" #25k
+ STATE_318:0 "진안" #25k
+ STATE_319:0 "임실" #30k
+ STATE_320:0 "부안" #55k
+ STATE_321:0 "정읍" #115k
+ STATE_322:0 "완주" #95k
+ STATE_323:0 "익산" #300k
+ STATE_324:0 "군산" #280k
+ STATE_325:0 "김제" #90k
+ 
+ #Sejong
+ STATE_56:0 "세종" #350k
+ 
+ #Seoul
+ STATE_25:0 "강남" #537K
+ STATE_582:0 "안암" #18.7K
+ STATE_583:0 "용산" #231.7K
+ STATE_584:0 "성북" #427K
+ STATE_585:0 "마포" #381K
+ STATE_586:0 "서대문" #305K
+ STATE_587:0 "성동-동대문" #618K
+ STATE_588:0 "은평" #464K
+ STATE_589:0 "서울 중앙" #131.5K
+ STATE_618:0 "강서" #274K
+ STATE_619:0 "양천" #181K
+ STATE_620:0 "구로" #184K
+ STATE_621:0 "영등포" #190K
+ STATE_622:0 "금천" #120K
+ STATE_623:0 "동작" #187K
+ STATE_624:0 "관악" #286K
+ STATE_625:0 "서초" #168K
+ STATE_626:0 "강동" #202K
+ STATE_627:0 "송파" #285K
+ STATE_629:0 "광진" #339K
+ STATE_630:0 "중랑" #385K
+ STATE_632:0 "강북" #293.9K
+ STATE_633:0 "노원" #532.9K
+ STATE_634:0 "도봉" #333.3K
+ STATE_687:0 "북악산" #333.3K
+ 
+ #South Chungcheong Province
+ STATE_22:0 "홍성" #90k
+ STATE_326:0 "금산" #55k
+ STATE_327:0 "서천" #60k
+ STATE_328:0 "보령" #105k
+ STATE_329:0 "태안" #65k
+ STATE_330:0 "천안" #585k
+ STATE_331:0 "아산" #285k
+ STATE_332:0 "공주" #115k
+ STATE_333:0 "논산" #165k
+ STATE_334:0 "부여" #75k
+ STATE_335:0 "청양" #30k
+ STATE_336:0 "예산" #85k
+ STATE_337:0 "당진" #155k
+ STATE_338:0 "서산" #165k
+ STATE_590:0 "계룡" #165k
+ 
+ #South Gyeongsang Province
+ STATE_19:0 "창원" #1.105m
+ STATE_713:0 "마산" #363k
+ STATE_714:0 "진해" #192k
+ STATE_275:0 "밀양" #110k
+ STATE_276:0 "양산" #275k
+ STATE_277:0 "김해" #530k
+ STATE_278:0 "창녕" #65k
+ STATE_280:0 "의령" #30k
+ STATE_281:0 "함안" #70k
+ STATE_282:0 "고성" #60k
+ STATE_283:0 "통영" #145k
+ STATE_284:0 "거제" #245k
+ STATE_285:0 "남해" #50k
+ STATE_286:0 "泗(四)川" #120k
+ STATE_287:0 "진주" #340k
+ STATE_288:0 "거창" #65k
+ STATE_289:0 "함양" #40k
+ STATE_290:0 "산청" #35k
+ STATE_291:0 "하동" #50k
+ STATE_279:0 "합천" #50k
+ STATE_715:0 "가야-야로-묘산" #8k
+ STATE_716:0 "가회" #1.7k
+ STATE_737:0 "금성" #0.4k (하동군)
+ STATE_738:0 "옥종" #4k (하동군)
+ STATE_739:0 "화개" #4k (하동군) 하동군의 성지
+ 
+ #South Jeolla Province
+ STATE_17:0 "무안" #70k
+ STATE_292:0 "신안" #45k
+ STATE_735:0 "하의" #4H
+ STATE_736:0 "흑산도" #4H
+ STATE_293:0 "목포" #240k
+ STATE_294:0 "영암" #65k
+ STATE_295:0 "나주" #100k
+ STATE_296:0 "함평" #40k
+ STATE_297:0 "영광" #60k
+ STATE_298:0 "장성" #50k
+ STATE_299:0 "담양" #50k
+ STATE_300:0 "보성" #50k
+ JNR_STATE_300:0 "꼬막그라드" #50k
+ STATE_301:0 "고흥" #75k
+ STATE_304:0 "순천" #280k
+ JNR_STATE_304:0 "순상그라드" #280k
+ STATE_305:0 "구례" #30k
+ STATE_306:0 "곡성" #35k
+ STATE_307:0 "화순" #70k
+ STATE_308:0 "강진" #40k
+ STATE_309:0 "장흥" #45k
+ STATE_310:0 "완도" #55k
+ STATE_311:0 "해남" #80k
+ STATE_312:0 "진도" #35k
+
+ #여수
+ STATE_302:0 "여수" #94K
+ STATE_700:0 "해룡-율촌"
+ STATE_701:0 "소라"
+ STATE_702:0 "화양"
+ STATE_703:0 "화정"
+ STATE_704:0 "금오"
+ STATE_705:0 "여천" #125K
+ JNR_STATE_705:0 "석유그라드" #125K
+ STATE_706:0 "돌산"
+
+ STATE_684:0 "동 도리"
+ STATE_685:0 "서 도리"
+
+ #순천
+ STATE_745:0 "서순천"
+ STATE_746:0 "별량"
+ STATE_747:0 "주암-송광"
+ STATE_748:0 "월등"
+ STATE_749:0 "와서"
+ STATE_750:0 "승주"
+ STATE_751:0 "낙안"
+
+ #광양
+ STATE_303:0 "동광양" #150k
+ JNR_STATE_303:0 "제철그라드" #150k
+ STATE_707:0 "광양" #150k
+ STATE_708:0 "진월" #150k
+ STATE_709:0 "다압" #150k
+ STATE_653:0 "옥곡" #150k
+ STATE_658:0 "봉강" #150k
+ 
+ #Ulsan
+ STATE_59:0 "울산 남부" #320k
+ STATE_712:0 "울주" #
+ STATE_722:0 "울산 중부" #208k
+ STATE_723:0 "울산 북부" #218k
+ STATE_724:0 "울산 동부" #152k
+ 
+ ### Liaoning Province ###
+ 
+ #Anshan Prefecture
+ STATE_45:0 "海城" #1.130m
+ STATE_376:0 "岫岩" #510k
+ STATE_377:0 "铁西" #290k
+ STATE_378:0 "铁东-立山" #910k
+ STATE_379:0 "千山" #260k
+ STATE_380:0 "台安" #380k
+ 
+ #Benxi Prefecture
+ STATE_43:0 "本溪" #300k
+ STATE_364:0 "桓仁" #300k
+ STATE_365:0 "溪湖" #220k
+ STATE_366:0 "明山" #300k
+ STATE_367:0 "南芬" #80k
+ STATE_368:0 "平山" #350k
+ 
+ #Dalian Prefecture
+ STATE_35:0 "庄河" #900k
+ STATE_374:0 "长海" #70k
+ 
+ #Dandong Prefecture
+ STATE_42:0 "凤城" #580k
+ STATE_369:0 "宽甸" #440k
+ STATE_370:0 "东港" #640k
+ STATE_372:0 "振安" #190k
+ STATE_373:0 "元宝-振兴" #560k
+
+  #Fushun Prefecture
+ STATE_40:0 "抚顺" #165k
+ STATE_388:0 "新宾" #255k
+ STATE_389:0 "清原" #290k
+ STATE_390:0 "东洲-新抚" #575k
+ STATE_391:0 "顺城-望花" #475k
+ 
+ #Fuxin Prefecture
+ STATE_33:0 "彰武" #420k
+ 
+ #Liaoyang Prefecture
+ STATE_47:0 "辽阳南" #190k
+ STATE_381:0 "灯塔" #510k
+ STATE_382:0 "太子河" #120k
+ STATE_383:0 "白塔" #210k
+ STATE_384:0 "文圣" #180k
+ STATE_385:0 "宏伟" #110k
+ STATE_386:0 "弓长岭" #90k
+ STATE_387:0 "辽阳北" #400k
+ 
+ #Shenyang Prefecture
+ STATE_24:0 "沈北" #320k
+ STATE_398:0 "康平" #355k
+ STATE_399:0 "法库" #450k
+ STATE_400:0 "新民" #690k
+ STATE_401:0 "辽中" #535k
+ STATE_402:0 "铁西-于洪" #1.345m
+ STATE_403:0 "苏家屯" #430k
+ STATE_404:0 "浑南" #325k
+ STATE_405:0 "沈河-和平" #1.360m
+ STATE_406:0 "皇姑-大东" #1.505m
+ 
+ #Tieling Prefecture
+ STATE_16:0 "铁岭" #380k
+ STATE_392:0 "昌图" #1.030m
+ STATE_393:0 "西丰" #350k
+ STATE_394:0 "开原" #580k
+ STATE_395:0 "清河" #100k
+ STATE_396:0 "银州" #340k
+ STATE_397:0 "调兵山" #240k
+ 
+ #Tongliao Prefecture
+ STATE_1:0 "科尔沁左翼后旗" #380k
+ STATE_407:0 "科尔沁" #890k
+ 
+ #Yingkou Prefecture
+ STATE_39:0 "大石桥" #705k
+ STATE_375:0 "盖州" #690k
+
+ ### Jilin Province ###
+ 
+ #Baishan Prefecture
+ STATE_36:0 "抚松" #300k
+ STATE_426:0 "长白" #80k
+ STATE_427:0 "临江" #180k
+ STATE_428:0 "浑江" #330k
+ STATE_429:0 "江源" #260k
+ STATE_430:0 "靖宇" #140k
+ 
+ #Changchun Prefecture
+ STATE_4:0 "双阳" #335k
+ STATE_408:0 "公主岭" #860k
+ 
+ #Jilin Prefecture
+ STATE_5:0 "桦甸" #445k
+ STATE_422:0 "磐石" #505k
+ STATE_423:0 "永吉" #395k
+ STATE_424:0 "丰满" #295k
+ STATE_425:0 "蛟河" #445k
+ 
+ #Siping Prefecture
+ STATE_2:0 "梨树" #790k
+ STATE_409:0 "伊通" #470k
+ STATE_410:0 "铁东" #370k
+ STATE_411:0 "铁西" #270k
+ STATE_412:0 "双辽" #410k
+ 
+ #Liaoyuan Prefecture
+ STATE_20:0 "东辽" #395k
+ STATE_413:0 "东丰" #410k
+ STATE_414:0 "龙山-西安" #465k
+ 
+ #Mudanjiang Prefecture
+ STATE_437:0 "东宁" #210k
+ 
+ #Tonghua Prefecture
+ STATE_29:0 "通化" #200k
+ STATE_415:0 "梅河口" #615k
+ STATE_416:0 "辉南" #360k
+ STATE_417:0 "柳河" #365k
+ STATE_418:0 "东昌" #360k
+ STATE_419:0 "二道江" #145k
+ STATE_420:0 "集安" #230k
+ STATE_421:0 "通化东南" #50k
+ 
+ #Yanbian Prefecture
+ STATE_6:0 "敦化(돈화)" #480k
+ STATE_431:0 "安图(안도)" #210k
+ STATE_432:0 "和龙(화룡)" #210k
+ STATE_433:0 "图们(도문)" #130k
+ STATE_434:0 "龙井(룡정)" #250k
+ STATE_435:0 "延吉(연길)" #410k
+ STATE_436:0 "汪清(왕청)" #250k
+ STATE_438:0 "珲春(훈춘)" #220k
+ 
+ ### 프리모르스키 지방 ###
+ 
+ STATE_48:0 "Партизанск" #40k
+ STATE_49:0 "Партиза́нский" #30k
+ STATE_50:0 "Надеждинский" #40k
+ STATE_51:0 "Владивосток" #625k
+ STATE_52:0 "Шкотовский" #25k
+ STATE_53:0 "Хасанский" #35k
+ STATE_54:0 "Артём" #105k
+ STATE_62:0 "Лазовский" #15k
+ STATE_63:0 "Находка" #145k
+ STATE_439:0 "Песчаный" #10k
+ STATE_440:0 "Южно-Морской" #15k
+ STATE_441:0 "Фокино" #25k
+ STATE_442:0 "Большой Камень" #40k
+ STATE_443:0 "Уссурийск" #160k
+ 
+ ### 중국 지방 ###
+ 
+ #히로시마 시
+ STATE_15:0 "히로시마"
+ STATE_444:0 "하츠카이치"
+ STATE_445:0 "오타케"
+ STATE_446:0 "아키오타"
+ STATE_447:0 "키타히로시마"
+ STATE_448:0 "아키타카타"
+ STATE_449:0 "미요시"
+ STATE_450:0 "쿠레"
+ STATE_451:0 "에타지마"
+ STATE_452:0 "히가시히로시마"
+ STATE_453:0 "카이타-구마노"
+ 
+ # 시마네 현
+ STATE_18:0 "이즈모" #17만
+ STATE_454:0 "쓰와노-요시카" #1만
+ STATE_455:0 "마스다" #4.5만
+ STATE_456:0 "하마다" #5.5만
+ STATE_457:0 "오난" #1만
+ STATE_458:0 "고쓰" #2.5만
+ STATE_459:0 "미사토-가와모토" #1만
+ STATE_460:0 "오다" #3.5만
+ STATE_461:0 "이이난" #0.5만
+ 
+ # 양구치 현
+ STATE_13:0 "양구치" #20만
+ STATE_462:0 "아부" #0.5만
+ STATE_463:0 "나가토" #3.5만
+ STATE_464:0 "시모노세키" #26.5만
+ STATE_465:0 "산요-오노다" #6만
+ STATE_466:0 "미네" #2.5만
+ STATE_467:0 "우베" #17만
+ STATE_468:0 "하기" #5만
+ STATE_469:0 "호후" #12만
+ STATE_470:0 "슈난" #14.5만
+ STATE_471:0 "쿠다마쓰" #5.5만
+ STATE_472:0 "히카리-타부세" #6.5만
+ STATE_473:0 "와키" #0.5만
+ STATE_474:0 "이와쿠니" #14만
+ STATE_475:0 "얀아이-히라오" #4.5만
+ STATE_476:0 "수오-오시마" #2만
+ 
+ ### 시코쿠 지방 ###
+ 
+ # 에히메 현
+ STATE_64:0 "나카지마" #1만
+ STATE_477:0 "아이난" #2만
+ STATE_478:0 "우와지마" #8.5만
+ STATE_479:0 "세이요" #4.5만
+ STATE_480:0 "이카타" #1만
+ STATE_481:0 "야와타하마" #4만
+ STATE_482:0 "이요" #4만
+ STATE_483:0 "우치코" #1.5만
+ STATE_484:0 "오즈" #4.5만
+ 
+ ### 큐슈 지방 ###
+ 
+ # 후쿠오카 현
+ STATE_11:0 "후쿠오카" #1,605만
+ STATE_530:0 "오무타" #11만
+ STATE_531:0 "미야마" #4만
+ STATE_532:0 "야나가와" #7만
+ STATE_533:0 "야메" #9만
+ STATE_534:0 "우키하" #3만
+ STATE_535:0 "쿠루메" #30.5만
+ STATE_536:0 "치쿠고-오카와" #10.5만
+ STATE_537:0 "이토시마" #9.5만
+ STATE_538:0 "나카가와" #5만
+ STATE_539:0 "오고리" #6만
+ STATE_540:0 "아사쿠라" #12만
+ STATE_541:0 "치쿠시노-다자이후" #39만
+ STATE_542:0 "카스야" #20만
+ STATE_543:0 "키타큐슈" #94만
+ STATE_544:0 "유쿠하시" #10.5만
+ STATE_545:0 "부젠" #6만
+ STATE_546:0 "옹가" #10만
+ STATE_547:0 "무나카타-후쿠쓰" #16.5만
+ STATE_548:0 "나카마" #4만
+ STATE_549:0 "타가와" #14만
+ STATE_550:0 "노가타" #6만
+ STATE_551:0 "미야와카" #4만
+ STATE_552:0 "이즈카-가마" #17.5만
+ 
+ # 군마모토 현
+ STATE_8:1 "구마모토" #7.4만
+ STATE_497:0 "오구니-미나미오구니" #1.5만
+ STATE_498:0 "아소" #3만
+ STATE_499:0 "아라오" #5.5만
+ STATE_500:0 "타마나" #7만
+ STATE_501:0 "야마가" #5.5만
+ STATE_502:0 "키크치" #15만
+ STATE_503:0 "야마토-타카모리" #3.5만
+ 
+ # 미야자키 현
+ STATE_65:0 "노베오카" #12만
+ STATE_515:0 "니시우스키" #2만
+ 
+ # 나가사키 현
+ STATE_14:1 "쓰시마" #3만
+ STATE_66:0 "나가사키" #40만
+ STATE_485:0 "히라도" #3만
+ STATE_487:0 "마쓰우라" #2.5만
+ STATE_488:0 "사자" #1.5만
+ STATE_489:0 "히가시소노기" #4만
+ STATE_490:0 "이사하야" #13.5만
+ STATE_491:0 "오무라" #9.5만
+ STATE_492:0 "사세보" #25만
+ STATE_493:0 "사이카이" #3만
+ STATE_494:0 "시마바라" #5만
+ STATE_495:0 "운젠" #4만
+ STATE_496:0 "이키" #3만
+ STATE_553:0 "오지카" #0.5만
+ STATE_554:0 "신-카미고토" #2만
+ STATE_555:0 "나루시마" #0.5만
+ 
+ # 오이타 현
+ STATE_10:1 "오이타" #48만
+ STATE_516:0 "쿠니사키" #3.5만
+ STATE_517:0 "분고타카다" #2.5만
+ STATE_518:0 "킷스키" #6만
+ STATE_519:0 "히다" #6.5만
+ STATE_520:0 "쿠스" #3만
+ STATE_521:0 "베푸" #12.5만
+ STATE_522:0 "유후" #3.5만
+ STATE_523:0 "타케타" #2.5만
+ STATE_524:0 "분고-오노" #3.5만
+ STATE_525:0 "우스키" #4만
+ STATE_526:0 "츠쿠미" #2만
+ STATE_527:0 "사이키" #7.5만
+ STATE_528:0 "나카쓰" #8.5만
+ STATE_529:0 "우사" #5.5만
+ 
+ #사가현
+ STATE_9:1 "사가" #230k
+ STATE_504:0 "토스" #95k
+ STATE_505:0 "칸자키" #70k
+ STATE_506:0 "카라츠" #125k
+ STATE_507:0 "이마리" #75k
+ STATE_508:0 "타케오" #50k
+ STATE_509:0 "오기" #45k
+ STATE_510:0 "키시마" #45k
+ STATE_511:0 "타쿠" #20k
+ STATE_512:0 "우레시노" #25k
+ STATE_513:0 "카시마" #30k
+ STATE_514:0 "타라" #10k
+ STATE_593:0 "타카시마-후쿠오카"
+ 
+ ### DMZ ### 
+ STATE_556:0 "고성 DMZ"
+ STATE_557:0 "금강 DMZ"
+ STATE_558:0 "창도 DMZ"
+ STATE_559:0 "김화 DMZ"
+ STATE_560:0 "평강 DMZ"
+ STATE_561:0 "철원 DMZ"
+ STATE_562:0 "장풍군 DMZ"
+ STATE_563:0 "개성 DMZ"
+ STATE_564:0 "배천 DMZ"
+ STATE_565:0 "연안 DMZ"
+ STATE_566:0 "파주 DMZ"
+ STATE_567:0 "연천 DMZ"
+ STATE_568:0 "철원 DMZ"
+ STATE_569:0 "화천 DMZ"
+ STATE_570:0 "양구 DMZ"
+ STATE_571:0 "인제 DMZ"
+ STATE_572:0 "고성 DMZ"
+
+# 제천
+STATE_244:0 "중앙 제천" #140k
+STATE_636:0 "한수"
+STATE_637:0 "백운"
+STATE_638:0 "북청풍"
+STATE_639:0 "남청풍"
+STATE_640:0 "봉양"
+STATE_641:0 "송학"
+STATE_642:0 "금성"
+STATE_643:0 "수산"
+STATE_644:0 "덕산"
+STATE_645:0 "남제천"
+STATE_646:0 "동제천"
+STATE_647:0 "북제천"
+STATE_648:0 "서제천"
+
+# 영월
+ STATE_235:0 "중앙 영월" #40k
+ STATE_659:0 "산솔"
+ STATE_660:0 "김삿갓" ###어떻게 면 이름이 김삿갓###
+ STATE_661:0 "상동"
+ STATE_662:0 "남(영월)"
+ STATE_663:0 "북(영월)"
+ STATE_664:0 "한반도"
+ STATE_665:0 "동주천"
+ STATE_666:0 "북무릉도원" ###아니 이건 너무한거 아닌가 김삿갓은 이해라도 가지###
+ STATE_696:0 "남영월"
+ STATE_697:0 "동영월"
+ STATE_698:0 "남무릉도원"
+ STATE_699:0 "서주천"
+ #--영월 통폐합좀해라
+
+# 단양
+ STATE_243:0 "단양" #30k
+ STATE_688:0 "동영춘"
+ STATE_689:0 "어상천"
+ STATE_690:0 "매포"
+ STATE_691:0 "서영춘"
+ STATE_692:0 "적성(단양)"
+ STATE_693:0 "가곡" 
+ STATE_694:0 "단성"
+ STATE_695:0 "대강"
