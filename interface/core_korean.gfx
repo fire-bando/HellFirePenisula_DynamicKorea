@@ -1,4 +1,5 @@
 bitmapfonts = {
+
 	bitmapfont_override = {
 		name = "ToolTip_Font"
 		fontfiles = {
@@ -12,93 +13,109 @@ bitmapfonts = {
 		}
 		languages = { "l_korean" }
 	}
-
+		
 	bitmapfont_override = {
 		name = "AnimatedMapText"
-#		path = "gfx/fonts/hoi_16mbs"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/korean/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
-			"gfx/fonts/japanese/hoi_18"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "Main_16"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/korean/garamond_16_bold"
-			"gfx/fonts/japanese/garamond_16_bold"
 		}
 		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "Main_14"
-		fontfiles = {
-			"gfx/fonts/korean/japanese/garamond_14"
+		fontfiles = { 
+			"gfx/fonts/korean/garamond_14"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "Main_14_grey"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/korean/garamond_14"
-			"gfx/fonts/japanese/garamond_14"
-			"gfx/fonts/garamond_14"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "Main_14_black"
-		path = "gfx/fonts/garamond_14_bold"
-		languages = { "l_korean" }
-	}
-	bitmapfont_override = {
-		name = "Main_14_bold"
-		path = "gfx/fonts/garamond_14_bold"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/garamond_14_bold"
+		}
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
-		name = "Main_14_eu"
-		path = "gfx/fonts/garamond_14"
-		languages = { "l_korean" }
+		name = "Main_14_bold"
+		fontfiles = { 
+			"gfx/fonts/korean/garamond_14_bold"	
+		}
+		languages = { "l_korean" } 
 	}
+	
+	bitmapfont_override = {
+		name = "Main_14_eu"
+		fontfiles = { 
+			"gfx/fonts/korean/garamond_14"
+		}
+		languages = { "l_korean" } 
+	}
+
 	bitmapfont_override = {
 		name = "garamond_14"
-		path = "gfx/fonts/garamond_14"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/garamond_14"
+		}
+	languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "vic_18_black"
-		path = "gfx/fonts/vic_18"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/vic_18"
+		}
+		languages = { "l_korean" } 
 	}
+
 	bitmapfont_override = {
 		name = "vic_18"
-		path = "gfx/fonts/vic_18"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/vic_18"
+		}
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "vic_22"
-		path = "gfx/fonts/vic_22"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/vic_22"
+		}
+		languages = { "l_korean" } 
 	}
+		
 	bitmapfont_override = {
 		name = "vic_36_black"
-		path = "gfx/fonts/vic_36"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/vic_36"
+		}
+		languages = { "l_korean" } 
 	}
-
+		
 	bitmapfont_override = {
 		name = "vic_36"
-		path = "gfx/fonts/vic_36"
-		languages = { "l_korean" }
+		fontfiles = { 
+			"gfx/fonts/korean/vic_36"
+		}
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
@@ -117,16 +134,16 @@ bitmapfonts = {
 
 	bitmapfont_override = {
 		name = "hoi_18"
-		fontfiles = {
-			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+		fontfiles = { 
+			"gfx/fonts/korean/hoi_18"	
 		}
-		languages = { "l_korean" }
+	languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "hoi_18b"
 		fontfiles = {
+			"gfx/fonts/korean/hoi_18"
 			"gfx/fonts/hoi_18"
 			"gfx/fonts/hoi_18_cryllic"
 			"gfx/fonts/japanese/hoi_18b"
@@ -137,7 +154,6 @@ bitmapfonts = {
 		}
 		languages = { "l_korean" }
 	}
-
 
 	bitmapfont_override = {
 		name = "hoi_18mbs"
@@ -152,7 +168,6 @@ bitmapfonts = {
 		languages = { "l_korean" }
 	}
 
-
 	bitmapfont_override = {
 		name = "hoi_20b"
 		fontfiles = {
@@ -164,6 +179,7 @@ bitmapfonts = {
 		}
 		languages = { "l_korean" }
 	}
+
 	bitmapfont_override = {
 		name = "hoi_20bs"
 		fontfiles = {
@@ -180,13 +196,11 @@ bitmapfonts = {
 
 	bitmapfont_override = {
 		name = "hoi4_typewriter16"
-		fontfiles = {
-			"gfx/fonts/hoi4_typewriter16"
-
-			"gfx/fonts/cc/typewriter16"
+		fontfiles = { 	
 			"gfx/fonts/hoi_16typewriter"
+			"gfx/fonts/cc/hoi4_typewriter16_inverted"	
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
@@ -195,17 +209,13 @@ bitmapfonts = {
 			"gfx/fonts/hoi4_typewriter16_inverted"
 			"gfx/fonts/hoi_16typewriter_inverted"
 			"gfx/fonts/hoi_16typewriter_cryllic_inverted"
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_1of4"	
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_2of4"	
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_3of4"	
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_4of4"	
+			"gfx/fonts/cc/hoi4_typewriter16_inverted"	
 		}
 		languages = { "l_korean" }
 	}
 
 	bitmapfont_override = {
 		name = "hoi4_typewriter22"
-#		path = "gfx/fonts/hoi4_typewriter22"
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter22"
 			"gfx/fonts/hoi_22typewriter"
@@ -214,14 +224,12 @@ bitmapfonts = {
 			"gfx/fonts/chinese/hoi_22typewriter_3of4"
 			"gfx/fonts/chinese/hoi_22typewriter_4of4"
 			"gfx/fonts/chinese/hoi_22typewriter_inverted"
-#			"gfx/fonts/hoi_22typewriter_cryllic"
 		}
 		languages = { "l_korean" }
 	}
 
 	bitmapfont_override = {
 		name = "hoi4_typewriter22_inverted"
-#		path = "gfx/fonts/hoi4_typewriter22"
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter22_inverted"
 			"gfx/fonts/hoi_22typewriter_inverted"
@@ -229,7 +237,6 @@ bitmapfonts = {
 			"gfx/fonts/chinese/hoi4_typewriter22_inverted_2of4"	
 			"gfx/fonts/chinese/hoi4_typewriter22_inverted_3of4"	
 			"gfx/fonts/chinese/hoi4_typewriter22_inverted_4of4"	
-#			"gfx/fonts/hoi_22typewriter_cryllic"
 		}
 		languages = { "l_korean" }
 	}
@@ -249,7 +256,6 @@ bitmapfonts = {
 
 	bitmapfont_override = {
 		name = "nsb_hoi_24header"
-#		path = "gfx/fonts/hoi_24header"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_24header"
 			"gfx/fonts/chinese/hoi_24header_1of4"	
@@ -263,15 +269,14 @@ bitmapfonts = {
 
 	bitmapfont_override = {
 		name = "hoi_30header"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/hoi_30header"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "hoi_36header"
-#		path = "gfx/fonts/hoi_30header"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_36header"
 			"gfx/fonts/chinese/hoi_30header_1of4"	
@@ -285,82 +290,74 @@ bitmapfonts = {
 
 	bitmapfont_override = {
 		name = "nsb_hoi_36header"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/korean/hoi_36header"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "hoi_22tech"
-		fontfiles = {
-			"gfx/fonts/hoi_22tech"
-
+		fontfiles = { 
+			"gfx/fonts/korean/hoi_22tech"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
-
 
 	bitmapfont_override = {
 		name = "hoi_22chat"
-		fontfiles = {
-			"gfx/fonts/hoi_22tech"
+		fontfiles = { 
+			"gfx/fonts/korean/hoi_22tech"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
-
 
 	bitmapfont_override = {
 		name = "hoi_33"
-#		path = "gfx/fonts/hoi_33"
-		fontfiles = {
-			"gfx/fonts/hoi_33"
+		fontfiles = { 
+			"gfx/fonts/korean/hoi_33"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
+
 	bitmapfont_override = {
 		name = "hoi_arrow_font"
-		fontfiles = {
-			"gfx/fonts/hoi_arrow_font"
+		fontfiles = { 
+			"gfx/fonts/korean/hoi_arrow_font"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "tahoma_60"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/hoi_mapfont4"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
 		name = "hoi_30"
-		fontfiles = {
-			"gfx/fonts/hoi_30"
-			"gfx/fonts/hoi_30_cyrillic"
-			"gfx/fonts/japanese/hoi_30"
+		fontfiles = { 
+			"gfx/fonts/korean/hoi_30"	
 		}
-		languages = { "l_korean" }
-	}
-		
-	bitmapfont_override = {
-		name = "Arial12"
-		fontfiles = {
-			"gfx/fonts/Arial12"
-			"gfx/fonts/japanese/Arial12"
-		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
 
 	bitmapfont_override = {
-		name = "cg_16b"				####### GENERAL TOOLTIP FONT ########
-#		path = "gfx/fonts/cg_16b"
-		fontfiles = {
-			"gfx/fonts/cg_16b"
-			"gfx/fonts/hoi_16tooltip3"
-			"gfx/fonts/japanese/cg_16b"
+		name = "Arial12"
+		fontfiles = { 
+			"gfx/fonts/korean/Arial12"
 		}
-		languages = { "l_korean" }
+		languages = { "l_korean" } 
 	}
+
+	bitmapfont_override = {
+		name = "cg_16b"
+		fontfiles = { 
+			"gfx/fonts/korean/cg_18b"
+		}
+		languages = { "l_korean" } 
+	}
+	
 }
