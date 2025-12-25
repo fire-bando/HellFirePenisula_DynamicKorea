@@ -36,8 +36,7 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "Main_14"
 		fontfiles = {
-			# "gfx/fonts/japanese/garamond_14"
-			"gfx/fonts/garamond_14"
+			"gfx/fonts/korean/japanese/garamond_14"
 		}
 		languages = { "l_korean" }
 	}
@@ -45,6 +44,7 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "Main_14_grey"
 		fontfiles = {
+			"gfx/fonts/korean/garamond_14"
 			"gfx/fonts/japanese/garamond_14"
 			"gfx/fonts/garamond_14"
 		}

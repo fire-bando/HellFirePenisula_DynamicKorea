@@ -85,11 +85,11 @@ spriteTypes={
 	}
 	spriteType={
 		name="GFX_portrait_air_hwang"
-		texturefile="gfx/leaders/HMC/airhwang.dds"
+		texturefile="gfx/leaders/KMC/airhwang.dds"
 	}
 	spriteType={
-		name="GFX_portrait_hmc_hwang_large"
-		texturefile="gfx/leaders/HMC/portrait_large_hwang.dds"
+		name="GFX_portrait_KMC_hwang_large"
+		texturefile="gfx/leaders/KMC/portrait_large_hwang.dds"
 	}
 	# spriteType={ FILE IS MISSING
 	# 	name="GFX_park_chul_gon"
@@ -97,19 +97,19 @@ spriteTypes={
 	# }
 	spriteType={
 		name="GFX_son_su_jal"
-		texturefile="gfx/leaders/HMC/portrait_large_son.dds"
+		texturefile="gfx/leaders/KMC/portrait_large_son.dds"
 	}
 	spriteType={
 		name="GFX_gyeon_ssang_sub"
-		texturefile="gfx/leaders/HMC/portrait_large_ssang.dds"
+		texturefile="gfx/leaders/KMC/portrait_large_ssang.dds"
 	}
 	spriteType={
 		name="GFX_gwak_mal_pung_large"
-		texturefile="gfx/leaders/HMC/portrait_large_gwak.dds"
+		texturefile="gfx/leaders/KMC/portrait_large_gwak.dds"
 	}
 	spriteType={
 		name="GFX_kwae_heung_tae"
-		texturefile="gfx/leaders/HMC/portrait_large_heung.dds"
+		texturefile="gfx/leaders/KMC/portrait_large_heung.dds"
 	}
 	spriteType={
 		name="GFX_kim_seon_tae"
