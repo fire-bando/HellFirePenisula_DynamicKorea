@@ -4,7 +4,7 @@ oob = "JNR_2023"
 
 starting_train_buffer = 20
 
-recruit_character = JNR_daejung_kim
+recruit_character = JNR_gang_gijeong
 recruit_character = JNR_jiwon_park
 
 # Starting tech

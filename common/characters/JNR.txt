@@ -1,9 +1,21 @@
 characters={ 
-    JNR_daejung_kim={
-        name=JNR_daejung_kim
+    JNR_central_party={
+        name=JNR_central_party
         portraits={
             civilian={
                 large=GFX_portrait_SOV_supreme_soviet
+            }
+        }
+        country_leader={
+            ideology=udeol_democratic
+            expire="1960.8.16"
+        }
+    }
+    JNR_gang_gijeong={
+        name=JNR_gang_gijeong
+        portraits={
+            civilian={
+                large=GFX_JNR_gang_gijeong_large
             }
         }
         country_leader={

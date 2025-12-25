@@ -21,7 +21,7 @@
  PRC_bo_xilai:0 "보시라이"
  KGR_donitz: "카를 되니츠"
  
- JNR_daejung_kim:0 "인민대표자회의"
+ JNR_central_party:0 "당중앙"
  JNR_jiwon_park:0 "박지원"
  RGG_ryu_gyeongi:0 "류경기"
  JNR_place_holder:0 "플레이스 홀더"
@@ -34,7 +34,7 @@
  GNG_kim_geonhee:0 "김건희"
  SPO_donghun:0 "한동훈"
  AHN_cheol_su:0 "안철수"
- GWA_gang_gijeong:0 "강기정"
+ JNR_gang_gijeong:0 "강기정"
  YG1_jung_gimyung:0 "정기명"
 
  AIR_airgeunchul:0 "공군출"

@@ -1,7 +1,5 @@
 capital = 60
 
-recruit_character = GWA_gang_gijeong
-
 oob = "standard_templates"
 
 # Starting tech

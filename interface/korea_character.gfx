@@ -68,8 +68,8 @@ spriteTypes={
 		texturefile="gfx/leaders/SMS/Lee_Jae_yong.png"
 	}
 	spriteType={
-		name="GFX_GWA_gang_gijeong_large"
-		texturefile="gfx/leaders/GWA/gang_gijeong.png"
+		name="GFX_JNR_gang_gijeong_large"
+		texturefile="gfx/leaders/JNR/gang_gijeong.png"
 	}
 	spriteType={
 		name="GFX_ASS_k1_large"
