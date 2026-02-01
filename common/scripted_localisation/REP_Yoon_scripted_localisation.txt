@@ -31,10 +31,10 @@ defined_text = {
 	text = { localization_key = YNN_redacted }
 }
 defined_text = {
-	name = GetYNNFocusYNN_declare_martial_law
+	name = GetYNNFocusYNN_thrown_dice
 	text = {
 		trigger = { YNN = { is_ai = no } }
-		localization_key = YNN_declare_martial_law_text
+		localization_key = YNN_thrown_dice_text
 	}
 	text = { localization_key = YNN_redacted }
 }

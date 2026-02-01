@@ -51,7 +51,7 @@ shared_focus = {
 # 	dynamic = yes
 
 # 	# prerequisite = {
-# 	# 	focus = YNN_declare_martial_law
+# 	# 	focus = YNN_thrown_dice
 # 	# }
 
 # 	# offset = {
@@ -145,7 +145,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = YNN_declare_martial_law
+	id = YNN_thrown_dice
 	icon = {
 		trigger = {
 			YNN = {
@@ -246,13 +246,13 @@ shared_focus = {
 	# 	focus = YNN_unconstitutional_state_council_proceedings
 	# }
 	prerequisite = {
-		focus = YNN_declare_martial_law
+		focus = YNN_thrown_dice
 	}
 
 	dynamic = yes
 
 	cost = 2
-	relative_position_id = YNN_declare_martial_law
+	relative_position_id = YNN_thrown_dice
 	x = 0
 	y = 3
 
