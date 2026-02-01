@@ -1,0 +1,19 @@
+state={
+	id=762
+	name="STATE_762"
+	history={
+		owner = JNR
+		add_claim_of = SMG
+		add_core_of = JNR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		14394 15527 
+	}
+	manpower=67
+	buildings_max_level_factor=1
+	state_category = wasteland
+	local_supplies=0
+}
