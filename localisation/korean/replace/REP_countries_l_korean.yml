@@ -53,6 +53,7 @@
  JBR:0 "전주정무위원회"
  JBR_ADJ:0 "전주정무위원회"
  JBR_DEF:0 "전주정무위원회"
+ JNN:0 "서전북임시위원회"
 
  CHU_democratic:0 "충주 공화국"
  CHU_neutrality:0 "대한민국 충주정부"
@@ -672,10 +673,6 @@
  WNS:0 "완주군벌"
  WNS_ADJ:0 "완주군벌"
  WNS_DEF:0 "완주군벌"
-
- BGB:0 "부안군벌"
- BGB_ADJ:0 "부안군벌"
- BGB_DEF:0 "부안군벌"
 
  NAJ:0 "나주군벌"
  NAJ_ADJ:0 "나주군벌"

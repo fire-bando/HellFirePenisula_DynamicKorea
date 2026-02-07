@@ -341,12 +341,7 @@ country_event = {
 			transfer_state = 750
 			transfer_state = 751
 		}
-		NMJ = {
-			load_oob = JNR_CLIQUEOOB
-			transfer_state = 316
-			transfer_state = 317
-			transfer_state = 318
-		}
+
 		WNS = {
 			load_oob = JNR_CLIQUEOOB
 			transfer_state = 322
@@ -394,13 +389,6 @@ country_event = {
 			add_state_core = 311
 			transfer_state = 308
 			add_state_core = 308
-		}
-		BGB = {
-			load_oob = JNR_CLIQUEOOB
-			transfer_state = 320
-			transfer_state = 321
-			add_state_core = 320
-			add_state_core = 321
 		}
 		HPG = {
 			load_oob = JNR_CLIQUEOOB
