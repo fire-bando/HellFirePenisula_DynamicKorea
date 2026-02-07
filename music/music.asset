@@ -1,6 +1,6 @@
 
 music = {
 	name = "maintheme"
-	file = "when_the_life_ahead_of_us_comes_to_an_end.ogg"
-	volume = 1
+	file = "nationalanthem.ogg"
+	volume = 0.7
 }
