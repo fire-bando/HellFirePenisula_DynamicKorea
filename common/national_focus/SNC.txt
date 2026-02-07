@@ -1,0 +1,34 @@
+focus_tree = {
+	id = SNC_focus_1
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SNC
+		}
+	}
+	focus = {
+		id = SNC_promote_haeryong_township
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		x = 10
+		y = 0
+		cost = 5
+		completion_reward = {
+			todo
+		}
+	}
+	focus = {
+		id = SNC_reform_public_transportation
+		icon = GFX_abcdef
+		x = 1
+		y = 1
+		cost = 2
+		completion_reward = {
+			asdf
+		}
+		prerequisite = { focus = SNC_promote_haeryong_township }
+		relative_position_id = SNC_promote_haeryong_township
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 2000 }
+}
