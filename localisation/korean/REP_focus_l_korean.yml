@@ -70,7 +70,24 @@
  PPC_struggle_for_freedom:0 "자유민주주의를 위한 투쟁"
 
  SNC_promote_haeryong_township:0 "해룡면 승격"
- SNC_reform_public_transportation
+ SNC_reform_public_transportation:0 "대중교통 개혁"
+ SNC_west_sunchon_develop:0 "서순천 개발"
+ SNC_end_of_exclusion_order:0 "신대 봉금령 해제"
+ SNC_eastern_plan:0 "전남동부계획"
+ SNC_adjust_boundary_of_yulchon_industrial_complex:0 "율촌산단 행정구역 재조정"
+ SNC_new_garden_expo:0 "정원박람회 대개편"
+ SNC_take_over_mbc:0 "여수MBC흡수"
+ SNC_sindae_plan:0 "신대2지구 계획"
+ SNC_west_gwangyang_station:0 "서광양역"
+ SNC_incorporate_yulchon_into_sunchon_living_area:0 "율촌을 순천 생활권으로 편입"
+ SNC_west_sunchon_gwangyang_develop:0 "서순천 - 광양 연담화 확장"
+ SNC_unified_eastern_proposal:0 "전남동부통합 제안"
+ SNC_propaganda_for_gwangyang_citizen:0 "광양시민교란"
+ SNC_sepoong_haeryong_industrial_complex:0 "세풍-해룡 통합 산단"
+ SNC_gain_upper_hand_over_yeosu:0 "전남동부 패권확보"
+ SNC_gwangyang_buffer_state_strategy:0 "광양 분리공작"
+ SNC_yeonhyang_skyscraypper:0 "연향 마천루"
+ SNC_NGG_prime_minister:0 "노관규 정무위원장" 
 
  ## SBU ##
  SBU_in_the_ruins: "폐허 속에서"
