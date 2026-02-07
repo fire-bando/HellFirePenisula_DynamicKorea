@@ -69,6 +69,7 @@ JSG = "countries/South Korea.txt" #장성군벌 전부 삭제
 GSN = "countries/South Korea.txt" #광산군벌 전부 삭제
 YKG = "countries/South Korea.txt" #영광군벌 전부 삭제
 KCG = "countries/South Korea.txt" #고창군벌 전부 삭제
+F1C = "countries/South Korea.txt" #영암F1서킷
 
 # 대전
 WDJ = "countries/South Korea.txt" # 서대전

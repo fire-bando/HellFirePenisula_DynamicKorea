@@ -35,6 +35,27 @@ if = {
 		target = JYA
 		autonomous_state = autonomy_integrated_puppet
 	}
+	##fragment
+	set_autonomy = {
+		target = JBR
+		autonomous_state = autonomy_teukbyeol_jachidanche
+	}
+	set_autonomy = {
+		target = JNN
+		autonomous_state = autonomy_teukbyeol_jachidanche
+	}
+	set_autonomy = {
+		target = SNC
+		autonomous_state = autonomy_teukbyeol_jachidanche
+	}
+	set_autonomy = {
+		target = GGO
+		autonomous_state = autonomy_teukbyeol_jachidanche
+	}
+	set_autonomy = {
+		target = F1C
+		autonomous_state = autonomy_teukbyeol_jachidanche
+	}
 }
 
 set_convoys = 20
