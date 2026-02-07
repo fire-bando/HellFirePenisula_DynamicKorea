@@ -1,5 +1,31 @@
 add_namespace = jnr_event
+add_namespace = jdc_event
 
+
+country_event = {
+	id = jdc_event.1
+	title = jdc_event.1
+	picture = GFX_news_event_019
+	desc = jdc_event.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = jdc_event.1.a
+		ROOT = {
+			transfer_state = 297
+			transfer_state = 313
+		}
+		hidden_effect = {
+			JDC = {
+				annex_country = { target = F1C }
+				annex_country = { target = JHH }
+				add_core_of = 294
+				add_core_of = 308
+			}
+		}
+	}
+}
 
 news_event = {
 	id = jnr_event.1
@@ -364,11 +390,6 @@ country_event = {
 			transfer_state = 735
 			transfer_state = 736
 		}
-		IMS = {
-			load_oob = JNR_CLIQUEOOB
-			transfer_state = 319
-			add_state_core = 319
-		}
 		NMW = {
 			load_oob = JNR_CLIQUEOOB
 			transfer_state = 315
@@ -402,7 +423,7 @@ country_event = {
 			transfer_state = 313
 			add_state_core = 313
 		}
-		JSG = {
+		JHH = {
 			load_oob = JNR_CLIQUEOOB
 			transfer_state = 298
 			add_state_core = 298

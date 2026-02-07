@@ -56,6 +56,10 @@ if = {
 		target = F1C
 		autonomous_state = autonomy_teukbyeol_jachidanche
 	}
+	set_autonomy = {
+		target = JDC
+		autonomous_state = autonomy_colonial_company
+	}
 }
 
 set_convoys = 20

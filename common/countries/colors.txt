@@ -82,6 +82,7 @@ YG1 = {	color = rgb { 214 51 51 }	color_ui = rgb { 214 51 51 } }
 SNC = {	color = rgb { 20 105 20 }	color_ui = rgb { 20 105 20 } }
 JDH = {	color = rgb { 189 124 102 }	color_ui = rgb { 189 124 102 } }
 JNR = {	color = rgb { 174 13 43 }	color_ui = rgb { 174 13 43 } }
+JDC = {	color = rgb { 174 13 43 }	color_ui = rgb { 174 13 43 } }
 GGO = {	color = rgb { 14 113 43 }	color_ui = rgb { 14 113 43 } }
 SIN = {	color = rgb { 13 105 171 }	color_ui = rgb { 13 105 171 } }
 GYE = {	color = rgb { 61 61 61 }	color_ui = rgb { 61 61 61 } }
@@ -212,10 +213,6 @@ JNN = {
 	color = rgb { 100 150 120 }
 	color_ui = rgb { 130 195 156 }
 }
-IMS = {
-	color = rgb { 200 100 50 }
-	color_ui = rgb { 255 130 65 }
-}
 NMW = {
 	color = rgb { 50 100 80 }
 	color_ui = rgb { 65 130 104 }
@@ -240,7 +237,7 @@ HPG = {
 	color = rgb { 200 180 120 }
 	color_ui = rgb { 255 234 156 }
 }
-JSG = {
+JHH = {
 	color = rgb { 150 90 60 }
 	color_ui = rgb { 195 117 78 }
 }

@@ -4,9 +4,8 @@ state={
 	name="STATE_310"
 
 	history={
-		owner = JNR
-		add_core_of = SIN
-    add_core_of = JNR
+		owner = SIN
+    	add_core_of = JNR
 		victory_points = {
 			3630 5 
 		}
@@ -14,6 +13,7 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 		}
+		# resistance = 40
 	}
 
 	provinces={

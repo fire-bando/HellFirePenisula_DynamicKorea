@@ -1,0 +1,40 @@
+capital = 297
+
+starting_train_buffer = 4
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = F1C
+		autonomous_state = autonomy_business_unit
+	}
+	set_autonomy = {
+		target = JHH
+		autonomous_state = autonomy_business_unit
+	}
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2020.4.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 88
+	democratic = 3
+	neutrality = 9
+}
