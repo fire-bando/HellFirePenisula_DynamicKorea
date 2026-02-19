@@ -596,9 +596,6 @@ on_actions = {
 				}
 				every_country = { set_cosmetic_tag = NOPE }
 			}
-			YG1 = {
-				
-			}
 		}
 	}
 	on_weekly = { # 거점 점령 보너스? 같은거 구현
