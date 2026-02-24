@@ -51,9 +51,11 @@
 
  theocratic_totalitarianism: "신정주의적 전체주의"
  theocratic_totalitarianism_desc: "신정주의적 전체주의는 신정일치의 원리에 입각하여, 종교 권력이 국가를 절대적으로 지배하는 전체주의 체제입니다. 국교를 정점으로 한 종교적 교리와 가치가 정치, 경제, 사회, 문화 전반을 규율하게 됩니다. 개인은 신앙 공동체에 예속되고, 이단시되는 사상과 집단은 가차 없이 탄압 받습니다. 세속 정부는 신정 정부의 시녀로 전락하며, 반종교적 자유는 말살당합니다."
+ 
+ #guomindazhongzhuyi
+ national_kimdaejung_ideology: "국민김대중주의"
 
  #-- Communism --#
  commnuism_juche_subtype: "주체사상"
  commnuism_juche_subtype_desc: "주체사상은 "인민대중의 자주성을 실현하기 위한 혁명사상"을 표방합니다. 정치에서의 자주, 경제에서의 자립, 국방에서의 자위를 강조하는 민족주의적 성격을 띱니다. 수령 절대주의에 입각한 유일지배체제를 정당화하며, 개인숭배와 권력 세습, 폐쇄 체제의 근간을 이루고 있습니다."
- udeol_democratic: "우덜민주주의"
  maoism: "마오주의"

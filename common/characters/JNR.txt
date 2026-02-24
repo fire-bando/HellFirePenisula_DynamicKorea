@@ -7,7 +7,7 @@ characters={
             }
         }
         country_leader={
-            ideology=udeol_democratic
+            ideology=national_kimdaejung_ideology
             expire="1960.8.16"
         }
     }
@@ -19,7 +19,7 @@ characters={
             }
         }
         country_leader={
-            ideology=udeol_democratic
+            ideology=national_kimdaejung_ideology
             expire="1960.8.16"
         }
     }

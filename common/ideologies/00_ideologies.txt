@@ -176,7 +176,10 @@ ideologies = {
 			communism_subtype = {}
 			commnuism_juche_subtype = {}
 
-			udeol_democratic = {}
+			national_kimdaejung_ideology = {
+				color = { 92 51 12 }
+			}
+
 			marxism = {}
 			leninism = {}
 			maoism = {}

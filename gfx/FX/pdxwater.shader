@@ -326,9 +326,9 @@ PixelShader =
 			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb;
 		
 		#ifdef NO_REFRACTIONS
-			float3 refractiveColor = float3( 0, 0.05f, 0.1f );
+			float3 refractiveColor = float3( 0, 0.1f, 0.2f );
 		#else
-			float3 refractiveColor = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb * 0.5f;
+			float3 refractiveColor = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;
 		#endif
 
 			float fresnelBias = 0.5f; // CUBEMAP INTENSITY
@@ -354,6 +354,11 @@ PixelShader =
 				vGBCamDistOverride_GBOutlineCutoff.zw * GB_OUTLINE_CUTOFF_SEA,
 				vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
 			
+			// darkness offset -- summary: 
+			// when we fixed an old bug in the gradient border code, it made most mapmodes brighter. Players don't like that.
+			// Therefore we offset the water a bit to make it more like what they're used to.
+			float3 Darkness = float3(0,0,0); 
+			refractiveColor = lerp(refractiveColor, Darkness, 0.8f);
 			
 			secondary_color_mask( refractiveColor, normal, 
 				Input.uv - vRefractionDistortion * 0.001, 
