@@ -7,7 +7,7 @@ characters={
             }
         }
         country_leader={
-            ideology=national_kimdaejung_ideology
+            ideology=national_kimdaejung_ideology_subtype
             expire="1960.8.16"
         }
     }
@@ -19,7 +19,7 @@ characters={
             }
         }
         country_leader={
-            ideology=national_kimdaejung_ideology
+            ideology=national_kimdaejung_ideology_subtype
             expire="1960.8.16"
         }
     }

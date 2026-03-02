@@ -176,10 +176,6 @@ ideologies = {
 			communism_subtype = {}
 			commnuism_juche_subtype = {}
 
-			national_kimdaejung_ideology = {
-				color = { 92 51 12 }
-			}
-
 			marxism = {}
 			leninism = {}
 			maoism = {}
@@ -510,6 +506,46 @@ ideologies = {
 
 		ai_fascist = yes # uses the fascist AI behaviour
 		ai_ideology_wanted_units_factor = 1.65
+	}
+	national_kimdaejung_ideology = {
+		types = {
+			national_kimdaejung_ideology_subtype = {}
+		}
+		color = { 92 51 12 }
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+
+		ai_democratic = yes
+		ai_ideology_wanted_units_factor = 1.10
 	}
 	idolism = {
 		types = {
