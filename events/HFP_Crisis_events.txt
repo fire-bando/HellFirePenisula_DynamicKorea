@@ -1,0 +1,99 @@
+add_namespace = hfp_crisis
+
+# =========================================================
+#  0. 전라인민공화국 재통일 (슈퍼/뉴스 이벤트)
+#     -> 글로벌 플래그 HFPGB_JEOLLA_REUNITED 설정
+#     -> 대구(TAE)에게 대응 이벤트 발송
+# =========================================================
+news_event = {
+	id = hfp_crisis.0
+	title = hfp_crisis.0.t
+	desc = hfp_crisis.0.d
+	picture = GFX_report_event_international_news
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hfp_crisis.0.a
+		set_global_flag = HFPGB_JEOLLA_REUNITED
+		if = {
+			limit = { TAE = { exists = yes } }
+			TAE = { country_event = { id = hfp_crisis.1 days = 0 } }
+		}
+	}
+}
+
+# =========================================================
+#  1. 대구(TAE) 대응 이벤트
+#     "마땅히 대응해야 한다!" -> 위기 셋업 + 위기 창 ON
+# =========================================================
+country_event = {
+	id = hfp_crisis.1
+	title = hfp_crisis.1.t
+	desc = hfp_crisis.1.d
+	picture = GFX_report_event_tae_event
+
+	is_triggered_only = yes
+
+	# 마땅히 대응해야 한다!
+	option = {
+		name = hfp_crisis.1.a
+		setup_jeolla_reunification_crisis = yes
+		set_country_flag = HFPGUI_CRISIS_ON
+	}
+
+	# ...우리 일이 아니다. (무시)
+	option = {
+		name = hfp_crisis.1.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+# =========================================================
+#  10. 주사위는 던져졌다 (비상계엄 발동 - 슈퍼/뉴스 이벤트)
+#      -> 글로벌 플래그 HFPGB_DICE_IS_CAST
+#      -> 위기 데이터 셋업
+#      -> 대상 국가에 위기 창 자동 팝업 (현재: VII 만. 추후 태그 추가)
+# =========================================================
+news_event = {
+	id = hfp_crisis.10
+	title = hfp_crisis.10.t
+	desc = hfp_crisis.10.d
+	picture = GFX_report_event_international_news
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hfp_crisis.10.a
+		set_global_flag = HFPGB_DICE_IS_CAST
+		setup_martial_law_crisis = yes
+
+		# ↓↓↓ 위기 창이 자동으로 뜰 국가들 (확정되면 여기에 추가) ↓↓↓
+		if = {
+			limit = { VII = { exists = yes } }
+			VII = {
+				set_country_flag = HFPGUI_CRISIS_ON
+				country_event = { id = hfp_crisis.11 days = 0 }
+			}
+		}
+	}
+}
+
+# =========================================================
+#  11. 비상계엄 선포 알림 (대상국가에게)
+#      위기 창은 이미 자동으로 떠 있음 - 이건 짧은 통지용
+# =========================================================
+country_event = {
+	id = hfp_crisis.11
+	title = hfp_crisis.11.t
+	desc = hfp_crisis.11.d
+	picture = GFX_report_event_international
+
+	is_triggered_only = yes
+
+	option = {
+		name = hfp_crisis.11.a
+	}
+}

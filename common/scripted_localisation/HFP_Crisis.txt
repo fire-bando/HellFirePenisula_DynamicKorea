@@ -1,0 +1,22 @@
+# 위기 창의 [CRISIS.getDesc] 역할
+# global.crisis_desc_id 값에 따라 다른 설명을 출력
+defined_text = {
+	name = Crisis_GetDesc
+
+	# 1 = 전라인민공화국 재통일 위기 (경상도 관점, 과장)
+	text = {
+		trigger = { check_variable = { global.crisis_desc_id = 1 } }
+		localization_key = HFP_CRISIS_DESC_JEOLLA_REUNITED
+	}
+
+	# 2 = 비상계엄 위기 (용산/계엄 관점, 과장)
+	text = {
+		trigger = { check_variable = { global.crisis_desc_id = 2 } }
+		localization_key = HFP_CRISIS_DESC_MARTIAL_LAW
+	}
+
+	# 기본값 (위기 없음 / 미설정)
+	text = {
+		localization_key = HFP_CRISIS_DESC_DEFAULT
+	}
+}

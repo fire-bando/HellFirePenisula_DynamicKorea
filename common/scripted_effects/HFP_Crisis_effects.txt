@@ -1,0 +1,58 @@
+# 위기 데이터 셋업 effect
+# 예시 위기: 전라인민공화국(JNR) 재통일 -> 대구(TAE)가 당사자로 맞섬
+# (지지국/중립은 일단 예시값. 모딩하다 고치면 됨)
+setup_jeolla_reunification_crisis = {
+	clear_array = global.crisis_origin_array
+	clear_array = global.crisis_opp_array
+	clear_array = global.crisis_origin_supporters
+	clear_array = global.crisis_opp_supporters
+	clear_array = global.crisis_neutral
+
+	set_variable = { global.crisis_desc_id = 1 }
+
+	# 당사자
+	JNR = { add_to_array = { global.crisis_origin_array = THIS } }   # 원진영 = 전라인민공화국
+	TAE = { add_to_array = { global.crisis_opp_array = THIS } }      # 반대진영 = 대구
+
+	# 전라 지지국 (예시)
+	JNR = { add_to_array = { global.crisis_origin_supporters = THIS } }
+	GWA = { add_to_array = { global.crisis_origin_supporters = THIS } }
+	SBU = { add_to_array = { global.crisis_origin_supporters = THIS } }
+
+	# 대구 지지국 (예시)
+	TAE = { add_to_array = { global.crisis_opp_supporters = THIS } }
+	PJH = { add_to_array = { global.crisis_opp_supporters = THIS } }
+
+	# 중립 (예시)
+	SMS = { add_to_array = { global.crisis_neutral = THIS } }
+}
+
+# 위기: 비상계엄 ("주사위는 던져졌다")
+# 원진영 = 계엄세력(YNN) / 반대진영 = 반계엄·반국가세력(NLU)
+setup_martial_law_crisis = {
+	clear_array = global.crisis_origin_array
+	clear_array = global.crisis_opp_array
+	clear_array = global.crisis_origin_supporters
+	clear_array = global.crisis_opp_supporters
+	clear_array = global.crisis_neutral
+
+	set_variable = { global.crisis_desc_id = 2 }
+
+	# 당사자
+	YNN = { add_to_array = { global.crisis_origin_array = THIS } }   # 계엄세력 = 용산 대통령실
+	NLU = { add_to_array = { global.crisis_opp_array = THIS } }      # 반계엄 = 경기동부연합
+
+	# 계엄 지지 (예시)
+	YNN = { add_to_array = { global.crisis_origin_supporters = THIS } }
+	CWD = { add_to_array = { global.crisis_origin_supporters = THIS } }
+	SPO = { add_to_array = { global.crisis_origin_supporters = THIS } }
+	VII = { add_to_array = { global.crisis_origin_supporters = THIS } }
+
+	# 반계엄 지지 (예시)
+	NLU = { add_to_array = { global.crisis_opp_supporters = THIS } }
+	LAB = { add_to_array = { global.crisis_opp_supporters = THIS } }
+	LJM = { add_to_array = { global.crisis_opp_supporters = THIS } }
+
+	# 중립 (예시)
+	SMS = { add_to_array = { global.crisis_neutral = THIS } }
+}

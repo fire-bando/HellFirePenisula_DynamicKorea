@@ -1,0 +1,254 @@
+guiTypes = {
+
+	# =========================================================
+	#  위기(Crisis) 창
+	#  scripted_gui: HFP_Crisis  ->  window_name = "HFP_Crisis_Window"
+	#  좌 = 원진영(당사자+지지국) / 가운데 = 중립 / 우 = 반대진영(당사자+지지국)
+	# =========================================================
+	containerWindowType = {
+		name = "HFP_Crisis_Window"
+		position = { x = 170 y = 70 }
+		size = { width = 900 height = 640 }
+		moveable = yes
+		Orientation = upper_left
+
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		# 제목 : 위기
+		instantTextBoxType = {
+			name = "crisis_title"
+			position = { x = 0 y = 16 }
+			size = { width = 900 height = 44 }
+			font = "hoi_36header"
+			text = "HFP_CRISIS_TITLE"
+			format = center
+		}
+
+		buttonType = {
+			name = "close_button"
+			position = { x = 858 y = 12 }
+			quadTextureSprite = "GFX_closebutton"
+			Orientation = upper_left
+		}
+
+		# 설명 : [CRISIS.getDesc] -> scripted_localisation
+		instantTextBoxType = {
+			name = "crisis_desc"
+			position = { x = 28 y = 66 }
+			size = { width = 844 height = 116 }
+			font = "hoi_18mbs"
+			text = "[Crisis_GetDesc]"
+			format = left
+			maxWidth = 844
+			maxHeight = 116
+		}
+
+		# =================== 좌 : 원진영(origin) ===================
+		# 당사자 (큰 깃발)
+		containerWindowType = {
+			name = "origin_leader_container"
+			position = { x = 28 y = 194 }
+			size = { width = 250 height = 96 }
+			Orientation = upper_left
+			gridBoxType = {
+				name = "origin_leader_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				slotsize = { width = 250 height = 96 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+			}
+		}
+		# 구역 라벨 : 지지 국가
+		instantTextBoxType = {
+			name = "origin_supporter_label"
+			position = { x = 28 y = 298 }
+			size = { width = 250 height = 24 }
+			font = "hoi_18mbs"
+			text = "HFP_CRISIS_SUPPORTERS"
+			format = left
+		}
+		# 지지국 리스트 (스크롤)
+		containerWindowType = {
+			name = "origin_supporter_container"
+			position = { x = 28 y = 324 }
+			size = { width = 250 height = 178 }
+			Orientation = upper_left
+			verticalScrollbar = "right_vertical_slider_intel"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			gridBoxType = {
+				name = "origin_supporter_grid"
+				position = { x = 6 y = 6 }
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				slotsize = { width = 64 height = 48 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 3
+			}
+		}
+		buttonType = {
+			name = "crisis_support_origin_button"
+			position = { x = 28 y = 510 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonText = "HFP_CRISIS_SUPPORT"
+			buttonFont = "hoi_16mbs"
+			Orientation = upper_left
+		}
+
+		# =================== 가운데 : 중립(neutral) ===================
+		instantTextBoxType = {
+			name = "neutral_label"
+			position = { x = 325 y = 194 }
+			size = { width = 250 height = 24 }
+			font = "hoi_18mbs"
+			text = "HFP_CRISIS_NEUTRAL"
+			format = center
+		}
+		containerWindowType = {
+			name = "neutral_container"
+			position = { x = 325 y = 224 }
+			size = { width = 250 height = 278 }
+			Orientation = upper_left
+			verticalScrollbar = "right_vertical_slider_intel"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			gridBoxType = {
+				name = "neutral_grid"
+				position = { x = 6 y = 6 }
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				slotsize = { width = 64 height = 48 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 3
+			}
+		}
+		buttonType = {
+			name = "crisis_neutral_button"
+			position = { x = 325 y = 510 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonText = "HFP_CRISIS_NEUTRAL_BTN"
+			buttonFont = "hoi_16mbs"
+			Orientation = upper_left
+		}
+
+		# =================== 우 : 반대진영(opposition) ===================
+		containerWindowType = {
+			name = "opp_leader_container"
+			position = { x = 622 y = 194 }
+			size = { width = 250 height = 96 }
+			Orientation = upper_left
+			gridBoxType = {
+				name = "opp_leader_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				slotsize = { width = 250 height = 96 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+			}
+		}
+		instantTextBoxType = {
+			name = "opp_supporter_label"
+			position = { x = 622 y = 298 }
+			size = { width = 250 height = 24 }
+			font = "hoi_18mbs"
+			text = "HFP_CRISIS_SUPPORTERS"
+			format = left
+		}
+		containerWindowType = {
+			name = "opp_supporter_container"
+			position = { x = 622 y = 324 }
+			size = { width = 250 height = 178 }
+			Orientation = upper_left
+			verticalScrollbar = "right_vertical_slider_intel"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			gridBoxType = {
+				name = "opp_supporter_grid"
+				position = { x = 6 y = 6 }
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				slotsize = { width = 64 height = 48 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 3
+			}
+		}
+		buttonType = {
+			name = "crisis_support_opp_button"
+			position = { x = 622 y = 510 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonText = "HFP_CRISIS_SUPPORT"
+			buttonFont = "hoi_16mbs"
+			Orientation = upper_left
+		}
+	}
+
+	# =========================================================
+	#  동적 리스트 엔트리 템플릿
+	# =========================================================
+
+	# 당사자 : 큰 깃발(scale) + 국가명
+	containerWindowType = {
+		name = "crisis_leader_entry"
+		size = { width = 250 height = 96 }
+		Orientation = upper_left
+
+		iconType = {
+			name = "crisis_leader_flag"
+			quadTextureSprite = "GFX_player_flag"
+			position = { x = 0 y = 0 }
+			Orientation = upper_left
+		}
+		instantTextBoxType = {
+			name = "crisis_leader_name"
+			position = { x = 0 y = 64 }
+			size = { width = 250 height = 30 }
+			font = "hoi_18mbs"
+			text = "[This.GetName]"
+			format = left
+		}
+	}
+
+	# 지지국 : 작은 깃발
+	containerWindowType = {
+		name = "crisis_supporter_entry"
+		size = { width = 64 height = 48 }
+		Orientation = upper_left
+		iconType = {
+			name = "crisis_supporter_flag"
+			spriteType = "GFX_flag_small"
+			position = { x = 4 y = 4 }
+			Orientation = upper_left
+		}
+	}
+
+	# 중립국 : 작은 깃발
+	containerWindowType = {
+		name = "crisis_neutral_entry"
+		size = { width = 64 height = 48 }
+		Orientation = upper_left
+		iconType = {
+			name = "crisis_neutral_flag"
+			spriteType = "GFX_flag_small"
+			position = { x = 4 y = 4 }
+			Orientation = upper_left
+		}
+	}
+}

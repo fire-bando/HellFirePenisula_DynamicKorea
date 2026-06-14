@@ -1,0 +1,90 @@
+scripted_gui = {
+
+	# =========================================================
+	#  위기(Crisis) GUI
+	#  - HFPGUI_CRISIS_ON country_flag 가 true 일 때만 보임
+	#  - 데이터: global 배열/변수
+	#       global.crisis_origin_array      (당사자 1국 - 예: JNR)
+	#       global.crisis_opp_array         (당사자 1국 - 예: TAE)
+	#       global.crisis_origin_supporters (전라 지지국)
+	#       global.crisis_opp_supporters    (대구 지지국)
+	#       global.crisis_neutral           (중립국)
+	#       global.crisis_desc_id           ([Crisis_GetDesc] 분기)
+	# =========================================================
+	HFP_Crisis = {
+		context_type = player_context
+		window_name = "HFP_Crisis_Window"
+
+		visible = {
+			has_country_flag = HFPGUI_CRISIS_ON
+		}
+
+		dynamic_lists = {
+			origin_leader_grid = {
+				array = global.crisis_origin_array
+				change_scope = yes
+				entry_container = "crisis_leader_entry"
+			}
+			origin_supporter_grid = {
+				array = global.crisis_origin_supporters
+				change_scope = yes
+				entry_container = "crisis_supporter_entry"
+			}
+			opp_leader_grid = {
+				array = global.crisis_opp_array
+				change_scope = yes
+				entry_container = "crisis_leader_entry"
+			}
+			opp_supporter_grid = {
+				array = global.crisis_opp_supporters
+				change_scope = yes
+				entry_container = "crisis_supporter_entry"
+			}
+			neutral_grid = {
+				array = global.crisis_neutral
+				change_scope = yes
+				entry_container = "crisis_neutral_entry"
+			}
+		}
+
+		effects = {
+			close_button_click = {
+				clr_country_flag = HFPGUI_CRISIS_ON
+			}
+
+			# 원진영(전라) 지지
+			crisis_support_origin_button_click = {
+				if = { limit = { is_in_array = { global.crisis_opp_supporters = ROOT } } remove_from_array = { global.crisis_opp_supporters = ROOT } }
+				if = { limit = { is_in_array = { global.crisis_neutral = ROOT } } remove_from_array = { global.crisis_neutral = ROOT } }
+				if = { limit = { NOT = { is_in_array = { global.crisis_origin_supporters = ROOT } } } add_to_array = { global.crisis_origin_supporters = ROOT } }
+			}
+
+			# 반대진영(대구) 지지
+			crisis_support_opp_button_click = {
+				if = { limit = { is_in_array = { global.crisis_origin_supporters = ROOT } } remove_from_array = { global.crisis_origin_supporters = ROOT } }
+				if = { limit = { is_in_array = { global.crisis_neutral = ROOT } } remove_from_array = { global.crisis_neutral = ROOT } }
+				if = { limit = { NOT = { is_in_array = { global.crisis_opp_supporters = ROOT } } } add_to_array = { global.crisis_opp_supporters = ROOT } }
+			}
+
+			# 중립 선언
+			crisis_neutral_button_click = {
+				if = { limit = { is_in_array = { global.crisis_origin_supporters = ROOT } } remove_from_array = { global.crisis_origin_supporters = ROOT } }
+				if = { limit = { is_in_array = { global.crisis_opp_supporters = ROOT } } remove_from_array = { global.crisis_opp_supporters = ROOT } }
+				if = { limit = { NOT = { is_in_array = { global.crisis_neutral = ROOT } } } add_to_array = { global.crisis_neutral = ROOT } }
+			}
+		}
+
+		triggers = {
+			crisis_support_origin_button_click_enabled = { check_variable = { global.crisis_origin_array^num > 0 } }
+			crisis_support_opp_button_click_enabled = { check_variable = { global.crisis_opp_array^num > 0 } }
+			crisis_neutral_button_click_enabled = { check_variable = { global.crisis_origin_array^num > 0 } }
+		}
+
+		properties = {
+			# 당사자(큰 깃발)는 GFX_player_flag 자동 바인딩 -> 오버라이드 안 씀
+			# 지지국/중립(작은 깃발)은 GetFlag 오버라이드로 바인딩
+			crisis_supporter_flag = { image = "[This.GetFlag]" }
+			crisis_neutral_flag = { image = "[This.GetFlag]" }
+		}
+	}
+}

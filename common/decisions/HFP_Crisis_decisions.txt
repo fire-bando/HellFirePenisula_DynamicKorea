@@ -1,0 +1,64 @@
+HFP_crisis_category = {
+
+	# ===== GUI on/off 토글 =====
+	# country_flag HFPGUI_CRISIS_ON 을 set/clr 한다.
+	HFP_toggle_crisis_gui = {
+		icon = generic_decision
+
+		cost = 0
+		fire_only_once = no
+
+		available = { always = yes }
+
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = HFPGUI_CRISIS_ON }
+				clr_country_flag = HFPGUI_CRISIS_ON
+			}
+			else = {
+				set_country_flag = HFPGUI_CRISIS_ON
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ===== 데모 위기 발동 (테스트용) =====
+	# 전라인민공화국 재통일 위기 체인을 강제 발동
+	# (글로벌 플래그 설정 -> 대구 TAE 대응 이벤트). 대구로 플레이 중 테스트.
+	HFP_setup_demo_crisis = {
+		icon = generic_decision
+
+		cost = 0
+		fire_only_once = no
+
+		available = { always = yes }
+
+		complete_effect = {
+			set_global_flag = HFPGB_JEOLLA_REUNITED
+			if = {
+				limit = { TAE = { exists = yes } }
+				TAE = { country_event = { id = hfp_crisis.1 days = 0 } }
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+
+	# ===== 데모 위기 발동 : 비상계엄 ("주사위는 던져졌다") =====
+	# 글로벌 플래그 설정 -> 위기 셋업 -> VII 에 위기 창 자동 팝업
+	HFP_setup_demo_martial_law = {
+		icon = generic_decision
+
+		cost = 0
+		fire_only_once = no
+
+		available = { always = yes }
+
+		complete_effect = {
+			news_event = { id = hfp_crisis.10 days = 0 }
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+}

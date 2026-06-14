@@ -1,0 +1,4 @@
+HFP_crisis_category = {
+	priority = 100
+	allowed = { always = yes }
+}
