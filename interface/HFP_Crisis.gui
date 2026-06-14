@@ -21,7 +21,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "crisis_title"
 			position = { x = 0 y = 16 }
-			size = { width = 900 height = 44 }
+			maxWidth = 900
+			maxHeight = 44
 			font = "hoi_36header"
 			text = "HFP_CRISIS_TITLE"
 			format = center
@@ -38,7 +39,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "crisis_desc"
 			position = { x = 28 y = 66 }
-			size = { width = 844 height = 116 }
 			font = "hoi_18mbs"
 			text = "[Crisis_GetDesc]"
 			format = left
@@ -67,7 +67,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "origin_supporter_label"
 			position = { x = 28 y = 298 }
-			size = { width = 250 height = 24 }
+			maxWidth = 250
+			maxHeight = 24
 			font = "hoi_18mbs"
 			text = "HFP_CRISIS_SUPPORTERS"
 			format = left
@@ -108,7 +109,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "neutral_label"
 			position = { x = 325 y = 194 }
-			size = { width = 250 height = 24 }
+			maxWidth = 250
+			maxHeight = 24
 			font = "hoi_18mbs"
 			text = "HFP_CRISIS_NEUTRAL"
 			format = center
@@ -163,7 +165,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "opp_supporter_label"
 			position = { x = 622 y = 298 }
-			size = { width = 250 height = 24 }
+			maxWidth = 250
+			maxHeight = 24
 			font = "hoi_18mbs"
 			text = "HFP_CRISIS_SUPPORTERS"
 			format = left
@@ -219,7 +222,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "crisis_leader_name"
 			position = { x = 0 y = 64 }
-			size = { width = 250 height = 30 }
+			maxWidth = 250
+			maxHeight = 30
 			font = "hoi_18mbs"
 			text = "[This.GetName]"
 			format = left
