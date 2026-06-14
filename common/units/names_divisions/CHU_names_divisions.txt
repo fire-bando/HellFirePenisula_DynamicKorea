@@ -1,0 +1,25 @@
+﻿CHU_infantry =
+{
+	name = "Infantry Divisions"
+
+	for_countries = { CHU PPC GCH PGC CPA GLO KNU CIW DPC MNC CIC }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d 보병사단"
+
+	ordered =
+	{
+		1 = { "제1 충주보병사단" }
+		2 = { "제2 충주보병사단" }
+		3 = { "제3 충주보병사단" }
+		4 = { "제4 충주보병사단" }
+		5 = { "제5 충주보병사단" }
+		6 = { "제6 충주보병사단" }
+		7 = { "제7 충주보병사단" }
+		8 = { "제8 충주보병사단" }
+		9 = { "제9 충주보병사단" }
+		10 = { "제10 충주보병사단" }
+		100 = { "충주 수도방위사단" }
+	}
+}

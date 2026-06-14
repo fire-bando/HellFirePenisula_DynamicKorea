@@ -1118,7 +1118,7 @@ country_event = {
 				diplomatic_relation = { country = CHU relation = non_aggression_pact }
 				diplomatic_relation = { country = CIW relation = non_aggression_pact }
 				diplomatic_relation = { country = KNU relation = non_aggression_pact }
-				diplomatic_relation = { country = GLO relation = non_aggression_pact }]
+				diplomatic_relation = { country = GLO relation = non_aggression_pact }
 				diplomatic_relation = { country = PPC relation = non_aggression_pact }
 			}
 			GCH = {
