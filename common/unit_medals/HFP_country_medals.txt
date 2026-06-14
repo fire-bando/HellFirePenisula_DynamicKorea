@@ -1,0 +1,191 @@
+# HFP 국가별 고유 훈장
+# 각 세트는 should_have_<TAG>_medals_trigger = yes 로 게이트.
+# (트리거 정의 + any_unique 등록은 common/scripted_triggers/unit_medals_scripted_triggers.txt)
+# 아이콘은 바닐라 GFX_medal_icon_* 재사용.
+
+@cost = 30
+
+unit_medals = {
+
+	### ===== 전라인민공화국 (JNR) =====
+	JNR_medal_inmin_haebang = {
+		available = { should_have_JNR_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	JNR_medal_gwangju_spirit = {
+		available = { should_have_JNR_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  army_org_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	JNR_medal_honam_star = {
+		available = { should_have_JNR_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { breakthrough_factor = 0.05  army_attack_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 홍통특별행정구 (YG1) =====
+	YG1_medal_order = {
+		available = { should_have_YG1_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_org_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	YG1_medal_admin = {
+		available = { should_have_YG1_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { supply_consumption_factor = -0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	YG1_medal_honghyeol = {
+		available = { should_have_YG1_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_attack_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 서부산혁명위원회 (SBU) =====
+	SBU_medal_thought_liberation = {
+		available = { should_have_SBU_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	SBU_medal_nakdong = {
+		available = { should_have_SBU_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { max_dig_in_factor = 0.1  army_defence_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	SBU_medal_liberation_hero = {
+		available = { should_have_SBU_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_strength_factor = 0.075 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 삼성그룹 (SMS) =====
+	SMS_medal_chogyeokcha = {
+		available = { should_have_SMS_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_org_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	SMS_medal_semiconductor_shield = {
+		available = { should_have_SMS_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  supply_consumption_factor = -0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	SMS_medal_owner_risk = {
+		available = { should_have_SMS_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { breakthrough_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 일산그라드 (ILS) =====
+	ILS_medal_defense = {
+		available = { should_have_ILS_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  max_dig_in_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	ILS_medal_lake_park = {
+		available = { should_have_ILS_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	ILS_medal_jeongbalsan = {
+		available = { should_have_ILS_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { experience_loss_factor = -0.2 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 통일교 (UNF) =====
+	UNF_medal_blessing = {
+		available = { should_have_UNF_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.15 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	UNF_medal_true_parents = {
+		available = { should_have_UNF_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_org_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	UNF_medal_cheonilguk = {
+		available = { should_have_UNF_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { experience_loss_factor = -0.2 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 충주 (CHU) =====
+	CHU_medal_love = {
+		available = { should_have_CHU_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	CHU_medal_tangeumdae = {
+		available = { should_have_CHU_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  army_org_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	CHU_medal_jungwon_star = {
+		available = { should_have_CHU_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_attack_factor = 0.05  breakthrough_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+}

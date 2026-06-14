@@ -19,8 +19,15 @@ should_have_finnish_medals_trigger = { original_tag = FIN }
 should_have_hungarian_medals_trigger = { original_tag = HUN }
 should_have_norwegian_medals_trigger = { original_tag = NOR }
 
-# HFP 고유 훈장 국가 (용산 대통령실)
+# HFP 고유 훈장 국가
 should_have_YNN_medals_trigger = { original_tag = YNN }
+should_have_JNR_medals_trigger = { original_tag = JNR }
+should_have_YG1_medals_trigger = { original_tag = YG1 }
+should_have_SBU_medals_trigger = { original_tag = SBU }
+should_have_SMS_medals_trigger = { original_tag = SMS }
+should_have_ILS_medals_trigger = { original_tag = ILS }
+should_have_UNF_medals_trigger = { original_tag = UNF }
+should_have_CHU_medals_trigger = { original_tag = CHU }
 
 should_have_any_unique_medals_trigger = {
 	OR = {
@@ -40,5 +47,12 @@ should_have_any_unique_medals_trigger = {
 		should_have_hungarian_medals_trigger = yes
 		should_have_norwegian_medals_trigger = yes
 		should_have_YNN_medals_trigger = yes
+		should_have_JNR_medals_trigger = yes
+		should_have_YG1_medals_trigger = yes
+		should_have_SBU_medals_trigger = yes
+		should_have_SMS_medals_trigger = yes
+		should_have_ILS_medals_trigger = yes
+		should_have_UNF_medals_trigger = yes
+		should_have_CHU_medals_trigger = yes
 	}
 }

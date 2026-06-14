@@ -1,0 +1,56 @@
+﻿l_korean:
+ # 전라인민공화국 (JNR)
+ JNR_medal_inmin_haebang:0 "인민해방훈장"
+ JNR_medal_inmin_haebang_desc:0 "인민의 해방을 위해 싸운 전사에게."
+ JNR_medal_gwangju_spirit:0 "광주정신훈장"
+ JNR_medal_gwangju_spirit_desc:0 "오월의 정신을 지켜낸 부대에게 수여한다."
+ JNR_medal_honam_star:0 "호남의 별"
+ JNR_medal_honam_star_desc:0 "호남 전선의 돌파를 이끈 영웅에게."
+
+ # 홍통특별행정구 (YG1)
+ YG1_medal_order:0 "홍통질서훈장"
+ YG1_medal_order_desc:0 "특별행정구의 질서를 수호한 공로."
+ YG1_medal_admin:0 "특별행정장"
+ YG1_medal_admin_desc:0 "효율적 보급과 행정으로 전선을 지탱한 자에게."
+ YG1_medal_honghyeol:0 "홍혈훈장"
+ YG1_medal_honghyeol_desc:0 "붉은 피로 강역을 넓힌 부대에게."
+
+ # 서부산혁명위원회 (SBU)
+ SBU_medal_thought_liberation:0 "사상해방훈장"
+ SBU_medal_thought_liberation_desc:0 "낡은 사상을 떨치고 혁명에 헌신한 전사에게."
+ SBU_medal_nakdong:0 "낙동강훈장"
+ SBU_medal_nakdong_desc:0 "낙동강 방어선을 사수한 공로를 기린다."
+ SBU_medal_liberation_hero:0 "인민해방전쟁 영웅"
+ SBU_medal_liberation_hero_desc:0 "서부산 인민해방전쟁의 최고 영웅에게."
+
+ # 삼성그룹 (SMS)
+ SMS_medal_chogyeokcha:0 "초격차훈장"
+ SMS_medal_chogyeokcha_desc:0 "압도적 격차로 적을 따돌린 부대에게."
+ SMS_medal_semiconductor_shield:0 "반도체 방패"
+ SMS_medal_semiconductor_shield_desc:0 "효율과 방어를 겸비한 정예에게."
+ SMS_medal_owner_risk:0 "오너리스크 돌파장"
+ SMS_medal_owner_risk_desc:0 "온갖 위기를 정면돌파한 공로."
+
+ # 일산그라드 (ILS)
+ ILS_medal_defense:0 "일산방위훈장"
+ ILS_medal_defense_desc:0 "일산을 끝까지 지켜낸 부대에게."
+ ILS_medal_lake_park:0 "호수공원 수호장"
+ ILS_medal_lake_park_desc:0 "사기를 잃지 않고 분전한 전사에게."
+ ILS_medal_jeongbalsan:0 "정발산 영웅"
+ ILS_medal_jeongbalsan_desc:0 "정발산 능선의 베테랑에게."
+
+ # 통일교 (UNF)
+ UNF_medal_blessing:0 "축복훈장"
+ UNF_medal_blessing_desc:0 "축복받은 군대의 불굴의 사기를 기린다."
+ UNF_medal_true_parents:0 "참부모훈장"
+ UNF_medal_true_parents_desc:0 "조직을 굳건히 지탱한 공로."
+ UNF_medal_cheonilguk:0 "천일국훈장"
+ UNF_medal_cheonilguk_desc:0 "신앙으로 단련된 정예 전사에게."
+
+ # 충주 (CHU)
+ CHU_medal_love:0 "충주사랑훈장"
+ CHU_medal_love_desc:0 "충주를 사랑한 마음으로 싸운 부대에게."
+ CHU_medal_tangeumdae:0 "탄금대훈장"
+ CHU_medal_tangeumdae_desc:0 "탄금대 방어전의 공로를 기린다."
+ CHU_medal_jungwon_star:0 "중원의 별"
+ CHU_medal_jungwon_star_desc:0 "중원 땅의 돌파를 이끈 영웅에게."
