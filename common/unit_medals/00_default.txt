@@ -1,0 +1,180 @@
+# HFP override of vanilla common/unit_medals/00_default.txt
+# 바닐라 원본은 삭제된 국가(GER/USA/NOR/JAP/ETH/CHL...)의 훈장 세트와
+# 그 should_have_*_medals_trigger 들을 참조해서 "unknown trigger" 죽은참조를 다량 발생시킴.
+# -> 같은 경로/파일명으로 override 하여 외국 세트를 전부 제거.
+# -> 기본(정부 성향별) generic 세트는 유지 + HFP 고유 세트(YNN) 추가.
+
+@cost = 30
+
+unit_medals = {
+
+	### ===== 기본 훈장: 민주주의 =====
+	democratic_gallantry = {
+		available = { has_government = democratic  should_have_any_unique_medals_trigger = no }
+		frame = 1
+		icon = "GFX_medal_icon_democratic"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	democratic_honor = {
+		available = { has_government = democratic  should_have_any_unique_medals_trigger = no }
+		frame = 2
+		icon = "GFX_medal_icon_democratic"
+		cost = @cost
+		unit_modifiers = { supply_consumption_factor = -0.15 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	democratic_war_cross = {
+		available = { has_government = democratic  should_have_any_unique_medals_trigger = no }
+		frame = 3
+		icon = "GFX_medal_icon_democratic"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  recon_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	democratic_lion = {
+		available = { has_government = democratic  should_have_any_unique_medals_trigger = no }
+		frame = 4
+		icon = "GFX_medal_icon_democratic"
+		cost = @cost
+		unit_modifiers = { experience_loss_factor = -0.25 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 기본 훈장: 공산주의 =====
+	communist_service_medal = {
+		available = { has_government = communism  should_have_any_unique_medals_trigger = no }
+		frame = 1
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { supply_consumption_factor = -0.15  army_fuel_consumption_factor = -0.15 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	communist_red_star = {
+		available = { has_government = communism  should_have_any_unique_medals_trigger = no }
+		frame = 2
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_morale_factor = 0.1  army_defence_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	communist_merit_medal = {
+		available = { has_government = communism  should_have_any_unique_medals_trigger = no }
+		frame = 3
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_org_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	communist_hero_of_revolution = {
+		available = { has_government = communism  should_have_any_unique_medals_trigger = no }
+		frame = 4
+		icon = "GFX_medal_icon_communism"
+		cost = @cost
+		unit_modifiers = { army_strength_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 기본 훈장: 파시즘 =====
+	fascism_bravery = {
+		available = { has_government = fascism  should_have_any_unique_medals_trigger = no }
+		frame = 1
+		icon = "GFX_medal_icon_fascism"
+		cost = @cost
+		unit_modifiers = { army_org_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	fascism_merit = {
+		available = { has_government = fascism  should_have_any_unique_medals_trigger = no }
+		frame = 2
+		icon = "GFX_medal_icon_fascism"
+		cost = @cost
+		unit_modifiers = { army_attack_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	fascism_order_brave = {
+		available = { has_government = fascism  should_have_any_unique_medals_trigger = no }
+		frame = 3
+		icon = "GFX_medal_icon_fascism"
+		cost = @cost
+		unit_modifiers = { armor_factor = 0.1  recon_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	fascism_heroism = {
+		available = { has_government = fascism  should_have_any_unique_medals_trigger = no }
+		frame = 4
+		icon = "GFX_medal_icon_fascism"
+		cost = @cost
+		unit_modifiers = { breakthrough_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== 기본 훈장: 권위주의/중립 =====
+	neutral_bravery = {
+		available = { has_government = neutrality  should_have_any_unique_medals_trigger = no }
+		frame = 1
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  max_dig_in_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	neutral_military_order = {
+		available = { has_government = neutrality  should_have_any_unique_medals_trigger = no }
+		frame = 2
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { supply_consumption_factor = -0.15  army_morale_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	neutral_sword = {
+		available = { has_government = neutrality  should_have_any_unique_medals_trigger = no }
+		frame = 3
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_attack_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	neutral_virtue = {
+		available = { has_government = neutrality  should_have_any_unique_medals_trigger = no }
+		frame = 4
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { experience_loss_factor = -0.2  army_morale_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+
+	### ===== HFP 고유: 용산 대통령실(YNN) 훈장 =====
+	YNN_medal_jayuui_geom = {
+		available = { should_have_YNN_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_attack_factor = 0.05  army_morale_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	YNN_medal_jeongmyeon_dolpa = {
+		available = { should_have_YNN_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { breakthrough_factor = 0.1 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	YNN_medal_beobchi_suho = {
+		available = { should_have_YNN_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { army_defence_factor = 0.05  army_org_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+	YNN_medal_jayu_minju_hero = {
+		available = { should_have_YNN_medals_trigger = yes }
+		frame = 4
+		icon = "GFX_medal_icon_default"
+		cost = @cost
+		unit_modifiers = { experience_loss_factor = -0.2  army_morale_factor = 0.05 }
+		one_time_effect = { add_divisional_commander_xp = 100 }
+	}
+}

@@ -1,46 +1,44 @@
-# #scripted triggers for Division Medals feature
-# 
-# should_have_german_medals_trigger = {
-# 	original_tag = GER
-# }
-# 
-# should_have_usa_medals_trigger = {
-# 	original_tag = USA
-# }
-# 
-# should_have_soviet_medals_trigger = {
-# 	original_tag = SOV
-# }
-# 
-# should_have_english_medals_trigger = {
-# 	original_tag = ENG
-# }
-# 
-# should_have_french_medals_trigger = {
-# 	original_tag = FRA
-# }
-# 
-# should_have_italian_medals_trigger = {
-# 	original_tag = ITA
-# }
-# 
-# should_have_japanese_medals_trigger = {
-# 	original_tag = JAP
-# }
-# 
-# should_have_ethiopian_medals_trigger = {
-# 	original_tag = ETH
-# }
-# 
-# should_have_any_unique_medals_trigger = {
-# 	OR = {
-# 		should_have_german_medals_trigger = yes
-# 		should_have_usa_medals_trigger = yes
-# 		should_have_soviet_medals_trigger = yes
-# 		should_have_english_medals_trigger = yes
-# 		should_have_french_medals_trigger = yes
-# 		should_have_italian_medals_trigger = yes
-# 		should_have_japanese_medals_trigger = yes
-# 		should_have_ethiopian_medals_trigger = yes 
-# 	}
-# }
+# scripted triggers for Division Medals feature
+# 바닐라 common/unit_medals/00_default.txt 가 이 트리거들을 참조하므로 반드시 정의되어 있어야 함.
+# (정의가 없으면 "Unknown trigger-type: should_have_*_medals_trigger" 에러 + 기본훈장 미작동)
+# 삭제된 바닐라 태그들은 자연히 false -> 해당 국가는 기본(generic) 훈장을 사용.
+
+should_have_german_medals_trigger = { original_tag = GER }
+should_have_usa_medals_trigger = { original_tag = USA }
+should_have_soviet_medals_trigger = { original_tag = SOV }
+should_have_english_medals_trigger = { original_tag = ENG }
+should_have_french_medals_trigger = { original_tag = FRA }
+should_have_italian_medals_trigger = { original_tag = ITA }
+should_have_japanese_medals_trigger = { original_tag = JAP }
+should_have_ethiopian_medals_trigger = { original_tag = ETH }
+should_have_austrian_medals_trigger = { original_tag = AUS }
+should_have_chilean_medals_trigger = { original_tag = CHL }
+should_have_czechoslovak_medals_trigger = { original_tag = CZE }
+should_have_danish_medals_trigger = { original_tag = DEN }
+should_have_finnish_medals_trigger = { original_tag = FIN }
+should_have_hungarian_medals_trigger = { original_tag = HUN }
+should_have_norwegian_medals_trigger = { original_tag = NOR }
+
+# HFP 고유 훈장 국가 (용산 대통령실)
+should_have_YNN_medals_trigger = { original_tag = YNN }
+
+should_have_any_unique_medals_trigger = {
+	OR = {
+		should_have_german_medals_trigger = yes
+		should_have_usa_medals_trigger = yes
+		should_have_soviet_medals_trigger = yes
+		should_have_english_medals_trigger = yes
+		should_have_french_medals_trigger = yes
+		should_have_italian_medals_trigger = yes
+		should_have_japanese_medals_trigger = yes
+		should_have_ethiopian_medals_trigger = yes
+		should_have_austrian_medals_trigger = yes
+		should_have_chilean_medals_trigger = yes
+		should_have_czechoslovak_medals_trigger = yes
+		should_have_danish_medals_trigger = yes
+		should_have_finnish_medals_trigger = yes
+		should_have_hungarian_medals_trigger = yes
+		should_have_norwegian_medals_trigger = yes
+		should_have_YNN_medals_trigger = yes
+	}
+}
