@@ -23,7 +23,6 @@
 
 BUS_CIVIL_WAR_WINNER = {
 	name = "REP_SETTING_A_WINNER_OF_BUSAN_CIVILWAR"
-	desc = "REP_SETTING_A_WINNER_OF_BUSAN_CIVILWAR_DESC"
 	group = "RULE_GROUP_CUSTOM_PATH"					# Used for filtering. A single rule can be in multiple groups 					# Optional icon
 	default = {
 		name = WEST_BUSAN_COMMUNIST_WIN

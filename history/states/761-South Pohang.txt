@@ -6,7 +6,7 @@ state={
 	}
 	history = {
 		owner = OIL
-		add_claim_of = KMC
+		add_claim_by = KMC
 		add_core_of = KMC
 		buildings = {
 			infrastructure = 6

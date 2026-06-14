@@ -21,7 +21,7 @@ country_event = { #잼버리
         JBR = {
             declare_war_on = {
                 target = SMG
-                type = annex_evertyhing
+                type = annex_everything
             }
         }
 	}
@@ -33,7 +33,7 @@ news_event = { #잼버리
 	picture = GFX_report_event_international_news
     desc = international_news.1.d
 
-    is_major = yes
+    major = yes
 
 	is_triggered_only = yes
 	
