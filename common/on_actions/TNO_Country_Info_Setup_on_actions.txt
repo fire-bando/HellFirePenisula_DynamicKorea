@@ -92,6 +92,23 @@ on_actions = {
 					add_to_array = { CountryInfo_folder_country_102 = 9 }
 				}
 
+				if = {
+					limit = { original_tag = NON }
+					add_to_array = { CountryInfo_array_main = 101 }
+					add_to_array = { CountryInfo_array_main = 1 }
+					add_to_array = { CountryInfo_array_main = 2 }
+					add_to_array = { CountryInfo_array_main = 3 }
+					add_to_array = { CountryInfo_array_main = 4 }
+					add_to_array = { CountryInfo_array_main = 5 }
+					add_to_array = { CountryInfo_array_main = 6 }
+					add_to_array = { CountryInfo_folder_country_101 = 1 }
+					add_to_array = { CountryInfo_folder_country_101 = 2 }
+					add_to_array = { CountryInfo_folder_country_101 = 3 }
+					add_to_array = { CountryInfo_folder_country_101 = 4 }
+					add_to_array = { CountryInfo_folder_country_101 = 5 }
+					add_to_array = { CountryInfo_folder_country_101 = 6 }
+				}
+				
 				## Ignore parts after this ##
 				if = {
 					limit = {
