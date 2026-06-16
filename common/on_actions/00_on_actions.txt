@@ -591,7 +591,7 @@ on_actions = {
 			if = {
 				limit = {
 					PJH = {
-						is_ai = NO
+						is_ai = no
 					}
 				}
 				every_country = { set_cosmetic_tag = NOPE }

@@ -368,6 +368,11 @@ country_event = {
 			transfer_state = 751
 		}
 
+		WNS = {
+			load_oob = JNR_CLIQUEOOB
+			transfer_state = 322
+			add_state_core = 322
+		}
 		DAG = {
 			load_oob = JNR_CLIQUEOOB
 			transfer_state = 314
@@ -475,6 +480,7 @@ country_event = {
 	hidden = yes
 	immediate = {
 		ROOT = {
+			load_focus_tree = JNR_pro_civilwar_focus
 		}
 	}
 }

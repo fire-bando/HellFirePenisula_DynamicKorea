@@ -7,7 +7,7 @@ characters={
             }
         }
         country_leader = {
-            ideology = socialism
+            ideology = socialism_subtype
             expire = "2032.9.18"
         }
     }

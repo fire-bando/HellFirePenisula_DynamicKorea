@@ -6,7 +6,7 @@ state={
 		add_core_of = TNK
 		victory_points = { 5787 1 }
 		buildings = {
-			rocket_site = 2
+			rocket_site = 1
 			infrastructure = 3
 		}
 	}

@@ -43,7 +43,6 @@ leader_traits = {
 		political_power_factor = 0.3
 		communism_acceptance = -516
 		stability_factor = 0.516
-		political_power_factor = 0.25
 		ai_focus_aggressive_factor = 0.516
 		ai_focus_military_advancements_factor = 0.516
 		command_power_gain = 0.5

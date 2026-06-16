@@ -63,7 +63,7 @@ country_event = { #time_is_going focus's event ( wrote about the party start a c
 				}
 			}
 		}
-		else {
+		else = {
 			681 = {
 				create_unit = {
 					division = "name = \"박정희 독재 우상화 저항군\" division_template = \"국민돌격대\" start_manpower_factor = 0.3"
