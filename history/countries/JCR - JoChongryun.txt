@@ -2,7 +2,6 @@ capital = 77
 
 oob = "standard_templates"
 
-recruit_character = KSD_Park_Yong_Il
 
 # Starting tech
 set_technology = {

@@ -112,7 +112,7 @@ defined_text = {
 		localization_key = anarchist_communism
 	}
 	text = {
-		trigger = { has_country_leader_ideology = national_kimdaejung_ideology }
+		trigger = { has_country_leader_ideology = national_kimdaejung_ideology_subtype }
 		localization_key = national_kimdaejung_ideology
 	}
 	text = {
