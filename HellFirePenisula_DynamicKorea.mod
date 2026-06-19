@@ -54,5 +54,5 @@ dependencies={
 	"Korean Language (Europa)"
 }
 picture="thumbnail.png"
-supported_version="1.15.*"
+supported_version="1.18.*"
 remote_file_id="3214279131"
