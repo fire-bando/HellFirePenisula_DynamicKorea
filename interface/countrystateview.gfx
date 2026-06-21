@@ -787,23 +787,6 @@ spriteTypes = {
                          
 
 
-
-
-	###########
-	### BRA ###
-	###########
-
-
-	spriteType = {
-		name = "GFX_modifiers_BRA_cangaco_state"
-		textureFile = "gfx/interface/state_modifiers/modifiers_BRA_cangaco_state.dds"
-	}
-	spriteType = {
-		name = "GFX_modifiers_BRA_neglected_state"
-		textureFile = "gfx/interface/state_modifiers/modifiers_BRA_neglected_state.dds"
-	}
-
-
 	###########
 	### CHL ###
 	###########
