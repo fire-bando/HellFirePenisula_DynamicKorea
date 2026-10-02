@@ -192,6 +192,10 @@ branch_operation = {
 		ai_will_do = {
 			factor = 1
 		}
+	
+		available = {
+			has_tech = radio
+		}
 
 		modifiers_during_progress = {
 			civilian_factory_use = 8
@@ -293,6 +297,10 @@ branch_operative = {
 				enemy_operative_recruitment_chance = 0.25
 				occupied_operative_recruitment_chance = 0.25
 				new_operative_slot_bonus = 1
+			}
+			
+			complete_effect = {
+				# National recruitment decision category is not part of HFP.
 			}
 		}
 		
@@ -396,7 +404,11 @@ branch_crypto = {
 		sound = Spy_Agency_Cryptology_Upgrades_Confirm
 		
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				factor = 2
+				original_tag = ENG 
+			}
 		}
 		
 		modifiers_during_progress = {
@@ -454,6 +466,7 @@ branch_crypto = {
 		
 		available = {
 			has_done_agency_upgrade = upgrade_decryption_boost
+			has_tech = mechanical_computing
 		}
 		
 		modifiers_during_progress = {
@@ -521,6 +534,7 @@ branch_crypto = {
 		
 		available = {
 			has_done_agency_upgrade = upgrade_crypto_strength
+			has_tech = mechanical_computing
 		}
 		
 		modifiers_during_progress = {

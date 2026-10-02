@@ -28,7 +28,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_dog" #윤석열로 바꿀예정
+		name = "GFX_dog"
 		texturefile = "gfx/interface/thisisdog.dds"
 	}
 
@@ -330,6 +330,14 @@ spriteTypes = {
 		texturefile = "gfx//interface//icon_instagram.dds"
 	}
 	spriteType = {
+		name = "bluesky"
+		texturefile = "gfx/interface/icon_bluesky.dds"
+	}
+	spriteType = {
+		name = "x"
+		texturefile = "gfx/interface/icon_x.dds"
+	}
+	spriteType = {
 		name = "homepage"
 		texturefile = "gfx//interface//icon_homepage.dds"
 		noOfFrames = 1
@@ -384,6 +392,7 @@ spriteTypes = {
 		size= {x=32 y=32 }
 		texturefile = "gfx//interface//tiles//tiled_mini_dialog.dds"
 		borderSize = { x=12 y=12 }
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	corneredTileSpriteType = {
@@ -521,8 +530,21 @@ spriteTypes = {
 	}
 
 	textSpriteType = {
+		name = "GFX_button_123x34_gray"
+		texturefile = "gfx//interface//button_123x34_gray.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	textSpriteType = {
 		name = "GFX_button_148x34_light"
 		texturefile = "gfx/interface/button_148x34_light.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_button_238x38"
+		texturefile = "gfx/interface/button_238x38.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
@@ -592,6 +614,13 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_leader_selection_button"
 		texturefile = "gfx//interface//leader_selection_button.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_leader_rescue_raid_button"
+		texturefile = "gfx//interface//leader_rescue_raid_button.dds"
 		noOfFrames = 2
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
@@ -796,13 +825,21 @@ bitmapfonts = {
 		name = "ToolTip_Font"
 		fontfiles = {
 			"gfx/fonts/garamond_16"
-			"gfx/fonts/chinese/garamond_16_1of4"
-			"gfx/fonts/chinese/garamond_16_2of4"
-			"gfx/fonts/chinese/garamond_16_3of4"
-			"gfx/fonts/chinese/garamond_16_4of4"
-			"gfx/fonts/japanese/garamond_16"
+			"gfx/fonts/chinese/garamond_16_1of4_hfp_16_12"
+			"gfx/fonts/chinese/garamond_16_2of4_hfp_16_12"
+			"gfx/fonts/chinese/garamond_16_3of4_hfp_16_12"
+			"gfx/fonts/chinese/garamond_16_4of4_hfp_16_12"
+			"gfx/fonts/japanese/garamond_16_hfp_16_12"
 		}
 		color = 0xffffffff
+	}
+
+	bitmapfont_override = {
+		name = "ToolTip_Font"
+		fontfiles = {
+			"gfx/fonts/japanese/garamond_16"
+		}
+		languages = { "l_japanese" }
 	}
 
 	bitmapfont = {
@@ -811,18 +848,34 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_18"
 			"gfx/fonts/hoi_18_cryllic"
-			"gfx/fonts/japanese/hoi_18"
+			"gfx/fonts/japanese/hoi_18_hfp_18_14"
 		}
 		color = 0xff7799ff
+	}
+
+	bitmapfont_override = {
+		name = "AnimatedMapText"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_18"
+		}
+		languages = { "l_japanese" }
 	}
 
 	bitmapfont = {
 		name = "Main_16"
 		fontfiles = {
 			"gfx/fonts/garamond_16_bold"
-			"gfx/fonts/japanese/garamond_16_bold"
+			"gfx/fonts/japanese/garamond_16_bold_hfp_16_12"
 		}
 		color = 0xffffffff
+	}
+
+	bitmapfont_override = {
+		name = "Main_16"
+		fontfiles = {
+			"gfx/fonts/japanese/garamond_16_bold"
+		}
+		languages = { "l_japanese" }
 	}
 
 	bitmapfont = {
@@ -835,13 +888,29 @@ bitmapfonts = {
 		border_color = 0x00000000
 	}
 
+	bitmapfont_override = {
+		name = "Main_14"
+		fontfiles = {
+			"gfx/fonts/japanese/garamond_14"
+		}
+		languages = { "l_japanese" }
+	}
+
 	bitmapfont = {
 		name = "Main_14_grey"
 		fontfiles = {
 			"gfx/fonts/japanese/garamond_14"
-			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_hfp_14_14"
 		}
 		color = 0xffbbbbbb
+	}
+
+	bitmapfont_override = {
+		name = "Main_14_grey"
+		fontfiles = {
+			"gfx/fonts/japanese/garamond_14"
+		}
+		languages = { "l_japanese" }
 	}
 
 	bitmapfont = {
@@ -1044,11 +1113,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_16mbs"
 			"gfx/fonts/hoi_16mbs_cryllic"
-			"gfx/fonts/japanese/hoi_16mbs"
-			"gfx/fonts/chinese/hoi_16mbs_1of4EX"
-			"gfx/fonts/chinese/hoi_16mbs_2of4EX"
-			"gfx/fonts/chinese/hoi_16mbs_3of4EX"
-			"gfx/fonts/chinese/hoi_16mbs_4of4EX"
+			"gfx/fonts/japanese/hoi_16mbs_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_1of4EX_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_2of4EX_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_3of4EX_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_4of4EX_hfp_16_13"
 		}
 		color = 0xffffffff
 
@@ -1061,6 +1130,14 @@ bitmapfonts = {
 			T = { 255 255 255 }
 			g = { 175 175 175 }
 		}
+	}
+
+	bitmapfont_override = {
+		name = "hoi_16mbs"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_16mbs"
+		}
+		languages = { "l_japanese" }
 	}
 
 	bitmapfont = {
@@ -1095,11 +1172,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_18"
 			"gfx/fonts/hoi_18_cryllic"
-			"gfx/fonts/japanese/hoi_18b"
-			"gfx/fonts/chinese/hoi_18_1of4"	
-			"gfx/fonts/chinese/hoi_18_2of4"	
-			"gfx/fonts/chinese/hoi_18_3of4"	
-			"gfx/fonts/chinese/hoi_18_4of4"
+			"gfx/fonts/japanese/hoi_18b_hfp_18_14"
+			"gfx/fonts/chinese/hoi_18_1of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_18_2of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_18_3of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_18_4of4_hfp_18_14"
 		}
 		color = 0xffffffff
 
@@ -1125,10 +1202,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_18mbs"
 			"gfx/fonts/hoi_18mbs_cryllic"
-			"gfx/fonts/chinese/hoi_18mbs_1of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_2of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_3of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_4of4EX"
+			"gfx/fonts/chinese/hoi_18mbs_1of4EX_hfp_18_15"	
+			"gfx/fonts/chinese/hoi_18mbs_2of4EX_hfp_18_15"	
+			"gfx/fonts/chinese/hoi_18mbs_3of4EX_hfp_18_15"	
+			"gfx/fonts/chinese/hoi_18mbs_4of4EX_hfp_18_15"
 		}
 		color = 0xffffffff
 
@@ -1154,10 +1231,10 @@ bitmapfonts = {
 #		path = "gfx/fonts/hoi_20b"
 		fontfiles = {
 			"gfx/fonts/hoi_20b"
-			"gfx/fonts/chinese/hoi_20b_1of4EX"
-			"gfx/fonts/chinese/hoi_20b_2of4EX"
-			"gfx/fonts/chinese/hoi_20b_3of4EX"
-			"gfx/fonts/chinese/hoi_20b_4of4EX"
+			"gfx/fonts/chinese/hoi_20b_1of4EX_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20b_2of4EX_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20b_3of4EX_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20b_4of4EX_hfp_20_16"
 		}
 		color = 0xffffffff
 
@@ -1192,11 +1269,11 @@ bitmapfonts = {
 #		path = "gfx/fonts/hoi_20bs"
 		fontfiles = {
 			"gfx/fonts/hoi_20bs"
-			"gfx/fonts/japanese/hoi_20bs"
-			"gfx/fonts/chinese/hoi_20bs_1of4"
-			"gfx/fonts/chinese/hoi_20bs_2of4"
-			"gfx/fonts/chinese/hoi_20bs_3of4"
-			"gfx/fonts/chinese/hoi_20bs_4of4"
+			"gfx/fonts/japanese/hoi_20bs_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_1of4_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_2of4_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_3of4_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_4of4_hfp_20_16"
 			"gfx/fonts/hoi_20bs_cryllic"
 		}
 		color = 0xffffffff
@@ -1210,12 +1287,29 @@ bitmapfonts = {
 		}
 	}
 
+	bitmapfont_override = {
+		name = "hoi_20bs"
+		fontfiles = {
+			"gfx/fonts/hoi_20bs"
+			"gfx/fonts/hoi_20bs_cryllic"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+
+	bitmapfont_override = {
+		name = "hoi_20bs"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_20bs"
+		}
+		languages = { "l_japanese" }
+	}
+
 	bitmapfont = {
 		name = "hoi4_typewriter16"
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter16"
 
-			"gfx/fonts/cc/typewriter16"
+			"gfx/fonts/cc/typewriter16_hfp_16_13"
 			"gfx/fonts/hoi_16typewriter"
 		}
 		color = 0xff000000
@@ -1253,10 +1347,10 @@ bitmapfonts = {
 			"gfx/fonts/hoi4_typewriter16_inverted"
 			"gfx/fonts/hoi_16typewriter_inverted"
 			"gfx/fonts/hoi_16typewriter_cryllic_inverted"
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_1of4"	
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_2of4"	
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_3of4"	
-			"gfx/fonts/chinese/hoi4_typewriter16_inverted_4of4"	
+			"gfx/fonts/chinese/hoi4_typewriter16_inverted_1of4_hfp_16_13"	
+			"gfx/fonts/chinese/hoi4_typewriter16_inverted_2of4_hfp_16_13"	
+			"gfx/fonts/chinese/hoi4_typewriter16_inverted_3of4_hfp_16_13"	
+			"gfx/fonts/chinese/hoi4_typewriter16_inverted_4of4_hfp_16_13"	
 		}
 		color = 0xffffffff
 
@@ -1292,11 +1386,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter22"
 			"gfx/fonts/hoi_22typewriter"
-			"gfx/fonts/chinese/hoi_22typewriter_1of4"
-			"gfx/fonts/chinese/hoi_22typewriter_2of4"
-			"gfx/fonts/chinese/hoi_22typewriter_3of4"
-			"gfx/fonts/chinese/hoi_22typewriter_4of4"
-			"gfx/fonts/chinese/hoi_22typewriter_inverted"
+			"gfx/fonts/chinese/hoi_22typewriter_1of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi_22typewriter_2of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi_22typewriter_3of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi_22typewriter_4of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_1of4_hfp_22_18"
 #			"gfx/fonts/hoi_22typewriter_cryllic"
 		}
 		color = 0xff000000
@@ -1333,10 +1427,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter22_inverted"
 			"gfx/fonts/hoi_22typewriter_inverted"
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_1of4"	
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_2of4"	
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_3of4"	
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_4of4"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_1of4_hfp_22_18"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_2of4_hfp_22_18"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_3of4_hfp_22_18"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_4of4_hfp_22_18"	
 #			"gfx/fonts/hoi_22typewriter_cryllic"
 		}
 		color = 0xffffffff
@@ -1372,10 +1466,10 @@ bitmapfonts = {
 #		path = "gfx/fonts/hoi_24header"
 		fontfiles = {
 			"gfx/fonts/hoi_24header"
-			"gfx/fonts/chinese/hoi_24header_1of4"
-			"gfx/fonts/chinese/hoi_24header_2of4"
-			"gfx/fonts/chinese/hoi_24header_3of4"
-			"gfx/fonts/chinese/hoi_24header_4of4"
+			"gfx/fonts/chinese/hoi_24header_1of4_hfp_24_19"
+			"gfx/fonts/chinese/hoi_24header_2of4_hfp_24_19"
+			"gfx/fonts/chinese/hoi_24header_3of4_hfp_24_19"
+			"gfx/fonts/chinese/hoi_24header_4of4_hfp_24_19"
 #			"gfx/fonts/hoi_20bs"
 #			"gfx/fonts/hoi_20bs_cryllic"
 		}
@@ -1415,10 +1509,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_24header"
 #			"gfx/fonts/hoi_20bs"
-			"gfx/fonts/chinese/hoi_24header_1of4"	
-			"gfx/fonts/chinese/hoi_24header_2of4"	
-			"gfx/fonts/chinese/hoi_24header_3of4"	
-			"gfx/fonts/chinese/hoi_24header_4of4"
+			"gfx/fonts/chinese/hoi_24header_1of4_hfp_24_19"	
+			"gfx/fonts/chinese/hoi_24header_2of4_hfp_24_19"	
+			"gfx/fonts/chinese/hoi_24header_3of4_hfp_24_19"	
+			"gfx/fonts/chinese/hoi_24header_4of4_hfp_24_19"
 #			"gfx/fonts/hoi_20bs_cryllic"
 		}
 		cursor_offset = { 0 4 }
@@ -1492,11 +1586,11 @@ bitmapfonts = {
 #		path = "gfx/fonts/hoi_30header"
 		fontfiles = {
 			"gfx/fonts/hoi_36header"
-			"gfx/fonts/chinese/hoi_30header_1of4"	
-			"gfx/fonts/chinese/hoi_30header_2of4"	
-			"gfx/fonts/chinese/hoi_30header_3of4"	
-			"gfx/fonts/chinese/hoi_30header_4of4"
-			"gfx/fonts/hoi_26mbs_cryllic"
+			"gfx/fonts/chinese/hoi_30header_1of4_hfp_36_28"	
+			"gfx/fonts/chinese/hoi_30header_2of4_hfp_36_28"	
+			"gfx/fonts/chinese/hoi_30header_3of4_hfp_36_28"	
+			"gfx/fonts/chinese/hoi_30header_4of4_hfp_36_28"
+			"gfx/fonts/hoi_26mbs_cryllic_hfp_36_28"
 		}
 		color = 0xffffffff
 
@@ -1667,12 +1761,21 @@ bitmapfonts = {
 		}
 	}
 
+	bitmapfont_override = {
+		name = "tahoma_60"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_mapfont4_0"
+			"gfx/fonts/japanese/hoi_mapfont4_1"
+		}
+		languages = { "l_japanese" }
+	}
+
 	bitmapfont = {
 		name = "hoi_30"
 		fontfiles = {
 			"gfx/fonts/hoi_30"
 			"gfx/fonts/hoi_30_cyrillic"
-			"gfx/fonts/japanese/hoi_30"
+			"gfx/fonts/japanese/hoi_30_hfp_38_31"
 		}
 		color = 0xffffffff
 
@@ -1684,12 +1787,29 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
-		
+
+	bitmapfont_override = {
+		name = "hoi_30"
+		fontfiles = {
+			"gfx/fonts/hoi_30"
+			"gfx/fonts/hoi_30_cyrillic"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+
+	bitmapfont_override = {
+		name = "hoi_30"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_30"
+		}
+		languages = { "l_japanese" }
+	}
+	
 	bitmapfont = {
 		name = "Arial12"
 		fontfiles = {
 			"gfx/fonts/Arial12"
-			"gfx/fonts/japanese/Arial12"
+			"gfx/fonts/japanese/Arial12_hfp_14_11"
 		}
 		color = 0xffffffff
 
@@ -1702,15 +1822,39 @@ bitmapfonts = {
 		}
 	}
 
+	bitmapfont_override = {
+		name = "Arial12"
+		fontfiles = {
+			"gfx/fonts/japanese/Arial12"
+		}
+		languages = { "l_japanese" }
+	}
+
 	bitmapfont = {
 		name = "cg_16b"				####### GENERAL TOOLTIP FONT ########
 #		path = "gfx/fonts/cg_16b"
 		fontfiles = {
 			"gfx/fonts/cg_16b"
 			"gfx/fonts/hoi_16tooltip3"
-			"gfx/fonts/japanese/cg_16b"
+			"gfx/fonts/japanese/cg_16b_hfp_16_13"
 		}
 		color = 0xffffffff
+	}
+
+	bitmapfont_override = {
+		name = "cg_16b"
+		fontfiles = {
+			"gfx/fonts/hoi_16tooltip3"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+
+	bitmapfont_override = {
+		name = "cg_16b"
+		fontfiles = {
+			"gfx/fonts/japanese/cg_16b"
+		}
+		languages = { "l_japanese" }
 	}
 
 	corneredTileSpriteType = {
@@ -1754,5 +1898,57 @@ bitmapfonts = {
 	SpriteType = {
 		name = "GFX_red_cross_small"
 		textureFile = "gfx//interface//red_cross_small.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_red_cross_texticon"
+		texturefile = "gfx/interface/red_cross_small.dds"
+	}
+	
+	textSpriteType = {
+		name = "GFX_preset_button_open"
+		texturefile = "gfx//interface//equipmentdesigner//preset_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_preset_button_import"
+		texturefile = "gfx//interface//equipmentdesigner//preset_import_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_preset_button_export"
+		texturefile = "gfx//interface//equipmentdesigner//preset_export_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_preset_button_save"
+		texturefile = "gfx//interface//equipmentdesigner//save_preset_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_edit_designer_notes_button"
+		texturefile = "gfx//interface//equipmentdesigner//edit_notes_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_warning_11x24"
+		texturefile = "gfx//interface//warning_11x24.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_generic_circle_background"
+		texturefile = "gfx/interface/generic_text_circle.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 5
 	}
 }

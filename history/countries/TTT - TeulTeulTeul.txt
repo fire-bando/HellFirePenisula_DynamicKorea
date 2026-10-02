@@ -24,6 +24,10 @@ set_popularities = {
 
 create_country_leader = {
 	name = "심인섭"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	desc = "insub_desc"
 	expire = "2965.1.1"
 	ideology = chinbak

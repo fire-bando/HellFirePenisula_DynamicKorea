@@ -45,13 +45,13 @@ set_technology = {
 	artillery3 = 1
 	artillery4 = 1
 	artillery5 = 1
-	mobile_warfare = 1
-	superior_firepower = 1
-	sup_delay = 1
-	mobile_defence = 1
-	dispersed_support = 1
-	overwhelming_firepower = 1
-	sup_mechanized_offensive = 1
+	
+	
+	
+	
+	
+	
+	
 	armor_tech_1 = 1
 	armor_tech_2 = 1
 	armor_tech_3 = 1
@@ -196,3 +196,6 @@ create_country_leader = {
 	traits = {
 	}
 }
+# Current grand-doctrine initialization.
+set_grand_doctrine = new_mobile_warfare
+set_grand_doctrine = superior_firepower

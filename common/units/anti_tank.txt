@@ -1,6 +1,7 @@
 sub_units = {
 
 	anti_tank = {
+		abbreviation = "AT"
 		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 0
@@ -9,7 +10,7 @@ sub_units = {
 		affects_speed = no
 		
 		group = support
-		
+
 		type = {
 			infantry
 			support
@@ -18,10 +19,13 @@ sub_units = {
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
+			category_anti_tank
+			category_mobile_anti_tank
 		}
 
-
+		regimental = no
 		combat_width = 0
 
 		need = {
@@ -34,7 +38,7 @@ sub_units = {
 		training_time = 120
 		weight = 0.1
 
-		can_be_parachuted = yes
+		can_be_parachuted = no
 		
 		supply_consumption = 0.064
 

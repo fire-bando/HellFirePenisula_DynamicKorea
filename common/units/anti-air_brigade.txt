@@ -5,6 +5,7 @@
 sub_units = {
 
 	anti_air_brigade = {
+		abbreviation = "ANA"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 301
@@ -16,11 +17,12 @@ sub_units = {
 			anti_air
 		}
 		
-		group = infantry
+		group = combat_support
 		
 		categories = {
 			category_army
 			category_line_artillery
+			category_anti_air
 		}		
 		
 		combat_width = 1
@@ -32,7 +34,7 @@ sub_units = {
 		manpower = 50
 		training_time = 120
 		weight = 0.5
-		soft_attack = 0.2
+		
 		supply_consumption = 0.04
 
 		need = {
@@ -61,10 +63,10 @@ sub_units = {
 
 		amphibious = {
 			attack = -0.4
-			defence = -0.4
 		}
 	}
 	mot_anti_air_brigade = {
+		abbreviation = "MAA"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 301
@@ -76,11 +78,13 @@ sub_units = {
 			anti_air
 		}
 		
-		group = mobile
+		group = mobile_combat_support
 		
 		categories = {
 			category_army
 			category_line_artillery
+			category_anti_air
+			category_mobile_and_mobile_combat_sup
 		}		
 		
 		combat_width = 1
@@ -95,6 +99,11 @@ sub_units = {
 		
 		supply_consumption = 0.06
 		transport = motorized_equipment
+
+		essential = {
+			motorized_equipment
+		}
+
 		need = {
 			anti_air_equipment = 6
 			motorized_equipment = 8
@@ -122,7 +131,6 @@ sub_units = {
 
 		amphibious = {
 			attack = -0.4
-			defence = -0.4
 		}
 	}
 }

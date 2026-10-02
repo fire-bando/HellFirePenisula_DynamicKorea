@@ -1,0 +1,1545 @@
+# Installed 1.19 helpers required by the effective HFP common database.
+# Source: common/scripted_effects/FIN_scripted_effects.txt
+FIN_nokia_tires_after_tech_effect = { hidden_effect = { } }
+
+# Source: common/scripted_effects/GER_scripted_effects.txt
+GER_amerika_bomber_focke_wulf_completion_MIO_effects = { #SCOPE IS MIO
+	add_mio_research_bonus = 0.15 #After project completion, MIO research goes back to normal #WARNING! Any change in this bonus needs to be applied on the penalty applied in the event GOT_GER_amerikabomber.01 
+	complete_mio_trait = GER_mio_trait_amerikabomber_learnings
+}
+
+# Source: common/scripted_effects/GER_scripted_effects.txt
+GER_amerika_bomber_focke_wulf_completion_SP_effects = { #SCOPE IS GER
+	add_equipment_bonus = {
+		name = GER_amerikabomber_focke_wulf_name
+		bonus = {
+			strat_bomber_intercontinental_equipment_1 = {
+				maximum_speed = 0.1
+				build_cost_ic = 0.05
+				instant = yes
+			}
+		}
+	}
+}
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_advanced_heavy_tank_templates = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_advanced_medium_tank_templates = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_basic_light_flamethrower_template = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_hand_of_god_sh_tank_template_and_production = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_il_duce_sh_tank_template_and_production = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_improved_heavy_tank_templates = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_improved_light_tank_templates = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_improved_medium_tank_templates = { hidden_effect = { } }
+
+# Source: common/scripted_effects/ITA_scripted_effects.txt
+ITA_add_modern_musculus_sh_tank_template_and_production = { hidden_effect = { } }
+
+# Source: common/scripted_effects/PHI_scripted_effects.txt
+PHI_cobalt_sea_achievement = { hidden_effect = { } }
+
+# Source: common/scripted_effects/SIA_scripted_effects.txt
+SIA_decrease_civilian_approval = { hidden_effect = { } }
+
+# Source: common/scripted_effects/SIA_scripted_effects.txt
+SIA_decrease_military_approval = { hidden_effect = { } }
+
+# Source: common/scripted_effects/SIA_scripted_effects.txt
+SIA_increase_civilian_approval = { hidden_effect = { } }
+
+# Source: common/scripted_effects/SIA_scripted_effects.txt
+SIA_increase_military_approval = { hidden_effect = { } }
+
+# Source: common/scripted_effects/SIA_scripted_effects.txt
+SIA_refresh_nsb_spirit = { hidden_effect = { } }
+
+# Source: common/scripted_effects/SP_scripted_effects.txt
+SP_create_variant_based_on_country_armored_engineer = {
+	if = {
+		limit = {
+			original_tag = GER
+		}
+		create_equipment_variant = {
+			name = "Brückenleger I"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 2
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_GER_armored_support_vehicle_crossing_medium"
+			model = GER_armored_engineer_entity
+		}
+	}
+	else_if = { limit = { always = no } }
+	else_if = {
+		limit = {
+			original_tag = SOV
+		}
+		create_equipment_variant = {
+			name = "IT-28"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_SOV_armored_support_vehicle_crossing_medium"
+			model = SOV_armored_engineer_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = ENG
+		}
+		create_equipment_variant = {
+			name = "Churchill AVRE Bridgelayer"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 0
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 2
+			}
+			icon = "GFX_ENG_armored_support_vehicle_crossing_medium"
+			model = ENG_armored_engineer_entity
+		}
+	}
+	else = { #GENERIC
+		create_equipment_variant = {
+			name = "Bridge Layer Vehicle"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_armored_support_vehicle_crossing_medium" 
+			model = armored_engineer_entity
+		}
+	}
+}
+
+# Source: common/scripted_effects/SP_scripted_effects.txt
+SP_create_variant_based_on_country_armored_maintenance = {
+	if = {
+		limit = {
+			original_tag = GER
+		}
+		create_equipment_variant = {
+			name = "Bergepanzer IV"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 2
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 0
+			}
+			icon = "GFX_GER_armored_support_vehicle_recovery_medium"
+			model = GER_armored_maintenance_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = JAP
+		}
+		create_equipment_variant = {
+			name = "Sōkō Sagyō Ki"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 0
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 2
+			}
+			icon = "GFX_JAP_armored_support_vehicle_recovery_medium"
+			model = JAP_armored_maintenance_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = SOV
+		}
+		create_equipment_variant = {
+			name = "T-34-T"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 3
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 0
+			}
+			icon = "GFX_SOV_armored_support_vehicle_recovery_medium"
+			model = SOV_armored_maintenance_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = ENG
+		}
+		create_equipment_variant = {
+			name = "Churchill ARV"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 0
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 2
+			}
+			icon = "GFX_ENG_armored_support_vehicle_recovery_1_medium"
+			model = ENG_armored_maintenance_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = USA
+		}
+		create_equipment_variant = {
+			name = "M31 ARV"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 3
+			}
+			icon = "GFX_USA_armored_support_vehicle_recovery_medium"
+			model = USA_armored_maintenance_entity
+		}
+	}
+	else = { #GENERIC
+		create_equipment_variant = {
+			name = "Armored Recovery Vehicle"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 2
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_armored_support_vehicle_recovery_1_medium" 
+			model = armored_maintenance_entity
+		}
+	}
+}
+
+# Source: common/scripted_effects/SP_scripted_effects.txt
+SP_create_variant_based_on_country_armored_signal = {
+	if = {
+		limit = {
+			original_tag = GER
+		}
+		create_equipment_variant = {
+			name = "Panzerbefehlswagen"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 0
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 3
+			}
+			icon = "GFX_GER_armored_support_vehicle_command_medium"
+			model = GER_armored_signal_entity
+		}
+	}
+	else_if = { limit = { always = no } }
+	else_if = {
+		limit = {
+			original_tag = JAP
+		}
+		create_equipment_variant = {
+			name = "Type 97 Shi-Ki"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 2
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_JAP_armored_support_vehicle_command_medium"
+			model = JAP_armored_signal_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = SOV
+		}
+		create_equipment_variant = {
+			name = "BT-7K"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 2
+				tank_engine_upgrade = 2
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_SOV_armored_support_vehicle_command_medium"
+			model = SOV_armored_signal_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = ENG
+		}
+		create_equipment_variant = {
+			name = "Cromwell Command Tank"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 0
+				tank_engine_upgrade = 2
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 2
+			}
+			icon = "GFX_ENG_armored_support_vehicle_command_medium"
+			model = ENG_armored_signal_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = FRA
+		}
+		create_equipment_variant = {
+			name = "AMC35 TSF"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 2
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_FRA_armored_support_vehicle_command_medium"
+			model = FRA_armored_signal_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = USA
+		}
+		create_equipment_variant = {
+			name = "M4 Sherman Command Tank"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 2
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 2
+			}
+			icon = "GFX_USA_armored_support_vehicle_command_medium"
+			model = USA_armored_signal_entity
+		}
+	}
+	else = { #GENERIC
+		create_equipment_variant = {
+			name = "Command Vehicle"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 2
+			}
+			icon = "GFX_armored_support_vehicle_command_medium"
+			model = armored_signal_entity
+		}
+	}
+}
+
+# Source: common/scripted_effects/SP_scripted_effects.txt
+SP_create_variant_based_on_country_assault_engineer = {
+	if = {
+		limit = {
+			original_tag = GER
+		}
+		create_equipment_variant = {
+			name = "Minenräumer mit Pz.Kpfw.Antrieb"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			mark_older_equipment_obsolete = yes
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 0
+			}
+			icon = "GFX_GER_armored_support_vehicle_medium"
+			model = GER_assault_engineer_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = JAP
+		}
+		create_equipment_variant = {
+			name = "Type 97 Chi-Yu"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			mark_older_equipment_obsolete = yes
+			upgrades = {
+				tank_reliability_upgrade = 0
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_JAP_armored_support_vehicle_medium"
+			model = JAP_assault_engineer_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = SOV
+		}
+		create_equipment_variant = {
+			name = "PT-34"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			mark_older_equipment_obsolete = yes
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 0
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_SOV_armored_support_vehicle_medium"
+			model = SOV_assault_engineer_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = ENG
+		}
+		create_equipment_variant = {
+			name = "Sherman Crab"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			mark_older_equipment_obsolete = yes
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 0
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_ENG_armored_support_vehicle_medium"
+			model = ENG_assault_engineer_entity
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = USA
+		}
+		create_equipment_variant = {
+			name = "Sherman T1E3"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			mark_older_equipment_obsolete = yes
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_USA_armored_support_vehicle_medium"
+			model = USA_assault_engineer_entity
+		}
+	}
+	else = { #GENERIC
+		create_equipment_variant = {
+			name = "Mine-Clearing Vehicle"
+			type = armored_support_vehicle_1
+			parent_version = 0
+			mark_older_equipment_obsolete = yes
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 1
+				tank_gun_upgrade = 1
+			}
+			icon = "GFX_armored_support_vehicle_medium" 
+			model = assault_engineer_entity
+		}
+	}
+}
+
+# Source: common/scripted_effects/SP_scripted_effects.txt
+SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = {
+	if = {
+		limit = {
+			original_tag = GER
+		}
+		create_equipment_variant = {
+			name = "Me 163 Komet"
+			type = small_plane_airframe_2
+			allow_without_tech = no
+		 	
+			modules = {
+			 	fixed_main_weapon_slot = aircraft_cannon_1_2x
+			 	fixed_auxiliary_weapon_slot_1 = empty
+			 	engine_type_slot = rocket_engine_1
+			 	special_type_slot_1 = empty
+			 	special_type_slot_2 = empty
+			}
+			icon = "GFX_GER_rocket_plane_1_medium"
+			model = "GER_rocket_plane_1_entity"
+		}
+	}
+	else_if = {
+		limit = {
+			original_tag = JAP
+			}
+			if = {
+				limit = {
+					has_tech = aa_cannon_1
+					has_completed_focus = JAP_develop_new_fighters
+				}
+				create_equipment_variant = {
+			 		name = "J8M1"
+			 		type = small_plane_airframe_2
+			 		allow_without_tech = no
+			 		
+			 		modules = {
+			 			fixed_main_weapon_slot = aircraft_cannon_1_2x
+			 			fixed_auxiliary_weapon_slot_1 = empty
+			 			engine_type_slot = rocket_engine_1
+			 			special_type_slot_1 = empty
+			 			special_type_slot_2 = empty
+			 		}
+			 		icon = "GFX_GER_rocket_plane_1_medium"
+			 		model = "GER_rocket_plane_1_entity"
+				}				
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = JAP_develop_new_fighters
+				}
+				create_equipment_variant = {
+					name = "J8M2"
+					type = small_plane_airframe_2
+					allow_without_tech = no
+					
+					modules = {
+					 	fixed_main_weapon_slot = aircraft_cannon_1_1x
+					 	fixed_auxiliary_weapon_slot_1 = empty
+					 	engine_type_slot = rocket_engine_1
+					 	special_type_slot_1 = empty
+					 	special_type_slot_2 = empty
+					}
+				 	icon = "GFX_GER_rocket_plane_1_medium"
+				 	model = "GER_rocket_plane_1_entity"
+				}		
+			}
+			else = {
+				create_equipment_variant = {
+					name = "MXY8"
+					type = small_plane_airframe_2
+					allow_without_tech = no
+					modules = {
+					 	fixed_main_weapon_slot = light_mg_4x
+					 	fixed_auxiliary_weapon_slot_1 = light_mg_4x
+					 	engine_type_slot = rocket_engine_1
+					 	special_type_slot_1 = empty
+					 	special_type_slot_2 = empty
+					}
+					icon = "GFX_GER_rocket_plane_1_medium"
+					model = "GER_rocket_plane_1_entity"
+				}		
+			}						
+	}
+
+	
+	else = { #GENERIC WITH 4xLMG
+		if = {
+			limit = {
+				has_tech = aa_lmg
+			}
+			create_equipment_variant = {
+			 	name = "Rocket Interceptor"
+			 	type = small_plane_airframe_2
+				allow_without_tech = no
+				modules = {
+			 		fixed_main_weapon_slot = light_mg_4x
+			 		fixed_auxiliary_weapon_slot_1 = light_mg_4x
+			 		engine_type_slot = rocket_engine_1
+			 		special_type_slot_1 = empty
+			 		special_type_slot_2 = empty
+				}
+				icon = "GFX_light_plane_1_medium"
+			}		
+		}
+		else = { #GENERIC
+			create_equipment_variant = {
+				name = "Rocket Interceptor"
+				type = small_plane_airframe_2
+				allow_without_tech = no
+				modules = {
+		 			fixed_main_weapon_slot = light_mg_2x
+		 			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+		 			engine_type_slot = rocket_engine_1
+		 			special_type_slot_1 = empty
+		 			special_type_slot_2 = empty
+				}
+				icon = "GFX_light_plane_1_medium"
+			}		
+		}
+	}
+}
+
+# Source: common/scripted_effects/SP_scripted_effects.txt
+SP_create_variant_of_habakkuk_for_production_line = {
+	if = {
+		limit = {
+			original_tag = USA
+		}
+		if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = cavity_magnatron
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = improved_heavy_armor_scheme
+				is_special_project_completed = sp:sp_air_radar
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}		
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = cavity_magnatron
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = cavity_magnatron
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = cavity_magnatron
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				is_special_project_completed = sp:sp_air_radar
+				has_tech = antiair2
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}		
+		else_if = {
+			limit = {
+				has_tech = antiair2
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				is_special_project_completed = sp:sp_air_radar
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}		
+		else_if = {
+			limit = {
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else = {
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}												
+	}
+	else_if = { limit = { always = no } }
+
+	else_if = {
+		limit = {
+			original_tag = ENG
+		}
+		if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = cavity_magnatron
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = cavity_magnatron
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = cavity_magnatron
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = cavity_magnatron
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else = {
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}		
+	}
+
+	else = { #GENERIC
+		if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = cavity_magnatron
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				is_special_project_completed = sp:sp_air_radar
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_2
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}		
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = cavity_magnatron
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_2
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = cavity_magnatron
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = cavity_magnatron
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_2
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = antiair2
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_2
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else_if = {
+			limit = {
+				has_tech = improved_heavy_armor_scheme
+			}
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}			
+		}
+		else = {
+			create_equipment_variant = {
+				name = "Habakkuk"
+				type = ship_hull_mega_carrier
+				modules = {
+					fixed_ship_deck_slot_1 = big_ship_deck_space
+					fixed_ship_deck_slot_2 = big_ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_1
+					front_1_custom_slot = big_ship_deck_space
+					mid_1_custom_slot = ship_armor_ice_carrier_deck_1
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}					
+		}
+	}
+}
+
+# Source: common/scripted_effects/USA_scripted_effects.txt
+USA_congress_large_opposition = {
+	custom_effect_tooltip = mtg_usa_congress_large_opposition_tt
+	hidden_effect = {
+		USA_senate_large_opposition = yes
+		USA_house_large_opposition = yes
+		
+	}
+}
+
+# Source: common/scripted_effects/USA_scripted_effects.txt
+USA_house_large_opposition = {
+	custom_effect_tooltip = mtg_usa_house_large_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -100 }
+	clamp_temp_variable = { var = temp_factor max = -50 min = -100 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+# Source: common/scripted_effects/USA_scripted_effects.txt
+USA_recalc_congress_icon_frames = {
+	
+	set_temp_variable = { senators_temp = senators_support }
+	divide_temp_variable = { senators_temp = senators_total }
+	multiply_temp_variable = { senators_temp = 21 }
+	if = {
+		limit = { check_variable = { senators_temp > 0 } }
+		clamp_temp_variable = {
+			var = senators_temp
+			min = 1
+			max = 21
+		}
+	}
+	else = {
+		set_temp_variable = { senators_temp = 1 }
+	}
+	set_variable = { current_senate_icon_frame = senators_temp }
+
+	set_temp_variable = { house_temp = representatives_support }
+	divide_temp_variable = { house_temp = representatives_total }
+	multiply_temp_variable = { house_temp = 21 }
+	if = {
+		limit = { check_variable = { house_temp > 0 } }
+		clamp_temp_variable = {
+			var = house_temp
+			min = 1
+			max = 21
+		}
+	}
+	else = {
+		set_temp_variable = { house_temp = 1 }		
+	}
+	set_variable = { current_house_icon_frame = house_temp }
+}
+
+# Source: common/scripted_effects/USA_scripted_effects.txt
+USA_senate_large_opposition = {
+	custom_effect_tooltip = mtg_usa_senate_large_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -25 }
+	clamp_temp_variable = { var = temp_factor max = 25 min = -10 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+# Source: common/scripted_effects/RAJ_GOE_scripted_effects.txt
+bathe_in_hellfire_nuclear = {
+    if = {
+        limit = {
+            has_event_target = nuclear_gandhi_actor_country
+            event_target:nuclear_gandhi_actor_country = {
+                always = no
+                has_completed_focus = RAJ_bathe_in_hellfire
+            }
+            has_dlc = "Graveyard of Empires"
+
+        }
+
+        clear_global_event_target = nuclear_gandhi_actor_country
+
+        THIS = {
+            set_variable = { t_arms_factory_level = arms_factory_level }
+            if = {
+                limit = {
+                    check_variable = { t_arms_factory_level > 0 }
+                }
+
+                multiply_variable = { t_arms_factory_level = 0.5 } 
+                round_variable = t_arms_factory_level #highest int is chosen 
+                if = {
+                    limit = {
+                        check_variable = { t_arms_factory_level > 0 }
+                    }
+
+                    remove_building = {
+                        type =  arms_factory
+                        level = t_arms_factory_level
+                    }
+                }
+            }
+        }
+    }
+}
+
+# Source: common/scripted_effects/RAJ_GOE_scripted_effects.txt
+bathe_in_hellfire_thermonuclear = {
+    if = {
+        limit = {
+            has_event_target = nuclear_gandhi_actor_country
+            event_target:nuclear_gandhi_actor_country = {
+                always = no
+                has_completed_focus = RAJ_bathe_in_hellfire
+            }
+            has_dlc = "Graveyard of Empires"
+
+        }
+
+        clear_global_event_target = nuclear_gandhi_actor_country
+
+        THIS = {
+            set_variable = { t_arms_factory_level = arms_factory_level }
+            if = {
+                limit = {
+                    check_variable = { t_arms_factory_level > 0 }
+                }
+
+                multiply_variable = { t_arms_factory_level = 1 } 
+                round_variable = t_arms_factory_level #highest int is chosen 
+                if = {
+                    limit = {
+                        check_variable = { t_arms_factory_level > 0 }
+                    }
+
+                    remove_building = {
+                        type =  arms_factory
+                        level = t_arms_factory_level
+                    }
+                }
+            }
+        }
+    }
+}
+
+# Source: common/scripted_effects/INS_scripted_effects.txt
+indonesia_evaluate_escalation_effect = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_2_flag }
+			check_variable = { INS.INS_war_escalation_level > 1 }
+		}
+
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_3_flag }
+			check_variable = { INS.INS_war_escalation_level > 2 }
+		}
+
+		
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_4_flag }
+			check_variable = { INS.INS_war_escalation_level > 3 }
+		}
+		
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_5_flag }
+			check_variable = { INS.INS_war_escalation_level > 4 }
+		}
+		
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_6_flag }
+			check_variable = { INS.INS_war_escalation_level > 5 }
+		}
+
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_7_flag }
+			check_variable = { INS.INS_war_escalation_level > 6 }
+		}
+
+		
+		
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_8_flag }
+			check_variable = { INS.INS_war_escalation_level > 7 }
+		}
+
+		
+		
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_9_flag }
+			check_variable = { INS.INS_war_escalation_level > 8 }
+		}
+
+		
+		
+		
+		
+	}
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = INS_war_escalation_10_flag }
+			check_variable = { INS.INS_war_escalation_level > 9 }
+		}
+
+		
+		
+		
+	}
+}
+
+# Source: common/scripted_effects/INS_scripted_effects.txt
+indonesia_increase_escalation_1_effect = {
+	hidden_effect = {  }
+	hidden_effect = {  }
+	custom_effect_tooltip = INS_increase_escalation_1_tt
+	indonesia_evaluate_escalation_effect = yes
+}
+
+# Source: common/scripted_effects/zzz_play_speech_effects.txt
+play_warning_to_japan_effect = {
+	hidden_effect = { play_song = "warning_to_japan" } 
+}

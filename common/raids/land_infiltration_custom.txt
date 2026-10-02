@@ -1,0 +1,1 @@
+# Vanilla national raid scripts are excluded from the HFP regional scenario.

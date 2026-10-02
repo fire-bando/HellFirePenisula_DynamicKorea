@@ -1,4 +1,4 @@
-SBU_historical_plan = {
+HAE_historical_plan = {
 	name = "People's Fourth Army"
 	desc = "WPK 4 ARMED FORCE"
 

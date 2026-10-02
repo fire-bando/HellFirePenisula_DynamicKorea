@@ -1,5 +1,4 @@
 sub_units = {
-
 	super_heavy_armor = {
 		abbreviation = "STK"
 		sprite = heavy_armor
@@ -9,18 +8,22 @@ sub_units = {
 		active = yes
 
 		type = {
+			support
 			armor
 		}
 		
-		group = armor
+		group = support
 
 		categories = {
 			category_tanks
+			category_support_battalions
+			category_divisional_support_battalions
 			category_front_line
 			category_all_armor
 			category_army
 		}
-
+		
+		regimental = no
 		combat_width = 2
 
 		need = {
@@ -36,10 +39,15 @@ sub_units = {
 		
 		supply_consumption = 1.64
 
-		#Tanks are awesome
-		 soft_attack = 0.4
-
-		suppression = 2.5	
+		#Support nerfs to combat abilities
+		#soft_attack = -0.30
+		#hard_attack = -0.30
+		#defense = -0.50
+		#breakthrough = -0.30
+		#armor_value = -0.50
+		#ap_attack = -0.50
+		
+		suppression = 2.5
 
 		forest = {
 		    attack = -0.5
@@ -47,31 +55,37 @@ sub_units = {
 		}
 		hills = {
 		    attack = -0.3
+		    defence = -0.15
 		}
 		mountain = 	{
 		    attack = -0.4
-		}
-		jungle = {
-		    attack = -0.7
-			movement = -0.4
-		}
-		marsh = {
-		    attack = -0.5 
-			movement = -0.2
+		    defence = -0.2
 		}
 		urban = {
 			attack = -0.6
 			defence = -0.2
 		}
+		jungle = {
+		    attack = -0.7
+		    defence = -0.35
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.5
+		    defence = -0.3
+			movement = -0.2
+		}
+		fort = {
+			attack = 0.5
+			defence = 0.05
+		}
 		river = { 
 			attack = -0.5
+			defence = -0.25
 			movement = -0.5
 		}
 		amphibious = { 
 			attack = -1.0
-		}
-		fort = {
-			attack = 0.5
 		}
 	}
 }

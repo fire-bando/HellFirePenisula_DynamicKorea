@@ -3,7 +3,7 @@ characters={
         name=PJH_teulni
         portraits={
             civilian={
-                large=""
+                large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
             }
         }
         country_leader={

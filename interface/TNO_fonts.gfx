@@ -925,42 +925,42 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "tnr_53_numbers"
-		path = "gfx/fonts/tnr_53_numbers"
+		path = "gfx/fonts/aldrich_48_outline"
 		color = 0xffffffff
 		textcolors = { }
 	}
 
 	bitmapfont = {
 		name = "tnr_53_numbers_naa"
-		path = "gfx/fonts/tnr_53_numbers_naa"
+		path = "gfx/fonts/aldrich_48_outline"
 		color = 0xffffffff
 		textcolors = { }
 	}
 
 	bitmapfont = {
 		name = "tnr_39_numbers"
-		path = "gfx/fonts/tnr_39_numbers"
+		path = "gfx/fonts/aldrich_36_outline"
 		color = 0xffffffff
 		textcolors = { }
 	}
 
 	bitmapfont = {
 		name = "tnr_39_numbers_naa"
-		path = "gfx/fonts/tnr_39_numbers_naa"
+		path = "gfx/fonts/aldrich_36_outline"
 		color = 0xffffffff
 		textcolors = { }
 	}
 
 	bitmapfont = {
 		name = "tnr_26_numbers"
-		path = "gfx/fonts/tnr_26_numbers"
+		path = "gfx/fonts/aldrich_24_outline"
 		color = 0xffffffff
 		textcolors = { }
 	}
 
 	bitmapfont = {
 		name = "tnr_26_numbers_naa"
-		path = "gfx/fonts/tnr_26_numbers_naa"
+		path = "gfx/fonts/aldrich_24_outline"
 		color = 0xffffffff
 		textcolors = { }
 	}

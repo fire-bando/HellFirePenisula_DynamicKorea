@@ -1,6 +1,7 @@
 sub_units = {
 
 	anti_tank_brigade = {
+		abbreviation = "ANT"
 		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197
@@ -12,12 +13,13 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = infantry
+		group = combat_support
 		
 		categories = {
 			category_front_line
 			category_army
 			category_line_artillery
+			category_anti_tank
 		}		
 		
 		combat_width = 1
@@ -31,8 +33,7 @@ sub_units = {
 		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
-		soft_attack = 0.1
-		hard_attack = 0.1
+
 		supply_consumption = 0.08
 
 		forest = {
@@ -69,10 +70,10 @@ sub_units = {
 
 		amphibious = {
 			attack = -0.4
-			
 		}
 	}
 	mot_anti_tank_brigade = {
+		abbreviation = "MAT"
 		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197
@@ -84,16 +85,23 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = mobile
+		group = mobile_combat_support
 		
 		categories = {
 			category_front_line
 			category_army
 			category_line_artillery
+			category_mobile_and_mobile_combat_sup
+			category_anti_tank
+			category_mobile_anti_tank
 		}		
 		
 		combat_width = 1
 		transport = motorized_equipment
+
+		essential = {
+			motorized_equipment
+		}
 		need = {
 			anti_tank_equipment = 6
 			motorized_equipment = 8
@@ -104,8 +112,7 @@ sub_units = {
 		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
-		soft_attack = 0.1
-		hard_attack = 0.1
+
 		supply_consumption = 0.06
 
 		forest = {
@@ -142,7 +149,6 @@ sub_units = {
 
 		amphibious = {
 			attack = -0.4
-			
 		}
 	}
 }

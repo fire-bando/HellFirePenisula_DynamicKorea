@@ -9,19 +9,19 @@ characters={
         country_leader={
             ideology=despotism
             desc=TAE_junpyo_hong_desc
-            expire="1960.8.16"
+            expire = "2080.1.1"
         }
     }
     TAE_jaewon_kim = {
         name=TAE_jaewon_kim
         portraits={
             civilian={
-                large=GFX_TAE_jaewon_kim_large
+                large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
             }
         }
         country_leader = {
             ideology = nazism
-            expire=1972.11.21
+            expire = "2080.1.1"
         }
     }
 }

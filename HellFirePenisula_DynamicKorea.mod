@@ -54,5 +54,16 @@ dependencies={
 	"Korean Language (Europa)"
 }
 picture="thumbnail.png"
-supported_version="1.18.*"
+supported_version="1.19.3.0"
 remote_file_id="3214279131"
+# HFP total conversion: use the regional scenario instead of vanilla IDs.
+replace_path="common/country_tags"
+replace_path="common/technology_sharing"
+replace_path="common/strategic_locations"
+replace_path="common/ai_faction_theaters"
+
+# New vanilla country UI/policies and independently loaded children.
+replace_path="common/ai_navy/goals"
+replace_path="common/military_industrial_organization/policies"
+replace_path="common/focus_inlay_windows"
+replace_path="common/collections"

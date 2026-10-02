@@ -19,6 +19,15 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
+			on_add = {
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_disarmed_nation
+				}
+
+				if = { limit = { always = no } }
+			}
 		}
 
 		volunteer_only = {
@@ -29,6 +38,9 @@ ideas = {
 
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
+				IF = { limit = { always = no } }
+				ELSE_IF = { limit = { always = no } }
+
 				if = {
 					limit = {
 						DEN_aat_is_subject = yes
@@ -55,6 +67,16 @@ ideas = {
 			default = yes
 
 			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_volunteer_only
+				}
+
+				if = { limit = { always = no } }
+			}
 		}
 
 		limited_conscription = {
@@ -68,6 +90,32 @@ ideas = {
 				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+
+				IF = { limit = { always = no } }
+				ELSE_IF = { limit = { always = no } }
+
+				if = {
+					limit = {
+						original_tag = ENG
+						has_dlc = "Man the Guns"
+						has_completed_focus = ENG_concessions_to_the_trade_unions
+					}
+					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+				if = {
+					limit = {
+						DEN_aat_is_subject = yes
+					}
+					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				IF = { limit = { always = no } }
 			}
 
 			modifier = {
@@ -92,11 +140,53 @@ ideas = {
 					factor = 20
 				}
 				modifier = {
+					tag = ENG
+					AND = {
+						is_historical_focus_on = yes
+						always = no
+					}
+					date > 1939.1.1
+					date < 1939.9.1
+					has_war = no
+					NOT = { has_guaranteed = POL }
+					factor = 0
+				}
+				modifier = {
+					tag = SOV
+					threat > 0.8
+					factor = 3
+				}
+				modifier = {
+					tag = SOV
+					is_historical_focus_on = yes
+					date > 1939.1.1
+					has_idea = volunteer_only
+					factor = 201
+				}
+				modifier = {
 					factor = 0
 					NOT = { has_idea = volunteer_only }
 				}
+				modifier = {
+					original_tag = JAP
+					has_idea = volunteer_only
+					OR = {
+						always = no
+						always = no
+					}
+					factor = 10
+				}
 			}
 
+			on_add = {
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_limited_conscription
+				}
+
+				if = { limit = { always = no } }
+			}
 			cancel_if_invalid = no
 		}
 
@@ -107,6 +197,31 @@ ideas = {
 				OR = {
 					has_government = fascism
 					has_government = communism
+					if = {
+						limit = {
+							PHI_SEA = yes
+						}
+						if = {
+							limit = {
+								has_idea = PHI_ties_with_republican_spain
+							}
+							has_idea = PHI_ties_with_republican_spain
+						}
+						else_if = {
+							limit = {
+								has_idea = PHI_ties_with_republican_spain_2
+							}
+							has_idea = PHI_ties_with_republican_spain_2
+						}
+						else = {
+							hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
+						}
+					}
+					else = {
+						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
+					}
+					SWE_rapid_mob_manpower_law_trigger = yes 
+					if = { limit = { always = no } }
 					else = {
 						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 					}
@@ -121,18 +236,38 @@ ideas = {
 						#}
 					}
 
+					if = { limit = { always = no } }
 					else = {
 						hidden_trigger = { always = no }  #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 					}
 				}
 				has_war_support > 0.2
 				#Special rules AST in TFV
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+
+				IF = { limit = { always = no } }
+				ELSE_IF = { limit = { always = no } }
+
+				if = {
+					limit = {
+						original_tag = ENG
+						has_dlc = "Man the Guns"
+						has_completed_focus = ENG_concessions_to_the_trade_unions
+					}
+					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
 				if = {
 					limit = {
 						DEN_aat_is_subject = yes
 					}
 					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
 				}
+				if = { limit = { always = no } }
+				IF = { limit = { always = no } }				
 			}
 			ai_will_do = {
    				factor = 1
@@ -150,15 +285,59 @@ ideas = {
 				}
 
 				modifier = {
-					tag = TUR
+					always = no
 					has_dlc = "Battle for the Bosporus"
 					factor = 50
+				}
+
+				# china relies a lot on throwing bodies at the enemy
+				modifier = {
+					factor = 3
+
+					original_tag = CHI
+					has_manpower < 300000
+				}
+
+				# soviet also relies a lot on throwing bodies at the enemy
+				modifier = {
+					factor = 3
+
+					original_tag = SOV
+					has_manpower < 300000
+				}
+
+				modifier = {
+					factor = 5
+
+					original_tag = SOV
+					has_war = yes
+					has_manpower < 1000000
 				}
 
 				modifier = {
 					factor = 0
 					NOT = { has_idea = limited_conscription }
 				}
+
+				modifier = {
+					factor = 100
+					OR = {
+						always = no
+						always = no
+					}
+					has_completed_focus = GUAY_coup_detat
+				}
+
+				modifier = {
+					original_tag = JAP
+					has_idea = limited_conscription
+					OR = {
+						always = no
+						always = no
+					}
+					factor = 10
+				}
+
 			}
 
 			cost = 150
@@ -173,6 +352,16 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_extensive_conscription
+				}
+
+				if = { limit = { always = no } }
+			}
 		}
 
 		service_by_requirement = {
@@ -183,6 +372,30 @@ ideas = {
 				OR = {
 					has_government = fascism
 					has_government = communism
+					if = {
+						limit = {
+							PHI_SEA = yes
+						}
+						if = {
+							limit = {
+								has_idea = PHI_ties_with_republican_spain
+							}
+							has_idea = PHI_ties_with_republican_spain
+						}
+						else_if = {
+							limit = {
+								has_idea = PHI_ties_with_republican_spain_2
+							}
+							has_idea = PHI_ties_with_republican_spain_2
+						}
+						else = {
+							hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
+						}
+					}
+					else = {
+						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
+					}
+					SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
@@ -199,12 +412,32 @@ ideas = {
 					surrender_progress > 0
 				}
 
+				if = { limit = { always = no } }
+
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+
+				IF = { limit = { always = no } }
+				ELSE_IF = { limit = { always = no } }
+
+				if = {
+					limit = {
+						original_tag = ENG
+						has_dlc = "Man the Guns"
+						has_completed_focus = ENG_concessions_to_the_trade_unions
+					}
+					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
 				if = {
 					limit = {
 						DEN_aat_is_subject = yes
 					}
 					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
 				}
+				if = { limit = { always = no } }
+				IF = { limit = { always = no } }
 			}
 
 			ai_will_do = {
@@ -224,7 +457,36 @@ ideas = {
 					factor = 0
 					NOT = { tag = CHI }
 					NOT = { tag = SOV }
+					NOT = { AND = { tag = GER date > 1940.11.1 } }
 					manpower_per_military_factory >  3000
+				}
+
+				modifier = { # china relies a lot on throwing bodies at the enemy
+					factor = 3
+
+					original_tag = CHI
+					has_manpower < 200000
+				}
+
+				modifier = {
+					factor = 5
+
+					original_tag = SOV
+					has_manpower < 400000
+				}
+
+				modifier = { # germany needs this before russia, badly
+					factor = 10
+
+					original_tag = GER
+					has_manpower < 2000000
+				}
+
+				modifier = { # germany needs this before russia, badly
+					factor = 10
+
+					original_tag = GER
+					date > 1941.1.1
 				}
 
 				modifier = {
@@ -234,7 +496,21 @@ ideas = {
 
 				modifier = {
 					factor = 100
+					OR = {
+						always = no
+						always = no
+					}
 					has_completed_focus = GUAY_coup_detat
+				}
+
+				modifier = {
+					original_tag = JAP
+					has_idea = extensive_conscription
+					OR = {
+						always = no
+						always = no
+					}
+					factor = 5
 				}
 
 			}
@@ -252,6 +528,16 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_service_by_requirement
+				}
+
+				if = { limit = { always = no } }
+			}
 		}
 
 		all_adults_serve = {
@@ -271,6 +557,33 @@ ideas = {
 				#		ratio > 0.75
 				#	}
 				#}
+
+				if = { limit = { always = no } }
+
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+
+				IF = { limit = { always = no } }
+				ELSE_IF = { limit = { always = no } }
+
+				if = {
+					limit = {
+						original_tag = ENG
+						has_dlc = "Man the Guns"
+						has_completed_focus = ENG_concessions_to_the_trade_unions
+					}
+					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+				if = {
+					limit = {
+						DEN_aat_is_subject = yes
+					}
+					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				IF = { limit = { always = no } }
 			}
 
 			ai_will_do = {
@@ -298,13 +611,42 @@ ideas = {
 					tag = CHI
 					has_manpower < 200000
 				}
+				modifier = {
+					factor = 10
+					original_tag = SOV
+					date > 1943.1.1
+					has_manpower < 2000000
+				}
 
 				modifier = {
 					factor = 0
 					NOT = { has_idea = service_by_requirement }
 				}
 
+				modifier = {
+					original_tag = JAP
+					has_idea = service_by_requirement
+					OR = {
+						always = no
+						always = no
+					}
+					factor = 3
+				}
+
 			}
+
+			on_add = {
+				if = { limit = { always = no } }
+
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_all_adults_serve
+				}
+
+				if = { limit = { always = no } }
+			}
+
 			cost = 150
 			removal_cost = -1
 			level = 2
@@ -337,12 +679,32 @@ ideas = {
 				#		ratio > 1
 				#	}
 				#}
+				if = { limit = { always = no } }
+
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
+
+				IF = { limit = { always = no } }
+				ELSE_IF = { limit = { always = no } }
+				
+				if = {
+					limit = {
+						original_tag = ENG
+						has_dlc = "Man the Guns"
+						has_completed_focus = ENG_concessions_to_the_trade_unions
+					}
+					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				}
+				if = { limit = { always = no } }
+				if = { limit = { always = no } }
 				if = {
 					limit = {
 						DEN_aat_is_subject = yes
 					}
 					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
 				}
+				if = { limit = { always = no } }
+				IF = { limit = { always = no } }	
 			}
 
 			ai_will_do = {
@@ -368,7 +730,30 @@ ideas = {
 					NOT = { has_idea = all_adults_serve }
 				}
 
+				modifier = {
+					original_tag = JAP
+					has_idea = all_adults_serve
+					OR = {
+						always = no
+						always = no
+					}
+					factor = 2
+				}
+
 			}
+
+			on_add = {
+				if = { limit = { always = no } }
+
+				if = {
+					limit = { SIA_should_add_national_savings_bond = yes }
+					SIA_refresh_nsb_spirit = yes
+					add_ideas = idea_SIA_nsb_scraping_the_barrel
+				}
+
+				if = { limit = { always = no } }
+			}
+
 			cost = 150
 			removal_cost = -1
 			level = 1
@@ -383,5 +768,122 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+
+		### Ethiopian National Levy
+		ETH_chitet_law = {
+			picture = ETH_chitet_law
+			cost = 150
+			removal_cost = -1
+			level = 6
+
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = {
+				always = no
+			}
+
+			ai_will_do = {
+   				factor = 0
+			}
+
+			modifier = {
+				conscription = 0.045
+				custom_modifier_tooltip = ETH_chitet_law_tt
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		ETH_chitet_law_peace_time = {
+			picture = ETH_chitet_law
+
+			cost = 150
+			removal_cost = -1
+			level = 6
+
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = {
+				always = no
+			}
+
+			ai_will_do = {
+   				factor = 0
+			}
+
+			modifier = {
+				conscription = 0.005
+				custom_modifier_tooltip = ETH_chitet_law_tt
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		### Swiss Citizen Militia ###
+
+		SWI_citizen_militia_1 = {
+			cost = 200
+			picture = citizen_militia_1
+			removal_cost = -1
+			level = 6
+
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = {
+				has_completed_focus = SWI_professionalize_militias
+				has_completed_focus = SWI_join_the_allies
+				has_completed_focus = SWI_join_france
+				has_completed_focus = SWI_jump_into_action
+			}
+			ai_will_do = {
+				factor = 0
+			}
+
+			modifier = {
+				conscription = 0.1
+				custom_modifier_tooltip = SWI_army_limitations_TT
+				ai_desired_divisions_factor = 1
+			}
+		}
+
+		SWI_citizen_militia_2 = {
+			picture = citizen_militia_2
+			cost = 200
+			removal_cost = -1
+			level = 6
+
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = {
+ 				has_completed_focus = SWI_professionalize_militias
+				has_completed_focus = SWI_join_the_allies
+				has_completed_focus = SWI_join_france
+				has_completed_focus = SWI_jump_into_action
+			}
+			ai_will_do = {
+				factor = 0
+			}
+
+			modifier = {
+				conscription = 0.2
+				custom_modifier_tooltip = SWI_army_limitations_TT
+				ai_desired_divisions_factor = 2
+			}
+		}
 	}
+
+
 }

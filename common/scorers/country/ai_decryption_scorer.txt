@@ -82,6 +82,27 @@ ai_decryption_target_scorer = {
 				factor = temp_score
 			}
 			
+			# todo this should move to strat
+			modifier = {
+				FROM = {
+					tag = GER
+				}
+				OR = {
+					tag = SOV
+					tag = ENG
+				}
+				FRA = { has_capitulated = yes }
+				
+				factor = 1.8
+			}
+			# todo this should move to strat
+			modifier = {
+				FROM = {
+					tag = GER
+				}
+				always = no
+				factor = 1.4
+			}
 		}
 	}
 }

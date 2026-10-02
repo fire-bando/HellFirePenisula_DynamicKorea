@@ -5,11 +5,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/garamond_16"
 			"gfx/fonts/korean/garamond_16"
-			"gfx/fonts/chinese/garamond_16_1of4"
-			"gfx/fonts/chinese/garamond_16_2of4"
-			"gfx/fonts/chinese/garamond_16_3of4"
-			"gfx/fonts/chinese/garamond_16_4of4"
-			"gfx/fonts/japanese/garamond_16"
+			"gfx/fonts/chinese/garamond_16_1of4_hfp_16_12"
+			"gfx/fonts/chinese/garamond_16_2of4_hfp_16_12"
+			"gfx/fonts/chinese/garamond_16_3of4_hfp_16_12"
+			"gfx/fonts/chinese/garamond_16_4of4_hfp_16_12"
+			"gfx/fonts/japanese/garamond_16_hfp_16_12"
 		}
 		languages = { "l_korean" }
 	}
@@ -123,11 +123,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/korean/hoi_16mbs"
 			"gfx/fonts/hoi_16mbs_cryllic"
-			"gfx/fonts/japanese/hoi_16mbs"
-			"gfx/fonts/chinese/hoi_16mbs_1of4EX"
-			"gfx/fonts/chinese/hoi_16mbs_2of4EX"
-			"gfx/fonts/chinese/hoi_16mbs_3of4EX"
-			"gfx/fonts/chinese/hoi_16mbs_4of4EX"
+			"gfx/fonts/japanese/hoi_16mbs_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_1of4EX_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_2of4EX_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_3of4EX_hfp_16_13"
+			"gfx/fonts/chinese/hoi_16mbs_4of4EX_hfp_16_13"
 		}
 		languages = { "l_korean" }
 	}
@@ -146,11 +146,11 @@ bitmapfonts = {
 			"gfx/fonts/korean/hoi_18"
 			"gfx/fonts/hoi_18"
 			"gfx/fonts/hoi_18_cryllic"
-			"gfx/fonts/japanese/hoi_18b"
-			"gfx/fonts/chinese/hoi_18_1of4"	
-			"gfx/fonts/chinese/hoi_18_2of4"	
-			"gfx/fonts/chinese/hoi_18_3of4"	
-			"gfx/fonts/chinese/hoi_18_4of4"
+			"gfx/fonts/japanese/hoi_18b_hfp_18_14"
+			"gfx/fonts/chinese/hoi_18_1of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_18_2of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_18_3of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_18_4of4_hfp_18_14"
 		}
 		languages = { "l_korean" }
 	}
@@ -160,10 +160,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/korean/hoi_18mbs"
 			"gfx/fonts/hoi_18mbs_cryllic"
-			"gfx/fonts/chinese/hoi_18mbs_1of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_2of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_3of4EX"	
-			"gfx/fonts/chinese/hoi_18mbs_4of4EX"
+			"gfx/fonts/chinese/hoi_18mbs_1of4EX_hfp_18_15"	
+			"gfx/fonts/chinese/hoi_18mbs_2of4EX_hfp_18_15"	
+			"gfx/fonts/chinese/hoi_18mbs_3of4EX_hfp_18_15"	
+			"gfx/fonts/chinese/hoi_18mbs_4of4EX_hfp_18_15"
 		}
 		languages = { "l_korean" }
 	}
@@ -172,10 +172,10 @@ bitmapfonts = {
 		name = "hoi_20b"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_20b"
-			"gfx/fonts/chinese/hoi_20b_1of4EX"
-			"gfx/fonts/chinese/hoi_20b_2of4EX"
-			"gfx/fonts/chinese/hoi_20b_3of4EX"
-			"gfx/fonts/chinese/hoi_20b_4of4EX"
+			"gfx/fonts/chinese/hoi_20b_1of4EX_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20b_2of4EX_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20b_3of4EX_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20b_4of4EX_hfp_20_16"
 		}
 		languages = { "l_korean" }
 	}
@@ -184,11 +184,11 @@ bitmapfonts = {
 		name = "hoi_20bs"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_20bs"
-			"gfx/fonts/japanese/hoi_20bs"
-			"gfx/fonts/chinese/hoi_20bs_1of4"
-			"gfx/fonts/chinese/hoi_20bs_2of4"
-			"gfx/fonts/chinese/hoi_20bs_3of4"
-			"gfx/fonts/chinese/hoi_20bs_4of4"
+			"gfx/fonts/japanese/hoi_20bs_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_1of4_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_2of4_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_3of4_hfp_20_16"
+			"gfx/fonts/chinese/hoi_20bs_4of4_hfp_20_16"
 			"gfx/fonts/hoi_20bs_cryllic"
 		}
 		languages = { "l_korean" }
@@ -198,7 +198,7 @@ bitmapfonts = {
 		name = "hoi4_typewriter16"
 		fontfiles = { 	
 			"gfx/fonts/hoi_16typewriter"
-			"gfx/fonts/cc/hoi4_typewriter16_inverted"	
+			"gfx/fonts/korean/hoi_16typewriter_inverted"	
 		}
 		languages = { "l_korean" } 
 	}
@@ -209,7 +209,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi4_typewriter16_inverted"
 			"gfx/fonts/hoi_16typewriter_inverted"
 			"gfx/fonts/hoi_16typewriter_cryllic_inverted"
-			"gfx/fonts/cc/hoi4_typewriter16_inverted"	
+			"gfx/fonts/korean/hoi_16typewriter_inverted"	
 		}
 		languages = { "l_korean" }
 	}
@@ -219,11 +219,11 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter22"
 			"gfx/fonts/hoi_22typewriter"
-			"gfx/fonts/chinese/hoi_22typewriter_1of4"
-			"gfx/fonts/chinese/hoi_22typewriter_2of4"
-			"gfx/fonts/chinese/hoi_22typewriter_3of4"
-			"gfx/fonts/chinese/hoi_22typewriter_4of4"
-			"gfx/fonts/chinese/hoi_22typewriter_inverted"
+			"gfx/fonts/chinese/hoi_22typewriter_1of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi_22typewriter_2of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi_22typewriter_3of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi_22typewriter_4of4_hfp_22_18"
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_1of4_hfp_22_18"
 		}
 		languages = { "l_korean" }
 	}
@@ -233,10 +233,10 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi4_typewriter22_inverted"
 			"gfx/fonts/hoi_22typewriter_inverted"
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_1of4"	
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_2of4"	
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_3of4"	
-			"gfx/fonts/chinese/hoi4_typewriter22_inverted_4of4"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_1of4_hfp_22_18"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_2of4_hfp_22_18"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_3of4_hfp_22_18"	
+			"gfx/fonts/chinese/hoi4_typewriter22_inverted_4of4_hfp_22_18"	
 		}
 		languages = { "l_korean" }
 	}
@@ -245,10 +245,10 @@ bitmapfonts = {
 		name = "hoi_24header"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_24header"
-			"gfx/fonts/chinese/hoi_24header_1of4"
-			"gfx/fonts/chinese/hoi_24header_2of4"
-			"gfx/fonts/chinese/hoi_24header_3of4"
-			"gfx/fonts/chinese/hoi_24header_4of4"
+			"gfx/fonts/chinese/hoi_24header_1of4_hfp_18_14"
+			"gfx/fonts/chinese/hoi_24header_2of4_hfp_18_14"
+			"gfx/fonts/chinese/hoi_24header_3of4_hfp_18_14"
+			"gfx/fonts/chinese/hoi_24header_4of4_hfp_18_14"
 		}
 		
 		languages = { "l_korean" }
@@ -258,11 +258,11 @@ bitmapfonts = {
 		name = "nsb_hoi_24header"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_24header"
-			"gfx/fonts/chinese/hoi_24header_1of4"	
-			"gfx/fonts/chinese/hoi_24header_2of4"	
-			"gfx/fonts/chinese/hoi_24header_3of4"	
-			"gfx/fonts/chinese/hoi_24header_4of4"
-			"gfx/fonts/hoi_20bs_cryllic"
+			"gfx/fonts/chinese/hoi_24header_1of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_24header_2of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_24header_3of4_hfp_18_14"	
+			"gfx/fonts/chinese/hoi_24header_4of4_hfp_18_14"
+			"gfx/fonts/hoi_20bs_cryllic_hfp_18_14"
 		}
 		languages = { "l_korean" }
 	}
@@ -279,11 +279,11 @@ bitmapfonts = {
 		name = "hoi_36header"
 		fontfiles = {
 			"gfx/fonts/korean/hoi_36header"
-			"gfx/fonts/chinese/hoi_30header_1of4"	
-			"gfx/fonts/chinese/hoi_30header_2of4"	
-			"gfx/fonts/chinese/hoi_30header_3of4"	
-			"gfx/fonts/chinese/hoi_30header_4of4"
-			"gfx/fonts/hoi_26mbs_cryllic"
+			"gfx/fonts/chinese/hoi_30header_1of4_hfp_26_20"	
+			"gfx/fonts/chinese/hoi_30header_2of4_hfp_26_20"	
+			"gfx/fonts/chinese/hoi_30header_3of4_hfp_26_20"	
+			"gfx/fonts/chinese/hoi_30header_4of4_hfp_26_20"
+			"gfx/fonts/hoi_26mbs_cryllic_hfp_26_20"
 		}
 		languages = { "l_korean" }
 	}

@@ -1,0 +1,5 @@
+faction_members = {
+ input = game:scope
+ operators = { faction_members }
+ name = COLLECTION_FACTION_MEMBERS
+}

@@ -1,4 +1,4 @@
-﻿
+
 add_namespace = occupied_countries
 
 #instantiate a collabration government
@@ -73,7 +73,7 @@ country_event = {
 				
 				if = { #warsaw achievement
 					limit = {
-						var:occupied_country = { original_tag = POL }
+						var:occupied_country = { always = no }
 					}
 					set_global_flag = warsaw_liberated_self_flag
 				}
@@ -125,7 +125,7 @@ country_event = {
 					limit = { 
 						var:occupied_country = {
 							#only change ideology if we are not creating a new country and old country is not existing
-							NOT = { original_tag = DNZ } #Danzig should usually always be fascist
+							NOT = { always = no } #Danzig should usually always be fascist
 							NOT = { original_tag = SOV } #Soviet Union should always be communist
 							OR = {
 								exists = no
@@ -294,49 +294,7 @@ country_event = {
 					limit = { NOT = { has_war_with = new_occupied_country } }
 					
 					### BBA ETHIOPIA 
-					IF = { 
-						limit = {
-							has_dlc = "By Blood Alone"
-							ETH = { has_country_flag = ETH_anti_colonialism_flag } # Ethiopia is on anti-colonialism run
-							var:occupier_country = { NOT = { tag = ETH } } # just a sanity check
-							var:new_occupied_country = {
-								capital_scope = { is_on_continent = africa } # African country
-								any_owned_state = {
-									has_dynamic_modifier = {
-										modifier = ETH_state_supporting_resistance_modifier # Ethiopia has supported resistance movement
-										scope = occupier_country
-									}
-								}
-							}
-						}
-						var:new_occupied_country = {
-							set_politics = { ruling_party = ETH } # Overriding standard so give them the same political set up as Ethiopia, little bit of cheating perhaps, but it gives the right effect. 
-							set_popularities = {
-								democratic = ETH.party_popularity_100@democratic
-								neutrality = ETH.party_popularity_100@neutrality
-								fascism = ETH.party_popularity_100@fascism
-								communism = ETH.party_popularity_100@communism
-							}
-							set_country_flag = ETH_supported_this_uprising_flag 
-								declare_war_on = { target = occupier_country type = independence_wargoal # swapping the direction of the DoW 
-							}
-							add_opinion_modifier = {
-								target = ETH
-								modifier = ETH_supported_independence # make new country like Ethiopia
-							}
-							set_variable = { previous_overlord = var:occupier_country } # For use in decisions
-							set_rule = { can_join_factions = no } # To ensure they don't randomly join any faction. IF making generic; convert this to an idea that is removed once they have peace. 
-
-							# add a few Ethiopian supported units 
-							random_owned_state = {
-								create_unit = {
-									division = "division_template = \"Resistance\" start_experience_factor = 1 start_equipment_factor = 1"
-									owner = new_occupied_country
-									count = 3
-								}
-							}
-						}
-					}
+					IF = { limit = { always = no } }
 
 					### END BBA ETHIOPIA 
 					ELSE = {

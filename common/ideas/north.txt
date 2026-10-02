@@ -85,7 +85,7 @@ ideas = {
 				stability_weekly = 0.005
 			}
 		}
-		limited_conscription = {
+		NORTH_limited_conscription_spirit = {
 			picture = generic_manpower_bonus
 
 			modifier = {

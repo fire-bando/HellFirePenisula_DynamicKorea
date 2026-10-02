@@ -48,7 +48,7 @@ characters={
 	CHU_kim_jong_hyun={
 		portraits={
 			civilian={
-				large= "gfx/leaders/CHU/kim_jong_hyun.png" #이미지 경로 문제있음
+				large= "gfx/leaders/CHU/kim_jong_hyeon.png" #이미지 경로 문제있음
 			}
 		}
 		country_leader={
@@ -73,7 +73,7 @@ characters={
 	CHU_council={		
 		portraits={
 			civilian={
-				large= "gfx/leaders/CHU/council.png"
+				large= "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 	}
@@ -81,7 +81,7 @@ characters={
 	CHU_university_union={		
 		portraits={
 			civilian={
-				large= "gfx/leaders/CHU/university_union.png"
+				large= "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 	}
@@ -90,11 +90,11 @@ characters={
 	MNC_today_doc={
 		portraits={
 			civilian={
-				large= "gfx/leaders/CHU/today_doc.png"
+				large= "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		country_leader={
-			ideology= implantism
+			ideology= implantism_subtype
 			#expire="1965.1.1.1"
 			desc = "MNC_today_doc_desc"
 			id=-1

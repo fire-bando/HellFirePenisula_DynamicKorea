@@ -1,0 +1,3 @@
+# Local compatibility tools, reports, backups and game-run caches.
+/tools/
+*.hfp.tmp

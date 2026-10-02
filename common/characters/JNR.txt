@@ -27,7 +27,7 @@ characters={
         name=JNR_jiwon_park
         portraits={
             civilian={
-                large=JNR_jiwon_park_large
+                large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
             }
         }
         country_leader={
@@ -39,7 +39,7 @@ characters={
         name=JNR_place_holder
         portraits={
             civilian={
-                large=JNR_place_holder_large
+                large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
             }
         }
         country_leader={

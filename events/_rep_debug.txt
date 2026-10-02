@@ -25,7 +25,7 @@ country_event = {
 	
 	option = {
 		name = rep_debug.2.a
-		rename_jeollanam = yes
+		# Regional renaming helper has not been implemented.
 		# set_temp_variable = { REP_temp_super_event = token:SE_RUSSIA_REVOLUTION }
 		# REP_fire_super_event = yes
 	}

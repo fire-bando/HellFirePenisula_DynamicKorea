@@ -1,0 +1,13 @@
+leader_traits = {
+imperator_absentis = {
+		random = no
+		surrender_limit = -0.2
+		political_power_factor = 0.05
+	}
+expansionist_policies = {
+		random = no
+		generate_wargoal_tension = -0.25
+		justify_war_goal_time = -0.25
+		custom_modifier_tooltip = FIN_expansionist_policies_take_states_tt
+	}
+}

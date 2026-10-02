@@ -1,0 +1,1 @@
+# HFP uses its own regional scenario and the generic focus tree.

@@ -110,13 +110,7 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 		}
 		always = yes
 	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-			}
-		}
-	}
+	
 	if = {
 		limit = {
 			has_game_rule = {

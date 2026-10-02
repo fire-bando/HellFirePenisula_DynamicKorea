@@ -3,16 +3,14 @@
 shared_focus = {
 	id = YNN_collapse_government
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_go_fast_gogo = yes
 	}
-	icon = {
-		value = GFX_go_fast_gogo
-	}
+	
 	
 	dynamic = yes
 
@@ -86,16 +84,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_grasp_situation
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_collapse_government
 	}
@@ -118,16 +114,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_unconstitutional_state_council_proceedings
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_collapse_government
 	}
@@ -147,16 +141,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_thrown_dice
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_unconstitutional_state_council_proceedings
 	}
@@ -229,16 +221,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_eradicate_pro_dprk_anti_state_forces
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	# prerequisite = {
 	# 	focus = YNN_grasp_situation
 	# }
@@ -264,16 +254,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_gag_on_media
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_eradicate_pro_dprk_anti_state_forces
 	}
@@ -293,16 +281,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_occupying_national_assembly
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_eradicate_pro_dprk_anti_state_forces
 	}
@@ -327,16 +313,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_occupy_NEC
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_eradicate_pro_dprk_anti_state_forces
 	}
@@ -365,16 +349,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_kill_PPP_senior
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_occupying_national_assembly
 	}
@@ -398,16 +380,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_republic_of_Gumchal
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_kill_PPP_senior
 	}
@@ -436,16 +416,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_new_legislature_controlled_by_administration
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_occupying_national_assembly
 	}
@@ -465,16 +443,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_placeholder_4
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_gag_on_media
 	}
@@ -494,16 +470,14 @@ shared_focus = {
 shared_focus = {
 	id = YNN_placeholder_5
 	icon = {
-		trigger = {
+		GFX_focus_cherrythumb = {
 			YNN = {
 				is_ai = yes
 			}
 		}
-		value = GFX_focus_cherrythumb
+		GFX_goal_unknown = yes
 	}
-	icon = {
-		value = GFX
-	}
+	
 	prerequisite = {
 		focus = YNN_occupy_NEC
 	}

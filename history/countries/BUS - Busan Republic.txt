@@ -21,7 +21,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 67
+	fascism = 66
 	socialism = 12
 	feminism = 18
 	neutrality = 4
